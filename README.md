@@ -6,25 +6,32 @@ Prontuario di consultazione con 118 fattispecie, ricerca per sinonimi e parole s
 
 ## Pubblicazione con GitHub Pages
 
-1. Creare un repository pubblico chiamato `prontuario-taxi-ncc-napoli` nell’account scelto.
-2. Caricare il CONTENUTO di questa cartella nella radice del ramo `main`. `index.html` e `version.json` devono restare nella radice; mantenere le cartelle `assets` e `allegati`. Non caricare lo ZIP come unico file.
-3. In Settings → Pages scegliere Source: Deploy from a branch, Branch: main, Folder: /(root), poi Save.
-4. Attendere la pubblicazione e usare il link mostrato da GitHub Pages. Il sito non è ancora pubblicato per il solo fatto di aver preparato questi file.
+Repository pubblico: `shockeshop98/prontuario-taxi-ncc-napoli`. La sorgente Pages è il ramo `main`, cartella `/(root)`, con `.nojekyll`. L'indirizzo è `https://shockeshop98.github.io/prontuario-taxi-ncc-napoli/` quando il deployment di GitHub Pages risulta completato. `index.html` e `version.json` restano nella radice, insieme alle cartelle `assets` e `allegati`.
+
+## Installazione e uso offline
+
+Aprire il sito pubblicato da telefono tramite HTTPS. Nel browser scegliere “Installa app” o “Aggiungi alla schermata Home”. Dopo la prima apertura con rete, il prontuario, la ricerca, l’indice, la legenda e il testo ricercabile delle fonti sono disponibili offline. L’indicatore vicino alla versione mostra lo stato della connessione; la verifica della revisione online riprende al ritorno della rete.
+
+I PDF e il file di testo originali non vengono scaricati automaticamente. In **Fonti e allegati**, premere **Salva offline** per ciascun documento necessario e attendere “Salvato sul dispositivo”. Le copie valgono per la revisione corrente e vanno salvate di nuovo dopo un aggiornamento. Il browser può eliminare i dati locali per liberare spazio: controllare lo stato prima di usare un allegato senza rete. Il pulsante **Scarica** crea invece un normale download del browser.
+
+Per provare la PWA in locale, usare `python3 -m http.server 8000` e aprire `http://localhost:8000` (non `file://`). Nei DevTools verificare manifest, service worker e modalità offline. I browser mobili richiedono HTTPS sul sito pubblicato.
 
 ## Aggiornamenti per i colleghi
 
-Gli aggiornamenti dei file su `main` vengono ripubblicati sul medesimo indirizzo. La pagina verifica il manifest `version.json` all’apertura, ogni minuto e al ritorno in primo piano. Se rileva una revisione diversa mostra “Apri versione aggiornata”, senza interrompere la lettura. Il pulsante carica un URL con il nuovo identificatore di revisione; il manifest viene richiesto senza cache e con un parametro variabile. La disponibilità dipende dal completamento della pubblicazione e dalla propagazione dei file; non è un aggiornamento istantaneo a ogni telefono.
+Gli aggiornamenti dei file su `main` vengono ripubblicati sul medesimo indirizzo. La pagina verifica `version.json` all’apertura, ogni minuto e al ritorno in primo piano. Se rileva una revisione diversa mostra “Apri versione aggiornata”, senza interrompere la lettura. Il pulsante controlla che la nuova pagina sia effettivamente disponibile prima di aprirla. Quando la rete manca, rimane visibile la versione locale e la verifica online risulta non disponibile. La disponibilità dipende dal completamento della pubblicazione e dalla propagazione dei file; non è un aggiornamento istantaneo a ogni telefono.
 
-Pubblicare sempre `index.html`, `version.json` e gli allegati aggiornati insieme, conservando il manifest generato per quella versione. Le copie HTML scaricate in precedenza non cambiano da sole: per gli aggiornamenti usare il link del sito.
+Pubblicare sempre `index.html`, `version.json`, `sw.js`, `manifest.webmanifest`, le icone e gli allegati aggiornati insieme. Dopo ogni modifica a HTML, worker o manifest, eseguire `python3 scripts/update-build.py`: aggiorna coerentemente `BUILD_ID` nell’HTML, `build_id` nel JSON e `BUILD_ID` nel service worker. Se cambia la versione, impostarla prima sia in `version.json` sia nella costante `RELEASE` nell’HTML; aggiornare la data solo per una nuova revisione dei contenuti. Il service worker prepara la nuova revisione solo quando il relativo HTML è disponibile; al cambio di revisione scarta la vecchia cache degli allegati. Le copie HTML scaricate in precedenza non cambiano da sole: per gli aggiornamenti usare il link del sito.
 
 ## Struttura
 
 - `index.html`: prontuario e contenuti testuali; gli allegati vengono caricati solo quando richiesti.
 - `version.json`: versione, data e identificatore della revisione.
+- `sw.js`: cache della pagina e degli allegati salvati su richiesta.
+- `manifest.webmanifest` e `assets/icon-*.png`: installazione e icone; le icone si rigenerano con `python3 scripts/generate-pwa-icons.py`.
 - `assets/`: stemmi già presenti nel prontuario.
 - `allegati/`: documenti originali e PDF normale del prontuario, conservati integralmente.
 - `.nojekyll`: pubblicazione statica senza elaborazione Jekyll.
 
-Versione 1.0.0, contenuti revisionati al 1 ottobre 2026. Rielaborazione del prontuario U.O. G.I.T. TURISTICA, del regolamento fornito e delle diciture EGAF. Gli originali mantengono la propria attribuzione. Revisione proposta per validazione interna; fonti e limiti dell’aggiornamento sono riportati nel prontuario. Gli aggiornamenti normativi sono revisioni curate, non un’acquisizione automatica delle leggi da parte di GitHub.
+Versione 1.1.0, contenuti revisionati al 1 ottobre 2026. La versione PWA non rappresenta una nuova verifica normativa. Rielaborazione del prontuario U.O. G.I.T. TURISTICA, del regolamento fornito e delle diciture EGAF. Gli originali mantengono la propria attribuzione. Revisione proposta per validazione interna; fonti e limiti dell’aggiornamento sono riportati nel prontuario. Gli aggiornamenti normativi sono revisioni curate, non un’acquisizione automatica delle leggi da parte di GitHub.
 
 Documentazione ufficiale: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site

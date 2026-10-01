@@ -1,0 +1,15 @@
+{
+  "name": "Prontuario Taxi, NCC e trazione animale Napoli",
+  "short_name": "Prontuario Taxi NCC",
+  "description": "Prontuario di consultazione a cura di Antonio Balzano, U.O. San Lorenzo",
+  "lang": "it",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#edf2f3",
+  "theme_color": "#142d42",
+  "icons": [
+    {"src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+    {"src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}

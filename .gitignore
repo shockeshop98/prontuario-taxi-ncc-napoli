@@ -3,3 +3,11 @@ Thumbs.db
 node_modules/
 __pycache__/
 *.log
+prova-android/
+*.key
+*.pem
+*.crt
+*.csr
+*.srl
+*.p12
+*.pfx
