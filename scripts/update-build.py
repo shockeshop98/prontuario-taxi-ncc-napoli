@@ -14,6 +14,25 @@ html = html_path.read_text()
 worker = worker_path.read_text()
 version = json.loads(version_path.read_text())
 
+docs_match = re.search(r"const DOCS = new Set\(\[(.*?)\]\);", worker, re.S)
+if not docs_match:
+    raise SystemExit("Missing service worker document list")
+doc_paths = re.findall(r"'([^']+)'", docs_match.group(1))
+if len(doc_paths) != len(set(doc_paths)) or not doc_paths:
+    raise SystemExit("Invalid service worker document list")
+doc_hashes = {
+    path: hashlib.sha256((ROOT / path).read_bytes()).hexdigest()
+    for path in doc_paths
+}
+worker, hashes_count = re.subn(
+    r"^const DOC_HASHES = .*;$",
+    "const DOC_HASHES = " + json.dumps(doc_hashes, ensure_ascii=False, sort_keys=True) + ";",
+    worker,
+    flags=re.M,
+)
+if hashes_count != 1:
+    raise SystemExit("Expected exactly one DOC_HASHES map")
+
 html, html_count = re.subn(r"BUILD_ID='[a-f0-9]{64}'", "BUILD_ID='__BUILD_ID__'", html)
 worker, worker_count = re.subn(r"BUILD_ID = '[a-f0-9]{64}'", "BUILD_ID = '__BUILD_ID__'", worker)
 if html_count != 1 or worker_count != 1:

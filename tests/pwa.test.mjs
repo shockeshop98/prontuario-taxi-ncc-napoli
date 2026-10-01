@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 import {join} from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {createHash} from 'node:crypto';
+import {createHash, webcrypto} from 'node:crypto';
 import vm from 'node:vm';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
@@ -16,10 +16,15 @@ assert.match(sw, new RegExp(`BUILD_ID = '${version.build_id}'`));
 const canonicalHtml = html.replace(`BUILD_ID='${version.build_id}'`, "BUILD_ID='__BUILD_ID__'");
 const canonicalWorker = sw.replace(`BUILD_ID = '${version.build_id}'`, "BUILD_ID = '__BUILD_ID__'");
 assert.equal(createHash('sha256').update(canonicalHtml + '\n' + canonicalWorker + '\n' + await readFile(join(root, 'manifest.webmanifest'), 'utf8')).digest('hex'), version.build_id);
-assert.equal(version.version, '1.1.0');
+assert.equal(version.version, '1.2.0');
 assert.equal(manifest.display, 'standalone');
+assert.equal(manifest.id, '/prontuario-taxi-ncc-napoli/');
 for (const icon of manifest.icons) await readFile(join(root, icon.src));
 new vm.Script(html.match(/<script>([\s\S]*?)<\/script>/)[1]);
+const hashes = JSON.parse(sw.match(/^const DOC_HASHES = (.*);$/m)[1]);
+for (const [path, expected] of Object.entries(hashes)) {
+  assert.equal(createHash('sha256').update(await readFile(join(root, path))).digest('hex'), expected);
+}
 
 const entries = new Map();
 const caches = {
@@ -51,7 +56,7 @@ const self = {
   async skipWaiting() {},
   clients: {async claim() {}}
 };
-vm.runInNewContext(sw, {self, caches, fetch: networkFetch, URL, Response, console});
+vm.runInNewContext(sw, {self, caches, fetch: networkFetch, URL, Response, crypto: webcrypto, console});
 async function lifecycle(type) {
   let promise;
   listeners[type]({waitUntil(value) { promise = value; }});
@@ -64,17 +69,23 @@ async function routed(path, {mode = 'same-origin', method = 'GET', headers = {}}
   return promise;
 }
 await lifecycle('install');
+const doc = 'allegati/Regolamento_Taxi_NCC_Napoli.pdf';
+const bytes = await readFile(join(root, doc));
+const oldCache = await caches.open('prontuario-docs-old-build');
+await oldCache.put(new URL(doc, origin), new Response(bytes, {headers: {'Content-Type': 'application/pdf'}}));
+const changedDoc = 'allegati/Tariffario_Taxi_2024.pdf';
+await oldCache.put(new URL(changedDoc, origin), new Response('obsolete file', {headers: {'Content-Type': 'application/pdf'}}));
 await lifecycle('activate');
+assert.ok(!(await caches.keys()).includes('prontuario-docs-old-build'));
+const cache = await caches.open(`prontuario-docs-${version.build_id}`);
+assert.equal((await (await cache.match(new URL(doc, origin))).arrayBuffer()).byteLength, bytes.length);
+assert.equal(await cache.match(new URL(changedDoc, origin)), undefined);
 online = false;
 const offlinePage = await routed('?offline=1', {mode: 'navigate'});
 assert.equal(offlinePage.status, 200);
 assert.match(await offlinePage.text(), /Cerca una situazione/);
 
-const doc = 'allegati/Regolamento_Taxi_NCC_Napoli.pdf';
-await assert.rejects(routed(`${doc}?rev=${version.build_id}`));
-const cache = await caches.open(`prontuario-docs-${version.build_id}`);
-const bytes = await readFile(join(root, doc));
-await cache.put(new URL(doc, origin), new Response(bytes, {headers: {'Content-Type': 'application/pdf'}}));
+await assert.rejects(routed(`${changedDoc}?rev=${version.build_id}`));
 const range = await routed(`${doc}?rev=${version.build_id}`, {headers: {Range: 'bytes=0-99'}});
 assert.equal(range.status, 206);
 assert.equal((await range.arrayBuffer()).byteLength, 100);
@@ -83,5 +94,7 @@ const suffix = await routed(`${doc}?rev=${version.build_id}`, {headers: {Range: 
 assert.equal((await suffix.arrayBuffer()).byteLength, 50);
 const head = await routed(`${doc}?rev=${version.build_id}`, {method: 'HEAD'});
 assert.equal(head.headers.get('Content-Length'), String(bytes.length));
-await assert.rejects(routed(`${doc}?rev=${'0'.repeat(64)}`));
-console.log('PWA: version, installation, offline navigation and saved PDF ranges OK');
+const oldPageDoc = await routed(`${doc}?rev=${'0'.repeat(64)}`);
+assert.equal(oldPageDoc.status, 200);
+assert.equal((await oldPageDoc.arrayBuffer()).byteLength, bytes.length);
+console.log('PWA: version, installation, offline navigation, document migration and PDF ranges OK');

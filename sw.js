@@ -1,5 +1,5 @@
 // Keep this identifier equal to BUILD_ID in index.html and build_id in version.json.
-const BUILD_ID = 'fa3e0abf313501199852ddc4c3ab875ae42435a27e5893d2a0a3d1307e4135d1';
+const BUILD_ID = '94dbc1ad40e8b13608b4670876ac949447a1bed81f18ec141aa7b2c3740f3820';
 const CORE_CACHE = `prontuario-core-${BUILD_ID}`;
 const DOC_CACHE = `prontuario-docs-${BUILD_ID}`;
 const PREFIX = 'prontuario-';
@@ -13,6 +13,8 @@ const DOCS = new Set([
   'allegati/Regolamento_Taxi_NCC_Napoli.pdf',
   'allegati/Tariffario_Taxi_2024.pdf'
 ]);
+// Generated from the published files by scripts/update-build.py.
+const DOC_HASHES = {"allegati/EGAF_Art85_originale.txt": "594a78b6f7cd709205d6790508b42a970588b422dbd414fafe72a42919585610", "allegati/EGAF_Art86_originale.pdf": "5031c8e106940ba867dd62681871f4861c686c479986553a580687302434e582", "allegati/Prontuario_GIT_Turistica_originale.pdf": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a", "allegati/Prontuario_Taxi_NCC_Napoli.pdf": "a0865f4b0f476d8f682fe39e923e69016129e31aa4a0d804d089bd4902ca66ff", "allegati/Regolamento_Taxi_NCC_Napoli.pdf": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0", "allegati/Tariffario_Taxi_2024.pdf": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055"};
 
 function relativePath(url) {
   if (url.origin !== ROOT.origin || !url.pathname.startsWith(ROOT.pathname)) return null;
@@ -45,9 +47,28 @@ self.addEventListener('install', event => {
 self.addEventListener('activate', event => {
   event.waitUntil((async () => {
     const names = await caches.keys();
-    await Promise.all(names.filter(name => name.startsWith(PREFIX) && name !== CORE_CACHE && name !== DOC_CACHE).map(name => caches.delete(name)));
+    const currentDocs = await caches.open(DOC_CACHE);
+    for (const name of names.filter(name => name.startsWith('prontuario-docs-') && name !== DOC_CACHE)) {
+      const oldDocs = await caches.open(name);
+      for (const path of DOCS) {
+        const key = new URL(path, ROOT);
+        if (await currentDocs.match(key)) continue;
+        const saved = await oldDocs.match(key);
+        if (!saved || !saved.ok) continue;
+        const digest = await crypto.subtle.digest('SHA-256', await saved.clone().arrayBuffer());
+        const hash = Array.from(new Uint8Array(digest), byte => byte.toString(16).padStart(2, '0')).join('');
+        if (hash === DOC_HASHES[path]) await currentDocs.put(key, saved);
+      }
+      await caches.delete(name);
+    }
+    await Promise.all(names.filter(name => name.startsWith(PREFIX) && !name.startsWith('prontuario-docs-') && name !== CORE_CACHE).map(name => caches.delete(name)));
     await self.clients.claim();
   })());
+});
+
+self.addEventListener('message', event => {
+  if (event.data?.type === 'GET_BUILD_ID') event.ports?.[0]?.postMessage({buildId: BUILD_ID});
+  if (event.data?.type === 'SKIP_WAITING') event.waitUntil(self.skipWaiting());
 });
 
 async function navigate(request) {
@@ -68,7 +89,6 @@ async function navigate(request) {
 async function attachment(request) {
   const cache = await caches.open(DOC_CACHE);
   const url = new URL(request.url);
-  if (url.searchParams.has('rev') && url.searchParams.get('rev') !== BUILD_ID) return fetch(request);
   const key = new URL(url.pathname, ROOT.origin);
   const saved = await cache.match(key);
   if (saved) {
