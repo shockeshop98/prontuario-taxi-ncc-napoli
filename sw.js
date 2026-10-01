@@ -1,10 +1,10 @@
 // Keep this identifier equal to BUILD_ID in index.html and build_id in version.json.
-const BUILD_ID = '34191b2985b6d8cd586d605e11f94a6161460dc9e0312510ce9838603fa3cb4b';
+const BUILD_ID = 'a697c305d8d508c4a6d3248830db996e005bbc49140ffacb34eb13fdb94614d7';
 const CORE_CACHE = `prontuario-core-${BUILD_ID}`;
 const DOC_CACHE = `prontuario-docs-${BUILD_ID}`;
 const PREFIX = 'prontuario-';
 const ROOT = new URL('./', self.location.href);
-const CORE = ['index.html', 'manifest.webmanifest', 'assets/comune.png', 'assets/polizia.png', 'assets/icon-192.png', 'assets/icon-512.png'];
+const CORE = ['index.html', 'manifest.webmanifest', 'assets/polizia-locale-napoli.png', 'assets/polizia.png', 'assets/icon-192.png', 'assets/icon-512.png'];
 const DOCS = new Set([
   'allegati/EGAF_Art85_originale.txt',
   'allegati/EGAF_Art86_originale.pdf',
@@ -40,7 +40,6 @@ self.addEventListener('install', event => {
       if (!response.ok) throw new Error(`Risorsa mancante: ${path}`);
       await cache.put(url, response);
     }));
-    await self.skipWaiting();
   })());
 });
 
@@ -48,18 +47,23 @@ self.addEventListener('activate', event => {
   event.waitUntil((async () => {
     const names = await caches.keys();
     const currentDocs = await caches.open(DOC_CACHE);
-    for (const name of names.filter(name => name.startsWith('prontuario-docs-') && name !== DOC_CACHE)) {
+    const olderDocs = names.filter(name => name.startsWith('prontuario-docs-') && name !== DOC_CACHE);
+    const previousDocs = olderDocs.at(-1);
+    for (const name of olderDocs) {
       const oldDocs = await caches.open(name);
       for (const path of DOCS) {
         const key = new URL(path, ROOT);
-        if (await currentDocs.match(key)) continue;
         const saved = await oldDocs.match(key);
         if (!saved || !saved.ok) continue;
         const digest = await crypto.subtle.digest('SHA-256', await saved.clone().arrayBuffer());
         const hash = Array.from(new Uint8Array(digest), byte => byte.toString(16).padStart(2, '0')).join('');
-        if (hash === DOC_HASHES[path]) await currentDocs.put(key, saved);
+        if (hash !== DOC_HASHES[path]) {
+          await oldDocs.delete(key);
+        } else if (!await currentDocs.match(key)) {
+          await currentDocs.put(key, saved);
+        }
       }
-      await caches.delete(name);
+      if (name !== previousDocs) await caches.delete(name);
     }
     await Promise.all(names.filter(name => name.startsWith(PREFIX) && !name.startsWith('prontuario-docs-') && name !== CORE_CACHE).map(name => caches.delete(name)));
     await self.clients.claim();
@@ -87,8 +91,12 @@ async function navigate(request) {
 }
 
 async function attachment(request) {
-  const cache = await caches.open(DOC_CACHE);
   const url = new URL(request.url);
+  if (url.searchParams.get('network') === '1') return fetch(request);
+  const requestedBuild = url.searchParams.get('rev');
+  const oldCacheName = `prontuario-docs-${requestedBuild}`;
+  const usePrevious = requestedBuild && requestedBuild !== BUILD_ID && (await caches.keys()).includes(oldCacheName);
+  const cache = await caches.open(usePrevious ? oldCacheName : DOC_CACHE);
   const key = new URL(url.pathname, ROOT.origin);
   const saved = await cache.match(key);
   if (saved) {

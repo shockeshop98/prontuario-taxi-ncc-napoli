@@ -24,6 +24,24 @@ doc_hashes = {
     path: hashlib.sha256((ROOT / path).read_bytes()).hexdigest()
     for path in doc_paths
 }
+data_line = next((line for line in html.splitlines() if line.startswith("const DATA=")), None)
+if data_line is None:
+    raise SystemExit("Missing embedded source catalog")
+sources = json.loads(data_line[len("const DATA="):].removesuffix(";"))["sources"]
+if {source["url"] for source in sources} != set(doc_paths):
+    raise SystemExit("Document list and source catalog differ")
+source_meta = {
+    path: {"bytes": (ROOT / path).stat().st_size, "sha256": doc_hashes[path]}
+    for path in doc_paths
+}
+html, meta_count = re.subn(
+    r"^const SOURCE_META = .*;$",
+    "const SOURCE_META = " + json.dumps(source_meta, ensure_ascii=False, sort_keys=True) + ";",
+    html,
+    flags=re.M,
+)
+if meta_count != 1:
+    raise SystemExit("Expected exactly one SOURCE_META map")
 worker, hashes_count = re.subn(
     r"^const DOC_HASHES = .*;$",
     "const DOC_HASHES = " + json.dumps(doc_hashes, ensure_ascii=False, sort_keys=True) + ";",
@@ -40,8 +58,17 @@ if html_count != 1 or worker_count != 1:
 if f'RELEASE="{version["version"]}"' not in html:
     raise SystemExit("Update version.json and RELEASE in index.html together")
 
+core_match = re.search(r"const CORE = \[(.*?)\];", worker, re.S)
+if not core_match:
+    raise SystemExit("Missing service worker core list")
+core_paths = re.findall(r"'([^']+)'", core_match.group(1))
+asset_paths = sorted(path for path in core_paths if path.startswith("assets/"))
+asset_hashes = "".join(
+    f"{path}:{hashlib.sha256((ROOT / path).read_bytes()).hexdigest()}\n"
+    for path in asset_paths
+)
 build = hashlib.sha256(
-    (html + "\n" + worker + "\n" + (ROOT / "manifest.webmanifest").read_text()).encode()
+    (html + "\n" + worker + "\n" + (ROOT / "manifest.webmanifest").read_text() + "\n" + asset_hashes).encode()
 ).hexdigest()
 html_path.write_text(html.replace("__BUILD_ID__", build))
 worker_path.write_text(worker.replace("__BUILD_ID__", build))

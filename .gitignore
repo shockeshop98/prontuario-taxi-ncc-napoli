@@ -11,3 +11,7 @@ prova-android/
 *.srl
 *.p12
 *.pfx
+# Materiali locali di passaggio, non parte del sito pubblicato.
+/ISTRUZIONI_CODEX.txt
+/VERIFICA_TECNICA.txt
+/intestazione.patch
