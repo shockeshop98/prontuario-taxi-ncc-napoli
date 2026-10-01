@@ -1,5 +1,5 @@
 // Keep this identifier equal to BUILD_ID in index.html and build_id in version.json.
-const BUILD_ID = '94dbc1ad40e8b13608b4670876ac949447a1bed81f18ec141aa7b2c3740f3820';
+const BUILD_ID = '34191b2985b6d8cd586d605e11f94a6161460dc9e0312510ce9838603fa3cb4b';
 const CORE_CACHE = `prontuario-core-${BUILD_ID}`;
 const DOC_CACHE = `prontuario-docs-${BUILD_ID}`;
 const PREFIX = 'prontuario-';
@@ -122,10 +122,10 @@ self.addEventListener('fetch', event => {
   const url = new URL(request.url);
   const path = relativePath(url);
   if (path === null) return;
-  if (request.mode === 'navigate' && request.method === 'GET') {
-    event.respondWith(navigate(request));
-  } else if (DOCS.has(path)) {
+  if (DOCS.has(path)) {
     event.respondWith(attachment(request));
+  } else if (request.mode === 'navigate' && request.method === 'GET') {
+    event.respondWith(navigate(request));
   } else if (CORE.includes(path) && path !== 'index.html') {
     event.respondWith((async () => {
       const cache = await caches.open(CORE_CACHE);
