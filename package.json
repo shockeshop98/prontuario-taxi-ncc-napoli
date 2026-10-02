@@ -3,7 +3,7 @@
   "scripts": {
     "generate:icons": "node scripts/generate-pwa-icons.mjs",
     "generate:pdf": "node scripts/generate-prontuario.mjs",
-    "test": "node tests/pwa.test.mjs && node tests/revision.test.mjs && node tests/icons.test.mjs"
+    "test": "node tests/pwa.test.mjs && node tests/clarity.test.mjs && node tests/revision.test.mjs && node tests/icons.test.mjs"
   },
   "devDependencies": {
     "pdf-lib": "^1.17.1",

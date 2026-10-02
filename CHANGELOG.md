@@ -1,6 +1,13 @@
 # Registro aggiornamenti
 
-## 1.4.1 — anteprima locale, non pubblicata
+## 1.4.2 — anteprima locale, non pubblicata
+
+- Formule e note rese più brevi; nelle sei fattispecie art. 86 c. 3 è distinta la condotta del conducente dalla sanzione al titolare della licenza. Conservata la distinzione prevista nelle pertinenti schede art. 85 c. 4-bis.
+- I riferimenti copiati nelle contestazioni CdS non includono la L.R.; il quadro regionale resta negli approfondimenti. Importi, qualificazioni, filtri, pagine e schede di solo riferimento invariati.
+- Interfaccia con importi, responsabilità, riferimento e formula subito visibili; accertamenti, procedura, suggerimenti e fonti apribili a richiesta.
+- PDF normale 6.2 rigenerato: 186 pagine, 166 schede, indice collegato e autore su ogni pagina. Il PDF modificato va salvato nuovamente offline; gli allegati originali ancora validi restano nella cache.
+
+## 1.4.1 — 2 ottobre 2026
 
 - Nuova immagine T/N fornita dall'autore come icona della PWA: formati per manifest, favicon e Apple touch icon.
 - Variante maskable separata con lettere e veicoli dentro il cerchio sicuro; build e cache aggiornati. Intestazione e contenuti del prontuario invariati.

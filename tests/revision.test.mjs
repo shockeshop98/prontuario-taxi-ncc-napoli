@@ -12,13 +12,15 @@ const data = JSON.parse(line.slice('const DATA='.length, -1));
 const catalog = data.catalog;
 const byId = new Map(catalog.map(item => [item.id, item]));
 const finalSentence = "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.";
-const protectedFields = catalog.map(({formula, notes, ...rest}) => rest);
+const protectedFields = catalog.map(({formula, notes, ref, verbaleRef, responsibility, legalBackground, checked, ...rest}) => rest);
 assert.equal(createHash('sha256').update(JSON.stringify(protectedFields)).digest('hex'),
-  '97bf3c78fb1cb01cd199e49fce3542b9e94cf43784828b9c2a924b48b3576555',
-  'Importi, riferimenti, qualificazioni, filtri, pagine e referenceOnly devono restare invariati rispetto alla 1.3.0');
+  'b398e8d194913f94dec3d3cedbf92bf6ce0207054cb6b417655bf7737767b9c7',
+  'Importi, qualificazioni, filtri, pagine e referenceOnly devono restare invariati rispetto alla 1.4.1');
 assert.equal(catalog.length, 118);
-assert.equal(data.prontuario.version, '6.1');
-assert.equal(data.sources[3].title, 'Prontuario operativo 6.1 · Antonio Balzano');
+assert.equal(data.prontuario.version, '6.2');
+assert.equal(data.sources[3].title, 'Prontuario operativo 6.2 · Antonio Balzano');
+assert.ok(data.sources[3].pages.every(text => !/PRONTUARIO OPERATIVO 6\.1|REVISIONE 6\.1/.test(text)),
+  'Ricerca nell\'allegato: dicitura della versione precedente');
 let withFinal = 0;
 for (const item of catalog) {
   assert.ok(item.notes.some(note => note.startsWith('Segnalazione al Corso Pubblico:')), `Nota Corso Pubblico: ${item.code}`);
@@ -32,7 +34,7 @@ for (const item of catalog) {
 }
 assert.equal(withFinal, 108);
 assert.equal(catalog.filter(item => item.referenceOnly).length, 8);
-assert.match(html, /x\.referenceOnly\?'Testo orientativo per la relazione':'Testo orientativo per il verbale'/);
+assert.match(html, /x\.referenceOnly\?'Testo per la relazione':'Testo orientativo del verbale'/);
 
 const pdf = await getDocument({
   data:new Uint8Array(await readFile(resolve(root, 'allegati/Prontuario_Taxi_NCC_Napoli.pdf'))),

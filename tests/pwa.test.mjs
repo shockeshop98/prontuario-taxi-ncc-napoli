@@ -18,7 +18,8 @@ const canonicalWorker = sw.replace(`BUILD_ID = '${version.build_id}'`, "BUILD_ID
 const corePaths = [...sw.match(/const CORE = \[(.*?)\];/s)[1].matchAll(/'([^']+)'/g)].map(match => match[1]);
 const assetHashes = (await Promise.all(corePaths.filter(path => path.startsWith('assets/')).sort().map(async path => `${path}:${createHash('sha256').update(await readFile(join(root, path))).digest('hex')}\n`))).join('');
 assert.equal(createHash('sha256').update(canonicalHtml + '\n' + canonicalWorker + '\n' + await readFile(join(root, 'manifest.webmanifest'), 'utf8') + '\n' + assetHashes).digest('hex'), version.build_id);
-assert.equal(version.version, '1.4.1');
+assert.equal(version.version, '1.4.2');
+assert.ok(html.includes(`<span id="releaseInfo">Versione ${version.version} ·`), 'Versione visibile diversa da version.json');
 assert.equal(manifest.display, 'standalone');
 assert.equal(manifest.id, '/prontuario-taxi-ncc-napoli/');
 for (const icon of manifest.icons) await readFile(join(root, icon.src));

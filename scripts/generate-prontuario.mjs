@@ -5,6 +5,7 @@ import {readFile, writeFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
 import {chromium} from 'playwright-core';
 import {PDFDocument, PDFName, StandardFonts, rgb} from 'pdf-lib';
+import {getDocument} from 'pdfjs-dist/legacy/build/pdf.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const pdfPath = resolve(root, 'allegati/Prontuario_Taxi_NCC_Napoli.pdf');
@@ -61,15 +62,17 @@ function casePage(variant) {
     paragraph(normative(item, type), 'introRef'),
     `<div class="metric"><strong>${escapeHtml(item.ui.value)}</strong><span>${escapeHtml(item.ui.detail)}</span></div>`,
     money,
+    item.responsibility ? section('Chi risponde della violazione', paragraph(item.responsibility)) : '',
     section('Riferimento normativo', paragraph(normative(item, type))),
     section(item.referenceOnly ? 'Testo orientativo per la relazione' : 'Testo orientativo del verbale', paragraph(formula(item, type), 'formula')),
     `<div class="twocol">${section('Accertamenti e documenti', paragraph(item.facts))}${section('Da acquisire', paragraph(item.documents))}</div>`,
     section('Suggerimenti', `<ul>${(item.suggestions || []).map(note => `<li>${escapeHtml(note)}</li>`).join('')}</ul>`),
     section('Note operative', `<ul>${details.map(note => `<li>${escapeHtml(note)}</li>`).join('')}</ul>`),
     section('Atti e seguito', paragraph(item.route)),
+    item.legalBackground?.length ? section('Approfondimento regionale · distinto dalla contestazione CdS', `<ul>${item.legalBackground.map(note => `<li>${escapeHtml(note)}</li>`).join('')}</ul>`) : '',
     `<p class="sourceFoot">Fonti: ${escapeHtml((item.sources || []).join(', '))}. ${item.pages?.length ? `GIT p.${item.pages.join(', ')}. ` : ''}Legenda p.10. Gli atti compiuti vanno registrati separatamente.</p>`
   ].join('');
-  return `<article class="page" data-page="${variant.page}" data-code="${escapeHtml(item.code)}"><header><b>CONTROLLI TAXI E NCC NAPOLI</b><span>PRONTUARIO OPERATIVO 6.1</span></header><main class="content">${body}</main><footer><span>A cura dell’Agente Antonio Balzano · U.O. San Lorenzo<br>2 ottobre 2026&nbsp; | &nbsp;Revisione proposta per validazione interna</span><span>Pagina ${variant.page}</span></footer></article>`;
+  return `<article class="page" data-page="${variant.page}" data-code="${escapeHtml(item.code)}"><header><b>CONTROLLI TAXI E NCC NAPOLI</b><span>PRONTUARIO OPERATIVO 6.2</span></header><main class="content">${body}</main><footer><span>A cura dell’Agente Antonio Balzano · U.O. San Lorenzo<br>2 ottobre 2026&nbsp; | &nbsp;Revisione proposta per validazione interna</span><span>Pagina ${variant.page}</span></footer></article>`;
 }
 const style = `@page{size:A4;margin:0}*{box-sizing:border-box}html,body{margin:0;padding:0;color:#142d42;font-family:Arial,"DejaVu Sans",sans-serif}.page{position:relative;width:210mm;height:296.8mm;break-after:page;overflow:hidden;background:white}.page:last-child{break-after:auto}.page header{position:absolute;top:6.5mm;left:18mm;right:18mm;display:flex;justify-content:space-between;border-bottom:1px solid #193d58;padding-bottom:2mm;font-size:7.3pt;letter-spacing:.02em}.page header span{color:#506577}.content{position:absolute;top:22mm;left:18mm;right:18mm;bottom:20mm;font-size:var(--text-size,8.5pt);line-height:1.21;overflow:visible}.content h1{font-size:1.65em;line-height:1.1;margin:1.5mm 0 1mm;color:#143650}.content h3{font-size:1em;line-height:1.15;margin:0 0 .7mm;color:#1e5977}.content p{margin:.1mm 0 .7mm}.content .introRef{color:#425a6a;font-weight:600;margin-bottom:1.6mm}.eyebrow{font-weight:bold;color:#13546e;letter-spacing:.045em}.eyebrow span{font-weight:normal}.metric{display:flex;gap:3mm;align-items:baseline;padding:1mm 1.6mm;background:#edf5f7;border-left:2px solid #27768d}.metric span{color:#4b6575}.block{margin-top:1.4mm}.block .formula{font-weight:600;line-height:1.26}.twocol{display:grid;grid-template-columns:1fr 1fr;gap:3mm}.content ul{padding-left:4mm;margin:.2mm 0 0}.content li{margin:0 0 .65mm;padding-left:.2mm}.content li::marker{color:#26718a}.content table{border-collapse:collapse;width:100%;table-layout:fixed;font-size:.92em;line-height:1.15;margin:.7mm 0}.content th,.content td{border:1px solid #b9cbd2;padding:.65mm .7mm;text-align:left;vertical-align:top;overflow-wrap:anywhere}.content th{background:#edf4f6}.content th:first-child{width:18%}.content th:last-child{width:21%}.detail{color:#4a6170}.sourceFoot{border-top:1px solid #c7d3d8;padding-top:1mm;margin-top:1.3mm!important;color:#526571}.page footer{position:absolute;left:18mm;right:18mm;bottom:6.4mm;display:flex;justify-content:space-between;border-top:1px solid #cbd7dd;padding-top:1.4mm;font-size:7pt;line-height:1.35;color:#506577}.page footer span:last-child{white-space:nowrap}`;
 const sheet = `<!doctype html><html lang="it"><head><meta charset="utf-8"><style>${style}</style></head><body>${variants.map(casePage).join('')}</body></html>`;
@@ -128,16 +131,31 @@ for (let i = 0; i < 186; i++) {
   if (i >= 15 && i <= 182 && i !== 109 && i !== 178) continue;
   const page = output.getPage(i);
   page.drawRectangle({x:220,y:811,width:125,height:16,color:rgb(1,1,1)});
-  page.drawText('PRONTUARIO OPERATIVO 6.1',{x:222.62,y:815.689,size:8,font:bold,color:rgb(.08,.2,.29)});
+  page.drawText('PRONTUARIO OPERATIVO 6.2',{x:222.62,y:815.689,size:8,font:bold,color:rgb(.08,.2,.29)});
   page.drawRectangle({x:50,y:17,width:61,height:13,color:rgb(1,1,1)});
   page.drawText('2 ottobre 2026',{x:51.1,y:20.789,size:7.5,font:regular,color:rgb(.28,.37,.44)});
   if (i === 0) {
     page.drawRectangle({x:50,y:329,width:152,height:17,color:rgb(1,1,1)});
-    page.drawText('REVISIONE 6.1   /   2 OTTOBRE 2026',{x:51.1,y:333.589,size:9,font:bold,color:rgb(.08,.2,.29)});
+    page.drawText('REVISIONE 6.2   /   2 OTTOBRE 2026',{x:51.1,y:333.589,size:9,font:bold,color:rgb(.08,.2,.29)});
   }
 }
-output.setTitle('Prontuario operativo Taxi, NCC e trazione animale Napoli · 6.1');
+output.setTitle('Prontuario operativo Taxi, NCC e trazione animale Napoli · 6.2');
 output.setAuthor('Antonio Balzano · U.O. San Lorenzo');
 output.setSubject('Revisione dei testi orientativi del 2 ottobre 2026');
-await writeFile(pdfPath, await output.save());
+const outputBytes = await output.save();
+await writeFile(pdfPath, outputBytes);
+// Keep the in-app full-text search synchronized with the revised attachment.
+const searchable = await getDocument({data:new Uint8Array(outputBytes),standardFontDataUrl:resolve(root,'node_modules/pdfjs-dist/standard_fonts')+'/'}).promise;
+const sourcePages=[];
+for(let number=1;number<=searchable.numPages;number++){
+  const page=await searchable.getPage(number);
+  // Le pagine introduttive riusate hanno la vecchia dicitura sotto il riquadro
+  // bianco: nell'indice ricercabile conserviamo soltanto la versione visibile.
+  sourcePages.push((await page.getTextContent()).items.map(item=>item.str).join(' ')
+    .replaceAll('PRONTUARIO OPERATIVO 6.1','PRONTUARIO OPERATIVO 6.2')
+    .replaceAll('REVISIONE 6.1','REVISIONE 6.2'));
+}
+data.sources[3].pages=sourcePages;
+await writeFile(resolve(root,'index.html'),html.replace(dataLine,'const DATA='+JSON.stringify(data)+';'));
+await searchable.destroy();
 console.log(`PDF normale rigenerato: 186 pagine, ${variants.length} schede, indice collegato, autore su ogni pagina.`);

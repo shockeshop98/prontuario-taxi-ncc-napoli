@@ -17,3 +17,8 @@ prova-android/
 /intestazione.patch
 /revisione_testi/
 /index.html.prima-revisione-testi.bak
+/Revisione_Chiarezza_Prontuario/
+/anteprima-chiarezza/
+*.bak
+*.orig
+*.rej
