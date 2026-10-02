@@ -30,9 +30,10 @@ Pubblicare sempre `index.html`, `version.json`, `sw.js`, `manifest.webmanifest`,
 - `manifest.webmanifest` e `assets/icon-*.png`: installazione e icone; le icone si rigenerano con `python3 scripts/generate-pwa-icons.py`.
 - `assets/`: stemmi e icone; `polizia-locale-napoli.png` è una rielaborazione grafica dell’immagine fornita, non una fonte certificata dello stemma.
 - `allegati/`: documenti originali e PDF normale del prontuario, conservati integralmente.
+- `scripts/generate-prontuario.mjs`: rigenera le pagine del PDF normale dopo una revisione dei testi e mantiene copertina, indice, fonti, autore e numerazione.
 - `.nojekyll`: pubblicazione statica senza elaborazione Jekyll.
 - `CHANGELOG.md`: modifiche delle versioni pubblicate.
 
-Versione 1.3.0, contenuti revisionati al 1 ottobre 2026. La versione PWA non rappresenta una nuova verifica normativa. Rielaborazione del prontuario U.O. G.I.T. TURISTICA, del regolamento fornito e delle diciture EGAF. Gli originali mantengono la propria attribuzione. Revisione proposta per validazione interna; fonti e limiti dell’aggiornamento sono riportati nel prontuario. Gli aggiornamenti normativi sono revisioni curate, non un’acquisizione automatica delle leggi da parte di GitHub.
+La versione 1.4.0 è pronta localmente per la verifica dell'autore e non è ancora pubblicata. I testi orientativi e le note sono stati revisionati il 2 ottobre 2026; la verifica normativa dichiarata resta quella del 1 ottobre 2026. Il PDF normale 6.1 contiene le 166 schede nelle sezioni Taxi, NCC e trazione animale. Per rigenerarlo: `npm ci`, `npx playwright install chromium` (oppure impostare `CHROMIUM_PATH` a un Chromium già presente), `npm run generate:pdf`, `python3 scripts/update-build.py`, `npm test`. La versione PWA non rappresenta una nuova verifica normativa. Rielaborazione del prontuario U.O. G.I.T. TURISTICA, del regolamento fornito e delle diciture EGAF. Gli originali mantengono la propria attribuzione. Revisione proposta per validazione interna; fonti e limiti dell’aggiornamento sono riportati nel prontuario. Gli aggiornamenti normativi sono revisioni curate, non un’acquisizione automatica delle leggi da parte di GitHub.
 
 Documentazione ufficiale: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site

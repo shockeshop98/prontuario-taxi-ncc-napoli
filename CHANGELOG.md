@@ -1,5 +1,14 @@
 # Registro aggiornamenti
 
+## 1.4.0 — 2 ottobre 2026 · pronta per verifica, non pubblicata
+
+- Integrati i testi orientativi e le note operative di 118 schede dal pacchetto di revisione dell'autore; importi, riferimenti, qualificazioni, filtri e schede di solo riferimento invariati.
+- Nota di trasmissione al Corso Pubblico presente in tutte le schede; frase finale nel corpo dei 108 verbali previsti, esclusi i due taxi abusivi e le otto schede di solo riferimento.
+- Rigenerato il PDF normale 6.1 con 186 pagine, copertina, indice collegato, autore e ordine Taxi/NCC/trazione animale. Le 166 pagine delle schede e i collegamenti “Scheda PDF” mantengono la mappa esistente.
+- Nuovo generatore PDF ripetibile e test di completezza dei testi, pagine e collegamenti; nuovo build PWA e impronta del PDF. Gli altri allegati restano invariati.
+
+La revisione dei testi è editoriale e procedurale; la verifica normativa dichiarata nel prontuario resta quella del 1 ottobre 2026. La versione attende la verifica dell'autore prima della pubblicazione.
+
 ## 1.3.0 — 2 ottobre 2026
 
 - Intestazione con nuovo stemma locale, stemma San Lorenzo trasparente, titolo e autore centrati.

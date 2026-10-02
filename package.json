@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "generate:pdf": "node scripts/generate-prontuario.mjs",
+    "test": "node tests/pwa.test.mjs && node tests/revision.test.mjs"
+  },
+  "devDependencies": {
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.10.38",
+    "playwright-core": "^1.63.0"
+  }
+}
