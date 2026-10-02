@@ -1,10 +1,10 @@
 // Keep this identifier equal to BUILD_ID in index.html and build_id in version.json.
-const BUILD_ID = '2910a71cb8ad8c1cbffffa20b457c5250d4e3d65152ddab8b2b98cf2e183efd4';
+const BUILD_ID = 'aaccbfb8720ff3bb0620e8188a479da0c663b9f88b2e3f703116fa6bbf59d9d0';
 const CORE_CACHE = `prontuario-core-${BUILD_ID}`;
 const DOC_CACHE = `prontuario-docs-${BUILD_ID}`;
 const PREFIX = 'prontuario-';
 const ROOT = new URL('./', self.location.href);
-const CORE = ['index.html', 'manifest.webmanifest', 'assets/polizia-locale-napoli.png', 'assets/polizia.png', 'assets/icon-192.png', 'assets/icon-512.png'];
+const CORE = ['index.html', 'manifest.webmanifest', 'assets/polizia-locale-napoli.png', 'assets/polizia.png', 'assets/icon-192.png', 'assets/icon-512.png', 'assets/icon-maskable-192.png', 'assets/icon-maskable-512.png', 'assets/apple-touch-icon.png', 'assets/favicon.ico', 'assets/favicon-16.png', 'assets/favicon-32.png', 'assets/favicon-48.png'];
 const DOCS = new Set([
   'allegati/EGAF_Art85_originale.txt',
   'allegati/EGAF_Art86_originale.pdf',

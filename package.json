@@ -1,12 +1,14 @@
 {
   "private": true,
   "scripts": {
+    "generate:icons": "node scripts/generate-pwa-icons.mjs",
     "generate:pdf": "node scripts/generate-prontuario.mjs",
-    "test": "node tests/pwa.test.mjs && node tests/revision.test.mjs"
+    "test": "node tests/pwa.test.mjs && node tests/revision.test.mjs && node tests/icons.test.mjs"
   },
   "devDependencies": {
     "pdf-lib": "^1.17.1",
     "pdfjs-dist": "^4.10.38",
-    "playwright-core": "^1.63.0"
+    "playwright-core": "^1.63.0",
+    "sharp": "^0.35.5"
   }
 }
