@@ -62,13 +62,13 @@ core_match = re.search(r"const CORE = \[(.*?)\];", worker, re.S)
 if not core_match:
     raise SystemExit("Missing service worker core list")
 core_paths = re.findall(r"'([^']+)'", core_match.group(1))
-asset_paths = sorted(path for path in core_paths if path.startswith("assets/"))
-asset_hashes = "".join(
+static_paths = sorted(path for path in core_paths if path not in {"index.html", "manifest.webmanifest"})
+static_hashes = "".join(
     f"{path}:{hashlib.sha256((ROOT / path).read_bytes()).hexdigest()}\n"
-    for path in asset_paths
+    for path in static_paths
 )
 build = hashlib.sha256(
-    (html + "\n" + worker + "\n" + (ROOT / "manifest.webmanifest").read_text() + "\n" + asset_hashes).encode()
+    (html + "\n" + worker + "\n" + (ROOT / "manifest.webmanifest").read_text() + "\n" + static_hashes).encode()
 ).hexdigest()
 html_path.write_text(html.replace("__BUILD_ID__", build))
 worker_path.write_text(worker.replace("__BUILD_ID__", build))

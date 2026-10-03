@@ -19,6 +19,10 @@ prova-android/
 /index.html.prima-revisione-testi.bak
 /Revisione_Chiarezza_Prontuario/
 /anteprima-chiarezza/
+/Supporto_Guidato/
+/anteprima-supporto-guidato/
 *.bak
 *.orig
 *.rej
+/pacchetto-revisione-finale-1.7.0.zip
+/pacchetto-revisione-funzionale-1.7.0.zip

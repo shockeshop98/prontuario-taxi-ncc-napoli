@@ -1,10 +1,10 @@
 // Keep this identifier equal to BUILD_ID in index.html and build_id in version.json.
-const BUILD_ID = '444c38f973b860b76447d6b61beb0933b7b2da20aeddc623c6ba6992ab076683';
+const BUILD_ID = 'fa3c24cc7b15836b522641ac8c86292529e0e26c39802ea58bdd8041be078c6e';
 const CORE_CACHE = `prontuario-core-${BUILD_ID}`;
 const DOC_CACHE = `prontuario-docs-${BUILD_ID}`;
 const PREFIX = 'prontuario-';
 const ROOT = new URL('./', self.location.href);
-const CORE = ['index.html', 'manifest.webmanifest', 'assets/polizia-locale-napoli.png', 'assets/polizia.png', 'assets/icon-192.png', 'assets/icon-512.png', 'assets/icon-maskable-192.png', 'assets/icon-maskable-512.png', 'assets/apple-touch-icon.png', 'assets/favicon.ico', 'assets/favicon-16.png', 'assets/favicon-32.png', 'assets/favicon-48.png'];
+const CORE = ['index.html', 'manifest.webmanifest', 'assets/polizia-locale-napoli.png', 'assets/polizia.png', 'assets/icon-192.png', 'assets/icon-512.png', 'assets/icon-maskable-192.png', 'assets/icon-maskable-512.png', 'assets/apple-touch-icon.png', 'assets/favicon.ico', 'assets/favicon-16.png', 'assets/favicon-32.png', 'assets/favicon-48.png', 'assets/static-demo.css', 'scripts/static-demos.js', 'scripts/static-field-suggestions.js', 'scripts/static-demo-ui.js', 'scripts/static-catalog.js', 'scripts/static-catalog-ui.js'];
 const DOCS = new Set([
   'allegati/EGAF_Art85_originale.txt',
   'allegati/EGAF_Art86_originale.pdf',
@@ -14,7 +14,7 @@ const DOCS = new Set([
   'allegati/Tariffario_Taxi_2024.pdf'
 ]);
 // Generated from the published files by scripts/update-build.py.
-const DOC_HASHES = {"allegati/EGAF_Art85_originale.txt": "594a78b6f7cd709205d6790508b42a970588b422dbd414fafe72a42919585610", "allegati/EGAF_Art86_originale.pdf": "5031c8e106940ba867dd62681871f4861c686c479986553a580687302434e582", "allegati/Prontuario_GIT_Turistica_originale.pdf": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a", "allegati/Prontuario_Taxi_NCC_Napoli.pdf": "138d2951fa1be8c193079b669e1e6c0f07de0e4812001a7be7fc2d2181289409", "allegati/Regolamento_Taxi_NCC_Napoli.pdf": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0", "allegati/Tariffario_Taxi_2024.pdf": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055"};
+const DOC_HASHES = {"allegati/EGAF_Art85_originale.txt": "594a78b6f7cd709205d6790508b42a970588b422dbd414fafe72a42919585610", "allegati/EGAF_Art86_originale.pdf": "5031c8e106940ba867dd62681871f4861c686c479986553a580687302434e582", "allegati/Prontuario_GIT_Turistica_originale.pdf": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a", "allegati/Prontuario_Taxi_NCC_Napoli.pdf": "5d239a522effa81ed4d55f86ff29cf76a2c893b87bd7011d339f45537e38599a", "allegati/Regolamento_Taxi_NCC_Napoli.pdf": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0", "allegati/Tariffario_Taxi_2024.pdf": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055"};
 
 function relativePath(url) {
   if (url.origin !== ROOT.origin || !url.pathname.startsWith(ROOT.pathname)) return null;

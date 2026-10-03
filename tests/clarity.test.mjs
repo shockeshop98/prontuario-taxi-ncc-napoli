@@ -28,7 +28,7 @@ for(const id of ['nccserv','nccpubblico','nccfascia1','nccfascia2','nccfascia3',
  assert.match(x.responsibility,/conducente.*titolare dell’autorizzazione/);
 }
 assert.match(data.catalog.find(x=>x.id==='norole').verbaleRef,/L\.R\./);
-assert.ok(html.includes('Copia riferimento e testo'));
-assert.ok(html.includes('<summary>Procedura e note operative</summary>'));
-assert.ok(!html.includes("<summary>${x.referenceOnly?'Testo orientativo per la relazione'"));
-console.log('Chiarezza: responsabilità specifiche, 118 note, riferimenti CdS senza LR, quadro regionale conservato e sezioni progressive OK');
+assert.ok(html.includes('scripts/static-catalog-ui.js'));
+assert.ok(!html.includes('src="scripts/guide-ui.mjs"'));
+assert.ok(!html.includes('id="guidedPanel"'));
+console.log('Chiarezza: responsabilità specifiche, 118 note, riferimenti CdS senza LR e consultazione statica OK');
