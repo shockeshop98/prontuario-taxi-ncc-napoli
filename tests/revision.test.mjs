@@ -13,18 +13,18 @@ const legalFields=catalog.map(({id,code,ref,verbaleRef,sanction,payments,respons
   ({id,code,ref,verbaleRef,sanction,payments,responsibility,kind,scope,referenceOnly}));
 assert.equal(createHash('sha256').update(JSON.stringify(legalFields)).digest('hex'),
   'e3d723fda5ed10a174bba99fc4c1029cc5fc2c05209c1a7606a54e4224026612',
-  'Norme, importi, responsabilità e qualificazioni del catalogo devono restare invariati');
+  'Norme, importi, responsabilità e qualificazioni del catalogo storico invariati');
 assert.equal(catalog.length,118);
-assert.equal(data.prontuario.version,'7.1');
-assert.equal(data.sources[3].title,'Prontuario operativo 7.1 · Antonio Balzano');
+assert.equal(data.prontuario.version,'7.6');
+assert.equal(data.sources[3].title,'Prontuario operativo 7.6 · Antonio Balzano');
 const window={};
-for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/static-catalog.js','scripts/static-catalog-ui.js'])
+for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js'])
   vm.runInNewContext(await readFile(resolve(root,name),'utf8'),{window},{filename:name});
 const layout=window.prontuarioStaticLayout(catalog,data.manualParts,data.staticPages);
-assert.equal(layout.rows.length,185);
-assert.equal(layout.indexPageCount,6);
-assert.equal(layout.firstCasePage,13);
-assert.deepEqual(layout.sections.map(section=>section.rows.length),[111,70,4]);
+assert.equal(layout.rows.length,189);
+assert.equal(layout.indexPageCount,7);
+assert.equal(layout.firstCasePage,14);
+assert.deepEqual(layout.sections.map(section=>section.rows.length),[115,70,4]);
 assert.deepEqual(data.staticPages,JSON.parse(JSON.stringify(layout.pages)));
 const casePageCount=Object.values(data.staticPageSpans).reduce((sum,span)=>sum+span,0);
 assert.equal(Object.keys(data.staticPageSpans).length,layout.rows.length);
@@ -33,7 +33,7 @@ assert.equal(casePageCount,layout.rows.length);
 assert.equal(data.manualCommonPages.length,3);
 assert.equal(data.manualCommonPages[0],layout.firstCasePage+casePageCount);
 assert.equal(data.manualAuditPage,layout.firstCasePage+casePageCount+3);
-assert.equal(data.manualVariants.length,185);
+assert.equal(data.manualVariants.length,189);
 for(let index=1;index<=4;index++)assert.equal(
   data.staticPages[`nccserv-fascia-${index}/NCC`],
   data.staticPages[`nccfascia${index}/NCC`],`Rinvio I03-0${index}`);
@@ -56,7 +56,7 @@ const pdf=await getDocument({
   data:new Uint8Array(await readFile(resolve(root,'allegati/Prontuario_Taxi_NCC_Napoli.pdf'))),
   standardFontDataUrl:resolve(root,'node_modules/pdfjs-dist/standard_fonts')+'/'
 }).promise;
-assert.equal(pdf.numPages,layout.firstCasePage+casePageCount+5);
+assert.equal(pdf.numPages,layout.firstCasePage+casePageCount+6);
 assert.equal(data.sources[3].pages.length,pdf.numPages);
 const normalize=value=>String(value).normalize('NFC').replace(/\s+/g,'').replace(/\u00ad/g,'');
 const pageText=[];
@@ -82,6 +82,11 @@ for(const row of layout.rows){
   const text=Array.from({length:span},(_,offset)=>pageText[number+offset]).join(' ');
   assert.ok(pageText[number].includes(normalize(item.code)),`Codice mancante p.${number}`);
   assert.ok(pageText[number].includes(normalize(item.title))||base==='abusivo'||base==='turno',`Titolo mancante p.${number}`);
+  if(item.kind==='collective-reference'){
+    for(const value of ['Proroga fino al 31/12/2026','Verificare eventuale nuova proroga','€ 6','bagagli compresi','tassametro','ricevuta','primi tre passeggeri','meno di sette posti','ALIBUS','O.D. n. 9 del 19/05/2022'])assert.ok(text.includes(normalize(value)),`TC01: ${value}`);
+    assert.ok(!text.includes(normalize('Tabella importi'))&&!text.includes(normalize(finalSentence)),`TC01: sanzione o frase del verbale non dovuta`);
+    continue;
+  }
   assert.ok(pageText[number].includes(normalize('Normativa violata')),`Normativa p.${number}`);
   assert.ok(pageText[number].includes(normalize('Tabella importi')),`Importi p.${number}`);
   assert.ok(text.includes(normalize('Suggerimenti e note operative')),`Note p.${number}`);
@@ -112,4 +117,4 @@ for(const section of data.manualIndex){
   }
 }
 await pdf.destroy();
-console.log('Revisione: 118 voci di catalogo, 185 schede PDF, 6 indici, rinvii I03/I07, versioni pulite, norme, importi e Corso Pubblico OK');
+console.log('Revisione: 118 voci storiche, 189 schede PDF incl. TC01, 7 indici, ricevute distinte, rinvii I03/I07, importi e Corso Pubblico OK');

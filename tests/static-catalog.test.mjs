@@ -8,16 +8,17 @@ const data=JSON.parse(html.split('\n').find(line=>line.startsWith('const DATA=')
 const window={};
 let copied='',activeParts=[];
 const context={window,document:{getElementById:()=>({querySelectorAll:()=>activeParts.map(textContent=>({textContent}))})},navigator:{clipboard:{writeText:async text=>{copied=text}}}};
-for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/static-catalog.js','scripts/static-catalog-ui.js'])
+for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js'])
   vm.runInNewContext(fs.readFileSync(new URL(name,root),'utf8'),context,{filename:name});
 const formulaParts=markup=>[...markup.matchAll(/<p class="staticFormulaPart" data-copy-text="([^"]*)">/g)]
   .map(match=>match[1].replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>').replaceAll('&amp;','&'));
 const covered=new Set([...Object.keys(window.prontuarioStaticCatalog),'I03','I07',...Object.values(window.prontuarioStaticDemos).map(demo=>demo.code)]);
+for(const code of ['G28-01','G28-02','G28-03','G28-04'])covered.delete(code);
 assert.deepEqual(covered,new Set(data.catalog.map(item=>item.code)));
 const layout=window.prontuarioStaticLayout(data.catalog,data.manualParts,data.staticPages);
 assert.deepEqual(new Set(window.prontuarioEvidenceHintCodes),new Set(Object.keys(window.prontuarioStaticCatalog)));
-assert.equal(layout.rows.length,185);
-assert.equal(new Set(layout.rows.map(({item,type})=>`${item.id}/${type}`)).size,185);
+assert.equal(layout.rows.length,189);
+assert.equal(new Set(layout.rows.map(({item,type})=>`${item.id}/${type}`)).size,189);
 assert.ok(!layout.rows.some(({item})=>item.code.startsWith('I03-')));
 assert.ok(!layout.rows.some(({item})=>item.code==='I07'));
 for(let index=1;index<=4;index++)assert.equal(layout.pages[`nccserv-fascia-${index}/NCC`],layout.pages[`nccfascia${index}/NCC`]);
@@ -35,6 +36,7 @@ assert.equal(data.manualAuditPage,layout.firstCasePage+layout.rows.length+3);
 const helpers={esc:value=>String(value??'').replaceAll('&','&amp;').replaceAll('<','&lt;'),sourceLink:()=>'',date:value=>value,normative:item=>item.verbaleRef||item.ref};
 const finalSentence="Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.";
 for(const {item,type} of layout.rows){
+  if(item.kind==='collective-reference')continue;
   if(type==='Taxi'&&window.prontuarioStaticDemos[item.demoBaseId||item.id])continue;
   const model=window.prontuarioCatalogModel(item,type);
   assert.equal(item.payments.length,1,`${item.code}: una sola fascia`);
@@ -62,8 +64,8 @@ for(const {item,type} of layout.rows){
   const expectedEnding=[window.prontuarioCatalogLegalSentence(item,type),model.tail,window.prontuarioCatalogPrevious(item,type),window.prontuarioCatalogOperational(item),item.formula.includes(finalSentence)&&!window.prontuarioCatalogIsRelation(item)?finalSentence:''].filter(Boolean).join(' ');
   assert.equal(parts[0],model.lead,`${item.code}: formula iniziale invariata`);
   assert.equal(parts[1],expectedEnding,`${item.code}: formula finale invariata`);
-  assert.ok(formula.includes(window.prontuarioEvidenceHints(item.demoBaseCode||item.code).title),`${item.code}: fonte del fatto`);
-  assert.ok(formula.includes(window.prontuarioEvidenceHints(item.demoBaseCode||item.code).other),`${item.code}: voce libera sul fatto`);
+  assert.ok(formula.includes(window.prontuarioEvidenceHints(item.staticModelCode||item.demoBaseCode||item.code).title),`${item.code}: fonte del fatto`);
+  assert.ok(formula.includes(window.prontuarioEvidenceHints(item.staticModelCode||item.demoBaseCode||item.code).other),`${item.code}: voce libera sul fatto`);
   assert.ok(!formula.includes('Fonte del numero C.P.')&&!formula.includes('Fonte del numero autorizzazione NCC'),`${item.code}: suggerimento superfluo sul numero del titolo`);
   if(/(?:Da accertamento presso|[Pp]recedent[ei] pertinent[ei])/.test(copy)){
     assert.ok(formula.includes('C.O. (Centrale Operativa), consultata il […]'),`${item.code}: C.O. precedenti`);
@@ -87,7 +89,7 @@ for(const {item,type} of layout.rows){
   assert.equal((rendered.match(/class="staticOperationalUse"/g)||[]).length,acts.length?1:0,`${item.code}: istruzione esterna`);
   assert.equal((rendered.match(/Solo se eseguito:/g)||[]).length,acts.length?1:0,`${item.code}: unica istruzione`);
   assert.ok(!rendered.includes('Diciture per atti effettivamente eseguiti'),`${item.code}: atti duplicati sotto la formula`);
-  if(!window.prontuarioCatalogIsRelation(item)&&!['G02','G04','G05','G06','G07','G08','I02'].includes(item.demoBaseCode||item.code))assert.ok(window.prontuarioCatalogLegalSentence(item,type),`${item.code}: disposizione non indicata`);
+  if(!window.prontuarioCatalogIsRelation(item)&&!['G02','G04','G05','G06','G07','G08','G28','I02'].includes(item.demoBaseCode||item.code))assert.ok(window.prontuarioCatalogLegalSentence(item,type),`${item.code}: disposizione non indicata`);
 }
 const confiscaProcedure='Il verbale va trasmesso entro 10 giorni al Prefetto del luogo della commessa violazione, ai sensi dell’art. 210, comma 3, CdS.';
 for(const code of ['G02','I02','N01','N02','N03','N12']){
@@ -154,4 +156,4 @@ activeParts=formulaParts(window.prontuarioCatalogBody(sample.item,sample.type,he
 await window.copyProntuarioCatalog(()=>{});
 assert.equal(copied,activeParts[0]+' […]. '+activeParts[1]);
 assert.ok(!copied.includes('Altra difformità'));
-console.log('Catalogo statico: 185 casi canonici, alias I03/I07, relazioni, accessorie opzionali, copia e Corso Pubblico OK');
+console.log('Catalogo statico: 188 casi e scheda TC01, alias I03/I07, ricevute distinte, copia e Corso Pubblico OK');

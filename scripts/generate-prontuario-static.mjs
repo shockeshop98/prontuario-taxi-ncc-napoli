@@ -14,12 +14,12 @@ const dataLine=html.split('\n').find(line=>line.startsWith('const DATA='));
 if(!dataLine)throw Error('Catalogo incorporato non trovato');
 const data=JSON.parse(dataLine.slice('const DATA='.length,-1));
 const window={};
-for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/static-catalog.js','scripts/static-catalog-ui.js']){
+for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js']){
   vm.runInNewContext(await readFile(resolve(root,name),'utf8'),{window},{filename:name});
 }
 const layout=window.prontuarioStaticLayout(data.catalog,data.manualParts);
 const byId=new Map(data.catalog.map(item=>[item.id,item]));
-const version='7.1',today='3 ottobre 2026';
+const version='7.6',today='4 ottobre 2026';
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const regulation='Regolamento comunale (delibera C.C. n. 80/2005), ';
 const finalSentence="Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.";
@@ -155,8 +155,8 @@ function appendixPages(first){
     `<h1>Appendice operativa · 3/3</h1>${appendixSection('A7')}`
   ];
   const audit=`<h1>Confronto con il regolamento</h1><p>Gli articoli 1–40 del regolamento comunale sono confrontati con le schede. Disposizioni organizzative e procedimenti sul titolo non diventano automaticamente verbali in strada.</p><table class="auditTable"><thead><tr><th>Articolo</th><th>Materia</th><th>Schede e seguito</th></tr></thead><tbody>${data.prontuario.audit.map(row=>`<tr><td>${esc(row.article)}</td><td>${esc(row.subject)}</td><td>${esc(row.ids.map(id=>byId.get(id)?.code||id).join(', ')||row.status)}</td></tr>`).join('')}</tbody></table>`;
-  const sourceChunks=[data.prontuario.sources.slice(0,15),data.prontuario.sources.slice(15)];
-  const sources=sourceChunks.map((chunk,index)=>`<h1>Fonti e riferimenti · ${index+1}/2</h1><p>Fonti e verifiche dichiarate nel catalogo. Le date delle fonti indicano il relativo stato di verifica, non una nuova verifica normativa della revisione editoriale.</p>${chunk.map(source=>`<section class="sourceEntry"><h3>${esc(source.id)} · ${esc(source.title)}</h3><p>${esc(source.text)}</p></section>`).join('')}`);
+  const sourceChunks=Array.from({length:Math.ceil(data.prontuario.sources.length/12)},(_,index)=>data.prontuario.sources.slice(index*12,(index+1)*12));
+  const sources=sourceChunks.map((chunk,index)=>`<h1>Fonti e riferimenti · ${index+1}/${sourceChunks.length}</h1><p>Fonti e verifiche dichiarate nel catalogo. Le date delle fonti indicano il relativo stato di verifica, non una nuova verifica normativa della revisione editoriale.</p>${chunk.map(source=>`<section class="sourceEntry"><h3>${esc(source.id)} · ${esc(source.title)}</h3><p>${esc(source.text)}</p></section>`).join('')}`);
   return [...commonPages,audit,...sources].map((body,index)=>pageFrame(first+index,body,'','appendixPage'));
 }
 function indexPage(section,index,page){
@@ -201,6 +201,20 @@ const caseSectionCache=new Map();
 function caseSections({item,type}){
   const cacheKey=`${item.id}/${type}`;
   if(caseSectionCache.has(cacheKey))return caseSectionCache.get(cacheKey);
+  if(item.kind==='collective-reference'){
+    const c=window.prontuarioTaxiCollettivo;
+    const bullets=values=>`<ul>${values.map(value=>`<li>${esc(value)}</li>`).join('')}</ul>`;
+    const sections={
+      head:`<div class="eyebrow">${esc(item.code)} · TAXI · SCHEDA DI CONSULTAZIONE</div><h1>${esc(c.item.title)}</h1>`,
+      normative:`<section><h3>In breve</h3><p>${esc(c.summary)}</p><p><b>Proroga fino al 31/12/2026.</b> Dal 01/01/2027: <b>Verificare eventuale nuova proroga.</b></p></section><section><h3>Atti e durata</h3>${bullets(c.references)}</section>`,
+      amounts:`<section><h3>Disposizioni operative documentate</h3>${bullets(c.operative)}</section>`,
+      accessories:`<section><h3>Prescrizioni richiamate nelle premesse</h3>${bullets(c.premises)}</section>`,
+      formula:`<section><h3>Limiti e punti da chiarire</h3>${bullets(c.limits)}</section>`,
+      notes:`<section><h3>Schede pertinenti</h3><p>${esc(Object.keys(c.related).map(code=>{const related=layout.rows.find(row=>row.item.code===code&&row.type==='Taxi')?.item||data.catalog.find(item=>item.code===code);return related?`${code} · ${related.title}`:code}).join('; '))}. Usare soltanto la fattispecie con presupposti accertati; i rinvii non attribuiscono automaticamente una sanzione.</p></section><p class="sourceFoot">Originali: ${esc(c.sourceIndices.map(index=>data.sources[index].name).join('; '))}.</p>`
+    };
+    caseSectionCache.set(cacheKey,sections);
+    return sections;
+  }
   const view=content(item,type),row=item.payments[0];
   if(item.payments.length!==1)throw Error(`Scheda con più fasce: ${item.code}`);
   if(view.parts.length!==view.groups.length+1)throw Error(`Formula non coerente: ${item.code}`);
@@ -215,7 +229,7 @@ function caseSections({item,type}){
     amounts:`<section><h3>Tabella importi</h3>${amounts}</section>`,
     accessories:`<section><h3>Sanzioni accessorie e punti</h3><table class="accessoryTable"><tbody><tr><th scope="row">Sanzioni accessorie CdS</th><td>${esc(accessory.cds)}</td></tr><tr><th scope="row">Seguito sul titolo — Regolamento comunale</th><td>${esc(accessory.municipal)}</td></tr>${accessory.other?`<tr><th scope="row">Altre misure e comunicazioni</th><td>${esc(accessory.other)}</td></tr>`:''}<tr><th scope="row">Decurtazione punti patente</th><td>${esc(accessory.patentPoints)}</td></tr></tbody></table></section>`,
     formula:`<section><h3>${view.relation?'Testo orientativo per la relazione':'Testo orientativo del verbale'}</h3>${formula}</section>`,
-    notes:`<section><h3>Suggerimenti e note operative</h3>${compact.notes.length?`<ul>${compact.notes.map(note=>`<li>${esc(note)}</li>`).join('')}</ul>`:''}${view.responsibility?`<h3>Responsabilità</h3><p>${esc(view.responsibility)}</p>`:''}${compact.route?`<h3>Seguito operativo</h3><p>${esc(compact.route)}</p>`:''}</section><p class="sourceFoot">Fonti: ${esc(item.sources.join(', '))}.</p>`
+    notes:`<section><h3>Suggerimenti e note operative</h3>${compact.notes.length?`<ul>${compact.notes.map(note=>`<li>${esc(note)}</li>`).join('')}</ul>`:''}${view.responsibility?`<h3>Responsabilità</h3><p>${esc(view.responsibility)}</p>`:''}${compact.route?`<h3>Seguito operativo</h3><p>${esc(compact.route)}</p>`:''}${type==='Taxi'&&window.prontuarioTaxiCollettivo.related[item.staticModelCode||item.demoBaseCode||item.code]?`<p>Tratta Aeroporto–Stazione–Molo: v. TC01, p. ${layout.pages[`${window.prontuarioTaxiCollettivo.item.id}/Taxi`]}; verificare il presupposto specifico.</p>`:''}</section><p class="sourceFoot">Fonti: ${esc(item.sources.join(', '))}.</p>`
   };
   caseSectionCache.set(cacheKey,sections);
   return sections;
@@ -223,7 +237,7 @@ function caseSections({item,type}){
 function casePage(row,number,probeKey=''){
   const s=caseSections(row);
   const body=s.head+s.normative+s.amounts+s.accessories+s.formula+s.notes;
-  return pageFrame(number,body,row.item.code,'casePage')
+  return pageFrame(number,body,row.item.code,row.item.kind==='collective-reference'?'casePage collectivePage':'casePage')
     .replace('<article class=',probeKey?`<article data-key="${probeKey}" class=`:'<article class=')
     .replace('<main class="content">',`<main class="content" id="case-${row.item.id}-${row.type}">`);
 }
@@ -260,6 +274,7 @@ try{
   const introPages=introductoryPages();
   const casePages=layout.rows.map(row=>casePage(row,layout.pages[`${row.item.id}/${row.type}`]));
   const afterPages=appendixPages(nextCasePage);
+  layout.appendixPageCount=afterPages.length;
   await page.setContent(documentShell(coverPage()+indexPages.join('')+introPages.join('')+casePages.join('')+afterPages.join('')),{waitUntil:'load'});
   const overflow=await page.evaluate(()=>{
     const failures=[];
@@ -276,7 +291,7 @@ try{
 const generated=await PDFDocument.load(generatedBytes);
 const output=generated;
 const casePageCount=Object.values(layout.pageSpans).reduce((sum,span)=>sum+span,0);
-if(output.getPageCount()!==layout.firstCasePage+casePageCount+5)throw Error('Numero totale di pagine incoerente');
+if(output.getPageCount()!==layout.firstCasePage+casePageCount+layout.appendixPageCount-1)throw Error('Numero totale di pagine incoerente');
 
 let sectionOffset=0;
 for(const section of layout.sections){

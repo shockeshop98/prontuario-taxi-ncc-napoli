@@ -1,10 +1,10 @@
 // Keep this identifier equal to BUILD_ID in index.html and build_id in version.json.
-const BUILD_ID = 'fa3c24cc7b15836b522641ac8c86292529e0e26c39802ea58bdd8041be078c6e';
+const BUILD_ID = '22a94ea097bdaa7b7600aa45ed21bcdfda26e63afdeda9fc71b1b41bd491293d';
 const CORE_CACHE = `prontuario-core-${BUILD_ID}`;
 const DOC_CACHE = `prontuario-docs-${BUILD_ID}`;
 const PREFIX = 'prontuario-';
 const ROOT = new URL('./', self.location.href);
-const CORE = ['index.html', 'manifest.webmanifest', 'assets/polizia-locale-napoli.png', 'assets/polizia.png', 'assets/icon-192.png', 'assets/icon-512.png', 'assets/icon-maskable-192.png', 'assets/icon-maskable-512.png', 'assets/apple-touch-icon.png', 'assets/favicon.ico', 'assets/favicon-16.png', 'assets/favicon-32.png', 'assets/favicon-48.png', 'assets/static-demo.css', 'scripts/static-demos.js', 'scripts/static-field-suggestions.js', 'scripts/static-demo-ui.js', 'scripts/static-catalog.js', 'scripts/static-catalog-ui.js'];
+const CORE = ['index.html', 'manifest.webmanifest', 'assets/polizia-locale-napoli.png', 'assets/polizia.png', 'assets/icon-192.png', 'assets/icon-512.png', 'assets/icon-maskable-192.png', 'assets/icon-maskable-512.png', 'assets/apple-touch-icon.png', 'assets/favicon.ico', 'assets/favicon-16.png', 'assets/favicon-32.png', 'assets/favicon-48.png', 'assets/static-demo.css', 'scripts/static-demos.js', 'scripts/static-field-suggestions.js', 'scripts/static-demo-ui.js', 'scripts/taxi-collettivo.js', 'scripts/static-catalog.js', 'scripts/static-catalog-ui.js'];
 const DOCS = new Set([
   'allegati/EGAF_Art85_originale.txt',
   'allegati/EGAF_Art86_originale.pdf',
@@ -12,9 +12,14 @@ const DOCS = new Set([
   'allegati/Prontuario_Taxi_NCC_Napoli.pdf',
   'allegati/Regolamento_Taxi_NCC_Napoli.pdf',
   'allegati/Tariffario_Taxi_2024.pdf'
+  ,'allegati/Taxi_Collettivo_OD_1_2019_originale.pdf'
+  ,'allegati/Taxi_Collettivo_OD_10_2025_originale.pdf'
+  ,'allegati/Taxi_Collettivo_OD_9_2026_originale.pdf'
+  ,'allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf'
+  ,'allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf'
 ]);
 // Generated from the published files by scripts/update-build.py.
-const DOC_HASHES = {"allegati/EGAF_Art85_originale.txt": "594a78b6f7cd709205d6790508b42a970588b422dbd414fafe72a42919585610", "allegati/EGAF_Art86_originale.pdf": "5031c8e106940ba867dd62681871f4861c686c479986553a580687302434e582", "allegati/Prontuario_GIT_Turistica_originale.pdf": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a", "allegati/Prontuario_Taxi_NCC_Napoli.pdf": "5d239a522effa81ed4d55f86ff29cf76a2c893b87bd7011d339f45537e38599a", "allegati/Regolamento_Taxi_NCC_Napoli.pdf": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0", "allegati/Tariffario_Taxi_2024.pdf": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055"};
+const DOC_HASHES = {"allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205", "allegati/EGAF_Art85_originale.txt": "594a78b6f7cd709205d6790508b42a970588b422dbd414fafe72a42919585610", "allegati/EGAF_Art86_originale.pdf": "5031c8e106940ba867dd62681871f4861c686c479986553a580687302434e582", "allegati/Prontuario_GIT_Turistica_originale.pdf": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a", "allegati/Prontuario_Taxi_NCC_Napoli.pdf": "c3c4ef3952fe9a3638ab62d21ec478eb3e3db9f6cafac14f1930e09af2b6319c", "allegati/Regolamento_Taxi_NCC_Napoli.pdf": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0", "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89", "allegati/Tariffario_Taxi_2024.pdf": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055", "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18", "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a", "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5"};
 
 function relativePath(url) {
   if (url.origin !== ROOT.origin || !url.pathname.startsWith(ROOT.pathname)) return null;

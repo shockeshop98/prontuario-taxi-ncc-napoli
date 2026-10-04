@@ -10,10 +10,11 @@ window.prontuarioStaticCatalog = {
     tail:'Il riscontro dell’ufficio […] del […] attestava […] per il servizio con il veicolo indicato. Il precedente pertinente dello stesso soggetto nel triennio risultava dal verbale n. […], per il fatto del […], accertato da […], come da riscontro […].'
   },
   G04: {
-    lead:'Alla guida del veicolo indicato, con C.P. n. […], in servizio taxi, applicava alla corsa […] un corrispettivo difforme dalla tariffa amministrata vigente […], in violazione dell’art. 2 della L. n. 21/1992. In particolare:',
+    lead:'Alla guida del veicolo indicato, con C.P. n. […], in servizio taxi, non rispettava la tariffa amministrata applicabile alla corsa […], in violazione dell’art. 2, comma 1, della L. n. 21/1992. In particolare:',
     options:[
       'Richiedeva € […] a fronte di € […] dovuti, secondo le voci tariffarie […].',
-      'Riscuoteva € […] invece di € […], come risultava dalla ricevuta […] e dal calcolo […].'
+      'L’utente chiedeva all’inizio la tariffa predeterminata di € […] per la tratta […]; il conducente la rifiutava e riscuoteva € […] per la corsa eseguita.',
+      'Applicava il supplemento […] per € […] senza il presupposto previsto dal tariffario […].'
     ], other:'Altra difformità tariffaria accertata: […]',
     tail:'Il confronto con tariffa e supplementi applicabili risultava da […].'
   },
@@ -910,6 +911,66 @@ window.prontuarioStaticCatalog = {
   }
 };
 
+// Quattro condotte documentali distinte, ricondotte dall'autore all'art. 86,
+// comma 3-bis, CdS. Conservano G28 come origine e non preimpostano il seguito comunale.
+Object.assign(window.prontuarioStaticCatalog, {
+  'G28-01': {
+    lead:'Alla guida del veicolo indicato, con C.P. n. […], dopo la corsa ordinaria a tassametro non rilasciava la ricevuta richiesta dall’utente. In particolare:',
+    options:['L’utente chiedeva la ricevuta a fine corsa e il conducente rispondeva […] senza consegnarla.', 'Dopo il pagamento di € […], l’utente richiedeva la ricevuta e il conducente ometteva di rilasciarla.'],
+    other:'Altra modalità della richiesta e del mancato rilascio accertata: […]',
+    tail:'La richiesta e il mancato rilascio risultavano da […].'
+  },
+  'G28-02': {
+    lead:'Alla guida del veicolo indicato, con C.P. n. […], accettava la corsa a tariffa predeterminata […] richiesta dall’utente all’inizio, ma non consegnava prima della partenza la ricevuta prevista dalla disposizione comunale sul modello unico. In particolare:',
+    options:['L’utente chiedeva la tariffa predeterminata per […] e il veicolo partiva senza consegna della ricevuta.', 'Il conducente comunicava la tariffa predeterminata di € […] e avviava la corsa senza rilasciare la ricevuta.'],
+    other:'Altra sequenza della richiesta e della partenza accertata: […]',
+    tail:'Richiesta, partenza e mancata consegna risultavano da […].'
+  },
+  'G28-03': {
+    lead:'Alla guida del veicolo indicato, con C.P. n. […], per la corsa […] rilasciava una ricevuta difforme dal modello unico autorizzato dal Comune. In particolare:',
+    options:['Consegnava il modello […] anziché il prototipo comunale, come risultava dal documento esaminato […].', 'Consegnava una ricevuta priva della struttura identificativa del modello autorizzato, secondo il confronto documentale […].'],
+    other:'Altra difformità del modello effettivamente riscontrata: […]',
+    tail:'Il modello consegnato e il confronto con quello autorizzato risultavano da […].'
+  },
+  'G28-04': {
+    lead:'Alla guida del veicolo indicato, con C.P. n. […], rilasciava per la corsa […] una ricevuta del modello comunale non compilata nei dati pertinenti al servizio. In particolare:',
+    options:['Nella sezione della corsa predeterminata mancavano il percorso […] e/o l’importo […], secondo il documento esaminato.', 'Nella sezione della corsa a tassametro mancavano il percorso […] e/o l’importo […], secondo il documento esaminato.', 'Mancavano data, numero del taxi o firma del conducente, ove richiesti dal modello applicabile: […].'],
+    other:'Altra omissione della compilazione verificata sul modello vigente: […]',
+    tail:'Il documento rilasciato e i campi effettivamente dovuti risultavano da […].'
+  }
+});
+
+window.prontuarioReceiptCaseItems = function (catalog) {
+  const base=catalog.find(item=>item.code==='G28');
+  if(!base)throw Error('G28 assente');
+  const variants=[
+    ['01','ordinaria','Ricevuta ordinaria non rilasciata a fine corsa nonostante la richiesta'],
+    ['02','predeterminata','Ricevuta della tariffa predeterminata non rilasciata prima della partenza'],
+    ['03','modello','Ricevuta rilasciata su modello non autorizzato'],
+    ['04','incompleta','Ricevuta del modello comunale compilata in modo incompleto']
+  ];
+  return variants.map(([suffix,key,title])=>({
+    ...base,id:`ricevuta-${key}`,code:`G28-${suffix}`,title,scope:'taxi',group:null,
+    referenceOnly:false,kind:'local',sanction:'Art. 86, comma 3-bis, CdS: € 86–338; nessuna sanzione accessoria CdS e nessuna decurtazione di punti patente.',
+    formula:base.formula,
+    demoBaseId:base.id,demoBaseCode:base.code,staticModelCode:`G28-${suffix}`,
+    searchTerms:`ricevuta scontrino ${key} modello autorizzato tariffa fissa predeterminata`,
+    verbaleRef:suffix==='01'
+      ?'CdS art. 86, comma 3-bis; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. n.'
+      :'CdS art. 86, comma 3-bis.',
+    legalBackground:[...(base.legalBackground||[]),'La pagina ufficiale del Comune richiama la disposizione dirigenziale n. 72 del 10/02/2012; l’originale integrale resta da acquisire e verificare per il caso concreto.'],
+    notes:[
+      'La pagina ufficiale del Comune identifica la disposizione dirigenziale n. 72 del 10/02/2012. Il testo indicizzato distingue corsa ordinaria, tariffa predeterminata, modello e compilazione; l’allegato integrale non è risultato accessibile. Acquisire l’atto e verificarne efficacia e prescrizioni alla data del fatto.',
+      'L’autore conferma l’inquadramento operativo nell’art. 86, comma 3-bis, CdS. Verificare nel caso concreto la condizione della licenza e gli atti efficaci; acquisire gli originali comunali ancora mancanti. Questa decisione resta distinta dalla verifica documentale.',
+      'Non confondere la ricevuta comunale non fiscale con un documento fiscale. Per un unico episodio scegliere la condotta documentale pertinente, senza duplicare la contestazione.',
+      'Segnalazione al Corso Pubblico: trasmettere gli atti tramite l’Ufficio Verbali.'
+    ],
+    responsibility:'Condotta del conducente: identificare chi ha effettuato la corsa e verificare titolare della licenza e condizione del titolo.',
+    route:'Trasmettere i riscontri sulla ricevuta all’Ufficio Verbali e segnalare al Corso Pubblico; l’eventuale seguito disciplinare sul titolo spetta all’ufficio competente e non è preimpostato.',
+    sources:[...new Set([...base.sources,'RICEVUTA_MODELLO','DD_RICEVUTA'])]
+  }));
+};
+
 // I03 e N04–N07 descrivono le stesse quattro fasce dell'art. 85, comma 4-bis:
 // N04–N07 conservano il riferimento alla lettera pertinente. I03 è un rinvio.
 window.prontuarioCatalogAliases = {
@@ -928,7 +989,7 @@ window.prontuarioCatalogAliasSearch = {
   G07:'I07 tariffario assente tariffario coperto esposizione tariffario supplementi leggibilità avvisi posizione utente lingua plurilingue traduzione cruscotto'
 };
 window.prontuarioCatalogVariantItems = function (catalog) {
-  return catalog.filter(item => item.payments.length > 1 && !['G03','I03'].includes(item.code)).flatMap(item =>
+  return [...window.prontuarioReceiptCaseItems(catalog),...catalog.filter(item => item.payments.length > 1 && !['G03','I03'].includes(item.code)).flatMap(item =>
     item.payments.map((payment, index) => ({
       ...item,
       id: `${item.id}-fascia-${index + 1}`,
@@ -937,13 +998,17 @@ window.prontuarioCatalogVariantItems = function (catalog) {
       payments: [payment],
       demoBaseId: item.id,
       demoBaseCode: item.code,
+      ...(item.code==='G04'?{
+        ref:item.ref.replace('L.21/1992 art.2;','L.21/1992 art.2 c.1;'),
+        verbaleRef:item.verbaleRef.replace('L.21/1992 art.2;','L.21/1992 art.2 c.1;')
+      }:{}),
       staticVariantIndex: index
     }))
-  );
+  )];
 };
 
 window.prontuarioCatalogModel = function (item, type) {
-  const model = window.prontuarioStaticCatalog[item.demoBaseCode || item.code];
+  const model = window.prontuarioStaticCatalog[item.staticModelCode || item.demoBaseCode || item.code];
   if (!model) throw Error(`Testo editoriale mancante: ${item.code}`);
   const title = type === 'NCC' ? 'con autorizzazione NCC n. […]' : 'con C.P. n. […]';
   const titleId = type === 'NCC' ? 'autorizzazione NCC n. […]' : 'C.P. n. […]';
@@ -972,10 +1037,11 @@ window.prontuarioStaticLayout = function (catalog, manualParts, pageMap) {
     byBase.get(key).push(item);
   }
   const originals = new Map(catalog.map(item => [item.id, item]));
+  if (window.prontuarioTaxiCollettivo) originals.set(window.prontuarioTaxiCollettivo.item.id, window.prontuarioTaxiCollettivo.item);
   const rowsPerIndexPage = 38;
   const sections = manualParts.map(part => {
     const type = part.type === 'equina' ? 'Trazione animale' : part.type === 'ncc' ? 'NCC' : 'Taxi';
-    const rows = part.cases.filter(id => id !== 'nccserv' && id !== 'esposizionetariffario').flatMap(id => byBase.get(id) || [originals.get(id)]).map(item => ({item,type}));
+    const rows = part.cases.filter(id => id !== 'nccserv' && id !== 'esposizionetariffario').flatMap(id => id==='ricevuta'&&type==='NCC'?[originals.get(id)]:byBase.get(id) || [originals.get(id)]).map(item => ({item,type}));
     return {label:part.label,type,rows,indexPages:Math.ceil(rows.length/rowsPerIndexPage)};
   });
   const indexPageCount = sections.reduce((sum, section) => sum + section.indexPages, 0);

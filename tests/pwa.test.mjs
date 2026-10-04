@@ -18,7 +18,7 @@ const canonicalWorker = sw.replace(`BUILD_ID = '${version.build_id}'`, "BUILD_ID
 const corePaths = [...sw.match(/const CORE = \[(.*?)\];/s)[1].matchAll(/'([^']+)'/g)].map(match => match[1]);
 const staticHashes = (await Promise.all(corePaths.filter(path => !['index.html','manifest.webmanifest'].includes(path)).sort().map(async path => `${path}:${createHash('sha256').update(await readFile(join(root, path))).digest('hex')}\n`))).join('');
 assert.equal(createHash('sha256').update(canonicalHtml + '\n' + canonicalWorker + '\n' + await readFile(join(root, 'manifest.webmanifest'), 'utf8') + '\n' + staticHashes).digest('hex'), version.build_id);
-assert.equal(version.version, '1.7.0');
+assert.equal(version.version, '1.8.4');
 assert.ok(html.includes(`<span id="releaseInfo">Versione ${version.version} ·`), 'Versione visibile diversa da version.json');
 assert.equal(manifest.display, 'standalone');
 assert.equal(manifest.id, '/prontuario-taxi-ncc-napoli/');
@@ -32,7 +32,7 @@ for (const [path, expected] of Object.entries(hashes)) {
   assert.deepEqual(sourceMeta[path], {bytes: bytes.length, sha256: expected});
 }
 assert.ok(corePaths.includes('assets/polizia-locale-napoli.png'));
-for (const path of ['assets/static-demo.css','scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/static-catalog.js','scripts/static-catalog-ui.js']) assert.ok(corePaths.includes(path), `Scheda statica offline mancante: ${path}`);
+for (const path of ['assets/static-demo.css','scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js']) assert.ok(corePaths.includes(path), `Scheda statica offline mancante: ${path}`);
 
 const entries = new Map();
 const caches = {
@@ -78,7 +78,7 @@ async function routed(path, {mode = 'same-origin', method = 'GET', headers = {}}
   return promise;
 }
 await lifecycle('install');
-for (const path of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/static-catalog.js','scripts/static-catalog-ui.js']) {
+for (const path of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js']) {
   const coreCache = await caches.open(`prontuario-core-${version.build_id}`);
   assert.ok(await coreCache.match(new URL(path, origin)), `Risorsa dimostrativa non precache: ${path}`);
 }

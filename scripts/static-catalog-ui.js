@@ -59,6 +59,7 @@
     .replace(/(comma \d+[\w-]*)\s+(lett\.)/g,'$1, $2')
     .replace(/\b(artt?\.\s*\d+)\s+(?=comma|commi)/g,'$1, ');
   window.prontuarioCatalogLegalSentence = (item,type) => {
+    if(item.staticModelCode?.startsWith('G28-'))return '';
     if(item.code==='I02')return '';
     if((item.demoBaseCode||item.code)==='G07')return '';
     if(item.code==='G53')return 'La condotta violava l’art. 15, commi 4 e 4-bis, del D.L. n. 179/2012, come modificato nel 2026.';
@@ -108,8 +109,10 @@
       :roleFollowup?'Segnalazione a Comune e CCIAA per gli eventuali provvedimenti sul ruolo, distinta dalla misura CdS.'
       :!cdsMeasure&&!/^Nessuna\b/.test(original)?original:'';
     return {
-      cds:cdsMeasure?window.prontuarioCatalogAccessoryText(original):'Non previste',
-      municipal:item.group ? municipalByGroup[item.group] : 'Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.',
+      cds:item.staticModelCode?.startsWith('G28-')?'Non previste':cdsMeasure?window.prontuarioCatalogAccessoryText(original):'Non previste',
+      municipal:item.staticModelCode?.startsWith('G28-')
+        ?'Eventuale seguito disciplinare da definire dall’ufficio competente; nessun gruppo o provvedimento preimpostato.'
+        :item.group ? municipalByGroup[item.group] : 'Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.',
       other,
       points:item.group && type==='Taxi' ? pointsByGroup[item.group]||'Nessun punto comunale indicato per questo gruppo.' : item.group ? 'Punti comunali: verificare l’applicabilità al titolo NCC prima di riportarli.' : 'Nessun punto precompilato in questa scheda.'
     };
@@ -140,11 +143,19 @@
     3:'Scheda di solo riferimento: la relazione descrive i fatti; un’eventuale contestazione richiede una base specifica verificata.'
   };
   const addedNotes = {
+    G04:[
+      'Tariffario ufficiale della delibera G.C. n. 258 del 27/06/2024: il supplemento Minivan è € 5 complessivi per vettura quando i passeggeri sono più di quattro oppure l’utente chiede espressamente una vettura da 7–9 posti. Se entrambe le condizioni ricorrono, il supplemento resta uno solo.',
+      'Le tariffe predeterminate, da richiedere all’inizio della corsa, comprendono radio taxi, notturno, festivo, bagagli, animali e aeroporto. Sono esclusi i pedaggi autostradali e il supplemento Minivan di € 5. Verificare tratta e richiesta; non sommare G04 e G08 per il medesimo prezzo.',
+      'Nell’extraurbana ordinaria con ritorno a vuoto il prezzo è il doppio del valore mostrato dal tassametro tarato alla tariffa ridotta del 50%; gli eventuali supplementi restano a carico del cliente e vanno individuati separatamente, senza presumere che siano raddoppiati. Non applicare questo criterio alle tariffe predeterminate.'
+    ],
+    G08:['Per la tariffa predeterminata richiesta all’inizio e per i supplementi, usare il tariffario della delibera G.C. n. 258/2024. Non duplicare G04 e G08 per lo stesso episodio; il raddoppio dell’extraurbana ordinaria con ritorno a vuoto riguarda l’importo del tassametro ridotto, non la tariffa predeterminata.'],
+    G50:['Sulla tratta Aeroporto–Stazione Centrale–Molo Beverello l’O.D. n. 1/2019 indica anche la partenza dopo 15 minuti dall’arrivo dei primi tre passeggeri. Il rapporto con il limite di cinque minuti dell’art. 19, comma 4, richiede chiarimento dell’ufficio: rilevare separatamente arrivo, salita e partenza, senza presumere la violazione.'],
     G02:['Accertare separatamente se la licenza non è stata conseguita, è sospesa o è revocata; l’ufficio deve chiarire l’assenza di un titolo che legittimi il servizio con questo veicolo. Il precedente incompleto non prova la reiterazione: documentare il fatto attuale senza attribuirgli automaticamente una fascia.'],
     G07:['I07 è un rinvio a queste fasce. Il tariffario comunale contiene anche i supplementi: descrivere l’assenza o la copertura del prospetto soltanto quando rende non chiaramente leggibili gli avvisi richiesti dalla L. 21/1992, art. 12, comma 2. Le sole ulteriori difformità comunali richiedono qualificazione separata e non ricevono automaticamente gli importi G07.'],
     I02:['Titolo e destinazione d’uso sono verifiche distinte. Se entrambe le irregolarità sono accertate, descrivere entrambi i fatti senza duplicare automaticamente la sanzione; una verifica pendente va soltanto nella relazione. Il trattamento del solo uso non conforme resta un quesito da validare con l’Ufficio Verbali.'],
     N02:['Per la conseguenza sulla patente, verificare identità e ruolo della persona interessata nel fatto attuale e nel precedente: la sola coincidenza dell’impresa, del titolare o dell’obbligato in solido non basta. Se il precedente è incompleto, documentare il fatto attuale senza concludere sulla reiterazione e senza attribuirgli automaticamente la prima fascia.'],
-    N03:['Per la conseguenza sulla patente, verificare identità e ruolo della persona interessata nel fatto attuale e nel precedente: la sola coincidenza dell’impresa, del titolare o dell’obbligato in solido non basta. Se il precedente è incompleto, documentare il fatto attuale senza concludere sulla reiterazione e senza attribuirgli automaticamente la prima fascia.']
+    N03:['Per la conseguenza sulla patente, verificare identità e ruolo della persona interessata nel fatto attuale e nel precedente: la sola coincidenza dell’impresa, del titolare o dell’obbligato in solido non basta. Se il precedente è incompleto, documentare il fatto attuale senza concludere sulla reiterazione e senza attribuirgli automaticamente la prima fascia.'],
+    R18:['L’O.D. n. 9 del 06/08/2026 ammette temporaneamente anche veicoli con meno di sette posti a disposizione dell’utenza sulla tratta Aeroporto–Stazione Centrale–Molo Beverello, prorogata fino al 31/12/2026. Per questa tratta il solo numero dei posti non integra automaticamente la violazione; dopo tale data verificare eventuale nuova proroga.']
   };
   window.prontuarioCatalogNotes = (item, model) => {
     const code=item.demoBaseCode||item.code;
@@ -170,7 +181,7 @@
     const ending=[legal,model.tail,generatedPrior,operational,final].filter(Boolean).join(' ');
     const lead=window.prontuarioRenderFormulaPart(model.lead,[],esc);
     const main=`<p class="staticChoiceHint">Utilizzare la voce pertinente.</p><ul class="staticFormulaChoices" aria-label="Circostanza pertinente">${[...model.options,model.other].map(option=>`<li>${esc(option)}</li>`).join('')}</ul>`;
-    const evidenceHint=window.prontuarioEvidenceHints(item.demoBaseCode||item.code);
+    const evidenceHint=window.prontuarioEvidenceHints(item.staticModelCode||item.demoBaseCode||item.code);
     const extraEvidence=evidenceText&&evidenceText.includes('[…]')?'':window.prontuarioRenderHint(evidenceHint,esc);
     const priorHints=text=>[window.prontuarioPriorOfficeHints(),...(/precedent[ei] pertinent[ei]/.test(text)&&!/non risultavano/.test(text)?[window.prontuarioPriorDetailHints(item,type)]:[])];
     const annotations=[];

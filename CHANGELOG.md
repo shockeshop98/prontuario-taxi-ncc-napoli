@@ -1,6 +1,36 @@
 # Registro aggiornamenti
 
-## 1.7.0 — revisione locale, non pubblicata
+## 1.8.4 — pubblicazione GitHub Pages
+
+- G28-01–04: tolta la D.D. 72/2012 dal riquadro “Normativa violata”; il richiamo resta nelle fonti e nel rapporto. L’art. 23, comma 1, lett. n, del regolamento comunale resta nel riquadro di G28-01, cui è direttamente pertinente. Importi e formule invariati.
+- PDF 7.6 e build/cache aggiornati per la pubblicazione su GitHub Pages.
+
+## 1.8.3 — revisione locale precedente, non pubblicata
+
+- Su conferma dell’autore, G28-01–04 sono schede sanzionatorie ex art. 86, comma 3-bis, CdS: tabella importi, accessorie CdS non previste, nessun punto patente e testo orientativo del verbale con frase finale al Corso Pubblico. I suggerimenti restano fuori dalla copia. Gli originali comunali mancanti restano da acquisire; nessun seguito disciplinare comunale è preimpostato.
+- PDF 7.5: 209 pagine, 189 schede di una pagina, indice e collegamenti riallineati. Build e cache aggiornate; revisione soltanto locale.
+
+## 1.8.2 — revisione locale precedente, non pubblicata
+
+- G28-01–04 sono schede di consultazione con testo per la relazione. Titolo, vista, copia, esempi e pagine PDF concordano: niente frase finale del verbale né tabella di importi applicabili. Gli importi dell’ipotesi ex art. 86, comma 3-bis, CdS compaiono soltanto nell’approfondimento per la qualificazione da convalidare.
+- Identificata nella pagina ufficiale del Comune la disposizione dirigenziale n. 72 del 10/02/2012; l’originale integrale non è accessibile dal collegamento. Restano da acquisire anche la D.D. n. 135/2010 e la prova del raccordo alla licenza. Il mancato reperimento online non prova l’inapplicabilità del CdS.
+- PDF 7.4: 209 pagine, 189 schede di una pagina, indice e collegamenti riallineati. Build e cache aggiornate senza cambiare le altre fattispecie.
+
+## 1.8.1 — revisione locale, non pubblicata
+
+- TC01 apre con tratta, € 6 a passeggero con bagagli, veicoli ammessi, turno e scadenza; i rinvii mostrano codice e titolo. La delibera G.C. n. 634/2018 resta da acquisire integralmente; non sono sciolti i dubbi su cinque e quindici minuti.
+- G28 Taxi è distinto in quattro casi autonomi: ricevuta ordinaria richiesta e non rilasciata, ricevuta della tariffa predeterminata non consegnata prima della partenza, modello non autorizzato e compilazione incompleta. G28 NCC resta invariato. L’ipotesi di art. 86, comma 3-bis, CdS e i relativi importi sono dichiarati condizionati alla prova della prescrizione quale condizione della licenza; il testo integrale della disposizione sul modello unico resta da acquisire.
+- G04 e G08 conservano le fasce e gli importi precedenti; aggiunti casi orientativi per tariffa predeterminata richiesta e supplementi indebiti, con note su Minivan, predeterminate ed extraurbana ordinaria. Aggiunti agli originali la delibera G.C. n. 258/2024 e il modello di ricevuta pubblicato dal Comune.
+- PDF 7.3: 209 pagine, 189 schede di una pagina e sette pagine di indice; ricerca, collegamenti, build e cache riallineati. Il PDF modificato deve essere salvato nuovamente offline; gli originali invariati restano conservati.
+
+## 1.8.0 — revisione locale, non pubblicata
+
+- Aggiunta TC01, scheda di sola consultazione per il taxi collettivo Aeroporto–Stazione Centrale–Molo Beverello: O.D. 1/2019, 10/2025 e 9/2026, proroga al 31/12/2026, disciplina operativa, premesse e limiti distinti. Dopo la scadenza compare l’invito a verificare una nuova proroga.
+- I tre PDF originali sono in Fonti e allegati, ricercabili nel testo, apribili, scaricabili e salvabili offline. Rinvii contestuali dalle schede pertinenti, senza nuovi importi né automatismi sanzionatori; R18 evidenzia la possibilità temporanea di usare veicoli con meno di sette posti per l’utenza su questa tratta.
+- Reperita sul sito ufficiale del Comune l’O.D. n. 9/2022, proroga storica al 2023. Restano da validare il rapporto tra cinque e quindici minuti, la portata delle prescrizioni riportate nelle premesse e il rapporto tra l’integrazione 2026 e l’art. 19, comma 3, del regolamento.
+- PDF normale 7.2: 204 pagine, con TC01 a pagina 58; indice e “Scheda PDF” riallineati. PWA 1.8.0 e cache aggiornate; versione 1.7.0 e quesiti giuridici preesistenti conservati.
+
+## 1.7.0 — pubblicata il 03/10/2026
 
 - Migliorata la navigazione: da una scheda il pulsante Elenco e il tasto Indietro tornano a ricerca, filtro e posizione precedenti, con focus sul risultato aperto senza richiamare la tastiera. I risultati mostrano codice, titolo e servizio senza etichette di ricerca interne; alias e sinonimi restano utilizzabili.
 - Riclassificata la tabella accessorie in PWA e PDF: la riga CdS contiene soltanto misure CdS, il seguito comunale resta distinto da altre misure e comunicazioni e dai punti patente. Le comunicazioni regionali G54 sono nella riga delle altre comunicazioni. Formule, norme, importi e responsabilità invariati.
