@@ -27,7 +27,7 @@ for(const {item,type} of receipts){
   assert.doesNotMatch(item.title,/consultazione per relazione/);
   assert.match(item.verbaleRef,/CdS art\. 86, comma 3-bis/);
   assert.doesNotMatch(item.verbaleRef,/disposizione dirigenziale|D\.D\.|originale da acquisire/i,`${item.code}: D.D. fuori dalla normativa violata`);
-  assert.equal(item.verbaleRef.includes('Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. n'),item.code==='G28-01',`${item.code}: solo riferimenti pertinenti`);
+  assert.equal(item.verbaleRef.includes('Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. n'),['G28-01','G28-02'].includes(item.code),`${item.code}: solo riferimenti pertinenti`);
   const normativeSection=body.match(/<section class="caseBlock staticNormative">([\s\S]*?)<\/section>/)?.[1];
   assert.ok(normativeSection,`${item.code}: normativa visibile`);
   assert.doesNotMatch(normativeSection,/disposizione dirigenziale|D\.D\.|originale da acquisire/i);
@@ -63,8 +63,12 @@ for(const {item,type} of receipts){
   const pdfNormative=pdfText.split(normalize('Normativa violata'))[1]?.split(normalize('Tabella importi'))[0];
   assert.ok(pdfNormative,`${item.code}: normativa PDF`);
   assert.ok(!pdfNormative.includes(normalize('disposizione dirigenziale')),`${item.code}: D.D. fuori dalla normativa PDF`);
-  assert.equal(pdfNormative.includes(normalize('Regolamento comunale')),item.code==='G28-01',`${item.code}: articolo comunale pertinente nel PDF`);
-  assert.ok(pdfText.includes(normalize('disposizione dirigenziale n. 72 del 10/02/2012')),`${item.code}: fonte conservata nelle note PDF`);
+  assert.equal(pdfNormative.includes(normalize('Regolamento comunale')),['G28-01','G28-02'].includes(item.code),`${item.code}: articolo comunale pertinente nel PDF`);
+  if(item.code==='G28-02'){
+    assert.ok(pdfNormative.includes(normalize('art. 23, comma 1, lett. n')),`${item.code}: comma comunale PDF`);
+    assert.ok(pdfText.includes(normalize('punto 7, lett. b')),`${item.code}: disposizione specifica nelle note PDF`);
+  }
+  assert.ok(pdfText.includes(normalize(item.code==='G28-02'?'D.D. n. 72 del 10/02/2012':'disposizione dirigenziale n. 72 del 10/02/2012')),`${item.code}: fonte conservata nelle note PDF`);
   for(const value of ['€ 86','€ 60,20','€ 169','€ 86–338','Non previste','Decurtazione punti patente No'])
     assert.ok(pdfText.includes(normalize(value)),`${item.code}: PDF ${value}`);
   const evidence=window.prontuarioEvidenceHints(item.staticModelCode);

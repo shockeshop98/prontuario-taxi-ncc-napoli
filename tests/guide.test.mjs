@@ -12,10 +12,10 @@ const sample = (field, prefix) => field.id === 'service_vehicle_title_outcome' ?
 const legalFields = data.catalog.map(({id,code,ref,verbaleRef,sanction,payments,responsibility,kind,scope,referenceOnly}) =>
   ({id,code,ref,verbaleRef,sanction,payments,responsibility,kind,scope,referenceOnly}));
 assert.equal(createHash('sha256').update(JSON.stringify(legalFields)).digest('hex'),
-  'e3d723fda5ed10a174bba99fc4c1029cc5fc2c05209c1a7606a54e4224026612',
-  'Norme, importi, responsabilità e classificazioni devono coincidere con il commit 6f6a381');
-assert.equal(guidePack.guides.length, 118);
-assert.equal(new Set(guidePack.guides.map(guide => guide.id)).size, 118);
+  '7266c1307ef332ec2bc3058e1d8cba696511f66e01317b6057dca42810d2afed',
+  'Norme, importi e responsabilità: restano solo G24 e rimozione R17/R18 come variazioni approvate');
+assert.equal(guidePack.guides.length, 116);
+assert.equal(new Set(guidePack.guides.map(guide => guide.id)).size, 116);
 assert.deepEqual(new Set(guidePack.guides.map(guide => guide.id)), new Set(data.catalog.map(item => item.id)));
 const byId = new Map(data.catalog.map(item => [item.id, item]));
 const regulation = 'Regolamento comunale (delibera C.C. n. 80/2005), ';
@@ -344,4 +344,4 @@ assert.doesNotMatch(ui, /localStorage|sessionStorage|indexedDB|caches\.|sendBeac
 assert.match(ui, /pagehide/);
 assert.match(ui, /pageshow/);
 assert.match(ui,/La scheda del fatto attuale resta consultabile/);
-console.log('Dati operativi non esposti: 118 ID, 166 ambiti, 64 blocchi, catalogo giuridico invariato e privacy OK');
+console.log('Dati operativi non esposti: 116 ID, catalogo coerente e privacy OK');

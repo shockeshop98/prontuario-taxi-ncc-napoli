@@ -12,14 +12,15 @@ const window={};
 for(const name of ['scripts/static-demos.js','scripts/taxi-collettivo.js','scripts/static-catalog.js'])
   vm.runInNewContext(await readFile(resolve(root,name),'utf8'),{window},{filename:name});
 const c=window.prontuarioTaxiCollettivo;
-assert.equal(data.catalog.length,118,'Il catalogo sanzionatorio originario resta invariato');
+assert.equal(data.catalog.length,116,'R17 e R18 non sono più nel catalogo attivo');
+assert.ok(!data.catalog.some(item=>['R17','R18'].includes(item.code)));
 assert.ok(!data.catalog.some(item=>item.code==='TC01'));
 assert.equal(c.item.code,'TC01');
 assert.equal(c.item.referenceOnly,true);
 assert.equal(c.item.payments.length,0,'La scheda di consultazione non attribuisce importi');
 assert.ok(data.manualParts.find(part=>part.type==='taxi').cases.includes(c.item.id));
 const layout=window.prontuarioStaticLayout(data.catalog,data.manualParts,data.staticPages);
-assert.equal(layout.rows.length,189);
+assert.equal(layout.rows.length,187);
 assert.equal(layout.pages[`${c.item.id}/Taxi`],data.staticPages[`${c.item.id}/Taxi`]);
 for(const term of ['taxi sharing','collettivo','Alibus','sei euro','6 euro','aeroporto','Capodichino','meno di sette posti'])
   assert.ok(c.item.searchTerms.toLowerCase().includes(term.toLowerCase()),`Sinonimo ${term}`);
@@ -37,4 +38,4 @@ for(const [index,hash] of [[6,'7b00c00d07c3ea75228137861beb64af43d884ff87a3d8510
   assert.equal(createHash('sha256').update(await readFile(resolve(root,source.url))).digest('hex'),hash,`Originale ${source.url}`);
   assert.ok(source.pages.length>=3,`Testo ricercabile ${source.url}`);
 }
-console.log('Taxi collettivo: TC01 senza importi, atti distinti, 8 ricerche, 11 rinvii, 3 originali integri e offline OK');
+console.log('Taxi collettivo: TC01 senza importi, atti distinti, 8 ricerche, 9 rinvii, 3 originali integri e offline OK');

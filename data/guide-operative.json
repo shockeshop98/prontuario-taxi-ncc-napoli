@@ -3922,28 +3922,28 @@
     {
       "id": "fila",
       "code": "G24",
-      "title": "Fila al posteggio e allontanamento per cercare clienti",
+      "title": "Comportamento scorretto: acquisizione di clienti fuori dalla fila dei passeggeri",
       "status": "draft_for_author_review",
       "sourceBasis": "PWA 1.4.2, commit 6f6a381; testi, riferimenti, accertamenti e procedure già presenti; scenario e aiuti redazionali nuovi.",
       "scenario": {
         "label": "Situazione esemplificativa, non fatto accertato",
-        "text": "Il conducente lascia il taxi al posteggio e va a cercare clienti presso una fermata.",
+        "text": "Al posteggio vi sono passeggeri in fila. Il conducente si rivolge ad altre persone, acquisisce la corsa e le preleva scavalcando gli utenti in attesa.",
         "automaticallyInserted": false
       },
       "applicability": {
-        "when": "Posizione di auto e conducente; distanza e durata; richiesta rimasta senza risposta oppure ordine della fila.",
-        "notEnough": "Il solo colloquio con persone; non prova perdita di disponibilità né salto della fila.",
-        "verifyFirst": "Durante il turno al posteggio, il conducente si allontana dalla vettura per cercare clienti, venendo meno alla disponibilità al pubblico in prossimità del taxi o alla possibilità di rispondere tempestivamente alle chiamate. Accertare questi elementi concretamente. Per la fila, ricostruire ordine di arrivo e partenza, radiochiamata ed eventuale scelta dell’utente.",
+        "when": "Fila dei passeggeri presente; persone esterne contattate; corsa acquisita e prelievo accertati.",
+        "notEnough": "Il solo colloquio con persone o la loro presenza vicino al taxi non prova l’acquisizione e il prelievo fuori dalla fila.",
+        "verifyFirst": "Il tassista si rivolge a persone esterne alla fila dei passeggeri già in attesa al posteggio, acquisisce la corsa e le preleva scavalcando gli utenti in fila. Verificare presenza della fila, contatto, offerta, prelievo, luogo, orari e fonti distinte. “Fuori dalla fila” non significa necessariamente prelievo fuori posteggio.",
         "qualification": "Verificare nel caso concreto la base e i presupposti indicati nella scheda; la guida non trasforma una verifica pendente in una violazione accertata.",
         "referenceOnly": false
       },
       "descriptionHelp": {
-        "prompt": "Ricostruisci il fatto seguendo questi dettagli: Posizione di auto e conducente; distanza e durata; richiesta rimasta senza risposta oppure ordine della fila.",
-        "avoid": "Il solo colloquio con persone; non prova perdita di disponibilità né salto della fila.",
-        "documentPrompt": "Luogo, orari e durata osservata; distanza e posizione del conducente rispetto al taxi; chiamate e richieste, con eventuale mancata risposta; dichiarazioni. Acquisire condizione della licenza e fonte."
+        "prompt": "Ricostruire fila dei passeggeri, persone esterne avvicinate, offerta, acquisizione, prelievo, luoghi e orari.",
+        "avoid": "Non confondere la fila dei passeggeri con quella delle vetture e non presumere un prelievo fuori posteggio.",
+        "documentPrompt": "Presenza della fila dei passeggeri al posteggio; persone esterne avvicinate dal conducente; offerta della corsa, acquisizione e prelievo; luogo e orari. Separare osservazioni dirette, dichiarazioni formalizzate ed eventuali altri documenti. Il prelievo fuori posteggio richiede un accertamento distinto."
       },
       "evidenceHelp": {
-        "focus": "Posizione di auto e conducente; distanza e durata; richiesta rimasta senza risposta oppure ordine della fila.",
+        "focus": "Distinguere osservazione diretta di fila, offerta e prelievo dalle dichiarazioni formalizzate e dai fatti soltanto riferiti.",
         "choices": [
           {
             "id": "direct",
@@ -3993,23 +3993,21 @@
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
-        "existingText": "Descrivere il concreto inadempimento dell’obbligo di disponibilità oppure della fila, con riscontri e condizioni del titolo. Segnalazione all’Ufficio Verbali per il seguito verso il Corso Pubblico; indicare soltanto gli atti effettivamente compiuti.",
-        "photographicSuggestions": [
-          "Scattare, se utile, foto d’insieme del posteggio e della posizione di vettura e conducente; annotare distanza, durata e richieste rimaste senza risposta."
-        ],
+        "existingText": "Descrivere la fila, le persone cercate fuori dalla fila, la corsa acquisita e il prelievo realmente accertati; segnalare all’Ufficio Verbali per il seguito comunale. Documentare soltanto atti e fonti effettivi.",
+        "photographicSuggestions": [],
         "corsoPubblico": "Segnalazione all’Ufficio Corso Pubblico tramite il percorso dell’Ufficio Verbali, distinta dagli invii alle altre autorità.",
         "actsAreNotOptionalObligations": "Le caselle selezionano frasi da riportare, non rendono facoltativi gli adempimenti dovuti."
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.3 e art.23 c.1 lett.g",
-          "baseTemplate": "Durante il servizio con il veicolo con C.P. n. {{fact_01}}, al posteggio {{fact_02}}, durante il turno {{fact_03}}, si allontanava dal taxi per cercare clienti presso {{fact_04}}, rimanendo {{fact_05}} e venendo meno a {{fact_06}}, come riscontrato da {{fact_07}}.",
+          "normativeRef": "Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. c; CdS art. 86, comma 3-bis (solo se condizione della licenza autonomamente verificata)",
+          "baseTemplate": "Alla guida del veicolo indicato, con C.P. n. {{fact_01}}, acquisiva clienti fuori dalla fila dei passeggeri in attesa al posteggio {{fact_02}}: {{fact_03}}. Si rivolgeva alle persone {{fact_05}} in {{fact_04}} e le prelevava {{fact_06}}, scavalcando gli utenti in fila. Il fatto risultava da {{fact_07}}.",
           "fields": [
             {
               "id": "fact_01",
               "label": "CP",
-              "context": "",
-              "help": "Numero del Corso Pubblico/licenza associato al veicolo. Non inserire la targa in questo campo.",
+              "context": "G24: acquisizione e prelievo fuori dalla fila dei passeggeri",
+              "help": "Indicare soltanto fatti, luoghi e orari effettivamente riscontrati.",
               "input": "text",
               "requiredForSelectedBlock": true,
               "default": "",
@@ -4017,9 +4015,9 @@
             },
             {
               "id": "fact_02",
-              "label": "LUOGO",
-              "context": "[CP], al posteggio",
-              "help": "Luogo o percorso riferito a questa frase: [CP], al posteggio Indicare punto concreto e modalità del riscontro, distinguendo prelievo, arrivo e custodia.",
+              "label": "POSTEGGIO",
+              "context": "G24: acquisizione e prelievo fuori dalla fila dei passeggeri",
+              "help": "Indicare soltanto fatti, luoghi e orari effettivamente riscontrati.",
               "input": "text",
               "requiredForSelectedBlock": true,
               "default": "",
@@ -4027,9 +4025,9 @@
             },
             {
               "id": "fact_03",
-              "label": "TURNO",
-              "context": "[CP], al posteggio [LUOGO], durante il turno",
-              "help": "Descrivere in termini concreti posizione di auto e conducente; distanza e durata; richiesta rimasta senza risposta oppure ordine della fila. Per questo campo precisare: TURNO. Non lasciare alternative contraddittorie.",
+              "label": "PASSEGGIERI IN FILA E ORARIO",
+              "context": "G24: acquisizione e prelievo fuori dalla fila dei passeggeri",
+              "help": "Indicare soltanto fatti, luoghi e orari effettivamente riscontrati.",
               "input": "text",
               "requiredForSelectedBlock": true,
               "default": "",
@@ -4037,9 +4035,9 @@
             },
             {
               "id": "fact_04",
-              "label": "LUOGO",
-              "context": "rante il turno [TURNO], si allontanava dal taxi per cercare clienti presso",
-              "help": "Luogo o percorso riferito a questa frase: rante il turno [TURNO], si allontanava dal taxi per cercare clienti presso Indicare punto concreto e modalità del riscontro, distinguendo prelievo, arrivo e custodia.",
+              "label": "LUOGO DEL CONTATTO",
+              "context": "G24: acquisizione e prelievo fuori dalla fila dei passeggeri",
+              "help": "Indicare soltanto fatti, luoghi e orari effettivamente riscontrati.",
               "input": "text",
               "requiredForSelectedBlock": true,
               "default": "",
@@ -4047,9 +4045,9 @@
             },
             {
               "id": "fact_05",
-              "label": "DISTANZA/DURATA",
-              "context": "NO], si allontanava dal taxi per cercare clienti presso [LUOGO], rimanendo",
-              "help": "Momento o periodo riferito a questa frase: NO], si allontanava dal taxi per cercare clienti presso [LUOGO], rimanendo Distinguere fatto, verifica, notifica e scadenza; precisare intervalli non osservati.",
+              "label": "PERSONE ESTERNE ALLA FILA E OFFERTA",
+              "context": "G24: acquisizione e prelievo fuori dalla fila dei passeggeri",
+              "help": "Indicare soltanto fatti, luoghi e orari effettivamente riscontrati.",
               "input": "text",
               "requiredForSelectedBlock": true,
               "default": "",
@@ -4057,9 +4055,9 @@
             },
             {
               "id": "fact_06",
-              "label": "DISPONIBILITÀ IN PROSSIMITÀ DELLA VETTURA/RISPOSTA TEMPESTIVA",
-              "context": "rcare clienti presso [LUOGO], rimanendo [DISTANZA/DURATA] e venendo meno a",
-              "help": "Descrivere in termini concreti posizione di auto e conducente; distanza e durata; richiesta rimasta senza risposta oppure ordine della fila. Per questo campo precisare: DISPONIBILITÀ IN PROSSIMITÀ DELLA VETTURA/RISPOSTA TEMPESTIVA. Non lasciare alternative contraddittorie.",
+              "label": "LUOGO E ORARIO DEL PRELIEVO",
+              "context": "G24: acquisizione e prelievo fuori dalla fila dei passeggeri",
+              "help": "Indicare il prelievo realmente accertato, senza presumere che avvenga fuori posteggio.",
               "input": "text",
               "requiredForSelectedBlock": true,
               "default": "",
@@ -4067,9 +4065,9 @@
             },
             {
               "id": "fact_07",
-              "label": "FATTI E PROVE",
-              "context": "LITÀ IN PROSSIMITÀ DELLA VETTURA/RISPOSTA TEMPESTIVA], come riscontrato da",
-              "help": "Specificare posizione di auto e conducente; distanza e durata; richiesta rimasta senza risposta oppure ordine della fila. Distinguere osservazione diretta, dichiarazione acquisita, fatti riferiti nella relazione e documenti; non attribuire a una fonte ciò che non dimostra.",
+              "label": "RISCONTRI DISTINTI",
+              "context": "G24: acquisizione e prelievo fuori dalla fila dei passeggeri",
+              "help": "Separare osservazioni dirette e dichiarazioni formalizzate; le parole soltanto riferite vanno nella relazione.",
               "input": "textarea",
               "requiredForSelectedBlock": true,
               "default": "",
@@ -8024,322 +8022,6 @@
               "label": "RISCONTRI",
               "context": "[CP] mancava o era difforme [INSEGNA/DISPLAY/SEGNALATORE], come da",
               "help": "Specificare titolo collettivo; dotazione; stato osservato; destinazione e posti indicati. Distinguere osservazione diretta, dichiarazione acquisita, fatti riferiti nella relazione e documenti; non attribuire a una fonte ciò che non dimostra.",
-              "input": "textarea",
-              "requiredForSelectedBlock": true,
-              "default": "",
-              "exampleIsNeverValue": true
-            }
-          ],
-          "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
-          "relationFinalSentence": "",
-          "outputDefault": "relation",
-          "allowVerbale": true,
-          "requiresQualificationConfirmationForVerbale": true,
-          "scopeLabel": "Taxi",
-          "optionalContext": {
-            "label": "Data, ora e luogo, se non già nei campi del verbale",
-            "selectedByDefault": false,
-            "template": "In data {{context_date}}, alle ore {{context_time}}, in {{context_place}}, veniva effettuato il controllo.",
-            "fields": [
-              {
-                "id": "context_date",
-                "label": "DATA CONTROLLO",
-                "context": "Data dell’accertamento",
-                "help": "Data del controllo, distinta dalla data di risposta dell’ufficio.",
-                "input": "text",
-                "default": ""
-              },
-              {
-                "id": "context_time",
-                "label": "ORA CONTROLLO",
-                "context": "Orario dell’accertamento",
-                "help": "Orario del controllo; gli orari della corsa e degli altri eventi restano nei loro campi.",
-                "input": "text",
-                "default": ""
-              },
-              {
-                "id": "context_place",
-                "label": "LUOGO CONTROLLO",
-                "context": "Posizione del controllo",
-                "help": "Via, civico o punto identificabile; distinto dal punto di prelievo e dal luogo di custodia.",
-                "input": "text",
-                "default": ""
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "id": "collettivosigillo",
-      "code": "R17",
-      "title": "Tassametro del taxi collettivo non sigillato",
-      "status": "draft_for_author_review",
-      "sourceBasis": "PWA 1.4.2, commit 6f6a381; testi, riferimenti, accertamenti e procedure già presenti; scenario e aiuti redazionali nuovi.",
-      "scenario": {
-        "label": "Situazione esemplificativa, non fatto accertato",
-        "text": "La sigillatura del tassametro del collettivo non corrisponde a quella prescritta.",
-        "automaticallyInserted": false
-      },
-      "applicability": {
-        "when": "Sigillo previsto; stato; attestazione; assetto collettivo; riscontro tecnico.",
-        "notEnough": "Equiparare ogni sigillo mancante a una manomissione provata.",
-        "verifyFirst": "Verificare il servizio collettivo e la sigillatura prevista per tale assetto.",
-        "qualification": "Verificare nel caso concreto la base e i presupposti indicati nella scheda; la guida non trasforma una verifica pendente in una violazione accertata.",
-        "referenceOnly": false
-      },
-      "descriptionHelp": {
-        "prompt": "Ricostruisci il fatto seguendo questi dettagli: Sigillo previsto; stato; attestazione; assetto collettivo; riscontro tecnico.",
-        "avoid": "Equiparare ogni sigillo mancante a una manomissione provata.",
-        "documentPrompt": "Titolo collettivo; sigillo; disposizione; foto; verifica tecnica."
-      },
-      "evidenceHelp": {
-        "focus": "Sigillo previsto; stato; attestazione; assetto collettivo; riscontro tecnico.",
-        "choices": [
-          {
-            "id": "direct",
-            "label": "Osservazione diretta",
-            "help": "Completa «Gli operanti osservavano inoltre…» con un fatto personalmente visto o udito, senza ripetere l’osservazione già descritta.",
-            "template": "Gli operanti osservavano inoltre [FATTO, MOMENTO E CIRCOSTANZE]."
-          },
-          {
-            "id": "statement",
-            "label": "Dichiarazione formalizzata",
-            "help": "Usa questa voce solo se la dichiarazione è stata formalizzata: indica dichiarante, contenuto e estremi del relativo verbale. Le parole soltanto riferite vanno nella relazione.",
-            "template": "[DICHIARANTE] ha dichiarato [CONTENUTO], come risulta dal verbale [ESTREMI]."
-          },
-          {
-            "id": "reported_relation",
-            "label": "Fatti riferiti da riportare nella relazione",
-            "help": "Indica chi ha riferito cosa e in quali circostanze. Questo blocco compare solo nella relazione; non dichiarare esistente una relazione non ancora redatta.",
-            "template": "Nel corso del controllo, [SOGGETTO] riferiva [FATTO E CIRCOSTANZE]."
-          },
-          {
-            "id": "document",
-            "label": "Documento esaminato o copia acquisita",
-            "help": "Indica documento, estremi, dato letto e seleziona se è stato solo esaminato o se ne è stata acquisita copia. Aggiungi solo elementi ulteriori rispetto ai campi già compilati.",
-            "template": "Dal documento [ESTREMI], esaminato durante il controllo, risultava [DATO]. La copia acquisita è indicata separatamente solo se selezionata."
-          },
-          {
-            "id": "office",
-            "label": "Risposta dell’ufficio",
-            "help": "Indica solo interlocuzioni effettive ulteriori rispetto ai riscontri già riportati nei campi sul titolo; una richiesta pendente non è una risposta ottenuta.",
-            "template": "L’ufficio [NOME], interpellato il [DATA E ORA] tramite [CANALE], comunicava [RISPOSTA] ([ESTREMI])."
-          }
-        ],
-        "passengerRefusal": ""
-      },
-      "officeHelp": {
-        "category": "Ufficio o soggetto competente per lo specifico accertamento tecnico",
-        "request": "Individuare competenza tecnica sull’apparecchio o sul veicolo, acquisendo verbale/attestazione. Non sostituire la verifica specialistica con un’impressione visiva.",
-        "answerFields": [
-          "Ufficio effettivamente interpellato",
-          "Data e ora",
-          "Canale",
-          "Contenuto della risposta",
-          "Estremi disponibili",
-          "Ottenuto / pendente"
-        ],
-        "automaticallyFilled": false
-      },
-      "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
-      "procedure": {
-        "existingText": "Acquisire riscontro tecnico e assetto autorizzato. Art.29 c.2 lett.b: sospensione 15/30/60 giorni; 5 punti sulla licenza dalle violazioni successive alla prima. Segnalare all’Ufficio Verbali; il c.4 non prevede il ritiro immediato per questo gruppo.",
-        "photographicSuggestions": [
-          "Se utile, scattare foto del tassametro e del sigillo o del suo alloggiamento; acquisire il riscontro tecnico pertinente."
-        ],
-        "corsoPubblico": "Segnalazione all’Ufficio Corso Pubblico tramite il percorso dell’Ufficio Verbali, distinta dagli invii alle altre autorità.",
-        "actsAreNotOptionalObligations": "Le caselle selezionano frasi da riportare, non rendono facoltativi gli adempimenti dovuti."
-      },
-      "variants": {
-        "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 19 c.2",
-          "baseTemplate": "Nel servizio taxi collettivo con il veicolo con C.P. n. {{fact_01}}, il tassametro non risultava sigillato secondo {{fact_02}}, come da {{fact_03}}.",
-          "fields": [
-            {
-              "id": "fact_01",
-              "label": "CP",
-              "context": "",
-              "help": "Numero del Corso Pubblico/licenza associato al veicolo. Non inserire la targa in questo campo.",
-              "input": "text",
-              "requiredForSelectedBlock": true,
-              "default": "",
-              "exampleIsNeverValue": true
-            },
-            {
-              "id": "fact_02",
-              "label": "PRESCRIZIONE",
-              "context": "[CP], il tassametro non risultava sigillato secondo",
-              "help": "Indicare l’atto o la condizione efficace e la fonte. Per le alternative scegliere soltanto quella accertata; non riportare insieme assenza, sospensione e revoca.",
-              "input": "text",
-              "requiredForSelectedBlock": true,
-              "default": "",
-              "exampleIsNeverValue": true
-            },
-            {
-              "id": "fact_03",
-              "label": "RISCONTRO",
-              "context": "CP], il tassametro non risultava sigillato secondo [PRESCRIZIONE], come da",
-              "help": "Specificare sigillo previsto; stato; attestazione; assetto collettivo; riscontro tecnico. Distinguere osservazione diretta, dichiarazione acquisita, fatti riferiti nella relazione e documenti; non attribuire a una fonte ciò che non dimostra.",
-              "input": "textarea",
-              "requiredForSelectedBlock": true,
-              "default": "",
-              "exampleIsNeverValue": true
-            }
-          ],
-          "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
-          "relationFinalSentence": "",
-          "outputDefault": "relation",
-          "allowVerbale": true,
-          "requiresQualificationConfirmationForVerbale": true,
-          "scopeLabel": "Taxi",
-          "optionalContext": {
-            "label": "Data, ora e luogo, se non già nei campi del verbale",
-            "selectedByDefault": false,
-            "template": "In data {{context_date}}, alle ore {{context_time}}, in {{context_place}}, veniva effettuato il controllo.",
-            "fields": [
-              {
-                "id": "context_date",
-                "label": "DATA CONTROLLO",
-                "context": "Data dell’accertamento",
-                "help": "Data del controllo, distinta dalla data di risposta dell’ufficio.",
-                "input": "text",
-                "default": ""
-              },
-              {
-                "id": "context_time",
-                "label": "ORA CONTROLLO",
-                "context": "Orario dell’accertamento",
-                "help": "Orario del controllo; gli orari della corsa e degli altri eventi restano nei loro campi.",
-                "input": "text",
-                "default": ""
-              },
-              {
-                "id": "context_place",
-                "label": "LUOGO CONTROLLO",
-                "context": "Posizione del controllo",
-                "help": "Via, civico o punto identificabile; distinto dal punto di prelievo e dal luogo di custodia.",
-                "input": "text",
-                "default": ""
-              }
-            ]
-          }
-        }
-      }
-    },
-    {
-      "id": "collettivoposti",
-      "code": "R18",
-      "title": "Taxi collettivo con meno di sette posti per l’utenza",
-      "status": "draft_for_author_review",
-      "sourceBasis": "PWA 1.4.2, commit 6f6a381; testi, riferimenti, accertamenti e procedure già presenti; scenario e aiuti redazionali nuovi.",
-      "scenario": {
-        "label": "Situazione esemplificativa, non fatto accertato",
-        "text": "Il collettivo mette a disposizione meno posti rispetto al requisito applicabile.",
-        "automaticallyInserted": false
-      },
-      "applicability": {
-        "when": "Posti omologati; posti disponibili; impedimenti; titolo collettivo.",
-        "notEnough": "Contare i passeggeri presenti anziché i posti disponibili.",
-        "verifyFirst": "Confrontare posti omologati e posti realmente disponibili all’utenza.",
-        "qualification": "Verificare nel caso concreto la base e i presupposti indicati nella scheda; la guida non trasforma una verifica pendente in una violazione accertata.",
-        "referenceOnly": false
-      },
-      "descriptionHelp": {
-        "prompt": "Ricostruisci il fatto seguendo questi dettagli: Posti omologati; posti disponibili; impedimenti; titolo collettivo.",
-        "avoid": "Contare i passeggeri presenti anziché i posti disponibili.",
-        "documentPrompt": "Documento veicolo; titolo collettivo; foto; disponibilità posti."
-      },
-      "evidenceHelp": {
-        "focus": "Posti omologati; posti disponibili; impedimenti; titolo collettivo.",
-        "choices": [
-          {
-            "id": "direct",
-            "label": "Osservazione diretta",
-            "help": "Completa «Gli operanti osservavano inoltre…» con un fatto personalmente visto o udito, senza ripetere l’osservazione già descritta.",
-            "template": "Gli operanti osservavano inoltre [FATTO, MOMENTO E CIRCOSTANZE]."
-          },
-          {
-            "id": "statement",
-            "label": "Dichiarazione formalizzata",
-            "help": "Usa questa voce solo se la dichiarazione è stata formalizzata: indica dichiarante, contenuto e estremi del relativo verbale. Le parole soltanto riferite vanno nella relazione.",
-            "template": "[DICHIARANTE] ha dichiarato [CONTENUTO], come risulta dal verbale [ESTREMI]."
-          },
-          {
-            "id": "reported_relation",
-            "label": "Fatti riferiti da riportare nella relazione",
-            "help": "Indica chi ha riferito cosa e in quali circostanze. Questo blocco compare solo nella relazione; non dichiarare esistente una relazione non ancora redatta.",
-            "template": "Nel corso del controllo, [SOGGETTO] riferiva [FATTO E CIRCOSTANZE]."
-          },
-          {
-            "id": "document",
-            "label": "Documento esaminato o copia acquisita",
-            "help": "Indica documento, estremi, dato letto e seleziona se è stato solo esaminato o se ne è stata acquisita copia. Aggiungi solo elementi ulteriori rispetto ai campi già compilati.",
-            "template": "Dal documento [ESTREMI], esaminato durante il controllo, risultava [DATO]. La copia acquisita è indicata separatamente solo se selezionata."
-          },
-          {
-            "id": "office",
-            "label": "Risposta dell’ufficio",
-            "help": "Indica solo interlocuzioni effettive ulteriori rispetto ai riscontri già riportati nei campi sul titolo; una richiesta pendente non è una risposta ottenuta.",
-            "template": "L’ufficio [NOME], interpellato il [DATA E ORA] tramite [CANALE], comunicava [RISPOSTA] ([ESTREMI])."
-          }
-        ],
-        "passengerRefusal": ""
-      },
-      "officeHelp": {
-        "category": "Ufficio competente sul titolo del Comune di rilascio",
-        "request": "Chiedere esistenza, efficacia, veicolo associato ed estremi degli eventuali provvedimenti; per titoli Napoli seguire il percorso interno verso il Corso Pubblico. Non assumere che ogni titolo sia napoletano.",
-        "answerFields": [
-          "Ufficio effettivamente interpellato",
-          "Data e ora",
-          "Canale",
-          "Contenuto della risposta",
-          "Estremi disponibili",
-          "Ottenuto / pendente"
-        ],
-        "automaticallyFilled": false
-      },
-      "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
-      "procedure": {
-        "existingText": "Annotare numero e causa della riduzione; verificare l’assetto autorizzato.",
-        "photographicSuggestions": [
-          "Acquisire l’omologazione; se utile, scattare foto della configurazione dei posti effettivamente messi a disposizione."
-        ],
-        "corsoPubblico": "Segnalazione all’Ufficio Corso Pubblico tramite il percorso dell’Ufficio Verbali, distinta dagli invii alle altre autorità.",
-        "actsAreNotOptionalObligations": "Le caselle selezionano frasi da riportare, non rendono facoltativi gli adempimenti dovuti."
-      },
-      "variants": {
-        "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 19 c.3",
-          "baseTemplate": "Nel servizio taxi collettivo, il veicolo con C.P. n. {{fact_01}} metteva a disposizione dell’utenza {{fact_02}} posti, inferiori a sette, come da {{fact_03}}.",
-          "fields": [
-            {
-              "id": "fact_01",
-              "label": "CP",
-              "context": "",
-              "help": "Numero del Corso Pubblico/licenza associato al veicolo. Non inserire la targa in questo campo.",
-              "input": "text",
-              "requiredForSelectedBlock": true,
-              "default": "",
-              "exampleIsNeverValue": true
-            },
-            {
-              "id": "fact_02",
-              "label": "NUMERO",
-              "context": "[CP] metteva a disposizione dell’utenza",
-              "help": "Estremi del documento o dell’atto citato in questa frase: [CP] metteva a disposizione dell’utenza Non riutilizzare automaticamente il numero della patente per un verbale.",
-              "input": "text",
-              "requiredForSelectedBlock": true,
-              "default": "",
-              "exampleIsNeverValue": true
-            },
-            {
-              "id": "fact_03",
-              "label": "DOCUMENTI E RISCONTRI",
-              "context": "teva a disposizione dell’utenza [NUMERO] posti, inferiori a sette, come da",
-              "help": "Specificare posti omologati; posti disponibili; impedimenti; titolo collettivo. Distinguere osservazione diretta, dichiarazione acquisita, fatti riferiti nella relazione e documenti; non attribuire a una fonte ciò che non dimostra.",
               "input": "textarea",
               "requiredForSelectedBlock": true,
               "default": "",

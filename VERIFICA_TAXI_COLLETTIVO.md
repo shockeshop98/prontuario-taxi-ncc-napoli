@@ -1,6 +1,6 @@
 # Taxi collettivo Aeroporto–Stazione Centrale–Molo Beverello · revisione locale
 
-Verifica documentale del 4 ottobre 2026. Questa scheda di lavoro distingue il testo degli atti dalla qualificazione sanzionatoria, che non è stata modificata nel catalogo.
+Verifica documentale aggiornata al 6 ottobre 2026. I tre originali sono ordinanze dirigenziali. Questa scheda di lavoro distingue il testo degli atti dalla qualificazione sanzionatoria, che non è attribuita automaticamente da TC01.
 
 ## Atti esaminati integralmente
 
@@ -17,20 +17,20 @@ La ricerca mirata nell’archivio ufficiale e negli allegati indicizzati non ha 
 ## Collegamenti con le schede esistenti
 
 - **G04 e G08:** confrontare il corrispettivo con la tariffa specifica della tratta, senza duplicare la medesima contestazione.
-- **I01 e R17:** il richiamo della delibera G.C. n. 634/2018 indica tassametro non avviato nel trasporto cumulativo; il sigillo prescritto dal regolamento è un tema distinto.
+- **I01:** il richiamo della delibera G.C. n. 634/2018 indica tassametro non avviato nel trasporto cumulativo; ciò non prova un difetto del sigillo. Il punto è riportato in TC01 senza una scheda sanzionatoria autonoma.
 - **G28:** la ricevuta prima della partenza, riportata nel richiamo alla delibera, non coincide automaticamente con la fattispecie del documento non rilasciato *su richiesta*.
 - **G50 e G51:** distinguere tempo di attesa e avviso interno sui cinque minuti; chiarire il rapporto con la partenza dopo 15 minuti prevista dall’O.D. 2019.
 - **G52, G43 e R16:** distinguere stalli dedicati, sosta fuori posteggio, insegna/display regolamentari e tabella specifica sul parabrezza.
-- **R18:** l’integrazione del 2026 impedisce di trattare automaticamente il solo numero inferiore a sette come violazione su questa tratta nel periodo documentato.
+- **TC01:** l’integrazione del 2026 impedisce di trattare automaticamente il solo numero inferiore a sette come violazione su questa tratta nel periodo documentato. Non estendere la deroga ad altre tratte.
 
-La nuova TC01 è una scheda di **sola consultazione**, fuori dalle 118 voci sanzionatorie: non ha importi, responsabilità, frase finale del verbale né formula da copiare.
+TC01 è una scheda di **sola consultazione**, fuori dalle 116 voci del catalogo attivo: non ha importi, responsabilità, frase finale del verbale né formula da copiare. Le precedenti schede R17 e R18 non compaiono più in catalogo, ricerca, indice o PDF. Gli originali dei provvedimenti restano integri.
 
 ## Questioni da sottoporre all’ufficio competente
 
 1. Come si coordinano il massimo di cinque minuti dalla **salita del primo passeggero** dell’art. 19, comma 4, del regolamento e la partenza dopo 15 minuti dall’**arrivo dei primi tre passeggeri** dell’O.D. n. 1/2019, punto 4.3? Quali momenti e condizioni vanno documentati nella tratta?
 2. Per tassametro non avviato, ricevuta, fermate distanti da ALIBUS e allontanamento dei veicoli eccedenti gli stalli, quali punti della delibera G.C. n. 634/2018 sono direttamente operativi? Occorre acquisire il testo integrale della delibera, oltre al richiamo nelle premesse delle ordinanze.
 3. L’espressione “solo da coloro che non sono di turno in aeroporto” come si coordina con “taxi di turno” usata per l’esposizione della tabella? Quale turnazione va riscontrata nel caso concreto?
-4. Qual è il rapporto applicativo tra l’ammissione temporanea dei veicoli con meno di sette posti disposta dall’O.D. n. 9/2026 e il minimo dell’art. 19, comma 3, del regolamento approvato dal Consiglio comunale? Confermare ambito, efficacia e seguito di R18 senza attribuire sanzioni per analogia.
+4. Qual è il rapporto applicativo tra l’ammissione temporanea dei veicoli con meno di sette posti disposta dall’O.D. n. 9/2026 e il minimo dell’art. 19, comma 3, del regolamento approvato dal Consiglio comunale? Confermare ambito ed efficacia senza attribuire sanzioni per analogia.
 5. Per una contestazione sugli stalli, quale segnaletica è installata ed efficace nel luogo e alla data del fatto? L’O.D. n. 1/2019 ne subordina l’entrata in vigore all’installazione.
 
 Fino al chiarimento, registrare i fatti e i riscontri effettivi; non dedurre da TC01 una nuova sanzione né una proroga oltre il 31/12/2026.

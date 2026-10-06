@@ -71,7 +71,7 @@
     const ref=window.prontuarioCatalogProvision(item,type);
     if(!ref)return '';
     if(ref.startsWith('Regolamento comunale')){
-      let article=legalCitation(ref.slice(ref.indexOf('),')+2).trim());
+      let article=legalCitation(ref.replace(/^Regolamento comunale\s*(?:\(delibera C\.C\. n\. 80\/2005\)|[–-]\s*delibera C\.C\. n\. 80\/2005)\s*,?\s*/,'').trim());
       article=article.replace(/^art\.\s*(\d+)\s+e\s+(\d+)/,'artt. $1 e $2').replace(/^art\./,'l’art.').replace(/^artt\./,'gli artt.');
       article=article.replace(/, comma 3 per NCC$/,', applicabile al NCC ai sensi del comma 3');
       return `La condotta violava ${article} del regolamento comunale – delibera C.C. n. 80/2005.`;
@@ -154,8 +154,7 @@
     G07:['I07 è un rinvio a queste fasce. Il tariffario comunale contiene anche i supplementi: descrivere l’assenza o la copertura del prospetto soltanto quando rende non chiaramente leggibili gli avvisi richiesti dalla L. 21/1992, art. 12, comma 2. Le sole ulteriori difformità comunali richiedono qualificazione separata e non ricevono automaticamente gli importi G07.'],
     I02:['Titolo e destinazione d’uso sono verifiche distinte. Se entrambe le irregolarità sono accertate, descrivere entrambi i fatti senza duplicare automaticamente la sanzione; una verifica pendente va soltanto nella relazione. Il trattamento del solo uso non conforme resta un quesito da validare con l’Ufficio Verbali.'],
     N02:['Per la conseguenza sulla patente, verificare identità e ruolo della persona interessata nel fatto attuale e nel precedente: la sola coincidenza dell’impresa, del titolare o dell’obbligato in solido non basta. Se il precedente è incompleto, documentare il fatto attuale senza concludere sulla reiterazione e senza attribuirgli automaticamente la prima fascia.'],
-    N03:['Per la conseguenza sulla patente, verificare identità e ruolo della persona interessata nel fatto attuale e nel precedente: la sola coincidenza dell’impresa, del titolare o dell’obbligato in solido non basta. Se il precedente è incompleto, documentare il fatto attuale senza concludere sulla reiterazione e senza attribuirgli automaticamente la prima fascia.'],
-    R18:['L’O.D. n. 9 del 06/08/2026 ammette temporaneamente anche veicoli con meno di sette posti a disposizione dell’utenza sulla tratta Aeroporto–Stazione Centrale–Molo Beverello, prorogata fino al 31/12/2026. Per questa tratta il solo numero dei posti non integra automaticamente la violazione; dopo tale data verificare eventuale nuova proroga.']
+    N03:['Per la conseguenza sulla patente, verificare identità e ruolo della persona interessata nel fatto attuale e nel precedente: la sola coincidenza dell’impresa, del titolare o dell’obbligato in solido non basta. Se il precedente è incompleto, documentare il fatto attuale senza concludere sulla reiterazione e senza attribuirgli automaticamente la prima fascia.']
   };
   window.prontuarioCatalogNotes = (item, model) => {
     const code=item.demoBaseCode||item.code;

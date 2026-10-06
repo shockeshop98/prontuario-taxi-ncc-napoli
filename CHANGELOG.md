@@ -1,5 +1,12 @@
 # Registro aggiornamenti
 
+## 1.8.5 — revisione locale, non pubblicata
+
+- R17 e R18 eliminate dal catalogo attivo, dalla ricerca, dall’indice, dalle formule, dal confronto regolamentare e dal PDF; gli originali documentali restano integri. TC01 raccoglie la disciplina specifica documentata della tratta Aeroporto–Stazione Centrale–Molo Beverello, con proroga al 31/12/2026 e deroga temporanea sui posti limitata alla tratta.
+- G24 riscritta come acquisizione e prelievo di persone esterne alla fila dei passeggeri al posteggio, ai sensi dell’art. 23, comma 1, lett. c, del regolamento comunale. La scheda distingue la condotta da un eventuale prelievo fuori posteggio e separa osservazioni e dichiarazioni.
+- G28-02 riporta anche l’art. 23, comma 1, lett. n, del regolamento comunale. Le note distinguono l’obbligo generale su richiesta dal rilascio a inizio corsa previsto dalla D.D. n. 72/2012, punto 7, lett. b, con richiamo alla D.D. n. 135/2010; gli originali integrali ancora mancanti restano da acquisire.
+- PDF 7.7: 206 pagine, 187 schede di una pagina e sei pagine di indice; collegamenti, versione, build e cache riallineati. Revisione soltanto locale.
+
 ## 1.8.4 — pubblicazione GitHub Pages
 
 - G28-01–04: tolta la D.D. 72/2012 dal riquadro “Normativa violata”; il richiamo resta nelle fonti e nel rapporto. L’art. 23, comma 1, lett. n, del regolamento comunale resta nel riquadro di G28-01, cui è direttamente pertinente. Importi e formule invariati.

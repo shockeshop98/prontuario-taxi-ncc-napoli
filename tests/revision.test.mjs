@@ -12,19 +12,19 @@ const catalog=data.catalog;
 const legalFields=catalog.map(({id,code,ref,verbaleRef,sanction,payments,responsibility,kind,scope,referenceOnly})=>
   ({id,code,ref,verbaleRef,sanction,payments,responsibility,kind,scope,referenceOnly}));
 assert.equal(createHash('sha256').update(JSON.stringify(legalFields)).digest('hex'),
-  'e3d723fda5ed10a174bba99fc4c1029cc5fc2c05209c1a7606a54e4224026612',
-  'Norme, importi, responsabilità e qualificazioni del catalogo storico invariati');
-assert.equal(catalog.length,118);
-assert.equal(data.prontuario.version,'7.6');
-assert.equal(data.sources[3].title,'Prontuario operativo 7.6 · Antonio Balzano');
+  '7266c1307ef332ec2bc3058e1d8cba696511f66e01317b6057dca42810d2afed',
+  'Norme, importi, responsabilità e qualificazioni invariati salvo G24 e rimozione R17/R18');
+assert.equal(catalog.length,116);
+assert.equal(data.prontuario.version,'7.7');
+assert.equal(data.sources[3].title,'Prontuario operativo 7.7 · Antonio Balzano');
 const window={};
 for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js'])
   vm.runInNewContext(await readFile(resolve(root,name),'utf8'),{window},{filename:name});
 const layout=window.prontuarioStaticLayout(catalog,data.manualParts,data.staticPages);
-assert.equal(layout.rows.length,189);
-assert.equal(layout.indexPageCount,7);
-assert.equal(layout.firstCasePage,14);
-assert.deepEqual(layout.sections.map(section=>section.rows.length),[115,70,4]);
+assert.equal(layout.rows.length,187);
+assert.equal(layout.indexPageCount,6);
+assert.equal(layout.firstCasePage,13);
+assert.deepEqual(layout.sections.map(section=>section.rows.length),[113,70,4]);
 assert.deepEqual(data.staticPages,JSON.parse(JSON.stringify(layout.pages)));
 const casePageCount=Object.values(data.staticPageSpans).reduce((sum,span)=>sum+span,0);
 assert.equal(Object.keys(data.staticPageSpans).length,layout.rows.length);
@@ -33,7 +33,7 @@ assert.equal(casePageCount,layout.rows.length);
 assert.equal(data.manualCommonPages.length,3);
 assert.equal(data.manualCommonPages[0],layout.firstCasePage+casePageCount);
 assert.equal(data.manualAuditPage,layout.firstCasePage+casePageCount+3);
-assert.equal(data.manualVariants.length,189);
+assert.equal(data.manualVariants.length,187);
 for(let index=1;index<=4;index++)assert.equal(
   data.staticPages[`nccserv-fascia-${index}/NCC`],
   data.staticPages[`nccfascia${index}/NCC`],`Rinvio I03-0${index}`);
@@ -49,7 +49,7 @@ for(const item of catalog){
   assert.equal(item.formula.split(finalSentence).length-1,expected?1:0,`Frase finale del catalogo ${item.code}`);
   if(expected)withFinal++;
 }
-assert.equal(withFinal,102);
+assert.equal(withFinal,100);
 assert.equal(catalog.filter(item=>item.referenceOnly).length,8);
 
 const pdf=await getDocument({
@@ -76,6 +76,12 @@ for(let number=1;number<=pdf.numPages;number++){
     }
   }
 }
+assert.ok(pageText.slice(1).every(text=>!text.includes(normalize('R17'))&&!text.includes(normalize('R18'))),'Schede soppresse assenti da PDF e indice');
+const g24Page=layout.pages['fila/Taxi'];
+assert.ok(pageText[g24Page].includes(normalize('Comportamento scorretto: acquisizione di clienti fuori dalla fila dei passeggeri')));
+assert.ok(pageText[g24Page].includes(normalize('art. 23, comma 1, lett. c')));
+assert.ok(pageText[g24Page].includes(normalize('prelevava')));
+assert.ok(!pageText[g24Page].includes(normalize('Fila al posteggio e allontanamento per cercare clienti')));
 for(const row of layout.rows){
   const {item,type}=row,base=item.demoBaseId||item.id;
   const number=layout.pages[`${item.id}/${type}`],span=data.staticPageSpans[`${item.id}/${type}`];
@@ -117,4 +123,4 @@ for(const section of data.manualIndex){
   }
 }
 await pdf.destroy();
-console.log('Revisione: 118 voci storiche, 189 schede PDF incl. TC01, 7 indici, ricevute distinte, rinvii I03/I07, importi e Corso Pubblico OK');
+console.log('Revisione: 116 voci attive, 187 schede PDF incl. TC01, 6 indici, ricevute distinte, rinvii I03/I07, importi e Corso Pubblico OK');

@@ -92,12 +92,12 @@ window.prontuarioStaticCatalog = {
     tail:'Richiesta, risposta e posti ammessi risultavano da […].'
   },
   G24: {
-    lead:'Durante il turno […], al posteggio […], si allontanava dal veicolo indicato, con C.P. n. […], per cercare clienti. In particolare:',
+    lead:'Alla guida del veicolo indicato, con C.P. n. […], acquisiva clienti fuori dalla fila dei passeggeri in attesa al posteggio […], scavalcandoli. In particolare:',
     options:[
-      'Raggiungeva […] a […] metri dal taxi e offriva la corsa a […], come osservato dagli operanti.',
-      'Lasciava il taxi per […] minuti e non rispondeva alla richiesta di […] presso la vettura.'
-    ], other:'Altra condotta di ricerca dei clienti accertata: […]',
-    tail:'Distanza, durata e disponibilità al posteggio risultavano da […].'
+      'Alle […] erano presenti passeggeri in fila; il conducente si rivolgeva a persone esterne alla fila in […] e le prelevava alle […].',
+      'Mentre gli utenti […] attendevano in fila dalle […], il conducente offriva la corsa a persone fuori fila presso […] e le faceva salire alle […].'
+    ], other:'Altra modalità di acquisizione e prelievo fuori dalla fila accertata: […]',
+    tail:'La fila, l’offerta della corsa e il prelievo, con luoghi e orari, risultavano da […].'
   },
   G26: {
     lead:'A seguito dell’avaria […] del veicolo indicato, con C.P. n. […], ometteva la richiesta di sostituzione prescritta. In particolare:',
@@ -274,22 +274,6 @@ window.prontuarioStaticCatalog = {
       'Il display o segnalatore […] riportava […] anziché il contenuto prescritto […].'
     ], other:'Altra difformità della segnalazione accertata: […]',
     tail:'La prescrizione e il dispositivo erano verificati mediante […].'
-  },
-  R17: {
-    lead:'Nel servizio taxi collettivo, il tassametro del veicolo indicato, con C.P. n. […], non risultava sigillato come prescritto. In particolare:',
-    options:[
-      'Il sigillo […] era assente sul punto […], come osservato dagli operanti.',
-      'Il sigillo […] era alterato rispetto alla verifica […] documentata da […].'
-    ], other:'Altra condizione del sigillo accertata: […]',
-    tail:'La prescrizione e l’ultimo controllo risultavano da […].'
-  },
-  R18: {
-    lead:'Nel servizio taxi collettivo, il veicolo indicato con C.P. n. […] offriva meno di sette posti all’utenza. In particolare:',
-    options:[
-      'Il documento di circolazione indicava […] posti per passeggeri.',
-      'I posti omologati erano […], ma quelli effettivamente disponibili agli utenti erano […] per […].'
-    ], other:'Altra configurazione dei posti accertata: […]',
-    tail:'Numero omologato e disponibilità effettiva risultavano da […].'
   },
   R19: {
     lead:'Sul veicolo indicato, con C.P. n. […], il sigillo ufficiale del tassametro risultava rimosso senza l’autorizzazione prevista. In particolare:',
@@ -957,10 +941,14 @@ window.prontuarioReceiptCaseItems = function (catalog) {
     searchTerms:`ricevuta scontrino ${key} modello autorizzato tariffa fissa predeterminata`,
     verbaleRef:suffix==='01'
       ?'CdS art. 86, comma 3-bis; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. n.'
+      :suffix==='02'
+      ?'CdS art. 86, comma 3-bis; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. n.'
       :'CdS art. 86, comma 3-bis.',
     legalBackground:[...(base.legalBackground||[]),'La pagina ufficiale del Comune richiama la disposizione dirigenziale n. 72 del 10/02/2012; l’originale integrale resta da acquisire e verificare per il caso concreto.'],
     notes:[
-      'La pagina ufficiale del Comune identifica la disposizione dirigenziale n. 72 del 10/02/2012. Il testo indicizzato distingue corsa ordinaria, tariffa predeterminata, modello e compilazione; l’allegato integrale non è risultato accessibile. Acquisire l’atto e verificarne efficacia e prescrizioni alla data del fatto.',
+      suffix==='02'
+        ?'L’art. 23, comma 1, lett. n, del regolamento comunale impone in generale il rilascio del documento della corsa su richiesta. Il punto 7, lett. b, della D.D. n. 72 del 10/02/2012, leggibile nell’allegato ufficiale indicizzato dal Comune, prescrive la ricevuta all’inizio della corsa a tariffa predeterminata e richiama le modalità della D.D. n. 135 del 28/05/2010. Il file integrale non è al momento scaricabile e l’originale della D.D. 135 resta da acquisire; verificarne efficacia nel caso concreto.'
+        :'La pagina ufficiale del Comune identifica la disposizione dirigenziale n. 72 del 10/02/2012. Il testo indicizzato distingue corsa ordinaria, tariffa predeterminata, modello e compilazione; l’allegato integrale non è risultato accessibile. Acquisire l’atto e verificarne efficacia e prescrizioni alla data del fatto.',
       'L’autore conferma l’inquadramento operativo nell’art. 86, comma 3-bis, CdS. Verificare nel caso concreto la condizione della licenza e gli atti efficaci; acquisire gli originali comunali ancora mancanti. Questa decisione resta distinta dalla verifica documentale.',
       'Non confondere la ricevuta comunale non fiscale con un documento fiscale. Per un unico episodio scegliere la condotta documentale pertinente, senza duplicare la contestazione.',
       'Segnalazione al Corso Pubblico: trasmettere gli atti tramite l’Ufficio Verbali.'

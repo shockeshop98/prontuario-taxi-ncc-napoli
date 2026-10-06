@@ -31,4 +31,4 @@ assert.match(data.catalog.find(x=>x.id==='norole').verbaleRef,/L\.R\./);
 assert.ok(html.includes('scripts/static-catalog-ui.js'));
 assert.ok(!html.includes('src="scripts/guide-ui.mjs"'));
 assert.ok(!html.includes('id="guidedPanel"'));
-console.log('Chiarezza: responsabilità specifiche, 118 note, riferimenti CdS senza LR e consultazione statica OK');
+console.log('Chiarezza: responsabilità specifiche, riferimenti CdS senza LR e consultazione statica OK');
