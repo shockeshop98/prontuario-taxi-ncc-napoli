@@ -14,25 +14,25 @@ const dataLine=html.split('\n').find(line=>line.startsWith('const DATA='));
 if(!dataLine)throw Error('Catalogo incorporato non trovato');
 const data=JSON.parse(dataLine.slice('const DATA='.length,-1));
 const window={};
-for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js']){
+for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js']){
   vm.runInNewContext(await readFile(resolve(root,name),'utf8'),{window},{filename:name});
 }
 const layout=window.prontuarioStaticLayout(data.catalog,data.manualParts);
 const byId=new Map(data.catalog.map(item=>[item.id,item]));
-const version='7.7',today='6 ottobre 2026';
+const version='7.8',today='10 ottobre 2026';
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const regulation='Regolamento comunale (delibera C.C. n. 80/2005), ';
 const finalSentence="Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.";
 // Solo impaginazione PDF: i testi completi restano nelle schede PWA.
 const commonNotes=[
-  ['A1','Segnalazione al Corso Pubblico','Segnalazione al Corso Pubblico: trasmettere gli atti all’ufficio tramite il percorso dell’Ufficio Verbali. Restano distinti gli invii a Prefettura, UMC e altre autorità previsti per il caso.'],
-  ['A1','Segnalazione al Corso Pubblico','Segnalazione al Corso Pubblico: trasmettere all’ufficio, tramite l’Ufficio Verbali, soltanto i fatti e gli atti pertinenti al servizio a trazione animale.'],
+  ['A1','Segnalazione e competenze','Segnalazione e competenze: trasmettere gli atti all’ufficio tramite il percorso dell’Ufficio Verbali. Restano distinti gli invii a Prefettura, UMC e altre autorità previsti per il caso.'],
+  ['A1','Segnalazione e competenze','Segnalazione e competenze: trasmettere all’ufficio, tramite l’Ufficio Verbali, soltanto i fatti e gli atti pertinenti al servizio a trazione animale.'],
   ['A2','Punti e titolo comunale','I punti indicati dal regolamento riguardano la licenza taxi; sono distinti dai punti della patente. Il ritiro comunale va verificato secondo il gruppo e l’art.29 c.4.'],
   ['A2','Punti e titolo comunale','I punti sulla licenza taxi sono distinti dai punti della patente. Per questo gruppo non è previsto il ritiro immediato del titolo comunale.'],
   ['A3','Condizioni del titolo e qualificazione','Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.'],
   ['A3','Condizioni del titolo e qualificazione','Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]'],
   ['A4','Relazione e contestazione','Usare il testo per contestazione soltanto dopo la verifica della base normativa e dei presupposti indicati nella scheda; altrimenti redigere una relazione di accertamento. La frase di invio del verbale si usa solo quando un verbale è stato effettivamente elevato.'],
-  ['A4','Relazione e contestazione','Questa è una scheda di riferimento: il testo descrive i fatti per la relazione, non costituisce da solo una formula sanzionatoria. La segnalazione al Corso Pubblico riguarda i fatti e gli atti pertinenti al servizio.'],
+  ['A4','Relazione e contestazione','Questa è una scheda di riferimento: il testo descrive i fatti per la relazione, non costituisce da solo una formula sanzionatoria. La segnalazione al Servizio Trasporto Pubblico Locale e MaaS riguarda i fatti e gli atti pertinenti al servizio.'],
   ['A5','Fasce e precedenti','Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.'],
   ['A5','Fasce e precedenti','Reiterazione: almeno due violazioni dello stesso soggetto in tre anni. Documentare il precedente; non contarle dai controlli registrati in questo file. [EGAF note 6–8]'],
   ['A5','Fasce e precedenti','Scegliere la fascia soltanto dopo il riscontro dei precedenti pertinenti nel quinquennio. Il numero dei controlli non dimostra da solo la reiterazione.'],
@@ -47,7 +47,7 @@ const commonNotes=[
   ['A7','Fonti, dichiarazioni e titolo','La mancata esibizione del titolo non dimostra che non sia stato rilasciato. Verificare stato, veicolo cui si riferisce e servizio effettivamente svolto. [EGAF note 1, 5 e 10]'],
   ['A7','Fonti, dichiarazioni e titolo','Passeggeri: identificarli verificando generalità ed estremi di un documento di riconoscimento valido, ove disponibile; se non esibito, documentare le modalità alternative di accertamento dell’identità. Raccogliere separatamente dichiarazioni su richiesta/offerta, punto di prelievo, destinazione, prezzo pattuito o pagato e modalità di contatto, distinguendo ciò che ciascuno ha direttamente percepito.'],
   ['A7','Fonti, dichiarazioni e titolo','Rifiuto delle dichiarazioni: annotare il rifiuto di rendere o formalizzare/sottoscrivere dichiarazioni. Se sono state pronunciate frasi spontanee, l’operatore redige una relazione riportando quanto effettivamente udito, autore, momento e circostanze, distinguendolo dai fatti osservati. Se il passeggero non ha detto nulla, riportare solo il rifiuto e i riscontri disponibili; non ricostruire dichiarazioni inesistenti.'],
-  ['A7','Fonti, dichiarazioni e titolo','La segnalazione al Corso Pubblico resta nelle note operative; non aggiungere la relativa frase al corpo del verbale di taxi abusivo. La mancata esibizione della licenza, da sola, non dimostra l’assenza del titolo.'],
+  ['A7','Fonti, dichiarazioni e titolo','La segnalazione al Servizio Trasporto Pubblico Locale e MaaS resta nelle note operative; non aggiungere la relativa frase al corpo del verbale di taxi abusivo. La mancata esibizione della licenza, da sola, non dimostra l’assenza del titolo.'],
   ['A7','Fonti, dichiarazioni e titolo','Per autobus controllare patente e CQC persone, dotazioni prescritte e loro efficienza. Eventuali illeciti autonomi richiedono elementi e norma propri; non dedurre un illecito penale dal solo richiamo storico agli estintori. [EGAF note 2 e 7]']
   ,['A7','Fonti, dichiarazioni e titolo','La sola mancata esibizione della licenza o una verifica pendente non dimostrano l’assenza del titolo: in quel caso descrivere soltanto i fatti accertati nella relazione.']
   ,['A7','Fonti, dichiarazioni e titolo','Distinguere conducente, esercente del servizio, intestatario del titolo e veicolo. Separare l’osservazione degli operanti dai dati letti nei documenti; una copia è acquisita soltanto se lo è stata davvero.']
@@ -71,7 +71,7 @@ const appendixSummary={
     'Per le condizioni del titolo individuare la prescrizione precisa, la fonte e la sua efficacia; escludere la fattispecie più specifica o grave prima di usare il riferimento residuale. Il prontuario GIT richiama, secondo il servizio, l’art. 86, comma 3-bis, CdS per taxi e l’art. 85, comma 4-ter, CdS per NCC. La sola violazione regolamentare richiede una qualificazione autonoma; per taxi escludere anche i commi 2 e 3 dell’art. 86. [EGAF nota 12]'
   ],
   A4:[
-    'Una contestazione richiede base normativa e presupposti verificati. Se la base non è qualificata o la scheda è di solo riferimento, descrivere i fatti nella relazione; la relativa formula non costituisce da sola una sanzione. La frase finale di invio del verbale si usa solo per un verbale effettivamente elevato; la segnalazione dei fatti al Corso Pubblico resta distinta.'
+    'Una contestazione richiede base normativa e presupposti verificati. Se la base non è qualificata o la scheda è di solo riferimento, descrivere i fatti nella relazione; la relativa formula non costituisce da sola una sanzione. La frase finale di invio del verbale si usa solo per un verbale effettivamente elevato; la segnalazione dei fatti al Servizio Trasporto Pubblico Locale e MaaS resta distinta.'
   ],
   A5:[
     'Scegliere la fascia soltanto dopo riscontro dei precedenti pertinenti al soggetto o al veicolo indicato dalla scheda. Nel quinquennio distinguere prima, seconda, terza e quarta o successiva violazione; nei casi che prevedono il triennio verificare le violazioni dello stesso soggetto. Il conteggio dei controlli nel prontuario non prova la reiterazione. Un riscontro incompleto o pendente non attribuisce automaticamente la prima fascia.',
@@ -86,16 +86,26 @@ const appendixSummary={
     'La mancata esibizione della licenza o dell’autorizzazione, così come una verifica pendente, non dimostra l’assenza del titolo: in quel caso descrivere i soli fatti accertati nella relazione. Verificare stato del titolo, servizio e veicolo controllato.',
     'Distinguere conducente, esercente del servizio, intestatario del titolo e veicolo. Separare l’osservazione diretta dai dati dei documenti; una copia è acquisita soltanto se lo è stata davvero. Identificare i passeggeri e documentare richiesta, prelievo, destinazione, corrispettivo e fonte di ciascun fatto.',
     'Usare “dichiarazione acquisita” soltanto per un atto formalizzato. Se il passeggero rifiuta di dichiarare o sottoscrivere, annotare il rifiuto; riportare nella relazione soltanto le parole spontanee realmente ascoltate, con autore e circostanze, senza ricostruire dichiarazioni inesistenti.',
-    'Per autobus verificare patente, CQC persone e dotazioni: eventuali illeciti autonomi richiedono elementi e norma propri; il solo richiamo storico agli estintori non prova un illecito penale. Nei verbali di taxi abusivo la segnalazione al Corso Pubblico resta operativa, senza la frase finale del verbale.'
+    'Per autobus verificare patente, CQC persone e dotazioni: eventuali illeciti autonomi richiedono elementi e norma propri; il solo richiamo storico agli estintori non prova un illecito penale. Nei verbali di taxi abusivo la segnalazione al Servizio Trasporto Pubblico Locale e MaaS resta operativa, senza la frase finale del verbale.'
   ]
 };
+appendixSummary.A1=[window.prontuarioOfficeGuide];
+appendixSummary.A2=['Punti sui titoli Taxi e NCC (art. 28); decurtazioni art. 29, comma 2: gruppo B, 5 punti dopo la prima; C, 10; D, 20/30. Gruppi C e D: ritiro obbligatorio degli operatori ex comma 4, distinto dal provvedimento dell’ufficio.'];
+appendixSummary.A3=[window.prontuarioResidualWarning];
+appendixSummary.A6[0]='Gli adempimenti obbligatori non sono facoltativi. La copia riporta uno stato da completare, senza attestare attività mai compiute. '+appendixSummary.A6[0].replace('Il testo copiato va adattato agli atti effettivamente compiuti: eliminare o correggere i periodi non eseguiti e completare gli estremi. ','');
 function compactCaseNotes(notes,route,hasActs){
   const refs=new Set(),specific=[];
   for(const note of notes){
     const ref=commonNoteMap.get(note);
-    if(ref)refs.add(ref);else specific.push(note);
+    if(ref)refs.add(ref);
+    else if(note.startsWith('Art. 28, comma 2:'))refs.add('A2');
+    else if(note.startsWith('La sospensione comunale è')||note.startsWith('Il ritiro del titolo comunale'))refs.add('A2');
+    else if(note.startsWith('Applicare la contestazione CdS soltanto')||note.startsWith('La sanzione comunale non è un’alternativa'))refs.add('A3');
+    else if(note.includes('delibera G.C. n. 258')||note.includes('Nell’extraurbana ordinaria')||note.startsWith('Le tariffe predeterminate, da richiedere'))refs.add('A8');
+    else specific.push(note);
   }
   let shortRoute=route||'';
+  if(shortRoute.startsWith('Segnalazione obbligatoria alle condizioni'))shortRoute='';
   for(const part of commonRouteParts){
     if(shortRoute.includes(part)){
       refs.add(part.includes('Segnalazione')?'A1':'A6');
@@ -150,9 +160,10 @@ function appendixPages(first){
     return `<section><h3>${id} · ${esc(entries[0][1])}</h3>${appendixSummary[id].map(note=>`<p>${esc(note)}</p>`).join('')}</section>`;
   };
   const commonPages=[
-    `<h1>Appendice operativa · 1/3</h1><p>Le indicazioni comuni sono richiamate nelle singole schede. Le condizioni specifiche restano nella scheda pertinente.</p>${['A1','A2','A3'].map(appendixSection).join('')}`,
-    `<h1>Appendice operativa · 2/3</h1><p>Le alternative sono orientative: usare la voce pertinente, distinguendo fatti osservati, dichiarazioni formalizzate e documenti esaminati.</p>${['A4','A5','A6'].map(appendixSection).join('')}`,
-    `<h1>Appendice operativa · 3/3</h1>${appendixSection('A7')}`
+    `<h1>Appendice operativa · 1/4</h1><p>Le indicazioni comuni sono richiamate nelle singole schede. Le condizioni specifiche restano nella scheda pertinente.</p>${['A1','A2','A3'].map(appendixSection).join('')}`,
+    `<h1>Appendice operativa · 2/4</h1><p>Le alternative sono orientative: usare la voce pertinente, distinguendo fatti osservati, dichiarazioni formalizzate e documenti esaminati.</p>${['A4','A5','A6'].map(appendixSection).join('')}`,
+    `<h1>Appendice operativa · 3/4</h1>${appendixSection('A7')}`,
+    `<h1>Appendice operativa · 4/4</h1><h3>A8 · Tariffe, supplementi e fonti</h3><p>Delibera G.C. n. 258 del 27/06/2024, pp. 6–9; tariffario ufficiale 2024, pp. 1–5. Distinguere le vecchie tariffe citate nelle premesse (pp. 2–4) dalle nuove tariffe approvate.</p>${[...new Set(layout.rows.filter(r=>(r.item.demoBaseCode||r.item.code)==='G04').flatMap(r=>window.prontuarioCatalogNotes(r.item,window.prontuarioCatalogModel(r.item,r.type))).filter(n=>n.includes('delibera G.C. n. 258')||n.includes('Nell’extraurbana ordinaria')||n.startsWith('Le tariffe predeterminate, da richiedere')))].map(n=>`<p>${esc(n)}</p>`).join('')}<h3>Qualificazioni non risolte</h3><p>G24: la lett. g dell’art. 23, comma 1, non nomina espressamente la fila dei passeggeri; la lett. c è una clausola generale e l’art. 4, comma 3, riguarda le vetture. G28-02: la lett. n impone il documento su richiesta, non il rilascio prima della partenza. La pagina comunale Servizio taxi conferma quest’ultimo per la tariffa predeterminata, ma le D.D. 72/2012 e 135/2010 integrali restano da acquisire. Le formule di relazione non attestano un illecito già qualificato.</p><p>Per l’elenco completo delle 187 verifiche e i limiti delle fonti: RAPPORTO_REVISIONE_1.8.6.md e revisione/1.8.6/controllo-schede.csv nel repository locale.</p>`
   ];
   const audit=`<h1>Confronto con il regolamento</h1><p>Gli articoli 1–40 del regolamento comunale sono confrontati con le schede. Disposizioni organizzative e procedimenti sul titolo non diventano automaticamente verbali in strada.</p><table class="auditTable"><thead><tr><th>Articolo</th><th>Materia</th><th>Schede e seguito</th></tr></thead><tbody>${data.prontuario.audit.map(row=>`<tr><td>${esc(row.article)}</td><td>${esc(row.subject)}</td><td>${esc(row.ids.map(id=>byId.get(id)?.code||id).join(', ')||row.status)}</td></tr>`).join('')}</tbody></table>`;
   const sourceChunks=Array.from({length:Math.ceil(data.prontuario.sources.length/12)},(_,index)=>data.prontuario.sources.slice(index*12,(index+1)*12));
@@ -174,7 +185,7 @@ function content(item,type){
     const variant=item.demoVariant;
     return {
       title:variant?.title||demo.title,
-      normative:demo.normative.join('; '),
+      normative:window.prontuarioOrderedReferences(demo.normative).join('; '),
       accessories:window.prontuarioDemoAccessories(demo,variant),
       relation:false,
       parts:window.prontuarioDemoFormulaParts(demo,variant),
@@ -189,9 +200,9 @@ function content(item,type){
   const model=window.prontuarioCatalogModel(item,type);
   const previous=window.prontuarioCatalogPrevious(item,type);
   const relation=window.prontuarioCatalogIsRelation(item);
-  const ending=[window.prontuarioCatalogLegalSentence(item,type),model.tail,previous,window.prontuarioCatalogOperational(item),item.formula.includes(finalSentence)&&!relation?finalSentence:''].filter(Boolean).join(' ');
+  const ending=[window.prontuarioCatalogLegalSentence(item,type),model.tail,previous,window.prontuarioCatalogOperational(item),window.prontuarioFollowupFormula(item)].filter(Boolean).join(' ');
   return {
-    title:item.title,normative:normative(item,type),accessories:window.prontuarioCatalogAccessorySections(item,type),relation,
+    title:item.title,normative:window.prontuarioNormative(item,type),accessories:window.prontuarioCatalogAccessorySections(item,type),relation,
     parts:[model.lead,ending],formulaMarkup:window.prontuarioCatalogFormulaMarkup(item,type,esc),groups:[{title:'Circostanza pertinente',options:model.options,other:model.other}],
     notes:window.prontuarioCatalogNotes(item,model),responsibility:item.responsibility||'',route:window.prontuarioCatalogRoute(item),
     acts:window.prontuarioCatalogActs(item)
@@ -220,14 +231,14 @@ function caseSections({item,type}){
   if(view.parts.length!==view.groups.length+1)throw Error(`Formula non coerente: ${item.code}`);
   const amounts=`<table class="amounts"><thead><tr><th>PMR</th><th>Entro 5 giorni</th><th>Oltre 60 giorni o procedura</th><th>Limiti edittali</th></tr></thead><tbody><tr><td>${esc(money(row[2]))}</td><td>${esc(money(row[3]))}</td><td>${esc(money(row[4]))}</td><td>${esc(money(row[1]))}</td></tr></tbody></table>`;
   const formula=`<div class="formula">${pdfFormulaMarkup(view.formulaMarkup)}</div>`;
-  const compact=compactCaseNotes(view.notes,view.route,view.acts.length>0);
+  const compact=compactCaseNotes(view.notes,view.acts.length?'':view.route,view.acts.length>0);
   const accessory=window.prontuarioAccessoryRows(view.accessories);
   const eyebrow=`${esc(item.code)} · ${esc(type.toUpperCase())}${item.group?` · GRUPPO ${esc(item.group.toUpperCase())}`:''}`;
   const sections={
     head:`<div class="eyebrow">${eyebrow}</div><h1>${esc(view.title)}</h1>`,
-    normative:`<section><h3>Normativa violata</h3><p>${esc(view.normative)}</p></section>`,
-    amounts:`<section><h3>Tabella importi</h3>${amounts}</section>`,
-    accessories:`<section><h3>Sanzioni accessorie e punti</h3><table class="accessoryTable"><tbody><tr><th scope="row">Sanzioni accessorie CdS</th><td>${esc(accessory.cds)}</td></tr><tr><th scope="row">Seguito sul titolo — Regolamento comunale</th><td>${esc(accessory.municipal)}</td></tr>${accessory.other?`<tr><th scope="row">Altre misure e comunicazioni</th><td>${esc(accessory.other)}</td></tr>`:''}<tr><th scope="row">Decurtazione punti patente</th><td>${esc(accessory.patentPoints)}</td></tr></tbody></table></section>`,
+    normative:`<section><h3>Riferimenti normativi — obblighi e sanzioni</h3><p>${esc(view.normative)}</p></section>`,
+    amounts:`<section><h3>Tabella importi</h3>${window.prontuarioIsResidual(item)?`<p>${esc(view.relation?"Importi della sola ipotesi CdS: qualificazione non accertata.":"Solo per condizione del titolo accertata, non per ogni violazione comunale.")}</p>`:""}${amounts}</section>`,
+    accessories:`<section><h3>Sanzioni accessorie e adempimenti</h3>${window.prontuarioFollowupMarkup(item,view.accessories,esc,true)}</section>`,
     formula:`<section><h3>${view.relation?'Testo orientativo per la relazione':'Testo orientativo del verbale'}</h3>${formula}</section>`,
     notes:`<section><h3>Suggerimenti e note operative</h3>${compact.notes.length?`<ul>${compact.notes.map(note=>`<li>${esc(note)}</li>`).join('')}</ul>`:''}${view.responsibility?`<h3>Responsabilità</h3><p>${esc(view.responsibility)}</p>`:''}${compact.route?`<h3>Seguito operativo</h3><p>${esc(compact.route)}</p>`:''}${type==='Taxi'&&window.prontuarioTaxiCollettivo.related[item.staticModelCode||item.demoBaseCode||item.code]?`<p>Tratta Aeroporto–Stazione–Molo: v. TC01, p. ${layout.pages[`${window.prontuarioTaxiCollettivo.item.id}/Taxi`]}; verificare il presupposto specifico.</p>`:''}</section><p class="sourceFoot">Fonti: ${esc(item.sources.join(', '))}.</p>`
   };
@@ -244,7 +255,7 @@ function casePage(row,number,probeKey=''){
 
 const style=`@page{size:A4;margin:0}*{box-sizing:border-box}html,body{margin:0;color:#142d42;font-family:Arial,"DejaVu Sans",sans-serif}.page{position:relative;width:210mm;height:296.9mm;break-after:page;overflow:hidden;background:#fff}.page:last-child{break-after:auto}.page header{position:absolute;top:6.5mm;left:18mm;right:18mm;display:flex;justify-content:space-between;border-bottom:1px solid #193d58;padding-bottom:2mm;font-size:7.2pt}.page header span{color:#506577}.content{position:absolute;top:22mm;left:18mm;right:18mm;bottom:20mm;font-size:var(--text-size,8.5pt);line-height:1.22;overflow:visible}.content h1{font-size:1.55em;line-height:1.15;color:#143650;margin:1mm 0 2mm}.content h3{font-size:1em;color:#1e5977;margin:1.5mm 0 .6mm}.content p{margin:.3mm 0 1mm}.content section{margin:1.3mm 0}.content ul{padding-left:4.2mm;margin:.4mm 0}.content li{margin:0 0 .7mm}.content li::marker{color:#26718a}.eyebrow{font-weight:bold;color:#13546e;letter-spacing:.04em}.content table{border-collapse:collapse;width:100%;table-layout:fixed;font-size:.92em;margin:.5mm 0}.content th,.content td{border:1px solid #b9cbd2;padding:1mm;text-align:left;vertical-align:top;overflow-wrap:anywhere}.content th{background:#edf4f6}.formula{background:#edf4f6;border-left:3px solid #126b73;padding:2mm 3mm}.formula p:first-child{font-weight:600}.formula .choiceHint{font-weight:bold;color:#155c61;font-size:.9em}.formula ul{margin:.3mm 0 1mm}.sourceFoot{border-top:1px solid #c7d3d8;padding-top:1mm;margin-top:1.5mm!important;color:#526571}.page footer{position:absolute;left:18mm;right:18mm;bottom:6.4mm;display:flex;justify-content:space-between;border-top:1px solid #cbd7dd;padding-top:1.4mm;font-size:7pt;line-height:1.35;color:#506577}.indexPage .content{font-size:8pt}.indexPage h1{margin-bottom:2mm}.indexPage .index{font-size:8pt;line-height:1.08}.indexPage th,.indexPage td{padding:1mm}.indexPage th:first-child{width:14%}.indexPage th:last-child{width:10%}.indexPage a{color:#155c61;text-decoration:none;font-weight:bold}`;
 const extraStyle=`.casePage .content{top:20mm;bottom:18mm;font-size:9pt}.casePage .content section{margin:1mm 0}.casePage .content li{margin-bottom:.4mm}.casePage .accessoryTable{font-size:1em;line-height:1.1;margin:.3mm 0}.casePage .accessoryTable th,.casePage .accessoryTable td{padding:.6mm 1mm}.casePage .accessoryTable th{width:31%}.formula .staticFormulaPart{margin:.4mm 0}.formula .staticChoiceHint{font-weight:bold;color:#155c61;font-size:.9em}.formula .staticFormulaChoices{margin:.3mm 0 .8mm}.formula .staticPointHints{display:block;margin:.7mm 0 1mm 3mm;padding:.7mm 1.5mm;border-left:1px solid #73a9b2;color:#275368;font-size:1em;font-weight:400}.formula .staticPointHints strong{display:block;font-weight:700}.formula .staticPointHint{display:block;margin:.3mm 0}.operationNote{font-weight:600;color:#1b5667;background:#e7f1f3;border-left:2px solid #126b73;padding:1.2mm 2mm;margin:1mm 0}.coverPage .content{top:26mm;font-size:10pt}.coverLogos{display:flex;justify-content:space-between;align-items:center;margin:6mm 0 18mm}.coverEyebrow{letter-spacing:.08em;color:#1b5973;font-weight:bold}.coverPage h1{font-size:27pt;line-height:1.12;margin:5mm 0 9mm}.coverAuthor{font-size:12pt;line-height:1.5}.coverRevision{display:inline-block;background:#e7f1f3;color:#15455d;font-size:11pt;font-weight:bold;padding:3mm 5mm;margin:8mm 0}.coverSections{font-size:9pt!important}.coverAttribution{margin-top:12mm!important;color:#506577}.introPage .content{font-size:var(--text-size,8.5pt)}.introPage h1,.appendixPage h1{font-size:16pt;margin-bottom:3mm}.introPage .legendTable{font-size:.94em}.introPage .legendTable th:first-child{width:21%}.introPage .legendTable td,.introPage .legendTable th{padding:1.15mm}.introPage .overview{font-size:.89em}.introPage .overview th:first-child{width:11%}.introPage .overview th:nth-child(2){width:40%}.introPage .overview th:nth-child(3){width:16%}.introPage .overview th:nth-child(4){width:12%}.appendixPage .content{font-size:var(--text-size,8.4pt)}.appendixPage .auditTable{font-size:.89em}.appendixPage .auditTable th:first-child{width:13%}.appendixPage .auditTable th:nth-child(2){width:47%}.appendixPage .sourceEntry{margin:2mm 0;border-bottom:1px solid #e1e9eb;padding-bottom:1mm}.appendixPage .sourceEntry h3{margin:0 0 .3mm}`;
-const caseFitStyle=`.casePage .content{top:18mm;bottom:15mm}.casePage .content section{margin:.4mm 0}.casePage .content h3{margin:.5mm 0 .2mm}.casePage .content ul{margin:.2mm 0}.casePage .content li{margin-bottom:.15mm}.casePage .content p{margin:.2mm 0 .5mm}.casePage .formula{padding:1.4mm 2mm}.casePage .formula .staticPointHints{margin:.3mm 0 .45mm 2mm;padding:.4mm 1mm}.casePage .formula .staticPointHint{margin:.1mm 0}.casePage .formula .staticFormulaChoices{margin:.15mm 0 .35mm}`;
+const caseFitStyle=`.casePage .staticAccessoryTable{font-size:9pt;line-height:1.1}.casePage .staticAccessoryTable th{width:27%}.casePage .staticAccessoryTable td,.casePage .staticAccessoryTable th{padding:.5mm 1mm}.officeInfo{border-left:2px solid #7296a4;padding:.6mm 2mm;background:#f3f6f7;font-size:9pt}.casePage .content{top:18mm;bottom:15mm}.casePage .content section{margin:.4mm 0}.casePage .content h3{margin:.5mm 0 .2mm}.casePage .content ul{margin:.2mm 0}.casePage .content li{margin-bottom:.15mm}.casePage .content p{margin:.2mm 0 .5mm}.casePage .formula{padding:1.4mm 2mm}.casePage .formula .staticPointHints{margin:.3mm 0 .45mm 2mm;padding:.4mm 1mm}.casePage .formula .staticPointHint{margin:.1mm 0}.casePage .formula .staticFormulaChoices{margin:.15mm 0 .35mm}`;
 const documentShell=body=>`<!doctype html><html lang="it"><head><meta charset="utf-8"><style>${style}${extraStyle}${caseFitStyle}</style></head><body>${body}</body></html>`;
 const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||chromium.executablePath(),headless:true,args:['--no-sandbox']});
 let generatedBytes;
@@ -335,8 +346,8 @@ for(const section of layout.sections)for(let index=0;index<section.indexPages;in
 }
 data.manualGuidePages={};data.manualGuideIndexPage=null;
 data.manualLegendPage=2+layout.indexPageCount;
-data.manualCommonPages=[layout.firstCasePage+casePageCount,layout.firstCasePage+casePageCount+1,layout.firstCasePage+casePageCount+2];
-data.manualAuditPage=layout.firstCasePage+casePageCount+3;
+data.manualCommonPages=Array.from({length:4},(_,i)=>layout.firstCasePage+casePageCount+i);
+data.manualAuditPage=layout.firstCasePage+casePageCount+4;
 for(const item of data.catalog){
   const types=item.scope==='all'?['Taxi','NCC']:item.scope==='equina'?['Trazione animale']:[item.scope==='ncc'?'NCC':'Taxi'];
   for(const type of types){

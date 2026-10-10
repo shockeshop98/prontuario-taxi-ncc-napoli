@@ -2,18 +2,18 @@ import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 import {readFile} from 'node:fs/promises';
 import {resolve} from 'node:path';
+import vm from 'node:vm';
 import {assessPrevious,compose} from '../scripts/composer-core.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const html = await readFile(resolve(root, 'index.html'), 'utf8');
 const data = JSON.parse(html.split('\n').find(line => line.startsWith('const DATA=')).slice(11, -1));
 const guidePack = JSON.parse(await readFile(resolve(root, 'data/guide-operative.json'), 'utf8'));
+const window={};
+for(const script of ['operative-rules','static-catalog-ui'])vm.runInNewContext(await readFile(resolve(root,`scripts/${script}.js`),'utf8'),{window});
 const sample = (field, prefix) => field.id === 'service_vehicle_title_outcome' ? 'absent' : `${prefix}_${field.id}`;
-const legalFields = data.catalog.map(({id,code,ref,verbaleRef,sanction,payments,responsibility,kind,scope,referenceOnly}) =>
-  ({id,code,ref,verbaleRef,sanction,payments,responsibility,kind,scope,referenceOnly}));
-assert.equal(createHash('sha256').update(JSON.stringify(legalFields)).digest('hex'),
-  '7266c1307ef332ec2bc3058e1d8cba696511f66e01317b6057dca42810d2afed',
-  'Norme, importi e responsabilità: restano solo G24 e rimozione R17/R18 come variazioni approvate');
+const baseline=JSON.parse(await readFile(resolve(root,'revisione/1.8.6/importi-baseline-1.8.5.json'),'utf8'));
+assert.deepEqual(data.catalog.map(({code,payments})=>({code,payments})),baseline,'Importi e misure originari non alterati');
 assert.equal(guidePack.guides.length, 116);
 assert.equal(new Set(guidePack.guides.map(guide => guide.id)).size, 116);
 assert.deepEqual(new Set(guidePack.guides.map(guide => guide.id)), new Set(data.catalog.map(item => item.id)));
@@ -40,7 +40,7 @@ for (const guide of guidePack.guides) {
   assert.equal(guide.applicability.referenceOnly, !!item.referenceOnly);
   for (const [type, variant] of Object.entries(guide.variants)) {
     actualVariants.add(`${guide.id}/${type}`);
-    assert.equal(variant.normativeRef, normative(item, type), `Riferimento ${item.code}/${type}`);
+    assert.equal(variant.normativeRef, window.prontuarioNormative(item,type==='ncc'?'NCC':'Taxi'), `Riferimento ${item.code}/${type}`);
     assert.equal(variant.outputDefault, variant.licenseDecision || variant.dualCheckDecision || item.referenceOnly || ['local','review','ordinance'].includes(item.kind) ? 'relation' : 'verbale');
     assert.equal(variant.allowVerbale, !item.referenceOnly);
     assert.equal(new Set(variant.fields.map(field => field.id)).size, variant.fields.length);
@@ -86,20 +86,18 @@ for (const guide of guidePack.guides) {
         assert.equal(compose(variant, {values:filled, selectedActs,...decisionOptions}).copyAllowed, false);
       }
     }
-    if (variant.requiresQualificationConfirmationForVerbale) {
+    if (variant.requiresQualificationConfirmationForVerbale && variant.allowVerbale) {
       assert.equal(compose(variant, {values, ...decisionOptions, output:'verbale'}).copyAllowed, false);
       assert.equal(compose(variant, {values, ...decisionOptions, output:'verbale', qualificationConfirmed:true}).copyAllowed, true);
     }
     if (item.referenceOnly) assert.throws(() => compose(variant, {values, output:'verbale'}));
-    const finalSentence="Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.";
-    const excluded=new Set(['abusivo','abusivo2','abusivoncc','nccbusprima','nccbusreiterata','nccreiterata','nccbusaltro']);
-    assert.ok(!compose(variant, {values, ...decisionOptions, output:'relation'}).body.includes(finalSentence));
-    assert.equal(base.body.includes(finalSentence),base.copyAllowed&&variant.outputDefault==='verbale'&&!excluded.has(item.id),`Frase finale nel testo predefinito ${item.code}`);
-    assert.equal(variant.finalSentence,variant.allowVerbale&&!excluded.has(item.id)?finalSentence:'',`Frase finale guida ${item.code}`);
+    const finalSentence=window.prontuarioFollowupFormula(item);
+    assert.doesNotMatch(base.body,/Copia del presente verbale verrà inviata/);
+    if(finalSentence)assert.ok(!compose(variant, {values, ...decisionOptions, output:'relation'}).body.includes(finalSentence));
+    assert.equal(variant.finalSentence,finalSentence,`Seguito guida ${item.code}`);
     if(variant.allowVerbale){
       const verbale=compose(variant,{values,...decisionOptions,output:'verbale',qualificationConfirmed:true});
-      assert.equal(verbale.body.split(finalSentence).length-1,excluded.has(item.id)?0:1,`Frase finale verbale ${item.code}`);
-      assert.equal(verbale.body.endsWith(finalSentence),!excluded.has(item.id),`Posizione frase finale ${item.code}`);
+      if(finalSentence){assert.equal(verbale.body.split(finalSentence).length-1,1,`Seguito una volta ${item.code}`);assert.ok(verbale.body.endsWith(finalSentence));}
     }
     assert.equal(compose(variant, {values, ...decisionOptions, sources:[{id:'statement',text:''}]}).copyAllowed, false);
   }

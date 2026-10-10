@@ -1,4 +1,12 @@
-# Ricevute e tariffe Taxi · versione 1.8.5
+# Ricevute e tariffe Taxi · aggiornamento 1.8.6
+
+## Esito corrente del 10 ottobre 2026
+
+La nuova lettura integrale del regolamento e della pagina comunale conferma la distinzione: art.23 c.1 n per la ricevuta su richiesta; prescrizione amministrativa specifica per la consegna prima della partenza a tariffa predeterminata. La lett. n non dimostra quest’ultima. G28-01 conserva l’ipotesi CdS condizionata e il gruppo A, espressamente elencato all’art.29 c.2; G28 NCC conserva l’ambito del c.3. G28-02–04 mostrano una relazione e importi invariati della sola ipotesi, non una qualificazione accertata. Gli originali integrali D.D.72/2012 e135/2010 restano mancanti; il riferimento alla disposizione è etichettato come non acquisito. La conferma editoriale precedente non sostituisce la prova dei presupposti normativi.
+
+Nessuna modifica agli importi o alle tariffe. Il riquadro separa segnalazione e provvedimenti dell’ufficio, non copiati. Il [rapporto 1.8.6](RAPPORTO_REVISIONE_1.8.6.md) e la [tabella completa](revisione/1.8.6/controllo-schede.csv) prevalgono sulle indicazioni operative storiche che seguono. Gli esempi personali delle versioni precedenti non sono stati sovrascritti.
+
+## Ricostruzione storica della versione 1.8.5
 
 Verifica documentale del 4 ottobre 2026. L’autore ha confermato l’inquadramento operativo delle quattro schede G28-01–04 nell’art. 86, comma 3-bis, CdS. Le schede sono quindi sanzionatorie, con importi € 86–338, PMR € 86, entro cinque giorni € 60,20 e oltre 60 giorni € 169. Questa decisione editoriale dell’autore è distinta dalla verifica degli originali comunali: gli atti non reperiti restano da acquisire e i presupposti concreti della contestazione vanno riscontrati nel singolo caso.
 

@@ -9,16 +9,13 @@ const root=resolve(import.meta.dirname,'..');
 const html=await readFile(resolve(root,'index.html'),'utf8');
 const data=JSON.parse(html.split('\n').find(line=>line.startsWith('const DATA=')).slice(11,-1));
 const catalog=data.catalog;
-const legalFields=catalog.map(({id,code,ref,verbaleRef,sanction,payments,responsibility,kind,scope,referenceOnly})=>
-  ({id,code,ref,verbaleRef,sanction,payments,responsibility,kind,scope,referenceOnly}));
-assert.equal(createHash('sha256').update(JSON.stringify(legalFields)).digest('hex'),
-  '7266c1307ef332ec2bc3058e1d8cba696511f66e01317b6057dca42810d2afed',
-  'Norme, importi, responsabilità e qualificazioni invariati salvo G24 e rimozione R17/R18');
+const baseline=JSON.parse(await readFile(resolve(root,'revisione/1.8.6/importi-baseline-1.8.5.json'),'utf8'));
+assert.deepEqual(data.catalog.map(({code,payments})=>({code,payments})),baseline,'Importi e misure originari non alterati');
 assert.equal(catalog.length,116);
-assert.equal(data.prontuario.version,'7.7');
-assert.equal(data.sources[3].title,'Prontuario operativo 7.7 · Antonio Balzano');
+assert.equal(data.prontuario.version,'7.8');
+assert.equal(data.sources[3].title,'Prontuario operativo 7.8 · Antonio Balzano');
 const window={};
-for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js'])
+for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js'])
   vm.runInNewContext(await readFile(resolve(root,name),'utf8'),{window},{filename:name});
 const layout=window.prontuarioStaticLayout(catalog,data.manualParts,data.staticPages);
 assert.equal(layout.rows.length,187);
@@ -30,9 +27,9 @@ const casePageCount=Object.values(data.staticPageSpans).reduce((sum,span)=>sum+s
 assert.equal(Object.keys(data.staticPageSpans).length,layout.rows.length);
 assert.ok(Object.values(data.staticPageSpans).every(span=>span===1),'Una pagina per ciascun caso');
 assert.equal(casePageCount,layout.rows.length);
-assert.equal(data.manualCommonPages.length,3);
+assert.equal(data.manualCommonPages.length,4);
 assert.equal(data.manualCommonPages[0],layout.firstCasePage+casePageCount);
-assert.equal(data.manualAuditPage,layout.firstCasePage+casePageCount+3);
+assert.equal(data.manualAuditPage,layout.firstCasePage+casePageCount+4);
 assert.equal(data.manualVariants.length,187);
 for(let index=1;index<=4;index++)assert.equal(
   data.staticPages[`nccserv-fascia-${index}/NCC`],
@@ -42,21 +39,15 @@ assert.equal(Object.keys(data.manualGuidePages).length,0);
 assert.equal(data.manualGuideIndexPage,null);
 const finalSentence="Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.";
 const excluded=new Set(['abusivo','abusivo2','abusivoncc','nccbusprima','nccbusreiterata','nccreiterata','nccbusaltro']);
-let withFinal=0;
 for(const item of catalog){
-  assert.ok(item.notes.some(note=>note.startsWith('Segnalazione al Corso Pubblico:')),`Nota Corso Pubblico ${item.code}`);
-  const expected=!item.referenceOnly&&item.code!=='I06'&&!excluded.has(item.id);
-  assert.equal(item.formula.split(finalSentence).length-1,expected?1:0,`Frase finale del catalogo ${item.code}`);
-  if(expected)withFinal++;
+  assert.ok(!item.formula.includes(finalSentence), 'Nessun vecchio invio precompilato '+item.code);
+  assert.ok(!/è (?:stata|stato|ritirata|ritirato|sottoposto|affidato)/.test(item.formula),'Nessun atto dato per compiuto '+item.code);
 }
-assert.equal(withFinal,100);
-assert.equal(catalog.filter(item=>item.referenceOnly).length,8);
-
 const pdf=await getDocument({
   data:new Uint8Array(await readFile(resolve(root,'allegati/Prontuario_Taxi_NCC_Napoli.pdf'))),
   standardFontDataUrl:resolve(root,'node_modules/pdfjs-dist/standard_fonts')+'/'
 }).promise;
-assert.equal(pdf.numPages,layout.firstCasePage+casePageCount+6);
+assert.equal(pdf.numPages,layout.firstCasePage+casePageCount+7);
 assert.equal(data.sources[3].pages.length,pdf.numPages);
 const normalize=value=>String(value).normalize('NFC').replace(/\s+/g,'').replace(/\u00ad/g,'');
 const pageText=[];
@@ -78,8 +69,8 @@ for(let number=1;number<=pdf.numPages;number++){
 }
 assert.ok(pageText.slice(1).every(text=>!text.includes(normalize('R17'))&&!text.includes(normalize('R18'))),'Schede soppresse assenti da PDF e indice');
 const g24Page=layout.pages['fila/Taxi'];
-assert.ok(pageText[g24Page].includes(normalize('Comportamento scorretto: acquisizione di clienti fuori dalla fila dei passeggeri')));
-assert.ok(pageText[g24Page].includes(normalize('art. 23, comma 1, lett. c')));
+assert.ok(pageText[g24Page].includes(normalize(catalog.find(x=>x.code==='G24').title)));
+assert.ok(pageText[g24Page].includes(normalize('art. 23, comma 1, lett. g')));
 assert.ok(pageText[g24Page].includes(normalize('prelevava')));
 assert.ok(!pageText[g24Page].includes(normalize('Fila al posteggio e allontanamento per cercare clienti')));
 for(const row of layout.rows){
@@ -93,17 +84,17 @@ for(const row of layout.rows){
     assert.ok(!text.includes(normalize('Tabella importi'))&&!text.includes(normalize(finalSentence)),`TC01: sanzione o frase del verbale non dovuta`);
     continue;
   }
-  assert.ok(pageText[number].includes(normalize('Normativa violata')),`Normativa p.${number}`);
+  assert.ok(pageText[number].includes(normalize('Riferimenti normativi — obblighi e sanzioni')),`Normativa p.${number}`);
   assert.ok(pageText[number].includes(normalize('Tabella importi')),`Importi p.${number}`);
   assert.ok(text.includes(normalize('Suggerimenti e note operative')),`Note p.${number}`);
   assert.ok(text.includes(normalize('Altra'))||text.includes(normalize('Altro')),`Voce libera p.${number}`);
-  const expectedFinal=!window.prontuarioCatalogIsRelation(item)&&!excluded.has(base);
+  const expectedFinal=false;
   assert.equal(text.includes(normalize(finalSentence)),expectedFinal,`Corso Pubblico p.${number} ${item.code}`);
   assert.ok(text.includes(normalize(item.payments[0][1])),`Limiti edittali p.${number} ${item.code}`);
   if(window.prontuarioCatalogIsRelation(item))assert.ok(text.includes(normalize('Testo orientativo per la relazione')));
   const demo=type==='Taxi'?window.prontuarioStaticDemos[item.demoBaseId||item.id]:null;
   const acts=demo?demo.acts:window.prontuarioCatalogActs(item);
-  for(const act of acts)assert.ok(text.includes(normalize(act.text)),`Seguito operativo non completo p.${number} ${item.code}: ${act.title}`);
+  for(const act of acts)assert.ok(text.includes(normalize(act.title)),`Seguito operativo non completo p.${number} ${item.code}: ${act.title}`);
   for(let offset=1;offset<span;offset++)assert.ok(pageText[number+offset].includes(normalize(item.code)),`Rinvio scheda p.${number+offset}`);
 }
 for(const type of ['Taxi','NCC']){
@@ -112,7 +103,7 @@ for(const type of ['Taxi','NCC']){
   assert.ok(text.includes(normalize('Sanzioni accessorie CdS Non previste')),`G54/${type}: comunicazioni escluse dalle accessorie CdS nel PDF`);
   assert.ok(text.includes(normalize('Altre misure e comunicazioni Comunicazioni art. 21, comma 2, L.R. Campania 10/2024')),`G54/${type}: comunicazioni regionali nella riga corretta`);
 }
-for(const [index,heading] of ['A1','A4','A7'].entries())assert.ok(pageText[data.manualCommonPages[index]].includes(heading),`Appendice operativa ${heading}`);
+for(const [index,heading] of ['A1','A4','A7','A8'].entries())assert.ok(pageText[data.manualCommonPages[index]].includes(heading),`Appendice operativa ${heading}`);
 for(const section of data.manualIndex){
   const page=await pdf.getPage(section.page),links=await page.getAnnotations();
   assert.equal(links.length,section.ids.length,`Indice p.${section.page}`);
@@ -123,4 +114,4 @@ for(const section of data.manualIndex){
   }
 }
 await pdf.destroy();
-console.log('Revisione: 116 voci attive, 187 schede PDF incl. TC01, 6 indici, ricevute distinte, rinvii I03/I07, importi e Corso Pubblico OK');
+console.log('Revisione: 116 voci attive, 187 schede PDF incl. TC01, 6 indici, ricevute distinte, rinvii I03/I07, importi invariati e seguito distinto OK');

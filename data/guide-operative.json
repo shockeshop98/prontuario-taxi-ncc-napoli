@@ -95,7 +95,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Identificare l’autore dell’esercizio abusivo effettivamente accertato. Non desumere l’assenza della licenza dalla sola mancata esibizione del documento.",
       "procedure": {
@@ -578,7 +579,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Identificare l’autore dell’esercizio abusivo effettivamente accertato. Non desumere l’assenza della licenza dalla sola mancata esibizione del documento.",
       "procedure": {
@@ -1135,7 +1137,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo B dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Condotta: descrivere e identificare il conducente che ha commesso il fatto. Sanzione ex art.86 c.3: destinatario è il titolare della licenza; se diverso dal conducente, contestare/notificare al titolare secondo EGAF nota 10. Non confondere questa regola con l’art.86 c.3-bis.",
       "procedure": {
@@ -1341,7 +1344,7 @@
               ]
             }
           ],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -1451,7 +1454,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo D dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Condotta: descrivere e identificare il conducente che ha commesso il fatto. Sanzione ex art.86 c.3: destinatario è il titolare della licenza; se diverso dal conducente, contestare/notificare al titolare secondo EGAF nota 10. Non confondere questa regola con l’art.86 c.3-bis.",
       "procedure": {
@@ -1677,7 +1681,7 @@
               ]
             }
           ],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -1787,7 +1791,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo C dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Condotta: descrivere e identificare il conducente che ha commesso il fatto. Sanzione ex art.86 c.3: destinatario è il titolare della licenza; se diverso dal conducente, contestare/notificare al titolare secondo EGAF nota 10. Non confondere questa regola con l’art.86 c.3-bis.",
       "procedure": {
@@ -1973,7 +1978,7 @@
               ]
             }
           ],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -2083,7 +2088,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Condotta: descrivere e identificare il conducente che ha commesso il fatto. Sanzione ex art.86 c.3: destinatario è il titolare della licenza; se diverso dal conducente, contestare/notificare al titolare secondo EGAF nota 10. Non confondere questa regola con l’art.86 c.3-bis.",
       "procedure": {
@@ -2229,7 +2235,7 @@
               ]
             }
           ],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -2339,7 +2345,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Condotta: descrivere e identificare il conducente che ha commesso il fatto. Sanzione ex art.86 c.3: destinatario è il titolare della licenza; se diverso dal conducente, contestare/notificare al titolare secondo EGAF nota 10. Non confondere questa regola con l’art.86 c.3-bis.",
       "procedure": {
@@ -2485,7 +2492,7 @@
               ]
             }
           ],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -2595,7 +2602,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo D dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Condotta: descrivere e identificare il conducente che ha commesso il fatto. Sanzione ex art.86 c.3: destinatario è il titolare della licenza; se diverso dal conducente, contestare/notificare al titolare secondo EGAF nota 10. Non confondere questa regola con l’art.86 c.3-bis.",
       "procedure": {
@@ -2801,7 +2809,7 @@
               ]
             }
           ],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -2911,7 +2919,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -2979,7 +2988,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -3089,7 +3098,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -3147,7 +3157,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -3257,7 +3267,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo D dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -3335,7 +3346,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -3445,7 +3456,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -3503,7 +3515,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -3613,7 +3625,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -3681,7 +3694,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -3791,7 +3804,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo C dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -3879,7 +3893,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -3922,7 +3936,7 @@
     {
       "id": "fila",
       "code": "G24",
-      "title": "Comportamento scorretto: acquisizione di clienti fuori dalla fila dei passeggeri",
+      "title": "Acquisizione di persone esterne alla fila dei passeggeri — qualificazione da chiarire",
       "status": "draft_for_author_review",
       "sourceBasis": "PWA 1.4.2, commit 6f6a381; testi, riferimenti, accertamenti e procedure già presenti; scenario e aiuti redazionali nuovi.",
       "scenario": {
@@ -3935,7 +3949,7 @@
         "notEnough": "Il solo colloquio con persone o la loro presenza vicino al taxi non prova l’acquisizione e il prelievo fuori dalla fila.",
         "verifyFirst": "Il tassista si rivolge a persone esterne alla fila dei passeggeri già in attesa al posteggio, acquisisce la corsa e le preleva scavalcando gli utenti in fila. Verificare presenza della fila, contatto, offerta, prelievo, luogo, orari e fonti distinte. “Fuori dalla fila” non significa necessariamente prelievo fuori posteggio.",
         "qualification": "Verificare nel caso concreto la base e i presupposti indicati nella scheda; la guida non trasforma una verifica pendente in una violazione accertata.",
-        "referenceOnly": false
+        "referenceOnly": true
       },
       "descriptionHelp": {
         "prompt": "Ricostruire fila dei passeggeri, persone esterne avvicinate, offerta, acquisizione, prelievo, luoghi e orari.",
@@ -3989,7 +4003,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3. La sola ipotesi ancora da qualificare non prova tale presupposto."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -4000,7 +4015,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. c; CdS art. 86, comma 3-bis (solo se condizione della licenza autonomamente verificata)",
+          "normativeRef": "CdS art. 86, comma 3-bis (ipotesi subordinata alla condizione della licenza); Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. g (ambito della fila da chiarire)",
           "baseTemplate": "Alla guida del veicolo indicato, con C.P. n. {{fact_01}}, acquisiva clienti fuori dalla fila dei passeggeri in attesa al posteggio {{fact_02}}: {{fact_03}}. Si rivolgeva alle persone {{fact_05}} in {{fact_04}} e le prelevava {{fact_06}}, scavalcando gli utenti in fila. Il fatto risultava da {{fact_07}}.",
           "fields": [
             {
@@ -4075,10 +4090,10 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
-          "allowVerbale": true,
+          "allowVerbale": false,
           "requiresQualificationConfirmationForVerbale": true,
           "scopeLabel": "Taxi",
           "optionalContext": {
@@ -4185,7 +4200,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -4253,7 +4269,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -4363,7 +4379,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -4411,7 +4428,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -4521,7 +4538,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -4569,7 +4587,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -4679,7 +4697,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -4757,7 +4776,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -4867,7 +4886,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo B dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -4915,7 +4935,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -5025,7 +5045,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -5103,7 +5124,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -5213,7 +5234,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -5301,7 +5323,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -5411,7 +5433,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -5469,7 +5492,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -5579,7 +5602,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -5647,7 +5671,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -5757,7 +5781,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -5825,7 +5850,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -5935,7 +5960,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -5983,7 +6009,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -6093,7 +6119,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -6171,7 +6198,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -6281,7 +6308,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo C dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -6339,7 +6367,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -6449,7 +6477,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -6497,7 +6526,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -6607,7 +6636,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -6675,7 +6705,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -6731,7 +6761,7 @@
         "notEnough": "Il solo prelievo fuori punto senza ricostruire chiamata e disciplina dell’area.",
         "verifyFirst": "Accertare chiamata telefonica o radio nelle aree ferroviarie, marittime o aeroportuali e punto di prelievo predisposto.",
         "qualification": "Verificare nel caso concreto la base e i presupposti indicati nella scheda; la guida non trasforma una verifica pendente in una violazione accertata.",
-        "referenceOnly": false
+        "referenceOnly": true
       },
       "descriptionHelp": {
         "prompt": "Ricostruisci il fatto seguendo questi dettagli: Richiesta radio; punto previsto; punto effettivo; regola vigente; deroga.",
@@ -6785,7 +6815,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -6863,10 +6894,10 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
-          "allowVerbale": true,
+          "allowVerbale": false,
           "requiresQualificationConfirmationForVerbale": true,
           "scopeLabel": "Taxi",
           "optionalContext": {
@@ -6973,7 +7004,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -7031,7 +7063,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -7141,7 +7173,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -7154,7 +7187,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 b; CdS art.86 c.3-bis se condizione del titolo",
+          "normativeRef": "CdS art.86 c.3-bis se condizione del titolo; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 b",
           "baseTemplate": "Durante il servizio taxi, il veicolo con C.P. n. {{fact_01}} era privo del contrassegno luminoso sul tetto con scritta TAXI, come da {{fact_02}}.",
           "fields": [
             {
@@ -7179,7 +7212,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -7289,7 +7322,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -7357,7 +7391,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -7467,7 +7501,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -7515,7 +7550,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -7625,7 +7660,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -7683,7 +7719,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -7793,7 +7829,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -7871,7 +7908,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -7981,7 +8018,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo B dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -8029,7 +8067,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -8139,7 +8177,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -8197,7 +8236,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -8307,7 +8346,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -8375,7 +8415,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -8485,7 +8525,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -8563,7 +8604,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -8673,7 +8714,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo C dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -8741,7 +8783,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -8851,7 +8893,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -8899,7 +8942,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -9009,7 +9052,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -9022,7 +9066,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "L.21/1992 art.10 cc.5-bis, 5-ter e 5-quater; condizione del titolo da verificare",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza accertata); L.21/1992 art.10 c.5-ter",
           "baseTemplate": "Sul veicolo con C.P. n. {{fact_01}}, il sostituto {{fact_02}} svolgeva il turno aggiuntivo {{fact_03}}, per il quale risultava {{fact_04}}, come riscontrato da {{fact_05}}.",
           "fields": [
             {
@@ -9077,7 +9121,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -9187,7 +9231,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -9200,7 +9245,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.3 g; CdS art.193 solo se ne ricorrono i presupposti",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); CdS art.193 solo se ne ricorrono i presupposti; Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.3 g",
           "baseTemplate": "Il veicolo con C.P. n. {{fact_01}}, adibito al servizio taxi, presentava polizza n. {{fact_02}} con uso indicato come privato, difforme dall’impiego accertato. La copertura e le condizioni contrattuali erano riscontrate presso {{fact_03}}.",
           "fields": [
             {
@@ -9235,7 +9280,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -9274,7 +9319,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.3 g; CdS art.193 solo se ne ricorrono i presupposti",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); CdS art.193 solo se ne ricorrono i presupposti; Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.3 g",
           "baseTemplate": "Il veicolo con autorizzazione n. {{fact_01}}, adibito al servizio NCC, presentava polizza n. {{fact_02}} con uso indicato come privato, difforme dall’impiego accertato. La copertura e le condizioni contrattuali erano riscontrate presso {{fact_03}}.",
           "fields": [
             {
@@ -9309,7 +9354,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -9419,7 +9464,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -9432,7 +9478,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.7",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.7",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, a seguito dell’evento di {{fact_02}} del {{fact_03}}, ometteva la comunicazione prescritta al Comune entro cinque giorni. L’evento e la mancata ricezione risultavano da {{fact_04}}.",
           "fields": [
             {
@@ -9477,7 +9523,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -9516,7 +9562,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.7",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.7",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, a seguito dell’evento di {{fact_02}} del {{fact_03}}, ometteva la comunicazione prescritta al Comune entro cinque giorni. L’evento e la mancata ricezione risultavano da {{fact_04}}.",
           "fields": [
             {
@@ -9561,7 +9607,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -9671,7 +9717,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -9684,7 +9731,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "Provvedimento specifico; CdS art.86 c.2 oppure art.85 c.4 se titolo sospeso o revocato",
+          "normativeRef": "CdS art.86 c.2 oppure art.85 c.4 se titolo sospeso o revocato; Provvedimento specifico",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, svolgeva il servizio {{fact_02}} in contrasto con il provvedimento n. {{fact_03}} del {{fact_04}}, notificato il {{fact_05}}, efficace dal {{fact_06}}. La prescrizione violata era {{fact_07}}; il fatto osservato era {{fact_08}}.",
           "fields": [
             {
@@ -9769,7 +9816,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -9808,7 +9855,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "Provvedimento specifico; CdS art.86 c.2 oppure art.85 c.4 se titolo sospeso o revocato",
+          "normativeRef": "CdS art.86 c.2 oppure art.85 c.4 se titolo sospeso o revocato; Provvedimento specifico",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, svolgeva il servizio {{fact_02}} in contrasto con il provvedimento n. {{fact_03}} del {{fact_04}}, notificato il {{fact_05}}, efficace dal {{fact_06}}. La prescrizione violata era {{fact_07}}; il fatto osservato era {{fact_08}}.",
           "fields": [
             {
@@ -9893,7 +9940,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -10003,7 +10050,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo B dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -10016,7 +10064,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.1",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.1",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, il relativo titolo, con ultima vidimazione del {{fact_02}}, non risultava sottoposto alla verifica quinquennale nei termini di {{fact_03}}, tenuto conto di {{fact_04}}.",
           "fields": [
             {
@@ -10061,7 +10109,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -10100,7 +10148,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.1",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.1",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, il relativo titolo, con ultima vidimazione del {{fact_02}}, non risultava sottoposto alla verifica quinquennale nei termini di {{fact_03}}, tenuto conto di {{fact_04}}.",
           "fields": [
             {
@@ -10145,7 +10193,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -10255,7 +10303,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -10268,7 +10317,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 16 cc.3 e 4",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 16 cc.3 e 4",
           "baseTemplate": "Ometteva la visita tecnica comunale {{fact_01}}, dovuta entro {{fact_02}} per il veicolo con C.P. n. {{fact_03}}, secondo {{fact_04}}. L’omissione risultava da {{fact_05}}.",
           "fields": [
             {
@@ -10323,7 +10372,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -10362,7 +10411,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 16 cc.3 e 4",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 16 cc.3 e 4",
           "baseTemplate": "Ometteva la visita tecnica comunale {{fact_01}}, dovuta entro {{fact_02}} per il veicolo con autorizzazione n. {{fact_03}}, secondo {{fact_04}}. L’omissione risultava da {{fact_05}}.",
           "fields": [
             {
@@ -10417,7 +10466,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -10527,7 +10576,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -10540,7 +10590,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 d; c.2 per NCC; specifica disposizione CdS da individuare",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); specifica disposizione CdS da individuare; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 d; c.2 per NCC",
           "baseTemplate": "Durante il servizio sul veicolo con C.P. n. {{fact_01}}, il dispositivo {{fact_02}} risultava {{fact_03}}, in contrasto con {{fact_04}}. Il riscontro era effettuato mediante {{fact_05}}.",
           "fields": [
             {
@@ -10595,7 +10645,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -10634,7 +10684,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 d; c.2 per NCC; specifica disposizione CdS da individuare",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); specifica disposizione CdS da individuare; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 d; c.2 per NCC",
           "baseTemplate": "Durante il servizio sul veicolo con autorizzazione n. {{fact_01}}, il dispositivo {{fact_02}} risultava {{fact_03}}, in contrasto con {{fact_04}}. Il riscontro era effettuato mediante {{fact_05}}.",
           "fields": [
             {
@@ -10689,7 +10739,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -10799,7 +10849,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -10812,7 +10863,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 a; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 a; c.3 per NCC",
           "baseTemplate": "Durante il servizio taxi sul veicolo con C.P. n. {{fact_01}}, non teneva a bordo il relativo titolo. L’esistenza e l’efficacia del titolo erano riscontrate presso {{fact_02}}.",
           "fields": [
             {
@@ -10837,7 +10888,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -10876,7 +10927,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 a; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 a; c.3 per NCC",
           "baseTemplate": "Durante il servizio NCC sul veicolo con autorizzazione n. {{fact_01}}, non teneva a bordo il relativo titolo. L’esistenza e l’efficacia del titolo erano riscontrate presso {{fact_02}}.",
           "fields": [
             {
@@ -10901,7 +10952,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -11011,7 +11062,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -11024,7 +11076,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 c; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 c; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, durante il servizio taxi in {{fact_02}}, teneva verso {{fact_03}} la seguente condotta: {{fact_04}}, come riscontrato mediante {{fact_05}}.",
           "fields": [
             {
@@ -11079,7 +11131,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -11118,7 +11170,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 c; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 c; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, durante il servizio NCC in {{fact_02}}, teneva verso {{fact_03}} la seguente condotta: {{fact_04}}, come riscontrato mediante {{fact_05}}.",
           "fields": [
             {
@@ -11173,7 +11225,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -11283,7 +11335,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -11296,7 +11349,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 d; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 d; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, durante il servizio, non osservava la disposizione {{fact_02}} impartita dall’agente {{fact_03}} alle ore {{fact_04}}, relativa a {{fact_05}}, e teneva la condotta {{fact_06}}.",
           "fields": [
             {
@@ -11361,7 +11414,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -11400,7 +11453,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 d; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 d; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, durante il servizio, non osservava la disposizione {{fact_02}} impartita dall’agente {{fact_03}} alle ore {{fact_04}}, relativa a {{fact_05}}, e teneva la condotta {{fact_06}}.",
           "fields": [
             {
@@ -11465,7 +11518,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -11575,7 +11628,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -11588,7 +11642,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 h; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 h; c.3 per NCC",
           "baseTemplate": "Il veicolo con C.P. n. {{fact_01}}, impiegato nel servizio taxi, presentava {{fact_02}}, rilevate mediante {{fact_03}}.",
           "fields": [
             {
@@ -11623,7 +11677,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -11662,7 +11716,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 h; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 h; c.3 per NCC",
           "baseTemplate": "Il veicolo con autorizzazione n. {{fact_01}}, impiegato nel servizio NCC, presentava {{fact_02}}, rilevate mediante {{fact_03}}.",
           "fields": [
             {
@@ -11697,7 +11751,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -11807,7 +11861,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo B dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -11820,7 +11875,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 l; c.3 per NCC nei limiti pertinenti",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 l; c.3 per NCC nei limiti pertinenti",
           "baseTemplate": "Durante il servizio sul veicolo con C.P. n. {{fact_01}}, il {{fact_02}} risultava inefficiente per {{fact_03}}, riscontrato mediante {{fact_04}}.",
           "fields": [
             {
@@ -11865,7 +11920,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -11904,7 +11959,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 l; c.3 per NCC nei limiti pertinenti",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 l; c.3 per NCC nei limiti pertinenti",
           "baseTemplate": "Durante il servizio sul veicolo con autorizzazione n. {{fact_01}}, il {{fact_02}} risultava inefficiente per {{fact_03}}, riscontrato mediante {{fact_04}}.",
           "fields": [
             {
@@ -11949,7 +12004,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -12059,7 +12114,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -12072,7 +12128,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 n; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 n; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, a seguito della richiesta formulata da {{fact_02}} alle ore {{fact_03}}, non rilasciava il documento della corsa {{fact_04}} previsto dalla disposizione comunale. La richiesta e il mancato rilascio risultavano da {{fact_05}}.",
           "fields": [
             {
@@ -12127,7 +12183,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -12166,7 +12222,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 n; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 n; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, a seguito della richiesta formulata da {{fact_02}} alle ore {{fact_03}}, non rilasciava il documento della corsa {{fact_04}} previsto dalla disposizione comunale. La richiesta e il mancato rilascio risultavano da {{fact_05}}.",
           "fields": [
             {
@@ -12221,7 +12277,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -12331,7 +12387,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -12344,7 +12401,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 q; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 q; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, alla richiesta di {{fact_02}} di chiarire {{fact_03}}, formulata in {{fact_04}}, non forniva le informazioni previste e rispondeva {{fact_05}}, come riscontrato da {{fact_06}}.",
           "fields": [
             {
@@ -12409,7 +12466,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -12448,7 +12505,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 q; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 q; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, alla richiesta di {{fact_02}} di chiarire {{fact_03}}, formulata in {{fact_04}}, non forniva le informazioni previste e rispondeva {{fact_05}}, come riscontrato da {{fact_06}}.",
           "fields": [
             {
@@ -12513,7 +12570,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -12623,7 +12680,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -12636,7 +12694,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 r; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 r; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, durante il servizio taxi, il conducente indossava {{fact_02}}, in contrasto con {{fact_03}}, nelle seguenti circostanze {{fact_04}}.",
           "fields": [
             {
@@ -12681,7 +12739,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -12720,7 +12778,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 r; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 r; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, durante il servizio NCC, il conducente indossava {{fact_02}}, in contrasto con {{fact_03}}, nelle seguenti circostanze {{fact_04}}.",
           "fields": [
             {
@@ -12765,7 +12823,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -12875,7 +12933,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -12888,7 +12947,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 s; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 s; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, a seguito del provvedimento {{fact_02}}, notificato il {{fact_03}}, ometteva la comunicazione all’ufficio entro le ventiquattro ore lavorative previste. La scadenza era {{fact_04}}; la mancata ricezione risultava da {{fact_05}}.",
           "fields": [
             {
@@ -12943,7 +13002,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -12982,7 +13041,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 s; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 s; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, a seguito del provvedimento {{fact_02}}, notificato il {{fact_03}}, ometteva la comunicazione all’ufficio entro le ventiquattro ore lavorative previste. La scadenza era {{fact_04}}; la mancata ricezione risultava da {{fact_05}}.",
           "fields": [
             {
@@ -13037,7 +13096,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -13147,7 +13206,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -13160,7 +13220,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 t; c.3 per NCC nei limiti pertinenti",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 t; c.3 per NCC nei limiti pertinenti",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, a seguito dell’avaria del tassametro durante la corsa {{fact_02}}, {{fact_03}}. I fatti e la volontà dell’utente risultavano da {{fact_04}}.",
           "fields": [
             {
@@ -13205,7 +13265,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -13244,7 +13304,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 t; c.3 per NCC nei limiti pertinenti",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 t; c.3 per NCC nei limiti pertinenti",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, a seguito dell’avaria del tassametro durante la corsa {{fact_02}}, {{fact_03}}. I fatti e la volontà dell’utente risultavano da {{fact_04}}.",
           "fields": [
             {
@@ -13289,7 +13349,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -13399,7 +13459,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -13412,7 +13473,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 j; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 j; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, dopo il rinvenimento dell’oggetto {{fact_02}}, relativo alla corsa conclusa il {{fact_03}}, non provvedeva a {{fact_04}} entro il termine previsto. I fatti risultavano da {{fact_05}}.",
           "fields": [
             {
@@ -13467,7 +13528,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -13506,7 +13567,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 j; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 j; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, dopo il rinvenimento dell’oggetto {{fact_02}}, relativo alla corsa conclusa il {{fact_03}}, non provvedeva a {{fact_04}} entro il termine previsto. I fatti risultavano da {{fact_05}}.",
           "fields": [
             {
@@ -13561,7 +13622,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -13671,7 +13732,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -13684,7 +13746,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 b; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 b; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, durante il servizio taxi richiesto da {{fact_02}}, trasportava anche {{fact_03}} estranee alla richiesta, come risultava da {{fact_04}}. Non risultava servizio taxi collettivo autorizzato.",
           "fields": [
             {
@@ -13729,7 +13791,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -13768,7 +13830,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 b; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 b; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, durante il servizio NCC richiesto da {{fact_02}}, trasportava anche {{fact_03}} estranee alla richiesta, come risultava da {{fact_04}}. Non risultava servizio taxi collettivo autorizzato.",
           "fields": [
             {
@@ -13813,7 +13875,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -13923,7 +13985,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -13936,7 +13999,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 c; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 c; c.3 per NCC",
           "baseTemplate": "Durante il servizio taxi sul veicolo con C.P. n. {{fact_01}}, teneva a bordo l’animale {{fact_02}}, appartenente al conducente, come riscontrato mediante {{fact_03}}.",
           "fields": [
             {
@@ -13971,7 +14034,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -14010,7 +14073,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 c; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 c; c.3 per NCC",
           "baseTemplate": "Durante il servizio NCC sul veicolo con autorizzazione n. {{fact_01}}, teneva a bordo l’animale {{fact_02}}, appartenente al conducente, come riscontrato mediante {{fact_03}}.",
           "fields": [
             {
@@ -14045,7 +14108,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -14155,7 +14218,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo B dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -14168,7 +14232,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 d; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 d; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, interrompeva di propria iniziativa la corsa da {{fact_02}} a {{fact_03}} in {{fact_04}}, contro la volontà dell’utente, per il motivo {{fact_05}}. I riscontri erano {{fact_06}}; le eventuali cause di forza maggiore o pericolo erano {{fact_07}}.",
           "fields": [
             {
@@ -14243,7 +14307,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -14282,7 +14346,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 d; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 d; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, interrompeva di propria iniziativa la corsa da {{fact_02}} a {{fact_03}} in {{fact_04}}, contro la volontà dell’utente, per il motivo {{fact_05}}. I riscontri erano {{fact_06}}; le eventuali cause di forza maggiore o pericolo erano {{fact_07}}.",
           "fields": [
             {
@@ -14357,7 +14421,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -14467,7 +14531,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -14480,7 +14545,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 f; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 f; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, rifiutava il trasporto del bagaglio {{fact_02}}, presentato da {{fact_03}}, nonostante rientrasse nella capienza utile del veicolo. Il motivo addotto era {{fact_04}}; la capienza e le circostanze risultavano da {{fact_05}}.",
           "fields": [
             {
@@ -14535,7 +14600,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -14574,7 +14639,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 f; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 f; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, rifiutava il trasporto del bagaglio {{fact_02}}, presentato da {{fact_03}}, nonostante rientrasse nella capienza utile del veicolo. Il motivo addotto era {{fact_04}}; la capienza e le circostanze risultavano da {{fact_05}}.",
           "fields": [
             {
@@ -14629,7 +14694,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -14739,7 +14804,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo B dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -14752,7 +14818,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, rifiutava a {{fact_02}} il trasporto di {{fact_03}}, nelle circostanze {{fact_04}}, per il motivo dichiarato {{fact_05}}. I riscontri erano {{fact_06}}.",
           "fields": [
             {
@@ -14817,7 +14883,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -14856,7 +14922,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, rifiutava a {{fact_02}} il trasporto di {{fact_03}}, nelle circostanze {{fact_04}}, per il motivo dichiarato {{fact_05}}. I riscontri erano {{fact_06}}.",
           "fields": [
             {
@@ -14921,7 +14987,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -15031,7 +15097,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -15044,7 +15111,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 i; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 i; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, durante la sosta al posteggio autorizzato {{fact_02}}, il conducente {{fact_03}}, come rilevato mediante {{fact_04}}.",
           "fields": [
             {
@@ -15089,7 +15156,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -15128,7 +15195,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 i; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 i; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, durante la sosta al posteggio autorizzato {{fact_02}}, il conducente {{fact_03}}, come rilevato mediante {{fact_04}}.",
           "fields": [
             {
@@ -15173,7 +15240,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -15283,7 +15350,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo C dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -15296,7 +15364,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 e 7; 23 c.2 k e c.3",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 e 7; 23 c.2 k e c.3",
           "baseTemplate": "Consentiva la conduzione in servizio del veicolo con C.P. n. {{fact_01}} a {{fact_02}}, privo di {{fact_03}}, come riscontrato da {{fact_04}}.",
           "fields": [
             {
@@ -15341,7 +15409,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -15380,7 +15448,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 e 7; 23 c.2 k e c.3",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 e 7; 23 c.2 k e c.3",
           "baseTemplate": "Consentiva la conduzione in servizio del veicolo con autorizzazione n. {{fact_01}} a {{fact_02}}, privo di {{fact_03}}, come riscontrato da {{fact_04}}.",
           "fields": [
             {
@@ -15425,7 +15493,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -15535,7 +15603,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -15548,7 +15617,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 j; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 j; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, durante la corsa {{fact_02}}, {{fact_03}}, nelle circostanze {{fact_04}}, come rilevato mediante {{fact_05}}.",
           "fields": [
             {
@@ -15603,7 +15672,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -15642,7 +15711,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 j; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 j; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, durante la corsa {{fact_02}}, {{fact_03}}, nelle circostanze {{fact_04}}, come rilevato mediante {{fact_05}}.",
           "fields": [
             {
@@ -15697,7 +15766,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -15807,7 +15876,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Rapporto obbligatorio al Prefetto della provincia in cui è commessa la violazione, ex D.L.179/2012 art.15 c.4-bis e L.689/1981 art.17; non applicare automaticamente l’art.29 del regolamento."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -15895,7 +15965,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Adempimenti di comunicazione: destinatari, stato ed estremi da completare secondo il riquadro […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -16009,7 +16079,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Adempimenti di comunicazione: destinatari, stato ed estremi da completare secondo il riquadro […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -16119,7 +16189,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Comunicazioni obbligatorie degli organi accertatori ex L.R. 10/2024, art. 21, comma 2: CCIAA competente, uffici provinciali Guardia di finanza, UMC, ufficio territoriale Agenzia delle entrate, Ispettorato del lavoro e INPS, accertato l’esercizio senza iscrizione al ruolo."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -16167,7 +16238,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Adempimenti di comunicazione: destinatari, stato ed estremi da completare secondo il riquadro […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -16241,7 +16312,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Adempimenti di comunicazione: destinatari, stato ed estremi da completare secondo il riquadro […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -16351,7 +16422,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -16409,7 +16481,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -16493,7 +16565,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -16603,7 +16675,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo D dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -16616,7 +16689,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 h; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 h; c.3 per NCC",
           "baseTemplate": "Sul veicolo con C.P. n. {{fact_01}}, in servizio taxi, il {{fact_02}} presentava {{fact_03}}, come da {{fact_04}}.",
           "fields": [
             {
@@ -16661,7 +16734,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -16700,7 +16773,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 h; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 h; c.3 per NCC",
           "baseTemplate": "Sul veicolo con autorizzazione n. {{fact_01}}, in servizio NCC, il {{fact_02}} presentava {{fact_03}}, come da {{fact_04}}.",
           "fields": [
             {
@@ -16745,7 +16818,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -16855,7 +16928,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -16868,7 +16942,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, durante il servizio taxi , non risultava allegata al relativo titolo la copia dell’elenco dei collaboratori o sostituti, come da {{fact_02}}.",
           "fields": [
             {
@@ -16893,7 +16967,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -16932,7 +17006,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, durante il servizio NCC , non risultava allegata al relativo titolo la copia dell’elenco dei collaboratori o sostituti, come da {{fact_02}}.",
           "fields": [
             {
@@ -16957,7 +17031,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -17067,7 +17141,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -17080,7 +17155,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, il titolare impiegava {{fact_02}} senza trasmetterne i dati al Comune, come da {{fact_03}}.",
           "fields": [
             {
@@ -17115,7 +17190,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -17154,7 +17229,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, il titolare impiegava {{fact_02}} senza trasmetterne i dati al Comune, come da {{fact_03}}.",
           "fields": [
             {
@@ -17189,7 +17264,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -17299,7 +17374,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -17357,7 +17433,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -17441,7 +17517,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -17551,7 +17627,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -17619,7 +17696,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -17713,7 +17790,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -17823,7 +17900,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -17836,7 +17914,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 f; c.2 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 f; c.2 per NCC",
           "baseTemplate": "Il veicolo con C.P. n. {{fact_01}} presentava bagagliaio {{fact_02}}, incompatibili con {{fact_03}}, come da {{fact_04}}.",
           "fields": [
             {
@@ -17881,7 +17959,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -17920,7 +17998,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 f; c.2 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 f; c.2 per NCC",
           "baseTemplate": "Il veicolo con autorizzazione n. {{fact_01}} presentava bagagliaio {{fact_02}}, incompatibili con {{fact_03}}, come da {{fact_04}}.",
           "fields": [
             {
@@ -17965,7 +18043,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -18075,7 +18153,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -18088,7 +18167,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 g; c.2 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 g; c.2 per NCC",
           "baseTemplate": "Il veicolo con C.P. n. {{fact_01}} risultava omologato per {{fact_02}} passeggeri, rispetto al requisito regolamentare {{fact_03}}.",
           "fields": [
             {
@@ -18123,7 +18202,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -18162,7 +18241,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 g; c.2 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 g; c.2 per NCC",
           "baseTemplate": "Il veicolo con autorizzazione n. {{fact_01}} risultava omologato per {{fact_02}} passeggeri, rispetto al requisito regolamentare {{fact_03}}.",
           "fields": [
             {
@@ -18197,7 +18276,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -18307,7 +18386,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -18320,7 +18400,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 j; c.2 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 j; c.2 per NCC",
           "baseTemplate": "Sul veicolo con C.P. n. {{fact_01}} erano apposte {{fact_02}}, prive di {{fact_03}}, come riscontrato presso {{fact_04}}.",
           "fields": [
             {
@@ -18365,7 +18445,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -18404,7 +18484,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 j; c.2 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 j; c.2 per NCC",
           "baseTemplate": "Sul veicolo con autorizzazione n. {{fact_01}} erano apposte {{fact_02}}, prive di {{fact_03}}, come riscontrato presso {{fact_04}}.",
           "fields": [
             {
@@ -18449,7 +18529,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -18559,7 +18639,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -18572,7 +18653,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 c.5 per taxi",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 c.5 per taxi",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, il relativo servizio era sospeso dal {{fact_02}}, senza comunicazione al Comune entro cinque giorni, come da {{fact_03}}.",
           "fields": [
             {
@@ -18607,7 +18688,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -18646,7 +18727,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 c.5 per taxi",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 c.5 per taxi",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, il relativo servizio era sospeso dal {{fact_02}}, senza comunicazione al Comune entro cinque giorni, come da {{fact_03}}.",
           "fields": [
             {
@@ -18681,7 +18762,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -18791,7 +18872,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -18804,7 +18886,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, il titolare cambiava domicilio il {{fact_02}} senza comunicarlo al Comune entro cinque giorni, come risultava da {{fact_03}}.",
           "fields": [
             {
@@ -18839,7 +18921,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -18878,7 +18960,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, il titolare cambiava domicilio il {{fact_02}} senza comunicarlo al Comune entro cinque giorni, come risultava da {{fact_03}}.",
           "fields": [
             {
@@ -18913,7 +18995,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -19023,7 +19105,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -19101,7 +19184,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -19205,7 +19288,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -19315,7 +19398,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo B dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -19328,7 +19412,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, durante il servizio taxi, richiedeva a {{fact_02}} €{{fact_03}} come supplemento per {{fact_04}}, come da {{fact_05}}.",
           "fields": [
             {
@@ -19383,7 +19467,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -19422,7 +19506,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, durante il servizio NCC, richiedeva a {{fact_02}} €{{fact_03}} come supplemento per {{fact_04}}, come da {{fact_05}}.",
           "fields": [
             {
@@ -19477,7 +19561,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -19587,7 +19671,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -19600,7 +19685,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 24; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 e per taxi",
+          "normativeRef": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 24; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 e per taxi",
           "baseTemplate": "In relazione al veicolo con C.P. n. {{fact_01}}, interrotta la corsa in {{fact_02}} per {{fact_03}}, senza servizio sostitutivo possibile, richiedeva €{{fact_04}} comprendendo {{fact_05}}, come da {{fact_06}}.",
           "fields": [
             {
@@ -19665,7 +19750,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -19704,7 +19789,7 @@
           }
         },
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 24; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 e per taxi",
+          "normativeRef": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 24; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 e per taxi",
           "baseTemplate": "In relazione al veicolo con autorizzazione n. {{fact_01}}, interrotta la corsa in {{fact_02}} per {{fact_03}}, senza servizio sostitutivo possibile, richiedeva €{{fact_04}} comprendendo {{fact_05}}, come da {{fact_06}}.",
           "fields": [
             {
@@ -19769,7 +19854,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -19879,7 +19964,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -19947,7 +20033,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -20041,7 +20127,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -20151,7 +20237,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -20209,7 +20296,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -20293,7 +20380,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -20403,7 +20490,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -20461,7 +20549,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -20545,7 +20633,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -20655,7 +20743,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -20927,7 +21016,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -21199,7 +21289,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -21471,7 +21562,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -21743,7 +21835,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -22418,7 +22511,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Condotta: identificare il conducente e descrivere il fatto. Sanzione ex art.85 c.4-bis: destinatario è il titolare dell’autorizzazione. Per la reiterazione verificare i precedenti sul medesimo veicolo nel quinquennio; non estendere automaticamente questa regola agli altri illeciti.",
       "procedure": {
@@ -22574,7 +22668,7 @@
               ]
             }
           ],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -22684,7 +22778,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -22697,7 +22792,7 @@
       },
       "variants": {
         "ncc": {
-          "normativeRef": "L.R.10/2024 art.4 c.3, modificato dalla L.R.7/2026; L.21/1992 artt.3 e 11",
+          "normativeRef": "L.21/1992 artt.3 e 11; L.R.10/2024 art.4 c.3, modificato dalla L.R.7/2026",
           "baseTemplate": "Per il veicolo con autorizzazione NCC n. {{fact_01}}, la rimessa dichiarata in {{fact_02}} risultava {{fact_03}}, senza spazio effettivo o valido titolo di disponibilità, come documentato da {{fact_04}}.",
           "fields": [
             {
@@ -22742,7 +22837,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -22852,7 +22947,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -22900,7 +22996,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -23010,7 +23106,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo A dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -23078,7 +23175,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -23188,7 +23285,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -23201,7 +23299,7 @@
       },
       "variants": {
         "ncc": {
-          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.2 b; L.21/1992 art.12 c.5",
+          "normativeRef": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); L.21/1992 art.12 c.5; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.2 b",
           "baseTemplate": "Durante servizio NCC con il veicolo con autorizzazione n. {{fact_01}}, mancava o era difforme {{fact_02}}, come da {{fact_03}}.",
           "fields": [
             {
@@ -23236,7 +23334,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -23346,7 +23444,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Trasmettere i riscontri al Comune titolare del procedimento NCC e, per il seguito sul ruolo, alla CCIAA competente. L.21/1992 art.11-bis e L.R.10/2024 art.21 c.6 prevedono regimi da coordinare, non un’identica misura automatica né un espresso obbligo generale di doppio invio a ogni controllo. Distinto l’invio obbligatorio del documento all’UMC."
       },
       "responsibility": "Condotta: identificare il conducente e descrivere il fatto. Sanzione ex art.85 c.4-bis: destinatario è il titolare dell’autorizzazione. Per la reiterazione verificare i precedenti sul medesimo veicolo nel quinquennio; non estendere automaticamente questa regola agli altri illeciti.",
       "procedure": {
@@ -23359,7 +23458,7 @@
       },
       "variants": {
         "ncc": {
-          "normativeRef": "Regolamento comunale (delibera C.C. n. 80/2005), art. 4 cc.8 e 10; L.21/1992 artt.3 e 11 c.3; CdS art.85 c.4-bis",
+          "normativeRef": "CdS art.85 c.4-bis; L.21/1992 artt.3 e 11 c.3; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 cc.8 e 10",
           "baseTemplate": "Con il veicolo NCC munito di autorizzazione n. {{fact_01}}, stazionava in {{fact_02}} per acquisire clienti senza {{fact_03}}, come da {{fact_04}}. Il titolare dell’autorizzazione è {{fact_05}}.",
           "fields": [
             {
@@ -23492,7 +23591,7 @@
               ]
             }
           ],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Comune che ha rilasciato l’autorizzazione NCC e alla CCIAA competente per il ruolo. Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -23602,7 +23701,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -23670,7 +23770,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -23780,7 +23880,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -24218,7 +24319,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -24768,7 +24870,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -25366,7 +25469,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -25631,7 +25735,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Trasmettere i riscontri al Comune titolare del procedimento NCC e, per il seguito sul ruolo, alla CCIAA competente. L.21/1992 art.11-bis e L.R.10/2024 art.21 c.6 prevedono regimi da coordinare, non un’identica misura automatica né un espresso obbligo generale di doppio invio a ogni controllo. Distinto l’invio obbligatorio del documento all’UMC."
       },
       "responsibility": "Condotta: identificare il conducente e descrivere il fatto. Sanzione ex art.85 c.4-bis: destinatario è il titolare dell’autorizzazione. Per la reiterazione verificare i precedenti sul medesimo veicolo nel quinquennio; non estendere automaticamente questa regola agli altri illeciti.",
       "procedure": {
@@ -25767,7 +25872,7 @@
               ]
             }
           ],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Comune che ha rilasciato l’autorizzazione NCC e alla CCIAA competente per il ruolo. Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -25877,7 +25982,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Trasmettere i riscontri al Comune titolare del procedimento NCC e, per il seguito sul ruolo, alla CCIAA competente. L.21/1992 art.11-bis e L.R.10/2024 art.21 c.6 prevedono regimi da coordinare, non un’identica misura automatica né un espresso obbligo generale di doppio invio a ogni controllo. Distinto l’invio obbligatorio del documento all’UMC."
       },
       "responsibility": "Condotta: identificare il conducente e descrivere il fatto. Sanzione ex art.85 c.4-bis: destinatario è il titolare dell’autorizzazione. Per la reiterazione verificare i precedenti sul medesimo veicolo nel quinquennio; non estendere automaticamente questa regola agli altri illeciti.",
       "procedure": {
@@ -26023,7 +26129,7 @@
               ]
             }
           ],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Comune che ha rilasciato l’autorizzazione NCC e alla CCIAA competente per il ruolo. Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -26133,7 +26239,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Trasmettere i riscontri al Comune titolare del procedimento NCC e, per il seguito sul ruolo, alla CCIAA competente. L.21/1992 art.11-bis e L.R.10/2024 art.21 c.6 prevedono regimi da coordinare, non un’identica misura automatica né un espresso obbligo generale di doppio invio a ogni controllo. Distinto l’invio obbligatorio del documento all’UMC."
       },
       "responsibility": "Condotta: identificare il conducente e descrivere il fatto. Sanzione ex art.85 c.4-bis: destinatario è il titolare dell’autorizzazione. Per la reiterazione verificare i precedenti sul medesimo veicolo nel quinquennio; non estendere automaticamente questa regola agli altri illeciti.",
       "procedure": {
@@ -26279,7 +26386,7 @@
               ]
             }
           ],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Comune che ha rilasciato l’autorizzazione NCC e alla CCIAA competente per il ruolo. Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -26389,7 +26496,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Trasmettere i riscontri al Comune titolare del procedimento NCC e, per il seguito sul ruolo, alla CCIAA competente. L.21/1992 art.11-bis e L.R.10/2024 art.21 c.6 prevedono regimi da coordinare, non un’identica misura automatica né un espresso obbligo generale di doppio invio a ogni controllo. Distinto l’invio obbligatorio del documento all’UMC."
       },
       "responsibility": "Condotta: identificare il conducente e descrivere il fatto. Sanzione ex art.85 c.4-bis: destinatario è il titolare dell’autorizzazione. Per la reiterazione verificare i precedenti sul medesimo veicolo nel quinquennio; non estendere automaticamente questa regola agli altri illeciti.",
       "procedure": {
@@ -26535,7 +26643,7 @@
               ]
             }
           ],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Gli atti sono da trasmettere al Comune che ha rilasciato l’autorizzazione NCC e alla CCIAA competente per il ruolo. Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -26645,7 +26753,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -26693,7 +26802,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -26803,7 +26912,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -26861,7 +26971,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -26971,7 +27081,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Segnalazione obbligatoria all’ufficio competente: l’autorità che applica la sanzione segnala alla Regione che ha rilasciato l’autorizzazione (L.218/2003 art.8). Gli operatori trasmettono gli atti per tale seguito. In Campania riscontrare il titolo e il Comune/SUAP competente (L.R.10/2024 artt.23, 27 e 33)."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -27029,7 +27140,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "Adempimenti di comunicazione: destinatari, stato ed estremi da completare secondo il riquadro […].",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -27139,7 +27250,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -27187,7 +27299,7 @@
             }
           ],
           "acts": [],
-          "finalSentence": "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "relation",
           "allowVerbale": true,
@@ -27297,7 +27409,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -27465,7 +27578,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -27633,7 +27747,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -27801,7 +27916,8 @@
           "Estremi disponibili",
           "Ottenuto / pendente"
         ],
-        "automaticallyFilled": false
+        "automaticallyFilled": false,
+        "existingText": "Per il seguito comunale trasmettere i fatti pertinenti all’ufficio competente; non è dimostrato un obbligo generalizzato ex art. 29, comma 3, fuori dalle fattispecie elencate."
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
@@ -27899,5 +28015,6 @@
         }
       }
     }
-  ]
+  ],
+  "legalSync": "1.8.6 — riferimenti e seguito allineati; guida storica non caricata dalla PWA"
 }

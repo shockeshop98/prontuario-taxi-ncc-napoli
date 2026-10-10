@@ -1,0 +1,425 @@
+Art. 85
+Servizio di noleggio con conducente per trasporto di persone
+Testo
+Art. 85
+Servizio di noleggio con conducente per trasporto di persone
+(Art. 244 regolamento CDS)
+ 
+85.A - Introduzione
+Nel servizio di noleggio con conducente per trasporto di persone l'utenza si rivolge al vettore presso la sua sede concordando una determinata prestazione a tempo o a viaggio. A differenza dei taxi (v. art. 86), che stazionano negli appositi spazi comunali, i veicoli destinati a servizio NCC stazionano nelle rimesse.
+ 
+85.B - Riassetto del regime sanzionatorio - L n. 193/2024
+Con l'art. 25, c. 2, lett. a), L n. 193/2024 sono stati sostituiti i cc. 4 e 4-bis dell'art. 85 prevedendo un incremento delle sanzioni per chiunque adibisce a noleggio con conducente un veicolo non destinato a tale uso ovvero in assenza dell'autorizzazione di cui all'art. 8 L n. 21/1992 (pagamento di una somma da 1.812 a 7.249 euro e, se si tratta di autobus immatricolati per noleggio con conducente, da 1.998 a 7.993 euro) e l'applicazione delle sanzioni amministrative della confisca del veicolo e della sospensione della patente di guida da quattro a dodici mesi. La stessa norma ha previsto sanzioni anche per chi, pur essendo autorizzato a svolgere attività di NCC, viola le prescrizioni imposte dagli artt. 3 e 11 L n. 21/1992, graduando l'entità delle sanzioni amministrative stesse in modo crescente in funzione della loro reiterazione nel tempo. Per la violazione di tutte le altre prescrizioni dell'autorizzazione, il comma 4 ter aggiunto all'art. 85 dalla citata L n. 193/2024, prevede sanzioni amministrative meno gravi.
+Le nuove sanzioni non sono state immediatamente esecutive perché le nuove disposizioni che le prevedono sono entrate in vigore decorsi sei mesi (v. art. con l'art. 25, c. 3, L n. 193/2024) dalla data di pubblicazione del decreto adottato in attuazione di quanto previsto dall'art. 11, c. 4, L n. 21/1992 (v. DD MIT 16.10.2024 n. 226 che disciplina le modalità di tenuta e compilazione del foglio di servizio elettronico di cui all'art. 11, c. 4, L n. 21/1992, ai fini dello svolgimento del servizio di noleggio con conducente effettuato esclusivamente mediante autovettura o motocarrozzetta pubblicato in data 31.10.2024). Sono perciò, operative dal 30 aprile 2025.
+
+Noleggio con conducente di veicolo non adibito a tale uso - 1a violazione - autobus NCC
+Norma violata
+CDS art. 85 c. 4
+Sanzione
+(v. nota 1)
+limiti edittali da 1.998,00 a 7.993,00 euro
+Sanzioni accessorie
+Punti
+sospensione patente (da 4 a 12 mesi)
+sequestro veicolo per confisca
+Testo
+Adibiva a noleggio con conducente il veicolo sopra indicato benché non destinato a tale uso (ovvero, solo per autovetture e motocarozzette, benché fosse privo di autorizzazione di cui all'art. 8 della L n. 21/1992 ovvero, per tutti i veicoli, benché l'autorizzazione fosse sospesa o revocata con provvedimento n… del …). Risultava infatti, in base alle indicazioni del documento di circolazione, che il veicolo doveva essere adibito a ... (indicare uso). Nella circostanza veniva accertato il trasporto di persone così identificate ... (generalità di qualche passeggero). La patente di guida è ritirata e sarà inviata alla prefettura-UTG di …Il veicolo, di cui viene trattenuto il documento di circolazione, è sottoposto a sequestro come da apposito verbale e affidato, con segnalazione visibile del suo stato di sequestro, a … (generalità del custode) che lo custodirà presso … (indicare luogo di custodia). (In caso di seconda violazione nel triennio v. seguente 085-03).
+ 
+Note sanzionatorie
+ 1
+Essendo prevista la confisca del veicolo non è ammesso il pagamento in misura ridotta. Il verbale va inviato entro 10 giorni al prefetto del luogo della commessa violazione. La sanzione maggiorata per autobus si applica solo quando l'autobus è immatricolato per uso noleggio con conducente ma l'autorizzazione per l'esercizio dell'attività è stata sospesa o revocata. Se la violazione è commessa con un autobus che è immatricolato per uso diverso (es.: uso proprio o di linea), invece, si applica la sanzione di minore importo (1.812,00÷7.249,00).
+ 2
+Possibili violazioni concorrenti con la presente sono quelle riguardanti, ad es., il mancato possesso del CAP (o CQC nel caso degli autobus), o la mancanza (art. 72) o la inefficienza (art. 79) di prescritte dotazioni (es. estintori e cassetta pronto soccorso per autobus), nonché l'esercizio dell'attività in violazione delle prescrizioni del titolo autorizzativo (v. 085-05). L'omessa revisione semestrale degli estintori potrebbe costituire illecito penale a carico del datore di lavoro (v. E4-01, nota 8). Non è ammesso il servizio NCC di autocarri per trasporto cose per conto terzi (v. L n. 298/1974 in § D1).
+ 
+note operative e dottrinali
+  
+Note comuni
+ 3
+V. anche art. 84.
+ 4
+Il servizio NCC (noleggio con conducente) è disciplinato per autovetture, motocarrozzette, velocipedi e veicoli a trazione animale, dalla L n. 21/1992 (come modificata dalla L n. 12/2019) e per gli autobus dalla L n. 218/2003. Possono essere destinati al servizio noleggio con conducente per trasporto di persone:
+  -
+motocicli con o senza sidecar, tricicli, quadricicli, autovetture, autobus; veicoli a trazione animale;
+  -
+autoveicoli per trasporto promiscuo o per trasporti specifici di persone (in questi ultimi l'art. 244 reg. CDS include anche le autoambulanze sia di trasporto sia di soccorso);
+  -
+velocipedi. Introdotti dalla L n. 9/2014, sono soggetti, salvo specifiche disposizioni, solo a sanzione pecuniaria essendo privi del documento di circolazione (ma, secondo TAR Lazio 27.5.2016 n. 6208, anche per questi veicoli è necessaria la licenza comunale d'esercizio).
+ 5
+Il documento di circolazione deve indicare l'uso del veicolo ed è rilasciato sulla base del prescritto titolo (autorizzazione comunale), che ne diventa perciò parte integrante. Ad es. un'autovettura immatricolata a uso proprio non può svolgere NCC.
+ 6
+Presso le CCIAA è istituito il ruolo dei conducenti per autoservizi pubblici non di linea. L'iscrizione nel ruolo è requisito indispensabile per il rilascio della licenza per servizio taxi o NCC: senza iscrizione a ruolo l'esercizio NCC è abusivo (v. 086-03). Le violazioni degli artt. 3 e 11 L n. 21/1992 devono essere segnalate, dopo la loro entrata in vigore, poiché sono punite anche con la sospensione (variamente articolata) dal ruolo.
+ 7
+Per i veicoli a trazione animale e velocipedi non è applicabile la sanzione accessoria della patente di guida in quanto non richiesta per la loro conduzione.
+ 8
+Le autovetture adibite a questo servizio e gli autobus (secondo previsioni regionali) recano la scritta:
+  -
+all'interno del parabrezza e sul lunotto posteriore la scritta Noleggio;
+  -
+una targa inamovibile posteriore con la scritta noleggio con conducente (NCC), lo stemma del comune ed il numero progressivo di autorizzazione.
+ 9
+La violazione deve essere contestata al conducente.
+ 10
+Oltre alle sanzioni dell'art. 85, c. 4, l'inosservanza delle prescrizioni è punita con la sospensione dal ruolo (v. nota 6) per periodi crescenti al crescere del numero di inosservanze (art. 11-bis L n. 21/1992) e perciò bisogna dare comunicazione di tali violazioni al comune e alla CCIAA.
+  
+Note ipotesi 085-01
+ 11
+L'attività di trasporto viaggiatori con autobus NCC è subordinata al rilascio di autorizzazione della regione o ente locale a ciò delegato (art. 5 L n. 218/2003) cui vanno segnalate le violazioni. L'immatricolazione del veicolo avviene infatti in base a detta autorizzazione, copia conforme della quale deve essere conservata a bordo del veicolo pena la sanzione di 085-05 o quella che la regione potrebbe avere stabilito ai sensi del DM MIT 11.3.2004.
+  
+Note ipotesi 085-02
+ 12
+Rientra nella presente ipotesi anche l'utilizzo in servizio NCC di autobus immatricolati per servizio di linea senza l'autorizzazione di cui all'art. 82 (v. 082-01, nota 8), rilasciata per la parte amministrativa dall'Ente che, in funzione della propria competenza, affida il servizio di linea: regioni [art. 105, c. 2, lett. a), DLG n. 112/1998]; comuni (DLG n. 422/1997); Stato (DLG n. 285/2005). Per la parte tecnica l'autorizzazione è rilasciata da un UMC e contiene prescrizioni in merito al tachigrafo ed eventualmente al numero di persone sedute consentite. Entrambe le autorizzazioni vanno tenute a bordo e sono valide al massimo un anno. Per la distrazione dal servizio di linea al sevizio NCC le autorizzazioni sono disposte dal DM MIT 23.12.2003 solo per gli autobus di classe B, II (con limitazione del trasporto per le sole persone sedute) e III (v. 087-01, nota 8), e possono essere concesse anche ai veicoli di classe A e I, nonché agli autobus a 2 piani aperti e agli autosnodati, in quanto il divieto di distrazione di questi veicoli è stato sospeso a seguito del DM MIT 6.10.2005.
+
+Noleggio con conducente di veicolo non adibito a tale uso - 1a violazione - veicoli diversi dagli autobus NCC
+Norma violata
+CDS art. 85 c. 4
+Sanzione
+(v. nota 1)
+limiti edittali da 1.812,00 a 7.249,00 euro
+Sanzioni accessorie
+Punti
+sospensione patente (da 4 a 12 mesi)
+sequestro veicolo per confisca
+Testo
+Adibiva a noleggio con conducente il veicolo sopra indicato benché non destinato a tale uso (ovvero, solo per autovetture e motocarozzette, benché fosse privo di autorizzazione di cui all'art. 8 della L n. 21/1992 ovvero, per tutti i veicoli, benché l'autorizzazione fosse sospesa o revocata con provvedimento n… del …). Risultava infatti, in base alle indicazioni del documento di circolazione, che il veicolo doveva essere adibito a ... (indicare uso). Nella circostanza veniva accertato il trasporto di persone così identificate ... (generalità di qualche passeggero). La patente di guida è ritirata e sarà inviata alla prefettura-UTG di …Il veicolo, di cui viene trattenuto il documento di circolazione, è sottoposto a sequestro come da apposito verbale e affidato, con segnalazione visibile del suo stato di sequestro, a … (generalità del custode) che lo custodirà presso … (indicare luogo di custodia). (In caso di seconda violazione nel triennio v. seguente 085-03).
+ 
+Note sanzionatorie
+ 1
+Essendo prevista la confisca del veicolo non è ammesso il pagamento in misura ridotta. Il verbale va inviato entro 10 giorni al prefetto del luogo della commessa violazione. La sanzione maggiorata per autobus si applica solo quando l'autobus è immatricolato per uso noleggio con conducente ma l'autorizzazione per l'esercizio dell'attività è stata sospesa o revocata. Se la violazione è commessa con un autobus che è immatricolato per uso diverso (es.: uso proprio o di linea), invece, si applica la sanzione di minore importo (1.812,00÷7.249,00).
+ 2
+Possibili violazioni concorrenti con la presente sono quelle riguardanti, ad es., il mancato possesso del CAP (o CQC nel caso degli autobus), o la mancanza (art. 72) o la inefficienza (art. 79) di prescritte dotazioni (es. estintori e cassetta pronto soccorso per autobus), nonché l'esercizio dell'attività in violazione delle prescrizioni del titolo autorizzativo (v. 085-05). L'omessa revisione semestrale degli estintori potrebbe costituire illecito penale a carico del datore di lavoro (v. E4-01, nota 8). Non è ammesso il servizio NCC di autocarri per trasporto cose per conto terzi (v. L n. 298/1974 in § D1).
+ 
+note operative e dottrinali
+  
+Note comuni
+ 3
+V. anche art. 84.
+ 4
+Il servizio NCC (noleggio con conducente) è disciplinato per autovetture, motocarrozzette, velocipedi e veicoli a trazione animale, dalla L n. 21/1992 (come modificata dalla L n. 12/2019) e per gli autobus dalla L n. 218/2003. Possono essere destinati al servizio noleggio con conducente per trasporto di persone:
+  -
+motocicli con o senza sidecar, tricicli, quadricicli, autovetture, autobus; veicoli a trazione animale;
+  -
+autoveicoli per trasporto promiscuo o per trasporti specifici di persone (in questi ultimi l'art. 244 reg. CDS include anche le autoambulanze sia di trasporto sia di soccorso);
+  -
+velocipedi. Introdotti dalla L n. 9/2014, sono soggetti, salvo specifiche disposizioni, solo a sanzione pecuniaria essendo privi del documento di circolazione (ma, secondo TAR Lazio 27.5.2016 n. 6208, anche per questi veicoli è necessaria la licenza comunale d'esercizio).
+ 5
+Il documento di circolazione deve indicare l'uso del veicolo ed è rilasciato sulla base del prescritto titolo (autorizzazione comunale), che ne diventa perciò parte integrante. Ad es. un'autovettura immatricolata a uso proprio non può svolgere NCC.
+ 6
+Presso le CCIAA è istituito il ruolo dei conducenti per autoservizi pubblici non di linea. L'iscrizione nel ruolo è requisito indispensabile per il rilascio della licenza per servizio taxi o NCC: senza iscrizione a ruolo l'esercizio NCC è abusivo (v. 086-03). Le violazioni degli artt. 3 e 11 L n. 21/1992 devono essere segnalate, dopo la loro entrata in vigore, poiché sono punite anche con la sospensione (variamente articolata) dal ruolo.
+ 7
+Per i veicoli a trazione animale e velocipedi non è applicabile la sanzione accessoria della patente di guida in quanto non richiesta per la loro conduzione.
+ 8
+Le autovetture adibite a questo servizio e gli autobus (secondo previsioni regionali) recano la scritta:
+  -
+all'interno del parabrezza e sul lunotto posteriore la scritta Noleggio;
+  -
+una targa inamovibile posteriore con la scritta noleggio con conducente (NCC), lo stemma del comune ed il numero progressivo di autorizzazione.
+ 9
+La violazione deve essere contestata al conducente.
+ 10
+Oltre alle sanzioni dell'art. 85, c. 4, l'inosservanza delle prescrizioni è punita con la sospensione dal ruolo (v. nota 6) per periodi crescenti al crescere del numero di inosservanze (art. 11-bis L n. 21/1992) e perciò bisogna dare comunicazione di tali violazioni al comune e alla CCIAA.
+  
+Note ipotesi 085-01
+ 11
+L'attività di trasporto viaggiatori con autobus NCC è subordinata al rilascio di autorizzazione della regione o ente locale a ciò delegato (art. 5 L n. 218/2003) cui vanno segnalate le violazioni. L'immatricolazione del veicolo avviene infatti in base a detta autorizzazione, copia conforme della quale deve essere conservata a bordo del veicolo pena la sanzione di 085-05 o quella che la regione potrebbe avere stabilito ai sensi del DM MIT 11.3.2004.
+  
+Note ipotesi 085-02
+ 12
+Rientra nella presente ipotesi anche l'utilizzo in servizio NCC di autobus immatricolati per servizio di linea senza l'autorizzazione di cui all'art. 82 (v. 082-01, nota 8), rilasciata per la parte amministrativa dall'Ente che, in funzione della propria competenza, affida il servizio di linea: regioni [art. 105, c. 2, lett. a), DLG n. 112/1998]; comuni (DLG n. 422/1997); Stato (DLG n. 285/2005). Per la parte tecnica l'autorizzazione è rilasciata da un UMC e contiene prescrizioni in merito al tachigrafo ed eventualmente al numero di persone sedute consentite. Entrambe le autorizzazioni vanno tenute a bordo e sono valide al massimo un anno. Per la distrazione dal servizio di linea al sevizio NCC le autorizzazioni sono disposte dal DM MIT 23.12.2003 solo per gli autobus di classe B, II (con limitazione del trasporto per le sole persone sedute) e III (v. 087-01, nota 8), e possono essere concesse anche ai veicoli di classe A e I, nonché agli autobus a 2 piani aperti e agli autosnodati, in quanto il divieto di distrazione di questi veicoli è stato sospeso a seguito del DM MIT 6.10.2005.
+
+Noleggio con conducente di veicolo non adibito a tale uso - 2a violazione nel triennio - autobus NCC
+Norma violata
+CDS art. 85 c. 4
+Sanzione
+(v. nota 1)
+limiti edittali da 1.998,00 a 7.993,00 euro
+Sanzioni accessorie
+Punti
+revoca patente (v. nota 14)
+sequestro veicolo per confisca
+Testo
+Per la seconda volta, in un periodo di 3 anni, adibiva a noleggio con conducente il veicolo sopra indicato benché non destinato a tale uso (ovvero, solo per autovetture e motocarozzette, benchè fosse privo di autorizzazione di cui all'art. 8 della L n. 21/1992 ovvero, per tutti i veicoli, benché l'autorizzazione fosse sospesa o revocata con provvedimento n. ... del ...). Risultava infatti, in base alle indicazioni del documento di circolazione, che il veicolo doveva essere adibito a ... (indicare uso). Nella circostanza veniva accertato il trasporto di persone così identificate ... (generalità di qualche passeggero). Il veicolo, di cui viene trattenuto il documento di circolazione, è sottoposto a sequestro come da apposito verbale e affidato, con segnalazione visibile del suo stato di sequestro, a ... (generalità del custode) che lo custodirà presso ... (indicare luogo di custodia).
+ 
+Note sanzionatorie
+ 13
+V. 085-01, note 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.
+ 14
+Al soggetto che, in un periodo di 3 anni, incorre nella violazione per almeno 2 volte, all'ultima di esse si applica la presente sanzione. L'organo che accerta i presupposti della revoca per infrazione amministrativa ne dà comunicazione entro 5 giorni al prefetto che, se dispone la revoca, ordina la consegna immediata del documento (art. 219; v. § C11.A, voce 3).
+
+Noleggio con conducente di veicolo non adibito a tale uso - 2a violazione nel triennio - veicoli diversi dagli autobus NCC
+Norma violata
+CDS art. 85 c. 4
+Sanzione
+(v. nota 1)
+limiti edittali da 1.812,00 a 7.249,00 euro
+Sanzioni accessorie
+Punti
+revoca patente (v. nota 14)
+sequestro veicolo per confisca
+Testo
+Per la seconda volta, in un periodo di 3 anni, adibiva a noleggio con conducente il veicolo sopra indicato benché non destinato a tale uso (ovvero, solo per autovetture e motocarozzette, benchè fosse privo di autorizzazione di cui all'art. 8 della L n. 21/1992 ovvero, per tutti i veicoli, benché l'autorizzazione fosse sospesa o revocata con provvedimento n. ... del ...). Risultava infatti, in base alle indicazioni del documento di circolazione, che il veicolo doveva essere adibito a ... (indicare uso). Nella circostanza veniva accertato il trasporto di persone così identificate ... (generalità di qualche passeggero). Il veicolo, di cui viene trattenuto il documento di circolazione, è sottoposto a sequestro come da apposito verbale e affidato, con segnalazione visibile del suo stato di sequestro, a ... (generalità del custode) che lo custodirà presso ... (indicare luogo di custodia).
+ 
+Note sanzionatorie
+ 13
+V. 085-01, note 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.
+ 14
+Al soggetto che, in un periodo di 3 anni, incorre nella violazione per almeno 2 volte, all'ultima di esse si applica la presente sanzione. L'organo che accerta i presupposti della revoca per infrazione amministrativa ne dà comunicazione entro 5 giorni al prefetto che, se dispone la revoca, ordina la consegna immediata del documento (art. 219; v. § C11.A, voce 3).
+
+Noleggio con conducente in violazione delle prescrizioni degli artt. 3 e 11 della L n. 21/1992 - 1a violazione in un quinquennio
+Norma violata
+CDS art. 85 c. 4-bis e Legge n. 21/1992
+Importi sanzione in euro
+178,00	pagamento in misura ridotta
+124,60	riduzione del 30% entro 5 gg
+336,00	pagamento oltre 60 gg
+limiti edittali da 178,00 a 672,00 euro
+Sanzioni accessorie
+Punti
+sospensione documento di circolazione (1 mese)
+Testo
+Utilizzava l'autovettura (o il motoveicolo) sopra indicata, adibita a servizio di noleggio con conducente, munito della relativa autorizzazione, senza ottemperare (scegliere ipotesi che ricorre):
+•
+alle disposizioni dell'art. 3 della L n. 21/1992 (v. nota 15).
+•
+alle disposizioni (ovvero agli obblighi) di cui all'art. 11 della L n. 21/1992.
+Veniva accertato che ... (indicare violazione, v. nota 15). Il documento di circolazione è ritirato e trasmesso all'UMC di ... Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+ 
+note operative e dottrinali
+ 15
+La violazione va contestata al conducente soltanto se egli è titolare di autorizzazione. In caso contrario va notifica al titolare che ne risponde anche se non era lui a condurre il veicolo. In tale ultimo caso, perciò, il conducente non risponde della violazione (e non è indicato come trasgressore nel verbale) ma a lui può essere affidato il veicolo con cui è stata compiuta la violazione se sottoposto a fermo amministrativo.
+  
+L'art. 3 della L n. 21/1992 prevede che:
+  -
+la richiesta di servizio deve essere avanzata per una determinata prestazione a tempo e/o viaggio presso la sede o la rimessa anche mediante l'utilizzo di strumenti tecnologici;
+  -
+lo stazionamento dei mezzi deve avvenire all'interno delle rimesse;
+  -
+la sede operativa del vettore e almeno una rimessa devono essere situate nel territorio del comune che ha rilasciato l'autorizzazione (oppure nel territorio di altri comuni della medesima provincia o area metropolitana).
+  
+L'art. 11 della L n. 21/1992 prevede che:
+  -
+nel servizio di noleggio con conducente, esercitato a mezzo di autovetture, è vietata la sosta in posteggio di stazionamento su suolo pubblico nei comuni ove sia esercito il servizio taxi. In detti comuni i veicoli adibiti a servizio di noleggio con conducente possono sostare, a disposizione dell'utenza, esclusivamente all'interno della rimessa;
+  -
+i comuni in cui non è esercito il servizio taxi possono autorizzare i veicoli immatricolati per il servizio di noleggio con conducente allo stazionamento su aree pubbliche destinate al servizio taxi;
+  -
+l'inizio e il termine di ogni singolo servizio di noleggio con conducente devono avvenire presso le rimesse, con ritorno alle stesse;
+  -
+il prelevamento e l'arrivo a destinazione dell'utente possono avvenire anche al di fuori della provincia o dell'area metropolitana in cui ricade il territorio del comune che ha rilasciato l'autorizzazione;
+  -
+nel servizio di noleggio con conducente è previsto l'obbligo di compilazione e tenuta da parte del conducente di un foglio di servizio in formato elettronico.
+  
+Si segnala: il prelevamento e l'arrivo dell'utente possono avvenire anche nel territorio di altri comuni; ai veicoli in servizio NCC è consentito l'uso delle corsie preferenziali previste per taxi e servizi pubblici.
+  
+Per effetto della sentenza Corte cost. 26.3.2020 n. 56, non è più punibile il conducente che viola l'obbligo di iniziare e terminare il servizio presso la rimessa. Tale obbligo è venuto meno anche quando sul foglio di servizio non sono registrate più prenotazioni prima dell'inizio del primo servizio.
+
+Noleggio con conducente in violazione delle prescrizioni degli artt. 3 e 11 della L n. 21/1992 - 2a violazione in un quinquennio
+Norma violata
+CDS art. 85 c. 4-bis e Legge n. 21/1992
+Importi sanzione in euro
+264,00	pagamento in misura ridotta
+184,80	riduzione del 30% entro 5 gg
+505,00	pagamento oltre 60 gg
+limiti edittali da 264,00 a 1.010,00 euro
+Sanzioni accessorie
+Punti
+sospensione documento di circolazione (da 1 a 2 mesi)
+Testo
+Utilizzava l'autovettura (o il motoveicolo) sopra indicata, adibita a servizio di noleggio con conducente, munito della relativa autorizzazione, senza ottemperare (scegliere ipotesi che ricorre):
+•
+alle disposizioni dell'art. 3 della L n. 21/1992 (v. nota 15).
+•
+alle disposizioni (ovvero agli obblighi) di cui all'art. 11 della L n. 21/1992.
+Veniva accertato che ... (indicare violazione, v. nota 15). Il documento di circolazione è ritirato e trasmesso all'UMC di ... Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+ 
+note operative e dottrinali
+ 15
+La violazione va contestata al conducente soltanto se egli è titolare di autorizzazione. In caso contrario va notifica al titolare che ne risponde anche se non era lui a condurre il veicolo. In tale ultimo caso, perciò, il conducente non risponde della violazione (e non è indicato come trasgressore nel verbale) ma a lui può essere affidato il veicolo con cui è stata compiuta la violazione se sottoposto a fermo amministrativo.
+  
+L'art. 3 della L n. 21/1992 prevede che:
+  -
+la richiesta di servizio deve essere avanzata per una determinata prestazione a tempo e/o viaggio presso la sede o la rimessa anche mediante l'utilizzo di strumenti tecnologici;
+  -
+lo stazionamento dei mezzi deve avvenire all'interno delle rimesse;
+  -
+la sede operativa del vettore e almeno una rimessa devono essere situate nel territorio del comune che ha rilasciato l'autorizzazione (oppure nel territorio di altri comuni della medesima provincia o area metropolitana).
+  
+L'art. 11 della L n. 21/1992 prevede che:
+  -
+nel servizio di noleggio con conducente, esercitato a mezzo di autovetture, è vietata la sosta in posteggio di stazionamento su suolo pubblico nei comuni ove sia esercito il servizio taxi. In detti comuni i veicoli adibiti a servizio di noleggio con conducente possono sostare, a disposizione dell'utenza, esclusivamente all'interno della rimessa;
+  -
+i comuni in cui non è esercito il servizio taxi possono autorizzare i veicoli immatricolati per il servizio di noleggio con conducente allo stazionamento su aree pubbliche destinate al servizio taxi;
+  -
+l'inizio e il termine di ogni singolo servizio di noleggio con conducente devono avvenire presso le rimesse, con ritorno alle stesse;
+  -
+il prelevamento e l'arrivo a destinazione dell'utente possono avvenire anche al di fuori della provincia o dell'area metropolitana in cui ricade il territorio del comune che ha rilasciato l'autorizzazione;
+  -
+nel servizio di noleggio con conducente è previsto l'obbligo di compilazione e tenuta da parte del conducente di un foglio di servizio in formato elettronico.
+  
+Si segnala: il prelevamento e l'arrivo dell'utente possono avvenire anche nel territorio di altri comuni; ai veicoli in servizio NCC è consentito l'uso delle corsie preferenziali previste per taxi e servizi pubblici.
+  
+Per effetto della sentenza Corte cost. 26.3.2020 n. 56, non è più punibile il conducente che viola l'obbligo di iniziare e terminare il servizio presso la rimessa. Tale obbligo è venuto meno anche quando sul foglio di servizio non sono registrate più prenotazioni prima dell'inizio del primo servizio.
+ 
+Noleggio con conducente in violazione delle prescrizioni degli artt. 3 e 11 della L n. 21/1992 - 3a violazione in un quinquennio
+Norma violata
+CDS art. 85 c. 4-bis e Legge n. 21/1992
+Importi sanzione in euro
+356,00	pagamento in misura ridotta
+249,20	riduzione del 30% entro 5 gg
+672,00	pagamento oltre 60 gg
+limiti edittali da 356,00 a 1.344,00 euro
+Sanzioni accessorie
+Punti
+sospensione documento di circolazione (da 2 a 4 mesi)
+Testo
+Utilizzava l'autovettura (o il motoveicolo) sopra indicata, adibita a servizio di noleggio con conducente, munito della relativa autorizzazione, senza ottemperare (scegliere ipotesi che ricorre):
+•
+alle disposizioni dell'art. 3 della L n. 21/1992 (v. nota 15).
+•
+alle disposizioni (ovvero agli obblighi) di cui all'art. 11 della L n. 21/1992.
+Veniva accertato che ... (indicare violazione, v. nota 15). Il documento di circolazione è ritirato e trasmesso all'UMC di ... Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+ 
+note operative e dottrinali
+ 15
+La violazione va contestata al conducente soltanto se egli è titolare di autorizzazione. In caso contrario va notifica al titolare che ne risponde anche se non era lui a condurre il veicolo. In tale ultimo caso, perciò, il conducente non risponde della violazione (e non è indicato come trasgressore nel verbale) ma a lui può essere affidato il veicolo con cui è stata compiuta la violazione se sottoposto a fermo amministrativo.
+  
+L'art. 3 della L n. 21/1992 prevede che:
+  -
+la richiesta di servizio deve essere avanzata per una determinata prestazione a tempo e/o viaggio presso la sede o la rimessa anche mediante l'utilizzo di strumenti tecnologici;
+  -
+lo stazionamento dei mezzi deve avvenire all'interno delle rimesse;
+  -
+la sede operativa del vettore e almeno una rimessa devono essere situate nel territorio del comune che ha rilasciato l'autorizzazione (oppure nel territorio di altri comuni della medesima provincia o area metropolitana).
+  
+L'art. 11 della L n. 21/1992 prevede che:
+  -
+nel servizio di noleggio con conducente, esercitato a mezzo di autovetture, è vietata la sosta in posteggio di stazionamento su suolo pubblico nei comuni ove sia esercito il servizio taxi. In detti comuni i veicoli adibiti a servizio di noleggio con conducente possono sostare, a disposizione dell'utenza, esclusivamente all'interno della rimessa;
+  -
+i comuni in cui non è esercito il servizio taxi possono autorizzare i veicoli immatricolati per il servizio di noleggio con conducente allo stazionamento su aree pubbliche destinate al servizio taxi;
+  -
+l'inizio e il termine di ogni singolo servizio di noleggio con conducente devono avvenire presso le rimesse, con ritorno alle stesse;
+  -
+il prelevamento e l'arrivo a destinazione dell'utente possono avvenire anche al di fuori della provincia o dell'area metropolitana in cui ricade il territorio del comune che ha rilasciato l'autorizzazione;
+  -
+nel servizio di noleggio con conducente è previsto l'obbligo di compilazione e tenuta da parte del conducente di un foglio di servizio in formato elettronico.
+  
+Si segnala: il prelevamento e l'arrivo dell'utente possono avvenire anche nel territorio di altri comuni; ai veicoli in servizio NCC è consentito l'uso delle corsie preferenziali previste per taxi e servizi pubblici.
+  
+Per effetto della sentenza Corte cost. 26.3.2020 n. 56, non è più punibile il conducente che viola l'obbligo di iniziare e terminare il servizio presso la rimessa. Tale obbligo è venuto meno anche quando sul foglio di servizio non sono registrate più prenotazioni prima dell'inizio del primo servizio.
+
+Noleggio con conducente in violazione delle prescrizioni degli artt. 3 e 11 della L n. 21/1992 - 4a violazione o succ. in un quinquennio
+Norma violata
+CDS art. 85 c. 4-bis e Legge n. 21/1992
+Importi sanzione in euro
+528,00	pagamento in misura ridotta
+369,60	riduzione del 30% entro 5 gg
+1.010,00	pagamento oltre 60 gg
+limiti edittali da 528,00 a 2.020,00 euro
+Sanzioni accessorie
+Punti
+sospensione documento di circolazione (da 4 a 8 mesi)
+Testo
+Utilizzava l'autovettura (o il motoveicolo) sopra indicata, adibita a servizio di noleggio con conducente, munito della relativa autorizzazione, senza ottemperare (scegliere ipotesi che ricorre):
+•
+alle disposizioni dell'art. 3 della L n. 21/1992 (v. nota 15).
+•
+alle disposizioni (ovvero agli obblighi) di cui all'art. 11 della L n. 21/1992.
+Veniva accertato che ... (indicare violazione, v. nota 15). Il documento di circolazione è ritirato e trasmesso all'UMC di ... Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+ 
+note operative e dottrinali
+ 15
+La violazione va contestata al conducente soltanto se egli è titolare di autorizzazione. In caso contrario va notifica al titolare che ne risponde anche se non era lui a condurre il veicolo. In tale ultimo caso, perciò, il conducente non risponde della violazione (e non è indicato come trasgressore nel verbale) ma a lui può essere affidato il veicolo con cui è stata compiuta la violazione se sottoposto a fermo amministrativo.
+  
+L'art. 3 della L n. 21/1992 prevede che:
+  -
+la richiesta di servizio deve essere avanzata per una determinata prestazione a tempo e/o viaggio presso la sede o la rimessa anche mediante l'utilizzo di strumenti tecnologici;
+  -
+lo stazionamento dei mezzi deve avvenire all'interno delle rimesse;
+  -
+la sede operativa del vettore e almeno una rimessa devono essere situate nel territorio del comune che ha rilasciato l'autorizzazione (oppure nel territorio di altri comuni della medesima provincia o area metropolitana).
+  
+L'art. 11 della L n. 21/1992 prevede che:
+  -
+nel servizio di noleggio con conducente, esercitato a mezzo di autovetture, è vietata la sosta in posteggio di stazionamento su suolo pubblico nei comuni ove sia esercito il servizio taxi. In detti comuni i veicoli adibiti a servizio di noleggio con conducente possono sostare, a disposizione dell'utenza, esclusivamente all'interno della rimessa;
+  -
+i comuni in cui non è esercito il servizio taxi possono autorizzare i veicoli immatricolati per il servizio di noleggio con conducente allo stazionamento su aree pubbliche destinate al servizio taxi;
+  -
+l'inizio e il termine di ogni singolo servizio di noleggio con conducente devono avvenire presso le rimesse, con ritorno alle stesse;
+  -
+il prelevamento e l'arrivo a destinazione dell'utente possono avvenire anche al di fuori della provincia o dell'area metropolitana in cui ricade il territorio del comune che ha rilasciato l'autorizzazione;
+  -
+nel servizio di noleggio con conducente è previsto l'obbligo di compilazione e tenuta da parte del conducente di un foglio di servizio in formato elettronico.
+  
+Si segnala: il prelevamento e l'arrivo dell'utente possono avvenire anche nel territorio di altri comuni; ai veicoli in servizio NCC è consentito l'uso delle corsie preferenziali previste per taxi e servizi pubblici.
+  
+Per effetto della sentenza Corte cost. 26.3.2020 n. 56, non è più punibile il conducente che viola l'obbligo di iniziare e terminare il servizio presso la rimessa. Tale obbligo è venuto meno anche quando sul foglio di servizio non sono registrate più prenotazioni prima dell'inizio del primo servizio.
+ 
+Circolazione con NCC violando le altre prescrizioni dell’autorizzazione
+Norma violata
+CDS art. 85 c. 4-ter
+Importi sanzione in euro
+86,00	pagamento in misura ridotta
+60,20	riduzione del 30% entro 5 gg
+169,00	pagamento oltre 60 gg
+limiti edittali da 86,00 a 338,00 euro
+Sanzioni accessorie
+Punti
+non previste
+Testo
+Utilizzava il veicolo sopra indicato, adibito a servizio di noleggio con conducente:
+•
+senza ottemperare alle norme in vigore (ovvero alle condizioni di cui all'autorizzazione). Veniva accertato che ... (indicare violazione, v. nota 16).
+•
+senza tenere nell'autobus copia conforme dell'autorizzazione (v. 085-01, nota 11).
+ 
+note operative e dottrinali
+ 16
+La violazione ricorre per inadempimento di tutte le prescrizioni dell'autorizzazione relative al servizio NCC effettuato con autobus e alla violazione delle prescrizioni diverse da quelle di cui agli artt. 3 o 11 della L n. 21/1992 (v. 085-05 e seguenti) per servizio NCC con autovetture.
+ 17
+Restano salve le disposizioni dei regolamenti comunali locali (ad es. modalità per lo svolgimento del servizio, condizioni di accesso a ZTL) di cui bisogna tener conto. Il conducente che guida in qualità di temporaneo sostituto del titolare di licenza o autorizzazione deve essere iscritto nello specifico ruolo istituito presso la CCIAA.
+
+Disposizioni sui conducenti di autobus in servizio NCC
+Norma violata
+Legge n. 218/2003
+Importi sanzione in euro
+666,67	legge 689/1981
+limiti edittali da 500,00 a 2.000,00 euro
+Sanzioni accessorie
+Punti
+non previste
+Testo
+Impresa esercente servizio di noleggio con conducente di autobus targato ... contravveniva alle disposizioni di cui all'art. 6, c. 3, L n. 218/2003 per essere il conducente di detto veicolo privo della dichiarazione del legale rappresentante che attesta la tipologia del rapporto di lavoro (v. nota 25).
+ 
+Note sanzionatorie
+ 18
+Si applica la procedura sanzionatoria della L n. 689/1981 (v. § A2.15) con pagamento a mezzo modello F23.
+ 19
+Ai sensi dell'art. 1 DM MIT 11.3.2004, le regioni possono determinare (e alcune l'hanno fatto) delle sanzioni, entro un minimo e un massimo per l'accertata inosservanza di prescrizioni relative a:
+  -
+sicurezza del servizio (nel senso dell'incolumità dei trasportati);
+  -
+regolarità del servizio (rispetto delle condizioni poste dall'autorizzazione a svolgere attività NCC);
+  -
+regolarità della documentazione (ai fini della verifica dei requisiti e degli atti per svolgere l'attività);
+  -
+qualità del servizio (adeguati criteri di comfort, igiene e comunicazione con l'utenza).
+  
+Lo stesso DM indica i criteri in base ai quali le regioni possono procedere a sospensione o revoca dell'autorizzazione. Gli organi accertatori devono tenersi informati sui regolamenti delle proprie regioni.
+ 20
+Per i veicoli immatricolati all'estero e per le ipotesi che sanzionano lo svolgimento del servizio senza le autorizzazioni o i documenti di controllo previsti dalla normativa nazionale o UE v. § D2.
+ 
+note operative e dottrinali
+ 21
+La L n. 218/2003 disciplina l'attività NCC di autobus per trasporto viaggiatori. Sia l'attività sia l'immatricolazione dei relativi mezzi sono subordinate al rilascio da parte della regione (o di ente locale delegato) di autorizzazione (non soggetta a limiti territoriali), copia conforme della quale va tenuta a bordo (pena la sanzione di 085-05). Per l'esercizio dell'attività senza autorizzazione v. 085-01. Per l'utilizzo in servizio NCC di autobus immatricolati in servizi di linea v. 085-01, nota 12.
+ 22
+Segnalazione della violazione va inviata anche alla regione che ha rilasciato l'autorizzazione per eventuali provvedimenti di competenza (art. 8 L n. 218/2003).
+ 23
+Per una sintesi dei controlli degli autobus v. § D2.C (Autotrasporto internazionale di persone).
+ 24
+Le disposizioni sul documento fiscale, di cui all'art. 7 L n. 218/2003, sono state abrogate dall'art. 20 L n. 246/2005. Nel DLG n. 169/2014 è contenuta la disciplina sanzionatoria delle violazioni al reg. (UE) n. 181/2011 (diritti dei passeggeri che viaggiano in autobus), gestita dall'Autorità di settore (www.autorità-trasporti.it).
+ 25
+Gli autisti degli autobus in NCC possono essere lavoratori dipendenti, o con contratto a termine o di altre tipologie contrattuali per lavoro temporaneo, oppure titolari, loro collaboratori familiari o soci. La qualità di titolare, socio e collaboratore familiare non occorre che sia documentata ma, per evitare la presente sanzione, deve risultare annotata nel registro delle imprese presso la CCIAA competente per territorio.
+  
+Il caso di lavoratore temporaneo o dipendente, deve risultare da una dichiarazione sostitutiva di atto di notorietà del legale rappresentante dell'impresa, dalla quale, nel caso di lavoratore dipendente, risultino anche gli estremi di registrazione a libro matricola e il rispetto dei contratti collettivi di categoria (art. 6 L n. 218/2003). La qualità di dipendente o di lavoratore temporaneo può essere documentata, oltre che da detta dichiarazione, da ogni altro documento costituente o attestante quel rapporto di lavoro e che è oggetto della stessa dichiarazione (circ. MI 4.6.2014 prot. 300/A/4053/14/113/1).
+ 26
+L'impresa iscritta al REN che effettua trasporto viaggiatori mediante noleggio di autobus con conducente (oltre 9 posti), può utilizzare mediante contratto di locazione veicoli in proprietà di altra impresa esercente la stessa attività ed iscritta al REN (art. 84, c. 3-bis, CDS).
+ 27
+L'art. 25 della legge lascia alle regioni la periodicità dei controlli sulle autorizzazioni rilasciate: alcune hanno stabilito dei termini (3 o 5 anni), altre no.

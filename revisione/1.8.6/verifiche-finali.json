@@ -1,0 +1,92 @@
+{
+  "data": "2026-10-10",
+  "version": "1.8.6",
+  "updated_at": "2026-10-10",
+  "build_id": "8c845bbbd176b1fb5eae30bc718be62f7343353d7da5d4819606e06f40837d5d",
+  "fase": "Verifiche locali finali prima del commit e del deploy autorizzati; npm test e browser ripetuti dopo l’allineamento della data nel footer. PDF e valutazioni normative invariati.",
+  "pdf_version": "7.8",
+  "pdf_pages": 207,
+  "cards": 187,
+  "index_pages": 6,
+  "card_pages_each": 1,
+  "card_font_pt": 9,
+  "npm_test": {
+    "exit_code": 0,
+    "log": "npm-test.txt"
+  },
+  "git_diff_check": {
+    "exit_code": 0,
+    "output": "",
+    "archivio_fonti": "Spaziatura degli originali conservata byte per byte: .gitattributes esclude soltanto revisione/1.8.6/fonti/ dal controllo whitespace; integrità verificata tramite SHA-256."
+  },
+  "browser": {
+    "exit_code": 0,
+    "log": "browser-check.json",
+    "layout_checks": 1496,
+    "copy_checks": 1488,
+    "real_clipboard": true,
+    "offline_pdf_navigation": true
+  },
+  "visual_pdf_pages": [
+    8,
+    13,
+    19,
+    45,
+    87,
+    187,
+    200,
+    203
+  ],
+  "visual_result": "Leggibili, nessun taglio o sovrapposizione rilevato nelle pagine esaminate; controllo geometrico automatico di tutte le pagine nel generatore.",
+  "source_records": 53,
+  "source_integrity": "Verificata da operative-rules.test.mjs; atti non acquisiti privi di hash.",
+  "mutations": {
+    "commit": false,
+    "push": false,
+    "deploy": false,
+    "reset": false,
+    "personal_files_overwritten": false
+  },
+  "files": [
+    {
+      "file": "index.html",
+      "bytes": 1355922,
+      "sha256": "c236b8cdd00e1ba451783090424a2298347b9a0746777f2502ce59a37c0815a8"
+    },
+    {
+      "file": "version.json",
+      "bytes": 137,
+      "sha256": "96b5fdf7056a9c436d015b90d20f773c8b53affbea5a340864aba178f5a5a620"
+    },
+    {
+      "file": "sw.js",
+      "bytes": 8891,
+      "sha256": "61ca97c3e77e09c318f6dc392b63c70037f5cc1cce005301375a5ddbdbbcee5e"
+    },
+    {
+      "file": "allegati/Prontuario_Taxi_NCC_Napoli.pdf",
+      "bytes": 5595390,
+      "sha256": "e11169443dce5f38acf0b84c7540550efe380d2eef9bcb86379836164b5d7cfd"
+    },
+    {
+      "file": "revisione/1.8.6/controllo-schede.csv",
+      "bytes": 703778,
+      "sha256": "3ac2281e3afd00221be092c9dec838cc8ae4909dbe0247b97667ab1b496cfadf"
+    },
+    {
+      "file": "revisione/1.8.6/controllo-schede.json",
+      "bytes": 790438,
+      "sha256": "2a1f0d65ac3ff8fc2f712dc2e64e8087e42869246bf49e6300a5c92ddf194384"
+    },
+    {
+      "file": "revisione/1.8.6/fonti.json",
+      "bytes": 26484,
+      "sha256": "fd34f43b65b70e3b6a1c517e5615e28d753bc3f9fa84a6627ea29ec8d25ef94a"
+    },
+    {
+      "file": "revisione/1.8.6/browser-check.json",
+      "bytes": 3129,
+      "sha256": "62df4b9448db2c12bf3e24974fbf79e617e8268a23d1fabddbf3cc490b4eda98"
+    }
+  ]
+}

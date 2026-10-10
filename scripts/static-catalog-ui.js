@@ -1,12 +1,12 @@
 (function () {
   const finalSentence = "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.";
   const actText = {
-    patente: ['Ritiro della patente', 'La patente n. […] è stata ritirata con verbale n. […] per la trasmissione alla Prefettura-UTG di […].'],
-    sequestro: ['Sequestro del veicolo', 'Il veicolo indicato è stato sottoposto a sequestro amministrativo ai fini della confisca, come da separato verbale.'],
-    ritiro_documento: ['Trattenimento del documento di circolazione', 'Il documento di circolazione è stato trattenuto come risulta dall’atto effettivamente eseguito n. […].'],
-    custodia: ['Affidamento in custodia', 'Il veicolo indicato è stato affidato a […] per la custodia in […], come da separato verbale.'],
-    revoca: ['Comunicazione dei presupposti di revoca', 'I presupposti per la revoca della patente sono stati comunicati alla Prefettura-UTG di […] con atto n. […].'],
-    sospensione: ['Ritiro, trasferimento e fermo', 'Il documento di circolazione è stato ritirato e sarà trasmesso all’UMC di […] entro cinque giorni. Il conducente è stato autorizzato al trasferimento del veicolo per la via più breve fino a […], con l’avvertenza del fermo per la durata della sospensione del documento di circolazione, come da separato verbale.']
+    patente: ['Ritiro della patente', 'Ritirare la patente e trasmetterla alla Prefettura entro cinque giorni (art. 218 CdS). Stato ed estremi: […].'],
+    sequestro: ['Sequestro del veicolo', 'Sequestrare ai fini della confisca con separato verbale (art. 213 CdS). Stato ed estremi: […].'],
+    ritiro_documento: ['Trattenimento del documento di circolazione', 'Documentare il trattenimento del documento nel procedimento di sequestro. Stato ed estremi: […].'],
+    custodia: ['Affidamento in custodia', 'Individuare custode e luogo secondo l’art. 213 CdS; documentare affidamento e condizioni con separato verbale. Stato ed estremi: […].'],
+    revoca: ['Comunicazione dei presupposti di revoca', 'Comunicare al Prefetto entro cinque giorni i presupposti ex art. 219 CdS; la revoca compete al Prefetto. Stato ed estremi: […].'],
+    sospensione: ['Ritiro, trasferimento e fermo', 'Ritirare il documento e inviarlo all’UMC entro cinque giorni; documentare permesso di trasferimento, fermo per la durata della sospensione e custodia (artt. 214 e 217 CdS). Stato ed estremi: […].']
   };
   const specificActs = {
     G02: ['sequestro','ritiro_documento','custodia','revoca'],
@@ -58,47 +58,22 @@
     .replace(/\blett\.\s*/g,'lett. ')
     .replace(/(comma \d+[\w-]*)\s+(lett\.)/g,'$1, $2')
     .replace(/\b(artt?\.\s*\d+)\s+(?=comma|commi)/g,'$1, ');
-  window.prontuarioCatalogLegalSentence = (item,type) => {
-    if(item.staticModelCode?.startsWith('G28-'))return '';
-    if(item.code==='I02')return '';
-    if((item.demoBaseCode||item.code)==='G07')return '';
-    if(item.code==='G53')return 'La condotta violava l’art. 15, commi 4 e 4-bis, del D.L. n. 179/2012, come modificato nel 2026.';
-    if(item.code==='G16')return 'La condotta violava l’art. 17, comma 1, lett. e, e il comma 3 del regolamento comunale – delibera C.C. n. 80/2005.';
-    if((item.demoBaseCode||item.code)==='R33'){
-      const letter='abcd'[item.staticVariantIndex];
-      return `La condotta violava l’art. 11, comma 3, della L. n. 21/1992 e l’art. 4, commi 8 e 10, del regolamento comunale – delibera C.C. n. 80/2005; era sanzionata dall’art. 85, comma 4-bis, lett. ${letter}, CdS.`;
-    }
-    const ref=window.prontuarioCatalogProvision(item,type);
-    if(!ref)return '';
-    if(ref.startsWith('Regolamento comunale')){
-      let article=legalCitation(ref.replace(/^Regolamento comunale\s*(?:\(delibera C\.C\. n\. 80\/2005\)|[–-]\s*delibera C\.C\. n\. 80\/2005)\s*,?\s*/,'').trim());
-      article=article.replace(/^art\.\s*(\d+)\s+e\s+(\d+)/,'artt. $1 e $2').replace(/^art\./,'l’art.').replace(/^artt\./,'gli artt.');
-      article=article.replace(/, comma 3 per NCC$/,', applicabile al NCC ai sensi del comma 3');
-      return `La condotta violava ${article} del regolamento comunale – delibera C.C. n. 80/2005.`;
-    }
-    if(ref.startsWith('CdS art.'))return `La condotta era sanzionata dall’${legalCitation(ref.slice(4))} del CdS.`;
-    const law=ref.match(/^(.+?) art(t?)\.\s*(.+)$/);
-    if(law){
-      const source=law[1].startsWith('L.R.')?`della ${law[1]}`:law[1].startsWith('L.')?`della L. n. ${law[1].slice(2)}`:law[1].startsWith('D.L.')?`del D.L. n. ${law[1].slice(4)}`:`di ${law[1]}`;
-      return `La condotta violava ${law[2]?'gli ':'l’'}${legalCitation(`${law[2]?'artt.':'art.'} ${law[3]}`)} ${source}.`;
-    }
-    return `La disposizione pertinente era ${ref}.`;
-  };
+  window.prontuarioCatalogLegalSentence = (item,type) => window.prontuarioLegalText(item,type);
   window.prontuarioCatalogOperational = item => {
     if(window.prontuarioCatalogIsRelation(item))return '';
-    return window.prontuarioCatalogActs(item).map(act=>act.text).join(' ');
+    return window.prontuarioActStatus(item);
   };
   window.prontuarioCatalogAccessoryText = value => /^Carta (.+)$/.test(value) ? `Sospensione del documento di circolazione per ${value.slice(6)}.` : value;
   const municipalByGroup = {
     a:'Art. 29, comma 2, lett. a: diffida alla prima violazione; sospensione di 5 giorni alla seconda, 15 alle successive, da disporre dall’ufficio dopo riscontro della fascia.',
     b:'Art. 29, comma 2, lett. b: sospensione di 15, 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Nessun ritiro immediato del titolo (comma 4).',
-    c:'Art. 29, comma 2, lett. c: sospensione di 15, 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Ritiro del titolo ex comma 4 solo se eseguito.',
-    d:'Art. 29, comma 2, lett. d: sospensione di 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Ritiro del titolo ex comma 4 solo se eseguito.'
+    c:'Art. 29, comma 2, lett. c: sospensione di 15, 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Ritiro obbligatorio del titolo da parte degli operatori ex comma 4, accertata la violazione.',
+    d:'Art. 29, comma 2, lett. d: sospensione di 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Ritiro obbligatorio del titolo da parte degli operatori ex comma 4, accertata la violazione.'
   };
   const pointsByGroup = {
-    b:'5 punti sulla licenza taxi dalle violazioni successive alla prima, dopo riscontro della fascia.',
-    c:'10 punti sulla licenza taxi, secondo il seguito comunale pertinente.',
-    d:'20 o 30 punti sulla licenza taxi secondo la fascia verificata.'
+    b:'5 punti sul titolo Taxi/NCC dalle violazioni successive alla prima, dopo riscontro della fascia.',
+    c:'10 punti sul titolo Taxi/NCC, secondo il seguito comunale pertinente.',
+    d:'20 o 30 punti sul titolo Taxi/NCC secondo la fascia verificata.'
   };
   window.prontuarioCatalogAccessorySections = (item,type) => {
     const original=item.payments[0][5]||'';
@@ -114,7 +89,7 @@
         ?'Eventuale seguito disciplinare da definire dall’ufficio competente; nessun gruppo o provvedimento preimpostato.'
         :item.group ? municipalByGroup[item.group] : 'Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.',
       other,
-      points:item.group && type==='Taxi' ? pointsByGroup[item.group]||'Nessun punto comunale indicato per questo gruppo.' : item.group ? 'Punti comunali: verificare l’applicabilità al titolo NCC prima di riportarli.' : 'Nessun punto precompilato in questa scheda.'
+      points:item.group ? pointsByGroup[item.group]||'Nessun punto comunale indicato per questo gruppo.' : 'Nessun punto precompilato in questa scheda.'
     };
   };
   const clarifiedNotes = {
@@ -162,17 +137,13 @@
     const procedure=confisca?['Il verbale va trasmesso entro 10 giorni al Prefetto del luogo della commessa violazione, ai sensi dell’art. 210, comma 3, CdS.']:[];
     return [...new Set([...item.notes.map((note,index)=>clarifiedNotes[code]?.[index]||note),...(model.notes||[]),...(addedNotes[code]||[]),...procedure])];
   };
-  window.prontuarioCatalogRoute = item => {
-    if(!item.group)return item.route||'';
-    const route=(item.route||'').split(/Art\.29 c\.2 lett\.[a-d]:/)[0].trim();
-    return route.includes('Ufficio Verbali')?route:`${route} Se trasmessa, documentare nel seguito interno la segnalazione all’Ufficio Verbali per il titolo comunale.`.trim();
-  };
+  window.prontuarioCatalogRoute = item => item.group ? 'Segnalazione obbligatoria alle condizioni indicate nel riquadro; compilare stato e protocollo senza attestare invii non eseguiti.' : item.route||'';
   window.prontuarioCatalogFormulaMarkup = (item,type,esc) => {
     const model=window.prontuarioCatalogModel(item,type);
     const legal=window.prontuarioCatalogLegalSentence(item,type);
     const generatedPrior=previous(item,type);
     const relation=window.prontuarioCatalogIsRelation(item);
-    const final=item.formula.includes(finalSentence)&&!relation?finalSentence:'';
+    const final=window.prontuarioFollowupFormula(item);
     const operational=window.prontuarioCatalogOperational(item);
     const priorStart=model.tail.search(/(?:Da accertamento presso|Il precedente pertinente|Un precedente pertinente|Due precedenti pertinenti|Almeno tre precedenti pertinenti)/);
     const evidenceText=(priorStart<0?model.tail:model.tail.slice(0,priorStart)).trim();
@@ -187,7 +158,8 @@
     if(evidenceText&&evidenceText.includes('[…]'))annotations.push({after:evidenceText,hint:evidenceHint});
     if(embeddedPrior)annotations.push({after:embeddedPrior,hint:priorHints(embeddedPrior)});
     if(generatedPrior)annotations.push({after:generatedPrior,hint:priorHints(generatedPrior)});
-    if(operational)annotations.push({after:operational,hint:window.prontuarioActHints(item,window.prontuarioCatalogActs(item))});
+    const actHint=window.prontuarioActHints(item,window.prontuarioCatalogActs(item));
+    if(operational&&actHint)annotations.push({after:operational,hint:actHint});
     return lead+main+extraEvidence+window.prontuarioRenderFormulaPart(ending,annotations,esc);
   };
   window.prontuarioCatalogBody = function (item, type, helpers) {
@@ -203,16 +175,16 @@
     const formula = `<div class="formulaText" id="formulaText">${window.prontuarioCatalogFormulaMarkup(item,type,esc)}</div>`;
     const caution = item.staticVariantIndex === 0 ? '<p class="staticCopyWarning">Usare la prima fascia soltanto dopo un riscontro negativo. Se la verifica è pendente, non attribuire automaticamente la prima violazione.</p>' : '';
     const notes = window.prontuarioCatalogNotes(item,model);
-    const accessory=window.prontuarioAccessoryRows(window.prontuarioCatalogAccessorySections(item,type));
+    const accessory=window.prontuarioCatalogAccessorySections(item,type);
     const noteList = `<ul class="operativeNotes">${notes.map(note=>`<li>${esc(note)}</li>`).join('')}</ul>`;
     const sourceButtons = `${item.pages.map(sourceLink).join('')}${(item.regPages||[]).map(page=>`<button class="small" onclick="openPDF(0,${page})">Regolamento p.${page}</button>`).join('')}`;
     const route=window.prontuarioCatalogRoute(item);
-    return `<section class="caseBlock staticNormative"><h3>Normativa violata</h3><p>${esc(normative(item,type))}</p></section>
-      <section class="caseBlock staticAmounts"><h3>Tabella importi</h3>${amounts}</section>
-      <section class="caseBlock staticAccessories"><h3>Sanzioni accessorie e punti</h3><table class="staticAccessoryTable"><tbody><tr><th scope="row">Sanzioni accessorie CdS</th><td>${esc(accessory.cds)}</td></tr><tr><th scope="row">Seguito sul titolo — Regolamento comunale</th><td>${esc(accessory.municipal)}</td></tr>${accessory.other?`<tr><th scope="row">Altre misure e comunicazioni</th><td>${esc(accessory.other)}</td></tr>`:''}<tr><th scope="row">Decurtazione punti patente</th><td>${esc(accessory.patentPoints)}</td></tr></tbody></table></section>
+    return `<section class="caseBlock staticNormative"><h3>Riferimenti normativi — obblighi e sanzioni</h3><p>${esc(window.prontuarioNormative(item,type))}</p></section>
+      <section class="caseBlock staticAmounts"><h3>Tabella importi</h3>${window.prontuarioIsResidual(item)?`<p class="qualificationWarning">${esc(relation?"Importi della sola ipotesi CdS: non costituiscono una qualificazione accertata.":"Importi applicabili soltanto alla condizione del titolo accertata; non a ogni violazione comunale.")}</p>`:""}${amounts}</section>
+      <section class="caseBlock staticAccessories"><h3>Sanzioni accessorie e adempimenti</h3>${window.prontuarioFollowupMarkup(item,accessory,esc)}</section>
       <section class="caseBlock staticFormula"><h3>${relation?'Testo orientativo per la relazione':'Testo orientativo del verbale'}</h3>${formula}${operationalUse}${caution}<button class="small" id="copyFormula">Copia testo orientativo</button><p class="muted">Usare solo la voce pertinente. La copia non include gli elenchi dei suggerimenti.</p></section>
       <section class="caseBlock staticSuggestions"><h3>Suggerimenti e note operative</h3><h4>Condizioni e verifiche</h4>${noteList}${item.responsibility?`<h4>Responsabilità</h4><p>${esc(item.responsibility)}</p>`:''}${route?`<h4>Seguito operativo</h4><p>${esc(route)}</p>`:''}<details class="caseSource"><summary>Approfondimenti e fonti</summary><div class="detailbody">${item.legalBackground?.length?`<ul>${item.legalBackground.map(note=>`<li>${esc(note)}</li>`).join('')}</ul>`:''}<p>Fonti: ${esc(item.sources.join(', '))}.</p><div class="toolbar">${sourceButtons}</div></div></details></section>
-      <p class="caseFoot"><b>A cura dell’Agente Antonio Balzano · U.O. San Lorenzo.</b><br>${esc(item.origin)} · Verifica normativa ${date(item.checked)}</p>`;
+      <p class="caseFoot"><b>A cura dell’Agente Antonio Balzano · U.O. San Lorenzo.</b><br>${esc(item.origin)} · Revisione documentale ${date(item.reviewed||item.checked)} · limiti nelle fonti</p>`;
   };
   window.copyProntuarioCatalog = async function (toast) {
     const formula=document.getElementById('formulaText');

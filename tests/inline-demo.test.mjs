@@ -11,7 +11,7 @@ let activeParts=[];
 const context={window,document:{getElementById:()=>({querySelectorAll:()=>activeParts.map(textContent=>({textContent}))})},navigator:{clipboard:{writeText:async value=>{copied=value;}}}};
 vm.runInNewContext(fs.readFileSync(new URL('scripts/static-demos.js',root),'utf8'),context);
 vm.runInNewContext(fs.readFileSync(new URL('scripts/static-field-suggestions.js',root),'utf8'),context);
-vm.runInNewContext(fs.readFileSync(new URL('scripts/static-demo-ui.js',root),'utf8'),context);
+for(const name of ['scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/static-catalog.js','scripts/static-catalog-ui.js'])vm.runInNewContext(fs.readFileSync(new URL(name,root),'utf8'),context);
 const formulaParts=markup=>[...markup.matchAll(/<p class="staticFormulaPart" data-copy-text="([^"]*)">/g)]
   .map(match=>match[1].replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>').replaceAll('&amp;','&'));
 assert.deepEqual(Object.keys(window.prontuarioStaticDemos).sort(),['abusivo','rifiuto','turno']);
@@ -36,7 +36,7 @@ for(const item of [...variants,...catalog.filter(entry=>['abusivo','turno'].incl
   assert.ok(demo.suggestions.every(group=>group.other===undefined&&demo.code==='G01'&&group.title==='Condizione della licenza'||/^(Altra|Altro) .*: \[…\]$/.test(group.other)));
   const rendered=window.prontuarioStaticDemoBody(item,'Taxi',helpers);
   assert.match(demo.title,/^Taxi(?:\:| abusivo\:)/);
-  const ordered=['Normativa violata','Tabella importi','Sanzioni accessorie e punti','Testo orientativo del verbale','Suggerimenti e note operative'];
+  const ordered=['Riferimenti normativi — obblighi e sanzioni','Tabella importi','Sanzioni accessorie e adempimenti','Testo orientativo del verbale','Suggerimenti e note operative'];
   for(let index=1;index<ordered.length;index++)assert.ok(rendered.indexOf(ordered[index-1])<rendered.indexOf(ordered[index]),`${item.code}: ${ordered[index]}`);
   assert.ok(rendered.includes('class="staticAmountsTable"'));
   assert.match(rendered,/Decurtazione punti patente<\/th><td>No<\/td>/);
@@ -49,8 +49,7 @@ for(const item of [...variants,...catalog.filter(entry=>['abusivo','turno'].incl
   for(const value of item.payments[0].slice(1,5))assert.ok(rendered.includes(value==='Procedura Prefetto'?'Prefetto':value),`${item.code}: importo ${value}`);
   if(item.demoVariant){
     for(const other of variants.filter(variant=>variant.id!==item.id))assert.ok(!rendered.includes(`€ ${other.payments[0][1]}`),`${item.code}: fascia diversa mostrata`);
-    assert.ok(rendered.includes(item.demoVariant.municipalSuspension));
-    assert.ok(rendered.includes(item.demoVariant.municipalPoints));
+    assert.match(rendered,/Gruppo B: sospensione 15\/30\/60 giorni; 5 punti dopo la prima/);
   }
   assert.ok(!rendered.includes(item.sanction),`${item.code}: sanzione duplicata`);
   assert.ok(!rendered.includes('CdS residuale per condizioni del titolo'));
@@ -78,15 +77,17 @@ for(const item of [...variants,...catalog.filter(entry=>['abusivo','turno'].incl
   for(const group of demo.suggestions)if(group.other)assert.ok(formula.includes(group.other));
   if(item.demoVariant)assert.ok(formula.includes(item.demoVariant.previousFormula));
   assert.ok((formula.match(/class="staticFormulaChoices"/g)||[]).length>=demo.suggestions.length);
-  for(const act of demo.acts)assert.ok(formula.includes(act.text));
+  for(const act of demo.acts)assert.ok(formula.includes(act.title));
+  assert.doesNotMatch(copiedTemplate,/è stato|è stata|viene ritirata|si dispone/);
   assert.ok(!formula.includes('Solo se eseguito:'));
   assert.equal((rendered.match(/class="staticOperationalUse"/g)||[]).length,1);
-  assert.equal((rendered.match(/Solo se eseguito:/g)||[]).length,1);
+  assert.equal((rendered.match(/Solo se eseguito:/g)||[]).length,0);
+  assert.match(rendered,/Compilare lo stato degli adempimenti obbligatori/);
   assert.ok(!rendered.includes('Diciture per atti effettivamente eseguiti'));
   assert.ok(rendered.includes('Copia testo orientativo'));
   assert.ok(rendered.includes('Uffici destinatari'));
 }
-assert.match(window.prontuarioStaticDemoBody(variants[0],'Taxi',helpers),/Punti comunali: Non previsti per la prima violazione/);
+assert.match(window.prontuarioStaticDemoBody(variants[0],'Taxi',helpers),/5 punti dopo la prima/);
 assert.doesNotMatch(window.prontuarioStaticDemoBody(variants[0],'Taxi',helpers),/Punti comunali: 5 punti/);
 assert.match(window.prontuarioStaticDemoBody(variants[0],'Taxi',helpers),/Da accertamento presso \[…] del \[…] non risultavano precedenti pertinenti del titolare nel quinquennio/);
 assert.match(window.prontuarioStaticDemoBody(variants[0],'Taxi',helpers),/presso la C\.O\. \[…\]/);
@@ -125,15 +126,15 @@ assert.match(window.prontuarioStaticDemos.turno.suggestions[0].options[1],/Non s
 assert.match(window.prontuarioStaticDemos.turno.notes.join(' '),/La sola assenza dal punto controllato non prova il mancato svolgimento del turno/);
 assert.doesNotMatch(window.prontuarioStaticDemoBody(catalog.find(item=>item.id==='abusivo'),'Taxi',helpers),/Oltre 60 giorni/);
 const turnoRendered=window.prontuarioStaticDemoBody(catalog.find(item=>item.id==='turno'),'Taxi',helpers);
-assert.match(turnoRendered,/sospensione da determinare dall’ufficio/);
-assert.match(turnoRendered,/La sospensione comunale è di 15, 30 o 60 giorni/);
+assert.match(turnoRendered,/Gruppo C: sospensione/);
+assert.match(turnoRendered,/ritiro obbligatorio della licenza/);
 for(const id of ['rifiuto','turno'])assert.ok(window.prontuarioStaticDemos[id].normative.some(reference=>reference.includes('Regolamento comunale – delibera C.C. n. 80/2005')&&reference.includes('comma 1')));
 assert.ok(!window.prontuarioStaticDemos.abusivo.normative.some(reference=>reference.includes('Regolamento comunale')));
-assert.match(window.prontuarioStaticDemos.rifiuto.formulaParts.join(' '),/Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico\./);
+assert.doesNotMatch(window.prontuarioStaticDemos.rifiuto.formulaParts.join(' '),/Copia del presente verbale verrà inviata/);
 assert.equal(window.prontuarioStaticDemos.rifiuto.acts.length,1);
-assert.match(window.prontuarioStaticDemos.rifiuto.acts[0].text,/ritirato.*UMC.*via più breve.*avvertenza.*fermo.*separato verbale/s);
+assert.match(window.prontuarioStaticDemos.rifiuto.acts[0].text,/Ritirare.*UMC.*via più breve.*avvertenza.*fermo.*separato verbale/s);
 assert.match(window.prontuarioStaticDemos.rifiuto.acts[0].text,/luogo indicato dall’interessato/);
-assert.match(window.prontuarioStaticDemos.turno.formulaParts.join(' '),/Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico\./);
+assert.doesNotMatch(window.prontuarioStaticDemos.turno.formulaParts.join(' '),/Copia del presente verbale verrà inviata/);
 assert.doesNotMatch(window.prontuarioStaticDemos.abusivo.formulaParts.join(' '),/Corso Pubblico/);
 activeParts=formulaParts(window.prontuarioStaticDemoBody(variants[1],'Taxi',helpers));
 await window.copyProntuarioStaticDemo(()=>{});
@@ -141,4 +142,4 @@ assert.equal(copied,activeParts.map((part,index)=>part+(index<activeParts.length
 assert.ok(copied.includes('Un precedente pertinente del titolare nel quinquennio'));
 assert.ok(!copied.includes('Altra circostanza'));
 assert.ok(!copied.includes('Solo se eseguito:'));
-console.log('Sei casi dimostrativi: tabella orizzontale singola, alternative nel corpo, copia e Corso Pubblico OK');
+console.log('Sei casi dimostrativi: tabella orizzontale singola, alternative nel corpo, copia con stato degli adempimenti OK');

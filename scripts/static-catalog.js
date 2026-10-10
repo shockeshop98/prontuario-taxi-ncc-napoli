@@ -2,7 +2,7 @@
 // restano nel catalogo di index.html; qui figurano soltanto condotta e diciture.
 window.prontuarioStaticCatalog = {
   G02: {
-    lead:'Adibiva il veicolo indicato a servizio taxi senza licenza efficace, in violazione dell’art. 8 della L. n. 21/1992 e dell’art. 86, comma 2, CdS. In particolare:',
+    lead:'Adibiva il veicolo indicato a servizio taxi senza licenza efficace. In particolare:',
     options:[
       'Offriva la corsa verso […] e prelevava i passeggeri, come osservato dagli operanti.',
       'Accettava la richiesta di corsa verso […] al posteggio […] e concordava il corrispettivo di € […].'
@@ -10,7 +10,7 @@ window.prontuarioStaticCatalog = {
     tail:'Il riscontro dell’ufficio […] del […] attestava […] per il servizio con il veicolo indicato. Il precedente pertinente dello stesso soggetto nel triennio risultava dal verbale n. […], per il fatto del […], accertato da […], come da riscontro […].'
   },
   G04: {
-    lead:'Alla guida del veicolo indicato, con C.P. n. […], in servizio taxi, non rispettava la tariffa amministrata applicabile alla corsa […], in violazione dell’art. 2, comma 1, della L. n. 21/1992. In particolare:',
+    lead:'Alla guida del veicolo indicato, con C.P. n. […], in servizio taxi, non rispettava la tariffa amministrata applicabile alla corsa […]. In particolare:',
     options:[
       'Richiedeva € […] a fronte di € […] dovuti, secondo le voci tariffarie […].',
       'L’utente chiedeva all’inizio la tariffa predeterminata di € […] per la tratta […]; il conducente la rifiutava e riscuoteva € […] per la corsa eseguita.',
@@ -19,7 +19,7 @@ window.prontuarioStaticCatalog = {
     tail:'Il confronto con tariffa e supplementi applicabili risultava da […].'
   },
   G05: {
-    lead:'Alla guida del veicolo indicato, con C.P. n. […] del Comune di […], iniziava il servizio taxi fuori dall’area autorizzata, in violazione dell’art. 2 della L. n. 21/1992. In particolare:',
+    lead:'Alla guida del veicolo indicato, con C.P. n. […] del Comune di […], iniziava il servizio taxi fuori dall’area autorizzata. In particolare:',
     options:[
       'Prelevava l’utente in […], fuori dall’area comunale o comprensoriale, come osservato da […].',
       'Avviava la corsa richiesta in […], come risultava da […] e dal riscontro sull’area […].'
@@ -27,7 +27,7 @@ window.prontuarioStaticCatalog = {
     tail:'L’eventuale deroga era verificata mediante […].'
   },
   G06: {
-    lead:'Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato, in violazione dell’art. 12, comma 1, della L. n. 21/1992. In particolare:',
+    lead:'Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. In particolare:',
     options:[
       'Il tassametro era assente, come constatato nell’abitacolo dagli operanti.',
       'Il tassametro modello […] n. […] era privo di omologazione, secondo il riscontro tecnico […].'
@@ -35,7 +35,7 @@ window.prontuarioStaticCatalog = {
     tail:'La verifica tecnica pertinente risultava da […].'
   },
   G07: {
-    lead:'Alla guida del veicolo indicato, con C.P. n. […], in servizio taxi, non esponeva avvisi chiaramente leggibili sugli eventuali supplementi tariffari, in violazione dell’art. 12, comma 2, della L. n. 21/1992. In particolare:',
+    lead:'Alla guida del veicolo indicato, con C.P. n. […], in servizio taxi, non esponeva avvisi chiaramente leggibili sugli eventuali supplementi tariffari. In particolare:',
     options:[
       'Il prospetto comunale con tariffe e supplementi era assente; non risultavano altri avvisi sui supplementi chiaramente leggibili dalla posizione dell’utente.',
       'Il prospetto era coperto da […] e la voce sui supplementi non era chiaramente leggibile dalla posizione dell’utente.',
@@ -44,7 +44,7 @@ window.prontuarioStaticCatalog = {
     tail:'La presenza, la posizione e la leggibilità degli avvisi erano riscontrate mediante […].'
   },
   G08: {
-    lead:'Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] senza applicare il tassametro e le tariffe amministrate pertinenti, in violazione dell’art. 13, comma 1, della L. n. 21/1992. In particolare:',
+    lead:'Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] senza applicare il tassametro e le tariffe amministrate pertinenti. In particolare:',
     options:[
       'Richiedeva € […] sulla base di […], mentre il tassametro indicava […].',
       'Riscuoteva € […] come prezzo concordato, come risultava da […], senza utilizzare il tassametro […].'
@@ -318,7 +318,7 @@ window.prontuarioStaticCatalog = {
   T01: {
     lead:'Sul veicolo indicato, con C.P. n. […], il sostituto […] svolgeva il turno aggiuntivo […] con comunicazione irregolare. In particolare:',
     options:[
-      'La comunicazione preventiva o contestuale non risultava ricevuta dall’ufficio […].',
+      'La comunicazione entro il giorno precedente all’inizio del servizio non risultava ricevuta dall’ufficio […].',
       'La comunicazione riportava […] anziché i dati del turno svolto […].'
     ], other:'Altra irregolarità della comunicazione accertata: […]',
     tail:'Turno, ricevuta e risposta comunale risultavano da […].'
@@ -798,7 +798,7 @@ window.prontuarioStaticCatalog = {
     tail:'L’assenza del titolo legittimante quel servizio con l’autobus era attestata dall’ufficio […] con risposta […].'
   },
   N04: {
-    lead:'Con il veicolo indicato, con autorizzazione NCC n. […], svolgeva il servizio in violazione della disposizione […] degli artt. 3 o 11 della L. 21/1992. In particolare:',
+    lead:'Con il veicolo indicato, con autorizzazione NCC n. […], svolgeva il servizio nelle modalità accertate rispetto alla prescrizione […]. In particolare:',
     options:[
       'Stazionava in […] per acquisire clienti senza prenotazione documentata, come risultava da […].',
       'La prestazione […] si discostava dalla modalità prevista da […], secondo […].'
@@ -806,7 +806,7 @@ window.prontuarioStaticCatalog = {
     tail:'Da accertamento presso […] del […] non risultavano precedenti pertinenti del medesimo veicolo nel quinquennio.'
   },
   N05: {
-    lead:'Con il veicolo indicato, con autorizzazione NCC n. […], svolgeva il servizio in violazione della disposizione […] degli artt. 3 o 11 della L. 21/1992. In particolare:',
+    lead:'Con il veicolo indicato, con autorizzazione NCC n. […], svolgeva il servizio nelle modalità accertate rispetto alla prescrizione […]. In particolare:',
     options:[
       'Stazionava in […] per acquisire clienti senza prenotazione documentata, come risultava da […].',
       'La prestazione […] si discostava dalla modalità prevista da […], secondo […].'
@@ -814,7 +814,7 @@ window.prontuarioStaticCatalog = {
     tail:'Un precedente pertinente del medesimo veicolo nel quinquennio risultava dal verbale n. […], per il fatto del […], accertato da […], come da riscontro […].'
   },
   N06: {
-    lead:'Con il veicolo indicato, con autorizzazione NCC n. […], svolgeva il servizio in violazione della disposizione […] degli artt. 3 o 11 della L. 21/1992. In particolare:',
+    lead:'Con il veicolo indicato, con autorizzazione NCC n. […], svolgeva il servizio nelle modalità accertate rispetto alla prescrizione […]. In particolare:',
     options:[
       'Stazionava in […] per acquisire clienti senza prenotazione documentata, come risultava da […].',
       'La prestazione […] si discostava dalla modalità prevista da […], secondo […].'
@@ -822,7 +822,7 @@ window.prontuarioStaticCatalog = {
     tail:'Due precedenti pertinenti del medesimo veicolo nel quinquennio risultavano dai verbali n. […], per fatti del […], accertati da […], come da riscontro […].'
   },
   N07: {
-    lead:'Con il veicolo indicato, con autorizzazione NCC n. […], svolgeva il servizio in violazione della disposizione […] degli artt. 3 o 11 della L. 21/1992. In particolare:',
+    lead:'Con il veicolo indicato, con autorizzazione NCC n. […], svolgeva il servizio nelle modalità accertate rispetto alla prescrizione […]. In particolare:',
     options:[
       'Stazionava in […] per acquisire clienti senza prenotazione documentata, come risultava da […].',
       'La prestazione […] si discostava dalla modalità prevista da […], secondo […].'
@@ -905,7 +905,7 @@ Object.assign(window.prontuarioStaticCatalog, {
     tail:'La richiesta e il mancato rilascio risultavano da […].'
   },
   'G28-02': {
-    lead:'Alla guida del veicolo indicato, con C.P. n. […], accettava la corsa a tariffa predeterminata […] richiesta dall’utente all’inizio, ma non consegnava prima della partenza la ricevuta prevista dalla disposizione comunale sul modello unico. In particolare:',
+    lead:'Alla guida del veicolo indicato, con C.P. n. […], accettava la corsa a tariffa predeterminata […] richiesta dall’utente all’inizio, ma non consegnava prima della partenza la ricevuta. In particolare:',
     options:['L’utente chiedeva la tariffa predeterminata per […] e il veicolo partiva senza consegna della ricevuta.', 'Il conducente comunicava la tariffa predeterminata di € […] e avviava la corsa senza rilasciare la ricevuta.'],
     other:'Altra sequenza della richiesta e della partenza accertata: […]',
     tail:'Richiesta, partenza e mancata consegna risultavano da […].'
@@ -934,27 +934,27 @@ window.prontuarioReceiptCaseItems = function (catalog) {
     ['04','incompleta','Ricevuta del modello comunale compilata in modo incompleto']
   ];
   return variants.map(([suffix,key,title])=>({
-    ...base,id:`ricevuta-${key}`,code:`G28-${suffix}`,title,scope:'taxi',group:null,
-    referenceOnly:false,kind:'local',sanction:'Art. 86, comma 3-bis, CdS: € 86–338; nessuna sanzione accessoria CdS e nessuna decurtazione di punti patente.',
+    ...base,id:`ricevuta-${key}`,code:`G28-${suffix}`,title,scope:'taxi',group:suffix==='01'?'a':null,
+    referenceOnly:suffix!=='01',kind:'local',sanction:'Art. 86, comma 3-bis, CdS: € 86–338; nessuna sanzione accessoria CdS e nessuna decurtazione di punti patente.',
     formula:base.formula,
     demoBaseId:base.id,demoBaseCode:base.code,staticModelCode:`G28-${suffix}`,
     searchTerms:`ricevuta scontrino ${key} modello autorizzato tariffa fissa predeterminata`,
     verbaleRef:suffix==='01'
       ?'CdS art. 86, comma 3-bis; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. n.'
       :suffix==='02'
-      ?'CdS art. 86, comma 3-bis; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. n.'
-      :'CdS art. 86, comma 3-bis.',
+      ?'CdS art. 86, comma 3-bis (ipotesi da qualificare); D.D. n. 72 del 10/02/2012, punto 7, lett. b (originale non acquisito)'
+      :'CdS art. 86, comma 3-bis (ipotesi da qualificare); D.D. n. 72 del 10/02/2012 (originale non acquisito)',
     legalBackground:[...(base.legalBackground||[]),'La pagina ufficiale del Comune richiama la disposizione dirigenziale n. 72 del 10/02/2012; l’originale integrale resta da acquisire e verificare per il caso concreto.'],
     notes:[
       suffix==='02'
         ?'L’art. 23, comma 1, lett. n, del regolamento comunale impone in generale il rilascio del documento della corsa su richiesta. Il punto 7, lett. b, della D.D. n. 72 del 10/02/2012, leggibile nell’allegato ufficiale indicizzato dal Comune, prescrive la ricevuta all’inizio della corsa a tariffa predeterminata e richiama le modalità della D.D. n. 135 del 28/05/2010. Il file integrale non è al momento scaricabile e l’originale della D.D. 135 resta da acquisire; verificarne efficacia nel caso concreto.'
         :'La pagina ufficiale del Comune identifica la disposizione dirigenziale n. 72 del 10/02/2012. Il testo indicizzato distingue corsa ordinaria, tariffa predeterminata, modello e compilazione; l’allegato integrale non è risultato accessibile. Acquisire l’atto e verificarne efficacia e prescrizioni alla data del fatto.',
-      'L’autore conferma l’inquadramento operativo nell’art. 86, comma 3-bis, CdS. Verificare nel caso concreto la condizione della licenza e gli atti efficaci; acquisire gli originali comunali ancora mancanti. Questa decisione resta distinta dalla verifica documentale.',
+      'La pagina ufficiale Servizio taxi, acquisita integralmente il 10/10/2026, conferma ricevuta prima della partenza per la predeterminata e modello comunale. Non sostituisce le D.D. integrali. Gli importi CdS richiedono la condizione della licenza accertata: la precedente indicazione dell’autore non sostituisce la verifica normativa. G28-02–04 restano relazioni in attesa degli atti.',
       'Non confondere la ricevuta comunale non fiscale con un documento fiscale. Per un unico episodio scegliere la condotta documentale pertinente, senza duplicare la contestazione.',
-      'Segnalazione al Corso Pubblico: trasmettere gli atti tramite l’Ufficio Verbali.'
+      'G28-01: segnalazione obbligatoria per violazione accertata dell’art. 23, comma 1, lett. n (art. 29, commi 2, lett. a, e 3). Per le altre condotte non estendere automaticamente questo presupposto.'
     ],
     responsibility:'Condotta del conducente: identificare chi ha effettuato la corsa e verificare titolare della licenza e condizione del titolo.',
-    route:'Trasmettere i riscontri sulla ricevuta all’Ufficio Verbali e segnalare al Corso Pubblico; l’eventuale seguito disciplinare sul titolo spetta all’ufficio competente e non è preimpostato.',
+    route:'Trasmettere i riscontri sulla ricevuta al Servizio Trasporto Pubblico Locale e MaaS; l’eventuale seguito sul titolo spetta all’ufficio competente. Confermare il percorso interno con il Comando.',
     sources:[...new Set([...base.sources,'RICEVUTA_MODELLO','DD_RICEVUTA'])]
   }));
 };

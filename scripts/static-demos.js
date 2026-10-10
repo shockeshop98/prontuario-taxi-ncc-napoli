@@ -31,12 +31,12 @@ window.prontuarioStaticDemos = {
       'I punti sulla licenza taxi sono distinti dai punti della patente. Per questo gruppo non è previsto il ritiro immediato del titolo comunale.',
       'Ritiro del documento di circolazione, permesso limitato al trasferimento, fermo e custodia richiedono atti separati effettivamente eseguiti. Documento e copia del verbale vanno trasmessi all’UMC entro cinque giorni.'
     ],
-    destinations:'UMC per il documento di circolazione; Ufficio Verbali per il seguito; Ufficio Corso Pubblico tramite il percorso dell’Ufficio Verbali.',
+    destinations:'UMC per il documento di circolazione; Servizio Trasporto Pubblico Locale e MaaS per la segnalazione obbligatoria ex art. 29, comma 3. Percorso interno tramite Ufficio Verbali da confermare al Comando.',
     amountNote:'Importi in euro, spese escluse. Oltre 60 giorni è indicato l’importo a ruolo, non un secondo pagamento in misura ridotta.',
     formulaParts: [
-      'Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa richiesta verso […], in violazione dell’art. 2 della L. n. 21/1992. In particolare:',
+      'Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa richiesta verso […]. In particolare:',
       'Il fatto era accertato mediante:',
-      "[RISCONTRO_PRECEDENTI] Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico."
+      '[RISCONTRO_PRECEDENTI]'
     ],
     suggestions: [
       {title:'Circostanza del rifiuto', options:[
@@ -49,7 +49,7 @@ window.prontuarioStaticDemos = {
       ], other:'Altra modalità di accertamento: […]'}
     ],
     acts: [
-      {title:'Ritiro, trasferimento e fermo', text:'Il documento di circolazione è stato ritirato e sarà trasmesso all’UMC di […] entro cinque giorni. Il conducente è stato autorizzato al trasferimento del veicolo per la via più breve fino a […], luogo indicato dall’interessato, con l’avvertenza del fermo per la durata della sospensione del documento di circolazione, come da separato verbale.'}
+      {title:'Ritiro, trasferimento e fermo', text:'Ritirare il documento e trasmetterlo all’UMC entro cinque giorni; autorizzare il trasferimento per la via più breve al luogo indicato dall’interessato, con avvertenza del fermo per la durata della sospensione; documentare custodia e fermo con separato verbale. Stato ed estremi: […].'}
     ]
   },
   abusivo: {
@@ -76,7 +76,7 @@ window.prontuarioStaticDemos = {
       'Patente ritirata: trasmissione alla Prefettura entro cinque giorni. Sequestro e custodia richiedono atti separati.',
       'Il verbale va trasmesso entro 10 giorni al Prefetto del luogo della commessa violazione, ai sensi dell’art. 210, comma 3, CdS.'
     ],
-    destinations:'Prefettura-UTG per la patente e il seguito di competenza; Prefetto del luogo della violazione per il verbale; Ufficio Verbali e Ufficio Corso Pubblico per la segnalazione interna.',
+    destinations:'Prefettura-UTG per la patente; Prefetto del luogo della violazione per il verbale. Servizio Trasporto Pubblico Locale e MaaS per gli eventuali fatti pertinenti al titolo; percorso interno da confermare.',
     formulaParts: [
       'Adibiva a servizio taxi il veicolo indicato senza avere ottenuto la prescritta licenza:',
       'Il servizio era accertato mediante:',
@@ -94,7 +94,7 @@ window.prontuarioStaticDemos = {
       ], other:'Altra modalità del servizio taxi accertata: […]'}
     ],
     acts: [
-      {title:'Ritiro della patente, sequestro e custodia', text:'La patente di guida è stata ritirata per la trasmissione alla Prefettura-UTG di […]. Il veicolo, di cui è stato trattenuto il documento di circolazione, è stato sottoposto a sequestro amministrativo ai fini della confisca, come da separato verbale, e affidato, con segnalazione visibile dello stato di sequestro, a […] che lo custodirà presso […].'}
+      {title:'Ritiro della patente, sequestro e custodia', text:'Ritirare la patente per l’invio alla Prefettura entro cinque giorni; sequestrare il veicolo ai fini della confisca, documentando il trattenimento del documento, il custode, il luogo e il segnale di sequestro con separato verbale. Stato ed estremi: […].'}
     ]
   },
   turno: {
@@ -114,15 +114,15 @@ window.prontuarioStaticDemos = {
       'La sospensione comunale è di 15, 30 o 60 giorni secondo i precedenti pertinenti nel quinquennio; non attribuire una fascia senza riscontro.',
       'Confrontare giorno, ora, gruppo, licenza e ordinanza dei turni vigente al momento del fatto; verificare anche deroghe e cambio turno. Non usare un calendario scaduto.',
       'La sola assenza dal punto controllato non prova il mancato svolgimento del turno: documentare il servizio non effettuato e il riscontro relativo alla fascia assegnata.',
-      'Il ritiro del titolo comunale previsto per il gruppo va documentato e trasmesso secondo il percorso interno soltanto se effettivamente eseguito.',
+      'Il ritiro del titolo comunale è obbligatorio per la violazione accertata del gruppo C (art. 29, comma 4); documentare lo stato effettivo e trasmettere il titolo senza dichiarare operazioni non compiute.',
       'La sanzione comunale non è un’alternativa automatica alla sanzione CdS per lo stesso fatto. Una fotografia del disco o della vetrofonia integra, ma non sostituisce, il riscontro sull’atto vigente.'
     ],
-    destinations:'Ufficio Verbali per il seguito e Ufficio Corso Pubblico tramite il percorso interno.',
+    destinations:'Servizio Trasporto Pubblico Locale e MaaS: segnalazione obbligatoria e trasmissione del titolo ritirato, accertata la violazione del gruppo C (art. 29, commi 3–4). Percorso interno da confermare.',
     amountNote:'Oltre 60 giorni è indicato l’importo a titolo esecutivo, oltre alle spese.',
     formulaParts:[
-      'Con il veicolo indicato, C.P. n. […], non rispettava il turno […] stabilito dall’atto vigente […], in violazione della condizione della licenza […] e dell’art. 23, comma 1, lett. f, del regolamento comunale – delibera C.C. n. 80/2005:',
+      'Con il veicolo indicato, C.P. n. […], non rispettava il turno […] stabilito dall’atto vigente […], rispetto alla condizione della licenza […]:',
       'L’esito della verifica su deroghe o cambio turno era:',
-      "Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico."
+      ''
     ],
     suggestions: [
       {title:'Condotta osservata', options:[
@@ -135,7 +135,7 @@ window.prontuarioStaticDemos = {
       ], other:'Altro riscontro pertinente su deroghe o cambio turno: […]'}
     ],
     acts: [
-      {title:'Ritiro del titolo comunale', text:'La licenza C.P. n. […] è stata ritirata, come da verbale n. […], per la trasmissione secondo il percorso dell’ufficio competente.'}
+      {title:'Ritiro del titolo comunale', text:'Ritirare la licenza per la violazione accertata del gruppo C e trasmetterla all’ufficio competente. Stato ed estremi dell’adempimento: […].'}
     ]
   }
 };

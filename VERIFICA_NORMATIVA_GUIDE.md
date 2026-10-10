@@ -1,5 +1,11 @@
 # Verifica normativa delle guide G02, I02, N02 e N03
 
+## Aggiornamento documentale 1.8.6
+
+Per il seguito operativo corrente vedere [rapporto 1.8.6](RAPPORTO_REVISIONE_1.8.6.md): adempimenti obbligatori con stato da completare, provvedimenti dell’ufficio esclusi dalla copia, nessun invio al Corso Pubblico dato automaticamente per eseguito. I dubbi sui precedenti personali descritti sotto restano aperti; non sono stati risolti per analogia. La documentazione seguente conserva il valore di ricostruzione storica.
+
+## Ricostruzione precedente
+
 Data della verifica: 2 ottobre 2026. Fonti usate: testi di legge e pubblicazioni di enti pubblici. Il catalogo giuridico, gli importi e le responsabilità del progetto non sono stati modificati. Le conclusioni indicate come interpretazioni non sono testo normativo.
 
 ## I02 · soltanto il veicolo non destinato all'uso NCC

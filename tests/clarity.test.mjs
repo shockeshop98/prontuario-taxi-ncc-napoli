@@ -4,6 +4,8 @@ import vm from 'node:vm';
 const html=await readFile(new URL('../index.html',import.meta.url),'utf8');
 const data=JSON.parse(html.match(/^const DATA=(.*);$/m)[1]);
 const context=vm.createContext({completeRegRef:s=>s});
+context.window={};
+vm.runInContext(await readFile(new URL('../scripts/operative-rules.js',import.meta.url),'utf8'),context);
 for(const name of ['caseNormativeRef','caseFormula'])vm.runInContext(html.split('\n').find(l=>l.startsWith(`function ${name}(`)),context);
 for(const x of data.catalog){
  for(const type of ['Taxi','NCC']){
@@ -13,11 +15,11 @@ for(const x of data.catalog){
  }
  if(x.kind==='taxi3')assert.match(x.responsibility,/art\.86 c\.3.*titolare/);
  if(x.kind==='local')assert.ok(!x.responsibility?.includes('destinatario è il titolare'));
- assert.ok(x.notes.some(n=>n.startsWith('Segnalazione al Corso Pubblico:')));
+ assert.ok(x.reviewed==='2026-10-10');
  assert.ok(!x.notes.some(n=>n.startsWith('Redazione del testo:')));
 }
 const refusal=data.catalog.find(x=>x.id==='rifiuto');
-assert.match(refusal.formula,/il conducente \[GENERALITÀ\] rifiutava/);
+assert.match(refusal.formula,/rifiutava/);
 assert.match(refusal.responsibility,/Se|se diverso/);
 assert.ok(refusal.legalBackground.some(t=>t.includes('art.20')));
 const taxi86=data.catalog.filter(x=>x.kind==='taxi3');

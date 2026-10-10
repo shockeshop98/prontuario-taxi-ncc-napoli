@@ -8,7 +8,7 @@ const root=resolve(import.meta.dirname,'..');
 const html=await readFile(resolve(root,'index.html'),'utf8');
 const data=JSON.parse(html.split('\n').find(line=>line.startsWith('const DATA=')).slice(11,-1));
 const window={};
-for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js'])
+for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js'])
   vm.runInNewContext(await readFile(resolve(root,name),'utf8'),{window},{filename:name});
 const layout=window.prontuarioStaticLayout(data.catalog,data.manualParts,data.staticPages);
 const receipts=layout.rows.filter(row=>row.type==='Taxi'&&/^G28-0[1-4]$/.test(row.item.code));
@@ -22,17 +22,16 @@ const finalSentence="Copia del presente verbale verrà inviata all'Ufficio Corso
 const pdf=await getDocument({data:new Uint8Array(await readFile(resolve(root,'allegati/Prontuario_Taxi_NCC_Napoli.pdf'))),useSystemFonts:true,disableFontFace:true}).promise;
 for(const {item,type} of receipts){
   const body=window.prontuarioCatalogBody(item,type,{esc:v=>String(v),sourceLink:()=>'',date:v=>v,normative:v=>v.verbaleRef});
-  assert.equal(item.referenceOnly,false,`${item.code}: scheda sanzionatoria`);
+  assert.equal(item.referenceOnly,item.code!=='G28-01',`${item.code}: qualificazione documentata o relazione`);
   assert.equal(item.kind,'local');
   assert.doesNotMatch(item.title,/consultazione per relazione/);
   assert.match(item.verbaleRef,/CdS art\. 86, comma 3-bis/);
-  assert.doesNotMatch(item.verbaleRef,/disposizione dirigenziale|D\.D\.|originale da acquisire/i,`${item.code}: D.D. fuori dalla normativa violata`);
-  assert.equal(item.verbaleRef.includes('Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. n'),['G28-01','G28-02'].includes(item.code),`${item.code}: solo riferimenti pertinenti`);
+  assert.equal(item.verbaleRef.includes('Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. n'),item.code==='G28-01',`${item.code}: solo riferimenti pertinenti`);
   const normativeSection=body.match(/<section class="caseBlock staticNormative">([\s\S]*?)<\/section>/)?.[1];
   assert.ok(normativeSection,`${item.code}: normativa visibile`);
-  assert.doesNotMatch(normativeSection,/disposizione dirigenziale|D\.D\.|originale da acquisire/i);
+  if(item.code!=='G28-01')assert.match(normativeSection,/originale non acquisito/);
   assert.match(body.match(/<details class="caseSource">([\s\S]*?)<\/details>/)?.[1]||'',/disposizione dirigenziale n\. 72 del 10\/02\/2012/i,`${item.code}: richiamo nell'approfondimento`);
-  assert.match(body,/Testo orientativo del verbale/);
+  assert.ok(body.includes(item.referenceOnly?'Testo orientativo per la relazione':'Testo orientativo del verbale'));
   assert.match(body,/Copia testo orientativo/);
   assert.match(body,/<h3>Tabella importi<\/h3>[\s\S]*?class="staticAmountsTable"/);
   assert.match(body,/PMR[\s\S]*?€ 86[\s\S]*?€ 60,20[\s\S]*?€ 169[\s\S]*?86–338/);
@@ -44,8 +43,10 @@ for(const {item,type} of receipts){
   const parts=[...formula.matchAll(/data-copy-text="([^"]*)"/g)].map(match=>match[1].replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>').replaceAll('&amp;','&'));
   const copied=window.prontuarioCatalogCopyText({querySelectorAll:()=>parts.map(copyText=>({dataset:{copyText}}))});
   assert.ok(copied.includes(window.prontuarioStaticCatalog[item.code].lead));
-  assert.ok(copied.endsWith(finalSentence),`${item.code}: frase finale nella copia`);
-  assert.equal(copied.split(finalSentence).length-1,1,`${item.code}: frase finale una volta sola`);
+  assert.ok(!copied.includes(finalSentence));
+  assert.ok(!copied.includes('Provvedimenti dell’Amministrazione'));
+  if(item.code==='G28-01')assert.match(copied,/Stato della trasmissione/);
+  else assert.doesNotMatch(copied,/Norma sanzionatoria|Prescrizione:|diffida|sospensione/);
   assert.doesNotMatch(copied,/Altra modalità|Altra difformità|Altra omissione|Utilizzare la voce pertinente/);
   assert.match(report,/autore.*confermat[oa].*art\. 86, comma 3-bis/is);
   assert.match(report,/distinta dalla verifica documentale/i);
@@ -57,15 +58,15 @@ for(const {item,type} of receipts){
   const page=await pdf.getPage(layout.pages[`${item.id}/${type}`]);
   const pdfText=normalize((await page.getTextContent()).items.map(part=>part.str).join(' '));
   assert.ok(pdfText.includes(normalize(item.title)),`${item.code}: titolo PDF coerente`);
-  assert.ok(pdfText.includes(normalize('Tabella importi'))&&pdfText.includes(normalize('Sanzioni accessorie e punti')));
-  assert.ok(pdfText.includes(normalize('Testo orientativo del verbale')));
-  assert.ok(pdfText.includes(normalize(finalSentence)));
-  const pdfNormative=pdfText.split(normalize('Normativa violata'))[1]?.split(normalize('Tabella importi'))[0];
+  assert.ok(pdfText.includes(normalize('Tabella importi'))&&pdfText.includes(normalize('Sanzioni accessorie e adempimenti')));
+  assert.ok(pdfText.includes(normalize(item.referenceOnly?'Testo orientativo per la relazione':'Testo orientativo del verbale')));
+  assert.ok(!pdfText.includes(normalize(finalSentence)));
+  const pdfNormative=pdfText.split(normalize('Riferimenti normativi — obblighi e sanzioni'))[1]?.split(normalize('Tabella importi'))[0];
   assert.ok(pdfNormative,`${item.code}: normativa PDF`);
-  assert.ok(!pdfNormative.includes(normalize('disposizione dirigenziale')),`${item.code}: D.D. fuori dalla normativa PDF`);
-  assert.equal(pdfNormative.includes(normalize('Regolamento comunale')),['G28-01','G28-02'].includes(item.code),`${item.code}: articolo comunale pertinente nel PDF`);
+  if(item.referenceOnly)assert.ok(pdfNormative.includes(normalize('originale non acquisito')));
+  assert.equal(pdfNormative.includes(normalize('Regolamento comunale')),item.code==='G28-01',`${item.code}: articolo comunale pertinente nel PDF`);
   if(item.code==='G28-02'){
-    assert.ok(pdfNormative.includes(normalize('art. 23, comma 1, lett. n')),`${item.code}: comma comunale PDF`);
+    assert.ok(!pdfNormative.includes(normalize('art. 23, comma 1, lett. n')),`${item.code}: n non fonda il rilascio anticipato`);
     assert.ok(pdfText.includes(normalize('punto 7, lett. b')),`${item.code}: disposizione specifica nelle note PDF`);
   }
   assert.ok(pdfText.includes(normalize(item.code==='G28-02'?'D.D. n. 72 del 10/02/2012':'disposizione dirigenziale n. 72 del 10/02/2012')),`${item.code}: fonte conservata nelle note PDF`);
@@ -97,4 +98,4 @@ for(const file of ['allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf','a
   assert.ok(data.sources.some(source=>source.url===file));
   assert.ok((await readFile(resolve(root,'sw.js'),'utf8')).includes(file));
 }
-console.log('Ricevute e tariffe: quattro schede sanzionatorie Taxi coerenti fra PWA, copia, esempi e PDF; G28 NCC, fonti offline e supplementi conservati');
+console.log('Ricevute e tariffe: quattro schede con qualificazione distinta Taxi coerenti fra PWA, copia, esempi e PDF; G28 NCC, fonti offline e supplementi conservati');

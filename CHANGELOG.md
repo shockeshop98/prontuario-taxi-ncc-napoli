@@ -1,5 +1,15 @@
 # Registro aggiornamenti
 
+## 1.8.6 — revisione documentale del 10/10/2026
+
+- Controllo delle 187 schede con tabella completa, valutazioni motivate e registro delle acquisizioni. Limiti documentali espliciti, compreso lo schema di nuovo regolamento oggetto del parere ART57/2026.
+- G24: lett. g con ambiguità documentata sulla fila dei passeggeri; relazione senza trasformazione in fuori posteggio. G28-02: lett. n non usata come fonte dell’obbligo anticipato; G28-02–04 relazioni con importi solo ipotetici. G28-01 gruppo A verificato.
+- Ordine CdS, L.21/1992, regolamento, altri atti; obbligo e sanzione distinti. Artt.86 c.3-bis e85 c.4-ter subordinati ai rispettivi presupposti, non a ogni violazione comunale.
+- Riquadro accessorie/adempimenti/segnalazione; ritiro materiale obbligatorio gruppi C/D, decisioni dell’ufficio separate. Formule senza attestazioni automatiche di atti compiuti; box dei provvedimenti escluso dalla copia.
+- Correzioni motivate R01, R10, R14, R16, R35–38, T01, N09–10, G52–53. Importi conservati. R17–18 restano assenti; disciplina collettivo e originali conservati.
+- PDF7.8: 207 pagine, 187 schede singole a 9pt, sei indici e quattro appendici operative. Build/cache aggiornate. Rapporto: `RAPPORTO_REVISIONE_1.8.6.md`. Pubblicazione GitHub Pages autorizzata dopo la revisione locale, senza risolvere o rimuovere i dubbi normativi documentati.
+- Aggiunta verifica pubblica riproducibile: versione/build, identità SHA-256 del PDF, schede e copia, passaggio dalla cache 1.8.5 e apertura offline. Esclusi dal rilascio documenti personali e file temporanei.
+
 ## 1.8.5 — revisione locale, non pubblicata
 
 - R17 e R18 eliminate dal catalogo attivo, dalla ricerca, dall’indice, dalle formule, dal confronto regolamentare e dal PDF; gli originali documentali restano integri. TC01 raccoglie la disciplina specifica documentata della tratta Aeroporto–Stazione Centrale–Molo Beverello, con proroga al 31/12/2026 e deroga temporanea sui posti limitata alla tratta.

@@ -1,0 +1,125 @@
+{
+  "version": "1.8.6",
+  "date": "2026-10-10",
+  "viewport": [
+    {
+      "width": 320,
+      "height": 740,
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 740,
+      "height": 320,
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 800,
+      "height": 360,
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 932,
+      "height": 430,
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    }
+  ],
+  "search": [
+    {
+      "query": "G24",
+      "type": "Taxi",
+      "expected": "G24"
+    },
+    {
+      "query": "fila passeggeri",
+      "type": "Taxi",
+      "expected": "G24"
+    },
+    {
+      "query": "ricevuta predeterminata",
+      "type": "Taxi",
+      "expected": "G28-02"
+    },
+    {
+      "query": "I03",
+      "type": "NCC",
+      "expected": "N04"
+    },
+    {
+      "query": "I07",
+      "type": "Taxi",
+      "expected": "G07-01"
+    },
+    {
+      "query": "taxi sharing",
+      "type": "Taxi",
+      "expected": "TC01"
+    }
+  ],
+  "cache": {
+    "migration": {
+      "reg": true,
+      "manual": false,
+      "worker": "8c845bbbd176b1fb5eae30bc718be62f7343353d7da5d4819606e06f40837d5d",
+      "build": "8c845bbbd176b1fb5eae30bc718be62f7343353d7da5d4819606e06f40837d5d",
+      "oldManual": false
+    },
+    "savedManual": true,
+    "offlinePDF": {
+      "status": 200,
+      "mime": "application/pdf",
+      "bytes": 5595390,
+      "expected": 5595390
+    },
+    "offlineRange": {
+      "status": 206,
+      "length": 100
+    },
+    "offlineOpen": {
+      "status": 200,
+      "fromServiceWorker": true,
+      "url": "http://127.0.0.1:8000/allegati/Prontuario_Taxi_NCC_Napoli.pdf?rev=8c845bbbd176b1fb5eae30bc718be62f7343353d7da5d4819606e06f40837d5d"
+    },
+    "offlineSearch": true
+  },
+  "clipboard": {
+    "realClipboard": true,
+    "example": "Con il veicolo indicato, C.P. n. […], non rispettava il turno […] stabilito dall’atto vigente […], rispetto alla condizione della licenza […]: […]. L’esito della verifica su deroghe o cambio turno era: […]. Norma sanzionatoria: CdS art. 86, comma 3-bis. Prescrizione: Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. f. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Adempimenti — stato ed estremi da completare: Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […]."
+  },
+  "jsErrors": []
+}

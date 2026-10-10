@@ -2,7 +2,11 @@
 
 Proprietario: Antonio Balzano, Agente Polizia Municipale Napoli, U.O. San Lorenzo.
 
-## Stato
+## Stato corrente — 10 ottobre 2026
+
+Revisione **1.8.6 / PDF 7.8**, 187 schede di una pagina, 207 pagine totali. Pubblicazione GitHub Pages autorizzata dall’autore dopo la revisione locale; stato di partenza pubblico verificato: 1.8.5 / PDF 7.7. Verificare il completamento del rilascio nei deploy GitHub e la build del sito. Leggere prima `RAPPORTO_REVISIONE_1.8.6.md` e la tabella `revisione/1.8.6/controllo-schede.csv`. G24 e G28-02–04 hanno qualificazione non conclusa; il seguito comunale e la copia sono stati rielaborati. Istruzioni correnti di rigenerazione, test e verifica pubblica nel README. Le indicazioni sottostanti descrivono lo stato storico 1.8.5 e precedente: non ripristinare il vecchio invio automatico al Corso Pubblico né la lett. n per il rilascio anticipato.
+
+## Stato storico
 Repository remoto pubblico: shockeshop98/prontuario-taxi-ncc-napoli. La sua storia iniziale era distinta dall'importazione locale: conservare entrambe le storie tramite merge ordinario. Non usare push --force. La configurazione Pages e l'indirizzo del sito sono descritti nel README.
 
 ## Obiettivo della trasformazione

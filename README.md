@@ -4,11 +4,19 @@ A cura dell’Agente Antonio Balzano · U.O. San Lorenzo.
 
 Prontuario di consultazione con 116 voci attive di catalogo, ricerca per sinonimi e parole simili, indice per servizio, importi, riferimenti normativi, formule orientative, suggerimenti e note operative. I riferimenti al regolamento identificano la delibera C.C. n. 80/2005. Non contiene registrazioni di controlli, generalità dei conducenti o relazioni di servizio.
 
-## Revisione locale 1.8.5 / PDF 7.7
+## Revisione 1.8.6 / PDF 7.8
 
-R17 e R18 non sono più schede attive; i contenuti documentati della tratta Aeroporto–Stazione Centrale–Molo Beverello sono riuniti in TC01, senza creare sanzioni automatiche. G24 riguarda l’acquisizione e il prelievo di persone esterne alla fila dei passeggeri. G28-02 richiama anche l’art. 23, comma 1, lett. n, e mantiene nelle note la D.D. 72/2012, punto 7, lett. b. Gli originali comunali ancora mancanti restano da acquisire. [Rapporto della revisione](RAPPORTO_REVISIONE_1.8.5.md); dettagli in [VERIFICA_TAXI_COLLETTIVO.md](VERIFICA_TAXI_COLLETTIVO.md) e [VERIFICA_RICEVUTE_TARIFFE.md](VERIFICA_RICEVUTE_TARIFFE.md).
+Revisione documentale del 10 ottobre 2026: 187 schede (113 Taxi, 70 NCC, 4 trazione animale), una pagina per scheda, PDF di 207 pagine e sei pagine di indice. Pubblicazione su GitHub Pages autorizzata dall’autore dopo la consegna locale. La versione pubblica di partenza è stata riscontrata: PWA 1.8.5 / PDF 7.7, 206 pagine. L’esito del rilascio si verifica nei [deploy del repository](https://github.com/shockeshop98/prontuario-taxi-ncc-napoli/actions), confrontando versione e build del sito.
 
-La revisione locale comprende 187 schede, una pagina per caso, PDF 7.7 di 206 pagine e sei pagine di indice. Il PDF modificato va salvato nuovamente nella PWA; gli allegati originali invariati si conservano offline. La delibera G.C. n. 634/2018, la D.D. n. 72/2012 integrale e la D.D. n. 135/2010 restano da acquisire. La versione pubblica resta la 1.8.4 finché non sarà autorizzata una pubblicazione.
+Riferimenti ordinati CdS → L.21/1992 → regolamento → ulteriori atti. Il riquadro distingue accessorie CdS, adempimenti, segnalazione obbligatoria quando prevista e provvedimenti dell’ufficio; questi ultimi sono esclusi dalla copia. Gli adempimenti copiati hanno uno stato da completare e non attestano attività già compiute.
+
+G24 conserva la fila dei passeggeri: lett. g proposta con ambiguità esplicita, non qualificazione certa né prelievo fuori posteggio. G28-01 distingue la ricevuta su richiesta; G28-02–04 restano relazioni finché non sono documentati atto efficace e presupposti. Importi invariati, con condizioni di applicazione visibili. R17–R18 restano rimosse; TC01 e gli originali del taxi collettivo sono conservati.
+
+[Rapporto completo](RAPPORTO_REVISIONE_1.8.6.md), [tabella di tutte le schede](revisione/1.8.6/controllo-schede.csv), [esiti in JSON](revisione/1.8.6/controllo-schede.json), [registro delle fonti con hash e limiti](revisione/1.8.6/fonti.json). Il parere ART57/2026 riguarda un nuovo schema di regolamento: non è stata accertata la successiva approvazione/efficacia. Mancano diversi atti integrali, elencati nel rapporto; il controllo non attesta la vigenza assoluta né autorizza contestazioni automatiche.
+
+Il nuovo PDF deve essere salvato nuovamente nella PWA. Le copie degli allegati originali invariati restano conservabili offline.
+
+## Storia delle revisioni precedenti (non istruzioni correnti)
 
 ### Base 1.8.0 Taxi collettivo
 
@@ -41,17 +49,21 @@ Pubblicare sempre `index.html`, `version.json`, `sw.js`, `manifest.webmanifest`,
 ## Struttura
 
 - `index.html`: prontuario e contenuti testuali; gli allegati vengono caricati solo quando richiesti.
-- `scripts/static-demos.js`, `scripts/static-field-suggestions.js`, `scripts/static-demo-ui.js`, `scripts/taxi-collettivo.js`, `scripts/static-catalog.js`, `scripts/static-catalog-ui.js` e `assets/static-demo.css`: testi editoriali, suggerimenti contestuali accanto ai punti da completare, alias I03/I07 e impaginazione delle 187 schede locali, inclusa TC01 di consultazione. I suggerimenti distinguono fonte del fatto, riscontro del titolo, ufficio consultato per i precedenti ed estremi degli atti; restano fuori dalla copia. `data/guide-operative.json` e gli script del precedente compilatore restano soltanto come materiale storico e di verifica; non sono caricati dalla PWA.
+- `scripts/operative-rules.js`, `scripts/static-demos.js`, `scripts/static-field-suggestions.js`, `scripts/static-demo-ui.js`, `scripts/taxi-collettivo.js`, `scripts/static-catalog.js`, `scripts/static-catalog-ui.js` e `assets/static-demo.css`: testi editoriali, suggerimenti contestuali accanto ai punti da completare, alias I03/I07 e impaginazione delle 187 schede locali, inclusa TC01 di consultazione. I suggerimenti distinguono fonte del fatto, riscontro del titolo, ufficio consultato per i precedenti ed estremi degli atti; restano fuori dalla copia. `data/guide-operative.json` e gli script del precedente compilatore restano soltanto come materiale storico e di verifica; non sono caricati dalla PWA.
 - `version.json`: versione, data e identificatore della revisione.
 - `sw.js`: cache della pagina e degli allegati salvati su richiesta.
 - `manifest.webmanifest` e `assets/icon-*.png`: installazione e icone. L'originale T/N è in `assets/icon-source-tn.png`; `npm run generate:icons` crea icone normali e maskable, favicon e Apple touch icon.
 - `assets/`: stemmi e icone; `polizia-locale-napoli.png` è una rielaborazione grafica dell’immagine fornita, non una fonte certificata dello stemma.
 - `allegati/`: documenti originali e PDF normale del prontuario, conservati integralmente.
-- `scripts/generate-prontuario-static.mjs`: rigenera da HTML pulito l’intero PDF 7.7, inclusi copertina, apparati, indici e collegamenti alle singole schede. `scripts/generate-prontuario.mjs` è il generatore storico, non usato da `npm run generate:pdf`.
+- `scripts/generate-prontuario-static.mjs`: rigenera da HTML pulito l’intero PDF 7.8, inclusi copertina, apparati, indici e collegamenti alle singole schede. `scripts/generate-prontuario.mjs` è il generatore storico, non usato da `npm run generate:pdf`.
 - `.nojekyll`: pubblicazione statica senza elaborazione Jekyll.
 - `CHANGELOG.md`: modifiche delle versioni pubblicate.
 
-La PWA 1.8.5 / PDF 7.7 è una revisione locale; sul ramo `main` resta pubblicata la 1.8.4. Per rigenerare il PDF: `npm ci`, `npx playwright install chromium` (oppure impostare `CHROMIUM_PATH` a un Chromium già presente), `npm run generate:pdf`, `python3 scripts/update-build.py`, `npm test`. Per rigenerare le icone: `npm run generate:icons` prima di `python3 scripts/update-build.py`. Il PDF 7.7 deve essere salvato nuovamente nella PWA per l’uso offline; gli allegati originali validi si conservano. La versione PWA non rappresenta una verifica normativa generale nuova. Rielaborazione del prontuario U.O. G.I.T. TURISTICA, del regolamento fornito e delle diciture EGAF. Gli originali mantengono la propria attribuzione. Revisione proposta per validazione interna.
+Per rigenerare: `npm ci`, predisporre Chromium (oppure `CHROMIUM_PATH`), `npm run generate:pdf`, `python3 scripts/update-build.py`, `npm run audit:cards`, `npm test`. Per le prove browser avviare `python3 -m http.server 8000 --bind 127.0.0.1` e poi `npm run test:browser` con Chromium disponibile. Quest’ultimo usa un profilo effimero e scrive gli esiti in `revisione/1.8.6/`. Il test non pubblica nulla. Per le icone: `npm run generate:icons` prima della rigenerazione del build.
+
+La verifica pubblica riproducibile è in `scripts/verify-public-release.mjs`: eseguire `prepare` prima del deploy e `verify` dopo, impostando `CHROMIUM_PATH` e la stessa directory temporanea `RELEASE_VERIFY_DIR`. Prepara la vera cache 1.8.5, prova l’aggiornamento esplicito a 1.8.6, confronta le impronte dei file pubblici e verifica schede, copia e PDF offline. Profilo browser e risultati temporanei non vanno inclusi nel commit.
+
+Le formule richiedono riscontri reali; gli importi delle basi non ancora qualificate non sono automaticamente applicabili. Originali GIT/EGAF conservati con attribuzione. Revisione proposta per validazione interna.
 
 La verifica puntuale dei dubbi I02, G02, N02 e N03, con fonti ufficiali e quesito per l'Ufficio Verbali, è in [VERIFICA_NORMATIVA_GUIDE.md](VERIFICA_NORMATIVA_GUIDE.md). Non sostituisce la data di verifica generale del catalogo.
 

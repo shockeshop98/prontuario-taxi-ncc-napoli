@@ -3,6 +3,7 @@
   const title = 'Taxi collettivo — Aeroporto, Stazione Centrale, Molo Beverello';
   const summary = 'Aeroporto di Capodichino – Stazione Centrale – Molo Beverello e viceversa; € 6 per passeggero, bagagli compresi. Taxi con capienza omologata: l’integrazione del 2026 ammette temporaneamente anche vetture con meno di sette posti a disposizione dell’utenza. Servizio riservato a chi non è di turno in aeroporto. Proroga fino al 31/12/2026.';
   const references = [
+    'Regolamento comunale – delibera C.C. n. 80/2005, art. 19: disciplina generale del taxi collettivo, da coordinare con gli atti specifici sotto indicati.',
     'Ordinanza dirigenziale n. 1 del 16/04/2019 (OD/2019/0000463): attivazione, postazioni, percorsi e modalità operative.',
     'Ordinanza dirigenziale n. 10 del 01/12/2025 (OD/2025/0002122 del 02/12/2025): proroga fino al 31/12/2026.',
     'Ordinanza dirigenziale n. 9 del 06/08/2026 (1065O/2026/0000009): integrazione temporanea sui posti a disposizione dell’utenza.',
@@ -40,7 +41,7 @@
   };
   const item = {
     id, code:'TC01', title, scope:'taxi', topic:'collettivo', kind:'collective-reference', referenceOnly:true,
-    ref:'O.D. n. 1 del 16/04/2019; O.D. n. 10 del 01/12/2025; O.D. n. 9 del 06/08/2026; Regolamento comunale – delibera C.C. n. 80/2005, art. 19',
+    ref:'Regolamento comunale – delibera C.C. n. 80/2005, art. 19; O.D. n. 1 del 16/04/2019; O.D. n. 10 del 01/12/2025; O.D. n. 9 del 06/08/2026',
     facts:'Proroga fino al 31/12/2026. Tariffa 6 euro per passeggero con bagagli, tassametro, ricevuta, tabella identificativa, turno, fermate e stalli.',
     searchTerms:'taxi sharing collettivo Alibus sei euro 6 euro aeroporto Capodichino Stazione Centrale Molo Beverello meno di sette posti sette posti',
     sources:['OD2019','OD2025','OD2026','REG'], payments:[]

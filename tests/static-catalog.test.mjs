@@ -8,7 +8,7 @@ const data=JSON.parse(html.split('\n').find(line=>line.startsWith('const DATA=')
 const window={};
 let copied='',activeParts=[];
 const context={window,document:{getElementById:()=>({querySelectorAll:()=>activeParts.map(textContent=>({textContent}))})},navigator:{clipboard:{writeText:async text=>{copied=text}}}};
-for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js'])
+for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js'])
   vm.runInNewContext(fs.readFileSync(new URL(name,root),'utf8'),context,{filename:name});
 const formulaParts=markup=>[...markup.matchAll(/<p class="staticFormulaPart" data-copy-text="([^"]*)">/g)]
   .map(match=>match[1].replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>').replaceAll('&amp;','&'));
@@ -37,7 +37,7 @@ for(let index=0;index<4;index++){
   assert.equal(i03.ref.replace(' c.4-bis',' c.4-bis lett.'+String.fromCharCode(97+index)),canonical.ref,`I03-0${index+1}: riferimento`);
 }
 assert.equal(data.manualLegendPage,2+layout.indexPageCount);
-assert.equal(data.manualAuditPage,layout.firstCasePage+layout.rows.length+3);
+assert.equal(data.manualAuditPage,layout.firstCasePage+layout.rows.length+4);
 const helpers={esc:value=>String(value??'').replaceAll('&','&amp;').replaceAll('<','&lt;'),sourceLink:()=>'',date:value=>value,normative:item=>item.verbaleRef||item.ref};
 const finalSentence="Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.";
 for(const {item,type} of layout.rows){
@@ -53,7 +53,7 @@ for(const {item,type} of layout.rows){
   const accessoryRows=window.prontuarioAccessoryRows(window.prontuarioCatalogAccessorySections(item,type));
   assert.doesNotMatch(accessoryRows.cds,/Seguito dell’ufficio|Seguito competente|Comunicazioni art\./,`${item.code}: seguito non CdS nella riga CdS`);
   if(accessoryRows.other)assert.match(rendered,/Altre misure e comunicazioni<\/th>/,`${item.code}: riga per altra fonte`);
-  const headings=['Normativa violata','Tabella importi','Sanzioni accessorie e punti',window.prontuarioCatalogIsRelation(item)?'Testo orientativo per la relazione':'Testo orientativo del verbale','Suggerimenti e note operative'];
+  const headings=['Riferimenti normativi — obblighi e sanzioni','Tabella importi','Sanzioni accessorie e adempimenti',window.prontuarioCatalogIsRelation(item)?'Testo orientativo per la relazione':'Testo orientativo del verbale','Suggerimenti e note operative'];
   headings.slice(1).forEach((heading,index)=>assert.ok(rendered.indexOf(headings[index])<rendered.indexOf(heading),`${item.code}: ordine ${heading}`));
   assert.equal((rendered.match(/class="staticAmountsTable"/g)||[]).length,1);
   assert.equal((rendered.match(/<tbody><tr>/g)||[]).length,2);
@@ -66,7 +66,7 @@ for(const {item,type} of layout.rows){
   const parts=formulaParts(formula);
   assert.equal(parts.length,2);
   const copy=parts[0]+' […]. '+parts[1];
-  const expectedEnding=[window.prontuarioCatalogLegalSentence(item,type),model.tail,window.prontuarioCatalogPrevious(item,type),window.prontuarioCatalogOperational(item),item.formula.includes(finalSentence)&&!window.prontuarioCatalogIsRelation(item)?finalSentence:''].filter(Boolean).join(' ');
+  const expectedEnding=[window.prontuarioCatalogLegalSentence(item,type),model.tail,window.prontuarioCatalogPrevious(item,type),window.prontuarioCatalogOperational(item),window.prontuarioFollowupFormula(item)].filter(Boolean).join(' ');
   assert.equal(parts[0],model.lead,`${item.code}: formula iniziale invariata`);
   assert.equal(parts[1],expectedEnding,`${item.code}: formula finale invariata`);
   assert.ok(formula.includes(window.prontuarioEvidenceHints(item.staticModelCode||item.demoBaseCode||item.code).title),`${item.code}: fonte del fatto`);
@@ -85,14 +85,14 @@ for(const {item,type} of layout.rows){
   assert.equal(copy.includes(finalSentence),expectedFinal,`${item.code}: frase Corso Pubblico`);
   if(item.staticVariantIndex!==undefined){
     assert.ok(copy.includes('quinquennio'),`${item.code}: riscontro fascia`);
-    if(item.staticVariantIndex>0)for(const value of ['verbale',item.staticVariantIndex===1?'fatto del':'fatti del',item.staticVariantIndex===1?'accertato da':'accertati da','riscontro'])assert.ok(copy.includes(value),`${item.code}: dato del precedente ${value}`);
+    if(item.staticVariantIndex>0)for(const value of [item.staticVariantIndex===1?'verbale':'verbali',item.staticVariantIndex===1?'fatto del':'fatti del',item.staticVariantIndex===1?'accertato da':'accertati da','riscontro'])assert.ok(copy.includes(value),`${item.code}: dato del precedente ${value}`);
     if(item.staticVariantIndex===0)assert.match(rendered,/Se la verifica è pendente, non attribuire automaticamente la prima violazione/);
   }
   const acts=window.prontuarioCatalogActs(item);
   assert.doesNotMatch(acts.map(act=>act.text).join(' '),/(?:sequestro|fermo|custodia)[^.]*verbale n\. \[…\]/i,`${item.code}: numero inesistente di sequestro o fermo`);
-  for(const act of acts)assert.ok(formula.includes(act.text),`${item.code}: atto mancante`);
+  for(const act of acts)assert.ok(formula.includes(act.title),`${item.code}: atto mancante`);
   assert.equal((rendered.match(/class="staticOperationalUse"/g)||[]).length,acts.length?1:0,`${item.code}: istruzione esterna`);
-  assert.equal((rendered.match(/Solo se eseguito:/g)||[]).length,acts.length?1:0,`${item.code}: unica istruzione`);
+  assert.equal((rendered.match(/Solo se eseguito:/g)||[]).length,0,`${item.code}: unica istruzione`);
   assert.ok(!rendered.includes('Diciture per atti effettivamente eseguiti'),`${item.code}: atti duplicati sotto la formula`);
   if(!window.prontuarioCatalogIsRelation(item)&&!['G02','G04','G05','G06','G07','G08','G28','I02'].includes(item.demoBaseCode||item.code))assert.ok(window.prontuarioCatalogLegalSentence(item,type),`${item.code}: disposizione non indicata`);
 }
@@ -121,9 +121,9 @@ for(const code of ['G13','R03','R05','R22','R23','R29','R30','R31']){
 }
 assert.match(window.prontuarioStaticCatalog.I02.options[0],/veicolo indicato/);
 assert.match(window.prontuarioStaticCatalog.N02.tail,/persona interessata dalla conseguenza sulla patente/);
-assert.match(window.prontuarioCatalogLegalSentence(data.catalog.find(item=>item.code==='G16'),'Taxi'),/comma 1, lett\. e, e il comma 3/);
-assert.match(window.prontuarioCatalogLegalSentence(layout.rows.find(({item})=>item.code==='R33-01').item,'NCC'),/art\. 85, comma 4-bis, lett\. a/);
-assert.equal(window.prontuarioCatalogLegalSentence(data.catalog.find(item=>item.code==='I02'),'NCC'),'');
+assert.match(window.prontuarioCatalogLegalSentence(data.catalog.find(item=>item.code==='G16'),'Taxi'),/c\.1 e e c\.3/);
+assert.match(window.prontuarioCatalogLegalSentence(layout.rows.find(({item})=>item.code==='R33-01').item,'NCC'),/art\.85 c\.4-bis lett\.a/);
+assert.match(window.prontuarioCatalogLegalSentence(data.catalog.find(item=>item.code==='I02'),'NCC'),/Norma sanzionatoria: CdS art\.85 c\.4/);
 const i06=data.catalog.find(item=>item.code==='I06');
 const i06Html=window.prontuarioCatalogBody(i06,'Taxi',helpers);
 assert.match(i06Html,/Testo orientativo per la relazione/);
@@ -133,9 +133,9 @@ for(const code of ['G07-01','G07-02','G07-03','G07-04']){
   assert.ok(row);
   assert.match(window.prontuarioCatalogBody(row.item,'Taxi',helpers),/Il tariffario comunale contiene anche i supplementi/);
   assert.equal(window.prontuarioCatalogActs(row.item).length,1);
-  assert.match(window.prontuarioCatalogOperational(row.item),/ritirato.*UMC.*via più breve.*avvertenza.*fermo.*separato verbale/s);
-  assert.match(window.prontuarioCatalogOperational(row.item),/luogo indicato dall’interessato/);
-  assert.match(window.prontuarioCatalogRoute(row.item),/segnalazione all’Ufficio Verbali/);
+  assert.match(window.prontuarioCatalogOperational(row.item),/stato ed estremi da completare/);
+  assert.match(window.prontuarioFollowup(row.item,window.prontuarioCatalogAccessorySections(row.item,'Taxi')).operators,/UMC entro cinque giorni/);
+  assert.match(window.prontuarioCatalogRoute(row.item),/Segnalazione obbligatoria/);
 }
 for(const code of ['N04','N05','N06','N07']){
   const item=data.catalog.find(value=>value.code===code);
@@ -145,11 +145,11 @@ for(const code of ['N04','N05','N06','N07']){
 }
 const grouped=data.catalog.find(item=>item.code==='G04');
 assert.ok(!window.prontuarioCatalogRoute(grouped).includes('Art.29 c.2 lett.d'));
-assert.match(window.prontuarioCatalogAccessorySections(grouped,'Taxi').municipal,/Ritiro del titolo ex comma 4 solo se eseguito/);
+assert.match(window.prontuarioCatalogAccessorySections(grouped,'Taxi').municipal,/Ritiro obbligatorio del titolo/);
 for(const code of ['G12','N01','N02','N10','N12']){
   const item=data.catalog.find(value=>value.code===code);
   const model=window.prontuarioCatalogModel(item,item.scope==='ncc'?'NCC':'Taxi');
-  assert.ok(window.prontuarioCatalogNotes(item,model).every(note=>!note.includes('€')),`${code}: importo ripetuto nelle note`);
+  assert.ok(window.prontuarioCatalogNotes(item,model).every(note=>!note.includes('€')||code==='N10'&&note.startsWith('In Campania distinguere la mera dimenticanza')),`${code}: importi solo in tabella salvo avvertenza motivata N10`);
 }
 for(const code of ['R39','R40','R41','R42']){
   const item=data.catalog.find(value=>value.code===code);
@@ -162,16 +162,17 @@ await window.copyProntuarioCatalog(()=>{});
 assert.equal(copied,activeParts[0]+' […]. '+activeParts[1]);
 assert.ok(!copied.includes('Altra difformità'));
 const g24=data.catalog.find(item=>item.code==='G24');
-assert.equal(g24.title,'Comportamento scorretto: acquisizione di clienti fuori dalla fila dei passeggeri');
-assert.match(g24.verbaleRef,/art\. 23, comma 1, lett\. c/);
+assert.match(g24.title,/fila dei passeggeri/);
+assert.equal(g24.referenceOnly,true);
+assert.match(g24.verbaleRef,/art\. 23, comma 1, lett\. g/);
 assert.deepEqual(g24.payments[0].slice(1),['86–338','86','60,20','169','Nessuna accessoria CdS']);
 assert.match(window.prontuarioStaticCatalog.G24.lead,/acquisiva clienti fuori dalla fila dei passeggeri/);
 assert.match(window.prontuarioStaticCatalog.G24.options.join(' '),/prelevava|prelievo/);
 assert.doesNotMatch(window.prontuarioStaticCatalog.G24.lead,/fuori (dal|del) posteggio/);
 const g24Body=window.prontuarioCatalogBody(g24,'Taxi',helpers);
-assert.match(g24Body,/“Fuori dalla fila” riguarda le persone e non prova che il taxi fosse fuori posteggio/);
+assert.match(g24Body,/fila dei passeggeri/);
 assert.doesNotMatch(g24Body,/violava egolamento/);
 const g24Parts=formulaParts(g24Body);
-assert.match(g24Parts.join(' '),/art\. 23, comma 1, lett\. c/);
+assert.doesNotMatch(g24Parts.join(' '),/Norma sanzionatoria|violava/);
 assert.doesNotMatch(g24Parts.join(' '),/osservazione diretta|dichiarazioni formalizzate/);
-console.log('Catalogo statico: 187 schede incl. TC01, R17/R18 assenti, G24, alias, copia e Corso Pubblico OK');
+console.log('Catalogo statico: 187 schede incl. TC01, R17/R18 assenti, G24, alias, copia con stato degli adempimenti OK');

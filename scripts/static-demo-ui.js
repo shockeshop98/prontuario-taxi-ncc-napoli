@@ -1,11 +1,12 @@
 (function () {
   const finalSentence="Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.";
-  window.prontuarioOperationalUseNote='Solo se eseguito: conserva nel testo copiato il seguito operativo che corrisponde agli atti effettivamente compiuti; elimina o adatta il resto e completa gli estremi prima dell’uso.';
+  window.prontuarioOperationalUseNote='Compilare lo stato degli adempimenti obbligatori e gli estremi dei soli atti effettivamente eseguiti. I segnaposto non attestano l’esecuzione. Il box sui provvedimenti dell’Amministrazione è escluso dalla copia.';
   window.prontuarioDemoFormulaParts = (demo,variant) => {
     const parts=demo.formulaParts.map(part=>variant?part.replace('[RISCONTRO_PRECEDENTI]',variant.previousFormula):part);
-    const optional=demo.acts.map(act=>act.text).join(' ');
+    const item={code:demo.code,kind:demo.code==='G03'?'taxi3':'',group:demo.code==='G03'?'b':demo.code==='G23'?'c':'',verbaleRef:demo.normative.join('; ')};
+    const optional=[window.prontuarioLegalText(item,'Taxi'), 'Adempimenti — stato ed estremi da completare: '+demo.acts.map(act=>act.title).join('; ')+': […].',window.prontuarioFollowupFormula(item)].join(' ');
     const last=parts.length-1;
-    parts[last]=(parts[last].includes(finalSentence)?parts[last].replace(finalSentence,`${optional} ${finalSentence}`):`${parts[last]} ${optional}`).trim();
+    parts[last]=(parts[last].replace(finalSentence,'')+' '+optional).trim();
     return parts;
   };
   window.prontuarioDemoAccessories = function (demo, variant) {
@@ -57,7 +58,7 @@
       if(demo.code==='G03'&&index===1){
         annotations.push({after:variant.previousFormula,hint:[window.prontuarioPriorOfficeHints(),...(variant.paymentIndex?[window.prontuarioPriorDetailHints({code:'G03'},'Taxi')]:[])]});
       }
-      const operational=demo.acts.map(act=>act.text).join(' ');
+      const operational='Adempimenti — stato ed estremi da completare: '+demo.acts.map(act=>act.title).join('; ')+': […].';
       if(operational&&index===demo.suggestions.length-1&&demo.code!=='G01')annotations.push({after:operational,hint:window.prontuarioActHints({code:demo.code},demo.acts)});
       html+=window.prontuarioRenderFormulaPart(part,annotations,esc,demo.code==='G01'&&index===0);
     }
@@ -76,7 +77,7 @@
     const afterSixty=row[4].includes('Prefetto')?'Prefetto':`€ ${row[4]}`;
     const finalHeading=item.id==='abusivo'?'Procedura':`Oltre 60 giorni <small>${item.id==='turno'?'Importo a titolo esecutivo':'Importo a ruolo'}</small>`;
     const amounts=`<table class="staticAmountsTable"><caption>Importi in euro, spese escluse</caption><colgroup><col class="staticAmountShort"><col class="staticAmountShort"><col class="staticAmountLong"></colgroup><thead><tr><th scope="col"><abbr title="Pagamento in misura ridotta">PMR</abbr><small>Misura ridotta</small></th><th scope="col">Entro 5 giorni</th><th scope="col">${finalHeading}</th></tr></thead><tbody><tr><td>${esc(payment)}</td><td>${esc(fiveDays)}</td><td>${esc(afterSixty)}</td></tr></tbody><tfoot><tr><th scope="row" colspan="2">Limiti edittali</th><td>€ ${esc(row[1])}</td></tr></tfoot></table>`;
-    const accessories=window.prontuarioAccessoryRows(window.prontuarioDemoAccessories(demo,variant));
+    const accessories=window.prontuarioDemoAccessories(demo,variant);
     const formula=`<div class="formulaText" id="formulaText">${window.prontuarioDemoFormulaMarkup(demo,variant,esc)}</div>`;
     const notes=variant?[
       `Usare questa fascia solo dopo aver verificato ${variant.previous} dello stesso titolare nel quinquennio. Un riscontro incompleto non prova la fascia.`,
@@ -84,12 +85,12 @@
     ]:demo.notes;
     const operationalUse=demo.acts.length ? `<p class="staticOperationalUse">${esc(window.prontuarioOperationalUseNote)}</p>` : '';
     const responsibility=demo.responsibility||item.responsibility;
-    return `<section class="caseBlock staticNormative"><h3>Normativa violata</h3><ul>${demo.normative.map(ref=>`<li>${esc(ref)}</li>`).join('')}</ul></section>
-      <section class="caseBlock staticAmounts"><h3>Tabella importi</h3>${amounts}</section>
-      <section class="caseBlock staticAccessories"><h3>Sanzioni accessorie e punti</h3><table class="staticAccessoryTable"><tbody><tr><th scope="row">Sanzioni accessorie CdS</th><td>${esc(accessories.cds)}</td></tr><tr><th scope="row">Seguito sul titolo — Regolamento comunale</th><td>${esc(accessories.municipal)}</td></tr>${accessories.other?`<tr><th scope="row">Altre misure e comunicazioni</th><td>${esc(accessories.other)}</td></tr>`:''}<tr><th scope="row">Decurtazione punti patente</th><td>${esc(accessories.patentPoints)}</td></tr></tbody></table></section>
+    return `<section class="caseBlock staticNormative"><h3>Riferimenti normativi — obblighi e sanzioni</h3><ul>${window.prontuarioOrderedReferences(demo.normative).map(ref=>`<li>${esc(ref)}</li>`).join('')}</ul></section>
+      <section class="caseBlock staticAmounts"><h3>Tabella importi</h3>${window.prontuarioIsResidual(item)?'<p class="qualificationWarning">Importi applicabili soltanto alla condizione del titolo accertata; non a ogni violazione comunale.</p>':''}${amounts}</section>
+      <section class="caseBlock staticAccessories"><h3>Sanzioni accessorie e adempimenti</h3>${window.prontuarioFollowupMarkup(item,accessories,esc)}</section>
       <section class="caseBlock staticFormula"><h3>Testo orientativo del verbale</h3>${formula}${operationalUse}${variant?.paymentIndex===0||demo.code==='G01'?'<p class="staticCopyWarning">Solo con riscontro negativo: indicare la C.O. o la U.O. realmente consultata. Se la verifica è pendente, non usare questa formula per attribuire la prima violazione.</p>':''}<button class="small" id="copyFormula">Copia testo orientativo</button><p class="muted">La copia usa i segnaposto […], senza includere le alternative.</p></section>
       <section class="caseBlock staticSuggestions"><h3>Suggerimenti e note operative</h3><h4>Condizioni e verifiche</h4><ul class="operativeNotes">${notes.map(note=>`<li>${esc(note)}</li>`).join('')}</ul>${responsibility?`<h4>Responsabilità</h4><p>${esc(responsibility)}</p>`:''}<h4>Uffici destinatari</h4><p>${esc(demo.destinations)}</p><details class="caseSource"><summary>Approfondimenti e fonti</summary><div class="detailbody">${item.legalBackground?.length ? `<h4>Quadro regionale · approfondimento</h4><ul>${item.legalBackground.map(note=>`<li>${esc(note)}</li>`).join('')}</ul>` : ''}<p>Fonti: ${esc(item.sources.join(', '))}. ${item.group ? 'Gruppo comunale '+item.group.toUpperCase()+'. ' : ''}I punti comunali riguardano il titolo; i provvedimenti dell’ufficio restano distinti.</p><div class="toolbar">${item.pages.map(sourceLink).join('')}${(item.regPages||[]).map(page => `<button class="small" onclick="openPDF(0,${page})">Regolamento p.${page}</button>`).join('')}<button class="small" onclick="openPDF(0)">Regolamento fornito</button>${item.topic==='tariffe' ? '<button class="small" onclick="openPDF(4)">Tariffario taxi 2024</button>' : ''}</div></div></details></section>
-      <p class="caseFoot"><b>A cura dell’Agente Antonio Balzano · U.O. San Lorenzo.</b><br>${esc(item.origin)} · Verifica normativa ${date(item.checked)}</p>`;
+      <p class="caseFoot"><b>A cura dell’Agente Antonio Balzano · U.O. San Lorenzo.</b><br>${esc(item.origin)} · Revisione documentale ${date(item.reviewed||item.checked)} · limiti nelle fonti</p>`;
   };
   window.copyProntuarioStaticDemo = async function (toast) {
     const formula = document.getElementById('formulaText');
