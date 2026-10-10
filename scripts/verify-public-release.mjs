@@ -89,7 +89,9 @@ try{
   }
   report.cases=[];
   for(const [id,type,expectedPage] of [['fila','Taxi',45],['ricevuta-ordinaria','Taxi',86],['ricevuta-predeterminata','Taxi',87],['ricevuta-modello','Taxi',88],['ricevuta-incompleta','Taxi',89],['turno','Taxi',44]]){
-   await page.evaluate(({id,type})=>openSanction(id,type),{id,type});const body=await page.locator('#sanctionScreen').innerText();
+   // Il CSS visualizza le intestazioni in maiuscolo: verificare il testo del DOM,
+   // senza confondere text-transform con una diversa etichetta della scheda.
+   await page.evaluate(({id,type})=>openSanction(id,type),{id,type});const body=await page.locator('#sanctionScreen').textContent();
    if(id==='fila'){assert.match(body,/fila dei passeggeri/);assert.match(body,/lett\. g/);assert.match(body,/qualificazione da chiarire/);}
    if(id==='ricevuta-predeterminata'){assert.match(body,/Testo orientativo per la relazione/);assert.match(body,/originale non acquisito/);assert.match(body,/prima della partenza/);}
    assert.match(body,/Sanzioni accessorie e adempimenti/);assert.match(body,/Adempimenti obbligatori degli operatori/);

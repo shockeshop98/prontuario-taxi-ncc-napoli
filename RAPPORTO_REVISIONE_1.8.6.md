@@ -12,6 +12,23 @@ Il controllo finale del diff ha allineato al 10 ottobre la data visibile nel pi�
 
 Il controllo del diff preparato per il commit ha rilevato spazi finali e terminatori CRLF negli HTML acquisiti. `.gitattributes` conserva i byte delle sole copie in `revisione/1.8.6/fonti/` e le esclude dal controllo di spaziatura: non sono stati ripuliti o alterati gli originali per far passare il controllo. Per quei file vale la verifica SHA-256 del registro; codice, dati generati e documentazione restano sottoposti a `git diff --check`.
 
+### Esito della pubblicazione e verifica del sito
+
+Il commit dei contenuti [30f2639](https://github.com/shockeshop98/prontuario-taxi-ncc-napoli/commit/30f26391f794944e96b663dae72d3507678b303c) è stato inviato con push ordinario su `main`, senza force push. Il [deploy GitHub Pages 38052727758](https://github.com/shockeshop98/prontuario-taxi-ncc-napoli/actions/runs/38052727758) è terminato con successo il 10 ottobre 2026 alle 12:39 UTC. I quattro documenti personali sono rimasti locali e non tracciati.
+
+Verifica browser pubblica del 10 ottobre 2026 completata sul [sito](https://shockeshop98.github.io/prontuario-taxi-ncc-napoli/), con la stessa build e lo stesso PDF indicati sopra:
+
+- PWA 1.8.6, manifest di versione e worker concordanti; 11 file pubblici confrontati byte per byte tramite SHA-256 con i locali.
+- [PDF 7.8](https://shockeshop98.github.io/prontuario-taxi-ncc-napoli/allegati/Prontuario_Taxi_NCC_Napoli.pdf): 207 pagine effettive, metadati 7.8 e identità SHA-256 confermata.
+- Tutte le 187 schede aperte nel viewport 390×844, 187 collegamenti alle pagine PDF e 186 copie verificati; TC01 non offre una formula di verbale. Nessun overflow orizzontale o errore JavaScript rilevato.
+- Ordine dei riferimenti verificato nel testo mostrato e copiato. Box informativo separato ed escluso dalla copia; nessuna attestazione automatica di attività compiute. Appunti reali provati per G24, G28-01–04 e G23; pagine rispettivamente 45, 86–89 e 44.
+- Sei ricerche pubbliche controllate, compresi G24, ricevuta predeterminata, alias I03/I07 e taxi sharing.
+- Aggiornamento esplicito dalla vera cache pubblica 1.8.5 preparata prima del deploy: conservato il regolamento invariato, non riutilizzata la copia obsoleta del prontuario. Salvato il PDF nuovo; riapertura PWA, ricerca e apertura PDF in nuova scheda riuscite senza rete, con risposta 200 del service worker.
+
+Il primo tentativo del nuovo script di verifica si era fermato sul confronto delle intestazioni: `innerText` restituiva il maiuscolo imposto dal CSS. Il test ora legge `textContent` per confrontare l’etichetta effettiva; le verifiche non sono state eliminate. La prova è stata ripetuta integralmente dalla copia conservata del profilo anonimo 1.8.5 e superata. Il commit successivo documenta questi esiti e corregge soltanto lo script di verifica: non cambia i contenuti pubblicati, la build o il PDF.
+
+Le prove pubbliche sono effettuate in Chromium con profilo anonimo temporaneo. Non attestano il comportamento della tastiera o del visualizzatore PDF di ogni telefono reale, né l’aggiornamento di tutti i dispositivi dei colleghi. I limiti normativi e le fonti non acquisite restano quelli elencati nelle sezioni seguenti.
+
 ## Risultato e perimetro
 
 Controllate tutte le **187 schede** attive: 113 Taxi, 70 NCC, 4 trazione animale. Il catalogo di base conserva 116 voci; fasce, varianti, alias I03/I07 e TC01 spiegano la diversa consistenza. Il PDF 7.8 ha **207 pagine**, sei pagine di indice e una pagina per ciascuna scheda. Rispetto alle 206 pagine iniziali si aggiunge una pagina di appendice, non una scheda. Importi e fasce del catalogo iniziale sono conservati; la loro applicabilità è ora distinta dalla mera presenza in tabella.
