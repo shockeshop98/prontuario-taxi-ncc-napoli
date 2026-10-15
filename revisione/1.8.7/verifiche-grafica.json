@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-14T19:43:54.405Z",
+  "release": {
+    "version": "1.8.7",
+    "updated_at": "2026-10-10",
+    "build_id": "b5b286ae4723d1b6cb4d0e951a25c7be00233b54783aa667d0571540bc05fe9e"
+  },
+  "pdf": {
+    "version": "7.9",
+    "pages": 207,
+    "cards": 187,
+    "indexPages": 6,
+    "unchangedPagesExceptVersion": 206,
+    "unchangedLinkDestinationsAndPositions": 187,
+    "sha256": "151d69e08443cf8f0320f2d433d68ed3aa5644ef288a46d34aa49ac6bc98f77b",
+    "metadata": {
+      "PDFFormatVersion": "1.7",
+      "Language": null,
+      "EncryptFilterName": null,
+      "IsLinearized": false,
+      "IsAcroFormPresent": false,
+      "IsXFAPresent": false,
+      "IsCollectionPresent": false,
+      "IsSignaturesPresent": false,
+      "Title": "Prontuario operativo Taxi, NCC e trazione animale Napoli · 7.9",
+      "Creator": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "CreationDate": "D:20261014193931+00'00'",
+      "ModDate": "D:20261014193932Z",
+      "Author": "Antonio Balzano · U.O. San Lorenzo; collaborazione Pasquale D’Ascoli · Polizia Turistica",
+      "Subject": "Schede di consultazione per fattispecie e fascia, una pagina per caso"
+    }
+  },
+  "content": {
+    "catalogHash": "7f2d18512d107e5b5071b14c3bf7862133a2bab36d421377364efe9e8e45afac",
+    "baselineCatalogHash": "7f2d18512d107e5b5071b14c3bf7862133a2bab36d421377364efe9e8e45afac",
+    "allDataUnchangedExceptPDFVersionAndSearchablePDFText": true,
+    "pageMappingsUnchanged": true,
+    "localFilesPreserved": {
+      "ESEMPI_RICEVUTE_TARIFFE_1.8.2.md": "e88bc473e1e8dc192b9f95f276e85745d1234ad35a4823db0b48828f4841641c",
+      "RAPPORTO_REVISIONE_1.8.2.md": "ff3694aaa74ae9601f114f1331c1fd261c5237a71cd56fc5390c1e40d176de91",
+      "RAPPORTO_REVISIONE_1.8.3.md": "b1728702b538791dff6ebb275ed5c5c58178c227774b736a21e999ae266fabf6",
+      "assets/logo-polizia-turistica.jpg": "882ae53d46c096ea3966dfbf455454469c24b72a6fc5211cba0c1f068755f2c6",
+      "verbale_cartaceo.jpg": "778b0121996135899fcb9d87171a54335d948b66bb4ccd72aca49d8d4664a0de"
+    }
+  },
+  "logo": {
+    "width": 1458,
+    "height": 1536,
+    "allOriginalRGBPreserved": true,
+    "opaque": 1624062,
+    "transparent": 615426,
+    "interiorWhite": 62759,
+    "sourceSha256": "882ae53d46c096ea3966dfbf455454469c24b72a6fc5211cba0c1f068755f2c6",
+    "pngSha256": "34f7818ce4c0791af2931ede29620ba5e3bfee57af68e283d0a90df5bf6c9a70",
+    "method": "Alpha del solo fondo esterno connesso ai margini; output imagegen scartato perché alterava dettagli.",
+    "imagegen": {
+      "tool": "built-in image_gen",
+      "usedInProject": false,
+      "reason": "Lo scontorno generato alterava dettagli; la versione finale conserva tutti i pixel RGB originali e modifica soltanto alpha esterno.",
+      "prompt": "Use case: background-extraction. Edit target: the attached original Polizia Turistica shield, for a municipal PWA and PDF cover. Remove ONLY the white background OUTSIDE the shield and replace it with real alpha transparency. Preserve the complete original shield, full black/navy outer border, gold trim, the POLIZIA TURISTICA lettering, kangaroo, lightning bolt, all internal colors and fine details. Do not redraw, reinterpret, stylize, sharpen, change text, crop any border, or deform. Keep original proportions and source image geometry. Interior whites must remain opaque. Output the original complete shield with a transparent exterior."
+    }
+  },
+  "checks": {
+    "npmTest": "PASS",
+    "gitDiffCheck": "PASS",
+    "browser": "browser-check.json",
+    "preview": "anteprima.html"
+  }
+}

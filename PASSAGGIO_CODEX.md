@@ -2,7 +2,15 @@
 
 Proprietario: Antonio Balzano, Agente Polizia Municipale Napoli, U.O. San Lorenzo.
 
-## Stato corrente — 10 ottobre 2026
+## Stato corrente — proposta operativa del 15 ottobre 2026
+
+PWA **1.8.8 / PDF completo 7.10** con soli stemmi Turistica e San Lorenzo. Le 187 schede, tutti gli importi e punti e le 187 destinazioni PDF sono conservati. Data documentale del catalogo 10/10/2026. La nuova struttura operativa è limitata a **quattro esempi da valutare**, in `revisione/1.8.8/anteprima-operativa.html` e `Esempi_revisione_operativa.pdf` (copertina più quattro pagine). Vecchio box eliminato, avviso sulla licenza e formule brevi soltanto in questi esempi; nessuna estensione alle altre schede prima della valutazione espressa dell’autore. Il rapporto `RAPPORTO_PROPOSTA_OPERATIVA_1.8.8.md` documenta fonti, conflitti e disposizione del Comando da acquisire per ritiro CAP/patente/RCA e termini di invio della licenza. Una valutazione favorevole della struttura non prova gli obblighi ancora non riscontrati. L’autore ha successivamente autorizzato commit, push ordinario su `main` e deploy GitHub Pages dello stato attuale 1.8.8 / 7.10. Non estendere la nuova struttura oltre i quattro esempi; l’autorizzazione a pubblicare non conferma gli obblighi ancora non riscontrati.
+
+## Stato precedente — revisione grafica locale del 14 ottobre 2026
+
+PWA **1.8.7 / PDF 7.9**. Tre stemmi originali in intestazione e copertina: Municipale, Turistica, San Lorenzo. Crediti di Antonio Balzano e collaborazione di Pasquale D’Ascoli con appartenenze separate. Nuovo asset trasparente `assets/logo-polizia-turistica.png`, riproducibile con `node scripts/prepare-turistica-logo.mjs`; JPG originale intatto. Cache e build aggiornate. PDF: 207 pagine, 187 schede di una pagina, sei indici e tutti i collegamenti conservati. Nessuna revisione normativa: data documentale 10/10/2026 e contenuti della base integri. Anteprime e prove in `revisione/1.8.7/`; `npm test`, prove browser desktop/mobile/offline e `git diff --check` superati. Il risultato è soltanto locale: l’utente ha richiesto di esaminarlo prima di qualsiasi commit, push o deploy.
+
+## Stato precedente — 10 ottobre 2026
 
 Revisione **1.8.6 / PDF 7.8**, 187 schede di una pagina, 207 pagine totali. Pubblicazione GitHub Pages autorizzata dall’autore dopo la revisione locale; stato di partenza pubblico verificato: 1.8.5 / PDF 7.7. Verificare il completamento del rilascio nei deploy GitHub e la build del sito. Leggere prima `RAPPORTO_REVISIONE_1.8.6.md` e la tabella `revisione/1.8.6/controllo-schede.csv`. G24 e G28-02–04 hanno qualificazione non conclusa; il seguito comunale e la copia sono stati rielaborati. Istruzioni correnti di rigenerazione, test e verifica pubblica nel README. Le indicazioni sottostanti descrivono lo stato storico 1.8.5 e precedente: non ripristinare il vecchio invio automatico al Corso Pubblico né la lett. n per il rilascio anticipato.
 

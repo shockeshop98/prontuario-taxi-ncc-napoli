@@ -1,5 +1,19 @@
 # Registro aggiornamenti
 
+## 1.8.8 — due stemmi e proposta operativa locale del 15/10/2026
+
+- PWA 1.8.8 / PDF completo 7.10 con soli stemmi Turistica e San Lorenzo; crediti conservati, build/cache allineate. Catalogo, 207 pagine, 187 schede singole e collegamenti conservati.
+- Quattro esempi separati G19, G23, G03-01 e G01, con PDF dedicato, formule brevi e varianti per attività effettivamente eseguite. Box informativo rimosso e avviso licenza aggiunto soltanto negli esempi, prima della valutazione richiesta dall’autore. Nessuna applicazione generale della struttura.
+- Rapporto documentale con fonti acquisite, distinzione scadenza/ritiro/perdita requisito, competenze e termini; indicazione CAP/patente/RCA e invio licenza entro 5 giorni marcata come proposta finché non è acquisita la disposizione interna pertinente. Nessuna variazione di importi o punti.
+- Anteprime e prove in `revisione/1.8.8/`. Pubblicazione dello stato attuale su `main` e GitHub Pages autorizzata successivamente dall’autore, senza estensione della struttura oltre i quattro esempi e senza conferma degli obblighi non riscontrati.
+
+## 1.8.7 — revisione grafica locale del 14/10/2026
+
+- Tre stemmi originali in PWA e copertina: Polizia Municipale, Polizia Turistica con il canguro, U.O. San Lorenzo. Proporzioni conservate e fondo esterno del nuovo JPG reso trasparente in un PNG separato; pixel dello scudo integri.
+- Crediti centrati di Antonio Balzano e Pasquale D’Ascoli, con nomi evidenti e rispettive appartenenze separate.
+- PDF 7.9 rigenerato: 207 pagine, 187 schede singole, sei indici e destinazioni dei collegamenti invariate. Norme, importi e formule conservati; data documentale 10/10/2026.
+- Versione, build, impronte del PDF e cache riallineate; nuovo PNG precaricato offline. Anteprime e verifiche in `revisione/1.8.7/`. Test desktop/mobile, PWA/PDF offline, `npm test` e `git diff --check`. Nessun commit, push o deploy.
+
 ## 1.8.6 — revisione documentale del 10/10/2026
 
 - Controllo delle 187 schede con tabella completa, valutazioni motivate e registro delle acquisizioni. Limiti documentali espliciti, compreso lo schema di nuovo regolamento oggetto del parere ART57/2026.

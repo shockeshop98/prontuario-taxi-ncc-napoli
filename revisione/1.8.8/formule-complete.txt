@@ -1,0 +1,88 @@
+G19 — Caso ordinario
+
+VARIANTE: Fatto accertato
+CONDIZIONI ESTERNE ALLA COPIA: Esempio riferito a taxi nel proprio turno e libero da passeggeri. Licenza esistente e valida; condizione del titolo documentata prima di usare l’art. 86, comma 3-bis.
+
+TESTO COPIABILE
+Alla guida del taxi C.P. n°----- regolarmente in servizio e disponibile, non teneva a bordo la licenza comunale, la cui esistenza e validità erano riscontrate presso […] in data […].
+
+Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.
+
+
+G23 — Ritiro della licenza
+
+VARIANTE: Solo fatto · adempimenti da documentare
+CONDIZIONI ESTERNE ALLA COPIA: Il ritiro è obbligatorio quando è accertata la violazione del gruppo C. Questa visualizzazione non attesta che sia già avvenuto e non lo rende facoltativo.
+
+TESTO COPIABILE
+Alla guida del taxi C.P. n°----- svolgeva il servizio alle ore […], fuori dal turno […] previsto dall’atto vigente […], senza deroga o cambio turno autorizzato, come riscontrato presso […] in data […].
+
+Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.
+
+VARIANTE: Ritiro della licenza eseguito
+CONDIZIONI ESTERNE ALLA COPIA: Usare solo dopo il ritiro effettivo della licenza. L’invio è ancora da eseguire; annotare gli estremi nel relativo atto. Nessuna sospensione o revoca è qui attribuita agli operatori.
+
+TESTO COPIABILE
+Alla guida del taxi C.P. n°----- svolgeva il servizio alle ore […], fuori dal turno […] previsto dall’atto vigente […], senza deroga o cambio turno autorizzato, come riscontrato presso […] in data […].
+
+La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico.
+
+Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.
+
+
+G03-01 — Ritiro del documento di circolazione
+
+VARIANTE: Solo fatto · adempimenti da documentare
+CONDIZIONI ESTERNE ALLA COPIA: Ritiro del documento, fermo e custodia sono adempimenti dovuti nella fattispecie accertata. Attestarli soltanto per le attività realmente eseguite.
+
+TESTO COPIABILE
+Alla guida del taxi C.P. n°----- regolarmente in servizio e disponibile, rifiutava senza motivo legittimo la corsa richiesta per […] nel territorio comunale. Dal riscontro presso […] del […] non risultavano precedenti pertinenti del titolare nel quinquennio.
+
+Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.
+
+VARIANTE: Ritiro, permesso e separato verbale eseguiti · invio da fare
+CONDIZIONI ESTERNE ALLA COPIA: Usare solo con documento ritirato, permesso limitato effettivamente rilasciato e separato verbale redatto. L’invio all’UMC è ancora da eseguire. Verificare patente e copertura RCA valide, idoneità del veicolo, custodia praticabile e assenza di altri impedimenti alla circolazione.
+
+TESTO COPIABILE
+Alla guida del taxi C.P. n°----- regolarmente in servizio e disponibile, rifiutava senza motivo legittimo la corsa richiesta per […] nel territorio comunale. Dal riscontro presso […] del […] non risultavano precedenti pertinenti del titolare nel quinquennio.
+
+Il documento di circolazione è ritirato e sarà trasmesso all’UMC di […]. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […] (luogo indicato dall’interessato), con l’avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+
+Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.
+
+VARIANTE: Anche trasmissione all’UMC già effettuata
+CONDIZIONI ESTERNE ALLA COPIA: Usare solo con documento ritirato e invio all’UMC già effettuato, permesso limitato effettivamente rilasciato e separato verbale redatto. Patente e RCA devono essere valide, il veicolo idoneo e la custodia praticabile, senza altri impedimenti alla guida. Il permesso riguarda soltanto il trasferimento in custodia, non la ripresa del servizio.
+
+TESTO COPIABILE
+Alla guida del taxi C.P. n°----- regolarmente in servizio e disponibile, rifiutava senza motivo legittimo la corsa richiesta per […] nel territorio comunale. Dal riscontro presso […] del […] non risultavano precedenti pertinenti del titolare nel quinquennio.
+
+Il documento di circolazione è ritirato e trasmesso all’UMC di […]. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […] (luogo indicato dall’interessato), con l’avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+
+Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.
+
+VARIANTE: Trasferimento alla guida non consentito
+CONDIZIONI ESTERNE ALLA COPIA: Usare soltanto dopo il ritiro e il trasferimento effettivi, con separato verbale redatto. Nessuna autorizzazione alla guida: completare gli estremi dell’impedimento negli atti. Fermo e custodia devono essere documentati.
+
+TESTO COPIABILE
+Alla guida del taxi C.P. n°----- regolarmente in servizio e disponibile, rifiutava senza motivo legittimo la corsa richiesta per […] nel territorio comunale. Dal riscontro presso […] del […] non risultavano precedenti pertinenti del titolare nel quinquennio.
+
+Il documento di circolazione è ritirato e sarà trasmesso all’UMC di […]. Il trasferimento del veicolo nel luogo di custodia […] è eseguito mediante […], come da separato verbale n. […].
+
+Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.
+
+
+G01 — Caso abusivo
+
+VARIANTE: Solo fatto · adempimenti da documentare
+CONDIZIONI ESTERNE ALLA COPIA: Occorrono esercizio effettivo del servizio e assenza del titolo accertati; la sola mancata esibizione non basta. Sequestro e ritiro patente dovuti non diventano facoltativi perché non ancora attestati.
+
+TESTO COPIABILE
+Con il veicolo […] esercitava il servizio taxi senza licenza, trasportando un passeggero da […] a […] per il corrispettivo concordato di euro […]. L’assenza della licenza era riscontrata presso […] in data […]. Dal riscontro presso […] del […] non risultavano precedenti pertinenti dello stesso soggetto nel triennio.
+
+VARIANTE: Sequestro e ritiro patente eseguiti
+CONDIZIONI ESTERNE ALLA COPIA: Usare solo se sequestro, custodia, separato verbale e ritiro della patente sono già eseguiti. Esempio riferito ad autovettura per cui è richiesta la patente; il provvedimento di sospensione compete al Prefetto.
+
+TESTO COPIABILE
+Con il veicolo […] esercitava il servizio taxi senza licenza, trasportando un passeggero da […] a […] per il corrispettivo concordato di euro […]. L’assenza della licenza era riscontrata presso […] in data […]. Dal riscontro presso […] del […] non risultavano precedenti pertinenti dello stesso soggetto nel triennio.
+
+Il veicolo è sottoposto a sequestro ai fini della confisca, con custodia presso […], come da separato verbale n. […]. La patente è ritirata e sarà trasmessa alla Prefettura di […].

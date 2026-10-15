@@ -4,7 +4,23 @@ A cura dell’Agente Antonio Balzano · U.O. San Lorenzo.
 
 Prontuario di consultazione con 116 voci attive di catalogo, ricerca per sinonimi e parole simili, indice per servizio, importi, riferimenti normativi, formule orientative, suggerimenti e note operative. I riferimenti al regolamento identificano la delibera C.C. n. 80/2005. Non contiene registrazioni di controlli, generalità dei conducenti o relazioni di servizio.
 
-## Revisione 1.8.6 / PDF 7.8
+## Pubblicazione 1.8.8 e proposta operativa
+
+PWA 1.8.8 / PDF completo 7.10: rimossi dalla sola intestazione e copertina lo stemma della Municipale; conservati Polizia Turistica, U.O. San Lorenzo e crediti. Contenuto delle 187 schede, importi, punti e 187 collegamenti PDF conservati; 207 pagine, una pagina per scheda. Data documentale 10/10/2026.
+
+La [proposta operativa del 15 ottobre](revisione/1.8.8/anteprima.html) presenta **quattro esempi da valutare prima dell’estensione**: G19, G23, G03-01 e G01, con [PDF dedicato](revisione/1.8.8/Esempi_revisione_operativa.pdf), schermate e formule complete. Solo negli esempi sono eliminato il vecchio box informativo e introdotti avviso sulla licenza, formule brevi e varianti per gli atti eseguiti. Le 187 schede complete mantengono per ora la struttura precedente. Il [rapporto documentale](RAPPORTO_PROPOSTA_OPERATIVA_1.8.8.md) distingue ritiro verificato dei gruppi C/D dalla disposizione interna da acquisire per C.A.P./patente/RCA e termine di invio della licenza. L’autore ha autorizzato commit, push ordinario su `main` e GitHub Pages dello stato attuale, senza estendere la proposta oltre i quattro esempi. Questa autorizzazione non conferma gli obblighi ancora privi della disposizione interna.
+
+Dopo aver avviato il server locale, `CHROMIUM_PATH=... node scripts/generate-revisione-operativa.mjs` rigenera la proposta HTML/PDF e `CHROMIUM_PATH=... node scripts/verify-revisione-operativa.mjs` controlla copia, varianti, mobile e conservazione rispetto alla copia iniziale in `/tmp/prontuario-operativa-baseline` (sostituibile con `OPERATIVE_BASELINE`). Esiti in `revisione/1.8.8/verifica-proposta.json`. Le prove ordinarie restano `npm test` e `npm run test:browser`. Per il PDF completo, usare sempre `npm run generate:pdf`, poi `python3 scripts/update-build.py`.
+
+## Revisione grafica locale precedente 1.8.7 / PDF 7.9
+
+Intestazione PWA e copertina PDF con tre stemmi originali, nell’ordine Polizia Municipale, Polizia Turistica con il canguro, U.O. San Lorenzo. Crediti centrati: «A cura dell’Agente Antonio Balzano» / «U.O. San Lorenzo» e «Con la collaborazione del Maresciallo Pasquale D’Ascoli» / «Polizia Turistica», con maggiore evidenza ai nomi.
+
+Revisione grafica del 14 ottobre 2026. La revisione documentale resta quella del 10 ottobre: norme, importi, formule, 187 schede, collegamenti e numerazione conservati. PDF di 207 pagine, una pagina per scheda e sei pagine di indice. Nuovo stemma offline in `assets/logo-polizia-turistica.png`; JPG originale conservato. `node scripts/prepare-turistica-logo.mjs` riproduce lo scontorno modificando soltanto il canale alpha del fondo esterno connesso ai margini, senza ridisegnare né ritoccare i pixel dello scudo.
+
+Anteprime locali in [revisione/1.8.7/anteprima.html](revisione/1.8.7/anteprima.html); esiti browser in [browser-check.json](revisione/1.8.7/browser-check.json) e confronto con la base in [verifiche-grafica.json](revisione/1.8.7/verifiche-grafica.json). Verificati desktop, mobile 360/390 px e apertura offline di PWA, nuovo stemma e PDF salvato. `npm test` e `git diff --check` superati. Nessun commit, push o deploy: risultato locale da esaminare. Il nuovo PDF va salvato nuovamente nella PWA; gli allegati originali invariati restano conservabili offline.
+
+## Revisione documentale di base 1.8.6 / PDF 7.8
 
 Revisione documentale del 10 ottobre 2026: 187 schede (113 Taxi, 70 NCC, 4 trazione animale), una pagina per scheda, PDF di 207 pagine e sei pagine di indice. Pubblicazione su GitHub Pages autorizzata dall’autore dopo la consegna locale. La versione pubblica di partenza è stata riscontrata: PWA 1.8.5 / PDF 7.7, 206 pagine. L’esito del rilascio si verifica nei [deploy del repository](https://github.com/shockeshop98/prontuario-taxi-ncc-napoli/actions), confrontando versione e build del sito.
 
@@ -55,11 +71,11 @@ Pubblicare sempre `index.html`, `version.json`, `sw.js`, `manifest.webmanifest`,
 - `manifest.webmanifest` e `assets/icon-*.png`: installazione e icone. L'originale T/N è in `assets/icon-source-tn.png`; `npm run generate:icons` crea icone normali e maskable, favicon e Apple touch icon.
 - `assets/`: stemmi e icone; `polizia-locale-napoli.png` è una rielaborazione grafica dell’immagine fornita, non una fonte certificata dello stemma.
 - `allegati/`: documenti originali e PDF normale del prontuario, conservati integralmente.
-- `scripts/generate-prontuario-static.mjs`: rigenera da HTML pulito l’intero PDF 7.8, inclusi copertina, apparati, indici e collegamenti alle singole schede. `scripts/generate-prontuario.mjs` è il generatore storico, non usato da `npm run generate:pdf`.
+- `scripts/generate-prontuario-static.mjs`: rigenera da HTML pulito l’intero PDF 7.10, inclusi copertina, apparati, indici e collegamenti alle singole schede. `scripts/generate-prontuario.mjs` è il generatore storico, non usato da `npm run generate:pdf`.
 - `.nojekyll`: pubblicazione statica senza elaborazione Jekyll.
 - `CHANGELOG.md`: modifiche delle versioni pubblicate.
 
-Per rigenerare: `npm ci`, predisporre Chromium (oppure `CHROMIUM_PATH`), `npm run generate:pdf`, `python3 scripts/update-build.py`, `npm run audit:cards`, `npm test`. Per le prove browser avviare `python3 -m http.server 8000 --bind 127.0.0.1` e poi `npm run test:browser` con Chromium disponibile. Quest’ultimo usa un profilo effimero e scrive gli esiti in `revisione/1.8.6/`. Il test non pubblica nulla. Per le icone: `npm run generate:icons` prima della rigenerazione del build.
+Per rigenerare: `npm ci`, predisporre Chromium (oppure `CHROMIUM_PATH`), `npm run generate:pdf`, `python3 scripts/update-build.py`, `npm run audit:cards`, `npm test`. Per le prove browser avviare `python3 -m http.server 8000 --bind 127.0.0.1` e poi `npm run test:browser` con Chromium disponibile. Quest’ultimo usa un profilo effimero e scrive gli esiti in `revisione/<versione>/`. Il test non pubblica nulla. Per le icone: `npm run generate:icons` prima della rigenerazione del build.
 
 La verifica pubblica riproducibile è in `scripts/verify-public-release.mjs`: eseguire `prepare` prima del deploy e `verify` dopo, impostando `CHROMIUM_PATH` e la stessa directory temporanea `RELEASE_VERIFY_DIR`. Prepara la vera cache 1.8.5, prova l’aggiornamento esplicito a 1.8.6, confronta le impronte dei file pubblici e verifica schede, copia e PDF offline. Profilo browser e risultati temporanei non vanno inclusi nel commit.
 

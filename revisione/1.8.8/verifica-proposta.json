@@ -1,0 +1,113 @@
+{
+  "checkedAt": "2026-10-15T15:16:43.567Z",
+  "viewports": [
+    {
+      "width": 360,
+      "height": 800,
+      "overflow": false,
+      "cards": 4
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "cards": 4
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "overflow": false,
+      "cards": 4
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "overflow": false,
+      "cards": 4
+    }
+  ],
+  "copies": [
+    {
+      "code": "G19",
+      "variant": "fatto",
+      "exact": true
+    },
+    {
+      "code": "G23",
+      "variant": "fatto",
+      "exact": true
+    },
+    {
+      "code": "G23",
+      "variant": "ritiro",
+      "exact": true
+    },
+    {
+      "code": "G03-01",
+      "variant": "fatto",
+      "exact": true
+    },
+    {
+      "code": "G03-01",
+      "variant": "ritiro",
+      "exact": true
+    },
+    {
+      "code": "G03-01",
+      "variant": "trasmesso",
+      "exact": true
+    },
+    {
+      "code": "G03-01",
+      "variant": "impedito",
+      "exact": true
+    },
+    {
+      "code": "G01",
+      "variant": "fatto",
+      "exact": true
+    },
+    {
+      "code": "G01",
+      "variant": "atti",
+      "exact": true
+    }
+  ],
+  "errors": [],
+  "catalogUnchanged": true,
+  "originalLocalFilesPreserved": true,
+  "fullPDF": {
+    "pages": 207,
+    "unchangedPagesExceptVersion": 206,
+    "unchangedDestinationsAndPositions": 187,
+    "sha256": "2b5645a2ea92790395192db09a564973d66dd830d69a59515494495d9122e0ab"
+  },
+  "previewPDF": {
+    "pages": 5,
+    "onePagePerExample": true,
+    "formulasMatch": true,
+    "sha256": "bc40b6fe970536cad670117e94f2cfa95c9cb9ff0ab8ee6024c9ae123f227d1a"
+  },
+  "formulas": [
+    {
+      "code": "G19",
+      "variant": "fatto",
+      "formula": "Alla guida del taxi C.P. n°----- regolarmente in servizio e disponibile, non teneva a bordo la licenza comunale, la cui esistenza e validità erano riscontrate presso […] in data […].\n\nCopia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico."
+    },
+    {
+      "code": "G23",
+      "variant": "ritiro",
+      "formula": "Alla guida del taxi C.P. n°----- svolgeva il servizio alle ore […], fuori dal turno […] previsto dall’atto vigente […], senza deroga o cambio turno autorizzato, come riscontrato presso […] in data […].\n\nLa licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico.\n\nCopia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico."
+    },
+    {
+      "code": "G03-01",
+      "variant": "trasmesso",
+      "formula": "Alla guida del taxi C.P. n°----- regolarmente in servizio e disponibile, rifiutava senza motivo legittimo la corsa richiesta per […] nel territorio comunale. Dal riscontro presso […] del […] non risultavano precedenti pertinenti del titolare nel quinquennio.\n\nIl documento di circolazione è ritirato e trasmesso all’UMC di […]. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […] (luogo indicato dall’interessato), con l’avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.\n\nCopia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico."
+    },
+    {
+      "code": "G01",
+      "variant": "atti",
+      "formula": "Con il veicolo […] esercitava il servizio taxi senza licenza, trasportando un passeggero da […] a […] per il corrispettivo concordato di euro […]. L’assenza della licenza era riscontrata presso […] in data […]. Dal riscontro presso […] del […] non risultavano precedenti pertinenti dello stesso soggetto nel triennio.\n\nIl veicolo è sottoposto a sequestro ai fini della confisca, con custodia presso […], come da separato verbale n. […]. La patente è ritirata e sarà trasmessa alla Prefettura di […]."
+    }
+  ]
+}

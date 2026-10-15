@@ -1,3 +1,4 @@
 # Copie documentali acquisite: preservare byte, CRLF e spazi degli originali.
 # L'integrità è controllata tramite SHA-256 in fonti.json e nei test.
 revisione/1.8.6/fonti/** -text -whitespace
+revisione/1.8.8/fonti/** -text -whitespace

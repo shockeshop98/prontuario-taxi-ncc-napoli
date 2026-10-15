@@ -1,0 +1,118 @@
+[
+  {
+    "id": "REG",
+    "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/Regolamento-per-il-trasporto-pubblico-non-di-linea.pdf",
+    "file": "revisione/1.8.8/fonti/REG.pdf",
+    "acquisizione": "2026-10-15",
+    "consultazione": "Articoli 5–7 e 27–32, pp. 5–7 e 16–19",
+    "limite": "Regolamento 80/2005; non accertata efficacia di un regolamento sostitutivo. Non stabilisce il termine interno per inviare la licenza.",
+    "bytes": 91804,
+    "sha256": "1e2e08d7e8dad82d5207f7b722dd6362b4b3acd2613b6d84e582e2310c0d275e"
+  },
+  {
+    "id": "CDS86",
+    "url": "https://aci.gov.it/codice-della-strada/art-86/",
+    "file": "revisione/1.8.8/fonti/CDS86.html",
+    "acquisizione": "2026-10-15",
+    "consultazione": "Articolo 86, parti pertinenti a presupposti, competenza e termini",
+    "limite": "Testo pubblicato da ACI, letto per la specifica proposta; nessuna revisione generale delle sanzioni.",
+    "bytes": 75200,
+    "sha256": "eb011ac7b75c3cf8df870ce5dc3329a06d0790f88b587fa56edfa4ff7fd1edc2"
+  },
+  {
+    "id": "CDS126",
+    "url": "https://aci.gov.it/codice-della-strada/art-126/",
+    "file": "revisione/1.8.8/fonti/CDS126.html",
+    "acquisizione": "2026-10-15",
+    "consultazione": "Articolo 126, parti pertinenti a presupposti, competenza e termini",
+    "limite": "Testo pubblicato da ACI, letto per la specifica proposta; nessuna revisione generale delle sanzioni.",
+    "bytes": 84653,
+    "sha256": "08b6f82f599ce1d033bf3fa3fd874e4243b1e7be932015f994570c9f04511df3"
+  },
+  {
+    "id": "CDS193",
+    "url": "https://aci.gov.it/codice-della-strada/art-193/",
+    "file": "revisione/1.8.8/fonti/CDS193.html",
+    "acquisizione": "2026-10-15",
+    "consultazione": "Articolo 193, parti pertinenti a presupposti, competenza e termini",
+    "limite": "Testo pubblicato da ACI, letto per la specifica proposta; nessuna revisione generale delle sanzioni.",
+    "bytes": 79634,
+    "sha256": "8f6bcceada668b25aff767fc088c2c553f8868cca759d824c43d6e94edf74558"
+  },
+  {
+    "id": "CDS214",
+    "url": "https://aci.gov.it/codice-della-strada/art-214/",
+    "file": "revisione/1.8.8/fonti/CDS214.html",
+    "acquisizione": "2026-10-15",
+    "consultazione": "Articolo 214, parti pertinenti a presupposti, competenza e termini",
+    "limite": "Testo pubblicato da ACI, letto per la specifica proposta; nessuna revisione generale delle sanzioni.",
+    "bytes": 75916,
+    "sha256": "fa9133eb57c06a0a557e186e1d0e4cd631a7bdce72d99b93f2371eeeea9aacfb"
+  },
+  {
+    "id": "CDS216",
+    "url": "https://aci.gov.it/codice-della-strada/art-216/",
+    "file": "revisione/1.8.8/fonti/CDS216.html",
+    "acquisizione": "2026-10-15",
+    "consultazione": "Articolo 216, parti pertinenti a presupposti, competenza e termini",
+    "limite": "Testo pubblicato da ACI, letto per la specifica proposta; nessuna revisione generale delle sanzioni.",
+    "bytes": 74249,
+    "sha256": "770f821ff518ac9e9d9be641dd5e323a357ac0e7721f8ff8391772e27f6a3dff"
+  },
+  {
+    "id": "CDS217",
+    "url": "https://aci.gov.it/codice-della-strada/art-217/",
+    "file": "revisione/1.8.8/fonti/CDS217.html",
+    "acquisizione": "2026-10-15",
+    "consultazione": "Articolo 217, parti pertinenti a presupposti, competenza e termini",
+    "limite": "Testo pubblicato da ACI, letto per la specifica proposta; nessuna revisione generale delle sanzioni.",
+    "bytes": 73958,
+    "sha256": "7878c993c6a86e4c800cbc6262945b1827f23290b3bee697645de3fe431d41b9"
+  },
+  {
+    "id": "CDS218",
+    "url": "https://aci.gov.it/codice-della-strada/art-218/",
+    "file": "revisione/1.8.8/fonti/CDS218.html",
+    "acquisizione": "2026-10-15",
+    "consultazione": "Articolo 218, parti pertinenti a presupposti, competenza e termini",
+    "limite": "Testo pubblicato da ACI, letto per la specifica proposta; nessuna revisione generale delle sanzioni.",
+    "bytes": 76194,
+    "sha256": "3c56033466c0d50c3685cf30f33317dce20a533f38a2e9001bb584dc6ed7c721"
+  },
+  {
+    "id": "IVASS",
+    "url": "https://www.ivass.it/consumatori/imparaconivass/guide/Guida_3_RC_Auto_versione_web.pdf",
+    "file": "revisione/1.8.8/fonti/IVASS-RC-Auto.pdf",
+    "acquisizione": "2026-10-15",
+    "consultazione": "Pagina PDF 6, durata e tolleranza della RCA annuale",
+    "limite": "Guida informativa ufficiale; verificare contratto e copertura effettiva nel caso concreto.",
+    "bytes": 3756501,
+    "sha256": "ef29c4ee51085b51ed8bc5b23d9389a79ab71dd1e8e20d03d822f754d6744567"
+  },
+  {
+    "id": "TABELLA_ESCLUSA",
+    "url": "https://www.comune.napoli.it/flex/files/f/b/3/D.cb7179684b7d1634a76a/sanzioni_accessorie.pdf",
+    "file": "revisione/1.8.8/fonti/sanzioni-accessorie.pdf",
+    "acquisizione": "2026-10-15",
+    "consultazione": "Pagine 2, 5 e 8",
+    "limite": "Ospitata sul sito Napoli ma contiene riferimenti a Torino e norme datate: esclusa come prova della disposizione interna richiesta.",
+    "bytes": 40229,
+    "sha256": "e236488cddacdcedfadb5975778430416f37d3152450a4b019d7e537c1e28ecc"
+  },
+  {
+    "id": "IVASS_QUESITI",
+    "url": "https://www.ivass.it/consumatori/quesiti/r.c.auto/index.html",
+    "file": "revisione/1.8.8/fonti/IVASS-quesiti.html",
+    "acquisizione": "2026-10-15",
+    "consultazione": "Ricerca scadenza e tolleranza",
+    "limite": "Non usata per il riscontro del termine; usata la guida ufficiale PDF.",
+    "bytes": 56393,
+    "sha256": "bc0a253d14da21d4fd111f4b26aea98ecd71a43efac27f86daade8f645c83383"
+  },
+  {
+    "id": "INTERNA_DA_ACQUISIRE",
+    "stato": "Non acquisita, estremi non individuati",
+    "documento": "Ordine di servizio/circolare/disposizione vigente del Comando Polizia Locale Napoli, con eventuale atto del Servizio TPL e MaaS richiamato, su ritiro della licenza per CAP/patente/RCA, trasmissione tempestiva e trasmissione entro 5 giorni negli altri casi previsti.",
+    "effetto": "Indicazione mantenuta come proposta da confermare, non obbligo verificato."
+  }
+]

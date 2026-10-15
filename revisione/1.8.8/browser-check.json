@@ -1,0 +1,398 @@
+{
+  "version": "1.8.8",
+  "documentDate": "2026-10-10",
+  "checkedAt": "2026-10-15T15:16:43.673Z",
+  "viewport": [
+    {
+      "width": 320,
+      "height": 740,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "left": 45,
+            "right": 144,
+            "top": 22,
+            "bottom": 122,
+            "width": 99,
+            "height": 100,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "left": 176,
+            "right": 275,
+            "top": 20,
+            "bottom": 124,
+            "width": 99,
+            "height": 104,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica",
+        "overflow": false,
+        "centered": true
+      },
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "left": 65,
+            "right": 164,
+            "top": 22,
+            "bottom": 122,
+            "width": 99,
+            "height": 100,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "left": 196,
+            "right": 295,
+            "top": 20,
+            "bottom": 124,
+            "width": 99,
+            "height": 104,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica",
+        "overflow": false,
+        "centered": true
+      },
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "left": 80,
+            "right": 179,
+            "top": 22,
+            "bottom": 122,
+            "width": 99,
+            "height": 100,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "left": 211,
+            "right": 310,
+            "top": 20,
+            "bottom": 124,
+            "width": 99,
+            "height": 104,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica",
+        "overflow": false,
+        "centered": true
+      },
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "left": 100,
+            "right": 199,
+            "top": 22,
+            "bottom": 122,
+            "width": 99,
+            "height": 100,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "left": 231,
+            "right": 330,
+            "top": 20,
+            "bottom": 124,
+            "width": 99,
+            "height": 104,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica",
+        "overflow": false,
+        "centered": true
+      },
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 740,
+      "height": 320,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "left": 215,
+            "right": 348,
+            "top": 27,
+            "bottom": 165,
+            "width": 133,
+            "height": 138,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "left": 392,
+            "right": 525,
+            "top": 24,
+            "bottom": 168,
+            "width": 133,
+            "height": 144,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica",
+        "overflow": false,
+        "centered": true
+      },
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 800,
+      "height": 360,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "left": 245,
+            "right": 378,
+            "top": 27,
+            "bottom": 165,
+            "width": 133,
+            "height": 138,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "left": 422,
+            "right": 555,
+            "top": 24,
+            "bottom": 168,
+            "width": 133,
+            "height": 144,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica",
+        "overflow": false,
+        "centered": true
+      },
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "left": 267,
+            "right": 400,
+            "top": 27,
+            "bottom": 165,
+            "width": 133,
+            "height": 138,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "left": 444,
+            "right": 577,
+            "top": 24,
+            "bottom": 168,
+            "width": 133,
+            "height": 144,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica",
+        "overflow": false,
+        "centered": true
+      },
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 932,
+      "height": 430,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "left": 311,
+            "right": 444,
+            "top": 27,
+            "bottom": 165,
+            "width": 133,
+            "height": 138,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "left": 488,
+            "right": 621,
+            "top": 24,
+            "bottom": 168,
+            "width": 133,
+            "height": 144,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica",
+        "overflow": false,
+        "centered": true
+      },
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "left": 565,
+            "right": 698,
+            "top": 27,
+            "bottom": 165,
+            "width": 133,
+            "height": 138,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "left": 742,
+            "right": 875,
+            "top": 24,
+            "bottom": 168,
+            "width": 133,
+            "height": 144,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica",
+        "overflow": false,
+        "centered": true
+      },
+      "failures": [],
+      "copies": 186,
+      "cards": 187
+    }
+  ],
+  "search": [
+    {
+      "query": "G24",
+      "type": "Taxi",
+      "expected": "G24"
+    },
+    {
+      "query": "fila passeggeri",
+      "type": "Taxi",
+      "expected": "G24"
+    },
+    {
+      "query": "ricevuta predeterminata",
+      "type": "Taxi",
+      "expected": "G28-02"
+    },
+    {
+      "query": "I03",
+      "type": "NCC",
+      "expected": "N04"
+    },
+    {
+      "query": "I07",
+      "type": "Taxi",
+      "expected": "G07-01"
+    },
+    {
+      "query": "taxi sharing",
+      "type": "Taxi",
+      "expected": "TC01"
+    }
+  ],
+  "cache": {
+    "migration": {
+      "reg": true,
+      "manual": false,
+      "worker": "2087205cf044c11a4a6b9485c11a77b2731ef361e48ffc4807b99169f588046a",
+      "build": "2087205cf044c11a4a6b9485c11a77b2731ef361e48ffc4807b99169f588046a",
+      "oldManual": false
+    },
+    "savedManual": true,
+    "offlineLogo": {
+      "status": 200,
+      "bytes": 2365889
+    },
+    "offlinePDF": {
+      "status": 200,
+      "mime": "application/pdf",
+      "bytes": 5928284,
+      "expected": 5928284
+    },
+    "offlineRange": {
+      "status": 206,
+      "length": 100
+    },
+    "offlineOpen": {
+      "status": 200,
+      "fromServiceWorker": true,
+      "url": "http://127.0.0.1:8000/allegati/Prontuario_Taxi_NCC_Napoli.pdf?rev=2087205cf044c11a4a6b9485c11a77b2731ef361e48ffc4807b99169f588046a"
+    },
+    "offlineSearch": true
+  },
+  "clipboard": {
+    "realClipboard": true,
+    "example": "Con il veicolo indicato, C.P. n. […], non rispettava il turno […] stabilito dall’atto vigente […], rispetto alla condizione della licenza […]: […]. L’esito della verifica su deroghe o cambio turno era: […]. Norma sanzionatoria: CdS art. 86, comma 3-bis. Prescrizione: Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. f. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Adempimenti — stato ed estremi da completare: Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […]."
+  },
+  "jsErrors": []
+}

@@ -12,8 +12,8 @@ const catalog=data.catalog;
 const baseline=JSON.parse(await readFile(resolve(root,'revisione/1.8.6/importi-baseline-1.8.5.json'),'utf8'));
 assert.deepEqual(data.catalog.map(({code,payments})=>({code,payments})),baseline,'Importi e misure originari non alterati');
 assert.equal(catalog.length,116);
-assert.equal(data.prontuario.version,'7.8');
-assert.equal(data.sources[3].title,'Prontuario operativo 7.8 · Antonio Balzano');
+assert.equal(data.prontuario.version,'7.10');
+assert.equal(data.sources[3].title,'Prontuario operativo 7.10 · Antonio Balzano');
 const window={};
 for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js'])
   vm.runInNewContext(await readFile(resolve(root,name),'utf8'),{window},{filename:name});

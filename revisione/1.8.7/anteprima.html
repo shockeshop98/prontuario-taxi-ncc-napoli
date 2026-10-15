@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Anteprima grafica · Prontuario 1.8.7</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#edf2f3;color:#142d42;font:16px/1.5 system-ui,Arial}
+    main{max-width:1100px;padding:24px;margin:auto}h1{font-size:28px}h2{font-size:21px}
+    nav{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0}a{color:#126b73}nav a{padding:10px 16px;background:white;border:1px solid #bacdd2;border-radius:10px}
+    .mobile{display:flex;gap:24px;flex-wrap:wrap;align-items:start}figure{margin:0 0 24px;background:white;border:1px solid #dbe4e6;border-radius:12px;overflow:hidden;max-width:100%}
+    figure img{display:block;width:100%;height:auto}figcaption{padding:12px 16px;font-weight:650}
+    .mobile figure{width:390px}.cover{max-width:650px}.note{color:#556b75;font-size:14px}
+  </style>
+</head>
+<body><main>
+  <h1>Prontuario Taxi/NCC Napoli · revisione grafica</h1>
+  <p>PWA 1.8.7 / PDF 7.9. Tre stemmi originali e crediti centrati. Anteprima locale del 14 ottobre 2026.</p>
+  <nav aria-label="Apri il risultato"><a href="../../index.html">Apri la PWA locale</a><a href="../../allegati/Prontuario_Taxi_NCC_Napoli.pdf">Apri il PDF completo</a><a href="verifiche-grafica.json">Confronto con la base</a><a href="browser-check.json">Verifiche browser e offline</a></nav>
+  <h2>Intestazione mobile</h2>
+  <div class="mobile">
+    <figure style="width:360px"><a href="intestazione-360.png"><img src="intestazione-360.png" alt="Intestazione PWA a 360 pixel: Municipale, Turistica, San Lorenzo e i due crediti"></a><figcaption>360 px</figcaption></figure>
+    <figure><a href="intestazione-390.png"><img src="intestazione-390.png" alt="Intestazione PWA a 390 pixel con nomi e appartenenze centrati"></a><figcaption>390 px</figcaption></figure>
+  </div>
+  <h2>Intestazione desktop</h2>
+  <figure><a href="intestazione-1440.png"><img src="intestazione-1440.png" alt="Intestazione PWA su desktop a 1440 pixel"></a><figcaption>1440 px</figcaption></figure>
+  <h2>Copertina del PDF</h2>
+  <figure class="cover"><a href="copertina-pdf.png"><img src="copertina-pdf.png" alt="Copertina effettiva del PDF 7.9: tre stemmi, titolo e crediti"></a><figcaption>Pagina 1 del PDF rigenerato</figcaption></figure>
+  <h2>PWA riaperta senza rete</h2>
+  <figure style="width:390px"><a href="pwa-offline-390.png"><img src="pwa-offline-390.png" alt="PWA riaperta offline a 390 pixel, con il nuovo stemma caricato dalla cache"></a><figcaption>390 px · offline</figcaption></figure>
+  <p class="note">Norme, importi, formule e collegamenti conservati. PDF di 207 pagine con 187 schede, una pagina ciascuna. Data documentale 10 ottobre 2026. Prove in Chromium con profilo temporaneo. Nessun commit, push o deploy.</p>
+</main></body></html>
