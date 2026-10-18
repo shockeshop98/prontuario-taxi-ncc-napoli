@@ -91,14 +91,12 @@ window.prontuarioStaticCatalog = {
     ], other:'Altra modalità del rifiuto accertata: […]',
     tail:'Richiesta, risposta e posti ammessi risultavano da […].'
   },
-  G24: {
-    lead:'Alla guida del veicolo indicato, con C.P. n. […], acquisiva clienti fuori dalla fila dei passeggeri in attesa al posteggio […], scavalcandoli. In particolare:',
-    options:[
-      'Alle […] erano presenti passeggeri in fila; il conducente si rivolgeva a persone esterne alla fila in […] e le prelevava alle […].',
-      'Mentre gli utenti […] attendevano in fila dalle […], il conducente offriva la corsa a persone fuori fila presso […] e le faceva salire alle […].'
-    ], other:'Altra modalità di acquisizione e prelievo fuori dalla fila accertata: […]',
-    tail:'La fila, l’offerta della corsa e il prelievo, con luoghi e orari, risultavano da […].'
-  },
+    G24: {
+      lead: 'Alla guida del veicolo indicato, con C.P. n. […], non rispettava il proprio turno di fila nel posteggio […]. In particolare:',
+      options: ['Precedeva il taxi […] che lo precedeva nell’ordine di arrivo.', 'Superava le vetture […] per acquisire la corsa prima del proprio turno.'],
+      other: 'Altra modalità di superamento della fila dei taxi accertata: […]',
+      tail: '', notes: ['Verificare le eccezioni ex art.4 c.3 del regolamento e la specifica condizione della licenza ex art.86 c.3-bis CdS.']
+    },
   G26: {
     lead:'A seguito dell’avaria […] del veicolo indicato, con C.P. n. […], ometteva la richiesta di sostituzione prescritta. In particolare:',
     options:[

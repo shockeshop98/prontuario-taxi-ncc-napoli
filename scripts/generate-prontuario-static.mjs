@@ -14,12 +14,12 @@ const dataLine=html.split('\n').find(line=>line.startsWith('const DATA='));
 if(!dataLine)throw Error('Catalogo incorporato non trovato');
 const data=JSON.parse(dataLine.slice('const DATA='.length,-1));
 const window={};
-for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js']){
+for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js','scripts/revision-g01-g43.js']){
   vm.runInNewContext(await readFile(resolve(root,name),'utf8'),{window},{filename:name});
 }
 const layout=window.prontuarioStaticLayout(data.catalog,data.manualParts);
 const byId=new Map(data.catalog.map(item=>[item.id,item]));
-const version='7.10',today='10 ottobre 2026';
+const version='7.11',today='18 ottobre 2026';
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const regulation='Regolamento comunale (delibera C.C. n. 80/2005), ';
 const finalSentence="Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.";
@@ -163,7 +163,7 @@ function appendixPages(first){
     `<h1>Appendice operativa · 1/4</h1><p>Le indicazioni comuni sono richiamate nelle singole schede. Le condizioni specifiche restano nella scheda pertinente.</p>${['A1','A2','A3'].map(appendixSection).join('')}`,
     `<h1>Appendice operativa · 2/4</h1><p>Le alternative sono orientative: usare la voce pertinente, distinguendo fatti osservati, dichiarazioni formalizzate e documenti esaminati.</p>${['A4','A5','A6'].map(appendixSection).join('')}`,
     `<h1>Appendice operativa · 3/4</h1>${appendixSection('A7')}`,
-    `<h1>Appendice operativa · 4/4</h1><h3>A8 · Tariffe, supplementi e fonti</h3><p>Delibera G.C. n. 258 del 27/06/2024, pp. 6–9; tariffario ufficiale 2024, pp. 1–5. Distinguere le vecchie tariffe citate nelle premesse (pp. 2–4) dalle nuove tariffe approvate.</p>${[...new Set(layout.rows.filter(r=>(r.item.demoBaseCode||r.item.code)==='G04').flatMap(r=>window.prontuarioCatalogNotes(r.item,window.prontuarioCatalogModel(r.item,r.type))).filter(n=>n.includes('delibera G.C. n. 258')||n.includes('Nell’extraurbana ordinaria')||n.startsWith('Le tariffe predeterminate, da richiedere')))].map(n=>`<p>${esc(n)}</p>`).join('')}<h3>Qualificazioni non risolte</h3><p>G24: la lett. g dell’art. 23, comma 1, non nomina espressamente la fila dei passeggeri; la lett. c è una clausola generale e l’art. 4, comma 3, riguarda le vetture. G28-02: la lett. n impone il documento su richiesta, non il rilascio prima della partenza. La pagina comunale Servizio taxi conferma quest’ultimo per la tariffa predeterminata, ma le D.D. 72/2012 e 135/2010 integrali restano da acquisire. Le formule di relazione non attestano un illecito già qualificato.</p><p>Per l’elenco completo delle 187 verifiche e i limiti delle fonti: RAPPORTO_REVISIONE_1.8.6.md e revisione/1.8.6/controllo-schede.csv nel repository locale.</p>`
+    `<h1>Appendice operativa · 4/4</h1><h3>A8 · Tariffe, supplementi e fonti</h3><p>Delibera G.C. n. 258 del 27/06/2024, pp. 6–9; tariffario ufficiale 2024, pp. 1–5. Distinguere le vecchie tariffe citate nelle premesse (pp. 2–4) dalle nuove tariffe approvate.</p>${[...new Set(layout.rows.filter(r=>(r.item.demoBaseCode||r.item.code)==='G04').flatMap(r=>window.prontuarioCatalogNotes(r.item,window.prontuarioCatalogModel(r.item,r.type))).filter(n=>n.includes('delibera G.C. n. 258')||n.includes('Nell’extraurbana ordinaria')||n.startsWith('Le tariffe predeterminate, da richiedere')))].map(n=>`<p>${esc(n)}</p>`).join('')}<h3>Qualificazioni non risolte</h3><p>G24 ora riguarda l’ordine di arrivo dei taxi nel posteggio (art. 4, comma 3, e art. 23, comma 1, lett. g); verificare le eccezioni e il distinto presupposto dell’art. 86, comma 3-bis, CdS. G28-02: la lett. n impone il documento su richiesta, non il rilascio prima della partenza. La pagina comunale Servizio taxi conferma quest’ultimo per la tariffa predeterminata, ma le D.D. 72/2012 e 135/2010 integrali restano da acquisire. Le formule di relazione non attestano un illecito già qualificato.</p><p>Per l’elenco completo delle 187 verifiche e i limiti delle fonti: RAPPORTO_REVISIONE_1.8.6.md e revisione/1.8.6/controllo-schede.csv nel repository locale.</p>`
   ];
   const audit=`<h1>Confronto con il regolamento</h1><p>Gli articoli 1–40 del regolamento comunale sono confrontati con le schede. Disposizioni organizzative e procedimenti sul titolo non diventano automaticamente verbali in strada.</p><table class="auditTable"><thead><tr><th>Articolo</th><th>Materia</th><th>Schede e seguito</th></tr></thead><tbody>${data.prontuario.audit.map(row=>`<tr><td>${esc(row.article)}</td><td>${esc(row.subject)}</td><td>${esc(row.ids.map(id=>byId.get(id)?.code||id).join(', ')||row.status)}</td></tr>`).join('')}</tbody></table>`;
   const sourceChunks=Array.from({length:Math.ceil(data.prontuario.sources.length/12)},(_,index)=>data.prontuario.sources.slice(index*12,(index+1)*12));
@@ -180,6 +180,8 @@ function indexPage(section,index,page){
   return pageFrame(page,`<h1>Indice ${esc(section.label)} · ${index+1}/${section.indexPages}</h1><p>Aprire il codice per raggiungere direttamente la singola scheda e la fascia pertinente.</p><table class="index"><thead><tr><th>Codice</th><th>Fattispecie</th><th>Pagina</th></tr></thead><tbody>${rows}</tbody></table>`,'','indexPage');
 }
 function content(item,type){
+  const revised=window.prontuarioRevisionView(item,type);
+  if(revised)return revised;
   const demo=type==='Taxi'?window.prontuarioStaticDemos[item.demoBaseId||item.id]:null;
   if(demo){
     const variant=item.demoVariant;
@@ -231,13 +233,14 @@ function caseSections({item,type}){
   if(view.parts.length!==view.groups.length+1)throw Error(`Formula non coerente: ${item.code}`);
   const amounts=`<table class="amounts"><thead><tr><th>PMR</th><th>Entro 5 giorni</th><th>Oltre 60 giorni o procedura</th><th>Limiti edittali</th></tr></thead><tbody><tr><td>${esc(money(row[2]))}</td><td>${esc(money(row[3]))}</td><td>${esc(money(row[4]))}</td><td>${esc(money(row[1]))}</td></tr></tbody></table>`;
   const formula=`<div class="formula">${pdfFormulaMarkup(view.formulaMarkup)}</div>`;
-  const compact=compactCaseNotes(view.notes,view.acts.length?'':view.route,view.acts.length>0);
+  const revisionNotes=window.prontuarioRevisionApplies(item,type)?[...view.pdfNotes,...(view.acts.length?['Attestazioni da aggiungere solo per gli atti effettivamente eseguiti (non fanno parte della formula base):',...view.acts.map(a=>a.title+': '+a.text)]:[])]:view.notes;
+  const compact=compactCaseNotes(revisionNotes,view.acts.length?'':view.route,view.acts.length>0);
   const accessory=window.prontuarioAccessoryRows(view.accessories);
   const eyebrow=`${esc(item.code)} · ${esc(type.toUpperCase())}${item.group?` · GRUPPO ${esc(item.group.toUpperCase())}`:''}`;
   const sections={
     head:`<div class="eyebrow">${eyebrow}</div><h1>${esc(view.title)}</h1>`,
     normative:`<section><h3>Riferimenti normativi — obblighi e sanzioni</h3><p>${esc(view.normative)}</p></section>`,
-    amounts:`<section><h3>Tabella importi</h3>${window.prontuarioIsResidual(item)?`<p>${esc(view.relation?"Importi della sola ipotesi CdS: qualificazione non accertata.":"Solo per condizione del titolo accertata, non per ogni violazione comunale.")}</p>`:""}${amounts}</section>`,
+    amounts:`<section><h3>Tabella importi</h3>${window.prontuarioIsResidual(item)?`<p>${esc(window.prontuarioRevisionApplies(item,type)?"CdS residuale: verificare la specifica condizione della licenza (note operative).":view.relation?"Importi della sola ipotesi CdS: qualificazione non accertata.":"Solo per condizione del titolo accertata, non per ogni violazione comunale.")}</p>`:""}${amounts}</section>`,
     accessories:`<section><h3>Sanzioni accessorie e adempimenti</h3>${window.prontuarioFollowupMarkup(item,view.accessories,esc,true)}</section>`,
     formula:`<section><h3>${view.relation?'Testo orientativo per la relazione':'Testo orientativo del verbale'}</h3>${formula}</section>`,
     notes:`<section><h3>Suggerimenti e note operative</h3>${compact.notes.length?`<ul>${compact.notes.map(note=>`<li>${esc(note)}</li>`).join('')}</ul>`:''}${view.responsibility?`<h3>Responsabilità</h3><p>${esc(view.responsibility)}</p>`:''}${compact.route?`<h3>Seguito operativo</h3><p>${esc(compact.route)}</p>`:''}${type==='Taxi'&&window.prontuarioTaxiCollettivo.related[item.staticModelCode||item.demoBaseCode||item.code]?`<p>Tratta Aeroporto–Stazione–Molo: v. TC01, p. ${layout.pages[`${window.prontuarioTaxiCollettivo.item.id}/Taxi`]}; verificare il presupposto specifico.</p>`:''}</section><p class="sourceFoot">Fonti: ${esc(item.sources.join(', '))}.</p>`

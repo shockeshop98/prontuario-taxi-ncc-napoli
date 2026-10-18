@@ -2,3 +2,6 @@
 # L'integrità è controllata tramite SHA-256 in fonti.json e nei test.
 revisione/1.8.6/fonti/** -text -whitespace
 revisione/1.8.8/fonti/** -text -whitespace
+
+revisione/1.8.9/fonti/** -text -whitespace
+revisione-indicazioni-G01-G43.txt -text -whitespace

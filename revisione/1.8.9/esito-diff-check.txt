@@ -1,0 +1,2 @@
+git diff --check: PASS (nessun errore).
+Nuovi file redatti: nessuno spazio o tab finale. Fonti originali e indicazioni dell’autore conservate.

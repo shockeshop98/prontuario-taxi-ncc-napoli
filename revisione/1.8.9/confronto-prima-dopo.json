@@ -1,0 +1,1849 @@
+{
+  "codiciDichiarati": 39,
+  "codiciEffettivi": 38,
+  "versionePWA": "1.8.9",
+  "versionePDF": "7.11",
+  "schede": [
+    {
+      "code": "G01",
+      "id": "abusivo",
+      "paginaPDF": 13,
+      "prima": {
+        "titolo": "Servizio taxi senza licenza - prima violazione",
+        "riferimenti": "CdS art.86 c.2; L.21/1992 art.8",
+        "gruppo": "",
+        "formula": "Adibiva a servizio taxi il veicolo indicato senza avere ottenuto la prescritta licenza: […]. Il servizio era accertato mediante: […]. Norma sanzionatoria: CdS art. 86, comma 2. Prescrizione: L. 21/1992, art. 8. Adempimenti — stato ed estremi da completare: Ritiro della patente, sequestro e custodia: […].",
+        "note": [
+          "La scheda EGAF riguarda servizio taxi con velocipedi, motocarrozzette, motocicli e autoveicoli diversi dagli autobus. Per un’autovettura, riscontrare uso nel documento di circolazione e titolo riferito al veicolo. [note 1 e 6]",
+          "Verificare licenza riferita al singolo veicolo e gli atti che autorizzano sostituzione o auto di scorta; il veicolo diverso richiede riscontro sul titolo. [EGAF nota 4; L21 art.8]",
+          "Sequestro: applicare art.213; identificare custode, luogo e condizioni dell’affidamento. Il rinvio EGAF al §C4 non è stato fornito.",
+          "La mancata esibizione della licenza non prova l’abusivismo. Non dichiarare confisca o revoca già disposte dall’operatore.",
+          "Passeggeri: identificarli verificando generalità ed estremi di un documento di riconoscimento valido, ove disponibile; se non esibito, documentare le modalità alternative di accertamento dell’identità. Raccogliere separatamente dichiarazioni su richiesta/offerta, punto di prelievo, destinazione, prezzo pattuito o pagato e modalità di contatto, distinguendo ciò che ciascuno ha direttamente percepito.",
+          "Rifiuto delle dichiarazioni: annotare il rifiuto di rendere o formalizzare/sottoscrivere dichiarazioni. Se sono state pronunciate frasi spontanee, l’operatore redige una relazione riportando quanto effettivamente udito, autore, momento e circostanze, distinguendolo dai fatti osservati. Se il passeggero non ha detto nulla, riportare solo il rifiuto e i riscontri disponibili; non ricostruire dichiarazioni inesistenti.",
+          "La segnalazione al Servizio Trasporto Pubblico Locale e MaaS resta nelle note operative; non aggiungere la relativa frase al corpo del verbale di taxi abusivo. La mancata esibizione della licenza, da sola, non dimostra l’assenza del titolo."
+        ]
+      },
+      "dopo": {
+        "titolo": "Servizio taxi senza licenza - prima violazione",
+        "riferimenti": "CdS art. 86, comma 2; L. 21/1992, art. 8",
+        "gruppo": "",
+        "formula": "Adibiva a servizio taxi il veicolo indicato senza la prescritta licenza. Nella fattispecie si accertava […].",
+        "esempi": [
+          "Licenza mai rilasciata: indicare il riscontro dello stato del titolo.",
+          "Licenza revocata o sospesa: sostituire la condizione iniziale con quella accertata e gli estremi del provvedimento."
+        ],
+        "note": [
+          "Accertare l’effettivo servizio taxi e lo stato della licenza: mancata esibizione non equivale ad assenza. L’art. 82, comma 4, CdS richiede l’onerosità dell’uso di terzi, non dimostra che il prezzo debba essere già materialmente pagato. Documentare richiesta, trasporto e corrispettivo pattuito o pagato.",
+          "Verificare che non ricorra la reiterazione dello stesso soggetto nel triennio ex art. 86, comma 2; in quel caso consultare G02."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione della patente da 4 a 12 mesi; confisca del veicolo (art. 86, comma 2, CdS).",
+          "municipal": "Segnalazione all’ufficio competente per il seguito sul titolo; nessuna misura comunale applicata automaticamente.",
+          "points": "Nessun punto precompilato in questa scheda."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Patente ritirata per sospensione ex art. 218 CdS; invio ancora da effettuare",
+            "testo": "La patente è ritirata e sarà trasmessa alla Prefettura-UTG di […]."
+          },
+          {
+            "condizione": "Sequestro eseguito, documento trattenuto e separato verbale redatto",
+            "testo": "Il veicolo è sottoposto a sequestro ai fini della confisca e il documento di circolazione è trattenuto, come da separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Sospensione patente 4–12 mesi e confisca confermate; ritiro e sequestro solo se compiuti. Non confermato il requisito di pagamento già eseguito."
+    },
+    {
+      "code": "G02",
+      "id": "abusivo2",
+      "paginaPDF": 14,
+      "prima": {
+        "titolo": "Servizio taxi senza licenza - seconda violazione nel triennio",
+        "riferimenti": "CdS art.86 c.2; L.21/1992 art.8",
+        "gruppo": "",
+        "formula": "Adibiva il veicolo indicato a servizio taxi senza licenza efficace. In particolare: […]. Norma sanzionatoria: CdS art.86 c.2. Prescrizione: L.21/1992 art.8. Il riscontro dell’ufficio […] del […] attestava […] per il servizio con il veicolo indicato. Il precedente pertinente dello stesso soggetto nel triennio risultava dal verbale n. […], per il fatto del […], accertato da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Sequestro del veicolo; Trattenimento del documento di circolazione; Affidamento in custodia; Comunicazione dei presupposti di revoca: […].",
+        "note": [
+          "La scheda EGAF riguarda servizio taxi con velocipedi, motocarrozzette, motocicli e autoveicoli diversi dagli autobus. Per un’autovettura, riscontrare uso nel documento di circolazione e titolo riferito al veicolo. [note 1 e 6]",
+          "Verificare licenza riferita al singolo veicolo e gli atti che autorizzano sostituzione o auto di scorta; il veicolo diverso richiede riscontro sul titolo. [EGAF nota 4; L21 art.8]",
+          "Sequestro: applicare art.213; identificare custode, luogo e condizioni dell’affidamento. Il rinvio EGAF al §C4 non è stato fornito.",
+          "La seconda violazione deve riguardare lo stesso soggetto nel triennio. Non confondere questa procedura con il ritiro della patente per la sospensione della prima violazione.",
+          "Passeggeri: identificarli verificando generalità ed estremi di un documento di riconoscimento valido, ove disponibile; se non esibito, documentare le modalità alternative di accertamento dell’identità. Raccogliere separatamente dichiarazioni su richiesta/offerta, punto di prelievo, destinazione, prezzo pattuito o pagato e modalità di contatto, distinguendo ciò che ciascuno ha direttamente percepito.",
+          "Rifiuto delle dichiarazioni: annotare il rifiuto di rendere o formalizzare/sottoscrivere dichiarazioni. Se sono state pronunciate frasi spontanee, l’operatore redige una relazione riportando quanto effettivamente udito, autore, momento e circostanze, distinguendolo dai fatti osservati. Se il passeggero non ha detto nulla, riportare solo il rifiuto e i riscontri disponibili; non ricostruire dichiarazioni inesistenti.",
+          "La segnalazione al Servizio Trasporto Pubblico Locale e MaaS resta nelle note operative; non aggiungere la relativa frase al corpo del verbale di taxi abusivo. La mancata esibizione della licenza, da sola, non dimostra l’assenza del titolo.",
+          "Revoca: indicare i precedenti verificati dello stesso soggetto nel triennio. La comunicazione ex art. 219 CdS va effettuata entro cinque giorni; non attestare revoca o consegna della patente già eseguite in assenza del relativo provvedimento."
+        ]
+      },
+      "dopo": {
+        "titolo": "Servizio taxi senza licenza - seconda violazione nel triennio",
+        "riferimenti": "CdS art.86 c.2; L.21/1992 art.8",
+        "gruppo": "",
+        "formula": "Adibiva a servizio taxi il veicolo indicato senza la prescritta licenza. Nella fattispecie si accertava […]. La violazione era commessa per la seconda volta in tre anni dal medesimo soggetto, come da precedente verbale n. […] per il fatto del […], accertato da […], verificato presso […] in data […].",
+        "esempi": [
+          "Licenza mai rilasciata, oppure revocata o sospesa: scegliere il solo stato verificato del titolo."
+        ],
+        "note": [
+          "Accertare l’effettivo servizio taxi e lo stato della licenza: mancata esibizione non equivale ad assenza. L’art. 82, comma 4, CdS richiede l’onerosità dell’uso di terzi, non dimostra che il prezzo debba essere già materialmente pagato. Documentare richiesta, trasporto e corrispettivo pattuito o pagato.",
+          "Art. 86, comma 2: medesimo soggetto, almeno due violazioni in tre anni. Art. 219, comma 2: comunicazione al Prefetto entro cinque giorni; revoca e ordine di consegna competono al Prefetto. Nessun ritiro immediato della patente precompilato in assenza di un distinto provvedimento eseguibile."
+        ],
+        "sanzioni": {
+          "cds": "Revoca della patente; confisca del veicolo (art. 86, comma 2, CdS).",
+          "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+          "other": "",
+          "points": "Nessun punto precompilato in questa scheda."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Sequestro eseguito, documento trattenuto e separato verbale redatto",
+            "testo": "Il veicolo è sottoposto a sequestro ai fini della confisca e il documento di circolazione è trattenuto, come da separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Revoca e confisca confermate. Non applicato il ritiro immediato patente senza provvedimento; comunicazione ex art.219 distinta."
+    },
+    {
+      "code": "G03-01",
+      "id": "rifiuto-prima",
+      "paginaPDF": 15,
+      "prima": {
+        "titolo": "Taxi: rifiuto della corsa senza motivo legittimo – prima violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 o",
+        "gruppo": "b",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa richiesta verso […]. In particolare: […]. Il fatto era accertato mediante: […]. Da accertamento presso […] del […] non risultavano precedenti pertinenti del titolare nel quinquennio. Norma sanzionatoria: CdS art. 86, comma 3. Prescrizione: L. 21/1992, art. 2; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. o. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Taxi: rifiuto della corsa senza motivo legittimo – prima violazione",
+        "riferimenti": "CdS art. 86, comma 3; L. 21/1992, art. 2; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. o",
+        "gruppo": "b",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Il titolo del Comune di Napoli non basta per il ritiro della licenza: art. 29, comma 4, limitato ai gruppi C/D. Per questa scheda non è preimpostato; l’eventuale provvedimento successivo compete all’Amministrazione."
+        ],
+        "sanzioni": {
+          "cds": [
+            "Prima violazione: sospensione del documento di circolazione per 1 mese."
+          ],
+          "municipal": "Art. 29, comma 2, lett. b: 15 giorni di sospensione della licenza per la fascia verificata; provvedimento dell’ufficio competente, non già applicato dagli operanti.",
+          "points": "Punti comunali: Non previsti per la prima violazione."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Conservata la disponibilità al servizio; ritiro della licenza non inserito per il solo gruppo B. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G03-02",
+      "id": "rifiuto-seconda",
+      "paginaPDF": 16,
+      "prima": {
+        "titolo": "Taxi: rifiuto della corsa senza motivo legittimo – seconda violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 o",
+        "gruppo": "b",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa richiesta verso […]. In particolare: […]. Il fatto era accertato mediante: […]. Un precedente pertinente del titolare nel quinquennio risultava dal verbale n. […], per il fatto del […], accertato da […], come da riscontro […]. Norma sanzionatoria: CdS art. 86, comma 3. Prescrizione: L. 21/1992, art. 2; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. o. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Taxi: rifiuto della corsa senza motivo legittimo – seconda violazione",
+        "riferimenti": "CdS art. 86, comma 3; L. 21/1992, art. 2; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. o",
+        "gruppo": "b",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Il titolo del Comune di Napoli non basta per il ritiro della licenza: art. 29, comma 4, limitato ai gruppi C/D. Per questa scheda non è preimpostato; l’eventuale provvedimento successivo compete all’Amministrazione."
+        ],
+        "sanzioni": {
+          "cds": [
+            "Seconda violazione: sospensione del documento di circolazione per 1–2 mesi."
+          ],
+          "municipal": "Art. 29, comma 2, lett. b: 30 giorni di sospensione della licenza per la fascia verificata; provvedimento dell’ufficio competente, non già applicato dagli operanti.",
+          "points": "Punti comunali: 5 punti sulla licenza taxi."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Conservata la disponibilità al servizio; ritiro della licenza non inserito per il solo gruppo B. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G03-03",
+      "id": "rifiuto-terza",
+      "paginaPDF": 17,
+      "prima": {
+        "titolo": "Taxi: rifiuto della corsa senza motivo legittimo – terza violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 o",
+        "gruppo": "b",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa richiesta verso […]. In particolare: […]. Il fatto era accertato mediante: […]. Due precedenti pertinenti del titolare nel quinquennio risultavano dai verbali n. […], per fatti del […], accertati da […], come da riscontro […]. Norma sanzionatoria: CdS art. 86, comma 3. Prescrizione: L. 21/1992, art. 2; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. o. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Taxi: rifiuto della corsa senza motivo legittimo – terza violazione",
+        "riferimenti": "CdS art. 86, comma 3; L. 21/1992, art. 2; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. o",
+        "gruppo": "b",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Il titolo del Comune di Napoli non basta per il ritiro della licenza: art. 29, comma 4, limitato ai gruppi C/D. Per questa scheda non è preimpostato; l’eventuale provvedimento successivo compete all’Amministrazione."
+        ],
+        "sanzioni": {
+          "cds": [
+            "Terza violazione: sospensione del documento di circolazione per 2–4 mesi."
+          ],
+          "municipal": "Art. 29, comma 2, lett. b: 60 giorni di sospensione della licenza per la fascia verificata; provvedimento dell’ufficio competente, non già applicato dagli operanti.",
+          "points": "Punti comunali: 5 punti sulla licenza taxi."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Conservata la disponibilità al servizio; ritiro della licenza non inserito per il solo gruppo B. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G03-04",
+      "id": "rifiuto-quarta-successiva",
+      "paginaPDF": 18,
+      "prima": {
+        "titolo": "Taxi: rifiuto della corsa senza motivo legittimo – quarta o successiva violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 o",
+        "gruppo": "b",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa richiesta verso […]. In particolare: […]. Il fatto era accertato mediante: […]. Almeno tre precedenti pertinenti del titolare nel quinquennio risultavano dai verbali n. […], per fatti del […], accertati da […], come da riscontro […]. Norma sanzionatoria: CdS art. 86, comma 3. Prescrizione: L. 21/1992, art. 2; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. o. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Taxi: rifiuto della corsa senza motivo legittimo – quarta o successiva violazione",
+        "riferimenti": "CdS art. 86, comma 3; L. 21/1992, art. 2; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. o",
+        "gruppo": "b",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Il titolo del Comune di Napoli non basta per il ritiro della licenza: art. 29, comma 4, limitato ai gruppi C/D. Per questa scheda non è preimpostato; l’eventuale provvedimento successivo compete all’Amministrazione."
+        ],
+        "sanzioni": {
+          "cds": [
+            "Violazioni successive: sospensione del documento di circolazione per 4–8 mesi."
+          ],
+          "municipal": "Art. 29, comma 2, lett. b: 60 giorni di sospensione della licenza per la fascia verificata; provvedimento dell’ufficio competente, non già applicato dagli operanti.",
+          "points": "Punti comunali: 5 punti sulla licenza taxi."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Conservata la disponibilità al servizio; ritiro della licenza non inserito per il solo gruppo B. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G04-01",
+      "id": "tariffe-fascia-1",
+      "paginaPDF": 19,
+      "prima": {
+        "titolo": "Tariffa amministrata non rispettata – prima violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], in servizio taxi, non rispettava la tariffa amministrata applicabile alla corsa […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e. Il confronto con tariffa e supplementi applicabili risultava da […]. Da accertamento presso […] del […] non risultavano precedenti pertinenti del titolare della licenza nel quinquennio. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo; Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Tariffario ufficiale consultato: delibera G.C.258/2024. Verificare eventuali atti successivi per la data del controllo.",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Tariffa amministrata non rispettata – prima violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], effettuava la corsa […] applicando una tariffa difforme da quella amministrata: […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Richiedeva € […] anziché € […] dovuti per […], secondo il tariffario […].",
+          "Applicava il supplemento […] non dovuto nella corsa […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Tariffario ufficiale consultato: delibera G.C.258/2024. Verificare eventuali atti successivi per la data del controllo.",
+          "Tariffario ufficiale della delibera G.C. n. 258 del 27/06/2024: il supplemento Minivan è € 5 complessivi per vettura quando i passeggeri sono più di quattro oppure l’utente chiede espressamente una vettura da 7–9 posti. Se entrambe le condizioni ricorrono, il supplemento resta uno solo.",
+          "Le tariffe predeterminate, da richiedere all’inizio della corsa, comprendono radio taxi, notturno, festivo, bagagli, animali e aeroporto. Sono esclusi i pedaggi autostradali e il supplemento Minivan di € 5. Verificare tratta e richiesta; non sommare G04 e G08 per il medesimo prezzo.",
+          "Nell’extraurbana ordinaria con ritorno a vuoto il prezzo è il doppio del valore mostrato dal tassametro tarato alla tariffa ridotta del 50%; gli eventuali supplementi restano a carico del cliente e vanno individuati separatamente, senza presumere che siano raddoppiati. Non applicare questo criterio alle tariffe predeterminate.",
+          "Ritiro materiale della licenza: solo titolo Napoli e accertata violazione del gruppo D ex art. 29, comma 4; documentare l’atto. Diffida, sospensione o revoca sono provvedimenti dell’autorità competente."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 1 mese.",
+          "municipal": "Art. 29, comma 2, lett. d: sospensione di 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Ritiro obbligatorio del titolo da parte degli operatori ex comma 4, accertata la violazione.",
+          "other": "",
+          "points": "20 o 30 punti sul titolo Taxi/NCC secondo la fascia verificata."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          },
+          {
+            "condizione": "Licenza Napoli ritirata per questa violazione del gruppo C/D; invio ancora da effettuare",
+            "testo": "La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico con copia del presente verbale."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Tariffa difforme da precisare; licenza Napoli ritirabile per violazione D accertata e soltanto attestabile se ritirata. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G04-02",
+      "id": "tariffe-fascia-2",
+      "paginaPDF": 20,
+      "prima": {
+        "titolo": "Tariffa amministrata non rispettata – seconda violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], in servizio taxi, non rispettava la tariffa amministrata applicabile alla corsa […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e. Il confronto con tariffa e supplementi applicabili risultava da […]. Un precedente pertinente del titolare della licenza nel quinquennio risultava dal verbale n. […], per il fatto del […], accertato da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo; Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Tariffario ufficiale consultato: delibera G.C.258/2024. Verificare eventuali atti successivi per la data del controllo.",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Tariffa amministrata non rispettata – seconda violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], effettuava la corsa […] applicando una tariffa difforme da quella amministrata: […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Richiedeva € […] anziché € […] dovuti per […], secondo il tariffario […].",
+          "Applicava il supplemento […] non dovuto nella corsa […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Tariffario ufficiale consultato: delibera G.C.258/2024. Verificare eventuali atti successivi per la data del controllo.",
+          "Tariffario ufficiale della delibera G.C. n. 258 del 27/06/2024: il supplemento Minivan è € 5 complessivi per vettura quando i passeggeri sono più di quattro oppure l’utente chiede espressamente una vettura da 7–9 posti. Se entrambe le condizioni ricorrono, il supplemento resta uno solo.",
+          "Le tariffe predeterminate, da richiedere all’inizio della corsa, comprendono radio taxi, notturno, festivo, bagagli, animali e aeroporto. Sono esclusi i pedaggi autostradali e il supplemento Minivan di € 5. Verificare tratta e richiesta; non sommare G04 e G08 per il medesimo prezzo.",
+          "Nell’extraurbana ordinaria con ritorno a vuoto il prezzo è il doppio del valore mostrato dal tassametro tarato alla tariffa ridotta del 50%; gli eventuali supplementi restano a carico del cliente e vanno individuati separatamente, senza presumere che siano raddoppiati. Non applicare questo criterio alle tariffe predeterminate.",
+          "Ritiro materiale della licenza: solo titolo Napoli e accertata violazione del gruppo D ex art. 29, comma 4; documentare l’atto. Diffida, sospensione o revoca sono provvedimenti dell’autorità competente."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 1–2 mesi.",
+          "municipal": "Art. 29, comma 2, lett. d: sospensione di 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Ritiro obbligatorio del titolo da parte degli operatori ex comma 4, accertata la violazione.",
+          "other": "",
+          "points": "20 o 30 punti sul titolo Taxi/NCC secondo la fascia verificata."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          },
+          {
+            "condizione": "Licenza Napoli ritirata per questa violazione del gruppo C/D; invio ancora da effettuare",
+            "testo": "La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico con copia del presente verbale."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Tariffa difforme da precisare; licenza Napoli ritirabile per violazione D accertata e soltanto attestabile se ritirata. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G04-03",
+      "id": "tariffe-fascia-3",
+      "paginaPDF": 21,
+      "prima": {
+        "titolo": "Tariffa amministrata non rispettata – terza violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], in servizio taxi, non rispettava la tariffa amministrata applicabile alla corsa […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e. Il confronto con tariffa e supplementi applicabili risultava da […]. Due precedenti pertinenti del titolare della licenza nel quinquennio risultavano dai verbali n. […], per i fatti del […], accertati da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo; Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Tariffario ufficiale consultato: delibera G.C.258/2024. Verificare eventuali atti successivi per la data del controllo.",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Tariffa amministrata non rispettata – terza violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], effettuava la corsa […] applicando una tariffa difforme da quella amministrata: […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Richiedeva € […] anziché € […] dovuti per […], secondo il tariffario […].",
+          "Applicava il supplemento […] non dovuto nella corsa […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Tariffario ufficiale consultato: delibera G.C.258/2024. Verificare eventuali atti successivi per la data del controllo.",
+          "Tariffario ufficiale della delibera G.C. n. 258 del 27/06/2024: il supplemento Minivan è € 5 complessivi per vettura quando i passeggeri sono più di quattro oppure l’utente chiede espressamente una vettura da 7–9 posti. Se entrambe le condizioni ricorrono, il supplemento resta uno solo.",
+          "Le tariffe predeterminate, da richiedere all’inizio della corsa, comprendono radio taxi, notturno, festivo, bagagli, animali e aeroporto. Sono esclusi i pedaggi autostradali e il supplemento Minivan di € 5. Verificare tratta e richiesta; non sommare G04 e G08 per il medesimo prezzo.",
+          "Nell’extraurbana ordinaria con ritorno a vuoto il prezzo è il doppio del valore mostrato dal tassametro tarato alla tariffa ridotta del 50%; gli eventuali supplementi restano a carico del cliente e vanno individuati separatamente, senza presumere che siano raddoppiati. Non applicare questo criterio alle tariffe predeterminate.",
+          "Ritiro materiale della licenza: solo titolo Napoli e accertata violazione del gruppo D ex art. 29, comma 4; documentare l’atto. Diffida, sospensione o revoca sono provvedimenti dell’autorità competente."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 2–4 mesi.",
+          "municipal": "Art. 29, comma 2, lett. d: sospensione di 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Ritiro obbligatorio del titolo da parte degli operatori ex comma 4, accertata la violazione.",
+          "other": "",
+          "points": "20 o 30 punti sul titolo Taxi/NCC secondo la fascia verificata."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          },
+          {
+            "condizione": "Licenza Napoli ritirata per questa violazione del gruppo C/D; invio ancora da effettuare",
+            "testo": "La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico con copia del presente verbale."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Tariffa difforme da precisare; licenza Napoli ritirabile per violazione D accertata e soltanto attestabile se ritirata. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G04-04",
+      "id": "tariffe-fascia-4",
+      "paginaPDF": 22,
+      "prima": {
+        "titolo": "Tariffa amministrata non rispettata – quarta o successiva violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], in servizio taxi, non rispettava la tariffa amministrata applicabile alla corsa […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e. Il confronto con tariffa e supplementi applicabili risultava da […]. Almeno tre precedenti pertinenti del titolare della licenza nel quinquennio risultavano dai verbali n. […], per i fatti del […], accertati da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo; Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Tariffario ufficiale consultato: delibera G.C.258/2024. Verificare eventuali atti successivi per la data del controllo.",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Tariffa amministrata non rispettata – quarta o successiva violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], effettuava la corsa […] applicando una tariffa difforme da quella amministrata: […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Richiedeva € […] anziché € […] dovuti per […], secondo il tariffario […].",
+          "Applicava il supplemento […] non dovuto nella corsa […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Tariffario ufficiale consultato: delibera G.C.258/2024. Verificare eventuali atti successivi per la data del controllo.",
+          "Tariffario ufficiale della delibera G.C. n. 258 del 27/06/2024: il supplemento Minivan è € 5 complessivi per vettura quando i passeggeri sono più di quattro oppure l’utente chiede espressamente una vettura da 7–9 posti. Se entrambe le condizioni ricorrono, il supplemento resta uno solo.",
+          "Le tariffe predeterminate, da richiedere all’inizio della corsa, comprendono radio taxi, notturno, festivo, bagagli, animali e aeroporto. Sono esclusi i pedaggi autostradali e il supplemento Minivan di € 5. Verificare tratta e richiesta; non sommare G04 e G08 per il medesimo prezzo.",
+          "Nell’extraurbana ordinaria con ritorno a vuoto il prezzo è il doppio del valore mostrato dal tassametro tarato alla tariffa ridotta del 50%; gli eventuali supplementi restano a carico del cliente e vanno individuati separatamente, senza presumere che siano raddoppiati. Non applicare questo criterio alle tariffe predeterminate.",
+          "Ritiro materiale della licenza: solo titolo Napoli e accertata violazione del gruppo D ex art. 29, comma 4; documentare l’atto. Diffida, sospensione o revoca sono provvedimenti dell’autorità competente."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 4–8 mesi.",
+          "municipal": "Art. 29, comma 2, lett. d: sospensione di 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Ritiro obbligatorio del titolo da parte degli operatori ex comma 4, accertata la violazione.",
+          "other": "",
+          "points": "20 o 30 punti sul titolo Taxi/NCC secondo la fascia verificata."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          },
+          {
+            "condizione": "Licenza Napoli ritirata per questa violazione del gruppo C/D; invio ancora da effettuare",
+            "testo": "La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico con copia del presente verbale."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Tariffa difforme da precisare; licenza Napoli ritirabile per violazione D accertata e soltanto attestabile se ritirata. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G05-01",
+      "id": "prelievofuori-fascia-1",
+      "paginaPDF": 23,
+      "prima": {
+        "titolo": "Prelievo o inizio del servizio fuori area autorizzata – prima violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.2 e 23 c.2 l",
+        "gruppo": "c",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […] del Comune di […], iniziava il servizio taxi fuori dall’area autorizzata. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.2 e 23 c.2 l. L’eventuale deroga era verificata mediante […]. Da accertamento presso […] del […] non risultavano precedenti pertinenti del titolare della licenza nel quinquennio. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo; Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Taxi di altro Comune: inizio del servizio fuori dall’area autorizzata – prima violazione",
+        "riferimenti": "CdS art. 86, comma 3; L. 21/1992 artt. 2, 4 comma 5, 5-bis comma 1-bis e 11 comma 2",
+        "gruppo": "",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Solo licenza di altro Comune: verificare area comunale/comprensoriale, accordi tra sindaci (L. 21/1992, artt. 2, 4 comma 5, 5-bis comma 1-bis e 11 comma 2) ed eventuali discipline del luogo, anche aeroportuale. Non basta essere fuori dal Comune. Nessun ritiro della licenza fondato sul regolamento di Napoli; inviare i fatti al Comune rilasciante."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 1 mese.",
+          "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+          "other": "",
+          "points": "Nessun punto precompilato in questa scheda."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Titolo di altro Comune esplicito; rimossi gruppo C e richiami al regolamento Napoli; nessun ritiro della licenza su tale base. Verificare accordi ed eccezioni territoriali. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G05-02",
+      "id": "prelievofuori-fascia-2",
+      "paginaPDF": 24,
+      "prima": {
+        "titolo": "Prelievo o inizio del servizio fuori area autorizzata – seconda violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.2 e 23 c.2 l",
+        "gruppo": "c",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […] del Comune di […], iniziava il servizio taxi fuori dall’area autorizzata. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.2 e 23 c.2 l. L’eventuale deroga era verificata mediante […]. Un precedente pertinente del titolare della licenza nel quinquennio risultava dal verbale n. […], per il fatto del […], accertato da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo; Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Taxi di altro Comune: inizio del servizio fuori dall’area autorizzata – seconda violazione",
+        "riferimenti": "CdS art. 86, comma 3; L. 21/1992 artt. 2, 4 comma 5, 5-bis comma 1-bis e 11 comma 2",
+        "gruppo": "",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Solo licenza di altro Comune: verificare area comunale/comprensoriale, accordi tra sindaci (L. 21/1992, artt. 2, 4 comma 5, 5-bis comma 1-bis e 11 comma 2) ed eventuali discipline del luogo, anche aeroportuale. Non basta essere fuori dal Comune. Nessun ritiro della licenza fondato sul regolamento di Napoli; inviare i fatti al Comune rilasciante."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 1–2 mesi.",
+          "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+          "other": "",
+          "points": "Nessun punto precompilato in questa scheda."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Titolo di altro Comune esplicito; rimossi gruppo C e richiami al regolamento Napoli; nessun ritiro della licenza su tale base. Verificare accordi ed eccezioni territoriali. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G05-03",
+      "id": "prelievofuori-fascia-3",
+      "paginaPDF": 25,
+      "prima": {
+        "titolo": "Prelievo o inizio del servizio fuori area autorizzata – terza violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.2 e 23 c.2 l",
+        "gruppo": "c",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […] del Comune di […], iniziava il servizio taxi fuori dall’area autorizzata. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.2 e 23 c.2 l. L’eventuale deroga era verificata mediante […]. Due precedenti pertinenti del titolare della licenza nel quinquennio risultavano dai verbali n. […], per i fatti del […], accertati da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo; Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Taxi di altro Comune: inizio del servizio fuori dall’area autorizzata – terza violazione",
+        "riferimenti": "CdS art. 86, comma 3; L. 21/1992 artt. 2, 4 comma 5, 5-bis comma 1-bis e 11 comma 2",
+        "gruppo": "",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Solo licenza di altro Comune: verificare area comunale/comprensoriale, accordi tra sindaci (L. 21/1992, artt. 2, 4 comma 5, 5-bis comma 1-bis e 11 comma 2) ed eventuali discipline del luogo, anche aeroportuale. Non basta essere fuori dal Comune. Nessun ritiro della licenza fondato sul regolamento di Napoli; inviare i fatti al Comune rilasciante."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 2–4 mesi.",
+          "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+          "other": "",
+          "points": "Nessun punto precompilato in questa scheda."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Titolo di altro Comune esplicito; rimossi gruppo C e richiami al regolamento Napoli; nessun ritiro della licenza su tale base. Verificare accordi ed eccezioni territoriali. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G05-04",
+      "id": "prelievofuori-fascia-4",
+      "paginaPDF": 26,
+      "prima": {
+        "titolo": "Prelievo o inizio del servizio fuori area autorizzata – quarta o successiva violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.2 e 23 c.2 l",
+        "gruppo": "c",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […] del Comune di […], iniziava il servizio taxi fuori dall’area autorizzata. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.2 e 23 c.2 l. L’eventuale deroga era verificata mediante […]. Almeno tre precedenti pertinenti del titolare della licenza nel quinquennio risultavano dai verbali n. […], per i fatti del […], accertati da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo; Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Taxi di altro Comune: inizio del servizio fuori dall’area autorizzata – quarta o successiva violazione",
+        "riferimenti": "CdS art. 86, comma 3; L. 21/1992 artt. 2, 4 comma 5, 5-bis comma 1-bis e 11 comma 2",
+        "gruppo": "",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Solo licenza di altro Comune: verificare area comunale/comprensoriale, accordi tra sindaci (L. 21/1992, artt. 2, 4 comma 5, 5-bis comma 1-bis e 11 comma 2) ed eventuali discipline del luogo, anche aeroportuale. Non basta essere fuori dal Comune. Nessun ritiro della licenza fondato sul regolamento di Napoli; inviare i fatti al Comune rilasciante."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 4–8 mesi.",
+          "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+          "other": "",
+          "points": "Nessun punto precompilato in questa scheda."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Titolo di altro Comune esplicito; rimossi gruppo C e richiami al regolamento Napoli; nessun ritiro della licenza su tale base. Verificare accordi ed eccezioni territoriali. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G06-01",
+      "id": "omologazione-fascia-1",
+      "paginaPDF": 27,
+      "prima": {
+        "titolo": "Tassametro assente o non omologato – prima violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22",
+        "gruppo": "",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22. La verifica tecnica pertinente risultava da […]. Da accertamento presso […] del […] non risultavano precedenti pertinenti del titolare della licenza nel quinquennio. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "L’assenza di un documento esibito non dimostra da sola che il tassametro sia privo di omologazione."
+        ]
+      },
+      "dopo": {
+        "titolo": "Tassametro assente o non omologato – prima violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22",
+        "gruppo": "",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. Irregolarità accertata: […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Tassametro assente nell’abitacolo.",
+          "Tassametro modello […] n. […] privo di omologazione, secondo il riscontro tecnico […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "La mancata esibizione di un documento non prova da sola l’assenza di omologazione del tassametro: occorre il riscontro tecnico pertinente.",
+          "Per l’obbligo del tassametro verificare anche l’eventuale esonero ex art. 14, comma 3, L. 21/1992, se pertinente al titolo e al Comune.",
+          "Il titolo del Comune di Napoli non basta per il ritiro della licenza: art. 29, comma 4, limitato ai gruppi C/D. Per questa scheda non è preimpostato; l’eventuale provvedimento successivo compete all’Amministrazione."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 1 mese.",
+          "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+          "other": "",
+          "points": "Nessun punto precompilato in questa scheda."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Omologazione e mancanza del tassametro come esempi distinti. Non applicato ritiro licenza per il solo titolo Napoli. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G06-02",
+      "id": "omologazione-fascia-2",
+      "paginaPDF": 28,
+      "prima": {
+        "titolo": "Tassametro assente o non omologato – seconda violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22",
+        "gruppo": "",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22. La verifica tecnica pertinente risultava da […]. Un precedente pertinente del titolare della licenza nel quinquennio risultava dal verbale n. […], per il fatto del […], accertato da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "L’assenza di un documento esibito non dimostra da sola che il tassametro sia privo di omologazione."
+        ]
+      },
+      "dopo": {
+        "titolo": "Tassametro assente o non omologato – seconda violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22",
+        "gruppo": "",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. Irregolarità accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Tassametro assente nell’abitacolo.",
+          "Tassametro modello […] n. […] privo di omologazione, secondo il riscontro tecnico […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "La mancata esibizione di un documento non prova da sola l’assenza di omologazione del tassametro: occorre il riscontro tecnico pertinente.",
+          "Per l’obbligo del tassametro verificare anche l’eventuale esonero ex art. 14, comma 3, L. 21/1992, se pertinente al titolo e al Comune.",
+          "Il titolo del Comune di Napoli non basta per il ritiro della licenza: art. 29, comma 4, limitato ai gruppi C/D. Per questa scheda non è preimpostato; l’eventuale provvedimento successivo compete all’Amministrazione."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 1–2 mesi.",
+          "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+          "other": "",
+          "points": "Nessun punto precompilato in questa scheda."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Omologazione e mancanza del tassametro come esempi distinti. Non applicato ritiro licenza per il solo titolo Napoli. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G06-03",
+      "id": "omologazione-fascia-3",
+      "paginaPDF": 29,
+      "prima": {
+        "titolo": "Tassametro assente o non omologato – terza violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22",
+        "gruppo": "",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22. La verifica tecnica pertinente risultava da […]. Due precedenti pertinenti del titolare della licenza nel quinquennio risultavano dai verbali n. […], per i fatti del […], accertati da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "L’assenza di un documento esibito non dimostra da sola che il tassametro sia privo di omologazione."
+        ]
+      },
+      "dopo": {
+        "titolo": "Tassametro assente o non omologato – terza violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22",
+        "gruppo": "",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. Irregolarità accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Tassametro assente nell’abitacolo.",
+          "Tassametro modello […] n. […] privo di omologazione, secondo il riscontro tecnico […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "La mancata esibizione di un documento non prova da sola l’assenza di omologazione del tassametro: occorre il riscontro tecnico pertinente.",
+          "Per l’obbligo del tassametro verificare anche l’eventuale esonero ex art. 14, comma 3, L. 21/1992, se pertinente al titolo e al Comune.",
+          "Il titolo del Comune di Napoli non basta per il ritiro della licenza: art. 29, comma 4, limitato ai gruppi C/D. Per questa scheda non è preimpostato; l’eventuale provvedimento successivo compete all’Amministrazione."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 2–4 mesi.",
+          "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+          "other": "",
+          "points": "Nessun punto precompilato in questa scheda."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Omologazione e mancanza del tassametro come esempi distinti. Non applicato ritiro licenza per il solo titolo Napoli. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G06-04",
+      "id": "omologazione-fascia-4",
+      "paginaPDF": 30,
+      "prima": {
+        "titolo": "Tassametro assente o non omologato – quarta o successiva violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22",
+        "gruppo": "",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22. La verifica tecnica pertinente risultava da […]. Almeno tre precedenti pertinenti del titolare della licenza nel quinquennio risultavano dai verbali n. […], per i fatti del […], accertati da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "L’assenza di un documento esibito non dimostra da sola che il tassametro sia privo di omologazione."
+        ]
+      },
+      "dopo": {
+        "titolo": "Tassametro assente o non omologato – quarta o successiva violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22",
+        "gruppo": "",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. Irregolarità accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Tassametro assente nell’abitacolo.",
+          "Tassametro modello […] n. […] privo di omologazione, secondo il riscontro tecnico […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "La mancata esibizione di un documento non prova da sola l’assenza di omologazione del tassametro: occorre il riscontro tecnico pertinente.",
+          "Per l’obbligo del tassametro verificare anche l’eventuale esonero ex art. 14, comma 3, L. 21/1992, se pertinente al titolo e al Comune.",
+          "Il titolo del Comune di Napoli non basta per il ritiro della licenza: art. 29, comma 4, limitato ai gruppi C/D. Per questa scheda non è preimpostato; l’eventuale provvedimento successivo compete all’Amministrazione."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 4–8 mesi.",
+          "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+          "other": "",
+          "points": "Nessun punto precompilato in questa scheda."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Omologazione e mancanza del tassametro come esempi distinti. Non applicato ritiro licenza per il solo titolo Napoli. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G07-01",
+      "id": "avvisi-fascia-1",
+      "paginaPDF": 31,
+      "prima": {
+        "titolo": "Avvisi tariffari assenti o non leggibili – prima violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b",
+        "gruppo": "a",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], in servizio taxi, non esponeva avvisi chiaramente leggibili sugli eventuali supplementi tariffari. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b. La presenza, la posizione e la leggibilità degli avvisi erano riscontrate mediante […]. Da accertamento presso […] del […] non risultavano precedenti pertinenti del titolare della licenza nel quinquennio. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Avvisi tariffari assenti o non leggibili – prima violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b",
+        "gruppo": "a",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza rendere chiaramente leggibili all’utente gli avvisi sulle tariffe e sui supplementi. Condizione accertata: […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Avvisi totalmente assenti, come constatato […].",
+          "Avvisi presenti in […], ma non leggibili dalla posizione dell’utente per […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Per l’obbligo del tassametro verificare anche l’eventuale esonero ex art. 14, comma 3, L. 21/1992, se pertinente al titolo e al Comune.",
+          "Scegliere tra avvisi assenti e avvisi presenti ma non leggibili: non attestare entrambe le condizioni. Distinguere i supplementi ex art. 12, comma 2, L. 21/1992 dalla sola modalità locale di esposizione.",
+          "I07 rinvia a queste fasce. Le sole ulteriori difformità comunali di esposizione, se gli avvisi sui supplementi restano chiaramente leggibili, richiedono qualificazione separata e non ricevono automaticamente gli importi G07.",
+          "Il titolo del Comune di Napoli non basta per il ritiro della licenza: art. 29, comma 4, limitato ai gruppi C/D. Per questa scheda non è preimpostato; l’eventuale provvedimento successivo compete all’Amministrazione."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 1 mese.",
+          "municipal": "Art. 29, comma 2, lett. a: diffida alla prima violazione; sospensione di 5 giorni alla seconda, 15 alle successive, da disporre dall’ufficio dopo riscontro della fascia.",
+          "other": "",
+          "points": "Nessun punto comunale indicato per questo gruppo."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Avvisi assenti o presenti ma non leggibili come alternative. Non applicato ritiro licenza per il solo titolo Napoli. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G07-02",
+      "id": "avvisi-fascia-2",
+      "paginaPDF": 32,
+      "prima": {
+        "titolo": "Avvisi tariffari assenti o non leggibili – seconda violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b",
+        "gruppo": "a",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], in servizio taxi, non esponeva avvisi chiaramente leggibili sugli eventuali supplementi tariffari. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b. La presenza, la posizione e la leggibilità degli avvisi erano riscontrate mediante […]. Un precedente pertinente del titolare della licenza nel quinquennio risultava dal verbale n. […], per il fatto del […], accertato da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Avvisi tariffari assenti o non leggibili – seconda violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b",
+        "gruppo": "a",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza rendere chiaramente leggibili all’utente gli avvisi sulle tariffe e sui supplementi. Condizione accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Avvisi totalmente assenti, come constatato […].",
+          "Avvisi presenti in […], ma non leggibili dalla posizione dell’utente per […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Per l’obbligo del tassametro verificare anche l’eventuale esonero ex art. 14, comma 3, L. 21/1992, se pertinente al titolo e al Comune.",
+          "Scegliere tra avvisi assenti e avvisi presenti ma non leggibili: non attestare entrambe le condizioni. Distinguere i supplementi ex art. 12, comma 2, L. 21/1992 dalla sola modalità locale di esposizione.",
+          "I07 rinvia a queste fasce. Le sole ulteriori difformità comunali di esposizione, se gli avvisi sui supplementi restano chiaramente leggibili, richiedono qualificazione separata e non ricevono automaticamente gli importi G07.",
+          "Il titolo del Comune di Napoli non basta per il ritiro della licenza: art. 29, comma 4, limitato ai gruppi C/D. Per questa scheda non è preimpostato; l’eventuale provvedimento successivo compete all’Amministrazione."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 1–2 mesi.",
+          "municipal": "Art. 29, comma 2, lett. a: diffida alla prima violazione; sospensione di 5 giorni alla seconda, 15 alle successive, da disporre dall’ufficio dopo riscontro della fascia.",
+          "other": "",
+          "points": "Nessun punto comunale indicato per questo gruppo."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Avvisi assenti o presenti ma non leggibili come alternative. Non applicato ritiro licenza per il solo titolo Napoli. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G07-03",
+      "id": "avvisi-fascia-3",
+      "paginaPDF": 33,
+      "prima": {
+        "titolo": "Avvisi tariffari assenti o non leggibili – terza violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b",
+        "gruppo": "a",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], in servizio taxi, non esponeva avvisi chiaramente leggibili sugli eventuali supplementi tariffari. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b. La presenza, la posizione e la leggibilità degli avvisi erano riscontrate mediante […]. Due precedenti pertinenti del titolare della licenza nel quinquennio risultavano dai verbali n. […], per i fatti del […], accertati da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Avvisi tariffari assenti o non leggibili – terza violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b",
+        "gruppo": "a",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza rendere chiaramente leggibili all’utente gli avvisi sulle tariffe e sui supplementi. Condizione accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Avvisi totalmente assenti, come constatato […].",
+          "Avvisi presenti in […], ma non leggibili dalla posizione dell’utente per […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Per l’obbligo del tassametro verificare anche l’eventuale esonero ex art. 14, comma 3, L. 21/1992, se pertinente al titolo e al Comune.",
+          "Scegliere tra avvisi assenti e avvisi presenti ma non leggibili: non attestare entrambe le condizioni. Distinguere i supplementi ex art. 12, comma 2, L. 21/1992 dalla sola modalità locale di esposizione.",
+          "I07 rinvia a queste fasce. Le sole ulteriori difformità comunali di esposizione, se gli avvisi sui supplementi restano chiaramente leggibili, richiedono qualificazione separata e non ricevono automaticamente gli importi G07.",
+          "Il titolo del Comune di Napoli non basta per il ritiro della licenza: art. 29, comma 4, limitato ai gruppi C/D. Per questa scheda non è preimpostato; l’eventuale provvedimento successivo compete all’Amministrazione."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 2–4 mesi.",
+          "municipal": "Art. 29, comma 2, lett. a: diffida alla prima violazione; sospensione di 5 giorni alla seconda, 15 alle successive, da disporre dall’ufficio dopo riscontro della fascia.",
+          "other": "",
+          "points": "Nessun punto comunale indicato per questo gruppo."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Avvisi assenti o presenti ma non leggibili come alternative. Non applicato ritiro licenza per il solo titolo Napoli. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G07-04",
+      "id": "avvisi-fascia-4",
+      "paginaPDF": 34,
+      "prima": {
+        "titolo": "Avvisi tariffari assenti o non leggibili – quarta o successiva violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b",
+        "gruppo": "a",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], in servizio taxi, non esponeva avvisi chiaramente leggibili sugli eventuali supplementi tariffari. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b. La presenza, la posizione e la leggibilità degli avvisi erano riscontrate mediante […]. Almeno tre precedenti pertinenti del titolare della licenza nel quinquennio risultavano dai verbali n. […], per i fatti del […], accertati da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Avvisi tariffari assenti o non leggibili – quarta o successiva violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b",
+        "gruppo": "a",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza rendere chiaramente leggibili all’utente gli avvisi sulle tariffe e sui supplementi. Condizione accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Avvisi totalmente assenti, come constatato […].",
+          "Avvisi presenti in […], ma non leggibili dalla posizione dell’utente per […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Per l’obbligo del tassametro verificare anche l’eventuale esonero ex art. 14, comma 3, L. 21/1992, se pertinente al titolo e al Comune.",
+          "Scegliere tra avvisi assenti e avvisi presenti ma non leggibili: non attestare entrambe le condizioni. Distinguere i supplementi ex art. 12, comma 2, L. 21/1992 dalla sola modalità locale di esposizione.",
+          "I07 rinvia a queste fasce. Le sole ulteriori difformità comunali di esposizione, se gli avvisi sui supplementi restano chiaramente leggibili, richiedono qualificazione separata e non ricevono automaticamente gli importi G07.",
+          "Il titolo del Comune di Napoli non basta per il ritiro della licenza: art. 29, comma 4, limitato ai gruppi C/D. Per questa scheda non è preimpostato; l’eventuale provvedimento successivo compete all’Amministrazione."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 4–8 mesi.",
+          "municipal": "Art. 29, comma 2, lett. a: diffida alla prima violazione; sospensione di 5 giorni alla seconda, 15 alle successive, da disporre dall’ufficio dopo riscontro della fascia.",
+          "other": "",
+          "points": "Nessun punto comunale indicato per questo gruppo."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Avvisi assenti o presenti ma non leggibili come alternative. Non applicato ritiro licenza per il solo titolo Napoli. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G08-01",
+      "id": "prezzo-fascia-1",
+      "paginaPDF": 35,
+      "prima": {
+        "titolo": "Corrispettivo della corsa non conforme – prima violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] senza applicare il tassametro e le tariffe amministrate pertinenti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e. La verifica sulla tariffa predeterminata eventualmente richiesta risultava da […]. Da accertamento presso […] del […] non risultavano precedenti pertinenti del titolare della licenza nel quinquennio. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo; Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Le tariffe predeterminate autorizzate vanno esaminate prima di contestare un prezzo senza tassametro. Non sommare automaticamente le schede tariffe e prezzo.",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Corrispettivo della corsa non conforme – prima violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] in difformità dalle modalità tariffarie applicabili. Condotta accertata: […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Richiedeva € […] mentre il tassametro indicava € […], senza supplementi legittimamente dovuti.",
+          "Riscuoteva il prezzo concordato di € […] senza utilizzare il tassametro, fuori dai casi di tariffa predeterminata applicabile, come accertato mediante […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Per l’obbligo del tassametro verificare anche l’eventuale esonero ex art. 14, comma 3, L. 21/1992, se pertinente al titolo e al Comune.",
+          "Distinguere mancato uso del tassametro, richiesta difforme dall’importo indicato e tariffa predeterminata legittimamente applicabile: quest’ultima non integra da sola la violazione. Verificare G04 per la tariffa e I01 per la sola attivazione, senza cumulo automatico. Tariffe e ricevuta: appendice A8 e G28-02, con i dubbi già aperti.",
+          "Per la tariffa predeterminata richiesta all’inizio e per i supplementi, usare il tariffario della delibera G.C. n. 258/2024. Non duplicare G04 e G08 per lo stesso episodio; il raddoppio dell’extraurbana ordinaria con ritorno a vuoto riguarda l’importo del tassametro ridotto, non la tariffa predeterminata.",
+          "Ritiro materiale della licenza: solo titolo Napoli e accertata violazione del gruppo D ex art. 29, comma 4; documentare l’atto. Diffida, sospensione o revoca sono provvedimenti dell’autorità competente."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 1 mese.",
+          "municipal": "Art. 29, comma 2, lett. d: sospensione di 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Ritiro obbligatorio del titolo da parte degli operatori ex comma 4, accertata la violazione.",
+          "other": "",
+          "points": "20 o 30 punti sul titolo Taxi/NCC secondo la fascia verificata."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          },
+          {
+            "condizione": "Licenza Napoli ritirata per questa violazione del gruppo C/D; invio ancora da effettuare",
+            "testo": "La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico con copia del presente verbale."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Condotte tariffarie distinte; tariffa predeterminata legittima esclusa. Ritiro licenza solo per presupposto D Napoli accertato. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G08-02",
+      "id": "prezzo-fascia-2",
+      "paginaPDF": 36,
+      "prima": {
+        "titolo": "Corrispettivo della corsa non conforme – seconda violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] senza applicare il tassametro e le tariffe amministrate pertinenti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e. La verifica sulla tariffa predeterminata eventualmente richiesta risultava da […]. Un precedente pertinente del titolare della licenza nel quinquennio risultava dal verbale n. […], per il fatto del […], accertato da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo; Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Le tariffe predeterminate autorizzate vanno esaminate prima di contestare un prezzo senza tassametro. Non sommare automaticamente le schede tariffe e prezzo.",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Corrispettivo della corsa non conforme – seconda violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] in difformità dalle modalità tariffarie applicabili. Condotta accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Richiedeva € […] mentre il tassametro indicava € […], senza supplementi legittimamente dovuti.",
+          "Riscuoteva il prezzo concordato di € […] senza utilizzare il tassametro, fuori dai casi di tariffa predeterminata applicabile, come accertato mediante […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Per l’obbligo del tassametro verificare anche l’eventuale esonero ex art. 14, comma 3, L. 21/1992, se pertinente al titolo e al Comune.",
+          "Distinguere mancato uso del tassametro, richiesta difforme dall’importo indicato e tariffa predeterminata legittimamente applicabile: quest’ultima non integra da sola la violazione. Verificare G04 per la tariffa e I01 per la sola attivazione, senza cumulo automatico. Tariffe e ricevuta: appendice A8 e G28-02, con i dubbi già aperti.",
+          "Per la tariffa predeterminata richiesta all’inizio e per i supplementi, usare il tariffario della delibera G.C. n. 258/2024. Non duplicare G04 e G08 per lo stesso episodio; il raddoppio dell’extraurbana ordinaria con ritorno a vuoto riguarda l’importo del tassametro ridotto, non la tariffa predeterminata.",
+          "Ritiro materiale della licenza: solo titolo Napoli e accertata violazione del gruppo D ex art. 29, comma 4; documentare l’atto. Diffida, sospensione o revoca sono provvedimenti dell’autorità competente."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 1–2 mesi.",
+          "municipal": "Art. 29, comma 2, lett. d: sospensione di 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Ritiro obbligatorio del titolo da parte degli operatori ex comma 4, accertata la violazione.",
+          "other": "",
+          "points": "20 o 30 punti sul titolo Taxi/NCC secondo la fascia verificata."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          },
+          {
+            "condizione": "Licenza Napoli ritirata per questa violazione del gruppo C/D; invio ancora da effettuare",
+            "testo": "La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico con copia del presente verbale."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Condotte tariffarie distinte; tariffa predeterminata legittima esclusa. Ritiro licenza solo per presupposto D Napoli accertato. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G08-03",
+      "id": "prezzo-fascia-3",
+      "paginaPDF": 37,
+      "prima": {
+        "titolo": "Corrispettivo della corsa non conforme – terza violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] senza applicare il tassametro e le tariffe amministrate pertinenti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e. La verifica sulla tariffa predeterminata eventualmente richiesta risultava da […]. Due precedenti pertinenti del titolare della licenza nel quinquennio risultavano dai verbali n. […], per i fatti del […], accertati da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo; Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Le tariffe predeterminate autorizzate vanno esaminate prima di contestare un prezzo senza tassametro. Non sommare automaticamente le schede tariffe e prezzo.",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Corrispettivo della corsa non conforme – terza violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] in difformità dalle modalità tariffarie applicabili. Condotta accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Richiedeva € […] mentre il tassametro indicava € […], senza supplementi legittimamente dovuti.",
+          "Riscuoteva il prezzo concordato di € […] senza utilizzare il tassametro, fuori dai casi di tariffa predeterminata applicabile, come accertato mediante […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Per l’obbligo del tassametro verificare anche l’eventuale esonero ex art. 14, comma 3, L. 21/1992, se pertinente al titolo e al Comune.",
+          "Distinguere mancato uso del tassametro, richiesta difforme dall’importo indicato e tariffa predeterminata legittimamente applicabile: quest’ultima non integra da sola la violazione. Verificare G04 per la tariffa e I01 per la sola attivazione, senza cumulo automatico. Tariffe e ricevuta: appendice A8 e G28-02, con i dubbi già aperti.",
+          "Per la tariffa predeterminata richiesta all’inizio e per i supplementi, usare il tariffario della delibera G.C. n. 258/2024. Non duplicare G04 e G08 per lo stesso episodio; il raddoppio dell’extraurbana ordinaria con ritorno a vuoto riguarda l’importo del tassametro ridotto, non la tariffa predeterminata.",
+          "Ritiro materiale della licenza: solo titolo Napoli e accertata violazione del gruppo D ex art. 29, comma 4; documentare l’atto. Diffida, sospensione o revoca sono provvedimenti dell’autorità competente."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 2–4 mesi.",
+          "municipal": "Art. 29, comma 2, lett. d: sospensione di 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Ritiro obbligatorio del titolo da parte degli operatori ex comma 4, accertata la violazione.",
+          "other": "",
+          "points": "20 o 30 punti sul titolo Taxi/NCC secondo la fascia verificata."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          },
+          {
+            "condizione": "Licenza Napoli ritirata per questa violazione del gruppo C/D; invio ancora da effettuare",
+            "testo": "La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico con copia del presente verbale."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Condotte tariffarie distinte; tariffa predeterminata legittima esclusa. Ritiro licenza solo per presupposto D Napoli accertato. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G08-04",
+      "id": "prezzo-fascia-4",
+      "paginaPDF": 38,
+      "prima": {
+        "titolo": "Corrispettivo della corsa non conforme – quarta o successiva violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] senza applicare il tassametro e le tariffe amministrate pertinenti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3. Prescrizione: L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e. La verifica sulla tariffa predeterminata eventualmente richiesta risultava da […]. Almeno tre precedenti pertinenti del titolare della licenza nel quinquennio risultavano dai verbali n. […], per i fatti del […], accertati da […], come da riscontro […]. Adempimenti — stato ed estremi da completare: Ritiro, trasferimento e fermo; Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+          "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+          "Le tariffe predeterminate autorizzate vanno esaminate prima di contestare un prezzo senza tassametro. Non sommare automaticamente le schede tariffe e prezzo.",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Corrispettivo della corsa non conforme – quarta o successiva violazione",
+        "riferimenti": "CdS art.86 c.3; L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+        "gruppo": "d",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] in difformità dalle modalità tariffarie applicabili. Condotta accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Richiedeva € […] mentre il tassametro indicava € […], senza supplementi legittimamente dovuti.",
+          "Riscuoteva il prezzo concordato di € […] senza utilizzare il tassametro, fuori dai casi di tariffa predeterminata applicabile, come accertato mediante […]."
+        ],
+        "note": [
+          "Fascia: stesso titolare nel quinquennio, non il solo veicolo o conducente. Art. 86, comma 3, non definisce “stesso genere”: non limitare automaticamente i precedenti al medesimo codice del prontuario. Art. 8-bis L. 689/1981 disciplina la stessa indole, l’esecutività e l’esclusione del pagamento ridotto, salvo regimi speciali. Verificare fatti, norme ed esiti; il coordinamento per i precedenti dubbi resta da confermare. Un riscontro incompleto non prova la prima violazione.",
+          "Resta aperta la verifica della decorrenza differita ex art. 25, comma 3, L. 193/2024, legata al decreto sul foglio di servizio elettronico. Importi e fasce conservati dalla revisione precedente, senza convalidare questo punto.",
+          "Per l’obbligo del tassametro verificare anche l’eventuale esonero ex art. 14, comma 3, L. 21/1992, se pertinente al titolo e al Comune.",
+          "Distinguere mancato uso del tassametro, richiesta difforme dall’importo indicato e tariffa predeterminata legittimamente applicabile: quest’ultima non integra da sola la violazione. Verificare G04 per la tariffa e I01 per la sola attivazione, senza cumulo automatico. Tariffe e ricevuta: appendice A8 e G28-02, con i dubbi già aperti.",
+          "Per la tariffa predeterminata richiesta all’inizio e per i supplementi, usare il tariffario della delibera G.C. n. 258/2024. Non duplicare G04 e G08 per lo stesso episodio; il raddoppio dell’extraurbana ordinaria con ritorno a vuoto riguarda l’importo del tassametro ridotto, non la tariffa predeterminata.",
+          "Ritiro materiale della licenza: solo titolo Napoli e accertata violazione del gruppo D ex art. 29, comma 4; documentare l’atto. Diffida, sospensione o revoca sono provvedimenti dell’autorità competente."
+        ],
+        "sanzioni": {
+          "cds": "Sospensione del documento di circolazione per 4–8 mesi.",
+          "municipal": "Art. 29, comma 2, lett. d: sospensione di 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Ritiro obbligatorio del titolo da parte degli operatori ex comma 4, accertata la violazione.",
+          "other": "",
+          "points": "20 o 30 punti sul titolo Taxi/NCC secondo la fascia verificata."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Ritiro del documento eseguito; invio all’UMC ancora da effettuare",
+            "testo": "Il documento di circolazione è ritirato e sarà trasmesso con copia del presente verbale all’UMC di […]."
+          },
+          {
+            "condizione": "Permesso effettivamente rilasciato; trasferimento consentito e luogo di custodia individuato",
+            "testo": "Il conducente è autorizzato a condurre il veicolo per la via più breve fino a […], luogo indicato dall’interessato per la custodia, con l’avvertenza che il veicolo sarà sottoposto a fermo amministrativo per tutta la durata della sospensione del documento di circolazione."
+          },
+          {
+            "condizione": "Separato verbale di fermo e custodia effettivamente redatto",
+            "testo": "Il fermo amministrativo e l’affidamento in custodia sono documentati con separato verbale n. […] del […]."
+          },
+          {
+            "condizione": "Licenza Napoli ritirata per questa violazione del gruppo C/D; invio ancora da effettuare",
+            "testo": "La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico con copia del presente verbale."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Condotte tariffarie distinte; tariffa predeterminata legittima esclusa. Ritiro licenza solo per presupposto D Napoli accertato. Conservata la fascia; estremi per 0/1/2/almeno3 precedenti. Da confermare coordinamento dei precedenti e decorrenza differita; ritiro documento, trasferimento e verbale separato soltanto se eseguiti."
+    },
+    {
+      "code": "G09",
+      "id": "100m",
+      "paginaPDF": 39,
+      "prima": {
+        "titolo": "Prelievo a meno di 100 metri dal posteggio",
+        "riferimenti": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.5",
+        "gruppo": "",
+        "formula": "Con il veicolo indicato, con C.P. n. […], prelevava utenti a meno di 100 metri dal posteggio […] mentre vi erano taxi o utenti in attesa. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.5. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. L’eventuale richiesta radiotaxi era verificata mediante […].",
+        "note": [
+          "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+          "Il limite di 100 metri non opera da solo: il regolamento richiede taxi o utenti in attesa e fa salva la richiesta radiotaxi."
+        ]
+      },
+      "dopo": {
+        "titolo": "Prelievo a meno di 100 metri dal posteggio",
+        "riferimenti": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.5",
+        "gruppo": "",
+        "formula": "Con il veicolo indicato, con C.P. n. […], prelevava utenti a meno di 100 metri dal posteggio […], mentre vi erano taxi o utenti in attesa. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Art. 86, comma 3-bis: individuare la specifica condizione della licenza violata e la sua fonte […]; escludere i commi 2 e 3. La sola inosservanza comunale non rende applicabili gli importi CdS. In mancanza del presupposto, relazione dei fatti e qualificazione da confermare.",
+          "Art. 4, comma 5, regolamento: verificare l’eccezione per il prelievo richiesto tramite radiotaxi; documentare distanza e presenza di taxi o utenti in attesa."
+        ],
+        "sanzioni": {
+          "cds": "Nessuna accessoria CdS",
+          "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+          "other": "",
+          "points": "Nessun punto precompilato in questa scheda."
+        },
+        "attestazioni": []
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Ubicazione del posteggio da completare; eccezione radiotaxi nelle note. Rimosse le diciture ripetitive, preservato in nota il presupposto sostanziale art.86 c.3-bis."
+    },
+    {
+      "code": "G16",
+      "id": "segni",
+      "paginaPDF": 40,
+      "prima": {
+        "titolo": "Segni distintivi taxi irregolari",
+        "riferimenti": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 e e c.3",
+        "gruppo": "a",
+        "formula": "Il veicolo indicato, con C.P. n. […], presentava segni distintivi taxi difformi dalla prescrizione […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 e e c.3. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Il confronto con la prescrizione applicabile risultava da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D.",
+          "EGAF nota 12 riporta, come esempio residuale, il contrassegno luminoso TAXI mancante. Distinguere l’assenza del contrassegno dal mancato funzionamento durante le ore prescritte."
+        ]
+      },
+      "dopo": {
+        "titolo": "Segni distintivi taxi irregolari",
+        "riferimenti": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 e e c.3",
+        "gruppo": "a",
+        "formula": "Con il veicolo indicato, con C.P. n. […], presentava segni distintivi taxi difformi dal regolamento: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Art. 86, comma 3-bis: individuare la specifica condizione della licenza violata e la sua fonte […]; escludere i commi 2 e 3. La sola inosservanza comunale non rende applicabili gli importi CdS. In mancanza del presupposto, relazione dei fatti e qualificazione da confermare."
+        ],
+        "sanzioni": {
+          "cds": "Nessuna accessoria CdS",
+          "municipal": "Art. 29, comma 2, lett. a: diffida alla prima violazione; sospensione di 5 giorni alla seconda, 15 alle successive, da disporre dall’ufficio dopo riscontro della fascia.",
+          "other": "",
+          "points": "Nessun punto comunale indicato per questo gruppo."
+        },
+        "attestazioni": []
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Aggiunto il campo per la difformità concreta dei segni. Rimosse le diciture ripetitive, preservato in nota il presupposto sostanziale art.86 c.3-bis."
+    },
+    {
+      "code": "G17",
+      "id": "scortadoppio",
+      "paginaPDF": 41,
+      "prima": {
+        "titolo": "Uso del taxi proprio durante assegnazione auto di scorta",
+        "riferimenti": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 18 c.5",
+        "gruppo": "d",
+        "formula": "Durante l’assegnazione dell’auto di scorta al C.P. n. […], utilizzava anche il veicolo taxi proprio indicato. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 18 c.5. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. L’assegnazione e la sovrapposizione risultavano da […]. Adempimenti — stato ed estremi da completare: Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Uso del taxi proprio durante assegnazione auto di scorta",
+        "riferimenti": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 18 c.5",
+        "gruppo": "d",
+        "formula": "Durante l’assegnazione dell’auto di scorta […] al C.P. n. […] dal […] al […], utilizzava contemporaneamente anche il veicolo taxi proprio indicato per il servizio […], come accertato mediante […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Corsa osservata dagli operanti durante il periodo di assegnazione documentato.",
+          "Sovrapposizione dei servizi risultante dal riscontro […] del […]."
+        ],
+        "note": [
+          "Ritiro materiale della licenza: solo titolo Napoli e accertata violazione del gruppo D ex art. 29, comma 4; documentare l’atto. Diffida, sospensione o revoca sono provvedimenti dell’autorità competente.",
+          "Art. 86, comma 3-bis: individuare la specifica condizione della licenza violata e la sua fonte […]; escludere i commi 2 e 3. La sola inosservanza comunale non rende applicabili gli importi CdS. In mancanza del presupposto, relazione dei fatti e qualificazione da confermare."
+        ],
+        "sanzioni": {
+          "cds": "Nessuna accessoria CdS",
+          "municipal": "Art. 29, comma 2, lett. d: sospensione di 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Ritiro obbligatorio del titolo da parte degli operatori ex comma 4, accertata la violazione.",
+          "other": "",
+          "points": "20 o 30 punti sul titolo Taxi/NCC secondo la fascia verificata."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Licenza Napoli ritirata per questa violazione del gruppo C/D; invio ancora da effettuare",
+            "testo": "La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico con copia del presente verbale."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Periodo di assegnazione e servizio contemporaneo essenziali; esempi separati; eventuale ritiro gruppo D Napoli confermato solo se eseguito. Rimosse le diciture ripetitive, preservato in nota il presupposto sostanziale art.86 c.3-bis."
+    },
+    {
+      "code": "G18",
+      "id": "scortaallestimento",
+      "paginaPDF": 42,
+      "prima": {
+        "titolo": "Allestimento irregolare dell’auto di scorta",
+        "riferimenti": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 18 c.7",
+        "gruppo": "a",
+        "formula": "L’auto di scorta indicata, assegnata al C.P. n. […], aveva allestimento difforme da […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 18 c.7. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. L’allestimento e l’atto applicabile erano riscontrati mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Allestimento irregolare dell’auto di scorta",
+        "riferimenti": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 18 c.7",
+        "gruppo": "a",
+        "formula": "L’auto di scorta indicata, assegnata al C.P. n. […], aveva allestimento difforme: […], rispetto alla dotazione prescritta dall’atto […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Dotazione […] mancante.",
+          "Dotazione […] presente ma non conforme per […]."
+        ],
+        "note": [
+          "Art. 86, comma 3-bis: individuare la specifica condizione della licenza violata e la sua fonte […]; escludere i commi 2 e 3. La sola inosservanza comunale non rende applicabili gli importi CdS. In mancanza del presupposto, relazione dei fatti e qualificazione da confermare."
+        ],
+        "sanzioni": {
+          "cds": "Nessuna accessoria CdS",
+          "municipal": "Art. 29, comma 2, lett. a: diffida alla prima violazione; sospensione di 5 giorni alla seconda, 15 alle successive, da disporre dall’ufficio dopo riscontro della fascia.",
+          "other": "",
+          "points": "Nessun punto comunale indicato per questo gruppo."
+        },
+        "attestazioni": []
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Dotazione e atto prescrittivo da indicare; mancanza e difformità alternative. Rimosse le diciture ripetitive, preservato in nota il presupposto sostanziale art.86 c.3-bis."
+    },
+    {
+      "code": "G22",
+      "id": "posti",
+      "paginaPDF": 43,
+      "prima": {
+        "titolo": "Rifiuto di occupazione dei posti omologati",
+        "riferimenti": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 e",
+        "gruppo": "a",
+        "formula": "Con il veicolo indicato, con C.P. n. […], rifiutava all’utente l’occupazione di posti omologati disponibili. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 e. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Richiesta, risposta e posti ammessi risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Rifiuto di occupazione dei posti omologati",
+        "riferimenti": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 e",
+        "gruppo": "a",
+        "formula": "Con il veicolo indicato, con C.P. n. […], rifiutava all’utente l’occupazione del posto omologato […] disponibile, come accertato mediante […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Posto […] libero e previsto dal documento del veicolo; rifiuto constatato […]."
+        ],
+        "note": [
+          "Art. 86, comma 3-bis: individuare la specifica condizione della licenza violata e la sua fonte […]; escludere i commi 2 e 3. La sola inosservanza comunale non rende applicabili gli importi CdS. In mancanza del presupposto, relazione dei fatti e qualificazione da confermare."
+        ],
+        "sanzioni": {
+          "cds": "Nessuna accessoria CdS",
+          "municipal": "Art. 29, comma 2, lett. a: diffida alla prima violazione; sospensione di 5 giorni alla seconda, 15 alle successive, da disporre dall’ufficio dopo riscontro della fascia.",
+          "other": "",
+          "points": "Nessun punto comunale indicato per questo gruppo."
+        },
+        "attestazioni": []
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Posto disponibile identificabile e fonte del riscontro, senza sommare esempi. Rimosse le diciture ripetitive, preservato in nota il presupposto sostanziale art.86 c.3-bis."
+    },
+    {
+      "code": "G23",
+      "id": "turno",
+      "paginaPDF": 44,
+      "prima": {
+        "titolo": "Mancato rispetto del turno di servizio",
+        "riferimenti": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 f",
+        "gruppo": "c",
+        "formula": "Con il veicolo indicato, C.P. n. […], non rispettava il turno […] stabilito dall’atto vigente […], rispetto alla condizione della licenza […]: […]. L’esito della verifica su deroghe o cambio turno era: […]. Norma sanzionatoria: CdS art. 86, comma 3-bis. Prescrizione: Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. f. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Adempimenti — stato ed estremi da completare: Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Mancato rispetto del turno di servizio",
+        "riferimenti": "CdS art. 86, comma 3-bis; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. f",
+        "gruppo": "c",
+        "formula": "Con il veicolo indicato, con C.P. n. […], appartenente al gruppo […] con orario di servizio […], svolgeva il servizio taxi fuori dal proprio turno. Attività accertata in data […] alle ore […]: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Ritiro materiale della licenza: solo titolo Napoli e accertata violazione del gruppo C ex art. 29, comma 4; documentare l’atto. Diffida, sospensione o revoca sono provvedimenti dell’autorità competente.",
+          "Art. 86, comma 3-bis: individuare la specifica condizione della licenza violata e la sua fonte […]; escludere i commi 2 e 3. La sola inosservanza comunale non rende applicabili gli importi CdS. In mancanza del presupposto, relazione dei fatti e qualificazione da confermare.",
+          "Confrontare giorno, ora, gruppo, licenza e ordinanza dei turni vigente alla data del fatto; verificare deroghe e cambi turno. Non usare un calendario scaduto."
+        ],
+        "sanzioni": {
+          "cds": [
+            "CdS: Non previste."
+          ],
+          "municipal": "Misura comunale sul titolo: sospensione da determinare dall’ufficio secondo i precedenti verificati.",
+          "points": "Punti comunali: dieci sulla licenza taxi, distinti dai punti della patente."
+        },
+        "attestazioni": [
+          {
+            "condizione": "Licenza Napoli ritirata per questa violazione del gruppo C/D; invio ancora da effettuare",
+            "testo": "La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico con copia del presente verbale."
+          }
+        ]
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Gruppo, turno e attività fuori orario espliciti; ritiro licenza C Napoli solo se eseguito, invio al futuro. Rimosse le diciture ripetitive, preservato in nota il presupposto sostanziale art.86 c.3-bis."
+    },
+    {
+      "code": "G24",
+      "id": "fila",
+      "paginaPDF": 45,
+      "prima": {
+        "titolo": "Acquisizione di persone esterne alla fila dei passeggeri — qualificazione da chiarire",
+        "riferimenti": "CdS art. 86, comma 3-bis (ipotesi subordinata alla condizione della licenza); Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. g (ambito della fila da chiarire)",
+        "gruppo": "a",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], acquisiva clienti fuori dalla fila dei passeggeri in attesa al posteggio […], scavalcandoli. In particolare: […]. La fila, l’offerta della corsa e il prelievo, con luoghi e orari, risultavano da […].",
+        "note": [
+          "Confronto integrale, regolamento p. 14: la lett. c impone correttezza, civismo e responsabilità; la lett. g impone il rispetto dell’ordine di precedenza (fila) nei posteggi autorizzati e la disponibilità al pubblico presso la vettura. La lett. g è il riferimento specifico proposto dal m.llo D’Ascoli, ma non nomina espressamente i passeggeri. L’art. 4, comma 3 (p. 4), regola invece l’ordine delle vetture. Il testo non dimostra univocamente l’estensione della lett. g alla fila delle persone; la lett. c non risolve da sola la qualificazione. Il GIT p. 16 interpreta fila auto/persone, senza prevalere sul regolamento.",
+          "Documentare presenza della fila, contatto con persone esterne, offerta, acquisizione e prelievo, con luogo e orari. “Fuori dalla fila” riguarda le persone e non prova che il taxi fosse fuori posteggio; tale eventuale condotta richiede accertamento distinto. Separare osservazioni dirette e dichiarazioni formalizzate; i fatti soltanto riferiti vanno nella relazione con fonte e circostanze.",
+          "L’art. 86, comma 3-bis, CdS non deriva automaticamente dal mancato rispetto della fila: identificare e verificare la pertinente condizione della licenza prima di valutarne l’applicazione, senza duplicare sanzioni."
+        ]
+      },
+      "dopo": {
+        "titolo": "Non rispetto dell’ordine di fila nel posteggio",
+        "riferimenti": "CdS art.86 c.3-bis; Regolamento comunale artt.4 c.3 e 23 c.1 lett. g; art.29 c.2 lett. a",
+        "gruppo": "a",
+        "formula": "Alla guida del veicolo indicato, con C.P. n. […], non rispettava il proprio turno di fila nel posteggio […], precedendo il taxi […] che lo precedeva nell’ordine di arrivo. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Art. 86, comma 3-bis: individuare la specifica condizione della licenza violata e la sua fonte […]; escludere i commi 2 e 3. La sola inosservanza comunale non rende applicabili gli importi CdS. In mancanza del presupposto, relazione dei fatti e qualificazione da confermare.",
+          "Art. 4, comma 3, e art. 23, comma 1, lett. g, regolamento: ordine di arrivo dei taxi. Verificare scelta dell’utente per servizi aggiuntivi e chiamata radio, prima di qualificare il superamento della fila. Gruppo A; nessun ritiro immediato della licenza ex art. 29, comma 4."
+        ],
+        "sanzioni": {
+          "cds": "Nessuna accessoria CdS",
+          "municipal": "Art. 29, comma 2, lett. a: diffida alla prima violazione; sospensione di 5 giorni alla seconda, 15 alle successive, da disporre dall’ufficio dopo riscontro della fascia.",
+          "other": "",
+          "points": "Nessun punto comunale indicato per questo gruppo."
+        },
+        "attestazioni": []
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Nuova fattispecie: ordine di fila dei taxi. Titolo, ricerca, dati, guida non esposta e PDF aggiornati; vecchia condotta solo nello storico. Fonte espressa artt.4 c.3 e23 c.1g; specifica condizione della licenza comunque necessaria per art.86 c.3-bis. Rimosse le diciture ripetitive, preservato in nota il presupposto sostanziale art.86 c.3-bis."
+    },
+    {
+      "code": "G26",
+      "id": "avariasostituzione",
+      "paginaPDF": 46,
+      "prima": {
+        "titolo": "Mancata richiesta di sostituzione per avaria",
+        "riferimenti": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 i; art.24",
+        "gruppo": "a",
+        "formula": "A seguito dell’avaria […] del veicolo indicato, con C.P. n. […], ometteva la richiesta di sostituzione prescritta. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 i; art.24. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Il riscontro dell’ufficio competente risultava da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Mancata richiesta di sostituzione per avaria",
+        "riferimenti": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 i; art.24",
+        "gruppo": "a",
+        "formula": "A seguito dell’avaria del veicolo indicato, con C.P. n. […], ometteva la richiesta di sostituzione prescritta. Circostanze accertate: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Art. 86, comma 3-bis: individuare la specifica condizione della licenza violata e la sua fonte […]; escludere i commi 2 e 3. La sola inosservanza comunale non rende applicabili gli importi CdS. In mancanza del presupposto, relazione dei fatti e qualificazione da confermare."
+        ],
+        "sanzioni": {
+          "cds": "Nessuna accessoria CdS",
+          "municipal": "Art. 29, comma 2, lett. a: diffida alla prima violazione; sospensione di 5 giorni alla seconda, 15 alle successive, da disporre dall’ufficio dopo riscontro della fascia.",
+          "other": "",
+          "points": "Nessun punto comunale indicato per questo gruppo."
+        },
+        "attestazioni": []
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Omissione della richiesta di sostituzione e circostanze essenziali. Rimosse le diciture ripetitive, preservato in nota il presupposto sostanziale art.86 c.3-bis."
+    },
+    {
+      "code": "G29",
+      "id": "guidaurbana",
+      "paginaPDF": 47,
+      "prima": {
+        "titolo": "Guida della città prevista dal regolamento assente",
+        "riferimenti": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 p",
+        "gruppo": "",
+        "formula": "Durante il servizio taxi, sul veicolo indicato con C.P. n. […], non teneva disponibile la guida della città nel formato ammesso da […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 p. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Richiesta e risposta erano documentate mediante […].",
+        "note": [
+          "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+          "Riferimento mantenuto dal regolamento fornito; acquisire eventuali disposizioni comunali sul formato."
+        ]
+      },
+      "dopo": {
+        "titolo": "Guida della città prevista dal regolamento assente",
+        "riferimenti": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 p",
+        "gruppo": "",
+        "formula": "Durante il servizio taxi, sul veicolo indicato, con C.P. n. […], non teneva disponibile la guida della città. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Art. 86, comma 3-bis: individuare la specifica condizione della licenza violata e la sua fonte […]; escludere i commi 2 e 3. La sola inosservanza comunale non rende applicabili gli importi CdS. In mancanza del presupposto, relazione dei fatti e qualificazione da confermare.",
+          "Art. 23, comma 1, lett. p: guida della città rilasciata dal Comune di Napoli. Le eventuali disposizioni comunali sul formato ammesso restano da acquisire."
+        ],
+        "sanzioni": {
+          "cds": "Nessuna accessoria CdS",
+          "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+          "other": "",
+          "points": "Nessun punto precompilato in questa scheda."
+        },
+        "attestazioni": []
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Mancata disponibilità della guida della città, senza spiegazioni nella copia. Rimosse le diciture ripetitive, preservato in nota il presupposto sostanziale art.86 c.3-bis."
+    },
+    {
+      "code": "G34",
+      "id": "segnaleluminoso",
+      "paginaPDF": 48,
+      "prima": {
+        "titolo": "Segnale Taxi non illuminato quando prescritto",
+        "riferimenti": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 k",
+        "gruppo": "a",
+        "formula": "Con il veicolo indicato, con C.P. n. […], libero in servizio notturno, manteneva spento il segnale luminoso TAXI. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 k. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Lo stato libero e la prescrizione applicabile risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Segnale Taxi non illuminato quando prescritto",
+        "riferimenti": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 k",
+        "gruppo": "a",
+        "formula": "Con il veicolo indicato, con C.P. n. […], libero in servizio notturno, manteneva spento il segnale luminoso TAXI. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Art. 86, comma 3-bis: individuare la specifica condizione della licenza violata e la sua fonte […]; escludere i commi 2 e 3. La sola inosservanza comunale non rende applicabili gli importi CdS. In mancanza del presupposto, relazione dei fatti e qualificazione da confermare."
+        ],
+        "sanzioni": {
+          "cds": "Nessuna accessoria CdS",
+          "municipal": "Art. 29, comma 2, lett. a: diffida alla prima violazione; sospensione di 5 giorni alla seconda, 15 alle successive, da disporre dall’ufficio dopo riscontro della fascia.",
+          "other": "",
+          "points": "Nessun punto comunale indicato per questo gruppo."
+        },
+        "attestazioni": []
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Taxi libero in servizio notturno e segnale TAXI spento. Rimosse le diciture ripetitive, preservato in nota il presupposto sostanziale art.86 c.3-bis."
+    },
+    {
+      "code": "G36",
+      "id": "percorso",
+      "paginaPDF": 49,
+      "prima": {
+        "titolo": "Percorso diverso dalla via più breve",
+        "riferimenti": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 a",
+        "gruppo": "a",
+        "formula": "Con il veicolo indicato, con C.P. n. […], percorreva nella corsa […] una via diversa da quella più breve applicabile. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 a. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. La richiesta dell’utente e le condizioni di viabilità erano verificate mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+        ]
+      },
+      "dopo": {
+        "titolo": "Percorso diverso dalla via più breve",
+        "riferimenti": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 a",
+        "gruppo": "a",
+        "formula": "Con il veicolo indicato, con C.P. n. […], percorreva nella corsa […] la via […] anziché il percorso più breve applicabile […], senza specifica richiesta del cliente. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [],
+        "note": [
+          "Art. 86, comma 3-bis: individuare la specifica condizione della licenza violata e la sua fonte […]; escludere i commi 2 e 3. La sola inosservanza comunale non rende applicabili gli importi CdS. In mancanza del presupposto, relazione dei fatti e qualificazione da confermare.",
+          "Art. 23, comma 2, lett. a: oltre alla richiesta del cliente, verificare gli accertati problemi di viabilità che giustifichino il percorso diverso."
+        ],
+        "sanzioni": {
+          "cds": "Nessuna accessoria CdS",
+          "municipal": "Art. 29, comma 2, lett. a: diffida alla prima violazione; sospensione di 5 giorni alla seconda, 15 alle successive, da disporre dall’ufficio dopo riscontro della fascia.",
+          "other": "",
+          "points": "Nessun punto comunale indicato per questo gruppo."
+        },
+        "attestazioni": []
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Percorso effettivo e più breve, assenza di richiesta del cliente; eccezioni di viabilità nelle note. Rimosse le diciture ripetitive, preservato in nota il presupposto sostanziale art.86 c.3-bis."
+    },
+    {
+      "code": "G43",
+      "id": "sostafuori",
+      "paginaPDF": 50,
+      "prima": {
+        "titolo": "Sosta a scopo di nolo fuori posteggio",
+        "riferimenti": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 m",
+        "gruppo": "b",
+        "formula": "Con il veicolo indicato, con C.P. n. […], sostava fuori dal posteggio autorizzato allo scopo di acquisire clienti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 m. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. La finalità della sosta risultava da fatti concreti […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+        "note": [
+          "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+          "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D.",
+          "EGAF nota 12 include la sosta in attesa di clienti fuori dagli spazi autorizzati, salvo deroghe. Accertare finalità di nolo e deroga; non confonderla con uso privato fuori servizio."
+        ]
+      },
+      "dopo": {
+        "titolo": "Sosta a scopo di nolo fuori posteggio",
+        "riferimenti": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 m",
+        "gruppo": "b",
+        "formula": "Con il veicolo indicato, con C.P. n. […], sostava in […], fuori dal posteggio autorizzato, allo scopo di acquisire clienti. Condotta accertata: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+        "esempi": [
+          "Offriva la corsa ai passanti […], come osservato dagli operanti.",
+          "Attendeva richieste e accettava la corsa di […], come risultava da […]."
+        ],
+        "note": [
+          "Art. 86, comma 3-bis: individuare la specifica condizione della licenza violata e la sua fonte […]; escludere i commi 2 e 3. La sola inosservanza comunale non rende applicabili gli importi CdS. In mancanza del presupposto, relazione dei fatti e qualificazione da confermare."
+        ],
+        "sanzioni": {
+          "cds": "Nessuna accessoria CdS",
+          "municipal": "Art. 29, comma 2, lett. b: sospensione di 15, 30 o 60 giorni secondo la fascia verificata; provvedimento dell’ufficio. Nessun ritiro immediato del titolo (comma 4).",
+          "other": "",
+          "points": "5 punti sul titolo Taxi/NCC dalle violazioni successive alla prima, dopo riscontro della fascia."
+        },
+        "attestazioni": []
+      },
+      "esito": "Applicata la formula essenziale; campi, esempi e note separati dalla copia. Importi invariati. Finalità di acquisizione clienti; offerte osservate e corsa accettata come esempi alternativi. Rimosse le diciture ripetitive, preservato in nota il presupposto sostanziale art.86 c.3-bis."
+    }
+  ]
+}

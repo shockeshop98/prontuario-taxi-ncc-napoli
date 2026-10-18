@@ -54,7 +54,8 @@ try{
     if(overflow||outside)failures.push(row.code+'/'+row.type);
     if(!row.collective){
      const f=document.getElementById('formulaText');const copy=window.prontuarioCatalogCopyText(f);
-     if(/cinque giorni per le difese|diffida alla prima|è stato|è stata|Corso Pubblico/i.test(copy))throw Error('Copia impropria '+row.code);
+     const revised=window.prontuarioRevisionApplies(findCase(row.id),row.type);
+     if(/cinque giorni per le difese|diffida alla prima|è stato|è stata/i.test(copy)||(!revised&&/Corso Pubblico/i.test(copy)))throw Error('Copia impropria '+row.code);
      const saved=navigator.clipboard.writeText.bind(navigator.clipboard);let actual;
      navigator.clipboard.writeText=async text=>{actual=text};await copyFormula(findCase(row.id),row.type);navigator.clipboard.writeText=saved;
      if(actual!==copy)throw Error('Copia divergente '+row.code);
@@ -66,13 +67,13 @@ try{
   assert.deepEqual(results.failures,[],`Overflow ${width}x${height}`);report.viewport.push({width,height,header,...results});console.log('Viewport',width,height,results.cards,'schede');
  }
  await page.setViewportSize({width:390,height:844});
- for(const [query,type,code] of [['G24','Taxi','G24'],['fila passeggeri','Taxi','G24'],['ricevuta predeterminata','Taxi','G28-02'],['I03','NCC','N04'],['I07','Taxi','G07-01'],['taxi sharing','Taxi','TC01']]){
+ for(const [query,type,code] of [['G24','Taxi','G24'],['ordine fila taxi','Taxi','G24'],['ricevuta predeterminata','Taxi','G28-02'],['I03','NCC','N04'],['I07','Taxi','G07-01'],['taxi sharing','Taxi','TC01']]){
   await page.evaluate(type=>{setRoadType(type);showView('help')},type);await page.locator('#roadSearch').fill(query);await page.locator('#roadSearch').press('Enter');
   const codes=await page.locator('#roadResults .codeTag').allTextContents();assert.ok(codes.includes(code),query+': '+codes);report.search.push({query,type,expected:code});
  }
  await page.evaluate(()=>openSanction('turno','Taxi'));await page.locator('.officeInfo summary').click();
  await page.locator('#copyFormula').click();const copied=await page.evaluate(()=>navigator.clipboard.readText());
- assert.match(copied,/Stato della trasmissione/);assert.doesNotMatch(copied,/cinque giorni per le difese|diffida alla prima|è stata/);
+ assert.match(copied,/Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico/);assert.doesNotMatch(copied,/cinque giorni per le difese|diffida alla prima|è stata/);
  report.clipboard={realClipboard:true,example:copied};
  await page.locator('#toast').waitFor({state:'hidden'});
  await page.locator('.staticAccessories').screenshot({path:new URL('riquadro-mobile.png',out).pathname});
@@ -87,7 +88,7 @@ try{
  assert.equal(report.cache.offlineLogo.status,200);assert.ok(report.cache.offlineLogo.bytes>0);
  await page.evaluate(()=>scrollTo(0,0));
  await page.screenshot({path:new URL('pwa-offline-390.png',out).pathname});
- await page.evaluate(()=>openSanction('fila','Taxi'));assert.match(await page.locator('#sanctionScreen').innerText(),/fila dei passeggeri/);
+ await page.evaluate(()=>openSanction('fila','Taxi'));assert.match(await page.locator('#sanctionScreen').innerText(),/ordine di fila nel posteggio/);
  console.log('Offline state',await page.evaluate(async()=>({controller:navigator.serviceWorker.controller?.scriptURL,build:BUILD_ID,url:sourceURL(3).href,saved:await sourceCached(3),caches:await caches.keys()})));
  const pdf=await page.evaluate(async()=>{const r=await fetch(sourceURL(3));const b=await r.arrayBuffer();return {status:r.status,mime:r.headers.get('Content-Type'),bytes:b.byteLength,expected:SOURCE_META[DATA.sources[3].url].bytes};});
  assert.equal(pdf.status,200);assert.equal(pdf.bytes,pdf.expected);assert.match(pdf.mime,/application\/pdf/);report.cache.offlinePDF=pdf;

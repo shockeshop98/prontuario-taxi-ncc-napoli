@@ -33,9 +33,9 @@ for(const {item,type} of layout.rows){
  if(window.prontuarioIsResidual(item))assert.match(row.dubbi_residui,/circolazione in servizio/);
 }
 const item=code=>layout.rows.find(r=>r.item.code===code&&r.type==='Taxi')?.item||layout.rows.find(r=>r.item.code===code)?.item;
-assert.equal(window.prontuarioCatalogIsRelation(item('G24')),true);
-assert.match(item('G24').ref,/lett\. g/);assert.match(item('G24').title,/passeggeri/);
-assert.match(item('G24').notes.join(' '),/non.*(?:espressamente|univoc)/);
+assert.equal(window.prontuarioCatalogIsRelation(item('G24')),false);
+assert.match(item('G24').ref,/lett\. g/);assert.match(item('G24').title,/ordine di fila nel posteggio/);
+assert.match(item('G24').notes.join(' '),/specifica condizione della licenza resta un presupposto/);
 assert.equal(window.prontuarioCatalogIsRelation(item('G28-01')),false);
 assert.equal(item('G28-01').group,'a');
 for(const c of ['G28-02','G28-03','G28-04']){

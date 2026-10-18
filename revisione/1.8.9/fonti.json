@@ -1,0 +1,248 @@
+[
+  {
+    "id": "CDS214-ACI",
+    "file": "revisione/1.8.9/fonti/CDS214-ACI.html",
+    "url": "https://aci.gov.it/codice-della-strada/art-214/",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Testo dell’articolo e aggiornamenti pertinenti; confronto con fonti della revisione 1.8.6.",
+    "acquisizione": "2026-10-18",
+    "bytes": 75916,
+    "sha256": "8f7060df5e34f6ad12abbe4a64f29f5a919d73b204f7f6076486e3dde76e7470"
+  },
+  {
+    "id": "CDS217-ACI",
+    "file": "revisione/1.8.9/fonti/CDS217-ACI.html",
+    "url": "https://aci.gov.it/codice-della-strada/art-217/",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Testo dell’articolo e aggiornamenti pertinenti; confronto con fonti della revisione 1.8.6.",
+    "acquisizione": "2026-10-18",
+    "bytes": 73957,
+    "sha256": "2b6094d3442abe7b78d30acaabaff0c7e5f152c80f08d3a22f291642157f6ab0"
+  },
+  {
+    "id": "CDS218-ACI",
+    "file": "revisione/1.8.9/fonti/CDS218-ACI.html",
+    "url": "https://aci.gov.it/codice-della-strada/art-218/",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Testo dell’articolo e aggiornamenti pertinenti; confronto con fonti della revisione 1.8.6.",
+    "acquisizione": "2026-10-18",
+    "bytes": 76194,
+    "sha256": "34e88aa1ff98bb7d54141c1c8f706aa99fb16ebb989b88c401e98ce2bdf44024"
+  },
+  {
+    "id": "CDS219-ACI",
+    "file": "revisione/1.8.9/fonti/CDS219-ACI.html",
+    "url": "https://aci.gov.it/codice-della-strada/art-219/",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Testo dell’articolo e aggiornamenti pertinenti; confronto con fonti della revisione 1.8.6.",
+    "acquisizione": "2026-10-18",
+    "bytes": 71083,
+    "sha256": "d4fc8860bbfb08c31e0f9f86b693058e4f6d23d4ab5e9071c4f9998b10e8d664"
+  },
+  {
+    "id": "CDS82-ACI",
+    "file": "revisione/1.8.9/fonti/CDS82-ACI.html",
+    "url": "https://aci.gov.it/codice-della-strada/art-82/",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Testo dell’articolo e aggiornamenti pertinenti; confronto con fonti della revisione 1.8.6.",
+    "acquisizione": "2026-10-18",
+    "bytes": 74012,
+    "sha256": "1895c57c96e6208b42b11e7aedd89f4b9e90c7522373cb8d8f12b5d99451050d"
+  },
+  {
+    "id": "CDS86-ACI",
+    "file": "revisione/1.8.9/fonti/CDS86-ACI.html",
+    "url": "https://aci.gov.it/codice-della-strada/art-86/",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Testo dell’articolo e aggiornamenti pertinenti; confronto con fonti della revisione 1.8.6.",
+    "acquisizione": "2026-10-18",
+    "bytes": 75738,
+    "sha256": "212023e433459d44c9ee16074ba9e28b6b47d3477f8f076a6c11fc6c4bc94242"
+  },
+  {
+    "id": "L21-Normattiva",
+    "file": "revisione/1.8.9/fonti/L21-Normattiva.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-01-15;21!vig=2026-10-18",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Pagina iniziale con articolo1 e albero degli articoli: non il testo completo.",
+    "acquisizione": "2026-10-18",
+    "bytes": 71855,
+    "sha256": "9bdac48166d8fb06625bee71492b06fa9749671747e1f5e262e2e2b284406460"
+  },
+  {
+    "id": "L21-art11",
+    "file": "revisione/1.8.9/fonti/L21-art11.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-01-15;21~art11!vig=2026-10-18",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Articolo vigente selezionato singolarmente, riscontrato con l’originale completo archiviato il 10/10/2026.",
+    "acquisizione": "2026-10-18",
+    "bytes": 88069,
+    "sha256": "fd04fb36a163a22147358addd988e85a7d3b95a47fd9d2369f765dbf3b581fe4"
+  },
+  {
+    "id": "L21-art12",
+    "file": "revisione/1.8.9/fonti/L21-art12.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-01-15;21~art12!vig=2026-10-18",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Articolo vigente selezionato singolarmente, riscontrato con l’originale completo archiviato il 10/10/2026.",
+    "acquisizione": "2026-10-18",
+    "bytes": 73510,
+    "sha256": "48184039ed7f5dec9aa7dfe9297607ea71e1057faf397b2b318ef671bbbcbdc2"
+  },
+  {
+    "id": "L21-art13",
+    "file": "revisione/1.8.9/fonti/L21-art13.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-01-15;21~art13!vig=2026-10-18",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Articolo vigente selezionato singolarmente, riscontrato con l’originale completo archiviato il 10/10/2026.",
+    "acquisizione": "2026-10-18",
+    "bytes": 71835,
+    "sha256": "d5243f95e1e2d8c3b4a05e2d2b332e117ea3a8952168ab3dd3cbbac2ec6653ec"
+  },
+  {
+    "id": "L21-art14",
+    "file": "revisione/1.8.9/fonti/L21-art14.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-01-15;21~art14!vig=2026-10-18",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Articolo vigente selezionato singolarmente, riscontrato con l’originale completo archiviato il 10/10/2026.",
+    "acquisizione": "2026-10-18",
+    "bytes": 73755,
+    "sha256": "bd0da5947acb3dd869c5ad711f8f7ee1148fefd2fa24ead0c42d8f0490e3de24"
+  },
+  {
+    "id": "L21-art2",
+    "file": "revisione/1.8.9/fonti/L21-art2.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-01-15;21~art2!vig=2026-10-18",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Articolo vigente selezionato singolarmente, riscontrato con l’originale completo archiviato il 10/10/2026.",
+    "acquisizione": "2026-10-18",
+    "bytes": 73367,
+    "sha256": "4e71dd9ba3caa2d97c076248418b927e00916299af4e2dd21d10a8aadce6863c"
+  },
+  {
+    "id": "L21-art4",
+    "file": "revisione/1.8.9/fonti/L21-art4.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-01-15;21~art4!vig=2026-10-18",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Articolo vigente selezionato singolarmente, riscontrato con l’originale completo archiviato il 10/10/2026.",
+    "acquisizione": "2026-10-18",
+    "bytes": 73873,
+    "sha256": "676ea8d5b376a921d7643687893b8d97a374d6fb17e376cffdf1e007c0ab0693"
+  },
+  {
+    "id": "L21-art5bis",
+    "file": "revisione/1.8.9/fonti/L21-art5bis.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-01-15;21~art5bis!vig=2026-10-18",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Articolo vigente selezionato singolarmente, riscontrato con l’originale completo archiviato il 10/10/2026.",
+    "acquisizione": "2026-10-18",
+    "bytes": 81063,
+    "sha256": "aa59d1c83136a8080c775df66eae1644fb155c09cfdcaff6fe2486fba6203f1e"
+  },
+  {
+    "id": "L21-esportazione-fallita",
+    "file": "revisione/1.8.9/fonti/L21-esportazione-fallita.html",
+    "url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=1992-01-23&atto.codiceRedazionale=092G0026",
+    "stato": "Non acquisita come testo normativo: pagina di errore HTTP200",
+    "consultazione": "Diagnostica del tentativo di esportazione senza sessione, non usata come legge.",
+    "acquisizione": "2026-10-18",
+    "bytes": 32261,
+    "sha256": "c322d52102be020b3c569308ea8085d6e0d913f2efbc42806c892fa49d0020fc"
+  },
+  {
+    "id": "L689-Normattiva",
+    "file": "revisione/1.8.9/fonti/L689-Normattiva.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1981-11-24;689!vig=2026-10-18",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Pagina iniziale con articolo1 e albero degli articoli: non il testo completo.",
+    "acquisizione": "2026-10-18",
+    "bytes": 131876,
+    "sha256": "28bac62d4dbf4772f1d41babc68717539fd7dbe691346a35274c73b0f3164fae"
+  },
+  {
+    "id": "L689-art8bis",
+    "file": "revisione/1.8.9/fonti/L689-art8bis.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1981-11-24;689~art8bis!vig=2026-10-18",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Art.8-bis: regime generale, stessa indole, esecutività, pagamento ridotto, salvezza regimi speciali.",
+    "acquisizione": "2026-10-18",
+    "bytes": 134573,
+    "sha256": "b31994388e578aa050828aa8dd790e753809d597beb9f219c8ce76ba756c2259"
+  },
+  {
+    "id": "L689-esportazione-fallita",
+    "file": "revisione/1.8.9/fonti/L689-esportazione-fallita.html",
+    "url": "https://www.normattiva.it/esporta/attoCompleto?atto.dataPubblicazioneGazzetta=1981-11-30&atto.codiceRedazionale=081U0689",
+    "stato": "Non acquisita come testo normativo: pagina di errore HTTP200",
+    "consultazione": "Diagnostica del tentativo di esportazione senza sessione, non usata come legge.",
+    "acquisizione": "2026-10-18",
+    "bytes": 32261,
+    "sha256": "d803f2259bcfc3cf944971d5fc2de7a0b58466ac82b910541398b296ac6d261d"
+  },
+  {
+    "id": "REG-Comune",
+    "file": "revisione/1.8.9/fonti/REG-Comune.pdf",
+    "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/Regolamento-per-il-trasporto-pubblico-non-di-linea.pdf",
+    "stato": "Acquisita e riscontrata",
+    "consultazione": "Artt.4,18,22,23,29; pp.4,11,13–14,17–18. Confronto con PDF locale originale.",
+    "acquisizione": "2026-10-18",
+    "bytes": 91804,
+    "sha256": "1e2e08d7e8dad82d5207f7b722dd6362b4b3acd2613b6d84e582e2310c0d275e"
+  },
+  {
+    "id": "Regolamento_Taxi_NCC_Napoli.pdf",
+    "file": "allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+    "stato": "Originale già presente, conservato",
+    "consultazione": "Articoli e prescrizioni pertinenti ai codici revisionati, senza dichiarare una nuova lettura integrale di tutte le fonti.",
+    "sha256": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0",
+    "bytes": 92337
+  },
+  {
+    "id": "Prontuario_GIT_Turistica_originale.pdf",
+    "file": "allegati/Prontuario_GIT_Turistica_originale.pdf",
+    "stato": "Originale già presente, conservato",
+    "consultazione": "Voci storiche pertinenti: materiale di confronto, non fonte normativa prevalente.",
+    "sha256": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a",
+    "bytes": 2198678
+  },
+  {
+    "id": "EGAF_Art86_originale.pdf",
+    "file": "allegati/EGAF_Art86_originale.pdf",
+    "stato": "Originale già presente, conservato",
+    "consultazione": "Art.86: note operative già riscontrate nelle revisioni anteriori; limiti dei margini tagliati conservati.",
+    "sha256": "5031c8e106940ba867dd62681871f4861c686c479986553a580687302434e582",
+    "bytes": 2369235
+  },
+  {
+    "id": "Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+    "file": "allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+    "stato": "Originale già presente, conservato",
+    "consultazione": "Articoli e prescrizioni pertinenti ai codici revisionati, senza dichiarare una nuova lettura integrale di tutte le fonti.",
+    "sha256": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205",
+    "bytes": 820094
+  },
+  {
+    "id": "Tariffario_Taxi_2024.pdf",
+    "file": "allegati/Tariffario_Taxi_2024.pdf",
+    "stato": "Originale già presente, conservato",
+    "consultazione": "Articoli e prescrizioni pertinenti ai codici revisionati, senza dichiarare una nuova lettura integrale di tutte le fonti.",
+    "sha256": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055",
+    "bytes": 2713222
+  },
+  {
+    "id": "L21-completa.html",
+    "file": "revisione/1.8.6/fonti/L21-completa.html",
+    "stato": "Originale già presente, conservato",
+    "consultazione": "Articoli e prescrizioni pertinenti ai codici revisionati, senza dichiarare una nuova lettura integrale di tutte le fonti.",
+    "sha256": "b70dcb3cfd389e38f8accd20ed14c1f2c3c2c418a4f716e443354f3093702370",
+    "bytes": 122758
+  },
+  {
+    "id": "L689-completa.html",
+    "file": "revisione/1.8.6/fonti/L689-completa.html",
+    "stato": "Originale già presente, conservato",
+    "consultazione": "Articoli e prescrizioni pertinenti ai codici revisionati, senza dichiarare una nuova lettura integrale di tutte le fonti.",
+    "sha256": "7523886f39372c895891c4e4aae2dc991a4b5b0b73a5374720f979809442d45a",
+    "bytes": 298852
+  }
+]

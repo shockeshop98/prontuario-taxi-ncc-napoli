@@ -15,7 +15,8 @@ for(const x of data.catalog){
  }
  if(x.kind==='taxi3')assert.match(x.responsibility,/art\.86 c\.3.*titolare/);
  if(x.kind==='local')assert.ok(!x.responsibility?.includes('destinatario è il titolare'));
- assert.ok(x.reviewed==='2026-10-10');
+ const revised=new Set(['G01','G02','G03','G04','G05','G06','G07','G08','G09','G16','G17','G18','G22','G23','G24','G26','G29','G34','G36','G43']);
+ assert.equal(x.reviewed,revised.has(x.code)?'2026-10-18':'2026-10-10',`Data della sola revisione pertinente ${x.code}`);
  assert.ok(!x.notes.some(n=>n.startsWith('Redazione del testo:')));
 }
 const refusal=data.catalog.find(x=>x.id==='rifiuto');

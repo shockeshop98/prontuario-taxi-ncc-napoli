@@ -1,0 +1,487 @@
+{
+  "checkedAt": "2026-10-18T12:55:45.028Z",
+  "viewports": [
+    {
+      "width": 360,
+      "cards": 38,
+      "overflow": false,
+      "copyMatches": true
+    },
+    {
+      "width": 390,
+      "cards": 38,
+      "overflow": false,
+      "copyMatches": true
+    },
+    {
+      "width": 1440,
+      "cards": 38,
+      "overflow": false,
+      "copyMatches": true
+    }
+  ],
+  "cards": [
+    {
+      "id": "abusivo",
+      "code": "G01",
+      "type": "Taxi",
+      "page": 13,
+      "formula": "Adibiva a servizio taxi il veicolo indicato senza la prescritta licenza. Nella fattispecie si accertava […].",
+      "clauses": [
+        "patente",
+        "sequestro"
+      ],
+      "attestationCombinations": 4
+    },
+    {
+      "id": "abusivo2",
+      "code": "G02",
+      "type": "Taxi",
+      "page": 14,
+      "formula": "Adibiva a servizio taxi il veicolo indicato senza la prescritta licenza. Nella fattispecie si accertava […]. La violazione era commessa per la seconda volta in tre anni dal medesimo soggetto, come da precedente verbale n. […] per il fatto del […], accertato da […], verificato presso […] in data […].",
+      "clauses": [
+        "sequestro"
+      ],
+      "attestationCombinations": 2
+    },
+    {
+      "id": "rifiuto-prima",
+      "code": "G03-01",
+      "type": "Taxi",
+      "page": 15,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "rifiuto-seconda",
+      "code": "G03-02",
+      "type": "Taxi",
+      "page": 16,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "rifiuto-terza",
+      "code": "G03-03",
+      "type": "Taxi",
+      "page": 17,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "rifiuto-quarta-successiva",
+      "code": "G03-04",
+      "type": "Taxi",
+      "page": 18,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "tariffe-fascia-1",
+      "code": "G04-01",
+      "type": "Taxi",
+      "page": 19,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], effettuava la corsa […] applicando una tariffa difforme da quella amministrata: […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo",
+        "licenza"
+      ],
+      "attestationCombinations": 16
+    },
+    {
+      "id": "tariffe-fascia-2",
+      "code": "G04-02",
+      "type": "Taxi",
+      "page": 20,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], effettuava la corsa […] applicando una tariffa difforme da quella amministrata: […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo",
+        "licenza"
+      ],
+      "attestationCombinations": 16
+    },
+    {
+      "id": "tariffe-fascia-3",
+      "code": "G04-03",
+      "type": "Taxi",
+      "page": 21,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], effettuava la corsa […] applicando una tariffa difforme da quella amministrata: […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo",
+        "licenza"
+      ],
+      "attestationCombinations": 16
+    },
+    {
+      "id": "tariffe-fascia-4",
+      "code": "G04-04",
+      "type": "Taxi",
+      "page": 22,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], effettuava la corsa […] applicando una tariffa difforme da quella amministrata: […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo",
+        "licenza"
+      ],
+      "attestationCombinations": 16
+    },
+    {
+      "id": "prelievofuori-fascia-1",
+      "code": "G05-01",
+      "type": "Taxi",
+      "page": 23,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "prelievofuori-fascia-2",
+      "code": "G05-02",
+      "type": "Taxi",
+      "page": 24,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "prelievofuori-fascia-3",
+      "code": "G05-03",
+      "type": "Taxi",
+      "page": 25,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "prelievofuori-fascia-4",
+      "code": "G05-04",
+      "type": "Taxi",
+      "page": 26,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "omologazione-fascia-1",
+      "code": "G06-01",
+      "type": "Taxi",
+      "page": 27,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. Irregolarità accertata: […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "omologazione-fascia-2",
+      "code": "G06-02",
+      "type": "Taxi",
+      "page": 28,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. Irregolarità accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "omologazione-fascia-3",
+      "code": "G06-03",
+      "type": "Taxi",
+      "page": 29,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. Irregolarità accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "omologazione-fascia-4",
+      "code": "G06-04",
+      "type": "Taxi",
+      "page": 30,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. Irregolarità accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "avvisi-fascia-1",
+      "code": "G07-01",
+      "type": "Taxi",
+      "page": 31,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza rendere chiaramente leggibili all’utente gli avvisi sulle tariffe e sui supplementi. Condizione accertata: […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "avvisi-fascia-2",
+      "code": "G07-02",
+      "type": "Taxi",
+      "page": 32,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza rendere chiaramente leggibili all’utente gli avvisi sulle tariffe e sui supplementi. Condizione accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "avvisi-fascia-3",
+      "code": "G07-03",
+      "type": "Taxi",
+      "page": 33,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza rendere chiaramente leggibili all’utente gli avvisi sulle tariffe e sui supplementi. Condizione accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "avvisi-fascia-4",
+      "code": "G07-04",
+      "type": "Taxi",
+      "page": 34,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza rendere chiaramente leggibili all’utente gli avvisi sulle tariffe e sui supplementi. Condizione accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo"
+      ],
+      "attestationCombinations": 8
+    },
+    {
+      "id": "prezzo-fascia-1",
+      "code": "G08-01",
+      "type": "Taxi",
+      "page": 35,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] in difformità dalle modalità tariffarie applicabili. Condotta accertata: […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo",
+        "licenza"
+      ],
+      "attestationCombinations": 16
+    },
+    {
+      "id": "prezzo-fascia-2",
+      "code": "G08-02",
+      "type": "Taxi",
+      "page": 36,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] in difformità dalle modalità tariffarie applicabili. Condotta accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo",
+        "licenza"
+      ],
+      "attestationCombinations": 16
+    },
+    {
+      "id": "prezzo-fascia-3",
+      "code": "G08-03",
+      "type": "Taxi",
+      "page": 37,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] in difformità dalle modalità tariffarie applicabili. Condotta accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo",
+        "licenza"
+      ],
+      "attestationCombinations": 16
+    },
+    {
+      "id": "prezzo-fascia-4",
+      "code": "G08-04",
+      "type": "Taxi",
+      "page": 38,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] in difformità dalle modalità tariffarie applicabili. Condotta accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "documento",
+        "trasferimento",
+        "fermo",
+        "licenza"
+      ],
+      "attestationCombinations": 16
+    },
+    {
+      "id": "100m",
+      "code": "G09",
+      "type": "Taxi",
+      "page": 39,
+      "formula": "Con il veicolo indicato, con C.P. n. […], prelevava utenti a meno di 100 metri dal posteggio […], mentre vi erano taxi o utenti in attesa. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [],
+      "attestationCombinations": 1
+    },
+    {
+      "id": "segni",
+      "code": "G16",
+      "type": "Taxi",
+      "page": 40,
+      "formula": "Con il veicolo indicato, con C.P. n. […], presentava segni distintivi taxi difformi dal regolamento: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [],
+      "attestationCombinations": 1
+    },
+    {
+      "id": "scortadoppio",
+      "code": "G17",
+      "type": "Taxi",
+      "page": 41,
+      "formula": "Durante l’assegnazione dell’auto di scorta […] al C.P. n. […] dal […] al […], utilizzava contemporaneamente anche il veicolo taxi proprio indicato per il servizio […], come accertato mediante […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "licenza"
+      ],
+      "attestationCombinations": 2
+    },
+    {
+      "id": "scortaallestimento",
+      "code": "G18",
+      "type": "Taxi",
+      "page": 42,
+      "formula": "L’auto di scorta indicata, assegnata al C.P. n. […], aveva allestimento difforme: […], rispetto alla dotazione prescritta dall’atto […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [],
+      "attestationCombinations": 1
+    },
+    {
+      "id": "posti",
+      "code": "G22",
+      "type": "Taxi",
+      "page": 43,
+      "formula": "Con il veicolo indicato, con C.P. n. […], rifiutava all’utente l’occupazione del posto omologato […] disponibile, come accertato mediante […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [],
+      "attestationCombinations": 1
+    },
+    {
+      "id": "turno",
+      "code": "G23",
+      "type": "Taxi",
+      "page": 44,
+      "formula": "Con il veicolo indicato, con C.P. n. […], appartenente al gruppo […] con orario di servizio […], svolgeva il servizio taxi fuori dal proprio turno. Attività accertata in data […] alle ore […]: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [
+        "licenza"
+      ],
+      "attestationCombinations": 2
+    },
+    {
+      "id": "fila",
+      "code": "G24",
+      "type": "Taxi",
+      "page": 45,
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], non rispettava il proprio turno di fila nel posteggio […], precedendo il taxi […] che lo precedeva nell’ordine di arrivo. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [],
+      "attestationCombinations": 1
+    },
+    {
+      "id": "avariasostituzione",
+      "code": "G26",
+      "type": "Taxi",
+      "page": 46,
+      "formula": "A seguito dell’avaria del veicolo indicato, con C.P. n. […], ometteva la richiesta di sostituzione prescritta. Circostanze accertate: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [],
+      "attestationCombinations": 1
+    },
+    {
+      "id": "guidaurbana",
+      "code": "G29",
+      "type": "Taxi",
+      "page": 47,
+      "formula": "Durante il servizio taxi, sul veicolo indicato, con C.P. n. […], non teneva disponibile la guida della città. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [],
+      "attestationCombinations": 1
+    },
+    {
+      "id": "segnaleluminoso",
+      "code": "G34",
+      "type": "Taxi",
+      "page": 48,
+      "formula": "Con il veicolo indicato, con C.P. n. […], libero in servizio notturno, manteneva spento il segnale luminoso TAXI. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [],
+      "attestationCombinations": 1
+    },
+    {
+      "id": "percorso",
+      "code": "G36",
+      "type": "Taxi",
+      "page": 49,
+      "formula": "Con il veicolo indicato, con C.P. n. […], percorreva nella corsa […] la via […] anziché il percorso più breve applicabile […], senza specifica richiesta del cliente. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [],
+      "attestationCombinations": 1
+    },
+    {
+      "id": "sostafuori",
+      "code": "G43",
+      "type": "Taxi",
+      "page": 50,
+      "formula": "Con il veicolo indicato, con C.P. n. […], sostava in […], fuori dal posteggio autorizzato, allo scopo di acquisire clienti. Condotta accertata: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "clauses": [],
+      "attestationCombinations": 1
+    }
+  ],
+  "jsErrors": [],
+  "pdf": {
+    "sha256": "efc099cda3ac1bee29e4e3df44d36842cf734d4a43b0f6606d1281b7d82a4f25",
+    "pages": 207,
+    "cards": 187,
+    "fontSize": 9
+  }
+}

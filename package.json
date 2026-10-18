@@ -5,7 +5,7 @@
     "generate:pdf": "node scripts/generate-prontuario-static.mjs",
     "audit:cards": "node scripts/audit-prontuario.mjs",
     "test:browser": "node scripts/verify-review-browser.mjs",
-    "test": "node tests/pwa.test.mjs && node tests/clarity.test.mjs && node tests/revision.test.mjs && node tests/guide.test.mjs && node tests/inline-demo.test.mjs && node tests/static-catalog.test.mjs && node tests/taxi-collettivo.test.mjs && node tests/ricevute-tariffe.test.mjs && node tests/operative-rules.test.mjs && node tests/icons.test.mjs"
+    "test": "node tests/pwa.test.mjs && node tests/clarity.test.mjs && node tests/revision.test.mjs && node tests/guide.test.mjs && node tests/inline-demo.test.mjs && node tests/static-catalog.test.mjs && node tests/taxi-collettivo.test.mjs && node tests/ricevute-tariffe.test.mjs && node tests/operative-rules.test.mjs && node tests/icons.test.mjs && node tests/g01-g43.test.mjs"
   },
   "devDependencies": {
     "pdf-lib": "^1.17.1",

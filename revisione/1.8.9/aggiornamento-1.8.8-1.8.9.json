@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-18T12:55:49.133Z",
+  "baselineCommit": "34694b4e1859c3a384849fa0870c87774b98db56",
+  "localOnly": true,
+  "before": {
+    "version": "1.8.8",
+    "build": "2087205cf044c11a4a6b9485c11a77b2731ef361e48ffc4807b99169f588046a",
+    "pdf": "7.10",
+    "pdfSHA256": "2b5645a2ea92790395192db09a564973d66dd830d69a59515494495d9122e0ab"
+  },
+  "after": {
+    "version": "1.8.9",
+    "build": "fb6b963d313f3c7f93767291989a066e7bfe655ab4a731d3ccdfd8e8d111383c",
+    "pdf": "7.11",
+    "originalRetained": true,
+    "oldManualDiscarded": true,
+    "offline": {
+      "version": "1.8.9",
+      "build": "fb6b963d313f3c7f93767291989a066e7bfe655ab4a731d3ccdfd8e8d111383c",
+      "code": "Non rispetto dell’ordine di fila nel posteggio",
+      "pdfSHA256": "efc099cda3ac1bee29e4e3df44d36842cf734d4a43b0f6606d1281b7d82a4f25",
+      "moduleCached": true
+    }
+  },
+  "jsErrors": []
+}

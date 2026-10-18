@@ -1724,7 +1724,7 @@
     {
       "id": "prelievofuori",
       "code": "G05",
-      "title": "Prelievo o inizio del servizio fuori area autorizzata",
+      "title": "Taxi di altro Comune: inizio del servizio fuori dall’area autorizzata",
       "status": "draft_for_author_review",
       "sourceBasis": "PWA 1.4.2, commit 6f6a381; testi, riferimenti, accertamenti e procedure già presenti; scenario e aiuti redazionali nuovi.",
       "scenario": {
@@ -1792,11 +1792,11 @@
           "Ottenuto / pendente"
         ],
         "automaticallyFilled": false,
-        "existingText": "Segnalazione obbligatoria all’ufficio competente: Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli (ufficio competente per Taxi/NCC). Presupposto: accertata violazione ricompresa nel gruppo C dell’art. 29, comma 2; obbligo degli operatori ex comma 3."
+        "existingText": "Trasmettere gli atti al Comune che ha rilasciato la licenza; nessun seguito sul titolo fondato sul regolamento di Napoli."
       },
       "responsibility": "Condotta: descrivere e identificare il conducente che ha commesso il fatto. Sanzione ex art.86 c.3: destinatario è il titolare della licenza; se diverso dal conducente, contestare/notificare al titolare secondo EGAF nota 10. Non confondere questa regola con l’art.86 c.3-bis.",
       "procedure": {
-        "existingText": "Verificare l’ambito autorizzato e la concreta partenza prima di scegliere la fascia. Ritiro del documento di circolazione, menzione nel verbale, permesso limitato al luogo di custodia; documento e copia del verbale all’UMC entro 5 giorni. Fermo del veicolo per la durata della sospensione, con atti separati. Art.29 c.2 lett.c: sospensione 15/30/60 giorni e 10 punti sulla licenza. Il c.4 prevede il ritiro del titolo comunale: documentare il ritiro e trasmettere secondo il percorso interno.",
+        "existingText": "Ritiro del documento di circolazione e seguito UMC, se applicabile il comma 3; nessun ritiro della licenza fondato sul regolamento di Napoli. UMC per il documento di circolazione; trasmettere i fatti al Comune che ha rilasciato la licenza.",
         "photographicSuggestions": [
           "Se utile, scattare foto del contesto, stalli e posizione del taxi; annotare separatamente orari, distanze e sequenza osservata."
         ],
@@ -1805,7 +1805,7 @@
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.2 e 23 c.2 l",
+          "normativeRef": "CdS art.86 c.3; L.21/1992 artt.2, 4 c.5, 5-bis c.1-bis e 11 c.2",
           "baseTemplate": "Durante il servizio taxi sul veicolo con C.P. n. {{fact_01}} del Comune di {{fact_02}}, il conducente {{fact_03}} prelevava l’utente {{fact_04}} in {{fact_05}}, fuori dell’area comunale o comprensoriale autorizzata. Il punto di inizio risultava da {{fact_06}}; non era applicabile la deroga {{fact_07}}. Il titolare della licenza è {{fact_08}}; la fascia applicabile risulta da {{fact_09}}.",
           "fields": [
             {
@@ -1978,7 +1978,7 @@
               ]
             }
           ],
-          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+          "finalSentence": "",
           "relationFinalSentence": "",
           "outputDefault": "verbale",
           "allowVerbale": true,
@@ -3936,28 +3936,28 @@
     {
       "id": "fila",
       "code": "G24",
-      "title": "Acquisizione di persone esterne alla fila dei passeggeri — qualificazione da chiarire",
+      "title": "Non rispetto dell’ordine di fila nel posteggio",
       "status": "draft_for_author_review",
       "sourceBasis": "PWA 1.4.2, commit 6f6a381; testi, riferimenti, accertamenti e procedure già presenti; scenario e aiuti redazionali nuovi.",
       "scenario": {
         "label": "Situazione esemplificativa, non fatto accertato",
-        "text": "Al posteggio vi sono passeggeri in fila. Il conducente si rivolge ad altre persone, acquisisce la corsa e le preleva scavalcando gli utenti in attesa.",
+        "text": "Un taxi supera una vettura che lo precede nell’ordine di arrivo al posteggio. Verificare le eccezioni e la specifica condizione della licenza.",
         "automaticallyInserted": false
       },
       "applicability": {
-        "when": "Fila dei passeggeri presente; persone esterne contattate; corsa acquisita e prelievo accertati.",
-        "notEnough": "Il solo colloquio con persone o la loro presenza vicino al taxi non prova l’acquisizione e il prelievo fuori dalla fila.",
-        "verifyFirst": "Il tassista si rivolge a persone esterne alla fila dei passeggeri già in attesa al posteggio, acquisisce la corsa e le preleva scavalcando gli utenti in fila. Verificare presenza della fila, contatto, offerta, prelievo, luogo, orari e fonti distinte. “Fuori dalla fila” non significa necessariamente prelievo fuori posteggio.",
+        "when": "Mancato rispetto del turno di fila dei taxi nel posteggio autorizzato.",
+        "notEnough": "Il solo superamento se ricorre un’eccezione ex art.4 c.3.",
+        "verifyFirst": "Ordine di arrivo delle vetture, posteggio e servizio effettivamente svolto; licenza e specifica condizione pertinente.",
         "qualification": "Verificare nel caso concreto la base e i presupposti indicati nella scheda; la guida non trasforma una verifica pendente in una violazione accertata.",
-        "referenceOnly": true
+        "referenceOnly": false
       },
       "descriptionHelp": {
-        "prompt": "Ricostruire fila dei passeggeri, persone esterne avvicinate, offerta, acquisizione, prelievo, luoghi e orari.",
-        "avoid": "Non confondere la fila dei passeggeri con quella delle vetture e non presumere un prelievo fuori posteggio.",
-        "documentPrompt": "Presenza della fila dei passeggeri al posteggio; persone esterne avvicinate dal conducente; offerta della corsa, acquisizione e prelievo; luogo e orari. Separare osservazioni dirette, dichiarazioni formalizzate ed eventuali altri documenti. Il prelievo fuori posteggio richiede un accertamento distinto."
+        "prompt": "Descrivere il superamento della fila dei taxi.",
+        "avoid": "Non presumere una violazione senza riscontro dell’ordine di arrivo e delle eccezioni.",
+        "documentPrompt": "Ordine di arrivo delle vetture, posteggio e servizio effettivamente svolto; licenza e specifica condizione pertinente."
       },
       "evidenceHelp": {
-        "focus": "Distinguere osservazione diretta di fila, offerta e prelievo dalle dichiarazioni formalizzate e dai fatti soltanto riferiti.",
+        "focus": "Ordine di arrivo delle vetture e superamento accertato.",
         "choices": [
           {
             "id": "direct",
@@ -4008,21 +4008,21 @@
       },
       "responsibility": "Individuare il soggetto responsabile sulla base della condotta e della specifica norma; non applicare automaticamente a questa scheda la regola del titolare prevista da altri commi.",
       "procedure": {
-        "existingText": "Descrivere la fila, le persone cercate fuori dalla fila, la corsa acquisita e il prelievo realmente accertati; segnalare all’Ufficio Verbali per il seguito comunale. Documentare soltanto atti e fonti effettivi.",
+        "existingText": "Accertare ordine di arrivo ed eventuali eccezioni; segnalare i fatti all’ufficio competente. Nessun ritiro immediato della licenza per il gruppo A.",
         "photographicSuggestions": [],
         "corsoPubblico": "Segnalazione all’Ufficio Corso Pubblico tramite il percorso dell’Ufficio Verbali, distinta dagli invii alle altre autorità.",
         "actsAreNotOptionalObligations": "Le caselle selezionano frasi da riportare, non rendono facoltativi gli adempimenti dovuti."
       },
       "variants": {
         "taxi": {
-          "normativeRef": "CdS art. 86, comma 3-bis (ipotesi subordinata alla condizione della licenza); Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. g (ambito della fila da chiarire)",
-          "baseTemplate": "Alla guida del veicolo indicato, con C.P. n. {{fact_01}}, acquisiva clienti fuori dalla fila dei passeggeri in attesa al posteggio {{fact_02}}: {{fact_03}}. Si rivolgeva alle persone {{fact_05}} in {{fact_04}} e le prelevava {{fact_06}}, scavalcando gli utenti in fila. Il fatto risultava da {{fact_07}}.",
+          "normativeRef": "CdS art.86 c.3-bis; Regolamento comunale artt.4 c.3 e 23 c.1 lett. g; art.29 c.2 lett. a",
+          "baseTemplate": "Alla guida del veicolo indicato, con C.P. n. {{fact_01}}, non rispettava il proprio turno di fila nel posteggio {{fact_02}}, precedendo il taxi {{fact_03}} che lo precedeva nell’ordine di arrivo, come accertato mediante {{fact_04}}.",
           "fields": [
             {
               "id": "fact_01",
-              "label": "CP",
-              "context": "G24: acquisizione e prelievo fuori dalla fila dei passeggeri",
-              "help": "Indicare soltanto fatti, luoghi e orari effettivamente riscontrati.",
+              "label": "C.P.",
+              "context": "Ordine di fila dei taxi nel posteggio",
+              "help": "Riportare il solo dato effettivamente verificato; esaminare le eccezioni ex art.4 c.3.",
               "input": "text",
               "requiredForSelectedBlock": true,
               "default": "",
@@ -4031,8 +4031,8 @@
             {
               "id": "fact_02",
               "label": "POSTEGGIO",
-              "context": "G24: acquisizione e prelievo fuori dalla fila dei passeggeri",
-              "help": "Indicare soltanto fatti, luoghi e orari effettivamente riscontrati.",
+              "context": "Ordine di fila dei taxi nel posteggio",
+              "help": "Riportare il solo dato effettivamente verificato; esaminare le eccezioni ex art.4 c.3.",
               "input": "text",
               "requiredForSelectedBlock": true,
               "default": "",
@@ -4040,9 +4040,9 @@
             },
             {
               "id": "fact_03",
-              "label": "PASSEGGIERI IN FILA E ORARIO",
-              "context": "G24: acquisizione e prelievo fuori dalla fila dei passeggeri",
-              "help": "Indicare soltanto fatti, luoghi e orari effettivamente riscontrati.",
+              "label": "TAXI PRECEDUTO",
+              "context": "Ordine di fila dei taxi nel posteggio",
+              "help": "Riportare il solo dato effettivamente verificato; esaminare le eccezioni ex art.4 c.3.",
               "input": "text",
               "requiredForSelectedBlock": true,
               "default": "",
@@ -4050,50 +4050,20 @@
             },
             {
               "id": "fact_04",
-              "label": "LUOGO DEL CONTATTO",
-              "context": "G24: acquisizione e prelievo fuori dalla fila dei passeggeri",
-              "help": "Indicare soltanto fatti, luoghi e orari effettivamente riscontrati.",
+              "label": "RISCONTRO E ORDINE DI ARRIVO",
+              "context": "Ordine di fila dei taxi nel posteggio",
+              "help": "Riportare il solo dato effettivamente verificato; esaminare le eccezioni ex art.4 c.3.",
               "input": "text",
-              "requiredForSelectedBlock": true,
-              "default": "",
-              "exampleIsNeverValue": true
-            },
-            {
-              "id": "fact_05",
-              "label": "PERSONE ESTERNE ALLA FILA E OFFERTA",
-              "context": "G24: acquisizione e prelievo fuori dalla fila dei passeggeri",
-              "help": "Indicare soltanto fatti, luoghi e orari effettivamente riscontrati.",
-              "input": "text",
-              "requiredForSelectedBlock": true,
-              "default": "",
-              "exampleIsNeverValue": true
-            },
-            {
-              "id": "fact_06",
-              "label": "LUOGO E ORARIO DEL PRELIEVO",
-              "context": "G24: acquisizione e prelievo fuori dalla fila dei passeggeri",
-              "help": "Indicare il prelievo realmente accertato, senza presumere che avvenga fuori posteggio.",
-              "input": "text",
-              "requiredForSelectedBlock": true,
-              "default": "",
-              "exampleIsNeverValue": true
-            },
-            {
-              "id": "fact_07",
-              "label": "RISCONTRI DISTINTI",
-              "context": "G24: acquisizione e prelievo fuori dalla fila dei passeggeri",
-              "help": "Separare osservazioni dirette e dichiarazioni formalizzate; le parole soltanto riferite vanno nella relazione.",
-              "input": "textarea",
               "requiredForSelectedBlock": true,
               "default": "",
               "exampleIsNeverValue": true
             }
           ],
           "acts": [],
-          "finalSentence": "",
+          "finalSentence": "Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
           "relationFinalSentence": "",
           "outputDefault": "relation",
-          "allowVerbale": false,
+          "allowVerbale": true,
           "requiresQualificationConfirmationForVerbale": true,
           "scopeLabel": "Taxi",
           "optionalContext": {

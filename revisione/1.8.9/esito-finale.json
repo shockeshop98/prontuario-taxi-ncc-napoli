@@ -1,0 +1,26 @@
+{
+  "versione": {
+    "version": "1.8.9",
+    "updated_at": "2026-10-18",
+    "build_id": "fb6b963d313f3c7f93767291989a066e7bfe655ab4a731d3ccdfd8e8d111383c"
+  },
+  "pdfSHA256": "efc099cda3ac1bee29e4e3df44d36842cf734d4a43b0f6606d1281b7d82a4f25",
+  "schede": 187,
+  "pagine": 207,
+  "codiciRichiestiDichiarati": 39,
+  "codiciEffettiviVerificati": 38,
+  "schedeFuoriAmbitoConservate": 149,
+  "npm_test": "PASS",
+  "git_diff_check": "PASS",
+  "destinazioniPDF": 187,
+  "mobile": [
+    360,
+    390
+  ],
+  "attestazioniCombinazioni": 276,
+  "aggiornamentoRealeDa188": "PASS",
+  "offlineSHA256": "PASS",
+  "linkAnteprima": "PASS",
+  "commitPushDeploy": "Non eseguiti",
+  "limiti": "Punti normativi da confermare nel rapporto; prova Chromium locale, nessuna certificazione di tutti i browser o della pubblicazione pubblica."
+}

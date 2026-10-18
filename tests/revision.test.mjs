@@ -12,10 +12,10 @@ const catalog=data.catalog;
 const baseline=JSON.parse(await readFile(resolve(root,'revisione/1.8.6/importi-baseline-1.8.5.json'),'utf8'));
 assert.deepEqual(data.catalog.map(({code,payments})=>({code,payments})),baseline,'Importi e misure originari non alterati');
 assert.equal(catalog.length,116);
-assert.equal(data.prontuario.version,'7.10');
-assert.equal(data.sources[3].title,'Prontuario operativo 7.10 · Antonio Balzano');
+assert.equal(data.prontuario.version,'7.11');
+assert.equal(data.sources[3].title,'Prontuario operativo 7.11 · Antonio Balzano');
 const window={};
-for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js'])
+for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js','scripts/revision-g01-g43.js'])
   vm.runInNewContext(await readFile(resolve(root,name),'utf8'),{window},{filename:name});
 const layout=window.prontuarioStaticLayout(catalog,data.manualParts,data.staticPages);
 assert.equal(layout.rows.length,187);
@@ -71,7 +71,8 @@ assert.ok(pageText.slice(1).every(text=>!text.includes(normalize('R17'))&&!text.
 const g24Page=layout.pages['fila/Taxi'];
 assert.ok(pageText[g24Page].includes(normalize(catalog.find(x=>x.code==='G24').title)));
 assert.ok(pageText[g24Page].includes(normalize('art. 23, comma 1, lett. g')));
-assert.ok(pageText[g24Page].includes(normalize('prelevava')));
+assert.ok(pageText[g24Page].includes(normalize('ordine di arrivo')));
+assert.ok(!pageText[g24Page].includes(normalize('fila dei passeggeri')));
 assert.ok(!pageText[g24Page].includes(normalize('Fila al posteggio e allontanamento per cercare clienti')));
 for(const row of layout.rows){
   const {item,type}=row,base=item.demoBaseId||item.id;
@@ -87,13 +88,17 @@ for(const row of layout.rows){
   assert.ok(pageText[number].includes(normalize('Riferimenti normativi — obblighi e sanzioni')),`Normativa p.${number}`);
   assert.ok(pageText[number].includes(normalize('Tabella importi')),`Importi p.${number}`);
   assert.ok(text.includes(normalize('Suggerimenti e note operative')),`Note p.${number}`);
-  assert.ok(text.includes(normalize('Altra'))||text.includes(normalize('Altro')),`Voce libera p.${number}`);
+  const revised=window.prontuarioRevisionView(item,type);
+  if(revised){
+    assert.ok(text.includes(normalize(revised.parts[0])),`Formula condivisa PWA/copia/PDF ${item.code}`);
+    for(const clause of revised.acts)assert.ok(text.includes(normalize(clause.text)),`Attestazione condizionata fuori dalla formula ${item.code}`);
+  }else assert.ok(text.includes(normalize('Altra'))||text.includes(normalize('Altro')),`Voce libera p.${number}`);
   const expectedFinal=false;
   assert.equal(text.includes(normalize(finalSentence)),expectedFinal,`Corso Pubblico p.${number} ${item.code}`);
   assert.ok(text.includes(normalize(item.payments[0][1])),`Limiti edittali p.${number} ${item.code}`);
   if(window.prontuarioCatalogIsRelation(item))assert.ok(text.includes(normalize('Testo orientativo per la relazione')));
   const demo=type==='Taxi'?window.prontuarioStaticDemos[item.demoBaseId||item.id]:null;
-  const acts=demo?demo.acts:window.prontuarioCatalogActs(item);
+  const acts=revised?revised.acts:demo?demo.acts:window.prontuarioCatalogActs(item);
   for(const act of acts)assert.ok(text.includes(normalize(act.title)),`Seguito operativo non completo p.${number} ${item.code}: ${act.title}`);
   for(let offset=1;offset<span;offset++)assert.ok(pageText[number+offset].includes(normalize(item.code)),`Rinvio scheda p.${number+offset}`);
 }

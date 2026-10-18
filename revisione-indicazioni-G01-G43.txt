@@ -1,0 +1,455 @@
+
+Da ora in poi ti scrivo codice per codice le indicazioni per quei casi ed esattamente quello che devi inserire nel il testo orientativo del verbale.
+Codice G01:
+Adibiva a servizio taxi il veicolo indicato senza avere la licenza (o con licenza revocata o sospesa). Nella fattispecie si accertava ... (descrivere la situazione accertata).
+La patente di guida è ritirata e sarà inviata alla prefettura-UTG di ... Il veicolo, di cui viene trattenuto il documento di circolazione, è sottoposto a sequestro come da separato verbale.
+
+
+Aggiungere nota operativa:
+Questo caso si configura solo se si accerta la corresponsione del pagamento per la prestazione di trasporto come da art.82 C.d.S.
+
+Modificare Sanzione Accessore CdS: 
+Sospensione della patente (da 4 a 12 mesi);
+Sequestro ai fini di confisca del veicolo.
+Basta
+
+
+
+Codice G02:
+Per la seconda volta, in un periodo di 3 anni, Precedente violazione è stata accertata con verbale n. ... del ... adibiva a servizio taxi il veicolo indicato senza avere la licenza (o con licenza revocata o sospesa). Nella fattispecie si accertava ... (descrivere la situazione accertata).
+La patente di guida è ritirata e sarà inviata alla prefettura-UTG di ... Il veicolo, di cui viene trattenuto il documento di circolazione, è sottoposto a sequestro come da separato verbale.
+
+
+Aggiungere nota operativa:
+Ritirare la Patente per invio alla prefettura;
+Questo caso si configura solo se si accerta la corresponsione del pagamento per la prestazione di trasporto come da art.82 C.d.S.
+
+Modificare Sanzione Accessore CdS: 
+Revoca della patente;
+Sequestro ai fini di confisca del veicolo.
+Basta
+
+
+
+Codice G03-01:
+Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa richiesta verso […] (inserire la destinazione).
+Da accertamento presso […] del […] non risultavano precedenti violazioni dello stesso genere del titolare nel quinquennio.
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale.
+
+
+Codice G03-02:
+Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa richiesta verso […] (inserire la destinazione).
+Da accertamento presso […] del […] risultava una precedente violazione dello stesso genere del titolare nel quinquennio, riferimento verbale n°........ del.......... effettuato da........(corpo di polizia stradale che ha elevato la sanzione).
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale.
+
+
+
+Codice G03-03:
+Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa richiesta verso […] (inserire la destinazione).
+Da accertamento presso […] del […] risultava che era la terza violazione dello stesso genere del titolare nel quinquennio, riferimento verbale n°........ del.......... effettuato da........(corpo di polizia stradale che ha elevato la sanzione).
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale.
+
+
+Codice G03-04:
+Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa richiesta verso […] (inserire la destinazione).
+Da accertamento presso […] del […] risultava che era la quarta o successiva violazione dello stesso genere del titolare nel quinquennio, riferimento verbale n°........ del.......... effettuato da........(corpo di polizia stradale che ha elevato la sanzione).
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale.
+
+
+
+Codice G04-01:
+Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, non rispettava la tariffa imposta dall'amministrazione comunale, nella fattispecie........(inserire la casistica accertata).
+Da accertamento presso […] del […] non risultavano precedenti violazioni dello stesso genere del titolare nel quinquennio.
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale.
+
+
+
+
+Codice G04-02:
+Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, non rispettava la tariffa imposta dall'amministrazione comunale, nella fattispecie........(inserire la casistica accertata).
+Da accertamento presso […] del […] risultava una precedente violazione dello stesso genere del titolare nel quinquennio, riferimento verbale n°........ del.......... effettuato da........(corpo di polizia stradale che ha elevato la sanzione).
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale.
+
+
+
+
+Codice G04-03:
+Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, non rispettava la tariffa imposta dall'amministrazione comunale, nella fattispecie........(inserire la casistica accertata).
+Da accertamento presso […] del […] risultava che era la terza violazione dello stesso genere del titolare nel quinquennio, riferimento verbale n°........ del.......... effettuato da........(corpo di polizia stradale che ha elevato la sanzione).
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale.
+
+
+
+
+Codice G04-04:
+Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, non rispettava la tariffa imposta dall'amministrazione comunale, nella fattispecie........(inserire la casistica accertata).
+Da accertamento presso […] del […] risultava che era la quarta o successiva violazione dello stesso genere del titolare nel quinquennio, riferimento verbale n°........ del.......... effettuato da........(corpo di polizia stradale che ha elevato la sanzione).
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale.
+
+
+
+
+Codice G05-01:
+Alla guida del veicolo indicato, con C.P. n. […] del Comune di […], iniziava il servizio taxi fuori dall’area autorizzata. In particolare prelevava.........(inserire n°utenti e luogo).
+Da accertamento presso [...] del [...] non risultavano precedenti violazioni dello stesso genere del titolare nel quinquennio. Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+
+
+
+Rimuovere in riferimenti normativi i riferimenti del regolamento comunale, essendo taxi non del comune di napoli non si ritira la licenza.
+
+
+
+Codice G05-02:
+Alla guida del veicolo indicato, con C.P. n. […] del Comune di […], iniziava il servizio taxi fuori dall’area autorizzata. In particolare prelevava.........(inserire n°utenti e luogo).
+Da accertamento presso [...] del [...] risultava una precedente violazione dello stesso genere del titolare nel quinquennio, riferimento verbale n°........ del...... effettuato da........ (corpo di polizia stradale che ha elevato la sanzione). Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+
+
+Rimuovere in riferimenti normativi i riferimenti del regolamento comunale, essendo taxi non del comune di napoli non si ritira la licenza.
+
+
+
+
+Codice G05-03:
+Alla guida del veicolo indicato, con C.P. n. […] del Comune di […], iniziava il servizio taxi fuori dall’area autorizzata. In particolare prelevava.........(inserire n°utenti e luogo).
+Da accertamento presso [...] del [...] risultava che era la terza violazione dello stesso genere del titolare nel quinquennio, riferimento verbale n°........ del...... effettuato da........ (corpo di polizia stradale che ha elevato la sanzione). Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+
+
+Rimuovere in riferimenti normativi i riferimenti del regolamento comunale, essendo taxi non del comune di napoli non si ritira la licenza.
+
+
+
+Codice G05-04:
+Alla guida del veicolo indicato, con C.P. n. […] del Comune di […], iniziava il servizio taxi fuori dall’area autorizzata. In particolare prelevava.........(inserire n°utenti e luogo).
+Da accertamento presso [...] del [...] risultava che era la quarta o successiva violazione dello stesso genere del titolare nel quinquennio, riferimento verbale n°........ del...... effettuato da........ (corpo di polizia stradale che ha elevato la sanzione). Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+
+
+Rimuovere in riferimenti normativi i riferimenti del regolamento comunale, essendo taxi non del comune di napoli non si ritira la licenza.
+
+
+
+
+Codice G06-01:
+Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. In particolare:
+- Il tassametro era assente, come constatato nell’abitacolo dagli operanti.
+- Il tassametro modello […] n. […] era privo di omologazione, secondo il riscontro tecnico […].
+- Altra irregolarità dell’omologazione accertata: […].
+Da accertamento presso […] del […] non risultavano precedenti violazioni dello stesso genere del titolare nel quinquennio.
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale (il ritiro della licenza e l'invio al corso pubblico con copia del verbale da effettuare solo se il Taxi è di Napoli).
+
+
+
+
+Codice G06-02:
+Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. In particolare:
+- Il tassametro era assente, come constatato nell’abitacolo dagli operanti.
+- Il tassametro modello […] n. […] era privo di omologazione, secondo il riscontro tecnico […].
+- Altra irregolarità dell’omologazione accertata: […].
+Da accertamento presso […] del […] risultava una precedente violazione dello stesso genere del titolare nel quinquennio.
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale (il ritiro della licenza e l'invio al corso pubblico con copia del verbale da effettuare solo se il Taxi è di Napoli).
+
+
+
+
+Codice G06-03:
+Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. In particolare:
+- Il tassametro era assente, come constatato nell’abitacolo dagli operanti.
+- Il tassametro modello […] n. […] era privo di omologazione, secondo il riscontro tecnico […].
+- Altra irregolarità dell’omologazione accertata: […].
+Da accertamento presso […] del […] risultava che era la terza violazione dello stesso genere del titolare nel quinquennio.
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale (il ritiro della licenza e l'invio al corso pubblico con copia del verbale da effettuare solo se il Taxi è di Napoli).
+
+
+
+
+
+Codice G06-04:
+Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. In particolare:
+- Il tassametro era assente, come constatato nell’abitacolo dagli operanti.
+- Il tassametro modello […] n. […] era privo di omologazione, secondo il riscontro tecnico […].
+- Altra irregolarità dell’omologazione accertata: […].
+Da accertamento presso […] del […] risultava che era la quarta o successiva violazione dello stesso genere del titolare nel quinquennio.
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale (il ritiro della licenza e l'invio al corso pubblico con copia del verbale da effettuare solo se il Taxi è di Napoli).
+
+
+
+
+Codice G07-01:
+Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi, non esponeva gli avvisi chiaramente leggibili circa le tariffe e gli eventuali supplementi tariffari. Nella fattispecie...  (specificare se totalmente assenti o la posizionedei tariffari)
+e quindi collocato in una posizione da non renderli visibili dalla posizione dell'utente .
+Da accertamento presso […] del […] non risultavano precedenti violazioni dello stesso genere del titolare nel quinquennio.
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale (il ritiro della licenza e l'invio al corso pubblico con copia del verbale da effettuare solo se il Taxi è di Napoli).
+
+
+
+
+
+Codice G07-02:
+Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi, non esponeva gli avvisi chiaramente leggibili circa le tariffe e gli eventuali supplementi tariffari. Nella fattispecie...  (specificare se totalmente assenti o la posizionedei tariffari)
+e quindi collocato in una posizione da non renderli visibili dalla posizione dell'utente .
+Da accertamento presso […] del […] risultava una precedente violazione dello stesso genere del titolare nel quinquennio.
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale (il ritiro della licenza e l'invio al corso pubblico con copia del verbale da effettuare solo se il Taxi è di Napoli).
+
+
+
+
+Codice G07-03:
+Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi, non esponeva gli avvisi chiaramente leggibili circa le tariffe e gli eventuali supplementi tariffari. Nella fattispecie...  (specificare se totalmente assenti o la posizionedei tariffari)
+e quindi collocato in una posizione da non renderli visibili dalla posizione dell'utente .
+Da accertamento presso […] del […] risultava essere la terza violazione dello stesso genere del titolare nel quinquennio.
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale (il ritiro della licenza e l'invio al corso pubblico con copia del verbale da effettuare solo se il Taxi è di Napoli).
+
+
+
+
+
+Codice G07-04:
+Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi, non esponeva gli avvisi chiaramente leggibili circa le tariffe e gli eventuali supplementi tariffari. Nella fattispecie...  (specificare se totalmente assenti o la posizionedei tariffari)
+e quindi collocato in una posizione da non renderli visibili dalla posizione dell'utente .
+Da accertamento presso […] del […] risultava essere la quarta o successiva violazione dello stesso genere del titolare nel quinquennio.
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale (il ritiro della licenza e l'invio al corso pubblico con copia del verbale da effettuare solo se il Taxi è di Napoli).
+
+
+
+
+
+Codice G08-01:
+Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] senza applicare il tassametro e le tariffe amministrate pertinenti. In particolare:
+- Richiedeva € […], mentre il tassametro indicava […].
+- Riscuoteva € […] come prezzo concordato, come risultava da […], senza utilizzare il tassametro […].
+- Altra modalità di determinazione del prezzo accertata: […].
+Da accertamento presso […] del […] non risultavano precedenti violazioni dello stesso genere del titolare nel quinquennio.
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale (il ritiro della licenza e l'invio al corso pubblico con copia del verbale da effettuare solo se il Taxi è di Napoli).
+
+
+
+
+
+
+Codice G08-02:
+Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] senza applicare il tassametro e le tariffe amministrate pertinenti. In particolare:
+- Richiedeva € […], mentre il tassametro indicava […].
+- Riscuoteva € […] come prezzo concordato, come risultava da […], senza utilizzare il tassametro […].
+- Altra modalità di determinazione del prezzo accertata: […].
+Da accertamento presso […] del […] risultava una precedente violazione dello stesso genere del titolare nel quinquennio.
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale (il ritiro della licenza e l'invio al corso pubblico con copia del verbale da effettuare solo se il Taxi è di Napoli).
+
+
+
+
+
+
+Codice G08-03:
+Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] senza applicare il tassametro e le tariffe amministrate pertinenti. In particolare:
+- Richiedeva € […], mentre il tassametro indicava […].
+- Riscuoteva € […] come prezzo concordato, come risultava da […], senza utilizzare il tassametro […].
+- Altra modalità di determinazione del prezzo accertata: […].
+Da accertamento presso […] del […] risultava essere la terza violazione dello stesso genere del titolare nel quinquennio.
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale (il ritiro della licenza e l'invio al corso pubblico con copia del verbale da effettuare solo se il Taxi è di Napoli).
+
+
+
+
+
+Codice G08-04:
+Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] senza applicare il tassametro e le tariffe amministrate pertinenti. In particolare:
+- Richiedeva € […], mentre il tassametro indicava […].
+- Riscuoteva € […] come prezzo concordato, come risultava da […], senza utilizzare il tassametro […].
+- Altra modalità di determinazione del prezzo accertata: […].
+Da accertamento presso […] del […] risultava essere la quarta o successiva violazione dello stesso genere del titolare nel quinquennio.
+Il documento di circolazione è ritirato e trasmesso all'UMC di competenza. Il conducente è autorizzato a condurre il veicolo per la via più breve fino a ... (luogo indicato dall'interessato) con l'avvertenza che lo stesso sarà sottoposto a fermo amministrativo per tutta la durata di sospensione del documento di circolazione, come da separato verbale.
+La licenza viene ritirata e sarà inviata all'ufficio corso pubblico con copia del verbale (il ritiro della licenza e l'invio al corso pubblico con copia del verbale da effettuare solo se il Taxi è di Napoli).
+
+
+
+
+
+
+Codice G09:
+Con il veicolo indicato, con C.P. n. […], prelevava utenti a meno di 100 metri dal posteggio […] (indicare l'ubicazione del posteggio) mentre vi erano taxi o utenti in attesa.
+Copia del presente verbale sarà inviata all'ufficio corso pubblico.
+
+
+Rimuovere da riferimenti normativi: (se condizione della licenza verificata)
+Rimuovere dalla tabella importi: Importi applicabili soltanto alla condizione del titolo accertata; non a ogni violazione comunale.
+
+
+
+
+
+Codice G16:
+Con il veicolo indicato, con C.P. n. […], presentava segni distintivi taxi difformi dal regolamento.
+Copia del presente verbale sarà inviata all'ufficio corso pubblico.
+
+
+Rimuovere da riferimenti normativi: (se condizione della licenza verificata)
+Rimuovere dalla tabella importi: Importi applicabili soltanto alla condizione del titolo accertata; non a ogni violazione comunale.
+
+
+
+
+
+
+Codice G17:
+Durante l’assegnazione dell’auto di scorta al C.P. n. […], utilizzava anche il veicolo taxi proprio indicato. In particolare:
+- L’auto di scorta […] risultava assegnata dal […] al […]; il veicolo proprio svolgeva la corsa […] osservata dagli operanti.
+- Nel periodo di assegnazione […] il veicolo proprio effettuava il servizio […], come risultava da […].
+- Altra sovrapposizione dei servizi accertata: […].
+Copia del presente verbale sarà inviata all'ufficio corso pubblico.
+
+
+Rimuovere da riferimenti normativi: (se condizione della licenza verificata)
+Rimuovere dalla tabella importi: Importi applicabili soltanto alla condizione del titolo accertata; non a ogni violazione comunale.
+
+
+
+
+
+
+
+
+Codice G18:
+L’auto di scorta indicata, assegnata al C.P. n. […], aveva allestimento difforme. In particolare:
+- Mancava la dotazione […] prevista dall’atto […].
+- La dotazione […] era presente ma non conforme per […].
+- Altra difformità dell’allestimento accertata: […]
+Copia del presente verbale sarà inviata all'ufficio corso pubblico.
+
+
+Rimuovere da riferimenti normativi: (se condizione della licenza verificata)
+Rimuovere dalla tabella importi: Importi applicabili soltanto alla condizione del titolo accertata; non a ogni violazione comunale.
+
+
+
+
+
+
+
+Codice G22:
+Con il veicolo indicato, con C.P. n. […], rifiutava all’utente l’occupazione di posti omologati disponibili. In particolare:
+- Negava il posto […] benché libero e previsto dal documento del veicolo.
+- Altra modalità accertata: […]
+Copia del presente verbale sarà inviata all'ufficio corso pubblico.
+
+
+Rimuovere da riferimenti normativi: (se condizione della licenza verificata)
+Rimuovere dalla tabella importi: Importi applicabili soltanto alla condizione del titolo accertata; non a ogni violazione comunale.
+
+
+
+
+
+Codice G23:
+Con il veicolo indicato, C.P. n. [...], non rispettava il proprio turno di servizio, nella fattispecie appartenente al gruppo [...] con orario di servizio [...] veniva sorpreso in piena attività.
+La licenza viene ritirata e inviata all'ufficio corso pubblico con copia del verbale.
+
+
+Rimuovere da riferimenti normativi: (se condizione della licenza verificata)
+Rimuovere dalla tabella importi: Importi applicabili soltanto alla condizione del titolo accertata; non a ogni violazione comunale.
+
+
+
+
+
+
+
+
+Codice G24: 
+Titolo:
+Non rispetto dell'ordine di fila nel posteggio.
+
+Testo orientativo:
+Alla guida del veicolo indicato, con C.P. n. […], non rispettava il proprio turno di fila.
+Copia del presente verbale sarà inviata all'ufficio corso pubblico.
+
+
+Rimuovere da riferimenti normativi: (se condizione della licenza verificata)
+Rimuovere dalla tabella importi: Importi applicabili soltanto alla condizione del titolo accertata; non a ogni violazione comunale.
+
+
+
+
+
+
+Codice G26: 
+A seguito dell’avaria del veicolo indicato, con C.P. n. […], ometteva la richiesta di sostituzione prescritta. In particolare [...]
+Copia del presente verbale sarà inviata all'ufficio corso pubblico.
+
+
+Rimuovere da riferimenti normativi: (se condizione della licenza verificata)
+Rimuovere dalla tabella importi: Importi applicabili soltanto alla condizione del titolo accertata; non a ogni violazione comunale.
+
+
+
+
+
+
+
+
+Codice G29: 
+Durante il servizio taxi, sul veicolo indicato con C.P. n. […], non teneva disponibile la guida della città.
+Copia del presente verbale sarà inviata all'ufficio corso pubblico.
+
+
+Rimuovere da riferimenti normativi: (se condizione della licenza verificata)
+Rimuovere dalla tabella importi: Importi applicabili soltanto alla condizione del titolo accertata; non a ogni violazione comunale.
+
+
+
+
+
+
+Codice G34: 
+Con il veicolo indicato, con C.P. n. […], libero in servizio notturno, manteneva spento il segnale luminoso TAXI.
+Copia del presente verbale sarà inviata all'ufficio corso pubblico.
+
+
+Rimuovere da riferimenti normativi: (se condizione della licenza verificata)
+Rimuovere dalla tabella importi: Importi applicabili soltanto alla condizione del titolo accertata; non a ogni violazione comunale.
+
+
+
+
+
+
+Codice G36: 
+Con il veicolo indicato, con C.P. n. […], percorreva nella corsa […] una via diversa da quella più breve applicabile, senza specifica richiesta del cliente.
+Copia del presente verbale sarà inviata all'ufficio corso pubblico.
+
+
+Rimuovere da riferimenti normativi: (se condizione della licenza verificata)
+Rimuovere dalla tabella importi: Importi applicabili soltanto alla condizione del titolo accertata; non a ogni violazione comunale.
+
+
+
+
+
+
+Codice G43: 
+Con il veicolo indicato, con C.P. n. […], sostava fuori dal posteggio autorizzato allo scopo di acquisire clienti. In particolare:
+- Fermava il taxi in […] e offriva la corsa ai passanti […], come osservato dagli operanti.
+- Rimaneva in […] in attesa di richieste e accettava la corsa di […], come risultava da […].
+- Altra condotta di acquisizione clienti accertata: […]
+Copia del presente verbale sarà inviata all'ufficio corso pubblico.
+
+
+Rimuovere da riferimenti normativi: (se condizione della licenza verificata)
+Rimuovere dalla tabella importi: Importi applicabili soltanto alla condizione del titolo accertata; non a ogni violazione comunale.
