@@ -23,7 +23,7 @@ try{
  report.cache.migration=await page.evaluate(async()=>({reg:await sourceCached(0),manual:await sourceCached(3),worker:await activeWorkerBuild(await navigator.serviceWorker.getRegistration()),build:BUILD_ID,oldManual:!!await(await caches.open('prontuario-docs-revisione-precedente')).match(new URL(DATA.sources[3].url,location.href))}));
  assert.equal(report.cache.migration.reg,true);assert.equal(report.cache.migration.manual,false);assert.equal(report.cache.migration.oldManual,false);assert.equal(report.cache.migration.worker,report.cache.migration.build);
  const rows=await page.evaluate(()=>STATIC_LAYOUT.rows.map(({item,type})=>({id:item.id,code:item.code,type,collective:item.kind==='collective-reference'})));
- assert.equal(rows.length,187);
+ assert.equal(rows.length,190);
  for(const [width,height] of [[320,740],[360,800],[390,844],[430,932],[740,320],[800,360],[844,390],[932,430],[1440,1000]]){
   await page.setViewportSize({width,height});
   await page.evaluate(()=>{setRoadType('Taxi');showView('help');scrollTo(0,0)});
@@ -54,7 +54,7 @@ try{
     if(overflow||outside)failures.push(row.code+'/'+row.type);
     if(!row.collective){
      const f=document.getElementById('formulaText');const copy=window.prontuarioCatalogCopyText(f);
-     const revised=window.prontuarioRevisionApplies(findCase(row.id),row.type);
+     const revised=(window.prontuarioRevisionApplies(findCase(row.id),row.type)||window.prontuarioSecondApplies(findCase(row.id)));
      if(/cinque giorni per le difese|diffida alla prima|è stato|è stata/i.test(copy)||(!revised&&/Corso Pubblico/i.test(copy)))throw Error('Copia impropria '+row.code);
      const saved=navigator.clipboard.writeText.bind(navigator.clipboard);let actual;
      navigator.clipboard.writeText=async text=>{actual=text};await copyFormula(findCase(row.id),row.type);navigator.clipboard.writeText=saved;

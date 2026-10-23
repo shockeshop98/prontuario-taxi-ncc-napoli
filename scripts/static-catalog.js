@@ -177,14 +177,6 @@ window.prontuarioStaticCatalog = {
     ], other:'Altra sequenza di attesa accertata: […]',
     tail:'La durata effettivamente osservata risultava da […].'
   },
-  G51: {
-    lead:'Durante il servizio taxi collettivo, sul veicolo indicato con C.P. n. […], non esponeva in modo visibile l’avviso sui cinque minuti di attesa. In particolare:',
-    options:[
-      'L’avviso mancava nella posizione prescritta […].',
-      'L’avviso era presente ma il testo non era leggibile dall’utenza per […].'
-    ], other:'Altra irregolarità dell’avviso accertata: […]',
-    tail:'La visibilità dalla posizione degli utenti risultava da […].'
-  },
   G52: {
     lead:'Con il veicolo indicato, con C.P. n. […], effettuava servizio taxi collettivo fuori dagli stalli consentiti dall’ordinanza vigente […]. In particolare:',
     options:[

@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-21T22:30:41.782Z",
+  "baselineLocalVersion": "1.8.10",
+  "baselineDirectory": "/tmp/prontuario-1810-integrazione-PJt9XA",
+  "localOnly": true,
+  "before": {
+    "version": "1.8.10",
+    "build": "13e70cc44fc72a95e3b238c521dcb275f31c7b18e478da1d2c39976e75966691",
+    "pdf": "7.12",
+    "pdfSHA256": "3412a7cfff83007b4b96d301d2a9300712a8882f6bd69bc35f8c6585f174c661"
+  },
+  "after": {
+    "version": "1.8.11",
+    "build": "1e0d123e95dda31d9f896222f7c4caa7e7754ef18441f4058086e900726891f3",
+    "pdf": "7.13",
+    "originalRetained": true,
+    "oldManualDiscarded": true,
+    "offline": {
+      "version": "1.8.11",
+      "build": "1e0d123e95dda31d9f896222f7c4caa7e7754ef18441f4058086e900726891f3",
+      "code": "Non rispetto dell’ordine di fila nel posteggio",
+      "pdfSHA256": "5b92d8c1388e6b0be5797d9ff8f4f8f26bd6166a8daa4a9fe2e83f6dd2c6a108",
+      "moduleCached": true,
+      "secondModuleCached": true,
+      "removedAbsent": true,
+      "secondCard": "G46",
+      "newDocument": {
+        "status": 200,
+        "bytes": 186304
+      }
+    }
+  },
+  "jsErrors": []
+}

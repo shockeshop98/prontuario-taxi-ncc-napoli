@@ -1,13 +1,18 @@
 // Keep this identifier equal to BUILD_ID in index.html and build_id in version.json.
-const BUILD_ID = 'fb6b963d313f3c7f93767291989a066e7bfe655ab4a731d3ccdfd8e8d111383c';
+const BUILD_ID = '3617cb20fef453b7fd8528c2eae9382f4e9fb6303f7f8155efc05ba63ac86b9d';
 const CORE_CACHE = `prontuario-core-${BUILD_ID}`;
 const DOC_CACHE = `prontuario-docs-${BUILD_ID}`;
 const PREFIX = 'prontuario-';
 const ROOT = new URL('./', self.location.href);
-const CORE = ['index.html', 'manifest.webmanifest', 'assets/polizia-locale-napoli.png', 'assets/polizia.png', 'assets/logo-polizia-turistica.png', 'assets/icon-192.png', 'assets/icon-512.png', 'assets/icon-maskable-192.png', 'assets/icon-maskable-512.png', 'assets/apple-touch-icon.png', 'assets/favicon.ico', 'assets/favicon-16.png', 'assets/favicon-32.png', 'assets/favicon-48.png', 'assets/static-demo.css', 'scripts/static-demos.js', 'scripts/static-field-suggestions.js', 'scripts/operative-rules.js', 'scripts/static-demo-ui.js', 'scripts/taxi-collettivo.js', 'scripts/static-catalog.js', 'scripts/static-catalog-ui.js', 'scripts/revision-g01-g43.js'];
+const CORE = ['index.html', 'manifest.webmanifest', 'assets/polizia-locale-napoli.png', 'assets/polizia.png', 'assets/logo-polizia-turistica.png', 'assets/icon-192.png', 'assets/icon-512.png', 'assets/icon-maskable-192.png', 'assets/icon-maskable-512.png', 'assets/apple-touch-icon.png', 'assets/favicon.ico', 'assets/favicon-16.png', 'assets/favicon-32.png', 'assets/favicon-48.png', 'assets/static-demo.css', 'scripts/static-demos.js', 'scripts/static-field-suggestions.js', 'scripts/operative-rules.js', 'scripts/static-demo-ui.js', 'scripts/taxi-collettivo.js', 'scripts/static-catalog.js', 'scripts/static-catalog-ui.js', 'scripts/revision-g01-g43.js', 'scripts/revision-seconda-parte.js', 'scripts/revision-pausa-caldo.js', 'scripts/revision-equini-835.js'];
 const DOCS = new Set([
+  'allegati/OS835_2014_indicazioni_autore.txt',
+  'revisione/fonti-integrative/ORDSI_2025_0000571.pdf',
+  'revisione/fonti-integrative/ORDSI_00443_100624.pdf',
+  'allegati/Pausa_Taxi_2010_foto_fornita.pdf',
+  'revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf',
   'allegati/EGAF_Art85_originale.txt',
-  'allegati/EGAF_Art86_originale.pdf',
+  'allegati/EGAF_Art86_provenienza.txt',
   'allegati/Prontuario_GIT_Turistica_originale.pdf',
   'allegati/Prontuario_Taxi_NCC_Napoli.pdf',
   'allegati/Regolamento_Taxi_NCC_Napoli.pdf',
@@ -19,7 +24,7 @@ const DOCS = new Set([
   ,'allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf'
 ]);
 // Generated from the published files by scripts/update-build.py.
-const DOC_HASHES = {"allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205", "allegati/EGAF_Art85_originale.txt": "594a78b6f7cd709205d6790508b42a970588b422dbd414fafe72a42919585610", "allegati/EGAF_Art86_originale.pdf": "5031c8e106940ba867dd62681871f4861c686c479986553a580687302434e582", "allegati/Prontuario_GIT_Turistica_originale.pdf": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a", "allegati/Prontuario_Taxi_NCC_Napoli.pdf": "efc099cda3ac1bee29e4e3df44d36842cf734d4a43b0f6606d1281b7d82a4f25", "allegati/Regolamento_Taxi_NCC_Napoli.pdf": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0", "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89", "allegati/Tariffario_Taxi_2024.pdf": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055", "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18", "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a", "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5"};
+const DOC_HASHES = {"allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205", "allegati/EGAF_Art85_originale.txt": "594a78b6f7cd709205d6790508b42a970588b422dbd414fafe72a42919585610", "allegati/EGAF_Art86_provenienza.txt": "d4e1001b31347f90601b4932f531bc9a256c78a7f3d10e03dbb470ad8acc1da9", "allegati/OS835_2014_indicazioni_autore.txt": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd", "allegati/Pausa_Taxi_2010_foto_fornita.pdf": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184", "allegati/Prontuario_GIT_Turistica_originale.pdf": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a", "allegati/Prontuario_Taxi_NCC_Napoli.pdf": "c69d81aa5b4e3af8a81dc7e2da28a699b3cbf8586d464f2fa860ed9305273942", "allegati/Regolamento_Taxi_NCC_Napoli.pdf": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0", "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89", "allegati/Tariffario_Taxi_2024.pdf": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055", "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18", "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a", "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5", "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf": "4e44f34b40802ee9837f5cf07f38e09a950a6ff93ae447072cda26f289543c03", "revisione/fonti-integrative/ORDSI_00443_100624.pdf": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e", "revisione/fonti-integrative/ORDSI_2025_0000571.pdf": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042"};
 
 function relativePath(url) {
   if (url.origin !== ROOT.origin || !url.pathname.startsWith(ROOT.pathname)) return null;
@@ -56,6 +61,10 @@ self.addEventListener('activate', event => {
     const previousDocs = olderDocs.at(-1);
     for (const name of olderDocs) {
       const oldDocs = await caches.open(name);
+      // Una fonte esclusa dalla nuova pubblicazione non resta nella cache precedente.
+      for (const request of await oldDocs.keys()) {
+        if (!DOCS.has(relativePath(new URL(request.url)))) await oldDocs.delete(request);
+      }
       for (const path of DOCS) {
         const key = new URL(path, ROOT);
         const saved = await oldDocs.match(key);

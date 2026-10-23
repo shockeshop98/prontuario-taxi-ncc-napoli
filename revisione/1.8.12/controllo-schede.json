@@ -1,0 +1,3079 @@
+{
+  "data": "2026-10-23",
+  "pwa": "1.8.12",
+  "pdf": "7.14",
+  "limite": "Copertura e destinazioni attuali; nuova verifica normativa limitata ai punti del rapporto 1.8.12, senza chiudere dubbi anteriori.",
+  "schede": [
+    {
+      "codice": "G01",
+      "servizio": "Taxi",
+      "pagina_pdf": 13,
+      "titolo": "Servizio taxi senza licenza - prima violazione",
+      "riferimenti_ordinati": "CdS art.86 c.2; L.21/1992 art.8",
+      "formula": "Adibiva a servizio taxi il veicolo indicato senza la prescritta licenza. Nella fattispecie si accertava […].",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G01",
+        "servizio": "Taxi",
+        "pagina_storica": 13
+      }
+    },
+    {
+      "codice": "G02",
+      "servizio": "Taxi",
+      "pagina_pdf": 14,
+      "titolo": "Servizio taxi senza licenza - seconda violazione nel triennio",
+      "riferimenti_ordinati": "CdS art.86 c.2; L.21/1992 art.8",
+      "formula": "Adibiva a servizio taxi il veicolo indicato senza la prescritta licenza. Nella fattispecie si accertava […]. La violazione era commessa per la seconda volta in tre anni dal medesimo soggetto, come da precedente verbale n. […] per il fatto del […], accertato da […], verificato presso […] in data […].",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G02",
+        "servizio": "Taxi",
+        "pagina_storica": 14
+      }
+    },
+    {
+      "codice": "G03-01",
+      "servizio": "Taxi",
+      "pagina_pdf": 15,
+      "titolo": "Taxi: rifiuto della corsa senza motivo legittimo – prima violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 o",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G03-01",
+        "servizio": "Taxi",
+        "pagina_storica": 15
+      }
+    },
+    {
+      "codice": "G03-02",
+      "servizio": "Taxi",
+      "pagina_pdf": 16,
+      "titolo": "Taxi: rifiuto della corsa senza motivo legittimo – seconda violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 o",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G03-02",
+        "servizio": "Taxi",
+        "pagina_storica": 16
+      }
+    },
+    {
+      "codice": "G03-03",
+      "servizio": "Taxi",
+      "pagina_pdf": 17,
+      "titolo": "Taxi: rifiuto della corsa senza motivo legittimo – terza violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 o",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G03-03",
+        "servizio": "Taxi",
+        "pagina_storica": 17
+      }
+    },
+    {
+      "codice": "G03-04",
+      "servizio": "Taxi",
+      "pagina_pdf": 18,
+      "titolo": "Taxi: rifiuto della corsa senza motivo legittimo – quarta o successiva violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 o",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G03-04",
+        "servizio": "Taxi",
+        "pagina_storica": 18
+      }
+    },
+    {
+      "codice": "G04-01",
+      "servizio": "Taxi",
+      "pagina_pdf": 19,
+      "titolo": "Tariffa amministrata non rispettata – prima violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], effettuava la corsa […] applicando una tariffa difforme da quella amministrata: […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G04-01",
+        "servizio": "Taxi",
+        "pagina_storica": 19
+      }
+    },
+    {
+      "codice": "G04-02",
+      "servizio": "Taxi",
+      "pagina_pdf": 20,
+      "titolo": "Tariffa amministrata non rispettata – seconda violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], effettuava la corsa […] applicando una tariffa difforme da quella amministrata: […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G04-02",
+        "servizio": "Taxi",
+        "pagina_storica": 20
+      }
+    },
+    {
+      "codice": "G04-03",
+      "servizio": "Taxi",
+      "pagina_pdf": 21,
+      "titolo": "Tariffa amministrata non rispettata – terza violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], effettuava la corsa […] applicando una tariffa difforme da quella amministrata: […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G04-03",
+        "servizio": "Taxi",
+        "pagina_storica": 21
+      }
+    },
+    {
+      "codice": "G04-04",
+      "servizio": "Taxi",
+      "pagina_pdf": 22,
+      "titolo": "Tariffa amministrata non rispettata – quarta o successiva violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.2 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], effettuava la corsa […] applicando una tariffa difforme da quella amministrata: […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G04-04",
+        "servizio": "Taxi",
+        "pagina_storica": 22
+      }
+    },
+    {
+      "codice": "G05-01",
+      "servizio": "Taxi",
+      "pagina_pdf": 23,
+      "titolo": "Taxi di altro Comune: inizio del servizio fuori dall’area autorizzata – prima violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 artt.2, 4 c.5, 5-bis c.1-bis e 11 c.2",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G05-01",
+        "servizio": "Taxi",
+        "pagina_storica": 23
+      }
+    },
+    {
+      "codice": "G05-02",
+      "servizio": "Taxi",
+      "pagina_pdf": 24,
+      "titolo": "Taxi di altro Comune: inizio del servizio fuori dall’area autorizzata – seconda violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 artt.2, 4 c.5, 5-bis c.1-bis e 11 c.2",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G05-02",
+        "servizio": "Taxi",
+        "pagina_storica": 24
+      }
+    },
+    {
+      "codice": "G05-03",
+      "servizio": "Taxi",
+      "pagina_pdf": 25,
+      "titolo": "Taxi di altro Comune: inizio del servizio fuori dall’area autorizzata – terza violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 artt.2, 4 c.5, 5-bis c.1-bis e 11 c.2",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G05-03",
+        "servizio": "Taxi",
+        "pagina_storica": 25
+      }
+    },
+    {
+      "codice": "G05-04",
+      "servizio": "Taxi",
+      "pagina_pdf": 26,
+      "titolo": "Taxi di altro Comune: inizio del servizio fuori dall’area autorizzata – quarta o successiva violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 artt.2, 4 c.5, 5-bis c.1-bis e 11 c.2",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G05-04",
+        "servizio": "Taxi",
+        "pagina_storica": 26
+      }
+    },
+    {
+      "codice": "G06-01",
+      "servizio": "Taxi",
+      "pagina_pdf": 27,
+      "titolo": "Tassametro assente o non omologato – prima violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. Irregolarità accertata: […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G06-01",
+        "servizio": "Taxi",
+        "pagina_storica": 27
+      }
+    },
+    {
+      "codice": "G06-02",
+      "servizio": "Taxi",
+      "pagina_pdf": 28,
+      "titolo": "Tassametro assente o non omologato – seconda violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. Irregolarità accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G06-02",
+        "servizio": "Taxi",
+        "pagina_storica": 28
+      }
+    },
+    {
+      "codice": "G06-03",
+      "servizio": "Taxi",
+      "pagina_pdf": 29,
+      "titolo": "Tassametro assente o non omologato – terza violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. Irregolarità accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G06-03",
+        "servizio": "Taxi",
+        "pagina_storica": 29
+      }
+    },
+    {
+      "codice": "G06-04",
+      "servizio": "Taxi",
+      "pagina_pdf": 30,
+      "titolo": "Tassametro assente o non omologato – quarta o successiva violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.12 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 22",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza tassametro omologato. Irregolarità accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G06-04",
+        "servizio": "Taxi",
+        "pagina_storica": 30
+      }
+    },
+    {
+      "codice": "G07-01",
+      "servizio": "Taxi",
+      "pagina_pdf": 31,
+      "titolo": "Avvisi tariffari assenti o non leggibili – prima violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza rendere chiaramente leggibili all’utente gli avvisi sulle tariffe e sui supplementi. Condizione accertata: […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G07-01",
+        "servizio": "Taxi",
+        "pagina_storica": 31
+      }
+    },
+    {
+      "codice": "G07-02",
+      "servizio": "Taxi",
+      "pagina_pdf": 32,
+      "titolo": "Avvisi tariffari assenti o non leggibili – seconda violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza rendere chiaramente leggibili all’utente gli avvisi sulle tariffe e sui supplementi. Condizione accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G07-02",
+        "servizio": "Taxi",
+        "pagina_storica": 32
+      }
+    },
+    {
+      "codice": "G07-03",
+      "servizio": "Taxi",
+      "pagina_pdf": 33,
+      "titolo": "Avvisi tariffari assenti o non leggibili – terza violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza rendere chiaramente leggibili all’utente gli avvisi sulle tariffe e sui supplementi. Condizione accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G07-03",
+        "servizio": "Taxi",
+        "pagina_storica": 33
+      }
+    },
+    {
+      "codice": "G07-04",
+      "servizio": "Taxi",
+      "pagina_pdf": 34,
+      "titolo": "Avvisi tariffari assenti o non leggibili – quarta o successiva violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.12 c.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 b",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], svolgeva il servizio taxi senza rendere chiaramente leggibili all’utente gli avvisi sulle tariffe e sui supplementi. Condizione accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G07-04",
+        "servizio": "Taxi",
+        "pagina_storica": 34
+      }
+    },
+    {
+      "codice": "G08-01",
+      "servizio": "Taxi",
+      "pagina_pdf": 35,
+      "titolo": "Corrispettivo della corsa non conforme – prima violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] in difformità dalle modalità tariffarie applicabili. Condotta accertata: […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G08-01",
+        "servizio": "Taxi",
+        "pagina_storica": 35
+      }
+    },
+    {
+      "codice": "G08-02",
+      "servizio": "Taxi",
+      "pagina_pdf": 36,
+      "titolo": "Corrispettivo della corsa non conforme – seconda violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] in difformità dalle modalità tariffarie applicabili. Condotta accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G08-02",
+        "servizio": "Taxi",
+        "pagina_storica": 36
+      }
+    },
+    {
+      "codice": "G08-03",
+      "servizio": "Taxi",
+      "pagina_pdf": 37,
+      "titolo": "Corrispettivo della corsa non conforme – terza violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] in difformità dalle modalità tariffarie applicabili. Condotta accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G08-03",
+        "servizio": "Taxi",
+        "pagina_storica": 37
+      }
+    },
+    {
+      "codice": "G08-04",
+      "servizio": "Taxi",
+      "pagina_pdf": 38,
+      "titolo": "Corrispettivo della corsa non conforme – quarta o successiva violazione",
+      "riferimenti_ordinati": "CdS art.86 c.3; L.21/1992 art.13 c.1; Regolamento comunale (delibera C.C. n. 80/2005), art. 21 e 23 c.2 e",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], determinava il corrispettivo della corsa […] in difformità dalle modalità tariffarie applicabili. Condotta accertata: […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G08-04",
+        "servizio": "Taxi",
+        "pagina_storica": 38
+      }
+    },
+    {
+      "codice": "G09",
+      "servizio": "Taxi",
+      "pagina_pdf": 39,
+      "titolo": "Prelievo a meno di 100 metri dal posteggio",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.5",
+      "formula": "Con il veicolo indicato, con C.P. n. […], prelevava utenti a meno di 100 metri dal posteggio […], mentre vi erano taxi o utenti in attesa. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G09",
+        "servizio": "Taxi",
+        "pagina_storica": 39
+      }
+    },
+    {
+      "codice": "G16",
+      "servizio": "Taxi",
+      "pagina_pdf": 40,
+      "titolo": "Segni distintivi taxi irregolari",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 e e c.3",
+      "formula": "Con il veicolo indicato, con C.P. n. […], presentava segni distintivi taxi difformi dal regolamento: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G16",
+        "servizio": "Taxi",
+        "pagina_storica": 40
+      }
+    },
+    {
+      "codice": "G17",
+      "servizio": "Taxi",
+      "pagina_pdf": 41,
+      "titolo": "Uso del taxi proprio durante assegnazione auto di scorta",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 18 c.5",
+      "formula": "Durante l’assegnazione dell’auto di scorta […] al C.P. n. […] dal […] al […], utilizzava contemporaneamente anche il veicolo taxi proprio indicato per il servizio […], come accertato mediante […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G17",
+        "servizio": "Taxi",
+        "pagina_storica": 41
+      }
+    },
+    {
+      "codice": "G18",
+      "servizio": "Taxi",
+      "pagina_pdf": 42,
+      "titolo": "Allestimento irregolare dell’auto di scorta",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 18 c.7",
+      "formula": "L’auto di scorta indicata, assegnata al C.P. n. […], aveva allestimento difforme: […], rispetto alla dotazione prescritta dall’atto […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G18",
+        "servizio": "Taxi",
+        "pagina_storica": 42
+      }
+    },
+    {
+      "codice": "G22",
+      "servizio": "Taxi",
+      "pagina_pdf": 43,
+      "titolo": "Rifiuto di occupazione dei posti omologati",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 e",
+      "formula": "Con il veicolo indicato, con C.P. n. […], rifiutava all’utente l’occupazione del posto omologato […] disponibile, come accertato mediante […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G22",
+        "servizio": "Taxi",
+        "pagina_storica": 43
+      }
+    },
+    {
+      "codice": "G23",
+      "servizio": "Taxi",
+      "pagina_pdf": 44,
+      "titolo": "Mancato rispetto del turno di servizio",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 f",
+      "formula": "Con il veicolo indicato, con C.P. n. […], appartenente al gruppo […] con orario di servizio […], svolgeva il servizio taxi fuori dal proprio turno. Attività accertata in data […] alle ore […]: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G23",
+        "servizio": "Taxi",
+        "pagina_storica": 44
+      }
+    },
+    {
+      "codice": "G24",
+      "servizio": "Taxi",
+      "pagina_pdf": 45,
+      "titolo": "Non rispetto dell’ordine di fila nel posteggio",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale artt.4 c.3 e 23 c.1 lett. g; art.29 c.2 lett. a",
+      "formula": "Alla guida del veicolo indicato, con C.P. n. […], non rispettava il proprio turno di fila nel posteggio […], precedendo il taxi […] che lo precedeva nell’ordine di arrivo. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G24",
+        "servizio": "Taxi",
+        "pagina_storica": 45
+      }
+    },
+    {
+      "codice": "G26",
+      "servizio": "Taxi",
+      "pagina_pdf": 46,
+      "titolo": "Mancata richiesta di sostituzione per avaria",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 i; art.24",
+      "formula": "A seguito dell’avaria del veicolo indicato, con C.P. n. […], ometteva la richiesta di sostituzione prescritta. Circostanze accertate: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G26",
+        "servizio": "Taxi",
+        "pagina_storica": 46
+      }
+    },
+    {
+      "codice": "G29",
+      "servizio": "Taxi",
+      "pagina_pdf": 47,
+      "titolo": "Guida della città prevista dal regolamento assente",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 p",
+      "formula": "Durante il servizio taxi, sul veicolo indicato, con C.P. n. […], non teneva disponibile la guida della città. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G29",
+        "servizio": "Taxi",
+        "pagina_storica": 47
+      }
+    },
+    {
+      "codice": "G34",
+      "servizio": "Taxi",
+      "pagina_pdf": 48,
+      "titolo": "Segnale Taxi non illuminato quando prescritto",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 k",
+      "formula": "Con il veicolo indicato, con C.P. n. […], libero in servizio notturno, manteneva spento il segnale luminoso TAXI. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G34",
+        "servizio": "Taxi",
+        "pagina_storica": 48
+      }
+    },
+    {
+      "codice": "G36",
+      "servizio": "Taxi",
+      "pagina_pdf": 49,
+      "titolo": "Percorso diverso dalla via più breve",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 a",
+      "formula": "Con il veicolo indicato, con C.P. n. […], percorreva nella corsa […] la via […] anziché il percorso più breve applicabile […], senza specifica richiesta del cliente. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G36",
+        "servizio": "Taxi",
+        "pagina_storica": 49
+      }
+    },
+    {
+      "codice": "G43",
+      "servizio": "Taxi",
+      "pagina_pdf": 50,
+      "titolo": "Sosta a scopo di nolo fuori posteggio",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 m",
+      "formula": "Con il veicolo indicato, con C.P. n. […], sostava in […], fuori dal posteggio autorizzato, allo scopo di acquisire clienti. Condotta accertata: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G43",
+        "servizio": "Taxi",
+        "pagina_storica": 50
+      }
+    },
+    {
+      "codice": "G46",
+      "servizio": "Taxi",
+      "pagina_pdf": 51,
+      "titolo": "Pausa al posteggio: disco orario o posizione nello stallo",
+      "riferimenti_ordinati": "CdS art. 86, comma 3-bis (base da qualificare); ordinanza sindacale prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010, punti 1–2 (foto acquisita)",
+      "formula": "Durante la pausa nel posteggio […] con almeno cinque stalli, lasciava il veicolo indicato, con C.P. n. […], senza esporre sul parabrezza il disco orario prescritto dall’ordinanza prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010.",
+      "note_mirate": [
+        "Foto acquisita e letta: ordinanza sindacale prot. n. 11 del 7 giugno 2010; timbro progressivo annuale 1003 dell’8 giugno 2010. Originale ufficiale non reperito. La foto sostituisce le precedenti indicazioni dell’autore su questi limiti.",
+        "Punto 1: pausa per esigenze strettamente personali nei posteggi con almeno cinque stalli, per non più di due tassisti contemporaneamente e per un massimo di trenta minuti; vetture negli ultimi due posti disponibili, senza intralciare il servizio delle altre vetture, disco orario sul parabrezza. Scegliere disco, posizione o entrambe solo secondo i fatti accertati.",
+        "Punto 2: escluse tutte le aree taxi negli scali aeroportuali e ferroviari. Efficacia dalla data di attuazione della prescritta segnaletica orizzontale e verticale: documentarne presenza e corrispondenza nel posteggio concreto.",
+        "La foto non contiene un’autonoma clausola sanzionatoria. Prima del verbale qualificare la base: per l’art. 86, comma 3-bis, accertare la specifica condizione della licenza ed escludere i commi 2 e 3. Non ricavare importi o ritiro dalla sola foto.",
+        "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita."
+      ],
+      "verifica": "Revisione 23/10/2026: pausa fotografata e ordinanze caldo, rapporto 1.8.12",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G46",
+        "servizio": "Taxi",
+        "pagina_storica": 51
+      }
+    },
+    {
+      "codice": "G47",
+      "servizio": "Taxi",
+      "pagina_pdf": 52,
+      "titolo": "Pausa al posteggio oltre il tempo consentito",
+      "riferimenti_ordinati": "CdS art. 86, comma 3-bis (base da qualificare); ordinanza sindacale prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010, punti 1–2 (foto acquisita)",
+      "formula": "Nel posteggio […] con almeno cinque stalli, lasciava il veicolo indicato, con C.P. n. […], in pausa dalle ore […] alle ore […], oltre il limite di 30 minuti previsto dall’ordinanza prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010.",
+      "note_mirate": [
+        "Foto acquisita e letta: ordinanza sindacale prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010; originale ufficiale non reperito. Il punto 1 documenta il massimo di trenta minuti.",
+        "Ambito della pausa: almeno cinque stalli, non più di due tassisti contemporaneamente, esigenze strettamente personali, ultimi due posti disponibili senza intralciare il servizio, disco sul parabrezza. Punto 2: escluse le aree taxi negli scali aeroportuali e ferroviari; efficacia subordinata alla segnaletica orizzontale e verticale.",
+        "Annotare inizio, permanenza finale e fonte del rilievo; non dedurre il superamento dal solo veicolo trovato in sosta. Verificare disco, numero dei tassisti in pausa, posti e segnaletica. Non applicare questa autorizzazione di pausa negli scali esclusi.",
+        "La foto non contiene un’autonoma clausola sanzionatoria. Prima del verbale qualificare la base; per l’art. 86, comma 3-bis, riscontrare la specifica condizione della licenza, escludendo i commi 2 e 3. Importi e ritiro non automatici.",
+        "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.",
+        "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita."
+      ],
+      "verifica": "Revisione 23/10/2026: pausa fotografata e ordinanze caldo, rapporto 1.8.12",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G47",
+        "servizio": "Taxi",
+        "pagina_storica": 52
+      }
+    },
+    {
+      "codice": "G48",
+      "servizio": "Taxi",
+      "pagina_pdf": 53,
+      "titolo": "Cambio turno: cartellini identificativi non esposti",
+      "riferimenti_ordinati": "CdS art. 86, comma 3-bis; O.D. n. 178 del 13/02/2019, punto 3.D.2, riportato nell’O.D. n. 3 del 22/03/2021 (OD/2021/0000298), p. 4; O.D. n. 3/2021, dispositivo punti 1 e 2",
+      "formula": "In occasione del cambio turno […], sul veicolo indicato con C.P. n. […], non esponeva sul vetro anteriore il cartellino identificativo prescritto.",
+      "note_mirate": [
+        "Documento acquisito: O.D. n. 3 del 22/03/2021, registrazione OD/2021/0000298. A p. 4 riporta la disciplina O.D. 178 del 13/02/2019, punto 3.D.2: cartellini ben visibili sul vetro anteriore e posteriore. L’originale autonomo 2019 e i prototipi non sono acquisiti.",
+        "La formula riguarda la mancata esposizione: scegliere anteriore, posteriore o entrambi secondo il riscontro. Alterazione o contraffazione dei cartellini è una condotta distinta, da documentare e qualificare separatamente; non attestare un falso dalla sola assenza.",
+        "Dispositivo 2021, punti 1 e 2, p. 5: sospensione del diritto al cambio turno per 6/12/24 mesi alla prima/seconda/terza infrazione, riferita al conducente autore, titolare o sostituto. Riscontrare precedenti pertinenti; provvedimento dell’autorità competente, non sospensione della licenza né adozione automatica degli operatori. Punto 3: anzianità per il cambio turno ridotta a 12 mesi.",
+        "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.",
+        "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita."
+      ],
+      "verifica": "Integrazione 22/10/2026; riscontri documentali e indicazioni dell’autore nel rapporto 1.8.11",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G48",
+        "servizio": "Taxi",
+        "pagina_storica": 53
+      }
+    },
+    {
+      "codice": "G49",
+      "servizio": "Taxi",
+      "pagina_pdf": 54,
+      "titolo": "Taxi fuori servizio nello stallo riservato",
+      "riferimenti_ordinati": "CdS art. 158, comma 2, lett. d e comma 5-bis; CdS art. 159, comma 1, lett. b; CdS art. 126-bis e tabella allegata; D.Lgs. 19 novembre 1997, n. 422, art. 14, comma 6; Regolamento comunale (delibera C.C. n. 80/2005), art. 26",
+      "formula": "Con il veicolo indicato, con C.P. n. […], sostava fuori servizio nello spazio riservato ai taxi. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.",
+      "note_mirate": [
+        "L’autore conferma l’impostazione operativa: negli stalli taxi possono sostare soltanto taxi in servizio. Applicarla al caso concreto dopo verifica della segnaletica e dello stato del servizio; distinguere il fuori servizio da una pausa autorizzata.",
+        "Art. 158, comma 2, lett. d e comma 5-bis: € 165–660; PMR € 165; € 115,50 entro cinque giorni ex art. 202. € 330 ex art. 203, comma 3, in assenza di pagamento e ricorso, oltre spese. Rimozione ex art. 159, comma 1, lett. b; 2 punti ex tabella art. 126-bis.",
+        "Il D.Lgs. 422/1997, art. 14, comma 6, consente l’uso proprio fuori servizio, senza autorizzare automaticamente la sosta nello spazio riservato al servizio. La regola operativa sull’uso degli stalli deriva dalla precisazione dell’autore; non è stata acquisita una nuova ordinanza locale su tale punto."
+      ],
+      "verifica": "Integrazione 22/10/2026; riscontri documentali e indicazioni dell’autore nel rapporto 1.8.11",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G49",
+        "servizio": "Taxi",
+        "pagina_storica": 54
+      }
+    },
+    {
+      "codice": "G50",
+      "servizio": "Taxi",
+      "pagina_pdf": 55,
+      "titolo": "Taxi collettivo: mancata partenza oltre 15 minuti",
+      "riferimenti_ordinati": "CdS art. 86, comma 3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 19, comma 4; O.D. n. 1 del 16/04/2019, punto 4.3; O.D. n. 10 del 01/12/2025; O.D. n. 9 del 06/08/2026",
+      "formula": "Nel servizio taxi collettivo, con il veicolo indicato e C.P. n. […], permaneva in attesa senza partire oltre 15 minuti dall’arrivo dei primi tre passeggeri. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.",
+      "note_mirate": [
+        "Condotta confermata dall’autore: mancata partenza con permanenza in attesa oltre 15 minuti dall’arrivo dei primi tre passeggeri. O.D. 1/2019, punto 4.3, p. 2; non sostituire arrivo con salita.",
+        "Campi di accertamento: arrivo dei primi tre alle ore […]; permanenza senza partenza accertata alle ore […]; fonte del rilievo […]. Verificare che siano trascorsi più di 15 minuti.",
+        "Tratta Aeroporto–Stazione Centrale–Molo Beverello; O.D. 10/2025 proroga al 31/12/2026 e O.D. 9/2026 integrazione temporanea sui posti conservate. Il diverso limite generale dell’art. 19, comma 4, e gli ulteriori quesiti TC01 restano distinti: l’indicazione operativa non riscrive il regolamento né prova atti non acquisiti.",
+        "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta."
+      ],
+      "verifica": "Integrazione 22/10/2026; riscontri documentali e indicazioni dell’autore nel rapporto 1.8.11",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G50",
+        "servizio": "Taxi",
+        "pagina_storica": 55
+      }
+    },
+    {
+      "codice": "G52",
+      "servizio": "Taxi",
+      "pagina_pdf": 56,
+      "titolo": "Taxi collettivo in stallo non consentito",
+      "riferimenti_ordinati": "CdS art. 86, comma 3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 19; O.D. n. 1 del 16/04/2019; O.D. n. 10 del 01/12/2025; O.D. n. 9 del 06/08/2026",
+      "formula": "Con il veicolo indicato, con C.P. n. […], effettuava servizio taxi collettivo fuori dagli stalli consentiti dall’ordinanza vigente. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.",
+      "note_mirate": [
+        "Art. 86, comma 3-bis: individuare specifica condizione della licenza, fonte ed efficacia; escludere i commi 2 e 3. L’ordinanza da sola non dimostra l’incorporazione nel titolo.",
+        "O.D. 1/2019, punti 2 e 5: Aeroporto, area ex NCC presso rotonda viale Ruffo di Calabria, 4 posti; corso Novara n. 3, 2; corso Arnaldo Lucci presso ingresso Metropark, 3; Molo Beverello, via C. Colombo presso semaforo/fermata ANM, 5. Efficacia dall’installazione della segnaletica. Proroga O.D. 10/2025 al 31/12/2026; integrazione posti O.D. 9/2026. Verificare segnaletica e atti successivi del luogo; coordinare con TC01.",
+        "Gli stalli sono documentalmente individuati al punto 2 dell’O.D. 1/2019. La verifica sul posto della segnaletica e di eventuali modifiche successive resta distinta: non è sconosciuta l’individuazione dell’atto."
+      ],
+      "verifica": "Integrazione 22/10/2026; riscontri documentali e indicazioni dell’autore nel rapporto 1.8.11",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G52",
+        "servizio": "Taxi",
+        "pagina_storica": 57
+      }
+    },
+    {
+      "codice": "TC01",
+      "servizio": "Taxi",
+      "pagina_pdf": 57,
+      "titolo": "Taxi collettivo — Aeroporto, Stazione Centrale, Molo Beverello",
+      "riferimenti_ordinati": "Regolamento comunale – delibera C.C. n. 80/2005, art. 19; O.D. n. 1 del 16/04/2019; O.D. n. 10 del 01/12/2025; O.D. n. 9 del 06/08/2026",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "TC01",
+        "servizio": "Taxi",
+        "pagina_storica": 58
+      }
+    },
+    {
+      "codice": "I01",
+      "servizio": "Taxi",
+      "pagina_pdf": 58,
+      "titolo": "Tassametro non attivato durante il servizio",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 m",
+      "formula": "All’inizio della corsa […], con il veicolo indicato e C.P. n. […], non attivava il tassametro.",
+      "note_mirate": [
+        "Conservare l’eccezione della tariffa predeterminata legittimamente richiesta; per il collettivo verificare gli atti e TC01. Non attesta un illecito la sola mancata attivazione nei casi in cui non è dovuta.",
+        "Voce aggiunta dal regolamento fornito; non era una scheda autonoma nell’originale.",
+        "I punti e i provvedimenti dell’art.29 riguardano la licenza comunale; non sono punti della patente o atti già disposti.",
+        "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta."
+      ],
+      "verifica": "Integrazione 22/10/2026; riscontri documentali e indicazioni dell’autore nel rapporto 1.8.11",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "I01",
+        "servizio": "Taxi",
+        "pagina_storica": 59
+      }
+    },
+    {
+      "codice": "I09",
+      "servizio": "Taxi",
+      "pagina_pdf": 59,
+      "titolo": "Sostituzione taxi con comunicazione irregolare",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 cc.2-4",
+      "formula": "Il titolare del C.P. n. […] impiegava il sostituto […] senza […].",
+      "note_mirate": [
+        "Compilazione del gestionale secondo l’indicazione dell’autore: titolare della licenza nel campo trasgressore; medesimo titolare nel campo obbligato solidale; conducente nel campo altri soggetti, se persona diversa. La duplicazione dei campi è tecnica, non prova che una persona sia solidale con sé stessa.",
+        "Accertare la responsabilità personale dell’omissione e quale comunicazione o documento manca. Art. 7 comunale: comunicazione immediata, documentazione entro 48 ore; verificare cooperativa o consorzio per licenza conferita. Seconda guida in turno aggiuntivo distinta: T01.",
+        "L’art. 86, comma 3-bis, riguarda chi guida: nessuna sanzione al titolare non conducente è dedotta dalla compilazione del gestionale. Restano da chiarire identificativi dei ruoli e produzione del verbale nel gestionale; nessun manuale o disposizione del gestionale acquisito.",
+        "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.",
+        "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita."
+      ],
+      "verifica": "Integrazione 22/10/2026; riscontri documentali e indicazioni dell’autore nel rapporto 1.8.11",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "I09",
+        "servizio": "Taxi",
+        "pagina_storica": 60
+      }
+    },
+    {
+      "codice": "R01",
+      "servizio": "Taxi",
+      "pagina_pdf": 60,
+      "titolo": "Prelievo radiotaxi fuori dal punto segnalato",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.6",
+      "formula": "Con il veicolo indicato, con C.P. n. […], prelevava l’utente per la chiamata radiotaxi fuori dai punti “prelievo chiamata radiotaxi” predisposti con apposita segnaletica.",
+      "note_mirate": [
+        "L’autore comunica che i punti radiotaxi non sono attualmente installati. Scheda conservata per consultazione e futura attivazione: applicabile soltanto dopo l’istituzione e l’attivazione dei punti con apposita segnaletica.",
+        "Art. 4, comma 6, del regolamento: attesa degli utenti e punti presso stazioni ferroviarie, marittime e aeroportuali; i 50 metri riguardano la localizzazione dei punti. In assenza dei punti non presentare la condotta come attualmente contestabile. Eventuale futura applicazione richiede atto, segnaletica attiva e precisa base riferita al conducente.",
+        "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta."
+      ],
+      "verifica": "Integrazione 22/10/2026; riscontri documentali e indicazioni dell’autore nel rapporto 1.8.11",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R01",
+        "servizio": "Taxi",
+        "pagina_storica": 61
+      }
+    },
+    {
+      "codice": "R07",
+      "servizio": "Taxi",
+      "pagina_pdf": 61,
+      "titolo": "Colore della vettura taxi non conforme",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 a",
+      "formula": "Il veicolo indicato, con C.P. n. […], aveva colorazione difforme dalle prescrizioni imposte dalla normativa vigente. Difformità e prescrizione violata: […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.",
+      "note_mirate": [
+        "Indicare difformità concreta e prescrizione applicabile al mezzo, considerando il regime del veicolo e del titolo.",
+        "Il requisito va riferito alle autovetture e alla disciplina applicabile al mezzo.",
+        "L’art.29 non elenca la lettera a del comma 1: nessun gruppo disciplinare per analogia.",
+        "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta."
+      ],
+      "verifica": "Integrazione 22/10/2026; riscontri documentali e indicazioni dell’autore nel rapporto 1.8.11",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R07",
+        "servizio": "Taxi",
+        "pagina_storica": 62
+      }
+    },
+    {
+      "codice": "R08",
+      "servizio": "Taxi",
+      "pagina_pdf": 62,
+      "titolo": "Contrassegno luminoso TAXI sul tetto assente",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis se condizione del titolo; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 b",
+      "formula": "Durante il servizio taxi, il veicolo indicato con C.P. n. […] era privo del contrassegno luminoso TAXI sul tetto. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.",
+      "note_mirate": [
+        "Distinguere assenza materiale del contrassegno da segnale spento in servizio notturno e occultamento lecito durante l’uso proprio.",
+        "EGAF nota 12 indica l’assenza del contrassegno luminoso come esempio residuale.",
+        "Distinguere assenza materiale, mancata illuminazione notturna e occultamento durante uso privato.",
+        "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta."
+      ],
+      "verifica": "Integrazione 22/10/2026; riscontri documentali e indicazioni dell’autore nel rapporto 1.8.11",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R08",
+        "servizio": "Taxi",
+        "pagina_storica": 63
+      }
+    },
+    {
+      "codice": "R11",
+      "servizio": "Taxi",
+      "pagina_pdf": 63,
+      "titolo": "Dispositivo antinquinamento taxi mancante o difforme",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 h",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R11",
+        "servizio": "Taxi",
+        "pagina_storica": 64
+      }
+    },
+    {
+      "codice": "R13",
+      "servizio": "Taxi",
+      "pagina_pdf": 64,
+      "titolo": "Documenti dell’auto di scorta non a bordo",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 18 c.3",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R13",
+        "servizio": "Taxi",
+        "pagina_storica": 65
+      }
+    },
+    {
+      "codice": "R14",
+      "servizio": "Taxi",
+      "pagina_pdf": 65,
+      "titolo": "Assegnazione auto di scorta senza registro o fuori ordine",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 18 cc.4 e 8 c",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R14",
+        "servizio": "Taxi",
+        "pagina_storica": 66
+      }
+    },
+    {
+      "codice": "R15",
+      "servizio": "Taxi",
+      "pagina_pdf": 66,
+      "titolo": "Auto di scorta ceduta o concessa a soggetti non ammessi",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 18 cc.6 e 8 d",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R15",
+        "servizio": "Taxi",
+        "pagina_storica": 67
+      }
+    },
+    {
+      "codice": "R16",
+      "servizio": "Taxi",
+      "pagina_pdf": 67,
+      "titolo": "Taxi collettivo senza insegna o display prescritto",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 19 c.1",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R16",
+        "servizio": "Taxi",
+        "pagina_storica": 68
+      }
+    },
+    {
+      "codice": "R19",
+      "servizio": "Taxi",
+      "pagina_pdf": 68,
+      "titolo": "Sigillo tassametro rimosso senza autorizzazione",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 22 cc.1 e 4",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R19",
+        "servizio": "Taxi",
+        "pagina_storica": 69
+      }
+    },
+    {
+      "codice": "R20",
+      "servizio": "Taxi",
+      "pagina_pdf": 69,
+      "titolo": "Intervento sul tassametro effettuato da officina non autorizzata",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 22 cc.4-5",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R20",
+        "servizio": "Taxi",
+        "pagina_storica": 70
+      }
+    },
+    {
+      "codice": "R21",
+      "servizio": "Taxi",
+      "pagina_pdf": 70,
+      "titolo": "Tassametro non verificato dopo intervento o alla scadenza",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 22 cc.3-4; Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.3",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R21",
+        "servizio": "Taxi",
+        "pagina_storica": 71
+      }
+    },
+    {
+      "codice": "R26",
+      "servizio": "Taxi",
+      "pagina_pdf": 71,
+      "titolo": "Tassametro non arrestato a fine corsa o importo non mostrato",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 m",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R26",
+        "servizio": "Taxi",
+        "pagina_storica": 72
+      }
+    },
+    {
+      "codice": "R28",
+      "servizio": "Taxi",
+      "pagina_pdf": 72,
+      "titolo": "Uso privato del taxi con insegna non occultata",
+      "riferimenti_ordinati": "D.Lgs.422/1997 art.14 c.6; Regolamento comunale (delibera C.C. n. 80/2005), art. 26",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R28",
+        "servizio": "Taxi",
+        "pagina_storica": 73
+      }
+    },
+    {
+      "codice": "T01",
+      "servizio": "Taxi",
+      "pagina_pdf": 73,
+      "titolo": "Taxi: seconda guida in turno aggiuntivo e comunicazione",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis (solo se condizione della licenza accertata); L.21/1992 art.10 c.5-ter",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "T01",
+        "servizio": "Taxi",
+        "pagina_storica": 74
+      }
+    },
+    {
+      "codice": "G10",
+      "servizio": "Taxi",
+      "pagina_pdf": 74,
+      "titolo": "Polizza con uso privato anziché uso pubblico",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; CdS art.193 solo se ne ricorrono i presupposti; Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.3 g",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G10",
+        "servizio": "Taxi",
+        "pagina_storica": 75
+      }
+    },
+    {
+      "codice": "G11",
+      "servizio": "Taxi",
+      "pagina_pdf": 75,
+      "titolo": "Comunicazione di conferimento recesso o decadenza",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.7",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G11",
+        "servizio": "Taxi",
+        "pagina_storica": 76
+      }
+    },
+    {
+      "codice": "G12",
+      "servizio": "Taxi",
+      "pagina_pdf": 76,
+      "titolo": "Inosservanza di un provvedimento sul titolo",
+      "riferimenti_ordinati": "CdS art.86 c.2 oppure art.85 c.4 se titolo sospeso o revocato; Provvedimento specifico",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G12",
+        "servizio": "Taxi",
+        "pagina_storica": 77
+      }
+    },
+    {
+      "codice": "G13",
+      "servizio": "Taxi",
+      "pagina_pdf": 77,
+      "titolo": "Vidimazione quinquennale omessa",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.1",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G13",
+        "servizio": "Taxi",
+        "pagina_storica": 78
+      }
+    },
+    {
+      "codice": "G14",
+      "servizio": "Taxi",
+      "pagina_pdf": 78,
+      "titolo": "Visita tecnica comunale omessa",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 16 cc.3 e 4",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G14",
+        "servizio": "Taxi",
+        "pagina_storica": 79
+      }
+    },
+    {
+      "codice": "G15",
+      "servizio": "Taxi",
+      "pagina_pdf": 79,
+      "titolo": "Strumenti o dispositivi del veicolo irregolari",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; specifica disposizione CdS da individuare; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 d; c.2 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G15",
+        "servizio": "Taxi",
+        "pagina_storica": 80
+      }
+    },
+    {
+      "codice": "G19",
+      "servizio": "Taxi",
+      "pagina_pdf": 80,
+      "titolo": "Licenza o autorizzazione non a bordo",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 a; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G19",
+        "servizio": "Taxi",
+        "pagina_storica": 81
+      }
+    },
+    {
+      "codice": "G20",
+      "servizio": "Taxi",
+      "pagina_pdf": 81,
+      "titolo": "Comportamento scorretto durante il servizio",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 c; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G20",
+        "servizio": "Taxi",
+        "pagina_storica": 82
+      }
+    },
+    {
+      "codice": "G21",
+      "servizio": "Taxi",
+      "pagina_pdf": 82,
+      "titolo": "Inosservanza di disposizioni impartite dagli agenti",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 d; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G21",
+        "servizio": "Taxi",
+        "pagina_storica": 83
+      }
+    },
+    {
+      "codice": "G25",
+      "servizio": "Taxi",
+      "pagina_pdf": 83,
+      "titolo": "Pulizia ed efficienza del veicolo",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 h; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G25",
+        "servizio": "Taxi",
+        "pagina_storica": 84
+      }
+    },
+    {
+      "codice": "G27",
+      "servizio": "Taxi",
+      "pagina_pdf": 84,
+      "titolo": "Tassametro o contachilometri inefficienti",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 l; c.3 per NCC nei limiti pertinenti",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G27",
+        "servizio": "Taxi",
+        "pagina_storica": 85
+      }
+    },
+    {
+      "codice": "G28-01",
+      "servizio": "Taxi",
+      "pagina_pdf": 85,
+      "titolo": "Ricevuta ordinaria non rilasciata a fine corsa nonostante la richiesta",
+      "riferimenti_ordinati": "CdS art. 86, comma 3-bis; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. n.",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G28-01",
+        "servizio": "Taxi",
+        "pagina_storica": 86
+      }
+    },
+    {
+      "codice": "G28-02",
+      "servizio": "Taxi",
+      "pagina_pdf": 86,
+      "titolo": "Ricevuta della tariffa predeterminata non rilasciata prima della partenza",
+      "riferimenti_ordinati": "CdS art. 86, comma 3-bis (ipotesi da qualificare); D.D. n. 72 del 10/02/2012, punto 7, lett. b (originale non acquisito)",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G28-02",
+        "servizio": "Taxi",
+        "pagina_storica": 87
+      }
+    },
+    {
+      "codice": "G28-03",
+      "servizio": "Taxi",
+      "pagina_pdf": 87,
+      "titolo": "Ricevuta rilasciata su modello non autorizzato",
+      "riferimenti_ordinati": "CdS art. 86, comma 3-bis (ipotesi da qualificare); D.D. n. 72 del 10/02/2012 (originale non acquisito)",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G28-03",
+        "servizio": "Taxi",
+        "pagina_storica": 88
+      }
+    },
+    {
+      "codice": "G28-04",
+      "servizio": "Taxi",
+      "pagina_pdf": 88,
+      "titolo": "Ricevuta del modello comunale compilata in modo incompleto",
+      "riferimenti_ordinati": "CdS art. 86, comma 3-bis (ipotesi da qualificare); D.D. n. 72 del 10/02/2012 (originale non acquisito)",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G28-04",
+        "servizio": "Taxi",
+        "pagina_storica": 89
+      }
+    },
+    {
+      "codice": "G30",
+      "servizio": "Taxi",
+      "pagina_pdf": 89,
+      "titolo": "Chiarimenti sul prezzo non forniti",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 q; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G30",
+        "servizio": "Taxi",
+        "pagina_storica": 90
+      }
+    },
+    {
+      "codice": "G31",
+      "servizio": "Taxi",
+      "pagina_pdf": 90,
+      "titolo": "Abbigliamento non conforme al servizio",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 r; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G31",
+        "servizio": "Taxi",
+        "pagina_storica": 91
+      }
+    },
+    {
+      "codice": "G32",
+      "servizio": "Taxi",
+      "pagina_pdf": 91,
+      "titolo": "Sospensione patente o ritiro documento non comunicati",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 s; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G32",
+        "servizio": "Taxi",
+        "pagina_storica": 92
+      }
+    },
+    {
+      "codice": "G33",
+      "servizio": "Taxi",
+      "pagina_pdf": 92,
+      "titolo": "Prosecuzione della corsa con tassametro in avaria",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 t; c.3 per NCC nei limiti pertinenti",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G33",
+        "servizio": "Taxi",
+        "pagina_storica": 93
+      }
+    },
+    {
+      "codice": "G35",
+      "servizio": "Taxi",
+      "pagina_pdf": 93,
+      "titolo": "Oggetti dimenticati non restituiti o depositati",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 j; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G35",
+        "servizio": "Taxi",
+        "pagina_storica": 94
+      }
+    },
+    {
+      "codice": "G37",
+      "servizio": "Taxi",
+      "pagina_pdf": 94,
+      "titolo": "Trasporto di persone estranee alla richiesta",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 b; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G37",
+        "servizio": "Taxi",
+        "pagina_storica": 95
+      }
+    },
+    {
+      "codice": "G38",
+      "servizio": "Taxi",
+      "pagina_pdf": 95,
+      "titolo": "Animali del conducente in vettura",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 c; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G38",
+        "servizio": "Taxi",
+        "pagina_storica": 96
+      }
+    },
+    {
+      "codice": "G39",
+      "servizio": "Taxi",
+      "pagina_pdf": 96,
+      "titolo": "Interruzione ingiustificata della corsa",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 d; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G39",
+        "servizio": "Taxi",
+        "pagina_storica": 97
+      }
+    },
+    {
+      "codice": "G40",
+      "servizio": "Taxi",
+      "pagina_pdf": 97,
+      "titolo": "Rifiuto di bagagli entro la capienza",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 f; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G40",
+        "servizio": "Taxi",
+        "pagina_storica": 98
+      }
+    },
+    {
+      "codice": "G41",
+      "servizio": "Taxi",
+      "pagina_pdf": 98,
+      "titolo": "Rifiuto di ausili per la mobilità o cane guida",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G41",
+        "servizio": "Taxi",
+        "pagina_storica": 99
+      }
+    },
+    {
+      "codice": "G42",
+      "servizio": "Taxi",
+      "pagina_pdf": 99,
+      "titolo": "Schiamazzi o consumo di cibo al posteggio",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 i; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G42",
+        "servizio": "Taxi",
+        "pagina_storica": 100
+      }
+    },
+    {
+      "codice": "G44",
+      "servizio": "Taxi",
+      "pagina_pdf": 100,
+      "titolo": "Conduzione consentita a persona non autorizzata",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 6 e 7; 23 c.2 k e c.3",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G44",
+        "servizio": "Taxi",
+        "pagina_storica": 101
+      }
+    },
+    {
+      "codice": "G45",
+      "servizio": "Taxi",
+      "pagina_pdf": 101,
+      "titolo": "Fumo durante la corsa",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 j; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G45",
+        "servizio": "Taxi",
+        "pagina_storica": 102
+      }
+    },
+    {
+      "codice": "G53",
+      "servizio": "Taxi",
+      "pagina_pdf": 102,
+      "titolo": "Rifiuto del pagamento elettronico",
+      "riferimenti_ordinati": "D.L.179/2012 art.15 cc.4 e 4-bis, come modificato nel 2026",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G53",
+        "servizio": "Taxi",
+        "pagina_storica": 103
+      }
+    },
+    {
+      "codice": "G54",
+      "servizio": "Taxi",
+      "pagina_pdf": 103,
+      "titolo": "Esercizio senza iscrizione al ruolo conducenti",
+      "riferimenti_ordinati": "L.R. Campania 10/2024 art.21 cc.1 e 2; art.19 c.3",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G54",
+        "servizio": "Taxi",
+        "pagina_storica": 104
+      }
+    },
+    {
+      "codice": "I06",
+      "servizio": "Taxi",
+      "pagina_pdf": 104,
+      "titolo": "Trasferimento accessorio per ospiti di struttura ricettiva",
+      "riferimenti_ordinati": "L.R.10/2024 art.13-bis introdotto dalla L.R.7/2026",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "I06",
+        "servizio": "Taxi",
+        "pagina_storica": 105
+      }
+    },
+    {
+      "codice": "I08",
+      "servizio": "Taxi",
+      "pagina_pdf": 105,
+      "titolo": "Tassametro o contachilometri alterati",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 h; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "I08",
+        "servizio": "Taxi",
+        "pagina_storica": 106
+      }
+    },
+    {
+      "codice": "R02",
+      "servizio": "Taxi",
+      "pagina_pdf": 106,
+      "titolo": "Elenco di collaboratori e sostituti non allegato al titolo",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R02",
+        "servizio": "Taxi",
+        "pagina_storica": 107
+      }
+    },
+    {
+      "codice": "R03",
+      "servizio": "Taxi",
+      "pagina_pdf": 107,
+      "titolo": "Collaboratori o sostituti non comunicati al Comune",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R03",
+        "servizio": "Taxi",
+        "pagina_storica": 108
+      }
+    },
+    {
+      "codice": "R05",
+      "servizio": "Taxi",
+      "pagina_pdf": 108,
+      "titolo": "Servizio non iniziato nel termine di sessanta giorni",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 15 cc.1-2; art.32",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R05",
+        "servizio": "Taxi",
+        "pagina_storica": 109
+      }
+    },
+    {
+      "codice": "R06",
+      "servizio": "Taxi",
+      "pagina_pdf": 109,
+      "titolo": "Vettura sostitutiva non immessa in servizio entro dieci giorni",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 15 c.4",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R06",
+        "servizio": "Taxi",
+        "pagina_storica": 110
+      }
+    },
+    {
+      "codice": "R09",
+      "servizio": "Taxi",
+      "pagina_pdf": 110,
+      "titolo": "Bagagliaio non idoneo alle dotazioni richieste",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 f; c.2 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R09",
+        "servizio": "Taxi",
+        "pagina_storica": 111
+      }
+    },
+    {
+      "codice": "R10",
+      "servizio": "Taxi",
+      "pagina_pdf": 111,
+      "titolo": "Numero di posti omologati non conforme al regolamento",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 g; c.2 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R10",
+        "servizio": "Taxi",
+        "pagina_storica": 112
+      }
+    },
+    {
+      "codice": "R12",
+      "servizio": "Taxi",
+      "pagina_pdf": 112,
+      "titolo": "Pubblicità sul veicolo senza autorizzazione comunale",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 j; c.2 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R12",
+        "servizio": "Taxi",
+        "pagina_storica": 113
+      }
+    },
+    {
+      "codice": "R22",
+      "servizio": "Taxi",
+      "pagina_pdf": 113,
+      "titolo": "Sospensione del servizio non comunicata entro cinque giorni",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 c.5 per taxi",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R22",
+        "servizio": "Taxi",
+        "pagina_storica": 114
+      }
+    },
+    {
+      "codice": "R23",
+      "servizio": "Taxi",
+      "pagina_pdf": 114,
+      "titolo": "Cambio di domicilio non comunicato entro cinque giorni",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R23",
+        "servizio": "Taxi",
+        "pagina_storica": 115
+      }
+    },
+    {
+      "codice": "R24",
+      "servizio": "Taxi",
+      "pagina_pdf": 115,
+      "titolo": "Regole del gestore di area ferroviaria portuale o aeroportuale violate",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.5",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R24",
+        "servizio": "Taxi",
+        "pagina_storica": 116
+      }
+    },
+    {
+      "codice": "R25",
+      "servizio": "Taxi",
+      "pagina_pdf": 116,
+      "titolo": "Supplemento richiesto per ausili di mobilità o cane guida",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R25",
+        "servizio": "Taxi",
+        "pagina_storica": 117
+      }
+    },
+    {
+      "codice": "R27",
+      "servizio": "Taxi",
+      "pagina_pdf": 117,
+      "titolo": "Importo o supplementi indebiti dopo interruzione per avaria",
+      "riferimenti_ordinati": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 24; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 e per taxi",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R27",
+        "servizio": "Taxi",
+        "pagina_storica": 118
+      }
+    },
+    {
+      "codice": "R29",
+      "servizio": "Taxi",
+      "pagina_pdf": 118,
+      "titolo": "Trasferimento o subentro del titolo irregolare",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 14; art.31 c.1 b",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R29",
+        "servizio": "Taxi",
+        "pagina_storica": 119
+      }
+    },
+    {
+      "codice": "R30",
+      "servizio": "Taxi",
+      "pagina_pdf": 119,
+      "titolo": "Requisiti del titolare non più presenti",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.3; artt.30 e 31 c.1 a",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R30",
+        "servizio": "Taxi",
+        "pagina_storica": 120
+      }
+    },
+    {
+      "codice": "R31",
+      "servizio": "Taxi",
+      "pagina_pdf": 120,
+      "titolo": "Servizio ingiustificatamente sospeso per un mese",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 31 c.1 c; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 cc.5-6",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R31",
+        "servizio": "Taxi",
+        "pagina_storica": 121
+      }
+    },
+    {
+      "codice": "R35",
+      "servizio": "Taxi",
+      "pagina_pdf": 121,
+      "titolo": "Utente che fuma o mangia in vettura",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.6 a",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R35",
+        "servizio": "Taxi",
+        "pagina_storica": 122
+      }
+    },
+    {
+      "codice": "R36",
+      "servizio": "Taxi",
+      "pagina_pdf": 122,
+      "titolo": "Utente che getta oggetti dal veicolo",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.6 b",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R36",
+        "servizio": "Taxi",
+        "pagina_storica": 123
+      }
+    },
+    {
+      "codice": "R37",
+      "servizio": "Taxi",
+      "pagina_pdf": 123,
+      "titolo": "Utente che pretende trasporto di animale senza cautele",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.6 c",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R37",
+        "servizio": "Taxi",
+        "pagina_storica": 124
+      }
+    },
+    {
+      "codice": "R38",
+      "servizio": "Taxi",
+      "pagina_pdf": 124,
+      "titolo": "Utente che pretende trasporto di cose o animali non sicuro",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.6 d",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R38",
+        "servizio": "Taxi",
+        "pagina_storica": 125
+      }
+    },
+    {
+      "codice": "G10",
+      "servizio": "NCC",
+      "pagina_pdf": 125,
+      "titolo": "Polizza con uso privato anziché uso pubblico",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); CdS art.193 solo se ne ricorrono i presupposti; Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.3 g",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G10",
+        "servizio": "NCC",
+        "pagina_storica": 126
+      }
+    },
+    {
+      "codice": "G11",
+      "servizio": "NCC",
+      "pagina_pdf": 126,
+      "titolo": "Comunicazione di conferimento recesso o decadenza",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.7",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G11",
+        "servizio": "NCC",
+        "pagina_storica": 127
+      }
+    },
+    {
+      "codice": "G12",
+      "servizio": "NCC",
+      "pagina_pdf": 127,
+      "titolo": "Inosservanza di un provvedimento sul titolo",
+      "riferimenti_ordinati": "CdS art.86 c.2 oppure art.85 c.4 se titolo sospeso o revocato; Provvedimento specifico",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G12",
+        "servizio": "NCC",
+        "pagina_storica": 128
+      }
+    },
+    {
+      "codice": "G13",
+      "servizio": "NCC",
+      "pagina_pdf": 128,
+      "titolo": "Vidimazione quinquennale omessa",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.1",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G13",
+        "servizio": "NCC",
+        "pagina_storica": 129
+      }
+    },
+    {
+      "codice": "G14",
+      "servizio": "NCC",
+      "pagina_pdf": 129,
+      "titolo": "Visita tecnica comunale omessa",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 16 cc.3 e 4",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G14",
+        "servizio": "NCC",
+        "pagina_storica": 130
+      }
+    },
+    {
+      "codice": "G15",
+      "servizio": "NCC",
+      "pagina_pdf": 130,
+      "titolo": "Strumenti o dispositivi del veicolo irregolari",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); specifica disposizione CdS da individuare; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 d; c.2 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G15",
+        "servizio": "NCC",
+        "pagina_storica": 131
+      }
+    },
+    {
+      "codice": "G19",
+      "servizio": "NCC",
+      "pagina_pdf": 131,
+      "titolo": "Licenza o autorizzazione non a bordo",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 a; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G19",
+        "servizio": "NCC",
+        "pagina_storica": 132
+      }
+    },
+    {
+      "codice": "G20",
+      "servizio": "NCC",
+      "pagina_pdf": 132,
+      "titolo": "Comportamento scorretto durante il servizio",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 c; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G20",
+        "servizio": "NCC",
+        "pagina_storica": 133
+      }
+    },
+    {
+      "codice": "G21",
+      "servizio": "NCC",
+      "pagina_pdf": 133,
+      "titolo": "Inosservanza di disposizioni impartite dagli agenti",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 d; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G21",
+        "servizio": "NCC",
+        "pagina_storica": 134
+      }
+    },
+    {
+      "codice": "G25",
+      "servizio": "NCC",
+      "pagina_pdf": 134,
+      "titolo": "Pulizia ed efficienza del veicolo",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 h; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G25",
+        "servizio": "NCC",
+        "pagina_storica": 135
+      }
+    },
+    {
+      "codice": "G27",
+      "servizio": "NCC",
+      "pagina_pdf": 135,
+      "titolo": "Tassametro o contachilometri inefficienti",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 l; c.3 per NCC nei limiti pertinenti",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G27",
+        "servizio": "NCC",
+        "pagina_storica": 136
+      }
+    },
+    {
+      "codice": "G28",
+      "servizio": "NCC",
+      "pagina_pdf": 136,
+      "titolo": "Documento della corsa non rilasciato su richiesta",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 n; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G28",
+        "servizio": "NCC",
+        "pagina_storica": 137
+      }
+    },
+    {
+      "codice": "G30",
+      "servizio": "NCC",
+      "pagina_pdf": 137,
+      "titolo": "Chiarimenti sul prezzo non forniti",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 q; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G30",
+        "servizio": "NCC",
+        "pagina_storica": 138
+      }
+    },
+    {
+      "codice": "G31",
+      "servizio": "NCC",
+      "pagina_pdf": 138,
+      "titolo": "Abbigliamento non conforme al servizio",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 r; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G31",
+        "servizio": "NCC",
+        "pagina_storica": 139
+      }
+    },
+    {
+      "codice": "G32",
+      "servizio": "NCC",
+      "pagina_pdf": 139,
+      "titolo": "Sospensione patente o ritiro documento non comunicati",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 s; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G32",
+        "servizio": "NCC",
+        "pagina_storica": 140
+      }
+    },
+    {
+      "codice": "G33",
+      "servizio": "NCC",
+      "pagina_pdf": 140,
+      "titolo": "Prosecuzione della corsa con tassametro in avaria",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 t; c.3 per NCC nei limiti pertinenti",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G33",
+        "servizio": "NCC",
+        "pagina_storica": 141
+      }
+    },
+    {
+      "codice": "G35",
+      "servizio": "NCC",
+      "pagina_pdf": 141,
+      "titolo": "Oggetti dimenticati non restituiti o depositati",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 j; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G35",
+        "servizio": "NCC",
+        "pagina_storica": 142
+      }
+    },
+    {
+      "codice": "G37",
+      "servizio": "NCC",
+      "pagina_pdf": 142,
+      "titolo": "Trasporto di persone estranee alla richiesta",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 b; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G37",
+        "servizio": "NCC",
+        "pagina_storica": 143
+      }
+    },
+    {
+      "codice": "G38",
+      "servizio": "NCC",
+      "pagina_pdf": 143,
+      "titolo": "Animali del conducente in vettura",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 c; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G38",
+        "servizio": "NCC",
+        "pagina_storica": 144
+      }
+    },
+    {
+      "codice": "G39",
+      "servizio": "NCC",
+      "pagina_pdf": 144,
+      "titolo": "Interruzione ingiustificata della corsa",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 d; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G39",
+        "servizio": "NCC",
+        "pagina_storica": 145
+      }
+    },
+    {
+      "codice": "G40",
+      "servizio": "NCC",
+      "pagina_pdf": 145,
+      "titolo": "Rifiuto di bagagli entro la capienza",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 f; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G40",
+        "servizio": "NCC",
+        "pagina_storica": 146
+      }
+    },
+    {
+      "codice": "G41",
+      "servizio": "NCC",
+      "pagina_pdf": 146,
+      "titolo": "Rifiuto di ausili per la mobilità o cane guida",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G41",
+        "servizio": "NCC",
+        "pagina_storica": 147
+      }
+    },
+    {
+      "codice": "G42",
+      "servizio": "NCC",
+      "pagina_pdf": 147,
+      "titolo": "Schiamazzi o consumo di cibo al posteggio",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 i; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G42",
+        "servizio": "NCC",
+        "pagina_storica": 148
+      }
+    },
+    {
+      "codice": "G44",
+      "servizio": "NCC",
+      "pagina_pdf": 148,
+      "titolo": "Conduzione consentita a persona non autorizzata",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 e 7; 23 c.2 k e c.3",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G44",
+        "servizio": "NCC",
+        "pagina_storica": 149
+      }
+    },
+    {
+      "codice": "G45",
+      "servizio": "NCC",
+      "pagina_pdf": 149,
+      "titolo": "Fumo durante la corsa",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 j; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G45",
+        "servizio": "NCC",
+        "pagina_storica": 150
+      }
+    },
+    {
+      "codice": "G53",
+      "servizio": "NCC",
+      "pagina_pdf": 150,
+      "titolo": "Rifiuto del pagamento elettronico",
+      "riferimenti_ordinati": "D.L.179/2012 art.15 cc.4 e 4-bis, come modificato nel 2026",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G53",
+        "servizio": "NCC",
+        "pagina_storica": 151
+      }
+    },
+    {
+      "codice": "G54",
+      "servizio": "NCC",
+      "pagina_pdf": 151,
+      "titolo": "Esercizio senza iscrizione al ruolo conducenti",
+      "riferimenti_ordinati": "L.R. Campania 10/2024 art.21 cc.1 e 2; art.19 c.3",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "G54",
+        "servizio": "NCC",
+        "pagina_storica": 152
+      }
+    },
+    {
+      "codice": "I06",
+      "servizio": "NCC",
+      "pagina_pdf": 152,
+      "titolo": "Trasferimento accessorio per ospiti di struttura ricettiva",
+      "riferimenti_ordinati": "L.R.10/2024 art.13-bis introdotto dalla L.R.7/2026",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "I06",
+        "servizio": "NCC",
+        "pagina_storica": 153
+      }
+    },
+    {
+      "codice": "I08",
+      "servizio": "NCC",
+      "pagina_pdf": 153,
+      "titolo": "Tassametro o contachilometri alterati",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 h; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "I08",
+        "servizio": "NCC",
+        "pagina_storica": 154
+      }
+    },
+    {
+      "codice": "R02",
+      "servizio": "NCC",
+      "pagina_pdf": 154,
+      "titolo": "Elenco di collaboratori e sostituti non allegato al titolo",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R02",
+        "servizio": "NCC",
+        "pagina_storica": 155
+      }
+    },
+    {
+      "codice": "R03",
+      "servizio": "NCC",
+      "pagina_pdf": 155,
+      "titolo": "Collaboratori o sostituti non comunicati al Comune",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R03",
+        "servizio": "NCC",
+        "pagina_storica": 156
+      }
+    },
+    {
+      "codice": "R05",
+      "servizio": "NCC",
+      "pagina_pdf": 156,
+      "titolo": "Servizio non iniziato nel termine di sessanta giorni",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 15 cc.1-2; art.32",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R05",
+        "servizio": "NCC",
+        "pagina_storica": 157
+      }
+    },
+    {
+      "codice": "R06",
+      "servizio": "NCC",
+      "pagina_pdf": 157,
+      "titolo": "Vettura sostitutiva non immessa in servizio entro dieci giorni",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 15 c.4",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R06",
+        "servizio": "NCC",
+        "pagina_storica": 158
+      }
+    },
+    {
+      "codice": "R09",
+      "servizio": "NCC",
+      "pagina_pdf": 158,
+      "titolo": "Bagagliaio non idoneo alle dotazioni richieste",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 f; c.2 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R09",
+        "servizio": "NCC",
+        "pagina_storica": 159
+      }
+    },
+    {
+      "codice": "R10",
+      "servizio": "NCC",
+      "pagina_pdf": 159,
+      "titolo": "Numero di posti omologati non conforme al regolamento",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 g; c.2 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R10",
+        "servizio": "NCC",
+        "pagina_storica": 160
+      }
+    },
+    {
+      "codice": "R12",
+      "servizio": "NCC",
+      "pagina_pdf": 160,
+      "titolo": "Pubblicità sul veicolo senza autorizzazione comunale",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 j; c.2 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R12",
+        "servizio": "NCC",
+        "pagina_storica": 161
+      }
+    },
+    {
+      "codice": "R22",
+      "servizio": "NCC",
+      "pagina_pdf": 161,
+      "titolo": "Sospensione del servizio non comunicata entro cinque giorni",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 c.5 per taxi",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R22",
+        "servizio": "NCC",
+        "pagina_storica": 162
+      }
+    },
+    {
+      "codice": "R23",
+      "servizio": "NCC",
+      "pagina_pdf": 162,
+      "titolo": "Cambio di domicilio non comunicato entro cinque giorni",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R23",
+        "servizio": "NCC",
+        "pagina_storica": 163
+      }
+    },
+    {
+      "codice": "R24",
+      "servizio": "NCC",
+      "pagina_pdf": 163,
+      "titolo": "Regole del gestore di area ferroviaria portuale o aeroportuale violate",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.5",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R24",
+        "servizio": "NCC",
+        "pagina_storica": 164
+      }
+    },
+    {
+      "codice": "R25",
+      "servizio": "NCC",
+      "pagina_pdf": 164,
+      "titolo": "Supplemento richiesto per ausili di mobilità o cane guida",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R25",
+        "servizio": "NCC",
+        "pagina_storica": 165
+      }
+    },
+    {
+      "codice": "R27",
+      "servizio": "NCC",
+      "pagina_pdf": 165,
+      "titolo": "Importo o supplementi indebiti dopo interruzione per avaria",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 24; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 e per taxi",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R27",
+        "servizio": "NCC",
+        "pagina_storica": 166
+      }
+    },
+    {
+      "codice": "R29",
+      "servizio": "NCC",
+      "pagina_pdf": 166,
+      "titolo": "Trasferimento o subentro del titolo irregolare",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 14; art.31 c.1 b",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R29",
+        "servizio": "NCC",
+        "pagina_storica": 167
+      }
+    },
+    {
+      "codice": "R30",
+      "servizio": "NCC",
+      "pagina_pdf": 167,
+      "titolo": "Requisiti del titolare non più presenti",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.3; artt.30 e 31 c.1 a",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R30",
+        "servizio": "NCC",
+        "pagina_storica": 168
+      }
+    },
+    {
+      "codice": "R31",
+      "servizio": "NCC",
+      "pagina_pdf": 168,
+      "titolo": "Servizio ingiustificatamente sospeso per un mese",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 31 c.1 c; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 cc.5-6",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R31",
+        "servizio": "NCC",
+        "pagina_storica": 169
+      }
+    },
+    {
+      "codice": "R35",
+      "servizio": "NCC",
+      "pagina_pdf": 169,
+      "titolo": "Utente che fuma o mangia in vettura",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.6 a",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R35",
+        "servizio": "NCC",
+        "pagina_storica": 170
+      }
+    },
+    {
+      "codice": "R36",
+      "servizio": "NCC",
+      "pagina_pdf": 170,
+      "titolo": "Utente che getta oggetti dal veicolo",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.6 b",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R36",
+        "servizio": "NCC",
+        "pagina_storica": 171
+      }
+    },
+    {
+      "codice": "R37",
+      "servizio": "NCC",
+      "pagina_pdf": 171,
+      "titolo": "Utente che pretende trasporto di animale senza cautele",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.6 c",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R37",
+        "servizio": "NCC",
+        "pagina_storica": 172
+      }
+    },
+    {
+      "codice": "R38",
+      "servizio": "NCC",
+      "pagina_pdf": 172,
+      "titolo": "Utente che pretende trasporto di cose o animali non sicuro",
+      "riferimenti_ordinati": "Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.6 d",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R38",
+        "servizio": "NCC",
+        "pagina_storica": 173
+      }
+    },
+    {
+      "codice": "I02",
+      "servizio": "NCC",
+      "pagina_pdf": 173,
+      "titolo": "NCC senza autorizzazione o veicolo non destinato all’uso",
+      "riferimenti_ordinati": "CdS art.85 c.4; L.21/1992 art.8",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "I02",
+        "servizio": "NCC",
+        "pagina_storica": 174
+      }
+    },
+    {
+      "codice": "I04",
+      "servizio": "NCC",
+      "pagina_pdf": 174,
+      "titolo": "Rimessa NCC non effettiva",
+      "riferimenti_ordinati": "L.21/1992 artt.3 e 11; L.R.10/2024 art.4 c.3, modificato dalla L.R.7/2026",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "I04",
+        "servizio": "NCC",
+        "pagina_storica": 175
+      }
+    },
+    {
+      "codice": "I05",
+      "servizio": "NCC",
+      "pagina_pdf": 175,
+      "titolo": "Contrassegno regionale NCC",
+      "riferimenti_ordinati": "L.R.10/2024 art.19-bis introdotto dalla L.R.7/2026",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "I05",
+        "servizio": "NCC",
+        "pagina_storica": 176
+      }
+    },
+    {
+      "codice": "R04",
+      "servizio": "NCC",
+      "pagina_pdf": 176,
+      "titolo": "Dipendente NCC non segnalato o documentazione omessa",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.5",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R04",
+        "servizio": "NCC",
+        "pagina_storica": 177
+      }
+    },
+    {
+      "codice": "R32",
+      "servizio": "NCC",
+      "pagina_pdf": 177,
+      "titolo": "Contrassegni nazionali NCC o targa posteriore mancanti",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); L.21/1992 art.12 c.5; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.2 b",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R32",
+        "servizio": "NCC",
+        "pagina_storica": 178
+      }
+    },
+    {
+      "codice": "R33-01",
+      "servizio": "NCC",
+      "pagina_pdf": 178,
+      "titolo": "NCC in attesa di clienti su area pubblica o stallo taxi – prima violazione",
+      "riferimenti_ordinati": "CdS art.85 c.4-bis lett.a; L.21/1992 artt.3 e 11 c.3; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 cc.8 e 10",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R33-01",
+        "servizio": "NCC",
+        "pagina_storica": 179
+      }
+    },
+    {
+      "codice": "R33-02",
+      "servizio": "NCC",
+      "pagina_pdf": 179,
+      "titolo": "NCC in attesa di clienti su area pubblica o stallo taxi – seconda violazione",
+      "riferimenti_ordinati": "CdS art.85 c.4-bis lett.b; L.21/1992 artt.3 e 11 c.3; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 cc.8 e 10",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R33-02",
+        "servizio": "NCC",
+        "pagina_storica": 180
+      }
+    },
+    {
+      "codice": "R33-03",
+      "servizio": "NCC",
+      "pagina_pdf": 180,
+      "titolo": "NCC in attesa di clienti su area pubblica o stallo taxi – terza violazione",
+      "riferimenti_ordinati": "CdS art.85 c.4-bis lett.c; L.21/1992 artt.3 e 11 c.3; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 cc.8 e 10",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R33-03",
+        "servizio": "NCC",
+        "pagina_storica": 181
+      }
+    },
+    {
+      "codice": "R33-04",
+      "servizio": "NCC",
+      "pagina_pdf": 181,
+      "titolo": "NCC in attesa di clienti su area pubblica o stallo taxi – quarta o successiva violazione",
+      "riferimenti_ordinati": "CdS art.85 c.4-bis lett.d; L.21/1992 artt.3 e 11 c.3; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 cc.8 e 10",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R33-04",
+        "servizio": "NCC",
+        "pagina_storica": 182
+      }
+    },
+    {
+      "codice": "R34",
+      "servizio": "NCC",
+      "pagina_pdf": 182,
+      "titolo": "NCC con termini della prestazione non rispettati",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter (se condizione dell’autorizzazione verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.3",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R34",
+        "servizio": "NCC",
+        "pagina_storica": 183
+      }
+    },
+    {
+      "codice": "N01",
+      "servizio": "NCC",
+      "pagina_pdf": 183,
+      "titolo": "Autobus NCC con autorizzazione sospesa o revocata — prima violazione",
+      "riferimenti_ordinati": "CdS art.85 c.4; L.218/2003 art.5",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "N01",
+        "servizio": "NCC",
+        "pagina_storica": 184
+      }
+    },
+    {
+      "codice": "N02",
+      "servizio": "NCC",
+      "pagina_pdf": 184,
+      "titolo": "Autobus NCC con autorizzazione sospesa o revocata — reiterazione nel triennio",
+      "riferimenti_ordinati": "CdS art.85 c.4; L.218/2003 art.5",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "N02",
+        "servizio": "NCC",
+        "pagina_storica": 185
+      }
+    },
+    {
+      "codice": "N03",
+      "servizio": "NCC",
+      "pagina_pdf": 185,
+      "titolo": "NCC senza titolo — seconda violazione nel triennio",
+      "riferimenti_ordinati": "CdS art.85 c.4; L.21/1992 art.8",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "N03",
+        "servizio": "NCC",
+        "pagina_storica": 186
+      }
+    },
+    {
+      "codice": "N04",
+      "servizio": "NCC",
+      "pagina_pdf": 186,
+      "titolo": "NCC: modalità del servizio — prima violazione",
+      "riferimenti_ordinati": "CdS art.85 c.4-bis lett.a; L.21/1992 artt.3 e 11",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "N04",
+        "servizio": "NCC",
+        "pagina_storica": 187
+      }
+    },
+    {
+      "codice": "N05",
+      "servizio": "NCC",
+      "pagina_pdf": 187,
+      "titolo": "NCC: modalità del servizio — seconda nel quinquennio",
+      "riferimenti_ordinati": "CdS art.85 c.4-bis lett.b; L.21/1992 artt.3 e 11",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "N05",
+        "servizio": "NCC",
+        "pagina_storica": 188
+      }
+    },
+    {
+      "codice": "N06",
+      "servizio": "NCC",
+      "pagina_pdf": 188,
+      "titolo": "NCC: modalità del servizio — terza nel quinquennio",
+      "riferimenti_ordinati": "CdS art.85 c.4-bis lett.c; L.21/1992 artt.3 e 11",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "N06",
+        "servizio": "NCC",
+        "pagina_storica": 189
+      }
+    },
+    {
+      "codice": "N07",
+      "servizio": "NCC",
+      "pagina_pdf": 189,
+      "titolo": "NCC: modalità del servizio — successive alla terza",
+      "riferimenti_ordinati": "CdS art.85 c.4-bis lett.d; L.21/1992 artt.3 e 11",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "N07",
+        "servizio": "NCC",
+        "pagina_storica": 190
+      }
+    },
+    {
+      "codice": "N08",
+      "servizio": "NCC",
+      "pagina_pdf": 190,
+      "titolo": "NCC: altre condizioni dell’autorizzazione",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter; condizione dell’autorizzazione da identificare",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "N08",
+        "servizio": "NCC",
+        "pagina_storica": 191
+      }
+    },
+    {
+      "codice": "N09",
+      "servizio": "NCC",
+      "pagina_pdf": 191,
+      "titolo": "Autobus NCC: copia conforme dell’autorizzazione assente a bordo",
+      "riferimenti_ordinati": "CdS art.85 c.4-ter; L.218/2003 art.5 c.5",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "N09",
+        "servizio": "NCC",
+        "pagina_storica": 192
+      }
+    },
+    {
+      "codice": "N10",
+      "servizio": "NCC",
+      "pagina_pdf": 192,
+      "titolo": "Autobus NCC: documentazione del rapporto del conducente",
+      "riferimenti_ordinati": "L.689/1981 art.16; L.218/2003 art.6 cc.2 e 3",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "N10",
+        "servizio": "NCC",
+        "pagina_storica": 193
+      }
+    },
+    {
+      "codice": "N11",
+      "servizio": "NCC",
+      "pagina_pdf": 193,
+      "titolo": "NCC: foglio di servizio e prenotazione dopo la sentenza 163/2025",
+      "riferimenti_ordinati": "L.21/1992 art.11 c.4; D.I.226/2024 nelle parti vigenti; Corte cost.163/2025",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "N11",
+        "servizio": "NCC",
+        "pagina_storica": 194
+      }
+    },
+    {
+      "codice": "N12",
+      "servizio": "NCC",
+      "pagina_pdf": 194,
+      "titolo": "Autobus di altro uso impiegato in NCC senza titolo",
+      "riferimenti_ordinati": "CdS art.85 c.4; L.218/2003 art.5",
+      "formula": null,
+      "note_mirate": [],
+      "verifica": "Nessuna nuova validazione normativa; vedere rapporti precedenti",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "N12",
+        "servizio": "NCC",
+        "pagina_storica": 195
+      }
+    },
+    {
+      "codice": "R39",
+      "servizio": "Trazione animale",
+      "pagina_pdf": 195,
+      "titolo": "Trazione equina con condizioni incompatibili con il benessere",
+      "riferimenti_ordinati": "CdS art. 70, comma 4, secondo periodo; Regolamento comunale (delibera C.C. n. 80/2005), artt. 34–35 e 39",
+      "formula": "Durante il servizio a trazione equina, il cavallo non veniva trattato con rispetto e dignità. Nella fattispecie […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.",
+      "note_mirate": [
+        "Nel campo finale distinguere i fatti personalmente osservati dagli operatori dalla valutazione del medico veterinario, con nome, data e riferimento dell’atto. Non attribuire agli operatori la diagnosi veterinaria.",
+        "L’autore conferma che l’obbligo descritto è una prescrizione della licenza. Art. 70, comma 4, secondo periodo: accertare e descrivere la prescrizione concretamente violata, con fonte e riscontro; nessuna licenza individuale è stata acquisita in questa revisione.",
+        "Trasmettere la licenza ritirata all’Ufficio Corso Pubblico del Comune di Napoli entro cinque giorni dal ritiro (art. 216 CdS). Il destinatario è un’indicazione organizzativa confermata dall’autore il 23 ottobre 2026, distinta dal testo normativo: non è il destinatario testualmente indicato dall’art. 216 e non è stato acquisito un nuovo atto organizzativo. L’attestazione del ritiro entra nella copia soltanto se materialmente eseguito; il ritiro dovuto resta obbligatorio.",
+        "EGAF 070-02 sostiene questo inquadramento. 070-01 riguarda servizio senza licenza, con confisca; 070-03 riguarda revisione della vettura, distinta dall’abilitazione annuale del cavallo. Non sono ulteriori condotte attestate da questa formula."
+      ],
+      "verifica": "Integrazione 22/10/2026; riscontri documentali e indicazioni dell’autore nel rapporto 1.8.11",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R39",
+        "servizio": "Trazione animale",
+        "pagina_storica": 196
+      }
+    },
+    {
+      "codice": "R40",
+      "servizio": "Trazione animale",
+      "pagina_pdf": 196,
+      "titolo": "Trazione equina — riscontro dell’idoneità del cavallo",
+      "riferimenti_ordinati": "CdS art. 70, comma 4, secondo periodo; Regolamento comunale (delibera C.C. n. 80/2005), art. 36, comma 1; art. 36, comma 2 (eccezione)",
+      "formula": "Per il cavallo […] adibito alla trazione equina non risultava il riscontro dell’idoneità richiesta; il fatto è riportato nella relazione. In particolare […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.",
+      "note_mirate": [
+        "Art. 36, comma 1: razze da tiro soggette a valutazione morfologica o di categoria di peso. Il comma 2 ammette cavalli già in esercizio di altre razze certificati dal veterinario. La mancanza sostanziale dell’idoneità è distinta dal certificato non esibito o dal riscontro documentale pendente.",
+        "L’autore conferma che l’obbligo descritto è una prescrizione della licenza. Art. 70, comma 4, secondo periodo: accertare e descrivere la prescrizione concretamente violata, con fonte e riscontro; nessuna licenza individuale è stata acquisita in questa revisione.",
+        "Trasmettere la licenza ritirata all’Ufficio Corso Pubblico del Comune di Napoli entro cinque giorni dal ritiro (art. 216 CdS). Il destinatario è un’indicazione organizzativa confermata dall’autore il 23 ottobre 2026, distinta dal testo normativo: non è il destinatario testualmente indicato dall’art. 216 e non è stato acquisito un nuovo atto organizzativo. L’attestazione del ritiro entra nella copia soltanto se materialmente eseguito; il ritiro dovuto resta obbligatorio.",
+        "EGAF 070-02 sostiene questo inquadramento. 070-01 riguarda servizio senza licenza, con confisca; 070-03 riguarda revisione della vettura, distinta dall’abilitazione annuale del cavallo. Non sono ulteriori condotte attestate da questa formula."
+      ],
+      "verifica": "Integrazione 22/10/2026; riscontri documentali e indicazioni dell’autore nel rapporto 1.8.11",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R40",
+        "servizio": "Trazione animale",
+        "pagina_storica": 197
+      }
+    },
+    {
+      "codice": "R41",
+      "servizio": "Trazione animale",
+      "pagina_pdf": 197,
+      "titolo": "Trazione equina senza abilitazione annuale o identificazione",
+      "riferimenti_ordinati": "CdS art. 70, comma 4, secondo periodo; Regolamento comunale (delibera C.C. n. 80/2005), art. 37, commi 1–4; art. 39",
+      "formula": "Il cavallo […] impiegato con la vettura indicata non risultava in regola con l’abilitazione annuale richiesta; il fatto è riportato nella relazione. In particolare […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.",
+      "note_mirate": [
+        "Scegliere la sola irregolarità accertata e specificarla nel campo finale, con documento, scadenza e fonte. Non mantenere un’alternativa generica irrisolta. La mancata esibizione non dimostra l’assenza dell’abilitazione; per l’identificazione verificare la disciplina e il riscontro veterinario applicabili.",
+        "L’autore conferma che l’obbligo descritto è una prescrizione della licenza. Art. 70, comma 4, secondo periodo: accertare e descrivere la prescrizione concretamente violata, con fonte e riscontro; nessuna licenza individuale è stata acquisita in questa revisione.",
+        "Trasmettere la licenza ritirata all’Ufficio Corso Pubblico del Comune di Napoli entro cinque giorni dal ritiro (art. 216 CdS). Il destinatario è un’indicazione organizzativa confermata dall’autore il 23 ottobre 2026, distinta dal testo normativo: non è il destinatario testualmente indicato dall’art. 216 e non è stato acquisito un nuovo atto organizzativo. L’attestazione del ritiro entra nella copia soltanto se materialmente eseguito; il ritiro dovuto resta obbligatorio.",
+        "EGAF 070-02 sostiene questo inquadramento. 070-01 riguarda servizio senza licenza, con confisca; 070-03 riguarda revisione della vettura, distinta dall’abilitazione annuale del cavallo. Non sono ulteriori condotte attestate da questa formula."
+      ],
+      "verifica": "Integrazione 22/10/2026; riscontri documentali e indicazioni dell’autore nel rapporto 1.8.11",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R41",
+        "servizio": "Trazione animale",
+        "pagina_storica": 198
+      }
+    },
+    {
+      "codice": "R42",
+      "servizio": "Trazione animale",
+      "pagina_pdf": 198,
+      "titolo": "Vettura a trazione equina con allestimento difforme",
+      "riferimenti_ordinati": "CdS art. 70, comma 4, secondo periodo; Regolamento comunale (delibera C.C. n. 80/2005), art. 38, comma 1",
+      "formula": "La vettura a trazione equina indicata presentava un allestimento difforme dall’ordinanza […]. Nella fattispecie […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.",
+      "note_mirate": [
+        "L’ordinanza tecnica prevista dall’art. 38, comma 1, non è stata acquisita: indicarne estremi e prescrizione solo dopo acquisizione. Il richiamo all’O.S. 835/2014 in atti sul benessere non ne prova il contenuto tecnico.",
+        "L’autore conferma che l’obbligo descritto è una prescrizione della licenza. Art. 70, comma 4, secondo periodo: accertare e descrivere la prescrizione concretamente violata, con fonte e riscontro; nessuna licenza individuale è stata acquisita in questa revisione.",
+        "Trasmettere la licenza ritirata all’Ufficio Corso Pubblico del Comune di Napoli entro cinque giorni dal ritiro (art. 216 CdS). Il destinatario è un’indicazione organizzativa confermata dall’autore il 23 ottobre 2026, distinta dal testo normativo: non è il destinatario testualmente indicato dall’art. 216 e non è stato acquisito un nuovo atto organizzativo. L’attestazione del ritiro entra nella copia soltanto se materialmente eseguito; il ritiro dovuto resta obbligatorio.",
+        "EGAF 070-02 sostiene questo inquadramento. 070-01 riguarda servizio senza licenza, con confisca; 070-03 riguarda revisione della vettura, distinta dall’abilitazione annuale del cavallo. Non sono ulteriori condotte attestate da questa formula."
+      ],
+      "verifica": "Integrazione 22/10/2026; riscontri documentali e indicazioni dell’autore nel rapporto 1.8.11",
+      "audit_storico": {
+        "file": "revisione/1.8.6/controllo-schede.json",
+        "codice": "R42",
+        "servizio": "Trazione animale",
+        "pagina_storica": 199
+      }
+    },
+    {
+      "codice": "R43",
+      "servizio": "Trazione animale",
+      "pagina_pdf": 199,
+      "titolo": "Trazione equina con caldo: stagione, ore 12–16 e condizioni alternative",
+      "riferimenti_ordinati": "D.Lgs.267/2000 art.7-bis, commi 1 e 1-bis; L.689/1981 artt.9,16–18; ORDSI/2025/0000571 del 29 maggio 2025, dispositivo pp.3–4; ORDSI/2024/0000443 del 10 giugno 2024, dispositivo pp.3–4 (solo fatti 2024)",
+      "formula": "Il giorno […] alle ore […], nella fascia 12–16 e nel periodo 1° giugno–15 settembre, in […], utilizzava l’equino […] per la trazione della vettura […] in violazione dell’ordinanza ORDSI/2025/0000571 del 29 maggio 2025. La temperatura atmosferica era di […] °C, come rilevata mediante […] in […] alle ore […], fonte del rilievo […].",
+      "note_mirate": [
+        "Presupposti congiunti: periodo stagionale, fascia 12–16 e almeno una condizione tra temperatura atmosferica ≥30 °C oppure bollettino Napoli con rischio 2/3 per quella giornata. Fuori fascia o stagione questo divieto non si applica. Verificare e documentare il presupposto scelto; il solo caldo generico non basta.",
+        "2024: soltanto dal 12 giugno al 15 settembre 2024. 2025: 1° giugno–15 settembre, senza limitazione al solo anno 2025; durata fino all’approvazione consiliare degli aggiornamenti del Regolamento per la tutela degli animali. Non reperite modifiche o revoche nei percorsi ufficiali consultati al 23/10/2026: esito non esaustivo, verificare atti successivi e clausola di durata prima dell’uso.",
+        "TUEL art. 7-bis, commi 1 e 1-bis: €25–500, salvo diversa disposizione di legge. Art. 16, comma 1, L.689/1981: PMR €50 entro 60 giorni, oltre spese (doppio di €25 più favorevole di €500/3). Salvo diversa deliberazione di Giunta ex comma 2: nessuna acquisita per questo caso.",
+        "Entrambe le ordinanze citano soltanto il terzo del massimo per il PMR, omettendo l’alternativa del doppio del minimo; non preimpostare €166,67 come unica misura. Il richiamo «art.16 della L.16/2003» è incongruente: l’art.7-bis fu introdotto dall’art.16 della L.3/2003. Non si tratta di una deroga di Giunta documentata.",
+        "Se temperatura e bollettino ricorrono insieme, descriverli nella medesima violazione: nessuna duplicazione automatica. R39–R42 riguardano prescrizioni della licenza ex art.70 CdS; per lo stesso fatto verificare specialità ex art.9 L.689/1981 e fatti autonomi prima di ipotizzare cumuli. Nessuno sconto del 30%, punto o ritiro della licenza da questa scheda.",
+        "Le ordinanze riguardano anche manifestazioni ludiche; questa formula è dedicata alla trazione della vettura. L’O.S.835/2014 è richiamata come salva se compatibile, ma il suo integrale non è acquisito: sei ore, capienza e scarpe protettive restano tre proposte separate da completare."
+      ],
+      "verifica": "Revisione 23/10/2026: pausa fotografata e ordinanze caldo, rapporto 1.8.12",
+      "audit_storico": null
+    }
+  ]
+}

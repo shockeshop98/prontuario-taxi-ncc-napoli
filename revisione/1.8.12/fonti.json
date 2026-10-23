@@ -1,0 +1,150 @@
+[
+  {
+    "id": "PAUSA-FOTO",
+    "file": "revisione/fonti-integrative/WhatsApp Image 2026-10-23 at 09.53.07.jpeg",
+    "url": null,
+    "sha256": "9950ff43d3b567fa61027940ccbeebdb137544d11bf0f37c0e96bab66935823b",
+    "bytes": 228903,
+    "date": "2026-10-23",
+    "status": "Acquisita",
+    "scope": "Foto fornita acquisita e letta integralmente; header, premesse, punti1–2, clausola segnaletica e firme visibili. Originale ufficiale non reperito."
+  },
+  {
+    "id": "PAUSA-PDF",
+    "file": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+    "url": null,
+    "sha256": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184",
+    "bytes": 230267,
+    "date": "2026-10-23",
+    "status": "Acquisita",
+    "scope": "Riproduzione PDF della fotografia integrale; derivato tecnico, non originale ufficiale."
+  },
+  {
+    "id": "CALDO2024",
+    "file": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+    "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/ORDSI_00443_100624.pdf",
+    "sha256": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e",
+    "bytes": 299920,
+    "date": "2026-10-23",
+    "status": "Acquisita",
+    "scope": "Letto integralmente pp.1–4; copia ufficiale scaricata in fonti/ORDSI2024-ufficiale.pdf identica SHA-256."
+  },
+  {
+    "id": "CALDO2025",
+    "file": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+    "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/08/ORDSI_2025_0000571.pdf",
+    "sha256": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042",
+    "bytes": 259332,
+    "date": "2026-10-23",
+    "status": "Acquisita",
+    "scope": "Letto integralmente pp.1–4; copia ufficiale scaricata in fonti/ORDSI2025-ufficiale.pdf identica SHA-256."
+  },
+  {
+    "id": "L689-16",
+    "file": "revisione/1.8.12/fonti/L689-art16.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1981-11-24;689~art16!vig=2026-10-23",
+    "sha256": "353d6eaa4159e72c0ce628a9dd8ad5aee6f046982b88f99843ef132bdc06111c",
+    "bytes": 136916,
+    "date": "2026-10-23",
+    "status": "Acquisita",
+    "scope": "Art.16 acquisito via curl e letto, inclusi comma2 e note. Web viewer aveva restituito errore: non scambiato per testo normativo. Estratto .txt conservato."
+  },
+  {
+    "id": "TUEL-7BIS",
+    "file": "revisione/1.8.12/fonti/TUEL-art7bis.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267~art7bis!vig=2026-10-23",
+    "sha256": "4eed73ff2dd66e0f9c78cfa5a7dfcc2668b8d9e9fe4f15fa16eff36eefac6c67",
+    "bytes": 201225,
+    "date": "2026-10-23",
+    "status": "Acquisita",
+    "scope": "Art.7-bis acquisito via curl e letto integralmente, commi1,1-bis,2. Estratto .txt conservato."
+  },
+  {
+    "id": "L3-2003",
+    "file": "revisione/1.8.12/fonti/L3-2003.html",
+    "url": "https://www.parlamento.it/parlam/leggi/03003l.htm",
+    "sha256": "52edab51cc533d3e445ff63f2eb0497b3f6c7dd0d9e56df03e10c7dda444daab",
+    "bytes": 96254,
+    "date": "2026-10-23",
+    "status": "Acquisita",
+    "scope": "Fonte primaria Parlamento; letto art.16, introduzione art.7-bis TUEL: riscontro del richiamo incongruente L.16/2003 nelle ordinanze."
+  },
+  {
+    "id": "RICERCA-835",
+    "file": "revisione/1.8.12/fonti/ricerca-835.html",
+    "url": "https://www.comune.napoli.it/?s=835",
+    "sha256": "58b7dfe49430363ab481c3340cf048aa6ca06dc8d65a73a16dd44352d24f8f98",
+    "bytes": 408188,
+    "date": "2026-10-23",
+    "status": "Acquisita",
+    "scope": "Ricerca portale ufficiale: nessun integrale pertinente reperito; non prova l’inesistenza dell’atto."
+  },
+  {
+    "id": "RICERCA-pausa",
+    "file": "revisione/1.8.12/fonti/ricerca-pausa.html",
+    "url": "https://www.comune.napoli.it/?s=pausa+taxi",
+    "sha256": "34ff6e7f02f113dc076e2f9169909d0b3989dfd59f05c9f7fb7454e4f38ae62e",
+    "bytes": 485637,
+    "date": "2026-10-23",
+    "status": "Acquisita",
+    "scope": "Ricerca portale ufficiale: nessun integrale pertinente reperito; non prova l’inesistenza dell’atto."
+  },
+  {
+    "id": "RICERCA-equini",
+    "file": "revisione/1.8.12/fonti/ricerca-equini.html",
+    "url": "https://www.comune.napoli.it/?s=trazione+equina",
+    "sha256": "437a777f79fb27eb880938c8a2bd77e3fa2997d1b13c2372424c7037b1777256",
+    "bytes": 433882,
+    "date": "2026-10-23",
+    "status": "Acquisita",
+    "scope": "Ricerca portale ufficiale: nessun integrale pertinente reperito; non prova l’inesistenza dell’atto."
+  },
+  {
+    "id": "RICERCA-regolamento",
+    "file": "revisione/1.8.12/fonti/ricerca-regolamento.html",
+    "url": "https://www.comune.napoli.it/?s=tutela+animali+regolamento",
+    "sha256": "a25cf800b776a68c1c29c5efd8384eab95a358b2b10879b4199d8b07921b2c7f",
+    "bytes": 462764,
+    "date": "2026-10-23",
+    "status": "Acquisita",
+    "scope": "Ricerca portale ufficiale: nessun integrale pertinente reperito; non prova l’inesistenza dell’atto."
+  },
+  {
+    "id": "PORTALE-ANIMALI",
+    "file": "revisione/1.8.12/fonti/tutela-animali-portale.html",
+    "url": "https://www.comune.napoli.it/articolo_tematico/area-tematica-ambiente/tutela-degli-animali/",
+    "sha256": "6586bd19d5021aac1083ef33ae2f9c5d6ba40fe395aa8344e491e7974f279a15",
+    "bytes": 193262,
+    "date": "2026-10-23",
+    "status": "Acquisita",
+    "scope": "Pagina ufficiale consultata; nessun aggiornamento pertinente del regolamento o revoca caldo reperito. Ricerca non esaustiva."
+  },
+  {
+    "id": "OS835",
+    "url": null,
+    "date": "2026-10-23",
+    "status": "Non acquisita",
+    "scope": "Integrale non reperito; solo richiamo nelle ordinanze2024/2025. Prescrizioni sei ore/capienza/scarpe non verificate."
+  },
+  {
+    "id": "PAUSA-ORIGINALE",
+    "url": null,
+    "date": "2026-10-23",
+    "status": "Non acquisita",
+    "scope": "Originale ufficiale del prot.11/progressivo1003 non reperito; foto acquisita distinta."
+  },
+  {
+    "id": "REG-ANIMALI",
+    "url": "https://www.comune.napoli.it/flex/files/5/6/0/D.6aba349f99ca38ed0fcb/REGOLAMENTO_TUTELA_ANIMALI.pdf",
+    "date": "2026-10-23",
+    "status": "Non acquisita",
+    "scope": "Percorso storico non ha restituito un PDF valido; web403 e risposta curl vuota. Nessun aggiornamento consiliare acquisito."
+  },
+  {
+    "id": "GIUNTA-PMR",
+    "url": null,
+    "date": "2026-10-23",
+    "status": "Non acquisita",
+    "scope": "Nessuna delibera pertinente ex art.16 comma2 acquisita; applicato criterio generale con riserva esplicita."
+  }
+]

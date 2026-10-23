@@ -1,0 +1,874 @@
+[
+  {
+    "codice": "G01",
+    "servizio": "Taxi",
+    "prima": "Adibiva a servizio taxi il veicolo indicato senza la prescritta licenza. Nella fattispecie si accertava […].",
+    "dopo": "Adibiva a servizio taxi il veicolo indicato senza la prescritta licenza. Nella fattispecie si accertava […].",
+    "note_prima": [
+      "La scheda EGAF riguarda servizio taxi con velocipedi, motocarrozzette, motocicli e autoveicoli diversi dagli autobus. Per un’autovettura, riscontrare uso nel documento di circolazione e titolo riferito al veicolo. [note 1 e 6]",
+      "Verificare licenza riferita al singolo veicolo e gli atti che autorizzano sostituzione o auto di scorta; il veicolo diverso richiede riscontro sul titolo. [EGAF nota 4; L21 art.8]",
+      "Sequestro: applicare art.213; identificare custode, luogo e condizioni dell’affidamento. Il rinvio EGAF al §C4 non è stato fornito.",
+      "La mancata esibizione della licenza non prova l’abusivismo. Non dichiarare confisca o revoca già disposte dall’operatore.",
+      "Passeggeri: identificarli verificando generalità ed estremi di un documento di riconoscimento valido, ove disponibile; se non esibito, documentare le modalità alternative di accertamento dell’identità. Raccogliere separatamente dichiarazioni su richiesta/offerta, punto di prelievo, destinazione, prezzo pattuito o pagato e modalità di contatto, distinguendo ciò che ciascuno ha direttamente percepito.",
+      "Rifiuto delle dichiarazioni: annotare il rifiuto di rendere o formalizzare/sottoscrivere dichiarazioni. Se sono state pronunciate frasi spontanee, l’operatore redige una relazione riportando quanto effettivamente udito, autore, momento e circostanze, distinguendolo dai fatti osservati. Se il passeggero non ha detto nulla, riportare solo il rifiuto e i riscontri disponibili; non ricostruire dichiarazioni inesistenti.",
+      "La segnalazione al Servizio Trasporto Pubblico Locale e MaaS resta nelle note operative; non aggiungere la relativa frase al corpo del verbale di taxi abusivo. La mancata esibizione della licenza, da sola, non dimostra l’assenza del titolo."
+    ],
+    "note_dopo": [
+      "La scheda EGAF riguarda servizio taxi con velocipedi, motocarrozzette, motocicli e autoveicoli diversi dagli autobus. Per un’autovettura, riscontrare uso nel documento di circolazione e titolo riferito al veicolo. [note 1 e 6]",
+      "Verificare licenza riferita al singolo veicolo e gli atti che autorizzano sostituzione o auto di scorta; il veicolo diverso richiede riscontro sul titolo. [EGAF nota 4; L21 art.8]",
+      "Sequestro: applicare art.213; identificare custode, luogo e condizioni dell’affidamento. Il rinvio EGAF al §C4 non è stato fornito.",
+      "La mancata esibizione della licenza non prova l’abusivismo. Non dichiarare confisca o revoca già disposte dall’operatore.",
+      "Passeggeri: identificarli verificando generalità ed estremi di un documento di riconoscimento valido, ove disponibile; se non esibito, documentare le modalità alternative di accertamento dell’identità. Raccogliere separatamente dichiarazioni su richiesta/offerta, punto di prelievo, destinazione, prezzo pattuito o pagato e modalità di contatto, distinguendo ciò che ciascuno ha direttamente percepito.",
+      "Rifiuto delle dichiarazioni: annotare il rifiuto di rendere o formalizzare/sottoscrivere dichiarazioni. Se sono state pronunciate frasi spontanee, l’operatore redige una relazione riportando quanto effettivamente udito, autore, momento e circostanze, distinguendolo dai fatti osservati. Se il passeggero non ha detto nulla, riportare solo il rifiuto e i riscontri disponibili; non ricostruire dichiarazioni inesistenti.",
+      "La segnalazione al Servizio Trasporto Pubblico Locale e MaaS resta nelle note operative; non aggiungere la relativa frase al corpo del verbale di taxi abusivo. La mancata esibizione della licenza, da sola, non dimostra l’assenza del titolo."
+    ],
+    "riferimenti_prima": "CdS art. 86, comma 2; L. 21/1992, art. 8",
+    "riferimenti_dopo": "CdS art.86 c.2; L.21/1992 art.8",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G03-01",
+    "servizio": "Taxi",
+    "prima": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "dopo": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "note_prima": [
+      "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+      "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+      "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art. 86, comma 3; L. 21/1992, art. 2; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. o",
+    "riferimenti_dopo": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 o",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G03-02",
+    "servizio": "Taxi",
+    "prima": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "dopo": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "note_prima": [
+      "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+      "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+      "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art. 86, comma 3; L. 21/1992, art. 2; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. o",
+    "riferimenti_dopo": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 o",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G03-03",
+    "servizio": "Taxi",
+    "prima": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "dopo": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "note_prima": [
+      "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+      "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+      "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art. 86, comma 3; L. 21/1992, art. 2; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. o",
+    "riferimenti_dopo": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 o",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G03-04",
+    "servizio": "Taxi",
+    "prima": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "dopo": "Alla guida del veicolo indicato, con C.P. n. […], disponibile al servizio taxi, rifiutava senza motivo legittimo la corsa verso […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "note_prima": [
+      "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+      "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Scegliere la fascia dopo il riscontro dei precedenti nel quinquennio: prima, seconda, terza, quarta o successiva. Il conteggio dei controlli nel file non prova la reiterazione.",
+      "Con documento di circolazione ritirato per sospensione, fermo del veicolo per lo stesso periodo; verbalizzare custodia e permesso limitato al trasferimento. [EGAF nota 11; CDS214 c.7; CDS217]",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art. 86, comma 3; L. 21/1992, art. 2; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. o",
+    "riferimenti_dopo": "CdS art.86 c.3; L.21/1992 art.2; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 o",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G05-01",
+    "servizio": "Taxi",
+    "prima": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "dopo": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], non risultavano precedenti violazioni pertinenti del titolare della licenza nel quinquennio. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "note_prima": [
+      "Verificare area autorizzata, accordi tra Comuni ed eccezioni territoriali. Il regolamento di Napoli non fonda il ritiro del titolo rilasciato da altro Comune. Trasmettere i fatti al Comune rilasciante."
+    ],
+    "note_dopo": [
+      "Verificare area autorizzata, accordi tra Comuni ed eccezioni territoriali. Il regolamento di Napoli non fonda il ritiro del titolo rilasciato da altro Comune. Trasmettere i fatti al Comune rilasciante."
+    ],
+    "riferimenti_prima": "CdS art. 86, comma 3; L. 21/1992 artt. 2, 4 comma 5, 5-bis comma 1-bis e 11 comma 2",
+    "riferimenti_dopo": "CdS art.86 c.3; L.21/1992 artt.2, 4 c.5, 5-bis c.1-bis e 11 c.2",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G05-02",
+    "servizio": "Taxi",
+    "prima": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "dopo": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano una precedente violazione pertinente del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "note_prima": [
+      "Verificare area autorizzata, accordi tra Comuni ed eccezioni territoriali. Il regolamento di Napoli non fonda il ritiro del titolo rilasciato da altro Comune. Trasmettere i fatti al Comune rilasciante."
+    ],
+    "note_dopo": [
+      "Verificare area autorizzata, accordi tra Comuni ed eccezioni territoriali. Il regolamento di Napoli non fonda il ritiro del titolo rilasciato da altro Comune. Trasmettere i fatti al Comune rilasciante."
+    ],
+    "riferimenti_prima": "CdS art. 86, comma 3; L. 21/1992 artt. 2, 4 comma 5, 5-bis comma 1-bis e 11 comma 2",
+    "riferimenti_dopo": "CdS art.86 c.3; L.21/1992 artt.2, 4 c.5, 5-bis c.1-bis e 11 c.2",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G05-03",
+    "servizio": "Taxi",
+    "prima": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "dopo": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano due precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "note_prima": [
+      "Verificare area autorizzata, accordi tra Comuni ed eccezioni territoriali. Il regolamento di Napoli non fonda il ritiro del titolo rilasciato da altro Comune. Trasmettere i fatti al Comune rilasciante."
+    ],
+    "note_dopo": [
+      "Verificare area autorizzata, accordi tra Comuni ed eccezioni territoriali. Il regolamento di Napoli non fonda il ritiro del titolo rilasciato da altro Comune. Trasmettere i fatti al Comune rilasciante."
+    ],
+    "riferimenti_prima": "CdS art. 86, comma 3; L. 21/1992 artt. 2, 4 comma 5, 5-bis comma 1-bis e 11 comma 2",
+    "riferimenti_dopo": "CdS art.86 c.3; L.21/1992 artt.2, 4 c.5, 5-bis c.1-bis e 11 c.2",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G05-04",
+    "servizio": "Taxi",
+    "prima": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "dopo": "Alla guida del veicolo indicato, con C.P. n. […] e licenza rilasciata dal Comune di […], iniziava il servizio taxi in […], fuori dall’area autorizzata, prelevando n. […] utenti diretti a […]. Da accertamento presso […] del […], riferimento […], risultavano almeno tre precedenti violazioni pertinenti del titolare della licenza nel quinquennio: 1) verbale n. […], fatto del […], organo […]; 2) verbale n. […], fatto del […], organo […]; 3) verbale n. […], fatto del […], organo […]. Gli atti saranno trasmessi anche al Comune di […] che ha rilasciato la licenza. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "note_prima": [
+      "Verificare area autorizzata, accordi tra Comuni ed eccezioni territoriali. Il regolamento di Napoli non fonda il ritiro del titolo rilasciato da altro Comune. Trasmettere i fatti al Comune rilasciante."
+    ],
+    "note_dopo": [
+      "Verificare area autorizzata, accordi tra Comuni ed eccezioni territoriali. Il regolamento di Napoli non fonda il ritiro del titolo rilasciato da altro Comune. Trasmettere i fatti al Comune rilasciante."
+    ],
+    "riferimenti_prima": "CdS art. 86, comma 3; L. 21/1992 artt. 2, 4 comma 5, 5-bis comma 1-bis e 11 comma 2",
+    "riferimenti_dopo": "CdS art.86 c.3; L.21/1992 artt.2, 4 c.5, 5-bis c.1-bis e 11 c.2",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G23",
+    "servizio": "Taxi",
+    "prima": "Con il veicolo indicato, con C.P. n. […], appartenente al gruppo […] con orario di servizio […], svolgeva il servizio taxi fuori dal proprio turno. Attività accertata in data […] alle ore […]: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "dopo": "Con il veicolo indicato, con C.P. n. […], appartenente al gruppo […] con orario di servizio […], svolgeva il servizio taxi fuori dal proprio turno. Attività accertata in data […] alle ore […]: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico.",
+    "note_prima": [
+      "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art. 86, comma 3-bis; Regolamento comunale – delibera C.C. n. 80/2005, art. 23, comma 1, lett. f",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 f",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R13",
+    "servizio": "Taxi",
+    "prima": "Sul taxi di scorta indicato, assegnato al C.P. n. […], non teneva a bordo la documentazione prescritta. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 18 c.3. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. L’assegnazione e i documenti dovuti risultavano da […].",
+    "dopo": "Sul taxi di scorta indicato, assegnato al C.P. n. […], non teneva a bordo la documentazione prescritta. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 18 c.3. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. L’assegnazione e i documenti dovuti risultavano da […].",
+    "note_prima": [
+      "Non confondere documenti non esibiti con auto di scorta non autorizzata.",
+      "L’art.29 non elenca il comma 3 dell’art.18: non estendere il gruppo A del solo allestimento."
+    ],
+    "note_dopo": [
+      "Non confondere documenti non esibiti con auto di scorta non autorizzata.",
+      "L’art.29 non elenca il comma 3 dell’art.18: non estendere il gruppo A del solo allestimento."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 18 c.3",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 18 c.3",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R16",
+    "servizio": "Taxi",
+    "prima": "Nel servizio taxi collettivo, sul veicolo indicato con C.P. n. […], mancava o era difforme la segnalazione prescritta. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 19 c.1. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. La prescrizione e il dispositivo erano verificati mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Nel servizio taxi collettivo, sul veicolo indicato con C.P. n. […], mancava o era difforme la segnalazione prescritta. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 19 c.1. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. La prescrizione e il dispositivo erano verificati mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Non applicare questa dotazione specifica a un taxi singolo.",
+      "Distinguere l’insegna TAXI COLLETTIVO dall’avviso sui cinque minuti, che ha una scheda autonoma.",
+      "Verificare l’abilitazione al collettivo e la disponibilità del veicolo (art. 19, comma 1). Il comma 6 consente al titolare autorizzato al collettivo di chiedere all’Amministrazione il ritorno al servizio singolo: non impone una corsa singola a tassametro su richiesta del passeggero. Per la tratta speciale consultare TC01 e le ordinanze vigenti."
+    ],
+    "note_dopo": [
+      "Non applicare questa dotazione specifica a un taxi singolo.",
+      "Distinguere l’insegna TAXI COLLETTIVO dall’avviso sui cinque minuti previsto dall’art. 19, comma 4.",
+      "Verificare l’abilitazione al collettivo e la disponibilità del veicolo (art. 19, comma 1). Il comma 6 consente al titolare autorizzato al collettivo di chiedere all’Amministrazione il ritorno al servizio singolo: non impone una corsa singola a tassametro su richiesta del passeggero. Per la tratta speciale consultare TC01 e le ordinanze vigenti."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 19 c.1",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 19 c.1",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R19",
+    "servizio": "Taxi",
+    "prima": "Sul veicolo indicato, con C.P. n. […], il sigillo ufficiale del tassametro risultava rimosso senza l’autorizzazione prevista. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 22 cc.1 e 4. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Intervento e riscontro dell’ufficio risultavano da […].",
+    "dopo": "Sul veicolo indicato, con C.P. n. […], il sigillo ufficiale del tassametro risultava rimosso senza l’autorizzazione prevista. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 22 cc.1 e 4. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Intervento e riscontro dell’ufficio risultavano da […].",
+    "note_prima": [
+      "Sigillo rimosso non equivale automaticamente a tassametro manomesso o non omologato.",
+      "Se la rimozione era autorizzata, verificare la successiva verifica e nuova piombatura."
+    ],
+    "note_dopo": [
+      "Sigillo rimosso non equivale automaticamente a tassametro manomesso o non omologato.",
+      "Se la rimozione era autorizzata, verificare la successiva verifica e nuova piombatura."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 22 cc.1 e 4",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 22 cc.1 e 4",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R21",
+    "servizio": "Taxi",
+    "prima": "Il tassametro del veicolo indicato, con C.P. n. […], non era stato verificato e risigillato secondo l’atto […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 22 cc.3-4; Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.3. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Scadenza e stato del controllo risultavano da […].",
+    "dopo": "Il tassametro del veicolo indicato, con C.P. n. […], non era stato verificato e risigillato secondo l’atto […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 22 cc.3-4; Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.3. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Scadenza e stato del controllo risultavano da […].",
+    "note_prima": [
+      "La periodicità va ricavata dalla verifica disposta dall’ufficio, non inventata.",
+      "Non sommare automaticamente con visita tecnica comunale omessa o sigillo rimosso per il medesimo fatto."
+    ],
+    "note_dopo": [
+      "La periodicità va ricavata dalla verifica disposta dall’ufficio, non inventata.",
+      "Non sommare automaticamente con visita tecnica comunale omessa o sigillo rimosso per il medesimo fatto."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 22 cc.3-4; Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.3",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 22 cc.3-4; Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.3",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R26",
+    "servizio": "Taxi",
+    "prima": "A fine corsa, sul veicolo indicato con C.P. n. […], non arrestava il tassametro oppure non mostrava all’utente l’importo dovuto, secondo la condotta effettivamente accertata: […]. Norma sanzionatoria: CdS art.86 c.3-bis (se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 m. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. La conclusione della corsa e la condotta erano riscontrate mediante […]. Adempimenti — stato ed estremi da completare: Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "A fine corsa, sul veicolo indicato con C.P. n. […], non arrestava il tassametro oppure non mostrava all’utente l’importo dovuto, secondo la condotta effettivamente accertata: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 m. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. La conclusione della corsa e la condotta erano riscontrate mediante […]. Adempimenti — stato ed estremi da completare: Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "È diversa dalla mancata attivazione iniziale.",
+      "Se il fatto produce una richiesta tariffaria non conforme, verificare l’art.86 c.3 e la specialità prima di aggiungere più voci."
+    ],
+    "note_dopo": [
+      "È diversa dalla mancata attivazione iniziale.",
+      "Se il fatto produce una richiesta tariffaria non conforme, verificare l’art.86 c.3 e la specialità prima di aggiungere più voci."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 m",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 m",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R28",
+    "servizio": "Taxi",
+    "prima": "Durante l’uso privato del veicolo taxi indicato, con C.P. n. […], manteneva visibile il contrassegno TAXI in contrasto con […]. In particolare: […]. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 26; D.Lgs.422/1997 art.14 c.6. L’uso privato e la prescrizione risultavano da […].",
+    "dopo": "Durante l’uso privato del veicolo taxi indicato, con C.P. n. […], manteneva visibile il contrassegno TAXI in contrasto con […]. In particolare: […]. Prescrizione: D.Lgs.422/1997 art.14 c.6; Regolamento comunale (delibera C.C. n. 80/2005), art. 26. L’uso privato e la prescrizione risultavano da […].",
+    "note_prima": [
+      "L’uso proprio fuori servizio è consentito; non è, di per sé, esercizio abusivo.",
+      "Non applicare automaticamente l’art.86 c.3-bis, che presuppone la guida in servizio taxi; verificare la base comunale e l’atto sull’occultamento."
+    ],
+    "note_dopo": [
+      "L’uso proprio fuori servizio è consentito; non è, di per sé, esercizio abusivo.",
+      "Non applicare automaticamente l’art.86 c.3-bis, che presuppone la guida in servizio taxi; verificare la base comunale e l’atto sull’occultamento."
+    ],
+    "riferimenti_prima": "Regolamento comunale (delibera C.C. n. 80/2005), art. 26; D.Lgs.422/1997 art.14 c.6",
+    "riferimenti_dopo": "D.Lgs.422/1997 art.14 c.6; Regolamento comunale (delibera C.C. n. 80/2005), art. 26",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G10",
+    "servizio": "Taxi",
+    "prima": "Il veicolo indicato, con C.P. n. […], era impiegato nel servizio nonostante la polizza n. […] riportasse uso privato. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata); CdS art.193 solo se ne ricorrono i presupposti. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.3 g. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Copertura effettiva e condizioni contrattuali erano verificate mediante […].",
+    "dopo": "Il veicolo indicato, con C.P. n. […], era impiegato nel servizio nonostante la polizza n. […] riportasse uso privato. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis; CdS art.193 solo se ne ricorrono i presupposti. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.3 g. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Copertura effettiva e condizioni contrattuali erano verificate mediante […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "La conseguenza sui requisiti del titolo va valutata dal Servizio Trasporto Pubblico Locale e MaaS; non estendere il ritiro dell’art.29 c.4."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "La conseguenza sui requisiti del titolo va valutata dal Servizio Trasporto Pubblico Locale e MaaS; non estendere il ritiro dell’art.29 c.4."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); CdS art.193 solo se ne ricorrono i presupposti; Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.3 g",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; CdS art.193 solo se ne ricorrono i presupposti; Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.3 g",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G11",
+    "servizio": "Taxi",
+    "prima": "Per la licenza C.P. n. […], ometteva la comunicazione comunale dell’evento […] entro il termine previsto. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.7. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Evento, soggetto obbligato e termine risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Per la licenza C.P. n. […], ometteva la comunicazione comunale dell’evento […] entro il termine previsto. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.7. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Evento, soggetto obbligato e termine risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.7",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.7",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G13",
+    "servizio": "Taxi",
+    "prima": "La licenza C.P. n. […] non risultava sottoposta alla vidimazione quinquennale dovuta. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.1. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Termine, eventuali proroghe e convocazioni erano verificati mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "La licenza C.P. n. […] non risultava sottoposta alla vidimazione quinquennale dovuta. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.1. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Termine, eventuali proroghe e convocazioni erano verificati mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.1",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.1",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G14",
+    "servizio": "Taxi",
+    "prima": "Per il veicolo indicato, con C.P. n. […], ometteva la visita tecnica comunale dovuta entro […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 16 cc.3 e 4. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Scadenza e risposta dell’ufficio risultavano da […].",
+    "dopo": "Per il veicolo indicato, con C.P. n. […], ometteva la visita tecnica comunale dovuta entro […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 16 cc.3 e 4. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Scadenza e risposta dell’ufficio risultavano da […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 16 cc.3 e 4",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 16 cc.3 e 4",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G15",
+    "servizio": "Taxi",
+    "prima": "Durante il servizio, il veicolo indicato, con C.P. n. […], presentava strumenti o dispositivi difformi dalla prescrizione […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata); specifica disposizione CdS da individuare. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 d; c.2 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. La prescrizione applicabile e il riscontro risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Durante il servizio, il veicolo indicato, con C.P. n. […], presentava strumenti o dispositivi difformi dalla prescrizione […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis; specifica disposizione CdS da individuare. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 d; c.2 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. La prescrizione applicabile e il riscontro risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); specifica disposizione CdS da individuare; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 d; c.2 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; specifica disposizione CdS da individuare; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 d; c.2 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G19",
+    "servizio": "Taxi",
+    "prima": "Durante il servizio, sul veicolo indicato, con C.P. n. […], non teneva a bordo il titolo richiesto. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 a; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. L’esistenza e l’efficacia del titolo erano riscontrate presso […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Durante il servizio, sul veicolo indicato, con C.P. n. […], non teneva a bordo il titolo richiesto. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 a; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. L’esistenza e l’efficacia del titolo erano riscontrate presso […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D.",
+      "L’uso proprio del taxi fuori servizio è ammesso. Accertare l’effettivo servizio prima di applicare le prescrizioni professionali; il CAP è riferito alla guida per il servizio. [EGAF note 6–7; CDS86; CDS116]"
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D.",
+      "L’uso proprio del taxi fuori servizio è ammesso. Accertare l’effettivo servizio prima di applicare le prescrizioni professionali; il CAP è riferito alla guida per il servizio. [EGAF note 6–7; CDS86; CDS116]"
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 a; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 a; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G20",
+    "servizio": "Taxi",
+    "prima": "Durante il servizio con il veicolo indicato, con C.P. n. […], teneva verso […] una condotta scorretta. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 c; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Fonte e circostanze del fatto risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Durante il servizio con il veicolo indicato, con C.P. n. […], teneva verso […] una condotta scorretta. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 c; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Fonte e circostanze del fatto risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 c; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 c; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G21",
+    "servizio": "Taxi",
+    "prima": "Durante il servizio con il veicolo indicato, con C.P. n. […], non osservava la disposizione […] impartita dagli agenti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 d; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Contenuto dell’ordine e condotta successiva erano riscontrati mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Durante il servizio con il veicolo indicato, con C.P. n. […], non osservava la disposizione […] impartita dagli agenti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 d; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Contenuto dell’ordine e condotta successiva erano riscontrati mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 d; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 d; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G25",
+    "servizio": "Taxi",
+    "prima": "Il veicolo indicato, con C.P. n. […], impiegato nel servizio presentava condizioni di pulizia o efficienza difformi da […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 h; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Le condizioni oggettive erano rilevate mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Il veicolo indicato, con C.P. n. […], impiegato nel servizio presentava condizioni di pulizia o efficienza difformi da […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 h; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Le condizioni oggettive erano rilevate mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 h; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 h; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G27",
+    "servizio": "Taxi",
+    "prima": "Durante il servizio, sul veicolo indicato, con C.P. n. […], il tassametro o contachilometri risultava inefficiente. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 l; c.3 per NCC nei limiti pertinenti. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Il guasto e l’uso in servizio risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Durante il servizio, sul veicolo indicato, con C.P. n. […], il tassametro o contachilometri risultava inefficiente. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 l; c.3 per NCC nei limiti pertinenti. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Il guasto e l’uso in servizio risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 l; c.3 per NCC nei limiti pertinenti",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 l; c.3 per NCC nei limiti pertinenti",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G30",
+    "servizio": "Taxi",
+    "prima": "Durante il servizio con il veicolo indicato, con C.P. n. […], non forniva all’utente i chiarimenti richiesti sul prezzo. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 q; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. La richiesta e la risposta erano accertate mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Durante il servizio con il veicolo indicato, con C.P. n. […], non forniva all’utente i chiarimenti richiesti sul prezzo. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 q; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. La richiesta e la risposta erano accertate mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 q; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 q; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G31",
+    "servizio": "Taxi",
+    "prima": "Durante il servizio con il veicolo indicato, con C.P. n. […], indossava abbigliamento difforme dalla prescrizione […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 r; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Prescrizione e condizioni osservate risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Durante il servizio con il veicolo indicato, con C.P. n. […], indossava abbigliamento difforme dalla prescrizione […]. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 r; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Prescrizione e condizioni osservate risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 r; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 r; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G32",
+    "servizio": "Taxi",
+    "prima": "Per la licenza C.P. n. […], non comunicava all’ufficio il provvedimento […] nel termine prescritto. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 s; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Notifica, decorrenza delle ventiquattro ore lavorative e mancata ricezione risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Per la licenza C.P. n. […], non comunicava all’ufficio il provvedimento […] nel termine prescritto. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 s; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Notifica, decorrenza delle ventiquattro ore lavorative e mancata ricezione risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 s; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 s; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G33",
+    "servizio": "Taxi",
+    "prima": "Dopo l’avaria del tassametro durante la corsa, con il veicolo indicato, con C.P. n. […], proseguiva il servizio senza la comunicazione o la richiesta dell’utente prescritta per il caso accertato: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 t; c.3 per NCC nei limiti pertinenti. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Guasto, volontà dell’utente e corrispettivo applicato risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Dopo l’avaria del tassametro durante la corsa, con il veicolo indicato, con C.P. n. […], proseguiva il servizio senza la comunicazione o la richiesta dell’utente prescritta per il caso accertato: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 t; c.3 per NCC nei limiti pertinenti. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Guasto, volontà dell’utente e corrispettivo applicato risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D.",
+      "Per NCC non presumere un obbligo generale di tassametro: verificare la dotazione effettiva e l’obbligo concretamente applicabile."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama il comma 3-bis. Per applicarlo, individuare la prescrizione della licenza e la sua fonte, escludendo i commi 2 e 3. La violazione regolamentare richiede qualificazione nel caso concreto. [EGAF nota 12; CDS86]",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D.",
+      "Per NCC non presumere un obbligo generale di tassametro: verificare la dotazione effettiva e l’obbligo concretamente applicabile."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 t; c.3 per NCC nei limiti pertinenti",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 t; c.3 per NCC nei limiti pertinenti",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G35",
+    "servizio": "Taxi",
+    "prima": "Dopo il rinvenimento dell’oggetto […] sul veicolo indicato, con C.P. n. […], non provvedeva alla restituzione o al deposito prescritti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 j; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Rinvenimento, possibilità di restituzione e termine risultavano da […].",
+    "dopo": "Dopo il rinvenimento dell’oggetto […] sul veicolo indicato, con C.P. n. […], non provvedeva alla restituzione o al deposito prescritti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 j; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Rinvenimento, possibilità di restituzione e termine risultavano da […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 j; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 j; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G37",
+    "servizio": "Taxi",
+    "prima": "Durante la corsa richiesta da […], con il veicolo indicato, con C.P. n. […], trasportava persone estranee alla richiesta. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 b; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. La richiesta e l’eventuale servizio collettivo autorizzato erano verificati mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Durante la corsa richiesta da […], con il veicolo indicato, con C.P. n. […], trasportava persone estranee alla richiesta. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 b; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. La richiesta e l’eventuale servizio collettivo autorizzato erano verificati mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 b; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 b; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G38",
+    "servizio": "Taxi",
+    "prima": "Durante il servizio con il veicolo indicato, con C.P. n. […], teneva a bordo un animale appartenente al conducente. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 c; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Appartenenza e presenza durante il servizio risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Durante il servizio con il veicolo indicato, con C.P. n. […], teneva a bordo un animale appartenente al conducente. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 c; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Appartenenza e presenza durante il servizio risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 c; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 c; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G39",
+    "servizio": "Taxi",
+    "prima": "Con il veicolo indicato, con C.P. n. […], interrompeva di propria iniziativa la corsa […] contro la volontà dell’utente. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 d; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Volontà dell’utente ed eventuale forza maggiore o pericolo erano verificati mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Con il veicolo indicato, con C.P. n. […], interrompeva di propria iniziativa la corsa […] contro la volontà dell’utente. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 d; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Volontà dell’utente ed eventuale forza maggiore o pericolo erano verificati mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 d; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 d; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G40",
+    "servizio": "Taxi",
+    "prima": "Con il veicolo indicato, con C.P. n. […], rifiutava il trasporto di un bagaglio compatibile con la capienza utile. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 f; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Richiesta, risposta e capienza erano riscontrate mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Con il veicolo indicato, con C.P. n. […], rifiutava il trasporto di un bagaglio compatibile con la capienza utile. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 f; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Richiesta, risposta e capienza erano riscontrate mediante […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 f; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 f; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G41",
+    "servizio": "Taxi",
+    "prima": "Con il veicolo indicato, con C.P. n. […], rifiutava all’utente il trasporto dell’ausilio per la mobilità o del cane guida. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Richiesta, motivo addotto e condizioni del veicolo risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Con il veicolo indicato, con C.P. n. […], rifiutava all’utente il trasporto dell’ausilio per la mobilità o del cane guida. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Richiesta, motivo addotto e condizioni del veicolo risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art.31 c.1 f: alla seconda inosservanza della prestazione riferita a persona disabile, il regolamento prevede revoca da parte dell’ufficio.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art.31 c.1 f: alla seconda inosservanza della prestazione riferita a persona disabile, il regolamento prevede revoca da parte dell’ufficio.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G42",
+    "servizio": "Taxi",
+    "prima": "Durante la sosta al posteggio […], presso il veicolo indicato, con C.P. n. […], provocava schiamazzi oppure consumava cibo, secondo la condotta effettivamente osservata: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 i; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Posteggio e circostanze concrete risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Durante la sosta al posteggio […], presso il veicolo indicato, con C.P. n. […], provocava schiamazzi oppure consumava cibo, secondo la condotta effettivamente osservata: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 i; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Posteggio e circostanze concrete risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 i; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 i; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G44",
+    "servizio": "Taxi",
+    "prima": "Consentiva la conduzione in servizio del veicolo indicato, con C.P. n. […], a persona priva del requisito o dell’autorizzazione prescritti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 6 e 7; 23 c.2 k e c.3. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Qualità del conducente, titolo e comunicazioni risultavano da […]. Adempimenti — stato ed estremi da completare: Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Consentiva la conduzione in servizio del veicolo indicato, con C.P. n. […], a persona priva del requisito o dell’autorizzazione prescritti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 6 e 7; 23 c.2 k e c.3. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Qualità del conducente, titolo e comunicazioni risultavano da […]. Adempimenti — stato ed estremi da completare: Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "La disciplina del sostituto taxi non si estende automaticamente ai dipendenti NCC.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D.",
+      "Per il taxi verificare anche L.21/1992 art.10 vigente: sostituti, collaborazione familiare e seconde guide; v. T01 per il turno aggiuntivo."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "La disciplina del sostituto taxi non si estende automaticamente ai dipendenti NCC.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D.",
+      "Per il taxi verificare anche L.21/1992 art.10 vigente: sostituti, collaborazione familiare e seconde guide; v. T01 per il turno aggiuntivo."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 e 7; 23 c.2 k e c.3",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 6 e 7; 23 c.2 k e c.3",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "G45",
+    "servizio": "Taxi",
+    "prima": "Durante la corsa sul veicolo indicato, con C.P. n. […], non rispettava il divieto di fumo. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 j; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Condotta e fonte dell’accertamento risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Durante la corsa sul veicolo indicato, con C.P. n. […], non rispettava il divieto di fumo. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 j; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Condotta e fonte dell’accertamento risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "note_dopo": [
+      "Il prontuario GIT originario richiama la disciplina residuale. Taxi: art.86 c.3-bis; NCC: art.85 c.4-ter. Individuare la prescrizione del titolo e la fonte; escludere le fattispecie più gravi. La violazione regolamentare richiede qualificazione nel caso concreto.",
+      "Art. 28, comma 2: i punti riguardano i titoli Taxi e NCC, non la patente. L’art. 29, comma 4, impone agli operatori il ritiro per i gruppi C e D."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 j; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 j; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "I08",
+    "servizio": "Taxi",
+    "prima": "Sul veicolo indicato, con C.P. n. […], lo strumento di misura […] presentava un’alterazione tecnicamente accertata. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 h; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. La verifica tecnica e il nesso con il servizio risultavano da […]. Adempimenti — stato ed estremi da completare: Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Sul veicolo indicato, con C.P. n. […], lo strumento di misura […] presentava un’alterazione tecnicamente accertata. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 h; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. La verifica tecnica e il nesso con il servizio risultavano da […]. Adempimenti — stato ed estremi da completare: Ritiro del titolo comunale: […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "I punti e i provvedimenti dell’art.29 riguardano la licenza comunale; non sono punti della patente o atti già disposti."
+    ],
+    "note_dopo": [
+      "I punti e i provvedimenti dell’art.29 riguardano la licenza comunale; non sono punti della patente o atti già disposti."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 h; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 h; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R02",
+    "servizio": "Taxi",
+    "prima": "Durante il servizio con il veicolo indicato, con C.P. n. […], il titolo non recava allegato l’elenco prescritto di collaboratori o sostituti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Titolo esaminato e prescrizione risultavano da […].",
+    "dopo": "Durante il servizio con il veicolo indicato, con C.P. n. […], il titolo non recava allegato l’elenco prescritto di collaboratori o sostituti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Titolo esaminato e prescrizione risultavano da […].",
+    "note_prima": [
+      "La copia mancante non prova che il conducente sia privo dei requisiti o non comunicato.",
+      "L’art.29 c.2 non elenca il comma 4 dell’art.6: non estendere il gruppo A del comma 5."
+    ],
+    "note_dopo": [
+      "La copia mancante non prova che il conducente sia privo dei requisiti o non comunicato.",
+      "L’art.29 c.2 non elenca il comma 4 dell’art.6: non estendere il gruppo A del comma 5."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R03",
+    "servizio": "Taxi",
+    "prima": "Il titolare della licenza C.P. n. […] impiegava un collaboratore o sostituto senza comunicarne i dati al Comune. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Qualità della persona e riscontro dell’ufficio risultavano da […].",
+    "dopo": "Il titolare della licenza C.P. n. […] impiegava un collaboratore o sostituto senza comunicarne i dati al Comune. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Qualità della persona e riscontro dell’ufficio risultavano da […].",
+    "note_prima": [
+      "Per sostituto taxi usare la scheda comunicazione dedicata, con termini regionali di 24 ore.",
+      "Non duplicare la stessa omissione con le due schede. Nessun gruppo disciplinare attribuito per analogia."
+    ],
+    "note_dopo": [
+      "Per sostituto taxi usare la scheda comunicazione dedicata, con termini regionali di 24 ore.",
+      "Non duplicare la stessa omissione con le due schede. Nessun gruppo disciplinare attribuito per analogia."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R09",
+    "servizio": "Taxi",
+    "prima": "Il veicolo indicato, con C.P. n. […], presentava un bagagliaio non idoneo alle dotazioni richieste. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 f; c.2 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Requisito e dimensioni effettive risultavano da […].",
+    "dopo": "Il veicolo indicato, con C.P. n. […], presentava un bagagliaio non idoneo alle dotazioni richieste. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 f; c.2 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Requisito e dimensioni effettive risultavano da […].",
+    "note_prima": [
+      "La non idoneità della dotazione è diversa dal rifiuto di un bagaglio trasportabile.",
+      "Non proporre carichi o animali in violazione dei requisiti di sicurezza."
+    ],
+    "note_dopo": [
+      "La non idoneità della dotazione è diversa dal rifiuto di un bagaglio trasportabile.",
+      "Non proporre carichi o animali in violazione dei requisiti di sicurezza."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 f; c.2 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 f; c.2 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R10",
+    "servizio": "Taxi",
+    "prima": "Il veicolo indicato, con C.P. n. […], aveva un numero di posti omologati difforme dal requisito regolamentare. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 g; c.2 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Omologazione e requisito applicabile risultavano da […].",
+    "dopo": "Il veicolo indicato, con C.P. n. […], aveva un numero di posti omologati difforme dal requisito regolamentare. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 g; c.2 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Omologazione e requisito applicabile risultavano da […].",
+    "note_prima": [
+      "Il regolamento indica da 4 a 8 posti per i soli passeggeri; il posto del conducente va distinto.",
+      "Per il collettivo distinguere l’art. 19, comma 3, dalla deroga della O.D. n. 9/2026 per la tratta TC01: non applicare automaticamente il minimo di sette posti. Per modifiche o sovrannumero verificare la fattispecie CdS specifica."
+    ],
+    "note_dopo": [
+      "Il regolamento indica da 4 a 8 posti per i soli passeggeri; il posto del conducente va distinto.",
+      "Per il collettivo distinguere l’art. 19, comma 3, dalla deroga della O.D. n. 9/2026 per la tratta TC01: non applicare automaticamente il minimo di sette posti. Per modifiche o sovrannumero verificare la fattispecie CdS specifica."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 g; c.2 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 g; c.2 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R12",
+    "servizio": "Taxi",
+    "prima": "Sul veicolo indicato, con C.P. n. […], esponeva pubblicità senza l’autorizzazione comunale richiesta. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 j; c.2 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Esposizione e risposta dell’ufficio risultavano da […].",
+    "dopo": "Sul veicolo indicato, con C.P. n. […], esponeva pubblicità senza l’autorizzazione comunale richiesta. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 j; c.2 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Esposizione e risposta dell’ufficio risultavano da […].",
+    "note_prima": [
+      "La pubblicità è ammessa previa autorizzazione e nel rispetto del CdS.",
+      "Distinguere pubblicità, contrassegni obbligatori e semplici informazioni del servizio. La base CdS pubblicitaria richiede verifica autonoma."
+    ],
+    "note_dopo": [
+      "La pubblicità è ammessa previa autorizzazione e nel rispetto del CdS.",
+      "Distinguere pubblicità, contrassegni obbligatori e semplici informazioni del servizio. La base CdS pubblicitaria richiede verifica autonoma."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 j; c.2 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 j; c.2 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R22",
+    "servizio": "Taxi",
+    "prima": "Il titolare della licenza C.P. n. […] sospendeva il servizio senza comunicarlo al Comune entro il termine prescritto. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 c.5 per taxi. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Inizio della sospensione, obbligato e termine risultavano da […].",
+    "dopo": "Il titolare della licenza C.P. n. […] sospendeva il servizio senza comunicarlo al Comune entro il termine prescritto. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 c.5 per taxi. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Inizio della sospensione, obbligato e termine risultavano da […].",
+    "note_prima": [
+      "Questa omissione è distinta dalla sospensione ingiustificata che può dare seguito sul titolo.",
+      "Non confondere il termine di cinque giorni con le 24 ore lavorative per sospensione patente o ritiro carta."
+    ],
+    "note_dopo": [
+      "Questa omissione è distinta dalla sospensione ingiustificata che può dare seguito sul titolo.",
+      "Non confondere il termine di cinque giorni con le 24 ore lavorative per sospensione patente o ritiro carta."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 c.5 per taxi",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 c.5 per taxi",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R23",
+    "servizio": "Taxi",
+    "prima": "Il titolare della licenza C.P. n. […] ometteva la comunicazione al Comune del cambio di domicilio. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Evento, termine e riscontro comunale risultavano da […].",
+    "dopo": "Il titolare della licenza C.P. n. […] ometteva la comunicazione al Comune del cambio di domicilio. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Evento, termine e riscontro comunale risultavano da […].",
+    "note_prima": [
+      "Il cambio di domicilio non è, da solo, perdita del requisito di residenza o della sede dell’attività.",
+      "Distinguere dato anagrafico, domicilio, sede e recapito per le notifiche."
+    ],
+    "note_dopo": [
+      "Il cambio di domicilio non è, da solo, perdita del requisito di residenza o della sede dell’attività.",
+      "Distinguere dato anagrafico, domicilio, sede e recapito per le notifiche."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R25",
+    "servizio": "Taxi",
+    "prima": "Durante il servizio con il veicolo indicato, con C.P. n. […], richiedeva un supplemento per l’ausilio di mobilità o il cane guida dell’utente. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Richiesta, causa del supplemento e fonte risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "dopo": "Durante il servizio con il veicolo indicato, con C.P. n. […], richiedeva un supplemento per l’ausilio di mobilità o il cane guida dell’utente. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Richiesta, causa del supplemento e fonte risultavano da […]. Gli atti sono da trasmettere al Servizio Trasporto Pubblico Locale e MaaS del Comune di Napoli per il seguito di competenza (regolamento, art. 29, comma 3). Stato della trasmissione: […].",
+    "note_prima": [
+      "La lettera g vieta anche il supplemento, oltre al rifiuto del trasporto.",
+      "Per taxi con prezzo non conforme usare la fattispecie tariffaria dell’art.86 c.3 quando ne ricorrono i presupposti; evitare doppia contestazione del medesimo sovrapprezzo."
+    ],
+    "note_dopo": [
+      "La lettera g vieta anche il supplemento, oltre al rifiuto del trasporto.",
+      "Per taxi con prezzo non conforme usare la fattispecie tariffaria dell’art.86 c.3 quando ne ricorrono i presupposti; evitare doppia contestazione del medesimo sovrapprezzo."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 g; c.3 per NCC",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "R27",
+    "servizio": "Taxi",
+    "prima": "Interrotta la corsa […] per avaria o forza maggiore, con il veicolo indicato, con C.P. n. […], richiedeva importi non dovuti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis (solo se condizione della licenza verificata). Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 24; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 e per taxi. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Tratta svolta, causa dell’interruzione e calcolo risultavano da […].",
+    "dopo": "Interrotta la corsa […] per avaria o forza maggiore, con il veicolo indicato, con C.P. n. […], richiedeva importi non dovuti. In particolare: […]. Norma sanzionatoria: CdS art.86 c.3-bis. Prescrizione: Regolamento comunale (delibera C.C. n. 80/2005), art. 24; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 e per taxi. Condizione del titolo e sua efficacia riscontrate in […]; escluse le fattispecie CdS più specifiche. Tratta svolta, causa dell’interruzione e calcolo risultavano da […].",
+    "note_prima": [
+      "L’art.24 prevede il pagamento del solo percorso effettuato, senza supplementi.",
+      "Per taxi confrontare la scheda corrispettivo non conforme; per NCC non applicare le fasce taxi e verificare contratto e obbligo applicabile."
+    ],
+    "note_dopo": [
+      "L’art.24 prevede il pagamento del solo percorso effettuato, senza supplementi.",
+      "Per taxi confrontare la scheda corrispettivo non conforme; per NCC non applicare le fasce taxi e verificare contratto e obbligo applicabile."
+    ],
+    "riferimenti_prima": "CdS art.86 c.3-bis (solo se condizione della licenza verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 24; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 e per taxi",
+    "riferimenti_dopo": "CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 24; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.2 e per taxi",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  },
+  {
+    "codice": "N10",
+    "servizio": "NCC",
+    "prima": "L’impresa […] impiegava sull’autobus indicato, con autorizzazione NCC n. […], il conducente […] senza la documentazione prescritta del rapporto di lavoro. In particolare: […]. Prescrizione: L.218/2003 art.6 c.2. Norma sanzionatoria: art.6 c.3 della stessa legge; la mera dimenticanza del documento richiede la distinta verifica dell’art.180 c.7 CdS, richiamato dalla L.R.10/2024 art.27 c.3. Qualità del conducente e documenti equivalenti erano verificati mediante […]. Adempimenti di comunicazione: destinatari, stato ed estremi da completare secondo il riquadro […].",
+    "dopo": "L’impresa […] impiegava sull’autobus indicato, con autorizzazione NCC n. […], il conducente […] senza la documentazione prescritta del rapporto di lavoro. In particolare: […]. Prescrizione: L.218/2003 art.6 c.2. Norma sanzionatoria: art.6 c.3 della stessa legge; la mera dimenticanza del documento richiede la distinta verifica dell’art.180 c.7 CdS, richiamato dalla L.R.10/2024 art.27 c.3. Qualità del conducente e documenti equivalenti erano verificati mediante […]. Adempimenti di comunicazione: destinatari, stato ed estremi da completare secondo il riquadro […].",
+    "note_prima": [
+      "Non contestare la sola assenza della dichiarazione se documenti equivalenti idonei comprovano il rapporto, secondo la circolare Interno 04/06/2014 indicata da EGAF nota 27; acquisirne il testo se necessario.",
+      "Edittale €500–2.000. PMR L.689: il minore tra doppio del minimo (€1.000) e un terzo del massimo (€666,67). Nessuna riduzione CdS del 30%. [EGAF nota 26]",
+      "Il testo EGAF fornito indica art.6 cc.3 e 4. Il testo ufficiale consultato colloca obbligo al c.2 e sanzione al c.3: il riferimento è corretto in questa scheda. Non si ripropone il rinvio al c.4.",
+      "L’obbligo storico del documento fiscale ex art.7 L.218/2003 è abrogato: non confonderlo con la documentazione del rapporto del conducente. [EGAF nota 25; L.246/2005 art.20]",
+      "In Campania distinguere la mera dimenticanza a bordo: L.R.10/2024 art.27 c.3 richiama art.180 c.7 CdS. L’art.6 c.3 L.218/2003 riguarda l’impresa che viola le disposizioni sui conducenti. Non applicare automaticamente €500–2.000 alla sola mancata esibizione."
+    ],
+    "note_dopo": [
+      "Non contestare la sola assenza della dichiarazione se documenti equivalenti idonei comprovano il rapporto, secondo la circolare Interno 04/06/2014 indicata da EGAF nota 27; acquisirne il testo se necessario.",
+      "Edittale €500–2.000. PMR L.689: il minore tra doppio del minimo (€1.000) e un terzo del massimo (€666,67). Nessuna riduzione CdS del 30%. [EGAF nota 26]",
+      "Il testo EGAF fornito indica art.6 cc.3 e 4. Il testo ufficiale consultato colloca obbligo al c.2 e sanzione al c.3: il riferimento è corretto in questa scheda. Non si ripropone il rinvio al c.4.",
+      "L’obbligo storico del documento fiscale ex art.7 L.218/2003 è abrogato: non confonderlo con la documentazione del rapporto del conducente. [EGAF nota 25; L.246/2005 art.20]",
+      "In Campania distinguere la mera dimenticanza a bordo: L.R.10/2024 art.27 c.3 richiama art.180 c.7 CdS. L’art.6 c.3 L.218/2003 riguarda l’impresa che viola le disposizioni sui conducenti. Non applicare automaticamente €500–2.000 alla sola mancata esibizione."
+    ],
+    "riferimenti_prima": "L.218/2003 art.6 cc.2 e 3; L.689/1981 art.16",
+    "riferimenti_dopo": "L.689/1981 art.16; L.218/2003 art.6 cc.2 e 3",
+    "motivo": "Pulizia editoriale delle diciture e ordine delle norme nazionali; importi e punti invariati."
+  }
+]

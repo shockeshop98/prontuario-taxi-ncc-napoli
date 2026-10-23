@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-10-23T09:30:33.940Z",
+  "viewports": [
+    {
+      "width": 360,
+      "cards": 3,
+      "overflow": false,
+      "copyMatches": true
+    },
+    {
+      "width": 390,
+      "cards": 3,
+      "overflow": false,
+      "copyMatches": true
+    }
+  ],
+  "copies": [
+    {
+      "id": "equinaoregiornaliere",
+      "code": "R44",
+      "type": "Trazione animale",
+      "page": 200,
+      "formula": "Il giorno […] impiegava l’equino […] nella trazione della carrozza […] per complessive […] ore giornaliere, oltre il limite di 6 ore. Intervalli di impiego e fonti dell’accertamento: […]."
+    },
+    {
+      "id": "equinacapienzacarrozza",
+      "code": "R45",
+      "type": "Trazione animale",
+      "page": 201,
+      "formula": "Il giorno […] alle ore […] in […], con la carrozza […] trasportava […] passeggeri, oltre la capienza autorizzata di […] risultante da […]. Fatto accertato mediante […]."
+    },
+    {
+      "id": "equinascarpeprotettive",
+      "code": "R46",
+      "type": "Trazione animale",
+      "page": 202,
+      "formula": "Il giorno […] alle ore […] in […], impiegava l’equino […] per la trazione della carrozza […] senza scarpe protettive. Condizione osservata e fonte dell’accertamento: […]."
+    }
+  ],
+  "search": [
+    {
+      "query": "sei ore giornaliere",
+      "code": "R44"
+    },
+    {
+      "query": "capienza carrozza",
+      "code": "R45"
+    },
+    {
+      "query": "scarpe protettive",
+      "code": "R46"
+    }
+  ],
+  "jsErrors": [],
+  "cards": [
+    {
+      "id": "equinaoregiornaliere",
+      "code": "R44",
+      "type": "Trazione animale",
+      "page": 200
+    },
+    {
+      "id": "equinacapienzacarrozza",
+      "code": "R45",
+      "type": "Trazione animale",
+      "page": 201
+    },
+    {
+      "id": "equinascarpeprotettive",
+      "code": "R46",
+      "type": "Trazione animale",
+      "page": 202
+    }
+  ],
+  "offlineAuthorSource": {
+    "status": 200,
+    "mime": "text/plain",
+    "sha256": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd",
+    "text": "O.S. n.835 del17/06/2014 — indicazioni confermate dall’autore il23/10/2026\n\nQuesto file registra la conferma dell’autore nella sessione di revisione; NON è il testo dell’ordinanza. L’integrale resta non acquisito.\n\nPrescrizioni confermate:\n- impiego dell’equino per non oltre6ore giornaliere;\n- passeggeri non superiori alla capienza autorizzata della carrozza;\n- obbligo delle scarpe protettive per l’equino.\n\nSchede operative R44,R45,R46. La conferma non documenta punti dell’atto, eccezioni o clausola sanzionatoria. Base e importi generali TUEL/L.689 verificati separatamente; applicabilità e sanzione specifica dell’ordinanza non dichiarate documentalmente verificate. Nessun ritiro, punto o misura CdS automatici.\n"
+  },
+  "build": "3617cb20fef453b7fd8528c2eae9382f4e9fb6303f7f8155efc05ba63ac86b9d",
+  "pdf": {
+    "pages": 211,
+    "sha256": "c69d81aa5b4e3af8a81dc7e2da28a699b3cbf8586d464f2fa860ed9305273942",
+    "newFormulasCompared": 3
+  }
+}

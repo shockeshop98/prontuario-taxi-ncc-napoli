@@ -1,0 +1,152 @@
+{
+  "checkedAt": "2026-10-23T08:29:18.011Z",
+  "localOnly": true,
+  "commitUnchanged": "7cd86c8",
+  "version": "1.8.12",
+  "pdfVersion": "7.14",
+  "build": "83539fd1e4a3b288921a195fa9b2b9fc2e55cb9eac1d457df596f14d7c55bde3",
+  "pdfSHA256": "f58d0badd5d8a6079158c4191117e826a4ac3264a05d51cad12b8a37c1635236",
+  "counts": {
+    "catalog": 116,
+    "cards": 187,
+    "taxi": 112,
+    "ncc": 70,
+    "animal": 5,
+    "pdfPages": 208,
+    "indexPages": 6,
+    "sourceDocuments": 15
+  },
+  "changes": {
+    "updated": [
+      "G46",
+      "G47"
+    ],
+    "new": [
+      "R43"
+    ],
+    "priorCardsCompletelyPreserved": 113,
+    "allPriorPaymentTablesPreserved": 115,
+    "withdrawalRecipientR39R42Preserved": true,
+    "proposalsOutsideCatalog": [
+      "P-EQ01",
+      "P-EQ02",
+      "P-EQ03"
+    ]
+  },
+  "checks": {
+    "npmTest": "PASS, exit 0; esito-npm-test.txt",
+    "diffCheck": "PASS",
+    "allBaseFormulasComparedWithPDF": 186,
+    "pwaAndPDFDestinations": 187,
+    "heatVariantsComparedWithPDF": 6,
+    "withdrawalAttestations": 4,
+    "viewports": [
+      {
+        "width": 320,
+        "height": 740,
+        "cards": 187,
+        "failures": []
+      },
+      {
+        "width": 360,
+        "height": 800,
+        "cards": 187,
+        "failures": []
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "cards": 187,
+        "failures": []
+      },
+      {
+        "width": 430,
+        "height": 932,
+        "cards": 187,
+        "failures": []
+      },
+      {
+        "width": 740,
+        "height": 320,
+        "cards": 187,
+        "failures": []
+      },
+      {
+        "width": 800,
+        "height": 360,
+        "cards": 187,
+        "failures": []
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "cards": 187,
+        "failures": []
+      },
+      {
+        "width": 932,
+        "height": 430,
+        "cards": 187,
+        "failures": []
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "cards": 187,
+        "failures": []
+      }
+    ],
+    "newSourcesOfflineWithSHA256": [
+      {
+        "index": 12,
+        "url": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+        "status": 200,
+        "bytes": 230267,
+        "sha256": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184",
+        "offline": true
+      },
+      {
+        "index": 13,
+        "url": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+        "status": 200,
+        "bytes": 299920,
+        "sha256": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e",
+        "offline": true
+      },
+      {
+        "index": 14,
+        "url": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+        "status": 200,
+        "bytes": 259332,
+        "sha256": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042",
+        "offline": true
+      }
+    ],
+    "realUpgrade": "1.8.11 / PDF7.13 → 1.8.12 / PDF7.14",
+    "oldManualInvalidated": true,
+    "originalRetained": true,
+    "finalManualOfflineHashVerified": true,
+    "jsErrors": []
+  },
+  "visualReview": {
+    "cards": [
+      "G46",
+      "G47",
+      "R43"
+    ],
+    "pwaWidths": [
+      360,
+      390
+    ],
+    "pdf": "Una pagina per scheda, 9pt fissi, nessun taglio; alternative R43 incluse"
+  },
+  "residuals": [
+    "Originale ufficiale prot.11/progressivo1003 pausa taxi non reperito; foto acquisita",
+    "O.S.835/2014 integrale non reperito; tre proposte da completare",
+    "Successive modifiche/revoche o aggiornamento consiliare del regolamento animali: nessun atto pertinente reperito nei percorsi consultati, verifica non esaustiva",
+    "Delibera di Giunta PMR ex art.16 comma2 non acquisita",
+    "Base sanzionatoria G46/G47 da qualificare nel caso concreto",
+    "Ordinanza tecnica R42 e dubbi estranei precedenti conservati"
+  ],
+  "noCommitPushDeploy": true
+}

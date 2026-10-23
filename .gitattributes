@@ -5,3 +5,9 @@ revisione/1.8.8/fonti/** -text -whitespace
 
 revisione/1.8.9/fonti/** -text -whitespace
 revisione-indicazioni-G01-G43.txt -text -whitespace
+
+# Nuove fonti normative: byte originali e hash conservati.
+revisione/1.8.10/fonti/** -text -whitespace
+revisione/1.8.11/fonti/** -text -whitespace
+revisione/1.8.12/fonti/** -text -whitespace
+revisione/1.8.13/fonti/** -text -whitespace

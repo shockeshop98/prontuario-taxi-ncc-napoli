@@ -1,0 +1,30 @@
+[
+  {
+    "codice": "R39",
+    "prescrizione": "Regolamento artt.34–35 e39",
+    "norma_sanzionatoria": "CdS art.70 comma4 secondo periodo, soltanto per condizione della licenza effettivamente violata",
+    "art86": "Non esteso alla trazione animale",
+    "limite": "Fatti personali distinti da valutazione veterinaria; eventuali illeciti autonomi da qualificare."
+  },
+  {
+    "codice": "R40",
+    "prescrizione": "Regolamento art.36 comma1, con eccezione comma2",
+    "norma_sanzionatoria": "CdS art.70 comma4 secondo periodo, soltanto per condizione della licenza effettivamente violata",
+    "art86": "Non esteso alla trazione animale",
+    "limite": "Mancata esibizione/riscontro non prova inidoneità sostanziale."
+  },
+  {
+    "codice": "R41",
+    "prescrizione": "Regolamento art.37 commi1–4 e art.39",
+    "norma_sanzionatoria": "CdS art.70 comma4 secondo periodo, soltanto per condizione della licenza effettivamente violata",
+    "art86": "Non esteso alla trazione animale",
+    "limite": "Specificare abilitazione o identificazione accertata; base autonoma per ulteriori illeciti."
+  },
+  {
+    "codice": "R42",
+    "prescrizione": "Regolamento art.38 comma1",
+    "norma_sanzionatoria": "CdS art.70 comma4 secondo periodo, soltanto per condizione della licenza effettivamente violata",
+    "art86": "Non esteso alla trazione animale",
+    "limite": "Ordinanza tecnica da acquisire; nessun estremo inventato."
+  }
+]

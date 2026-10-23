@@ -1,0 +1,126 @@
+{
+  "data": "2026-10-21T21:15:32.372955+00:00",
+  "locale": true,
+  "pwa": "1.8.10",
+  "pdf": "7.12",
+  "build": "13e70cc44fc72a95e3b238c521dcb275f31c7b18e478da1d2c39976e75966691",
+  "baseCommit": "7cd86c874cfc403c07e90225aec498b660649588",
+  "catalogoAttivo": 115,
+  "schede": 186,
+  "ripartizione": {
+    "Taxi": 112,
+    "NCC": 70,
+    "Trazione animale": 4
+  },
+  "paginePDF": 207,
+  "indici": 6,
+  "destinazioniPDF": 186,
+  "formuleConfrontatePWA_Copia_PDF": 185,
+  "schedeSecondaParte": 15,
+  "rimozioni": [
+    "G51"
+  ],
+  "rinviiDescrittiviCorretti": [
+    "R16"
+  ],
+  "normeEquine": [
+    {
+      "codice": "R39",
+      "prescrizione": "Regolamento artt.34–35 e39",
+      "norma_sanzionatoria": "CdS art.70 comma4 secondo periodo, soltanto per condizione della licenza effettivamente violata",
+      "art86": "Non esteso alla trazione animale",
+      "limite": "Fatti personali distinti da valutazione veterinaria; eventuali illeciti autonomi da qualificare."
+    },
+    {
+      "codice": "R40",
+      "prescrizione": "Regolamento art.36 comma1, con eccezione comma2",
+      "norma_sanzionatoria": "CdS art.70 comma4 secondo periodo, soltanto per condizione della licenza effettivamente violata",
+      "art86": "Non esteso alla trazione animale",
+      "limite": "Mancata esibizione/riscontro non prova inidoneità sostanziale."
+    },
+    {
+      "codice": "R41",
+      "prescrizione": "Regolamento art.37 commi1–4 e art.39",
+      "norma_sanzionatoria": "CdS art.70 comma4 secondo periodo, soltanto per condizione della licenza effettivamente violata",
+      "art86": "Non esteso alla trazione animale",
+      "limite": "Specificare abilitazione o identificazione accertata; base autonoma per ulteriori illeciti."
+    },
+    {
+      "codice": "R42",
+      "prescrizione": "Regolamento art.38 comma1",
+      "norma_sanzionatoria": "CdS art.70 comma4 secondo periodo, soltanto per condizione della licenza effettivamente violata",
+      "art86": "Non esteso alla trazione animale",
+      "limite": "Ordinanza tecnica da acquisire; nessun estremo inventato."
+    }
+  ],
+  "pdfSHA256": "3412a7cfff83007b4b96d301d2a9300712a8882f6bd69bc35f8c6585f174c661",
+  "npmTest": "Superato, log esito-npm-test.txt",
+  "diffCheck": "Superato",
+  "G51AssenteDaiPercorsiAttivi": true,
+  "dicitureAssentiDaRenderingCopiaPDF": true,
+  "originaliConservati": true,
+  "fileAutoreConservato": true,
+  "viewports": [
+    {
+      "width": 320,
+      "height": 740,
+      "cards": 186,
+      "failures": []
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "cards": 186,
+      "failures": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "cards": 186,
+      "failures": []
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "cards": 186,
+      "failures": []
+    },
+    {
+      "width": 740,
+      "height": 320,
+      "cards": 186,
+      "failures": []
+    },
+    {
+      "width": 800,
+      "height": 360,
+      "cards": 186,
+      "failures": []
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "cards": 186,
+      "failures": []
+    },
+    {
+      "width": 932,
+      "height": 430,
+      "cards": 186,
+      "failures": []
+    },
+    {
+      "width": 1440,
+      "height": 1000,
+      "cards": 186,
+      "failures": []
+    }
+  ],
+  "copieBrowserEffettive": "Verificate nelle prove complete e mirate; le note restano escluse",
+  "migrazione": "Vera1.8.9/PDF7.11 → 1.8.10/PDF7.12, fonti migrate, nuovo modulo e G46 offline, hashPDF coincidente",
+  "anteprimaRisorseLocaliVerificate": 80,
+  "controlloVisivo": "15 pagine PDF e schede PWA modificate, tavole, G49/R41 e copertina; mobile360/390 e geometria senza overflow",
+  "dubbiResidui": "Rapporto1.8.10: art70 collegamento al titolo; ordinanzeG46–G48/R42; applicazioneG49; coordinamentoG50; soggetti/sanzioneI09; R01 e dubbi anteriori conservati.",
+  "commitPushDeploy": "Non eseguiti",
+  "limiti": "Chromium locale; non certifica telefono fisico, pubblicazione remota o vigenza assoluta di atti non acquisiti."
+}

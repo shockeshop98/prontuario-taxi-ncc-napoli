@@ -14,12 +14,12 @@ const dataLine=html.split('\n').find(line=>line.startsWith('const DATA='));
 if(!dataLine)throw Error('Catalogo incorporato non trovato');
 const data=JSON.parse(dataLine.slice('const DATA='.length,-1));
 const window={};
-for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js','scripts/revision-g01-g43.js']){
+for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js','scripts/revision-g01-g43.js','scripts/revision-seconda-parte.js','scripts/revision-pausa-caldo.js','scripts/revision-equini-835.js']){
   vm.runInNewContext(await readFile(resolve(root,name),'utf8'),{window},{filename:name});
 }
 const layout=window.prontuarioStaticLayout(data.catalog,data.manualParts);
 const byId=new Map(data.catalog.map(item=>[item.id,item]));
-const version='7.11',today='18 ottobre 2026';
+const version='7.15',today='23 ottobre 2026';
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const regulation='Regolamento comunale (delibera C.C. n. 80/2005), ';
 const finalSentence="Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.";
@@ -231,14 +231,14 @@ function caseSections({item,type}){
   const view=content(item,type),row=item.payments[0];
   if(item.payments.length!==1)throw Error(`Scheda con più fasce: ${item.code}`);
   if(view.parts.length!==view.groups.length+1)throw Error(`Formula non coerente: ${item.code}`);
-  const amounts=`<table class="amounts"><thead><tr><th>PMR</th><th>Entro 5 giorni</th><th>Oltre 60 giorni o procedura</th><th>Limiti edittali</th></tr></thead><tbody><tr><td>${esc(money(row[2]))}</td><td>${esc(money(row[3]))}</td><td>${esc(money(row[4]))}</td><td>${esc(money(row[1]))}</td></tr></tbody></table>`;
+  const amounts=view.amountsMarkup||`<table class="amounts"><thead><tr><th>PMR</th><th>Entro 5 giorni</th><th>Oltre 60 giorni o procedura</th><th>Limiti edittali</th></tr></thead><tbody><tr><td>${esc(money(row[2]))}</td><td>${esc(money(row[3]))}</td><td>${esc(money(row[4]))}</td><td>${esc(money(row[1]))}</td></tr></tbody></table>`;
   const formula=`<div class="formula">${pdfFormulaMarkup(view.formulaMarkup)}</div>`;
-  const revisionNotes=window.prontuarioRevisionApplies(item,type)?[...view.pdfNotes,...(view.acts.length?['Attestazioni da aggiungere solo per gli atti effettivamente eseguiti (non fanno parte della formula base):',...view.acts.map(a=>a.title+': '+a.text)]:[])]:view.notes;
+  const revisionNotes=(window.prontuarioRevisionApplies(item,type)||window.prontuarioSecondApplies(item)||window.prontuarioCaldoApplies(item)||window.prontuarioEquini835Applies(item))?[...view.pdfNotes,...(view.acts.length?['Attestazioni da aggiungere solo per gli atti effettivamente eseguiti (non fanno parte della formula base):',...view.acts.map(a=>a.title+': '+a.text)]:[])]:view.notes;
   const compact=compactCaseNotes(revisionNotes,view.acts.length?'':view.route,view.acts.length>0);
   const accessory=window.prontuarioAccessoryRows(view.accessories);
   const eyebrow=`${esc(item.code)} · ${esc(type.toUpperCase())}${item.group?` · GRUPPO ${esc(item.group.toUpperCase())}`:''}`;
   const sections={
-    head:`<div class="eyebrow">${eyebrow}</div><h1>${esc(view.title)}</h1>`,
+    head:`<div class="eyebrow">${eyebrow}</div><h1>${esc(view.title)}</h1>${view.status?`<p class="operationNote">${esc(view.status)}</p>`:''}`,
     normative:`<section><h3>Riferimenti normativi — obblighi e sanzioni</h3><p>${esc(view.normative)}</p></section>`,
     amounts:`<section><h3>Tabella importi</h3>${window.prontuarioIsResidual(item)?`<p>${esc(window.prontuarioRevisionApplies(item,type)?"CdS residuale: verificare la specifica condizione della licenza (note operative).":view.relation?"Importi della sola ipotesi CdS: qualificazione non accertata.":"Solo per condizione del titolo accertata, non per ogni violazione comunale.")}</p>`:""}${amounts}</section>`,
     accessories:`<section><h3>Sanzioni accessorie e adempimenti</h3>${window.prontuarioFollowupMarkup(item,view.accessories,esc,true)}</section>`,

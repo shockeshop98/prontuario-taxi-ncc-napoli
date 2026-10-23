@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-23",
+  "inputOriginalsPreserved": true,
+  "excludedFullEGAFPDF": "allegati/EGAF_Art86_originale.pdf",
+  "excludedJPEGInputs": true,
+  "excludedPersonalDocumentsAndControlPhoto": true,
+  "textScanOf446CommitCandidates": {
+    "codiceFiscale": 0,
+    "targhe": 0,
+    "identificativoModuloPrivato": 0,
+    "privateKeyOrGitHubToken": 0
+  },
+  "scope": "Modelli, dati generati e fonti pubbliche; crediti e nominativi istituzionali conservati. Nessuna garanzia di rimozione dalla cronologia Git precedente.",
+  "pdfTextScan": {
+    "documents": 13,
+    "pages": 305,
+    "privateIdentifiersFound": 0
+  }
+}

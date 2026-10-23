@@ -1,0 +1,17 @@
+
+> test
+> node tests/pwa.test.mjs && node tests/clarity.test.mjs && node tests/revision.test.mjs && node tests/guide.test.mjs && node tests/inline-demo.test.mjs && node tests/static-catalog.test.mjs && node tests/taxi-collettivo.test.mjs && node tests/ricevute-tariffe.test.mjs && node tests/operative-rules.test.mjs && node tests/icons.test.mjs && node tests/g01-g43.test.mjs && node tests/seconda-parte.test.mjs && node tests/integrazione.test.mjs
+
+PWA: scoped installation, asset hashes, offline navigation, retained documents, network refresh and PDF ranges OK
+Chiarezza: responsabilità specifiche, riferimenti CdS senza LR e consultazione statica OK
+Revisione: 115 voci attive, 186 schede PDF incl. TC01, 6 indici, ricevute distinte, rinvii I03/I07, importi invariati e seguito distinto OK
+Dati operativi non esposti: 116 ID, catalogo coerente e privacy OK
+Sei casi dimostrativi: tabella orizzontale singola, alternative nel corpo, copia con stato degli adempimenti OK
+Catalogo statico: 186 schede incl. TC01, R17/R18 assenti, G24, alias, copia con stato degli adempimenti OK
+Taxi collettivo: TC01 senza importi, atti distinti, 8 ricerche, 9 rinvii, 3 originali integri e offline OK
+Ricevute e tariffe: quattro schede con qualificazione distinta Taxi coerenti fra PWA, copia, esempi e PDF; G28 NCC, fonti offline e supplementi conservati
+Revisione 1.8.6: 187 esiti documentati, ordine, presupposti, G24/G28, obblighi, copia e integrità fonti OK
+Icone: manifest, Apple, favicon, leggibilità 16 px e zona sicura maskable OK
+Revisione G01–G43: 38 codici, 148 schede fuori ambito precedente (15 ora revisionate), 276 combinazioni di attestazioni, presupposti, esempi e copia OK
+Seconda parte: 15 schede, 1 rimozione, importi invariati salvo G52, G49 e quattro prescrizioni equine verificate, pulizia attiva, quattro schede equine art.70, originali e copertura OK
+Integrazione: art.70 e ritiro, G48 documento e tre alternative, G49 importi/punti, G50 arrivo, G52 stalli, I09 gestionale e R01 inattiva; originali e schede estranee conservati.

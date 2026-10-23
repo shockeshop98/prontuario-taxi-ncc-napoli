@@ -18,7 +18,7 @@ const canonicalWorker = sw.replace(`BUILD_ID = '${version.build_id}'`, "BUILD_ID
 const corePaths = [...sw.match(/const CORE = \[(.*?)\];/s)[1].matchAll(/'([^']+)'/g)].map(match => match[1]);
 const staticHashes = (await Promise.all(corePaths.filter(path => !['index.html','manifest.webmanifest'].includes(path)).sort().map(async path => `${path}:${createHash('sha256').update(await readFile(join(root, path))).digest('hex')}\n`))).join('');
 assert.equal(createHash('sha256').update(canonicalHtml + '\n' + canonicalWorker + '\n' + await readFile(join(root, 'manifest.webmanifest'), 'utf8') + '\n' + staticHashes).digest('hex'), version.build_id);
-assert.equal(version.version, '1.8.9');
+assert.equal(version.version, '1.8.13');
 assert.ok(html.includes(`<span id="releaseInfo">Versione ${version.version} ·`), 'Versione visibile diversa da version.json');
 assert.equal(manifest.display, 'standalone');
 assert.equal(manifest.id, '/prontuario-taxi-ncc-napoli/');
@@ -43,6 +43,7 @@ const caches = {
     return {
       async put(request, response) { map.set(key(request), response.clone()); },
       async match(request) { return map.get(key(request))?.clone(); },
+      async keys() { return [...map.keys()].map(url => new Request(url)); },
       async delete(request) { return map.delete(key(request)); }
     };
   },
@@ -85,12 +86,17 @@ for (const path of ['scripts/static-demos.js','scripts/static-field-suggestions.
 const doc = 'allegati/Regolamento_Taxi_NCC_Napoli.pdf';
 const bytes = await readFile(join(root, doc));
 const oldCache = await caches.open('prontuario-docs-old-build');
+const excludedSource = 'allegati/EGAF_Art86_originale.pdf';
+await oldCache.put(new URL(excludedSource, origin), new Response('fonte esclusa'));
 await oldCache.put(new URL(doc, origin), new Response(bytes, {headers: {'Content-Type': 'application/pdf'}}));
 const changedDoc = 'allegati/Tariffario_Taxi_2024.pdf';
 await oldCache.put(new URL(changedDoc, origin), new Response('obsolete file', {headers: {'Content-Type': 'application/pdf'}}));
 const revisedManual = 'allegati/Prontuario_Taxi_NCC_Napoli.pdf';
 await oldCache.put(new URL(revisedManual, origin), new Response('precedente revisione', {headers: {'Content-Type': 'application/pdf'}}));
 await lifecycle('activate');
+assert.equal(await oldCache.match(new URL(excludedSource, origin)), undefined);
+assert.equal(JSON.parse(html.match(/^const DATA=(.*);$/m)[1]).sources[2].url, 'allegati/EGAF_Art86_provenienza.txt');
+assert.ok(!hashes[excludedSource]);
 assert.ok((await caches.keys()).includes('prontuario-docs-old-build'));
 assert.equal(await oldCache.match(new URL(changedDoc, origin)), undefined);
 assert.equal(await oldCache.match(new URL(revisedManual, origin)), undefined);

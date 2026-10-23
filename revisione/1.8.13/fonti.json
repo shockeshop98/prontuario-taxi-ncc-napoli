@@ -1,0 +1,50 @@
+[
+  {
+    "id": "TUEL7",
+    "file": "revisione/1.8.13/fonti/TUEL-art7.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267~art7!vig=2026-10-23",
+    "scope": "Art.7 acquisito via curl, corpo normativo letto integralmente: potere regolamentare, non autonoma previsione sanzionatoria.",
+    "date": "2026-10-23",
+    "status": "Testo normativo acquisito",
+    "sha256": "9104385028e4e8740c8221202614602ac8997142219de0356bcce9b324f2f12a"
+  },
+  {
+    "id": "TUEL7BIS",
+    "file": "revisione/1.8.13/fonti/TUEL-art7bis.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2000-08-18;267~art7bis!vig=2026-10-23",
+    "scope": "Art.7-bis commi1,1-bis,2 letto: limiti generali e presupposti, distinta applicabilità all’ordinanza non acquisita.",
+    "date": "2026-10-23",
+    "status": "Testo normativo acquisito",
+    "sha256": "4eed73ff2dd66e0f9c78cfa5a7dfcc2668b8d9e9fe4f15fa16eff36eefac6c67"
+  },
+  {
+    "id": "L68916",
+    "file": "revisione/1.8.13/fonti/L689-art16.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1981-11-24;689~art16!vig=2026-10-23",
+    "scope": "Art.16 letto integralmente con note: doppio minimo/terzo massimo, sessanta giorni, comma2 Giunta.",
+    "date": "2026-10-23",
+    "status": "Testo normativo acquisito",
+    "sha256": "353d6eaa4159e72c0ce628a9dd8ad5aee6f046982b88f99843ef132bdc06111c"
+  },
+  {
+    "id": "OS835_AUTORE",
+    "file": "allegati/OS835_2014_indicazioni_autore.txt",
+    "url": null,
+    "scope": "Registro della conferma esplicita dell’autore nella sessione; non è il testo dell’ordinanza e non ne prova documentalmente la sanzione.",
+    "date": "2026-10-23",
+    "status": "Indicazione confermata dall’autore",
+    "sha256": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd"
+  },
+  {
+    "id": "OS835_INTEGRALE",
+    "date": "2026-10-23",
+    "status": "Non acquisito",
+    "scope": "Conferma delle tre prescrizioni registrata senza nuova richiesta; nessun punto, eccezione o clausola sanzionatoria inventati."
+  },
+  {
+    "id": "GIUNTA_PMR",
+    "date": "2026-10-23",
+    "status": "Non acquisita",
+    "scope": "Nessuna diversa delibera di Giunta ex art.16 comma2 acquisita per queste fattispecie."
+  }
+]

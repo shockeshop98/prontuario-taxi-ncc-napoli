@@ -14,11 +14,11 @@ const formulaParts=markup=>[...markup.matchAll(/<p class="staticFormulaPart" dat
   .map(match=>match[1].replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>').replaceAll('&amp;','&'));
 const covered=new Set([...Object.keys(window.prontuarioStaticCatalog),'I03','I07',...Object.values(window.prontuarioStaticDemos).map(demo=>demo.code)]);
 for(const code of ['G28-01','G28-02','G28-03','G28-04'])covered.delete(code);
-assert.deepEqual(covered,new Set(data.catalog.map(item=>item.code)));
+assert.deepEqual(covered,new Set(data.catalog.filter(item=>!['R43','R44','R45','R46'].includes(item.code)).map(item=>item.code)));
 const layout=window.prontuarioStaticLayout(data.catalog,data.manualParts,data.staticPages);
 assert.deepEqual(new Set(window.prontuarioEvidenceHintCodes),new Set(Object.keys(window.prontuarioStaticCatalog)));
-assert.equal(layout.rows.length,187);
-assert.equal(new Set(layout.rows.map(({item,type})=>`${item.id}/${type}`)).size,187);
+assert.equal(layout.rows.length,190);
+assert.equal(new Set(layout.rows.map(({item,type})=>`${item.id}/${type}`)).size,190);
 assert.ok(!layout.rows.some(({item})=>['R17','R18'].includes(item.code)));
 assert.ok(!html.includes('collettivosigillo')&&!html.includes('collettivoposti'),'Alias di ricerca R17/R18 rimossi');
 assert.ok(!data.prontuario.audit.some(row=>row.ids.some(id=>['collettivosigillo','collettivoposti'].includes(id))));
@@ -41,7 +41,7 @@ assert.equal(data.manualAuditPage,layout.firstCasePage+layout.rows.length+4);
 const helpers={esc:value=>String(value??'').replaceAll('&','&amp;').replaceAll('<','&lt;'),sourceLink:()=>'',date:value=>value,normative:item=>item.verbaleRef||item.ref};
 const finalSentence="Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.";
 for(const {item,type} of layout.rows){
-  if(item.kind==='collective-reference')continue;
+  if(item.kind==='collective-reference'||['R43','R44','R45','R46'].includes(item.code))continue; // R43 usa il renderer TUEL verificato separatamente
   if(type==='Taxi'&&window.prontuarioStaticDemos[item.demoBaseId||item.id])continue;
   const model=window.prontuarioCatalogModel(item,type);
   assert.equal(item.payments.length,1,`${item.code}: una sola fascia`);
@@ -154,7 +154,7 @@ for(const code of ['G12','N01','N02','N10','N12']){
 for(const code of ['R39','R40','R41','R42']){
   const item=data.catalog.find(value=>value.code===code);
   assert.ok(!JSON.stringify(item).toLowerCase().includes('tassista'),`${code}: riferimento improprio al tassista`);
-  assert.match(item.route,/trazione animale|cavallo|vettura|razza/);
+  assert.match(item.route,/trazione animale|cavallo|vettura|razza/i);
 }
 const sample=layout.rows.find(({item})=>item.code==='G04-02');
 activeParts=formulaParts(window.prontuarioCatalogBody(sample.item,sample.type,helpers));
@@ -176,4 +176,4 @@ const g24Parts=formulaParts(g24Body);
 assert.match(g24Parts.join(' '),/Condizione del titolo e sua efficacia/);
 assert.doesNotMatch(g24Parts.join(' '),/fila dei passeggeri|persone esterne alla fila/);
 assert.doesNotMatch(g24Parts.join(' '),/osservazione diretta|dichiarazioni formalizzate/);
-console.log('Catalogo statico: 187 schede incl. TC01, R17/R18 assenti, G24, alias, copia con stato degli adempimenti OK');
+console.log('Catalogo statico: 190 schede incl. TC01, R17/R18 assenti, G24, alias, copia con stato degli adempimenti OK');

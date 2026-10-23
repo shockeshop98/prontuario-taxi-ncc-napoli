@@ -1,0 +1,338 @@
+{
+  "baseline": "1.8.12",
+  "pwa": "1.8.13",
+  "pdf": "7.15",
+  "schede": [
+    {
+      "propostaPrecedente": "P-EQ01",
+      "code": "R44",
+      "prima": "Proposta separata non operativa della revisione1.8.12, integrale O.S.835 non acquisito.",
+      "dopo": {
+        "item": {
+          "code": "R44",
+          "id": "equinaoregiornaliere",
+          "title": "Equino impiegato oltre sei ore giornaliere",
+          "facts": "Impiego del medesimo equino oltre6ore nella giornata; limite confermato dall’autore. Documentare intervalli di effettivo impiego, totale e fonti.",
+          "documents": "Data; equino e carrozza; intervalli di impiego e pause distinte, totale giornaliero e riscontri.",
+          "searchTerms": "cavallo cavalli equino equini impiego lavoro trazione sei 6 ore giornaliere giornata durata pausa 835 2014",
+          "scope": "equina",
+          "topic": "equina",
+          "kind": "local",
+          "group": "",
+          "git": false,
+          "referenceOnly": false,
+          "origin": "Prescrizioni O.S.835/2014 confermate dall’autore",
+          "ref": "D.Lgs.267/2000 artt.7 e7-bis, commi1 e1-bis (regime generale da qualificare); L.689/1981 artt.3,6,9,16–18; O.S. n.835 del17/06/2014 (prescrizione confermata dall’autore; integrale e sanzione specifica non acquisiti)",
+          "sources": [
+            "OS835_AUTORE",
+            "TUEL",
+            "TUEL7",
+            "L689",
+            "L6899"
+          ],
+          "sourceIndices": [
+            15
+          ],
+          "pages": [],
+          "regPages": [],
+          "payments": [
+            [
+              "Regime generale TUEL, se applicabile; sanzione specifica O.S. non acquisita",
+              "25–500",
+              "50",
+              "Non previsto",
+              "Rapporto ex art.17 L.689/1981",
+              "Nessuna accessoria CdS automatica"
+            ]
+          ],
+          "paymentNotes": [
+            "Importi generali, se applicabile il TUEL: €25–500; PMR€50 entro60giorni oltre spese, salvo diversa delibera di Giunta ex art.16 comma2 L.689/1981 non acquisita. Sanzione specifica O.S.835/2014 non verificata documentalmente."
+          ],
+          "sanction": "Regime generale TUEL art.7-bis, se applicabile: €25–500; PMR€50 entro60giorni salvo diversa delibera Giunta. Sanzione specifica O.S.835/2014 non acquisita; nessuno sconto30%, punto o ritiro automatici.",
+          "ui": {
+            "label": "Prescrizione confermata dall’autore",
+            "value": "PMR generale €50",
+            "detail": "Se regime TUEL applicabile · sanzione O.S. non acquisita",
+            "tone": "amber"
+          },
+          "note": "Prescrizione confermata dall’autore; integrale O.S.835/2014 non acquisito. Distinguere regime generale e sanzione specifica, senza cumuli o misure CdS automatiche.",
+          "acts": "Documentare il fatto e qualificare il fondamento dell’ordinanza; se applicabile L.689/1981, rapporto all’autorità comunale competente in caso di mancato pagamento. Nessun ritiro automatico.",
+          "route": "Autorità comunale competente ex art.17 L.689/1981; fatti pertinenti sul servizio all’Ufficio Corso Pubblico, senza attestazione automatica di invio.",
+          "suggestions": [],
+          "legalBackground": [],
+          "docPages": {
+            "equina": 200
+          },
+          "checked": "2026-10-23",
+          "reviewed": "2026-10-23",
+          "verbaleRef": "D.Lgs.267/2000 artt.7 e7-bis, commi1 e1-bis (regime generale da qualificare); L.689/1981 artt.3,6,9,16–18; O.S. n.835 del17/06/2014 (prescrizione confermata dall’autore; integrale e sanzione specifica non acquisiti)",
+          "formula": "Il giorno […] impiegava l’equino […] nella trazione della carrozza […] per complessive […] ore giornaliere, oltre il limite di 6 ore. Intervalli di impiego e fonti dell’accertamento: […].",
+          "notes": [
+            "Il limite di sei ore è giornaliero, riferito al medesimo equino: documentare gli intervalli e il totale. Non dedurre le ore di impiego dal solo turno del vetturino o dalla sola presenza in strada. Il testo integrale manca: non inventare criteri di computo delle pause o eccezioni.",
+            "Prescrizione dell’O.S. n.835 del 17/06/2014 confermata dall’autore il 23/10/2026: indicazione dell’autore, distinta da acquisizione documentale. Integrale dell’ordinanza, punto dell’atto e clausola sanzionatoria non acquisiti. La conferma editoriale è già registrata; nel caso concreto documentare il fatto.",
+            "Artt.7 e 7-bis D.Lgs.267/2000: art.7 disciplina il potere regolamentare, non determina da solo la sanzione. Art.7-bis, commi1 e1-bis, prevede €25–500, salvo diversa disposizione di legge, per regolamenti e ordinanze sindacali adottate su base legislativa o specifica norma regolamentare. Il fondamento e la disciplina applicabile a questa prescrizione restano da riscontrare nell’atto integrale.",
+            "Se applicabile il regime generale TUEL: PMR €50 entro60giorni oltre spese, ex art.16 comma1 L.689/1981 (doppio di €25 più favorevole di €500/3). Salvo diversa delibera di Giunta ex comma2, non acquisita. Importi generali verificati, sanzione specifica dell’O.S.835/2014 non verificata documentalmente. Nessuno sconto del30%; dopo60giorni rapporto ex art.17 e procedimento ex art.18, senza raddoppio automatico.",
+            "Caso distinto da R39–R42 (art.70 CdS) e R43 (caldo). Per il medesimo fatto verificare specialità ex art.9 L.689/1981 ed eventuali fatti autonomi: nessun cumulo automatico fra queste schede o con il caldo. Nessun ritiro della licenza, punto patente o altra misura CdS derivano automaticamente da questa scheda."
+          ],
+          "docPage": 200
+        },
+        "view": {
+          "title": "Equino impiegato oltre sei ore giornaliere",
+          "status": "Prescrizione confermata dall’autore. Integrale e sanzione specifica non acquisiti: qualificare la base prima della contestazione.",
+          "normative": "D.Lgs.267/2000 artt.7 e7-bis, commi1 e1-bis (regime generale da qualificare); L.689/1981 artt.3,6,9,16–18; O.S. n.835 del17/06/2014 (prescrizione confermata dall’autore; integrale e sanzione specifica non acquisiti)",
+          "accessories": {
+            "cds": "Non previste automaticamente",
+            "other": "",
+            "patentPoints": "Non previsti automaticamente"
+          },
+          "relation": false,
+          "parts": [
+            "Il giorno […] impiegava l’equino […] nella trazione della carrozza […] per complessive […] ore giornaliere, oltre il limite di 6 ore. Intervalli di impiego e fonti dell’accertamento: […]."
+          ],
+          "formulaMarkup": "<p class=\"staticFormulaPart\" data-copy-text=\"Il giorno […] impiegava l’equino […] nella trazione della carrozza […] per complessive […] ore giornaliere, oltre il limite di 6 ore. Intervalli di impiego e fonti dell’accertamento: […].\">Il giorno […] impiegava l’equino […] nella trazione della carrozza […] per complessive […] ore giornaliere, oltre il limite di 6 ore. Intervalli di impiego e fonti dell’accertamento: […].</p>",
+          "groups": [],
+          "notes": [
+            "Il limite di sei ore è giornaliero, riferito al medesimo equino: documentare gli intervalli e il totale. Non dedurre le ore di impiego dal solo turno del vetturino o dalla sola presenza in strada. Il testo integrale manca: non inventare criteri di computo delle pause o eccezioni.",
+            "Prescrizione dell’O.S. n.835 del 17/06/2014 confermata dall’autore il 23/10/2026: indicazione dell’autore, distinta da acquisizione documentale. Integrale dell’ordinanza, punto dell’atto e clausola sanzionatoria non acquisiti. La conferma editoriale è già registrata; nel caso concreto documentare il fatto.",
+            "Artt.7 e 7-bis D.Lgs.267/2000: art.7 disciplina il potere regolamentare, non determina da solo la sanzione. Art.7-bis, commi1 e1-bis, prevede €25–500, salvo diversa disposizione di legge, per regolamenti e ordinanze sindacali adottate su base legislativa o specifica norma regolamentare. Il fondamento e la disciplina applicabile a questa prescrizione restano da riscontrare nell’atto integrale.",
+            "Se applicabile il regime generale TUEL: PMR €50 entro60giorni oltre spese, ex art.16 comma1 L.689/1981 (doppio di €25 più favorevole di €500/3). Salvo diversa delibera di Giunta ex comma2, non acquisita. Importi generali verificati, sanzione specifica dell’O.S.835/2014 non verificata documentalmente. Nessuno sconto del30%; dopo60giorni rapporto ex art.17 e procedimento ex art.18, senza raddoppio automatico.",
+            "Caso distinto da R39–R42 (art.70 CdS) e R43 (caldo). Per il medesimo fatto verificare specialità ex art.9 L.689/1981 ed eventuali fatti autonomi: nessun cumulo automatico fra queste schede o con il caldo. Nessun ritiro della licenza, punto patente o altra misura CdS derivano automaticamente da questa scheda."
+          ],
+          "pdfNotes": [
+            "Il limite di sei ore è giornaliero, riferito al medesimo equino: documentare gli intervalli e il totale. Non dedurre le ore di impiego dal solo turno del vetturino o dalla sola presenza in strada. Il testo integrale manca: non inventare criteri di computo delle pause o eccezioni.",
+            "Prescrizione dell’O.S. n.835 del 17/06/2014 confermata dall’autore il 23/10/2026: indicazione dell’autore, distinta da acquisizione documentale. Integrale dell’ordinanza, punto dell’atto e clausola sanzionatoria non acquisiti. La conferma editoriale è già registrata; nel caso concreto documentare il fatto.",
+            "Artt.7 e 7-bis D.Lgs.267/2000: art.7 disciplina il potere regolamentare, non determina da solo la sanzione. Art.7-bis, commi1 e1-bis, prevede €25–500, salvo diversa disposizione di legge, per regolamenti e ordinanze sindacali adottate su base legislativa o specifica norma regolamentare. Il fondamento e la disciplina applicabile a questa prescrizione restano da riscontrare nell’atto integrale.",
+            "Se applicabile il regime generale TUEL: PMR €50 entro60giorni oltre spese, ex art.16 comma1 L.689/1981 (doppio di €25 più favorevole di €500/3). Salvo diversa delibera di Giunta ex comma2, non acquisita. Importi generali verificati, sanzione specifica dell’O.S.835/2014 non verificata documentalmente. Nessuno sconto del30%; dopo60giorni rapporto ex art.17 e procedimento ex art.18, senza raddoppio automatico.",
+            "Caso distinto da R39–R42 (art.70 CdS) e R43 (caldo). Per il medesimo fatto verificare specialità ex art.9 L.689/1981 ed eventuali fatti autonomi: nessun cumulo automatico fra queste schede o con il caldo. Nessun ritiro della licenza, punto patente o altra misura CdS derivano automaticamente da questa scheda."
+          ],
+          "amountsMarkup": "<p class=\"qualificationWarning\">Regime generale TUEL, se applicabile alla prescrizione: sanzione specifica dell’O.S.835/2014 non verificata documentalmente.</p><table class=\"staticAmountsTable amounts\"><caption>Importi generali in euro, spese escluse · artt.7-bis TUEL e16 L.689/1981</caption><thead><tr><th>Limiti edittali</th><th>PMR entro60giorni</th><th>Dopo60giorni</th></tr></thead><tbody><tr><td>€ 25–500</td><td>€ 50 · salvo diversa delibera di Giunta</td><td>Rapporto ex art.17 e procedimento ex art.18 L.689/1981</td></tr></tbody></table>",
+          "responsibility": "Individuare l’autore della condotta e gli eventuali obbligati secondo artt.3 e6 L.689/1981; non dedurre automaticamente la responsabilità dalla sola titolarità della licenza.",
+          "route": "",
+          "acts": []
+        },
+        "paginaPDF": 200
+      }
+    },
+    {
+      "propostaPrecedente": "P-EQ02",
+      "code": "R45",
+      "prima": "Proposta separata non operativa della revisione1.8.12, integrale O.S.835 non acquisito.",
+      "dopo": {
+        "item": {
+          "code": "R45",
+          "id": "equinacapienzacarrozza",
+          "title": "Carrozza con passeggeri oltre la capienza autorizzata",
+          "facts": "Passeggeri trasportati oltre la capienza autorizzata della specifica carrozza, come confermato dall’autore; titolo e conteggio da riscontrare.",
+          "documents": "Data ora luogo; carrozza; passeggeri trasportati, capienza autorizzata e relativo documento; fonte dell’accertamento.",
+          "searchTerms": "carrozza carrozze carrozzella carrozzelle capienza autorizzata passeggeri posti sovrannumero sovraccarico 835 2014",
+          "scope": "equina",
+          "topic": "equina",
+          "kind": "local",
+          "group": "",
+          "git": false,
+          "referenceOnly": false,
+          "origin": "Prescrizioni O.S.835/2014 confermate dall’autore",
+          "ref": "D.Lgs.267/2000 artt.7 e7-bis, commi1 e1-bis (regime generale da qualificare); L.689/1981 artt.3,6,9,16–18; O.S. n.835 del17/06/2014 (prescrizione confermata dall’autore; integrale e sanzione specifica non acquisiti)",
+          "sources": [
+            "OS835_AUTORE",
+            "TUEL",
+            "TUEL7",
+            "L689",
+            "L6899"
+          ],
+          "sourceIndices": [
+            15
+          ],
+          "pages": [],
+          "regPages": [],
+          "payments": [
+            [
+              "Regime generale TUEL, se applicabile; sanzione specifica O.S. non acquisita",
+              "25–500",
+              "50",
+              "Non previsto",
+              "Rapporto ex art.17 L.689/1981",
+              "Nessuna accessoria CdS automatica"
+            ]
+          ],
+          "paymentNotes": [
+            "Importi generali, se applicabile il TUEL: €25–500; PMR€50 entro60giorni oltre spese, salvo diversa delibera di Giunta ex art.16 comma2 L.689/1981 non acquisita. Sanzione specifica O.S.835/2014 non verificata documentalmente."
+          ],
+          "sanction": "Regime generale TUEL art.7-bis, se applicabile: €25–500; PMR€50 entro60giorni salvo diversa delibera Giunta. Sanzione specifica O.S.835/2014 non acquisita; nessuno sconto30%, punto o ritiro automatici.",
+          "ui": {
+            "label": "Prescrizione confermata dall’autore",
+            "value": "PMR generale €50",
+            "detail": "Se regime TUEL applicabile · sanzione O.S. non acquisita",
+            "tone": "amber"
+          },
+          "note": "Prescrizione confermata dall’autore; integrale O.S.835/2014 non acquisito. Distinguere regime generale e sanzione specifica, senza cumuli o misure CdS automatiche.",
+          "acts": "Documentare il fatto e qualificare il fondamento dell’ordinanza; se applicabile L.689/1981, rapporto all’autorità comunale competente in caso di mancato pagamento. Nessun ritiro automatico.",
+          "route": "Autorità comunale competente ex art.17 L.689/1981; fatti pertinenti sul servizio all’Ufficio Corso Pubblico, senza attestazione automatica di invio.",
+          "suggestions": [],
+          "legalBackground": [],
+          "docPages": {
+            "equina": 201
+          },
+          "checked": "2026-10-23",
+          "reviewed": "2026-10-23",
+          "verbaleRef": "D.Lgs.267/2000 artt.7 e7-bis, commi1 e1-bis (regime generale da qualificare); L.689/1981 artt.3,6,9,16–18; O.S. n.835 del17/06/2014 (prescrizione confermata dall’autore; integrale e sanzione specifica non acquisiti)",
+          "formula": "Il giorno […] alle ore […] in […], con la carrozza […] trasportava […] passeggeri, oltre la capienza autorizzata di […] risultante da […]. Fatto accertato mediante […].",
+          "notes": [
+            "Confrontare i passeggeri effettivamente trasportati con la capienza del documento autorizzativo della specifica carrozza. Verificare come il titolo tratta conducente e minori; non inventare equivalenze di posti o presumere la capienza dal solo numero di sedili.",
+            "Prescrizione dell’O.S. n.835 del 17/06/2014 confermata dall’autore il 23/10/2026: indicazione dell’autore, distinta da acquisizione documentale. Integrale dell’ordinanza, punto dell’atto e clausola sanzionatoria non acquisiti. La conferma editoriale è già registrata; nel caso concreto documentare il fatto.",
+            "Artt.7 e 7-bis D.Lgs.267/2000: art.7 disciplina il potere regolamentare, non determina da solo la sanzione. Art.7-bis, commi1 e1-bis, prevede €25–500, salvo diversa disposizione di legge, per regolamenti e ordinanze sindacali adottate su base legislativa o specifica norma regolamentare. Il fondamento e la disciplina applicabile a questa prescrizione restano da riscontrare nell’atto integrale.",
+            "Se applicabile il regime generale TUEL: PMR €50 entro60giorni oltre spese, ex art.16 comma1 L.689/1981 (doppio di €25 più favorevole di €500/3). Salvo diversa delibera di Giunta ex comma2, non acquisita. Importi generali verificati, sanzione specifica dell’O.S.835/2014 non verificata documentalmente. Nessuno sconto del30%; dopo60giorni rapporto ex art.17 e procedimento ex art.18, senza raddoppio automatico.",
+            "Caso distinto da R39–R42 (art.70 CdS) e R43 (caldo). Per il medesimo fatto verificare specialità ex art.9 L.689/1981 ed eventuali fatti autonomi: nessun cumulo automatico fra queste schede o con il caldo. Nessun ritiro della licenza, punto patente o altra misura CdS derivano automaticamente da questa scheda."
+          ],
+          "docPage": 201
+        },
+        "view": {
+          "title": "Carrozza con passeggeri oltre la capienza autorizzata",
+          "status": "Prescrizione confermata dall’autore. Integrale e sanzione specifica non acquisiti: qualificare la base prima della contestazione.",
+          "normative": "D.Lgs.267/2000 artt.7 e7-bis, commi1 e1-bis (regime generale da qualificare); L.689/1981 artt.3,6,9,16–18; O.S. n.835 del17/06/2014 (prescrizione confermata dall’autore; integrale e sanzione specifica non acquisiti)",
+          "accessories": {
+            "cds": "Non previste automaticamente",
+            "other": "",
+            "patentPoints": "Non previsti automaticamente"
+          },
+          "relation": false,
+          "parts": [
+            "Il giorno […] alle ore […] in […], con la carrozza […] trasportava […] passeggeri, oltre la capienza autorizzata di […] risultante da […]. Fatto accertato mediante […]."
+          ],
+          "formulaMarkup": "<p class=\"staticFormulaPart\" data-copy-text=\"Il giorno […] alle ore […] in […], con la carrozza […] trasportava […] passeggeri, oltre la capienza autorizzata di […] risultante da […]. Fatto accertato mediante […].\">Il giorno […] alle ore […] in […], con la carrozza […] trasportava […] passeggeri, oltre la capienza autorizzata di […] risultante da […]. Fatto accertato mediante […].</p>",
+          "groups": [],
+          "notes": [
+            "Confrontare i passeggeri effettivamente trasportati con la capienza del documento autorizzativo della specifica carrozza. Verificare come il titolo tratta conducente e minori; non inventare equivalenze di posti o presumere la capienza dal solo numero di sedili.",
+            "Prescrizione dell’O.S. n.835 del 17/06/2014 confermata dall’autore il 23/10/2026: indicazione dell’autore, distinta da acquisizione documentale. Integrale dell’ordinanza, punto dell’atto e clausola sanzionatoria non acquisiti. La conferma editoriale è già registrata; nel caso concreto documentare il fatto.",
+            "Artt.7 e 7-bis D.Lgs.267/2000: art.7 disciplina il potere regolamentare, non determina da solo la sanzione. Art.7-bis, commi1 e1-bis, prevede €25–500, salvo diversa disposizione di legge, per regolamenti e ordinanze sindacali adottate su base legislativa o specifica norma regolamentare. Il fondamento e la disciplina applicabile a questa prescrizione restano da riscontrare nell’atto integrale.",
+            "Se applicabile il regime generale TUEL: PMR €50 entro60giorni oltre spese, ex art.16 comma1 L.689/1981 (doppio di €25 più favorevole di €500/3). Salvo diversa delibera di Giunta ex comma2, non acquisita. Importi generali verificati, sanzione specifica dell’O.S.835/2014 non verificata documentalmente. Nessuno sconto del30%; dopo60giorni rapporto ex art.17 e procedimento ex art.18, senza raddoppio automatico.",
+            "Caso distinto da R39–R42 (art.70 CdS) e R43 (caldo). Per il medesimo fatto verificare specialità ex art.9 L.689/1981 ed eventuali fatti autonomi: nessun cumulo automatico fra queste schede o con il caldo. Nessun ritiro della licenza, punto patente o altra misura CdS derivano automaticamente da questa scheda."
+          ],
+          "pdfNotes": [
+            "Confrontare i passeggeri effettivamente trasportati con la capienza del documento autorizzativo della specifica carrozza. Verificare come il titolo tratta conducente e minori; non inventare equivalenze di posti o presumere la capienza dal solo numero di sedili.",
+            "Prescrizione dell’O.S. n.835 del 17/06/2014 confermata dall’autore il 23/10/2026: indicazione dell’autore, distinta da acquisizione documentale. Integrale dell’ordinanza, punto dell’atto e clausola sanzionatoria non acquisiti. La conferma editoriale è già registrata; nel caso concreto documentare il fatto.",
+            "Artt.7 e 7-bis D.Lgs.267/2000: art.7 disciplina il potere regolamentare, non determina da solo la sanzione. Art.7-bis, commi1 e1-bis, prevede €25–500, salvo diversa disposizione di legge, per regolamenti e ordinanze sindacali adottate su base legislativa o specifica norma regolamentare. Il fondamento e la disciplina applicabile a questa prescrizione restano da riscontrare nell’atto integrale.",
+            "Se applicabile il regime generale TUEL: PMR €50 entro60giorni oltre spese, ex art.16 comma1 L.689/1981 (doppio di €25 più favorevole di €500/3). Salvo diversa delibera di Giunta ex comma2, non acquisita. Importi generali verificati, sanzione specifica dell’O.S.835/2014 non verificata documentalmente. Nessuno sconto del30%; dopo60giorni rapporto ex art.17 e procedimento ex art.18, senza raddoppio automatico.",
+            "Caso distinto da R39–R42 (art.70 CdS) e R43 (caldo). Per il medesimo fatto verificare specialità ex art.9 L.689/1981 ed eventuali fatti autonomi: nessun cumulo automatico fra queste schede o con il caldo. Nessun ritiro della licenza, punto patente o altra misura CdS derivano automaticamente da questa scheda."
+          ],
+          "amountsMarkup": "<p class=\"qualificationWarning\">Regime generale TUEL, se applicabile alla prescrizione: sanzione specifica dell’O.S.835/2014 non verificata documentalmente.</p><table class=\"staticAmountsTable amounts\"><caption>Importi generali in euro, spese escluse · artt.7-bis TUEL e16 L.689/1981</caption><thead><tr><th>Limiti edittali</th><th>PMR entro60giorni</th><th>Dopo60giorni</th></tr></thead><tbody><tr><td>€ 25–500</td><td>€ 50 · salvo diversa delibera di Giunta</td><td>Rapporto ex art.17 e procedimento ex art.18 L.689/1981</td></tr></tbody></table>",
+          "responsibility": "Individuare l’autore della condotta e gli eventuali obbligati secondo artt.3 e6 L.689/1981; non dedurre automaticamente la responsabilità dalla sola titolarità della licenza.",
+          "route": "",
+          "acts": []
+        },
+        "paginaPDF": 201
+      }
+    },
+    {
+      "propostaPrecedente": "P-EQ03",
+      "code": "R46",
+      "prima": "Proposta separata non operativa della revisione1.8.12, integrale O.S.835 non acquisito.",
+      "dopo": {
+        "item": {
+          "code": "R46",
+          "id": "equinascarpeprotettive",
+          "title": "Equino impiegato senza scarpe protettive",
+          "facts": "Obbligo delle scarpe protettive confermato dall’autore; descrivere equino, impiego e assenza materialmente osservata.",
+          "documents": "Data ora luogo; equino e carrozza; condizione delle protezioni osservata, foto se acquisite, fonte del fatto.",
+          "searchTerms": "cavallo cavalli equino equini scarpe protettive protezioni zoccoli ferratura trazione 835 2014",
+          "scope": "equina",
+          "topic": "equina",
+          "kind": "local",
+          "group": "",
+          "git": false,
+          "referenceOnly": false,
+          "origin": "Prescrizioni O.S.835/2014 confermate dall’autore",
+          "ref": "D.Lgs.267/2000 artt.7 e7-bis, commi1 e1-bis (regime generale da qualificare); L.689/1981 artt.3,6,9,16–18; O.S. n.835 del17/06/2014 (prescrizione confermata dall’autore; integrale e sanzione specifica non acquisiti)",
+          "sources": [
+            "OS835_AUTORE",
+            "TUEL",
+            "TUEL7",
+            "L689",
+            "L6899"
+          ],
+          "sourceIndices": [
+            15
+          ],
+          "pages": [],
+          "regPages": [],
+          "payments": [
+            [
+              "Regime generale TUEL, se applicabile; sanzione specifica O.S. non acquisita",
+              "25–500",
+              "50",
+              "Non previsto",
+              "Rapporto ex art.17 L.689/1981",
+              "Nessuna accessoria CdS automatica"
+            ]
+          ],
+          "paymentNotes": [
+            "Importi generali, se applicabile il TUEL: €25–500; PMR€50 entro60giorni oltre spese, salvo diversa delibera di Giunta ex art.16 comma2 L.689/1981 non acquisita. Sanzione specifica O.S.835/2014 non verificata documentalmente."
+          ],
+          "sanction": "Regime generale TUEL art.7-bis, se applicabile: €25–500; PMR€50 entro60giorni salvo diversa delibera Giunta. Sanzione specifica O.S.835/2014 non acquisita; nessuno sconto30%, punto o ritiro automatici.",
+          "ui": {
+            "label": "Prescrizione confermata dall’autore",
+            "value": "PMR generale €50",
+            "detail": "Se regime TUEL applicabile · sanzione O.S. non acquisita",
+            "tone": "amber"
+          },
+          "note": "Prescrizione confermata dall’autore; integrale O.S.835/2014 non acquisito. Distinguere regime generale e sanzione specifica, senza cumuli o misure CdS automatiche.",
+          "acts": "Documentare il fatto e qualificare il fondamento dell’ordinanza; se applicabile L.689/1981, rapporto all’autorità comunale competente in caso di mancato pagamento. Nessun ritiro automatico.",
+          "route": "Autorità comunale competente ex art.17 L.689/1981; fatti pertinenti sul servizio all’Ufficio Corso Pubblico, senza attestazione automatica di invio.",
+          "suggestions": [],
+          "legalBackground": [],
+          "docPages": {
+            "equina": 202
+          },
+          "checked": "2026-10-23",
+          "reviewed": "2026-10-23",
+          "verbaleRef": "D.Lgs.267/2000 artt.7 e7-bis, commi1 e1-bis (regime generale da qualificare); L.689/1981 artt.3,6,9,16–18; O.S. n.835 del17/06/2014 (prescrizione confermata dall’autore; integrale e sanzione specifica non acquisiti)",
+          "formula": "Il giorno […] alle ore […] in […], impiegava l’equino […] per la trazione della carrozza […] senza scarpe protettive. Condizione osservata e fonte dell’accertamento: […].",
+          "notes": [
+            "Descrivere l’assenza delle scarpe protettive sull’equino durante l’impiego. La sola ferratura non è automaticamente prova delle scarpe; caratteristiche tecniche, eventuali equivalenze o eccezioni non sono documentate nell’integrale non acquisito. Non attribuire agli operatori diagnosi veterinarie.",
+            "Prescrizione dell’O.S. n.835 del 17/06/2014 confermata dall’autore il 23/10/2026: indicazione dell’autore, distinta da acquisizione documentale. Integrale dell’ordinanza, punto dell’atto e clausola sanzionatoria non acquisiti. La conferma editoriale è già registrata; nel caso concreto documentare il fatto.",
+            "Artt.7 e 7-bis D.Lgs.267/2000: art.7 disciplina il potere regolamentare, non determina da solo la sanzione. Art.7-bis, commi1 e1-bis, prevede €25–500, salvo diversa disposizione di legge, per regolamenti e ordinanze sindacali adottate su base legislativa o specifica norma regolamentare. Il fondamento e la disciplina applicabile a questa prescrizione restano da riscontrare nell’atto integrale.",
+            "Se applicabile il regime generale TUEL: PMR €50 entro60giorni oltre spese, ex art.16 comma1 L.689/1981 (doppio di €25 più favorevole di €500/3). Salvo diversa delibera di Giunta ex comma2, non acquisita. Importi generali verificati, sanzione specifica dell’O.S.835/2014 non verificata documentalmente. Nessuno sconto del30%; dopo60giorni rapporto ex art.17 e procedimento ex art.18, senza raddoppio automatico.",
+            "Caso distinto da R39–R42 (art.70 CdS) e R43 (caldo). Per il medesimo fatto verificare specialità ex art.9 L.689/1981 ed eventuali fatti autonomi: nessun cumulo automatico fra queste schede o con il caldo. Nessun ritiro della licenza, punto patente o altra misura CdS derivano automaticamente da questa scheda."
+          ],
+          "docPage": 202
+        },
+        "view": {
+          "title": "Equino impiegato senza scarpe protettive",
+          "status": "Prescrizione confermata dall’autore. Integrale e sanzione specifica non acquisiti: qualificare la base prima della contestazione.",
+          "normative": "D.Lgs.267/2000 artt.7 e7-bis, commi1 e1-bis (regime generale da qualificare); L.689/1981 artt.3,6,9,16–18; O.S. n.835 del17/06/2014 (prescrizione confermata dall’autore; integrale e sanzione specifica non acquisiti)",
+          "accessories": {
+            "cds": "Non previste automaticamente",
+            "other": "",
+            "patentPoints": "Non previsti automaticamente"
+          },
+          "relation": false,
+          "parts": [
+            "Il giorno […] alle ore […] in […], impiegava l’equino […] per la trazione della carrozza […] senza scarpe protettive. Condizione osservata e fonte dell’accertamento: […]."
+          ],
+          "formulaMarkup": "<p class=\"staticFormulaPart\" data-copy-text=\"Il giorno […] alle ore […] in […], impiegava l’equino […] per la trazione della carrozza […] senza scarpe protettive. Condizione osservata e fonte dell’accertamento: […].\">Il giorno […] alle ore […] in […], impiegava l’equino […] per la trazione della carrozza […] senza scarpe protettive. Condizione osservata e fonte dell’accertamento: […].</p>",
+          "groups": [],
+          "notes": [
+            "Descrivere l’assenza delle scarpe protettive sull’equino durante l’impiego. La sola ferratura non è automaticamente prova delle scarpe; caratteristiche tecniche, eventuali equivalenze o eccezioni non sono documentate nell’integrale non acquisito. Non attribuire agli operatori diagnosi veterinarie.",
+            "Prescrizione dell’O.S. n.835 del 17/06/2014 confermata dall’autore il 23/10/2026: indicazione dell’autore, distinta da acquisizione documentale. Integrale dell’ordinanza, punto dell’atto e clausola sanzionatoria non acquisiti. La conferma editoriale è già registrata; nel caso concreto documentare il fatto.",
+            "Artt.7 e 7-bis D.Lgs.267/2000: art.7 disciplina il potere regolamentare, non determina da solo la sanzione. Art.7-bis, commi1 e1-bis, prevede €25–500, salvo diversa disposizione di legge, per regolamenti e ordinanze sindacali adottate su base legislativa o specifica norma regolamentare. Il fondamento e la disciplina applicabile a questa prescrizione restano da riscontrare nell’atto integrale.",
+            "Se applicabile il regime generale TUEL: PMR €50 entro60giorni oltre spese, ex art.16 comma1 L.689/1981 (doppio di €25 più favorevole di €500/3). Salvo diversa delibera di Giunta ex comma2, non acquisita. Importi generali verificati, sanzione specifica dell’O.S.835/2014 non verificata documentalmente. Nessuno sconto del30%; dopo60giorni rapporto ex art.17 e procedimento ex art.18, senza raddoppio automatico.",
+            "Caso distinto da R39–R42 (art.70 CdS) e R43 (caldo). Per il medesimo fatto verificare specialità ex art.9 L.689/1981 ed eventuali fatti autonomi: nessun cumulo automatico fra queste schede o con il caldo. Nessun ritiro della licenza, punto patente o altra misura CdS derivano automaticamente da questa scheda."
+          ],
+          "pdfNotes": [
+            "Descrivere l’assenza delle scarpe protettive sull’equino durante l’impiego. La sola ferratura non è automaticamente prova delle scarpe; caratteristiche tecniche, eventuali equivalenze o eccezioni non sono documentate nell’integrale non acquisito. Non attribuire agli operatori diagnosi veterinarie.",
+            "Prescrizione dell’O.S. n.835 del 17/06/2014 confermata dall’autore il 23/10/2026: indicazione dell’autore, distinta da acquisizione documentale. Integrale dell’ordinanza, punto dell’atto e clausola sanzionatoria non acquisiti. La conferma editoriale è già registrata; nel caso concreto documentare il fatto.",
+            "Artt.7 e 7-bis D.Lgs.267/2000: art.7 disciplina il potere regolamentare, non determina da solo la sanzione. Art.7-bis, commi1 e1-bis, prevede €25–500, salvo diversa disposizione di legge, per regolamenti e ordinanze sindacali adottate su base legislativa o specifica norma regolamentare. Il fondamento e la disciplina applicabile a questa prescrizione restano da riscontrare nell’atto integrale.",
+            "Se applicabile il regime generale TUEL: PMR €50 entro60giorni oltre spese, ex art.16 comma1 L.689/1981 (doppio di €25 più favorevole di €500/3). Salvo diversa delibera di Giunta ex comma2, non acquisita. Importi generali verificati, sanzione specifica dell’O.S.835/2014 non verificata documentalmente. Nessuno sconto del30%; dopo60giorni rapporto ex art.17 e procedimento ex art.18, senza raddoppio automatico.",
+            "Caso distinto da R39–R42 (art.70 CdS) e R43 (caldo). Per il medesimo fatto verificare specialità ex art.9 L.689/1981 ed eventuali fatti autonomi: nessun cumulo automatico fra queste schede o con il caldo. Nessun ritiro della licenza, punto patente o altra misura CdS derivano automaticamente da questa scheda."
+          ],
+          "amountsMarkup": "<p class=\"qualificationWarning\">Regime generale TUEL, se applicabile alla prescrizione: sanzione specifica dell’O.S.835/2014 non verificata documentalmente.</p><table class=\"staticAmountsTable amounts\"><caption>Importi generali in euro, spese escluse · artt.7-bis TUEL e16 L.689/1981</caption><thead><tr><th>Limiti edittali</th><th>PMR entro60giorni</th><th>Dopo60giorni</th></tr></thead><tbody><tr><td>€ 25–500</td><td>€ 50 · salvo diversa delibera di Giunta</td><td>Rapporto ex art.17 e procedimento ex art.18 L.689/1981</td></tr></tbody></table>",
+          "responsibility": "Individuare l’autore della condotta e gli eventuali obbligati secondo artt.3 e6 L.689/1981; non dedurre automaticamente la responsabilità dalla sola titolarità della licenza.",
+          "route": "",
+          "acts": []
+        },
+        "paginaPDF": 202
+      }
+    }
+  ],
+  "altreModifiche": "R43: solo rinvio finale dalle tre proposte alle prescrizioni confermate R44–R46; formula, importi e condizioni caldo invariati."
+}

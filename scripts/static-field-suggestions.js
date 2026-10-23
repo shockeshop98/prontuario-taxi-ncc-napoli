@@ -24,7 +24,6 @@
     G48:['Vetrofonia e cambio turno','Cambio turno osservato dagli operanti; vetrofonia assente o difforme […].','Ordinanza vigente […] esaminata per la vetrofonia prescritta.'],
     G49:['Stallo e stato di servizio','Segnaletica dello stallo e stato fuori servizio osservati durante la sosta […].','Deroga eventualmente efficace verificata nell’atto […] o con risposta dell’ufficio […].'],
     G50:['Durata dell’attesa','Salita del primo passeggero e permanenza nello stallo osservate dalle […] alle […].','Orari di salita e ripartenza documentati dall’atto […] e confrontati con il limite.'],
-    G51:['Visibilità dell’avviso','Avviso osservato dalla posizione degli utenti in […].','Posizione e testo prescritti confrontati con l’ordinanza o l’atto […].'],
     G52:['Stalli del taxi collettivo','Stallo di avvio osservato e confrontato con l’ordinanza vigente […].','Assegnazione al servizio collettivo verificata con l’atto […].'],
     I01:['Avvio e tassametro','Prelievo e display inattivo osservati dagli operanti nel tratto […].','Prenotazione […] esaminata per l’eventuale tariffa predeterminata richiesta.'],
     I09:['Comunicazione del sostituto','Ricevuta o protocollo della comunicazione […] esaminato.','Risposta dell’ufficio […] del […] prot. […] sul termine e sugli atti ricevuti.'],

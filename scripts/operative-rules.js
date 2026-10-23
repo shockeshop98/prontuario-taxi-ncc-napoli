@@ -6,7 +6,7 @@
   window.prontuarioOfficeGuide = 'La segnalazione trasmette fatti e atti per il procedimento sul titolo, non è una sanzione accessoria CdS. Il Servizio Trasporto Pubblico Locale e MaaS riceve gli atti; l’ufficio e la Commissione di disciplina esercitano le rispettive competenze degli artt. 27–32. Gli operatori non dispongono autonomamente diffida, sospensione o revoca. Art. 29, comma 1: contestazione dell’ufficio, cinque giorni per le difese e decisione nei successivi trenta giorni; comma 7: precedenti nell’ultimo quinquennio. Art. 28: punti sul titolo Taxi e NCC, distinti dalla patente; per più infrazioni contestuali si considera la decurtazione maggiore. Revoca a 100 punti, da adottare dall’autorità competente. Restano distinti i presupposti degli artt. 30–32. Il ritiro materiale ex art. 29, comma 4, è invece compito degli operatori per i gruppi C e D. Il percorso interno tramite Ufficio Verbali va confermato dal Comando.';
   window.prontuarioResidualWarning = 'Gli importi CdS residuali non discendono dalla sola violazione comunale: accertare circolazione in servizio e specifica condizione della licenza (art. 86, comma 3-bis) o dell’autorizzazione NCC (art. 85, comma 4-ter), escludendo rispettivamente i commi 2–3 o 4–4-bis. Per il solo regolamento verificare L.R. 10/2024, art. 21, comma 5, TUEL art. 7-bis e il coordinamento con i € 50 dell’art. 29, comma 3, senza cumulo automatico.';
   window.prontuarioOrderedReferences = value => {
-    const rank = s => /CdS|Codice della strada/i.test(s) ? 0 : /L\.?\s*(?:n\.\s*)?21\s*\/\s*1992/.test(s) ? 1 : /Regolamento comunale|\bReg\./i.test(s) ? 2 : 3;
+    const rank = s => /CdS|Codice della strada/i.test(s) ? 0 : /L\.?\s*(?:n\.\s*)?21\s*\/\s*1992|D\.Lgs\.|D\.L\.|L\.\s*689/.test(s) ? 1 : /Regolamento comunale|\bReg\./i.test(s) ? 2 : 3;
     const parts = (Array.isArray(value) ? value : String(value || '').split(';')).map(s=>s.trim()).filter(Boolean);
     const grouped=[];
     for(const part of parts) {
@@ -18,8 +18,8 @@
   window.prontuarioNormative = (item,type) => {
     let ref=item.verbaleRef||item.ref||'';
     if((item.demoBaseCode||item.code)==='R33'&&item.staticVariantIndex!==undefined)ref=ref.replace(/c\.4-bis(?! lett)/,'c.4-bis lett.'+String.fromCharCode(97+item.staticVariantIndex));
-    ref=ref.replace('Taxi: CdS art.86 c.3-bis; NCC: CdS art.85 c.4-ter (se condizione del titolo verificata)',type==='NCC'?'CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata)':'CdS art.86 c.3-bis (solo se condizione della licenza verificata)');
-    return window.prontuarioOrderedReferences(ref).join('; ');
+    ref=ref.replace('Taxi: CdS art.86 c.3-bis; NCC: CdS art.85 c.4-ter (se condizione del titolo verificata)',type==='NCC'?'CdS art.85 c.4-ter (solo se condizione dell’autorizzazione verificata)':'CdS art.86 c.3-bis');
+    return window.prontuarioOrderedReferences(ref.replace(/\s*\((?:solo )?se condizione della licenza verificata\)/g,'').replace(/ richiamata nel prontuario/g,'')).join('; ');
   };
   window.prontuarioIsResidual = item => /3-bis|4-ter/.test(item.verbaleRef||item.ref||'');
   window.prontuarioLegalText = (item,type) => {

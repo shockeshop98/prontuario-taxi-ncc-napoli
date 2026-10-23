@@ -1,0 +1,583 @@
+{
+  "baseline": "1.8.11 con aggiornamento Corso Pubblico",
+  "pwa": "1.8.12",
+  "pdf": "7.14",
+  "schede": [
+    {
+      "code": "G46",
+      "prima": {
+        "item": {
+          "id": "disco",
+          "title": "Pausa al posteggio: disco orario o posizione nello stallo",
+          "topic": "turno",
+          "ref": "CdS art. 86, comma 3-bis; O.S. n. 11/2010 (testo integrale da acquisire)",
+          "facts": "Acquisire il testo dell’ordinanza e verificare pausa, posizione e prescrizione del disco.",
+          "documents": "Ordinanza valida; foto; inizio pausa; turno e dichiarazioni.",
+          "acts": "La scheda descrive il richiamo originario; prima di contestare identificare obbligo e base applicabili.",
+          "pages": [
+            27,
+            28
+          ],
+          "scope": "taxi",
+          "group": "",
+          "kind": "ordinance",
+          "note": "Testo integrale dell’ordinanza non fornito: importo e ritiro non precompilati.",
+          "checked": "2026-10-01",
+          "sources": [
+            "REG",
+            "GIT",
+            "CDS86",
+            "LR10",
+            "TUEL",
+            "L689"
+          ],
+          "sanction": "",
+          "route": "La scheda descrive il richiamo originario; prima di contestare identificare obbligo e base applicabili.",
+          "code": "G46",
+          "ui": {
+            "label": "Accertamento",
+            "value": "Norma da verificare",
+            "detail": "Importo non precompilato",
+            "tone": "amber"
+          },
+          "formula": "Durante la pausa nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], senza esporre il disco orario prescritto dall’ordinanza vigente.",
+          "notes": [
+            "Disco orario e collocazione nell’ultimo posto dello stallo sono mantenuti secondo l’indicazione operativa confermata dall’autore. Scegliere una condotta o entrambe solo se effettivamente accertate.",
+            "Il testo integrale dell’O.S. 11/2010 resta da acquisire; la conferma dell’autore non è acquisizione dell’atto. Per l’art. 86, comma 3-bis, documentare la specifica condizione della licenza e i presupposti, escludendo i commi 2 e 3.",
+            "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.",
+            "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita."
+          ],
+          "git": true,
+          "origin": "GIT",
+          "referenceOnly": false,
+          "payments": [
+            [
+              "Base da verificare",
+              "Da qualificare",
+              "Da verificare",
+              "Da verificare",
+              "Secondo la base",
+              "Seguito dell’ufficio"
+            ]
+          ],
+          "paymentNotes": [],
+          "suggestions": [
+            "Scattare, se utile, foto del parabrezza e dell’eventuale disco; annotare distintamente gli orari osservati."
+          ],
+          "verbaleRef": "CdS art. 86, comma 3-bis; O.S. n. 11/2010 (testo integrale da acquisire)",
+          "docPages": {
+            "taxi": 51
+          },
+          "docPage": 51,
+          "legalBackground": [],
+          "reviewed": "2026-10-22"
+        },
+        "view": {
+          "title": "Pausa al posteggio: disco orario o posizione nello stallo",
+          "status": "",
+          "normative": "CdS art. 86, comma 3-bis; O.S. n. 11/2010 (testo integrale da acquisire)",
+          "accessories": {
+            "cds": "Non previste",
+            "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+            "other": "Seguito dell’ufficio",
+            "points": "Nessun punto precompilato in questa scheda."
+          },
+          "relation": true,
+          "parts": [
+            "Durante la pausa nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], senza esporre il disco orario prescritto dall’ordinanza vigente."
+          ],
+          "formulaMarkup": "<p class=\"staticFormulaPart\" data-copy-text=\"Durante la pausa nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], senza esporre il disco orario prescritto dall’ordinanza vigente.\">Durante la pausa nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], senza esporre il disco orario prescritto dall’ordinanza vigente.</p>",
+          "groups": [],
+          "notes": [
+            "Disco orario e collocazione nell’ultimo posto dello stallo sono mantenuti secondo l’indicazione operativa confermata dall’autore. Scegliere una condotta o entrambe solo se effettivamente accertate.",
+            "Il testo integrale dell’O.S. 11/2010 resta da acquisire; la conferma dell’autore non è acquisizione dell’atto. Per l’art. 86, comma 3-bis, documentare la specifica condizione della licenza e i presupposti, escludendo i commi 2 e 3.",
+            "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.",
+            "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita."
+          ],
+          "pdfNotes": [
+            "Disco orario e collocazione nell’ultimo posto dello stallo sono mantenuti secondo l’indicazione operativa confermata dall’autore. Scegliere una condotta o entrambe solo se effettivamente accertate.",
+            "Il testo integrale dell’O.S. 11/2010 resta da acquisire; la conferma dell’autore non è acquisizione dell’atto. Per l’art. 86, comma 3-bis, documentare la specifica condizione della licenza e i presupposti, escludendo i commi 2 e 3.",
+            "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.",
+            "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.",
+            "Condotte alternative, da sostituire nella formula solo se accertate: Durante la pausa nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], senza collocare il veicolo nell’ultimo posto dello stallo prescritto dall’ordinanza vigente. / Durante la pausa nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], senza esporre il disco orario e senza collocare il veicolo nell’ultimo posto dello stallo, come prescritto dall’ordinanza vigente."
+          ],
+          "responsibility": "",
+          "route": "",
+          "acts": [
+            {
+              "title": "Solo per verbale effettivamente elevato — invio ancora da effettuare",
+              "text": "Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico."
+            }
+          ]
+        }
+      },
+      "dopo": {
+        "item": {
+          "id": "disco",
+          "title": "Pausa al posteggio: disco orario o posizione nello stallo",
+          "topic": "turno",
+          "ref": "CdS art. 86, comma 3-bis (base da qualificare); ordinanza sindacale prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010, punti 1–2 (foto acquisita)",
+          "facts": "Pausa personale: almeno cinque stalli, non più di due tassisti, massimo trenta minuti, ultimi due posti disponibili, disco sul parabrezza. Esclusi scali aeroportuali e ferroviari. Efficacia dalla segnaletica orizzontale e verticale.",
+          "documents": "Foto ordinanza acquisita; segnaletica del posteggio; n. stalli e tassisti in pausa; posizione e disco; rilievi temporali e fonti.",
+          "acts": "Documentare condizioni della pausa e segnaletica; qualificare la base prima della contestazione. Nessun ritiro automatico dalla sola ordinanza fotografata.",
+          "pages": [
+            27,
+            28
+          ],
+          "scope": "taxi",
+          "group": "",
+          "kind": "ordinance",
+          "note": "Foto acquisita e letta; originale ufficiale non reperito. Base sanzionatoria da qualificare, nessun importo o ritiro automatico.",
+          "checked": "2026-10-01",
+          "sources": [
+            "REG",
+            "GIT",
+            "CDS86",
+            "LR10",
+            "TUEL",
+            "L689",
+            "PAUSA2010"
+          ],
+          "sanction": "",
+          "route": "Documentare condizioni della pausa e segnaletica; qualificare la base prima della contestazione. Nessun ritiro automatico dalla sola ordinanza fotografata.",
+          "code": "G46",
+          "ui": {
+            "label": "Accertamento",
+            "value": "Norma da verificare",
+            "detail": "Importo non precompilato",
+            "tone": "amber"
+          },
+          "formula": "Durante la pausa nel posteggio […] con almeno cinque stalli, lasciava il veicolo indicato, con C.P. n. […], senza esporre sul parabrezza il disco orario prescritto dall’ordinanza prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010.",
+          "notes": [
+            "Foto acquisita e letta: ordinanza sindacale prot. n. 11 del 7 giugno 2010; timbro progressivo annuale 1003 dell’8 giugno 2010. Originale ufficiale non reperito. La foto sostituisce le precedenti indicazioni dell’autore su questi limiti.",
+            "Punto 1: pausa per esigenze strettamente personali nei posteggi con almeno cinque stalli, per non più di due tassisti contemporaneamente e per un massimo di trenta minuti; vetture negli ultimi due posti disponibili, senza intralciare il servizio delle altre vetture, disco orario sul parabrezza. Scegliere disco, posizione o entrambe solo secondo i fatti accertati.",
+            "Punto 2: escluse tutte le aree taxi negli scali aeroportuali e ferroviari. Efficacia dalla data di attuazione della prescritta segnaletica orizzontale e verticale: documentarne presenza e corrispondenza nel posteggio concreto.",
+            "La foto non contiene un’autonoma clausola sanzionatoria. Prima del verbale qualificare la base: per l’art. 86, comma 3-bis, accertare la specifica condizione della licenza ed escludere i commi 2 e 3. Non ricavare importi o ritiro dalla sola foto.",
+            "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita."
+          ],
+          "git": true,
+          "origin": "GIT",
+          "referenceOnly": false,
+          "payments": [
+            [
+              "Base da verificare",
+              "Da qualificare",
+              "Da verificare",
+              "Da verificare",
+              "Secondo la base",
+              "Seguito dell’ufficio"
+            ]
+          ],
+          "paymentNotes": [],
+          "suggestions": [
+            "Scattare, se utile, foto del parabrezza e dell’eventuale disco; annotare distintamente gli orari osservati."
+          ],
+          "verbaleRef": "CdS art. 86, comma 3-bis (base da qualificare); ordinanza sindacale prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010, punti 1–2 (foto acquisita)",
+          "docPages": {
+            "taxi": 51
+          },
+          "docPage": 51,
+          "legalBackground": [],
+          "reviewed": "2026-10-23",
+          "sourceIndices": [
+            12
+          ],
+          "searchTerms": "pausa cinque 5 stalli due 2 tassisti trenta 30 minuti ultimi due posti disponibili parabrezza disco scali aeroportuali ferroviari segnaletica 1003 protocollo 11 2010"
+        },
+        "view": {
+          "title": "Pausa al posteggio: disco orario o posizione nello stallo",
+          "status": "",
+          "normative": "CdS art. 86, comma 3-bis (base da qualificare); ordinanza sindacale prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010, punti 1–2 (foto acquisita)",
+          "accessories": {
+            "cds": "Non previste",
+            "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+            "other": "Seguito dell’ufficio",
+            "points": "Nessun punto precompilato in questa scheda."
+          },
+          "relation": true,
+          "parts": [
+            "Durante la pausa nel posteggio […] con almeno cinque stalli, lasciava il veicolo indicato, con C.P. n. […], senza esporre sul parabrezza il disco orario prescritto dall’ordinanza prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010."
+          ],
+          "formulaMarkup": "<p class=\"staticFormulaPart\" data-copy-text=\"Durante la pausa nel posteggio […] con almeno cinque stalli, lasciava il veicolo indicato, con C.P. n. […], senza esporre sul parabrezza il disco orario prescritto dall’ordinanza prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010.\">Durante la pausa nel posteggio […] con almeno cinque stalli, lasciava il veicolo indicato, con C.P. n. […], senza esporre sul parabrezza il disco orario prescritto dall’ordinanza prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010.</p>",
+          "groups": [],
+          "notes": [
+            "Foto acquisita e letta: ordinanza sindacale prot. n. 11 del 7 giugno 2010; timbro progressivo annuale 1003 dell’8 giugno 2010. Originale ufficiale non reperito. La foto sostituisce le precedenti indicazioni dell’autore su questi limiti.",
+            "Punto 1: pausa per esigenze strettamente personali nei posteggi con almeno cinque stalli, per non più di due tassisti contemporaneamente e per un massimo di trenta minuti; vetture negli ultimi due posti disponibili, senza intralciare il servizio delle altre vetture, disco orario sul parabrezza. Scegliere disco, posizione o entrambe solo secondo i fatti accertati.",
+            "Punto 2: escluse tutte le aree taxi negli scali aeroportuali e ferroviari. Efficacia dalla data di attuazione della prescritta segnaletica orizzontale e verticale: documentarne presenza e corrispondenza nel posteggio concreto.",
+            "La foto non contiene un’autonoma clausola sanzionatoria. Prima del verbale qualificare la base: per l’art. 86, comma 3-bis, accertare la specifica condizione della licenza ed escludere i commi 2 e 3. Non ricavare importi o ritiro dalla sola foto.",
+            "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita."
+          ],
+          "pdfNotes": [
+            "Foto acquisita e letta: ordinanza sindacale prot. n. 11 del 7 giugno 2010; timbro progressivo annuale 1003 dell’8 giugno 2010. Originale ufficiale non reperito. La foto sostituisce le precedenti indicazioni dell’autore su questi limiti.",
+            "Punto 1: pausa per esigenze strettamente personali nei posteggi con almeno cinque stalli, per non più di due tassisti contemporaneamente e per un massimo di trenta minuti; vetture negli ultimi due posti disponibili, senza intralciare il servizio delle altre vetture, disco orario sul parabrezza. Scegliere disco, posizione o entrambe solo secondo i fatti accertati.",
+            "Punto 2: escluse tutte le aree taxi negli scali aeroportuali e ferroviari. Efficacia dalla data di attuazione della prescritta segnaletica orizzontale e verticale: documentarne presenza e corrispondenza nel posteggio concreto.",
+            "La foto non contiene un’autonoma clausola sanzionatoria. Prima del verbale qualificare la base: per l’art. 86, comma 3-bis, accertare la specifica condizione della licenza ed escludere i commi 2 e 3. Non ricavare importi o ritiro dalla sola foto.",
+            "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.",
+            "Condotte alternative, da sostituire nella formula solo se accertate: Durante la pausa nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], fuori dagli ultimi due posti disponibili, in posizione […], in violazione dell’ordinanza prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010. / Durante la pausa nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], senza esporre sul parabrezza il disco orario e fuori dagli ultimi due posti disponibili, in posizione […], in violazione dell’ordinanza prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010."
+          ],
+          "responsibility": "",
+          "route": "",
+          "acts": [
+            {
+              "title": "Solo per verbale effettivamente elevato — invio ancora da effettuare",
+              "text": "Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico."
+            }
+          ]
+        },
+        "paginaPDF": 51
+      }
+    },
+    {
+      "code": "G47",
+      "prima": {
+        "item": {
+          "id": "pausaoltre",
+          "title": "Pausa al posteggio oltre il tempo consentito",
+          "topic": "turno",
+          "ref": "CdS art. 86, comma 3-bis; O.S. n. 11/2010 (testo integrale da acquisire)",
+          "facts": "Pausa oltre 30 minuti secondo l’indicazione operativa dell’autore; documentare orario iniziale, permanenza finale e fonte del rilievo. Testo integrale O.S.11/2010 non acquisito.",
+          "documents": "Ordinanza; due rilievi temporali; disco e dichiarazioni.",
+          "acts": "Non attribuire durata o ritiro dalla sola scheda originaria.",
+          "pages": [
+            27,
+            28
+          ],
+          "scope": "taxi",
+          "group": "",
+          "kind": "ordinance",
+          "note": "Testo integrale non fornito; termine da verificare per il caso.",
+          "checked": "2026-10-01",
+          "sources": [
+            "REG",
+            "GIT",
+            "CDS86",
+            "LR10",
+            "TUEL",
+            "L689"
+          ],
+          "sanction": "",
+          "route": "Non attribuire durata o ritiro dalla sola scheda originaria.",
+          "code": "G47",
+          "ui": {
+            "label": "Accertamento",
+            "value": "Norma da verificare",
+            "detail": "Importo non precompilato",
+            "tone": "amber"
+          },
+          "formula": "Nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], in pausa dalle ore […] alle ore […], oltre il limite di 30 minuti previsto dall’ordinanza […].",
+          "notes": [
+            "Limite di pausa di 30 minuti secondo l’indicazione operativa confermata dall’autore. Annotare inizio e permanenza finale osservati e fonte del rilievo; non dedurre la durata dal solo veicolo trovato in sosta.",
+            "Il testo integrale dell’O.S. 11/2010 resta da acquisire: il limite è applicato come indicazione dell’autore, senza presentarlo come documentalmente riscontrato. Per l’art. 86, comma 3-bis, documentare la condizione della licenza; esclusi i commi 2 e 3.",
+            "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.",
+            "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita."
+          ],
+          "git": true,
+          "origin": "GIT",
+          "referenceOnly": false,
+          "payments": [
+            [
+              "Base da verificare",
+              "Da qualificare",
+              "Da verificare",
+              "Da verificare",
+              "Secondo la base",
+              "Seguito dell’ufficio"
+            ]
+          ],
+          "paymentNotes": [],
+          "suggestions": [
+            "Annotare inizio e fine osservati della pausa; se utile, scattare foto contestualizzate ai diversi orari."
+          ],
+          "verbaleRef": "CdS art. 86, comma 3-bis; O.S. n. 11/2010 (testo integrale da acquisire)",
+          "docPages": {
+            "taxi": 52
+          },
+          "docPage": 52,
+          "legalBackground": [],
+          "reviewed": "2026-10-22"
+        },
+        "view": {
+          "title": "Pausa al posteggio oltre il tempo consentito",
+          "status": "",
+          "normative": "CdS art. 86, comma 3-bis; O.S. n. 11/2010 (testo integrale da acquisire)",
+          "accessories": {
+            "cds": "Non previste",
+            "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+            "other": "Seguito dell’ufficio",
+            "points": "Nessun punto precompilato in questa scheda."
+          },
+          "relation": true,
+          "parts": [
+            "Nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], in pausa dalle ore […] alle ore […], oltre il limite di 30 minuti previsto dall’ordinanza […]."
+          ],
+          "formulaMarkup": "<p class=\"staticFormulaPart\" data-copy-text=\"Nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], in pausa dalle ore […] alle ore […], oltre il limite di 30 minuti previsto dall’ordinanza […].\">Nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], in pausa dalle ore […] alle ore […], oltre il limite di 30 minuti previsto dall’ordinanza […].</p>",
+          "groups": [],
+          "notes": [
+            "Limite di pausa di 30 minuti secondo l’indicazione operativa confermata dall’autore. Annotare inizio e permanenza finale osservati e fonte del rilievo; non dedurre la durata dal solo veicolo trovato in sosta.",
+            "Il testo integrale dell’O.S. 11/2010 resta da acquisire: il limite è applicato come indicazione dell’autore, senza presentarlo come documentalmente riscontrato. Per l’art. 86, comma 3-bis, documentare la condizione della licenza; esclusi i commi 2 e 3.",
+            "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.",
+            "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita."
+          ],
+          "pdfNotes": [
+            "Limite di pausa di 30 minuti secondo l’indicazione operativa confermata dall’autore. Annotare inizio e permanenza finale osservati e fonte del rilievo; non dedurre la durata dal solo veicolo trovato in sosta.",
+            "Il testo integrale dell’O.S. 11/2010 resta da acquisire: il limite è applicato come indicazione dell’autore, senza presentarlo come documentalmente riscontrato. Per l’art. 86, comma 3-bis, documentare la condizione della licenza; esclusi i commi 2 e 3.",
+            "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.",
+            "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita."
+          ],
+          "responsibility": "",
+          "route": "",
+          "acts": [
+            {
+              "title": "Solo per verbale effettivamente elevato — invio ancora da effettuare",
+              "text": "Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico."
+            }
+          ]
+        }
+      },
+      "dopo": {
+        "item": {
+          "id": "pausaoltre",
+          "title": "Pausa al posteggio oltre il tempo consentito",
+          "topic": "turno",
+          "ref": "CdS art. 86, comma 3-bis (base da qualificare); ordinanza sindacale prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010, punti 1–2 (foto acquisita)",
+          "facts": "Pausa personale: almeno cinque stalli, non più di due tassisti, massimo trenta minuti, ultimi due posti disponibili, disco sul parabrezza. Esclusi scali aeroportuali e ferroviari. Efficacia dalla segnaletica orizzontale e verticale.",
+          "documents": "Foto ordinanza acquisita; segnaletica del posteggio; n. stalli e tassisti in pausa; posizione e disco; rilievi temporali e fonti.",
+          "acts": "Documentare condizioni della pausa e segnaletica; qualificare la base prima della contestazione. Nessun ritiro automatico dalla sola ordinanza fotografata.",
+          "pages": [
+            27,
+            28
+          ],
+          "scope": "taxi",
+          "group": "",
+          "kind": "ordinance",
+          "note": "Foto acquisita e letta; originale ufficiale non reperito. Base sanzionatoria da qualificare, nessun importo o ritiro automatico.",
+          "checked": "2026-10-01",
+          "sources": [
+            "REG",
+            "GIT",
+            "CDS86",
+            "LR10",
+            "TUEL",
+            "L689",
+            "PAUSA2010"
+          ],
+          "sanction": "",
+          "route": "Documentare condizioni della pausa e segnaletica; qualificare la base prima della contestazione. Nessun ritiro automatico dalla sola ordinanza fotografata.",
+          "code": "G47",
+          "ui": {
+            "label": "Accertamento",
+            "value": "Norma da verificare",
+            "detail": "Importo non precompilato",
+            "tone": "amber"
+          },
+          "formula": "Nel posteggio […] con almeno cinque stalli, lasciava il veicolo indicato, con C.P. n. […], in pausa dalle ore […] alle ore […], oltre il limite di 30 minuti previsto dall’ordinanza prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010.",
+          "notes": [
+            "Foto acquisita e letta: ordinanza sindacale prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010; originale ufficiale non reperito. Il punto 1 documenta il massimo di trenta minuti.",
+            "Ambito della pausa: almeno cinque stalli, non più di due tassisti contemporaneamente, esigenze strettamente personali, ultimi due posti disponibili senza intralciare il servizio, disco sul parabrezza. Punto 2: escluse le aree taxi negli scali aeroportuali e ferroviari; efficacia subordinata alla segnaletica orizzontale e verticale.",
+            "Annotare inizio, permanenza finale e fonte del rilievo; non dedurre il superamento dal solo veicolo trovato in sosta. Verificare disco, numero dei tassisti in pausa, posti e segnaletica. Non applicare questa autorizzazione di pausa negli scali esclusi.",
+            "La foto non contiene un’autonoma clausola sanzionatoria. Prima del verbale qualificare la base; per l’art. 86, comma 3-bis, riscontrare la specifica condizione della licenza, escludendo i commi 2 e 3. Importi e ritiro non automatici.",
+            "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.",
+            "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita."
+          ],
+          "git": true,
+          "origin": "GIT",
+          "referenceOnly": false,
+          "payments": [
+            [
+              "Base da verificare",
+              "Da qualificare",
+              "Da verificare",
+              "Da verificare",
+              "Secondo la base",
+              "Seguito dell’ufficio"
+            ]
+          ],
+          "paymentNotes": [],
+          "suggestions": [
+            "Annotare inizio e fine osservati della pausa; se utile, scattare foto contestualizzate ai diversi orari."
+          ],
+          "verbaleRef": "CdS art. 86, comma 3-bis (base da qualificare); ordinanza sindacale prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010, punti 1–2 (foto acquisita)",
+          "docPages": {
+            "taxi": 52
+          },
+          "docPage": 52,
+          "legalBackground": [],
+          "reviewed": "2026-10-23",
+          "sourceIndices": [
+            12
+          ],
+          "searchTerms": "pausa cinque 5 stalli due 2 tassisti trenta 30 minuti ultimi due posti disponibili parabrezza disco scali aeroportuali ferroviari segnaletica 1003 protocollo 11 2010"
+        },
+        "view": {
+          "title": "Pausa al posteggio oltre il tempo consentito",
+          "status": "",
+          "normative": "CdS art. 86, comma 3-bis (base da qualificare); ordinanza sindacale prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010, punti 1–2 (foto acquisita)",
+          "accessories": {
+            "cds": "Non previste",
+            "municipal": "Nessuna misura comunale applicata automaticamente; verificare il seguito nelle note operative.",
+            "other": "Seguito dell’ufficio",
+            "points": "Nessun punto precompilato in questa scheda."
+          },
+          "relation": true,
+          "parts": [
+            "Nel posteggio […] con almeno cinque stalli, lasciava il veicolo indicato, con C.P. n. […], in pausa dalle ore […] alle ore […], oltre il limite di 30 minuti previsto dall’ordinanza prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010."
+          ],
+          "formulaMarkup": "<p class=\"staticFormulaPart\" data-copy-text=\"Nel posteggio […] con almeno cinque stalli, lasciava il veicolo indicato, con C.P. n. […], in pausa dalle ore […] alle ore […], oltre il limite di 30 minuti previsto dall’ordinanza prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010.\">Nel posteggio […] con almeno cinque stalli, lasciava il veicolo indicato, con C.P. n. […], in pausa dalle ore […] alle ore […], oltre il limite di 30 minuti previsto dall’ordinanza prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010.</p>",
+          "groups": [],
+          "notes": [
+            "Foto acquisita e letta: ordinanza sindacale prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010; originale ufficiale non reperito. Il punto 1 documenta il massimo di trenta minuti.",
+            "Ambito della pausa: almeno cinque stalli, non più di due tassisti contemporaneamente, esigenze strettamente personali, ultimi due posti disponibili senza intralciare il servizio, disco sul parabrezza. Punto 2: escluse le aree taxi negli scali aeroportuali e ferroviari; efficacia subordinata alla segnaletica orizzontale e verticale.",
+            "Annotare inizio, permanenza finale e fonte del rilievo; non dedurre il superamento dal solo veicolo trovato in sosta. Verificare disco, numero dei tassisti in pausa, posti e segnaletica. Non applicare questa autorizzazione di pausa negli scali esclusi.",
+            "La foto non contiene un’autonoma clausola sanzionatoria. Prima del verbale qualificare la base; per l’art. 86, comma 3-bis, riscontrare la specifica condizione della licenza, escludendo i commi 2 e 3. Importi e ritiro non automatici.",
+            "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.",
+            "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita."
+          ],
+          "pdfNotes": [
+            "Foto acquisita e letta: ordinanza sindacale prot. n. 11 del 7 giugno 2010, progressivo annuale 1003 dell’8 giugno 2010; originale ufficiale non reperito. Il punto 1 documenta il massimo di trenta minuti.",
+            "Ambito della pausa: almeno cinque stalli, non più di due tassisti contemporaneamente, esigenze strettamente personali, ultimi due posti disponibili senza intralciare il servizio, disco sul parabrezza. Punto 2: escluse le aree taxi negli scali aeroportuali e ferroviari; efficacia subordinata alla segnaletica orizzontale e verticale.",
+            "Annotare inizio, permanenza finale e fonte del rilievo; non dedurre il superamento dal solo veicolo trovato in sosta. Verificare disco, numero dei tassisti in pausa, posti e segnaletica. Non applicare questa autorizzazione di pausa negli scali esclusi.",
+            "La foto non contiene un’autonoma clausola sanzionatoria. Prima del verbale qualificare la base; per l’art. 86, comma 3-bis, riscontrare la specifica condizione della licenza, escludendo i commi 2 e 3. Importi e ritiro non automatici.",
+            "Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.",
+            "Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita."
+          ],
+          "responsibility": "",
+          "route": "",
+          "acts": [
+            {
+              "title": "Solo per verbale effettivamente elevato — invio ancora da effettuare",
+              "text": "Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico."
+            }
+          ]
+        },
+        "paginaPDF": 52
+      }
+    },
+    {
+      "code": "R43",
+      "prima": null,
+      "dopo": {
+        "item": {
+          "id": "equinacaldo",
+          "code": "R43",
+          "title": "Trazione equina con caldo: stagione, ore 12–16 e condizioni alternative",
+          "scope": "equina",
+          "topic": "equina",
+          "kind": "local",
+          "group": "",
+          "git": false,
+          "referenceOnly": false,
+          "origin": "Ordinanze caldo 2024 e 2025",
+          "ref": "D.Lgs.267/2000 art.7-bis, commi 1 e 1-bis; L.689/1981 artt.9,16–18; ORDSI/2025/0000571 del 29 maggio 2025, dispositivo pp.3–4; ORDSI/2024/0000443 del 10 giugno 2024, dispositivo pp.3–4 (solo fatti 2024)",
+          "facts": "Nel periodo stagionale e nella fascia 12–16, utilizzo dell’equino per trazione con temperatura atmosferica ≥30 °C oppure bollettino Napoli rischio 2/3. Verificare clausola di durata 2025 e atti successivi.",
+          "documents": "Data, ora, luogo, equino, vettura; temperatura e fonte del rilievo oppure bollettino Napoli pertinente acquisito; verifica efficacia e durata.",
+          "sources": [
+            "TUEL",
+            "L689",
+            "L6899",
+            "CALDO2024",
+            "CALDO2025"
+          ],
+          "sourceIndices": [
+            13,
+            14
+          ],
+          "pages": [],
+          "regPages": [],
+          "payments": [
+            [
+              "TUEL art.7-bis; L.689/1981 art.16",
+              "25–500",
+              "50",
+              "Non previsto",
+              "Rapporto ex art.17 L.689/1981",
+              "Nessuna accessoria CdS"
+            ]
+          ],
+          "paymentNotes": [
+            "PMR €50 entro60giorni oltre spese, salvo diversa delibera di Giunta ex art.16 comma2 non acquisita; incongruenza del terzo del massimo nel dispositivo documentata nelle note."
+          ],
+          "sanction": "TUEL art.7-bis: €25–500; PMR €50 entro60giorni, salvo delibera Giunta ex art.16 c.2. Nessuno sconto30%, punto o ritiro da questa fattispecie.",
+          "ui": {
+            "label": "TUEL · caldo equini",
+            "value": "PMR €50",
+            "detail": "Entro 60 giorni · verificare durata e note",
+            "tone": "teal"
+          },
+          "note": "Periodo stagionale E fascia 12–16 E (temperatura ≥30 °C O bollettino Napoli rischio2/3); nessun doppio verbale automatico.",
+          "acts": "Documentare i presupposti; rapporto ex art.17 L.689/1981 se non pagato. Nessun ritiro automatico.",
+          "route": "Autorità comunale competente ex art.17 L.689/1981; seguito del titolo distinto.",
+          "suggestions": [],
+          "legalBackground": [],
+          "docPages": {
+            "equina": 199
+          },
+          "checked": "2026-10-23",
+          "reviewed": "2026-10-23",
+          "searchTerms": "caldo calore ondate temperatura 30 gradi cavalli cavallo equidi equini carrozze carrozzelle bollettino Napoli rischio 2 3 12 16 giugno settembre 443 571",
+          "verbaleRef": "D.Lgs.267/2000 art.7-bis, commi 1 e 1-bis; L.689/1981 artt.9,16–18; ORDSI/2025/0000571 del 29 maggio 2025, dispositivo pp.3–4; ORDSI/2024/0000443 del 10 giugno 2024, dispositivo pp.3–4 (solo fatti 2024)",
+          "formula": "Il giorno […] alle ore […], nella fascia 12–16 e nel periodo 1° giugno–15 settembre, in […], utilizzava l’equino […] per la trazione della vettura […] in violazione dell’ordinanza ORDSI/2025/0000571 del 29 maggio 2025. La temperatura atmosferica era di […] °C, come rilevata mediante […] in […] alle ore […], fonte del rilievo […].",
+          "notes": [
+            "Presupposti congiunti: periodo stagionale, fascia 12–16 e almeno una condizione tra temperatura atmosferica ≥30 °C oppure bollettino Napoli con rischio 2/3 per quella giornata. Fuori fascia o stagione questo divieto non si applica. Verificare e documentare il presupposto scelto; il solo caldo generico non basta.",
+            "2024: soltanto dal 12 giugno al 15 settembre 2024. 2025: 1° giugno–15 settembre, senza limitazione al solo anno 2025; durata fino all’approvazione consiliare degli aggiornamenti del Regolamento per la tutela degli animali. Non reperite modifiche o revoche nei percorsi ufficiali consultati al 23/10/2026: esito non esaustivo, verificare atti successivi e clausola di durata prima dell’uso.",
+            "TUEL art. 7-bis, commi 1 e 1-bis: €25–500, salvo diversa disposizione di legge. Art. 16, comma 1, L.689/1981: PMR €50 entro 60 giorni, oltre spese (doppio di €25 più favorevole di €500/3). Salvo diversa deliberazione di Giunta ex comma 2: nessuna acquisita per questo caso.",
+            "Entrambe le ordinanze citano soltanto il terzo del massimo per il PMR, omettendo l’alternativa del doppio del minimo; non preimpostare €166,67 come unica misura. Il richiamo «art.16 della L.16/2003» è incongruente: l’art.7-bis fu introdotto dall’art.16 della L.3/2003. Non si tratta di una deroga di Giunta documentata.",
+            "Se temperatura e bollettino ricorrono insieme, descriverli nella medesima violazione: nessuna duplicazione automatica. R39–R42 riguardano prescrizioni della licenza ex art.70 CdS; per lo stesso fatto verificare specialità ex art.9 L.689/1981 e fatti autonomi prima di ipotizzare cumuli. Nessuno sconto del 30%, punto o ritiro della licenza da questa scheda.",
+            "Le ordinanze riguardano anche manifestazioni ludiche; questa formula è dedicata alla trazione della vettura. L’O.S.835/2014 è richiamata come salva se compatibile, ma il suo integrale non è acquisito: sei ore, capienza e scarpe protettive restano tre proposte separate da completare."
+          ],
+          "docPage": 199
+        },
+        "view": {
+          "title": "Trazione equina con caldo: stagione, ore 12–16 e condizioni alternative",
+          "status": "Verificare durata dell’ordinanza 2025 e atti successivi prima della contestazione.",
+          "normative": "D.Lgs.267/2000 art.7-bis, commi 1 e 1-bis; L.689/1981 artt.9,16–18; ORDSI/2025/0000571 del 29 maggio 2025, dispositivo pp.3–4; ORDSI/2024/0000443 del 10 giugno 2024, dispositivo pp.3–4 (solo fatti 2024)",
+          "accessories": {
+            "cds": "Non previste",
+            "other": "",
+            "patentPoints": "Non previsti"
+          },
+          "relation": false,
+          "parts": [
+            "Il giorno […] alle ore […], nella fascia 12–16 e nel periodo 1° giugno–15 settembre, in […], utilizzava l’equino […] per la trazione della vettura […] in violazione dell’ordinanza ORDSI/2025/0000571 del 29 maggio 2025. La temperatura atmosferica era di […] °C, come rilevata mediante […] in […] alle ore […], fonte del rilievo […]."
+          ],
+          "formulaMarkup": "<p class=\"staticFormulaPart\" data-copy-text=\"Il giorno […] alle ore […], nella fascia 12–16 e nel periodo 1° giugno–15 settembre, in […], utilizzava l’equino […] per la trazione della vettura […] in violazione dell’ordinanza ORDSI/2025/0000571 del 29 maggio 2025. La temperatura atmosferica era di […] °C, come rilevata mediante […] in […] alle ore […], fonte del rilievo […].\">Il giorno […] alle ore […], nella fascia 12–16 e nel periodo 1° giugno–15 settembre, in […], utilizzava l’equino […] per la trazione della vettura […] in violazione dell’ordinanza ORDSI/2025/0000571 del 29 maggio 2025. La temperatura atmosferica era di […] °C, come rilevata mediante […] in […] alle ore […], fonte del rilievo […].</p>",
+          "groups": [],
+          "notes": [
+            "Presupposti congiunti: periodo stagionale, fascia 12–16 e almeno una condizione tra temperatura atmosferica ≥30 °C oppure bollettino Napoli con rischio 2/3 per quella giornata. Fuori fascia o stagione questo divieto non si applica. Verificare e documentare il presupposto scelto; il solo caldo generico non basta.",
+            "2024: soltanto dal 12 giugno al 15 settembre 2024. 2025: 1° giugno–15 settembre, senza limitazione al solo anno 2025; durata fino all’approvazione consiliare degli aggiornamenti del Regolamento per la tutela degli animali. Non reperite modifiche o revoche nei percorsi ufficiali consultati al 23/10/2026: esito non esaustivo, verificare atti successivi e clausola di durata prima dell’uso.",
+            "TUEL art. 7-bis, commi 1 e 1-bis: €25–500, salvo diversa disposizione di legge. Art. 16, comma 1, L.689/1981: PMR €50 entro 60 giorni, oltre spese (doppio di €25 più favorevole di €500/3). Salvo diversa deliberazione di Giunta ex comma 2: nessuna acquisita per questo caso.",
+            "Entrambe le ordinanze citano soltanto il terzo del massimo per il PMR, omettendo l’alternativa del doppio del minimo; non preimpostare €166,67 come unica misura. Il richiamo «art.16 della L.16/2003» è incongruente: l’art.7-bis fu introdotto dall’art.16 della L.3/2003. Non si tratta di una deroga di Giunta documentata.",
+            "Se temperatura e bollettino ricorrono insieme, descriverli nella medesima violazione: nessuna duplicazione automatica. R39–R42 riguardano prescrizioni della licenza ex art.70 CdS; per lo stesso fatto verificare specialità ex art.9 L.689/1981 e fatti autonomi prima di ipotizzare cumuli. Nessuno sconto del 30%, punto o ritiro della licenza da questa scheda.",
+            "Le ordinanze riguardano anche manifestazioni ludiche; questa formula è dedicata alla trazione della vettura. L’O.S.835/2014 è richiamata come salva se compatibile, ma il suo integrale non è acquisito: sei ore, capienza e scarpe protettive restano tre proposte separate da completare."
+          ],
+          "pdfNotes": [
+            "Presupposti congiunti: periodo stagionale, fascia 12–16 e almeno una condizione tra temperatura atmosferica ≥30 °C oppure bollettino Napoli con rischio 2/3 per quella giornata. Fuori fascia o stagione questo divieto non si applica. Verificare e documentare il presupposto scelto; il solo caldo generico non basta.",
+            "2024: soltanto dal 12 giugno al 15 settembre 2024. 2025: 1° giugno–15 settembre, senza limitazione al solo anno 2025; durata fino all’approvazione consiliare degli aggiornamenti del Regolamento per la tutela degli animali. Non reperite modifiche o revoche nei percorsi ufficiali consultati al 23/10/2026: esito non esaustivo, verificare atti successivi e clausola di durata prima dell’uso.",
+            "TUEL art. 7-bis, commi 1 e 1-bis: €25–500, salvo diversa disposizione di legge. Art. 16, comma 1, L.689/1981: PMR €50 entro 60 giorni, oltre spese (doppio di €25 più favorevole di €500/3). Salvo diversa deliberazione di Giunta ex comma 2: nessuna acquisita per questo caso.",
+            "Entrambe le ordinanze citano soltanto il terzo del massimo per il PMR, omettendo l’alternativa del doppio del minimo; non preimpostare €166,67 come unica misura. Il richiamo «art.16 della L.16/2003» è incongruente: l’art.7-bis fu introdotto dall’art.16 della L.3/2003. Non si tratta di una deroga di Giunta documentata.",
+            "Se temperatura e bollettino ricorrono insieme, descriverli nella medesima violazione: nessuna duplicazione automatica. R39–R42 riguardano prescrizioni della licenza ex art.70 CdS; per lo stesso fatto verificare specialità ex art.9 L.689/1981 e fatti autonomi prima di ipotizzare cumuli. Nessuno sconto del 30%, punto o ritiro della licenza da questa scheda.",
+            "Le ordinanze riguardano anche manifestazioni ludiche; questa formula è dedicata alla trazione della vettura. L’O.S.835/2014 è richiamata come salva se compatibile, ma il suo integrale non è acquisito: sei ore, capienza e scarpe protettive restano tre proposte separate da completare.",
+            "Alternativa da sostituire alla frase sulla temperatura: Il bollettino del Ministero della Salute per l’area urbana di Napoli, emesso il […] e riferito alla giornata del […], prevedeva livello di rischio […] (2 o 3), come da copia […].",
+            "Se entrambe documentate, sostituire la stessa frase con: La temperatura atmosferica era di […] °C, rilevata mediante […] in […] alle ore […], fonte […]; inoltre il bollettino del Ministero della Salute per Napoli, emesso il […] e riferito alla giornata del […], prevedeva rischio […] (2 o 3), come da copia […].",
+            "Per fatti del 2024 sostituire nella formula il periodo con «12 giugno–15 settembre 2024» e l’atto con «ORDSI/2024/0000443 del 10 giugno 2024». Le alternative non si sommano come violazioni."
+          ],
+          "amountsMarkup": "<table class=\"staticAmountsTable amounts\"><caption>Importi in euro, spese escluse · L.689/1981</caption><thead><tr><th>Limiti edittali</th><th>PMR entro 60 giorni</th><th>Dopo 60 giorni</th></tr></thead><tbody><tr><td>€ 25–500</td><td>€ 50 · salvo delibera di Giunta ex art.16, comma 2</td><td>Rapporto ex art.17; ordinanza ex art.18, nessun raddoppio automatico</td></tr></tbody></table>",
+          "responsibility": "Individuare l’autore dell’utilizzo e gli eventuali obbligati ex artt.3 e 6 L.689/1981, senza dedurli automaticamente dalla titolarità della licenza.",
+          "route": "",
+          "acts": []
+        },
+        "paginaPDF": 199
+      }
+    }
+  ],
+  "preservateIntegralmente": [
+    "R39",
+    "R40",
+    "R41",
+    "R42"
+  ],
+  "proposteFuoriCatalogo": [
+    "P-EQ01",
+    "P-EQ02",
+    "P-EQ03"
+  ]
+}

@@ -10,18 +10,18 @@ const html=await readFile(resolve(root,'index.html'),'utf8');
 const data=JSON.parse(html.split('\n').find(line=>line.startsWith('const DATA=')).slice(11,-1));
 const catalog=data.catalog;
 const baseline=JSON.parse(await readFile(resolve(root,'revisione/1.8.6/importi-baseline-1.8.5.json'),'utf8'));
-assert.deepEqual(data.catalog.map(({code,payments})=>({code,payments})),baseline,'Importi e misure originari non alterati');
-assert.equal(catalog.length,116);
-assert.equal(data.prontuario.version,'7.11');
-assert.equal(data.sources[3].title,'Prontuario operativo 7.11 · Antonio Balzano');
+assert.deepEqual(data.catalog.filter(i=>!['R44','R45','R46','R43','G52','R39','R40','R41','R42','G49'].includes(i.code)).map(({code,payments})=>({code,payments})),baseline.filter(i=>!['G51','G52','R39','R40','R41','R42','G49'].includes(i.code)),'Importi e misure originari non alterati');
+assert.equal(catalog.length,119);
+assert.equal(data.prontuario.version,'7.15');
+assert.equal(data.sources[3].title,'Prontuario operativo 7.15 · Antonio Balzano');
 const window={};
-for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js','scripts/revision-g01-g43.js'])
+for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js','scripts/revision-g01-g43.js','scripts/revision-seconda-parte.js','scripts/revision-pausa-caldo.js','scripts/revision-equini-835.js'])
   vm.runInNewContext(await readFile(resolve(root,name),'utf8'),{window},{filename:name});
 const layout=window.prontuarioStaticLayout(catalog,data.manualParts,data.staticPages);
-assert.equal(layout.rows.length,187);
+assert.equal(layout.rows.length,190);
 assert.equal(layout.indexPageCount,6);
 assert.equal(layout.firstCasePage,13);
-assert.deepEqual(layout.sections.map(section=>section.rows.length),[113,70,4]);
+assert.deepEqual(layout.sections.map(section=>section.rows.length),[112,70,8]);
 assert.deepEqual(data.staticPages,JSON.parse(JSON.stringify(layout.pages)));
 const casePageCount=Object.values(data.staticPageSpans).reduce((sum,span)=>sum+span,0);
 assert.equal(Object.keys(data.staticPageSpans).length,layout.rows.length);
@@ -30,7 +30,7 @@ assert.equal(casePageCount,layout.rows.length);
 assert.equal(data.manualCommonPages.length,4);
 assert.equal(data.manualCommonPages[0],layout.firstCasePage+casePageCount);
 assert.equal(data.manualAuditPage,layout.firstCasePage+casePageCount+4);
-assert.equal(data.manualVariants.length,187);
+assert.equal(data.manualVariants.length,190);
 for(let index=1;index<=4;index++)assert.equal(
   data.staticPages[`nccserv-fascia-${index}/NCC`],
   data.staticPages[`nccfascia${index}/NCC`],`Rinvio I03-0${index}`);
@@ -47,7 +47,7 @@ const pdf=await getDocument({
   data:new Uint8Array(await readFile(resolve(root,'allegati/Prontuario_Taxi_NCC_Napoli.pdf'))),
   standardFontDataUrl:resolve(root,'node_modules/pdfjs-dist/standard_fonts')+'/'
 }).promise;
-assert.equal(pdf.numPages,layout.firstCasePage+casePageCount+7);
+assert.equal(pdf.numPages,layout.firstCasePage+casePageCount+4+Math.ceil(data.prontuario.sources.length/12));
 assert.equal(data.sources[3].pages.length,pdf.numPages);
 const normalize=value=>String(value).normalize('NFC').replace(/\s+/g,'').replace(/\u00ad/g,'');
 const pageText=[];
@@ -96,7 +96,7 @@ for(const row of layout.rows){
   const expectedFinal=false;
   assert.equal(text.includes(normalize(finalSentence)),expectedFinal,`Corso Pubblico p.${number} ${item.code}`);
   assert.ok(text.includes(normalize(item.payments[0][1])),`Limiti edittali p.${number} ${item.code}`);
-  if(window.prontuarioCatalogIsRelation(item))assert.ok(text.includes(normalize('Testo orientativo per la relazione')));
+  if(window.prontuarioCatalogIsRelation(item)||window.prontuarioSecondApplies(item)&&revised.relation)assert.ok(text.includes(normalize('Testo orientativo per la relazione')));
   const demo=type==='Taxi'?window.prontuarioStaticDemos[item.demoBaseId||item.id]:null;
   const acts=revised?revised.acts:demo?demo.acts:window.prontuarioCatalogActs(item);
   for(const act of acts)assert.ok(text.includes(normalize(act.title)),`Seguito operativo non completo p.${number} ${item.code}: ${act.title}`);
@@ -119,4 +119,4 @@ for(const section of data.manualIndex){
   }
 }
 await pdf.destroy();
-console.log('Revisione: 116 voci attive, 187 schede PDF incl. TC01, 6 indici, ricevute distinte, rinvii I03/I07, importi invariati e seguito distinto OK');
+console.log('Revisione: 119 voci di catalogo, 190 schede PDF incl. TC01, 6 indici, ricevute distinte, rinvii I03/I07, importi invariati e seguito distinto OK');

@@ -1,0 +1,145 @@
+{
+  "checkedAt": "2026-10-23T09:33:44.445531+00:00",
+  "localOnly": false,
+  "version": "1.8.13",
+  "pdfVersion": "7.15",
+  "build": "3617cb20fef453b7fd8528c2eae9382f4e9fb6303f7f8155efc05ba63ac86b9d",
+  "pdfSHA256": "c69d81aa5b4e3af8a81dc7e2da28a699b3cbf8586d464f2fa860ed9305273942",
+  "counts": {
+    "catalog": 119,
+    "cards": 190,
+    "taxi": 112,
+    "ncc": 70,
+    "animal": 8,
+    "pdfPages": 211,
+    "indexPages": 6,
+    "sources": 16
+  },
+  "newCards": [
+    "R44",
+    "R45",
+    "R46"
+  ],
+  "prescriptionEvidence": "Indicazioni confermate dall’autore; integrale O.S.835/2014 non acquisito",
+  "sanctionEvidence": "Verificato separatamente il regime generale TUEL/L.689; sanzione specifica dell’ordinanza non verificata documentalmente",
+  "preservation": {
+    "all116PriorPaymentTables": true,
+    "prior115CardsEntirely": true,
+    "R43": "Solo ultimo rinvio nelle note aggiornato; formula, importi e condizioni invariati",
+    "R39R42WithCorsoPubblicoAndFiveDays": true,
+    "allOriginalAttachments": true
+  },
+  "checks": {
+    "npmTest": "PASS, exit 0; esito-npm-test.txt",
+    "diffCheck": "PASS",
+    "copiedBaseFormulasComparedWithPDF": 189,
+    "destinations": 190,
+    "newCardsComparedWithPDF": 3,
+    "withdrawalAttestationsPreserved": 4,
+    "viewports": [
+      {
+        "width": 320,
+        "height": 740,
+        "cards": 190,
+        "failures": []
+      },
+      {
+        "width": 360,
+        "height": 800,
+        "cards": 190,
+        "failures": []
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "cards": 190,
+        "failures": []
+      },
+      {
+        "width": 430,
+        "height": 932,
+        "cards": 190,
+        "failures": []
+      },
+      {
+        "width": 740,
+        "height": 320,
+        "cards": 190,
+        "failures": []
+      },
+      {
+        "width": 800,
+        "height": 360,
+        "cards": 190,
+        "failures": []
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "cards": 190,
+        "failures": []
+      },
+      {
+        "width": 932,
+        "height": 430,
+        "cards": 190,
+        "failures": []
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "cards": 190,
+        "failures": []
+      }
+    ],
+    "newCardMobile": [
+      {
+        "width": 360,
+        "cards": 3,
+        "overflow": false,
+        "copyMatches": true
+      },
+      {
+        "width": 390,
+        "cards": 3,
+        "overflow": false,
+        "copyMatches": true
+      }
+    ],
+    "authorSourceOfflineSHA256": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd",
+    "realUpgrade": "1.8.12/7.14 → 1.8.13/7.15",
+    "oldManualDiscarded": true,
+    "unchangedOriginalRetained": true,
+    "manualOfflineHashVerified": true,
+    "jsErrors": [],
+    "rerunAfterSourceReplacement": [
+      "npm test",
+      "190 destinazioni e189formule PWA/PDF",
+      "R44–R46:360/390,copia,ricerca,fonte autore offline",
+      "git diff --check"
+    ],
+    "priorBrowserReport": "Riusato per componenti e dimensioni invariate; contiene la build precedente, verifica pubblica definitiva da allegare"
+  },
+  "visualReview": {
+    "cards": [
+      "R44",
+      "R45",
+      "R46"
+    ],
+    "mobileWidth": 390,
+    "pdf": "Una pagina per scheda a9pt; nessun taglio o sovrapposizione"
+  },
+  "residuals": [
+    "Integrale O.S.835/2014, fondamento/ambito/efficacia/eccezioni e sanzione specifica non acquisiti",
+    "Eventuale diversa delibera Giunta PMR non acquisita",
+    "Ordinanza tecnica R42 e dubbi estranei precedenti conservati"
+  ],
+  "publication": "Autorizzata; controlli pubblici dopo il deploy",
+  "privacy": {
+    "fullEGAFScreensExcluded": true,
+    "localOriginalSHA256": "5031c8e106940ba867dd62681871f4861c686c479986553a580687302434e582",
+    "replacedByProvenanceNote": true,
+    "oldCachesPurgeRemovedSources": true,
+    "gitHistoryUnchanged": true
+  }
+}

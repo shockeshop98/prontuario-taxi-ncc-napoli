@@ -1,0 +1,250 @@
+[
+  {
+    "id": "CDS126bis-ACI",
+    "file": "revisione/1.8.10/fonti/CDS126bis-ACI.html",
+    "url": "https://aci.gov.it/codice-della-strada/art-126-bis/",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Testo dell’articolo; verifica mirata, non lettura dell’intero codice.",
+    "data": "2026-10-21",
+    "bytes": 77921,
+    "sha256": "16f167a8acda4d971a2dce73380b772fedf90f13f4f0512be5151286a4dcbe9d"
+  },
+  {
+    "id": "CDS126bis-Normattiva",
+    "file": "revisione/1.8.10/fonti/CDS126bis-Normattiva.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art126bis!vig=2026-10-21",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Articolo126-bis, senza tabella; albero degli allegati usato per accedere alla Tabella versione12.",
+    "data": "2026-10-21",
+    "bytes": 197477,
+    "sha256": "c46eaa5e983e196753ff11f81408feaf9bf9f0b5c109e1ce7313a4a26c2f7e68"
+  },
+  {
+    "id": "CDS126bis-tabella-ACI",
+    "file": "revisione/1.8.10/fonti/CDS126bis-tabella-ACI.html",
+    "url": "https://www.aci.it/i-servizi/normative/codice-della-strada/titolo-iv-guida-dei-veicoli-e-conduzione-degli-animali/art-126-bis-patente-a-punti.html",
+    "stato": "Redirect: NON contiene la tabella richiesta",
+    "consultazione": "Pagina indice del Codice ACI: non usata come prova dei due punti.",
+    "data": "2026-10-21",
+    "bytes": 116397,
+    "sha256": "bea488a677e57f7734e33106d2b97d83ec17be4eeef7e886c2627191c7939e88"
+  },
+  {
+    "id": "CDS158-ACI",
+    "file": "revisione/1.8.10/fonti/CDS158-ACI.html",
+    "url": "https://aci.gov.it/codice-della-strada/art-158/",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Testo dell’articolo; verifica mirata, non lettura dell’intero codice.",
+    "data": "2026-10-21",
+    "bytes": 76270,
+    "sha256": "3d421325cc74476fcc53677ee9cb88343584f7cbc912b90a054ba7b1c9821a1d"
+  },
+  {
+    "id": "CDS159-ACI",
+    "file": "revisione/1.8.10/fonti/CDS159-ACI.html",
+    "url": "https://aci.gov.it/codice-della-strada/art-159/",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Testo dell’articolo; verifica mirata, non lettura dell’intero codice.",
+    "data": "2026-10-21",
+    "bytes": 71702,
+    "sha256": "fe737691d1e2deb80def19c12066f49fe106555c9fed00f80c4e17ab31a933d3"
+  },
+  {
+    "id": "CDS196-ACI",
+    "file": "revisione/1.8.10/fonti/CDS196-ACI.html",
+    "url": "https://aci.gov.it/codice-della-strada/art-196/",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Testo dell’articolo; verifica mirata, non lettura dell’intero codice.",
+    "data": "2026-10-21",
+    "bytes": 70268,
+    "sha256": "6dc7b4d7a4557ca0a36917929b58176e2d69cce51927d1d47ac3512475c35a95"
+  },
+  {
+    "id": "CDS202-ACI",
+    "file": "revisione/1.8.10/fonti/CDS202-ACI.html",
+    "url": "https://aci.gov.it/codice-della-strada/art-202/",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Testo dell’articolo; verifica mirata, non lettura dell’intero codice.",
+    "data": "2026-10-21",
+    "bytes": 74032,
+    "sha256": "2d7071d4294a2e018971abe9a4d7a928af0599464c84cd92162328fdd6431c9e"
+  },
+  {
+    "id": "CDS203-ACI",
+    "file": "revisione/1.8.10/fonti/CDS203-ACI.html",
+    "url": "https://aci.gov.it/codice-della-strada/art-203/",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Testo dell’articolo; verifica mirata, non lettura dell’intero codice.",
+    "data": "2026-10-21",
+    "bytes": 71454,
+    "sha256": "88eab632c897c8eff3e326488c8709d4ffb54dac0221d217c64f1d005f2965a3"
+  },
+  {
+    "id": "CDS70-ACI",
+    "file": "revisione/1.8.10/fonti/CDS70-ACI.html",
+    "url": "https://aci.gov.it/codice-della-strada/art-70/",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Testo dell’articolo; verifica mirata, non lettura dell’intero codice.",
+    "data": "2026-10-21",
+    "bytes": 73174,
+    "sha256": "8f38cd862af090ed9236c02fec91f26dfeba45242e142fa00b939f51d6ea28fb"
+  },
+  {
+    "id": "CDS86-ACI",
+    "file": "revisione/1.8.10/fonti/CDS86-ACI.html",
+    "url": "https://aci.gov.it/codice-della-strada/art-86/",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Testo dell’articolo; verifica mirata, non lettura dell’intero codice.",
+    "data": "2026-10-21",
+    "bytes": 75200,
+    "sha256": "d78bb86b3fdaac0f695df213abd658f4e78ffee3c269fb4134af70278eb4b8d3"
+  },
+  {
+    "id": "DLgs422-art14",
+    "file": "revisione/1.8.10/fonti/DLgs422-art14.pdf",
+    "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+14&codiceOrdinamento=0000000000000140000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B91639DFA-4C08-43A0-AECB-C9388D71ACEC%7D",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Articolo14 completo, due pagine; comma6 uso proprio fuori servizio. Nessuna acquisizione integrale del decreto dichiarata.",
+    "data": "2026-10-21",
+    "bytes": 7125,
+    "sha256": "ee24e5f022960e198db532c5f9ed32cf3c50f231d7a9502fba0f326a0cd8cdf7"
+  },
+  {
+    "id": "L21-art10",
+    "file": "revisione/1.8.10/fonti/L21-art10.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-01-15;21~art10!vig=2026-10-21",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Articolo10 completo, turni assegnati e aggiuntivi; non nuova lettura integrale della legge.",
+    "data": "2026-10-21",
+    "bytes": 76175,
+    "sha256": "606bb4a62262ed6f9bf279d25a851bebfee581344b5f7519dfca940e6b8b29dc"
+  },
+  {
+    "id": "L689-art3",
+    "file": "revisione/1.8.10/fonti/L689-art3.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1981-11-24;689~art3!vig=2026-10-21",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Articolo singolo sulla responsabilità personale o solidarietà; riscontro con testo storico già archiviato.",
+    "data": "2026-10-21",
+    "bytes": 132672,
+    "sha256": "de6b782d914ac5ad61df683e37d4562d6f3f3f38e089492f4744f4a14ecafd93"
+  },
+  {
+    "id": "L689-art6",
+    "file": "revisione/1.8.10/fonti/L689-art6.html",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1981-11-24;689~art6!vig=2026-10-21",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Articolo singolo sulla responsabilità personale o solidarietà; riscontro con testo storico già archiviato.",
+    "data": "2026-10-21",
+    "bytes": 133622,
+    "sha256": "7d94a5a5376b11ae3e5c7212675ac9b8d003ee8c0d0936fc644c544f9658fd32"
+  },
+  {
+    "id": "REG-Comune",
+    "file": "revisione/1.8.10/fonti/REG-Comune.pdf",
+    "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/Regolamento-per-il-trasporto-pubblico-non-di-linea.pdf",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Articoli pertinenti4,7,19,26,34–39, confronto con originale locale20pagine; non prova dell’assenza di atti successivi.",
+    "data": "2026-10-21",
+    "bytes": 91804,
+    "sha256": "1e2e08d7e8dad82d5207f7b722dd6362b4b3acd2613b6d84e582e2310c0d275e"
+  },
+  {
+    "id": "Tabella126bis-Comune-storica",
+    "file": "revisione/1.8.10/fonti/Tabella126bis-Comune-storica.pdf",
+    "url": "https://static-www.comune.napoli.it/wp-content/uploads/2025/05/Tabella_dei_punteggi_previsti_dall__art._126_bis_c.d.s.pdf?mode=download",
+    "stato": "Acquisita come tabella storica",
+    "consultazione": "Contiene ancora d/g/h insieme: non usata come intera tabella vigente.",
+    "data": "2026-10-21",
+    "bytes": 161341,
+    "sha256": "0ec138cd48c8b220f446592240ce79cf901216471c2b43a7675a23d0e01e23d6"
+  },
+  {
+    "id": "Tabella126bis-Normattiva",
+    "file": "revisione/1.8.10/fonti/Tabella126bis-Normattiva.html",
+    "url": "https://www.normattiva.it/atto/caricaArticolo?art.versione=12&art.idGruppo=17&art.flagTipoArticolo=1&art.codiceRedazionale=092G0306&art.idArticolo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=1992-05-18&art.progressivo=0&",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Tabella vigente dal12/04/2025, versione12 indicata dall’albero del CdS vigente al21/10/2026. Riscontrata riga art158 comma2 lettere d e h:2punti. Primo tentativo senza sessione HTTP500; secondo con cookie temporaneo riuscito. Cookie non incluso.",
+    "data": "2026-10-21",
+    "bytes": 22555,
+    "sha256": "3e2eac4fda5b66619b00001329605d97423b52697c2c90f6f3d845517ff05dd6"
+  },
+  {
+    "id": "Regolamento_Taxi_NCC_Napoli",
+    "file": "allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+    "stato": "Originale locale conservato; letto integralmente per i tre atti collettivo, parti pertinenti del regolamento",
+    "consultazione": "Nessuna nuova autenticazione remota dei tre originali collettivo dichiarata.",
+    "sha256": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0",
+    "bytes": 92337
+  },
+  {
+    "id": "Taxi_Collettivo_OD_10_2025_originale",
+    "file": "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+    "stato": "Originale locale conservato; letto integralmente per i tre atti collettivo, parti pertinenti del regolamento",
+    "consultazione": "Nessuna nuova autenticazione remota dei tre originali collettivo dichiarata.",
+    "sha256": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18",
+    "bytes": 190724
+  },
+  {
+    "id": "Taxi_Collettivo_OD_1_2019_originale",
+    "file": "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+    "stato": "Originale locale conservato; letto integralmente per i tre atti collettivo, parti pertinenti del regolamento",
+    "consultazione": "Nessuna nuova autenticazione remota dei tre originali collettivo dichiarata.",
+    "sha256": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a",
+    "bytes": 155411
+  },
+  {
+    "id": "Taxi_Collettivo_OD_9_2026_originale",
+    "file": "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+    "stato": "Originale locale conservato; letto integralmente per i tre atti collettivo, parti pertinenti del regolamento",
+    "consultazione": "Nessuna nuova autenticazione remota dei tre originali collettivo dichiarata.",
+    "sha256": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5",
+    "bytes": 179655
+  },
+  {
+    "id": "OS11",
+    "stato": "Non acquisita/verificata in questa revisione",
+    "consultazione": "O.S.11/2010: disco, ultimo posto e pausa30minuti",
+    "limite": "Nessun hash di acquisizione; la mancata reperibilità non ne prova l’inesistenza."
+  },
+  {
+    "id": "OD3",
+    "stato": "Non acquisita/verificata in questa revisione",
+    "consultazione": "O.D.3 del22/03/2021: vetrofania e cambio turno",
+    "limite": "Nessun hash di acquisizione; la mancata reperibilità non ne prova l’inesistenza."
+  },
+  {
+    "id": "ORD_EQUINA",
+    "stato": "Non acquisita/verificata in questa revisione",
+    "consultazione": "Ordinanza tecnica ex art38: allestimento della vettura",
+    "limite": "Nessun hash di acquisizione; la mancata reperibilità non ne prova l’inesistenza."
+  },
+  {
+    "id": "DGC634",
+    "stato": "Non acquisita/verificata in questa revisione",
+    "consultazione": "DGC634/2018 integrale",
+    "limite": "Nessun hash di acquisizione; la mancata reperibilità non ne prova l’inesistenza."
+  },
+  {
+    "id": "TITOLI",
+    "stato": "Non acquisita/verificata in questa revisione",
+    "consultazione": "Condizioni individuali delle licenze; atti locali e segnaletica effettivi",
+    "limite": "Nessun hash di acquisizione; la mancata reperibilità non ne prova l’inesistenza."
+  },
+  {
+    "id": "NUOVO_REG",
+    "stato": "Non acquisita/verificata in questa revisione",
+    "consultazione": "Approvazione ed efficacia di eventuale nuovo regolamento",
+    "limite": "Nessun hash di acquisizione; la mancata reperibilità non ne prova l’inesistenza."
+  },
+  {
+    "id": "CDS216",
+    "url": "https://aci.gov.it/codice-della-strada/art-216/",
+    "file": "revisione/1.8.10/fonti/CDS216-ACI.html",
+    "stato": "Acquisita e riscontrata nelle parti pertinenti",
+    "consultazione": "Ritiro della licenza; distinto dal successivo provvedimento dell’autorità.",
+    "data": "2026-10-21",
+    "bytes": 73743,
+    "sha256": "d09c2c0b6e71e82d6a2d1a489c8b6fe9d9a50537528cf3d42b04a5718ee52582"
+  }
+]

@@ -1,0 +1,140 @@
+{
+  "checkedAt": "2026-10-21T22:34:21.301Z",
+  "localOnly": true,
+  "commitUnchanged": "7cd86c8",
+  "version": "1.8.11",
+  "pdfVersion": "7.13",
+  "build": "1e0d123e95dda31d9f896222f7c4caa7e7754ef18441f4058086e900726891f3",
+  "pdfSHA256": "5b92d8c1388e6b0be5797d9ff8f4f8f26bd6166a8daa4a9fe2e83f6dd2c6a108",
+  "counts": {
+    "catalog": 115,
+    "inactiveExplicit": [
+      "R01"
+    ],
+    "cards": 186,
+    "taxi": 112,
+    "ncc": 70,
+    "animal": 4,
+    "pdfPages": 207,
+    "indexPages": 6,
+    "documentSources": 12
+  },
+  "attachments": {
+    "readCompletely": 9,
+    "imagesEGAF": 7,
+    "pdfs": 2,
+    "hashesPreserved": true,
+    "taxiCollectiveDuplicate": "Identico al PDF archiviato: nessuna nuova voce o copia generata"
+  },
+  "changes": {
+    "integratedCards": 12,
+    "priorCardsPreservedAndRechecked": 3,
+    "collectiveReference": "TC01",
+    "removedAbsent": "G51",
+    "newCards": 0
+  },
+  "checks": {
+    "npmTest": "PASS: npm test, exit 0; esito-npm-test.txt",
+    "diffCheck": "PASS",
+    "copiedFormulasComparedWithPDF": 185,
+    "destinationsPWA": 186,
+    "destinationsPDF": 186,
+    "viewports": [
+      {
+        "width": 320,
+        "height": 740,
+        "cards": 186,
+        "failures": 0
+      },
+      {
+        "width": 360,
+        "height": 800,
+        "cards": 186,
+        "failures": 0
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "cards": 186,
+        "failures": 0
+      },
+      {
+        "width": 430,
+        "height": 932,
+        "cards": 186,
+        "failures": 0
+      },
+      {
+        "width": 740,
+        "height": 320,
+        "cards": 186,
+        "failures": 0
+      },
+      {
+        "width": 800,
+        "height": 360,
+        "cards": 186,
+        "failures": 0
+      },
+      {
+        "width": 844,
+        "height": 390,
+        "cards": 186,
+        "failures": 0
+      },
+      {
+        "width": 932,
+        "height": 430,
+        "cards": 186,
+        "failures": 0
+      },
+      {
+        "width": 1440,
+        "height": 1000,
+        "cards": 186,
+        "failures": 0
+      }
+    ],
+    "variants": 9,
+    "withdrawalAttestation": 4,
+    "inactiveR01Search": true,
+    "newNotesSearch": [
+      {
+        "query": "contraffazione",
+        "code": "G48",
+        "found": true
+      },
+      {
+        "query": "Metropark",
+        "code": "G52",
+        "found": true
+      }
+    ],
+    "forbiddenPhrasesAbsent": true,
+    "originalsPreserved": true,
+    "offlineAndMigration": "PASS: vera 1.8.10 locale → build corrente; regolamento conservato, vecchio prontuario invalidato, nuovo PDF e OD3/2021 riaperti offline",
+    "jsErrors": []
+  },
+  "visualReview": {
+    "cards": 15,
+    "extra": [
+      "Copertina",
+      "TC01"
+    ],
+    "result": "Nessun taglio o sovrapposizione; 9pt fissi nelle schede PDF; R01 stato visibile prima delle tabelle",
+    "files": "mobile-360, mobile-390, pdf-pagine e relative tavole"
+  },
+  "residuals": {
+    "documents": [
+      "OS11/2010 integrale e modifiche",
+      "Ordinanza tecnica R42",
+      "Licenze/prescrizioni individuali nel caso concreto",
+      "Originale autonomo OD178/2019 e prototipi non presenti nell’atto2021",
+      "Manuale del gestionale I09",
+      "Disposizione sul percorso di invio della licenza per discrepanza art216/nota5EGAF",
+      "Eventuali atti successivi sul luogo, futuro atto R01 se attivata"
+    ],
+    "unrelatedPriorDoubts": "Conservati: vedere RAPPORTO_REVISIONE_1.8.11.md"
+  },
+  "noCommitPushDeploy": true
+}

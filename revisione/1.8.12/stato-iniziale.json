@@ -1,0 +1,13 @@
+{
+  "baseline": "/tmp/prontuario-1811-pausa-caldo",
+  "release": {
+    "version": "1.8.11",
+    "updated_at": "2026-10-23",
+    "build_id": "da4ad1adbe6bac3d444548f76fce2e9be9dd37042788c404512fe0e7350747ef"
+  },
+  "fontiNuove": {
+    "revisione/fonti-integrative/ORDSI_00443_100624.pdf": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e",
+    "revisione/fonti-integrative/ORDSI_2025_0000571.pdf": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042",
+    "revisione/fonti-integrative/WhatsApp Image 2026-10-23 at 09.53.07.jpeg": "9950ff43d3b567fa61027940ccbeebdb137544d11bf0f37c0e96bab66935823b"
+  }
+}

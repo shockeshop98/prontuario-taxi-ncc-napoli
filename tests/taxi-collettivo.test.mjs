@@ -12,7 +12,7 @@ const window={};
 for(const name of ['scripts/static-demos.js','scripts/taxi-collettivo.js','scripts/static-catalog.js'])
   vm.runInNewContext(await readFile(resolve(root,name),'utf8'),{window},{filename:name});
 const c=window.prontuarioTaxiCollettivo;
-assert.equal(data.catalog.length,116,'R17 e R18 non sono più nel catalogo attivo');
+assert.equal(data.catalog.length,119,'R17 e R18 non sono più nel catalogo attivo');
 assert.ok(!data.catalog.some(item=>['R17','R18'].includes(item.code)));
 assert.ok(!data.catalog.some(item=>item.code==='TC01'));
 assert.equal(c.item.code,'TC01');
@@ -20,7 +20,7 @@ assert.equal(c.item.referenceOnly,true);
 assert.equal(c.item.payments.length,0,'La scheda di consultazione non attribuisce importi');
 assert.ok(data.manualParts.find(part=>part.type==='taxi').cases.includes(c.item.id));
 const layout=window.prontuarioStaticLayout(data.catalog,data.manualParts,data.staticPages);
-assert.equal(layout.rows.length,187);
+assert.equal(layout.rows.length,190);
 assert.equal(layout.pages[`${c.item.id}/Taxi`],data.staticPages[`${c.item.id}/Taxi`]);
 for(const term of ['taxi sharing','collettivo','Alibus','sei euro','6 euro','aeroporto','Capodichino','meno di sette posti'])
   assert.ok(c.item.searchTerms.toLowerCase().includes(term.toLowerCase()),`Sinonimo ${term}`);

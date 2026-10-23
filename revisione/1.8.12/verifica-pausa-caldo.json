@@ -1,0 +1,119 @@
+{
+  "checkedAt": "2026-10-23T08:27:03.313Z",
+  "viewports": [
+    {
+      "width": 360,
+      "cards": 3,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "cards": 3,
+      "overflow": false
+    }
+  ],
+  "variants": [
+    {
+      "period": "2025",
+      "condition": "temperatura",
+      "formula": "Il giorno […] alle ore […], nella fascia 12–16 e nel periodo 1° giugno–15 settembre, in […], utilizzava l’equino […] per la trazione della vettura […] in violazione dell’ordinanza ORDSI/2025/0000571 del 29 maggio 2025. La temperatura atmosferica era di […] °C, come rilevata mediante […] in […] alle ore […], fonte del rilievo […]."
+    },
+    {
+      "period": "2025",
+      "condition": "bollettino",
+      "formula": "Il giorno […] alle ore […], nella fascia 12–16 e nel periodo 1° giugno–15 settembre, in […], utilizzava l’equino […] per la trazione della vettura […] in violazione dell’ordinanza ORDSI/2025/0000571 del 29 maggio 2025. Il bollettino del Ministero della Salute per l’area urbana di Napoli, emesso il […] e riferito alla giornata del […], prevedeva livello di rischio […] (2 o 3), come da copia […]."
+    },
+    {
+      "period": "2025",
+      "condition": "entrambe",
+      "formula": "Il giorno […] alle ore […], nella fascia 12–16 e nel periodo 1° giugno–15 settembre, in […], utilizzava l’equino […] per la trazione della vettura […] in violazione dell’ordinanza ORDSI/2025/0000571 del 29 maggio 2025. La temperatura atmosferica era di […] °C, rilevata mediante […] in […] alle ore […], fonte […]; inoltre il bollettino del Ministero della Salute per Napoli, emesso il […] e riferito alla giornata del […], prevedeva rischio […] (2 o 3), come da copia […]."
+    },
+    {
+      "period": "2024",
+      "condition": "temperatura",
+      "formula": "Il giorno […] alle ore […], nella fascia 12–16 e nel periodo 12 giugno–15 settembre 2024, in […], utilizzava l’equino […] per la trazione della vettura […] in violazione dell’ordinanza ORDSI/2024/0000443 del 10 giugno 2024. La temperatura atmosferica era di […] °C, come rilevata mediante […] in […] alle ore […], fonte del rilievo […]."
+    },
+    {
+      "period": "2024",
+      "condition": "bollettino",
+      "formula": "Il giorno […] alle ore […], nella fascia 12–16 e nel periodo 12 giugno–15 settembre 2024, in […], utilizzava l’equino […] per la trazione della vettura […] in violazione dell’ordinanza ORDSI/2024/0000443 del 10 giugno 2024. Il bollettino del Ministero della Salute per l’area urbana di Napoli, emesso il […] e riferito alla giornata del […], prevedeva livello di rischio […] (2 o 3), come da copia […]."
+    },
+    {
+      "period": "2024",
+      "condition": "entrambe",
+      "formula": "Il giorno […] alle ore […], nella fascia 12–16 e nel periodo 12 giugno–15 settembre 2024, in […], utilizzava l’equino […] per la trazione della vettura […] in violazione dell’ordinanza ORDSI/2024/0000443 del 10 giugno 2024. La temperatura atmosferica era di […] °C, rilevata mediante […] in […] alle ore […], fonte […]; inoltre il bollettino del Ministero della Salute per Napoli, emesso il […] e riferito alla giornata del […], prevedeva rischio […] (2 o 3), come da copia […]."
+    }
+  ],
+  "sources": [
+    {
+      "index": 12,
+      "url": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+      "status": 200,
+      "bytes": 230267,
+      "sha256": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184",
+      "offline": true
+    },
+    {
+      "index": 13,
+      "url": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+      "status": 200,
+      "bytes": 299920,
+      "sha256": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e",
+      "offline": true
+    },
+    {
+      "index": 14,
+      "url": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+      "status": 200,
+      "bytes": 259332,
+      "sha256": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042",
+      "offline": true
+    }
+  ],
+  "search": [
+    {
+      "query": "bollettino caldo",
+      "code": "R43",
+      "found": true
+    },
+    {
+      "query": "temperatura 30",
+      "code": "R43",
+      "found": true
+    },
+    {
+      "query": "ultimi due posti",
+      "code": "G46",
+      "found": true
+    },
+    {
+      "query": "1003",
+      "code": "G47",
+      "found": true
+    }
+  ],
+  "jsErrors": [],
+  "cards": [
+    {
+      "id": "disco",
+      "code": "G46",
+      "type": "Taxi",
+      "page": 51
+    },
+    {
+      "id": "pausaoltre",
+      "code": "G47",
+      "type": "Taxi",
+      "page": 52
+    },
+    {
+      "id": "equinacaldo",
+      "code": "R43",
+      "type": "Trazione animale",
+      "page": 199
+    }
+  ],
+  "build": "83539fd1e4a3b288921a195fa9b2b9fc2e55cb9eac1d457df596f14d7c55bde3",
+  "pdfVariantsCompared": 6,
+  "pdfPages": 208
+}

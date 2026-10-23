@@ -1,0 +1,29 @@
+{
+  "checkedAt": "2026-10-21T21:13:44.769Z",
+  "baselineCommit": "7cd86c8",
+  "localOnly": true,
+  "before": {
+    "version": "1.8.9",
+    "build": "fb6b963d313f3c7f93767291989a066e7bfe655ab4a731d3ccdfd8e8d111383c",
+    "pdf": "7.11",
+    "pdfSHA256": "efc099cda3ac1bee29e4e3df44d36842cf734d4a43b0f6606d1281b7d82a4f25"
+  },
+  "after": {
+    "version": "1.8.10",
+    "build": "13e70cc44fc72a95e3b238c521dcb275f31c7b18e478da1d2c39976e75966691",
+    "pdf": "7.12",
+    "originalRetained": true,
+    "oldManualDiscarded": true,
+    "offline": {
+      "version": "1.8.10",
+      "build": "13e70cc44fc72a95e3b238c521dcb275f31c7b18e478da1d2c39976e75966691",
+      "code": "Non rispetto dell’ordine di fila nel posteggio",
+      "pdfSHA256": "3412a7cfff83007b4b96d301d2a9300712a8882f6bd69bc35f8c6585f174c661",
+      "moduleCached": true,
+      "secondModuleCached": true,
+      "removedAbsent": true,
+      "secondCard": "G46"
+    }
+  },
+  "jsErrors": []
+}

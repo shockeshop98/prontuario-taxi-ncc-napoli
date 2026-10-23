@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-23T08:27:04.183Z",
+  "baselineLocalVersion": "1.8.11",
+  "baselineDirectory": "/tmp/prontuario-1811-pausa-caldo",
+  "localOnly": true,
+  "before": {
+    "version": "1.8.11",
+    "build": "da4ad1adbe6bac3d444548f76fce2e9be9dd37042788c404512fe0e7350747ef",
+    "pdf": "7.13",
+    "pdfSHA256": "bbd50c585386b9ff7098a9153c0c8939c7d64f05bb212dad0402a64481333191"
+  },
+  "after": {
+    "version": "1.8.12",
+    "build": "83539fd1e4a3b288921a195fa9b2b9fc2e55cb9eac1d457df596f14d7c55bde3",
+    "pdf": "7.14",
+    "originalRetained": true,
+    "oldManualDiscarded": true,
+    "offline": {
+      "version": "1.8.12",
+      "build": "83539fd1e4a3b288921a195fa9b2b9fc2e55cb9eac1d457df596f14d7c55bde3",
+      "code": "Non rispetto dell’ordine di fila nel posteggio",
+      "pdfSHA256": "f58d0badd5d8a6079158c4191117e826a4ac3264a05d51cad12b8a37c1635236",
+      "moduleCached": true,
+      "secondModuleCached": true,
+      "removedAbsent": true,
+      "secondCard": "G46",
+      "heat": "Il giorno […] alle ore […], nella fascia 12–16 e nel periodo 1° giugno–15 settembre, in […], utilizzava l’equino […] per la trazione della vettura […] in violazione dell’ordinanza ORDSI/2025/0000571 del 29 maggio 2025. La temperatura atmosferica era di […] °C, come rilevata mediante […] in […] alle ore […], fonte del rilievo […].",
+      "newDocument": {
+        "status": 200,
+        "bytes": 186304
+      }
+    }
+  },
+  "jsErrors": []
+}

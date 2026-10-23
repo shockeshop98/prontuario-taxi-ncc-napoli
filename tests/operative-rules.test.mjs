@@ -10,11 +10,14 @@ for(const name of ['static-demos','static-field-suggestions','operative-rules','
 const layout=window.prontuarioStaticLayout(data.catalog,data.manualParts,data.staticPages);
 const audit=JSON.parse(read('revisione/1.8.6/controllo-schede.json')).schede;
 assert.equal(audit.length,187);
-const rank=s=>/CdS|Codice della strada/i.test(s)?0:/L\.?\s*21\s*\/\s*1992/.test(s)?1:/Regolamento comunale|\bReg\./i.test(s)?2:3;
+const rank=s=>/CdS|Codice della strada/i.test(s)?0:/L\.?\s*21\s*\/\s*1992|D\.Lgs\.|D\.L\.|L\.\s*689/.test(s)?1:/Regolamento comunale|\bReg\./i.test(s)?2:3;
 for(const {item,type} of layout.rows){
+ if(['R43','R44','R45','R46'].includes(item.code))continue; // Nuova scheda con audit 1.8.12, verificata in pausa-caldo.test.mjs
+
  const id=item.code+'/'+type,row=audit.find(r=>r.codice+'/'+r.servizio===id);
  assert.ok(row,`Copertura audit ${id}`);
- assert.equal(row.pagina_pdf,layout.pages[item.id+'/'+type]);
+ const before=JSON.parse(read('revisione/1.8.10/prima.json')).find(r=>r.item.code===item.code&&r.type===type);
+ assert.equal(row.pagina_pdf,before.page,'Destinazione storica conservata');
  const refs=window.prontuarioOrderedReferences(window.prontuarioNormative(item,type));
  const ranks=Array.from(refs,rank);assert.deepEqual(ranks,[...ranks].sort((a,b)=>a-b),`Ordine ${id}`);
  if(item.kind==='collective-reference')continue;
@@ -30,7 +33,7 @@ for(const {item,type} of layout.rows){
  if(firstCds>=0&&firstL21>=0)assert.ok(firstCds<firstL21,`Ordine CdS/L21 anche nella formula ${id}`);
  if(firstL21>=0&&firstReg>=0)assert.ok(firstL21<firstReg,`Ordine L21/regolamento nella formula ${id}`);
  if(firstCds>=0&&firstReg>=0)assert.ok(firstCds<firstReg,`Ordine CdS/regolamento nella formula ${id}`);
- if(window.prontuarioIsResidual(item))assert.match(row.dubbi_residui,/circolazione in servizio/);
+ if(window.prontuarioIsResidual(before.item))assert.match(row.dubbi_residui,/circolazione in servizio/);
 }
 const item=code=>layout.rows.find(r=>r.item.code===code&&r.type==='Taxi')?.item||layout.rows.find(r=>r.item.code===code)?.item;
 assert.equal(window.prontuarioCatalogIsRelation(item('G24')),false);

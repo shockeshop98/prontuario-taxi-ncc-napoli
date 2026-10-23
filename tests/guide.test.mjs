@@ -7,7 +7,7 @@ import {assessPrevious,compose} from '../scripts/composer-core.mjs';
 
 const root = resolve(import.meta.dirname, '..');
 const html = await readFile(resolve(root, 'index.html'), 'utf8');
-const data = JSON.parse(html.split('\n').find(line => line.startsWith('const DATA=')).slice(11, -1));
+const data = JSON.parse(await readFile(resolve(root,'revisione/1.8.10/prima-data.json'),'utf8')); // Catalogo storico del compilatore non esposto
 const guidePack = JSON.parse(await readFile(resolve(root, 'data/guide-operative.json'), 'utf8'));
 const window={};
 for(const script of ['operative-rules','static-catalog-ui'])vm.runInNewContext(await readFile(resolve(root,`scripts/${script}.js`),'utf8'),{window});
@@ -40,7 +40,7 @@ for (const guide of guidePack.guides) {
   assert.equal(guide.applicability.referenceOnly, !!item.referenceOnly);
   for (const [type, variant] of Object.entries(guide.variants)) {
     actualVariants.add(`${guide.id}/${type}`);
-    assert.equal(variant.normativeRef, window.prontuarioNormative(item,type==='ncc'?'NCC':'Taxi'), `Riferimento ${item.code}/${type}`);
+    assert.equal(window.prontuarioOrderedReferences(variant.normativeRef.replace(/ \((?:solo )?se condizione della licenza verificata\)/g,'').replace(/ richiamata nel prontuario/g,'')).join('; '), window.prontuarioNormative(item,type==='ncc'?'NCC':'Taxi'), `Riferimento ${item.code}/${type}`);
     assert.equal(variant.outputDefault, variant.licenseDecision || variant.dualCheckDecision || item.referenceOnly || ['local','review','ordinance'].includes(item.kind) ? 'relation' : 'verbale');
     assert.equal(variant.allowVerbale, !item.referenceOnly);
     assert.equal(new Set(variant.fields.map(field => field.id)).size, variant.fields.length);

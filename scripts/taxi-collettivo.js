@@ -13,7 +13,7 @@
     'Tratta attivata: Aeroporto di Capodichino – Stazione Centrale – Molo Beverello e viceversa. L’O.D. 2019 ha efficacia dall’installazione della segnaletica orizzontale e verticale.',
     'Tariffa: € 6 per ciascun passeggero, bagagli compresi. La tabella deve indicare € 6 a persona per l’andata o il ritorno, indipendentemente dalla salita o discesa alle fermate intermedie.',
     'Turno: può effettuare questo servizio soltanto chi non è di turno in aeroporto. La tabella “TAXI Collettivo” è esposta sul parabrezza anteriore dal momento in cui il taxi occupa lo stallo dedicato; reca logo del Comune, percorso e tariffa leggibili.',
-    'Partenza: il dispositivo dell’O.D. 2019 indica 15 minuti dall’arrivo dei primi tre passeggeri. Rilevare separatamente arrivo, salita e partenza; vedere l’ambiguità con l’art. 19, comma 4, del regolamento.',
+    'Partenza: il dispositivo dell’O.D. 2019 indica 15 minuti dall’arrivo dei primi tre passeggeri. Per G50 l’autore conferma la mancata partenza con permanenza oltre 15 minuti dall’arrivo dei primi tre; rilevare gli orari senza sostituire arrivo con salita.',
     'Postazioni dedicate e numero massimo di stalli: Aeroporto, area ex NCC presso la rotonda di viale Ruffo di Calabria, fronte postazione della Polizia Locale: 4; Stazione Centrale, andata, corso Novara n. 3: 2; Stazione Centrale, ritorno, corso Arnaldo Lucci presso l’ingresso Metropark: 3; Molo Beverello, via C. Colombo, corsia destra verso via Marina presso semaforo/fermata ANM: 5.',
     'Andata: Aeroporto – viale Ruffo di Calabria – via O. Salomone – via del Riposo – via Don Bosco – piazza Carlo III – via Arenaccia – corso Novara – piazza Garibaldi – corso Umberto – via A. Depretis – piazza Municipio – via C. Colombo.',
     'Ritorno: via C. Colombo – via A. Vespucci – corso A. Lucci – piazza Garibaldi – corso Novara – via Arenaccia – piazza Carlo III – via Don Bosco – largo S. Maria del Pianto – via Comandante Umberto Maddalena – Aeroporto.',
@@ -24,7 +24,7 @@
     'Nel medesimo richiamo alla delibera si indica di non avviare il tassametro per il trasporto cumulativo e di rilasciare, prima della partenza, a ciascun utente una ricevuta di € 6 con il numero del taxi. Queste frasi sono nelle premesse, non fra i punti autonomi del dispositivo dell’O.D. 2019: verificare la delibera e il titolo applicabile prima di qualificare una violazione. Il tassametro non avviato non dimostra un difetto del sigillo.'
   ];
   const limits = [
-    'Art. 19, comma 4, del regolamento: massimo cinque minuti in parcheggio dalla salita del primo passeggero; O.D. 2019, punto 4.3: partenza dopo 15 minuti dall’arrivo dei primi tre. I presupposti temporali e il rapporto tra le due prescrizioni richiedono chiarimento dell’ufficio competente; non presumere che l’una abroghi l’altra.',
+    'Art. 19, comma 4, del regolamento: massimo cinque minuti in parcheggio dalla salita del primo passeggero; O.D. 2019, punto 4.3: partenza dopo 15 minuti dall’arrivo dei primi tre. Per questa tratta G50 applica l’indicazione operativa confermata dall’autore: mancata partenza oltre 15 minuti dall’arrivo dei primi tre. Tale precisazione non documenta l’abrogazione del limite generale né una modifica del regolamento.',
     '“Non di turno in aeroporto” e “taxi di turno” compaiono nello stesso dispositivo del 2019: verificare la turnazione applicabile senza confondere il turno generale con quello aeroportuale.',
     'Il rapporto fra l’integrazione dirigenziale del 2026 e l’art. 19, comma 3, del regolamento va validato dall’ufficio competente. La scheda non assegna automaticamente importi o sanzioni: servono disposizione applicabile e riscontri propri. Dopo il 31/12/2026 verificare una nuova proroga.'
   ];
@@ -33,8 +33,7 @@
     G08:'Per il prezzo del taxi collettivo considerare la tariffa specifica per passeggero; il tassametro spento non prova da solo un prezzo illecito.',
     I01:'Il richiamo alla delibera G.C. n. 634/2018 prevede tassametro non avviato nel trasporto cumulativo: non presumere la violazione per la sola mancata attivazione.',
     'G28-02':'La ricevuta di € 6 prima della partenza è richiamata negli atti del collettivo. G28-02 riguarda invece la corsa a tariffa predeterminata richiesta dall’utente: verificare la prescrizione applicabile, senza equiparare automaticamente le due ipotesi.',
-    G50:'Il limite di cinque minuti dell’art. 19, comma 4, va confrontato con i 15 minuti indicati dall’O.D. 2019: rilevare gli orari e chiedere chiarimento prima di qualificare il fatto.',
-    G51:'L’avviso interno sui cinque minuti è distinto dalla tabella identificativa sul parabrezza prescritta dall’O.D. 2019.',
+    G50:'Mancata partenza con permanenza oltre 15 minuti dall’arrivo dei primi tre: indicazione operativa dell’autore applicata in G50, con due rilievi temporali. Il limite generale di cinque minuti resta distinto.',
     G52:'Per questa tratta gli stalli e la segnaletica sono individuati dall’O.D. 2019, prorogata al 31/12/2026; verificare postazione, numero dei posti e segnaletica effettiva.',
     R16:'Distinguere l’insegna e il display dell’art. 19, comma 1, dalla tabella sul parabrezza richiesta dall’O.D. 2019; non attribuire automaticamente la stessa sanzione.',
     G43:'Verificare se la sosta riguarda uno stallo del collettivo e quale segnaletica si applica prima di usare la scheda generale sui posteggi.'

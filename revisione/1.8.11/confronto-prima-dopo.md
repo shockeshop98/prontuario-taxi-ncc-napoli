@@ -1,0 +1,671 @@
+# Confronto 1.8.10 → 1.8.11 / PDF 7.13
+
+Fotografia della precedente revisione locale conservata. Dodici schede integrate; I01, R07 e R08 sono riportate per confermare la conservazione del lavoro precedente. Anche TC01 aggiorna i rinvii alla condotta G50.
+
+## R39
+
+Prescrizione della licenza confermata dall’autore; art.70, €42/€29,40/€86,50 e ritiro. Accertamento personale e valutazione veterinaria distinti.
+
+**Prima** (p.195): Trazione equina con condizioni incompatibili con il benessere
+
+Durante il servizio a trazione equina, il cavallo non veniva trattato con rispetto e dignità. Nella fattispecie […].
+
+Riferimenti: CdS art. 70, comma 4, secondo periodo; Regolamento comunale (delibera C.C. n. 80/2005), artt. 34–35 e 39
+
+Tabella: [["Base specifica da verificare","Da verificare","Non precompilato","Secondo la base","Secondo la base","Seguito competente"]]
+
+**Dopo** (p.195): Trazione equina con condizioni incompatibili con il benessere
+
+
+
+Durante il servizio a trazione equina, il cavallo non veniva trattato con rispetto e dignità. Nella fattispecie […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Riferimenti: CdS art. 70, comma 4, secondo periodo; Regolamento comunale (delibera C.C. n. 80/2005), artt. 34–35 e 39
+
+Tabella: [["Trazione animale art.70 c.4 secondo periodo","42–173","42","29,40","86,50","Ritiro della licenza"]]
+
+**Note e attestazioni prima:**
+
+- Nel campo finale distinguere i fatti personalmente osservati dagli operatori dalla valutazione del medico veterinario, con nome, data e riferimento dell’atto. Non attribuire agli operatori la diagnosi veterinaria.
+- Non applicare le fasce taxi art.86 alle vetture a trazione animale.
+- Per eventuali illeciti diversi e interventi urgenti individuare la disciplina specifica; la revoca comunale segue il procedimento.
+- Segnalazione al Corso Pubblico: trasmettere all’ufficio, tramite l’Ufficio Verbali, soltanto i fatti e gli atti pertinenti al servizio a trazione animale.
+- Scheda di solo riferimento: la relazione descrive i fatti; un’eventuale contestazione richiede una base specifica verificata.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- Nel campo finale distinguere i fatti personalmente osservati dagli operatori dalla valutazione del medico veterinario, con nome, data e riferimento dell’atto. Non attribuire agli operatori la diagnosi veterinaria.
+- L’autore conferma che l’obbligo descritto è una prescrizione della licenza. Art. 70, comma 4, secondo periodo: accertare e descrivere la prescrizione concretamente violata, con fonte e riscontro; nessuna licenza individuale è stata acquisita in questa revisione.
+- Trasmettere la licenza ritirata all’Ufficio Corso Pubblico del Comune di Napoli entro cinque giorni dal ritiro (art. 216 CdS). Il destinatario è un’indicazione organizzativa confermata dall’autore il 23 ottobre 2026, distinta dal testo normativo: non è il destinatario testualmente indicato dall’art. 216 e non è stato acquisito un nuovo atto organizzativo. L’attestazione del ritiro entra nella copia soltanto se materialmente eseguito; il ritiro dovuto resta obbligatorio.
+- EGAF 070-02 sostiene questo inquadramento. 070-01 riguarda servizio senza licenza, con confisca; 070-03 riguarda revisione della vettura, distinta dall’abilitazione annuale del cavallo. Non sono ulteriori condotte attestate da questa formula.
+
+- Solo se ritiro materialmente eseguito; non sostituisce l’obbligo di ritiro: La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico.
+
+Alternative separate: {}
+
+## R40
+
+Stesso inquadramento art.70; art.36 comma1 e relativa eccezione confermati; resta distinta la sola carenza documentale dall’inidoneità.
+
+**Prima** (p.196): Trazione equina — riscontro dell’idoneità del cavallo
+
+Per il cavallo […] adibito alla trazione equina non risultava il riscontro dell’idoneità richiesta; il fatto è riportato nella relazione. In particolare […].
+
+Riferimenti: CdS art. 70, comma 4, secondo periodo; Regolamento comunale (delibera C.C. n. 80/2005), art. 36, comma 1; art. 36, comma 2 (eccezione)
+
+Tabella: [["Base specifica da verificare","Da verificare","Non precompilato","Secondo la base","Secondo la base","Seguito competente"]]
+
+**Dopo** (p.196): Trazione equina — riscontro dell’idoneità del cavallo
+
+
+
+Per il cavallo […] adibito alla trazione equina non risultava il riscontro dell’idoneità richiesta; il fatto è riportato nella relazione. In particolare […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Riferimenti: CdS art. 70, comma 4, secondo periodo; Regolamento comunale (delibera C.C. n. 80/2005), art. 36, comma 1; art. 36, comma 2 (eccezione)
+
+Tabella: [["Trazione animale art.70 c.4 secondo periodo","42–173","42","29,40","86,50","Ritiro della licenza"]]
+
+**Note e attestazioni prima:**
+
+- Art. 36, comma 1: razze da tiro soggette a valutazione morfologica o di categoria di peso. Il comma 2 ammette cavalli già in esercizio di altre razze certificati dal veterinario. La mancanza sostanziale dell’idoneità è distinta dal certificato non esibito o dal riscontro documentale pendente.
+- Non dedurre l’inidoneità dalla sola razza; il comma 2 ammette altri cavalli certificati.
+- Segnalazione al Corso Pubblico: trasmettere all’ufficio, tramite l’Ufficio Verbali, soltanto i fatti e gli atti pertinenti al servizio a trazione animale.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- Art. 36, comma 1: razze da tiro soggette a valutazione morfologica o di categoria di peso. Il comma 2 ammette cavalli già in esercizio di altre razze certificati dal veterinario. La mancanza sostanziale dell’idoneità è distinta dal certificato non esibito o dal riscontro documentale pendente.
+- L’autore conferma che l’obbligo descritto è una prescrizione della licenza. Art. 70, comma 4, secondo periodo: accertare e descrivere la prescrizione concretamente violata, con fonte e riscontro; nessuna licenza individuale è stata acquisita in questa revisione.
+- Trasmettere la licenza ritirata all’Ufficio Corso Pubblico del Comune di Napoli entro cinque giorni dal ritiro (art. 216 CdS). Il destinatario è un’indicazione organizzativa confermata dall’autore il 23 ottobre 2026, distinta dal testo normativo: non è il destinatario testualmente indicato dall’art. 216 e non è stato acquisito un nuovo atto organizzativo. L’attestazione del ritiro entra nella copia soltanto se materialmente eseguito; il ritiro dovuto resta obbligatorio.
+- EGAF 070-02 sostiene questo inquadramento. 070-01 riguarda servizio senza licenza, con confisca; 070-03 riguarda revisione della vettura, distinta dall’abilitazione annuale del cavallo. Non sono ulteriori condotte attestate da questa formula.
+
+- Solo se ritiro materialmente eseguito; non sostituisce l’obbligo di ritiro: La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico.
+
+Alternative separate: {}
+
+## R41
+
+Stesso inquadramento art.70; scelta dell’irregolarità specifica. Abilitazione annuale del cavallo distinta dalla revisione quinquennale della vettura.
+
+**Prima** (p.197): Trazione equina senza abilitazione annuale o identificazione
+
+Il cavallo […] impiegato con la vettura indicata non risultava in regola con l’abilitazione annuale richiesta; il fatto è riportato nella relazione. In particolare […].
+
+Riferimenti: CdS art. 70, comma 4, secondo periodo; Regolamento comunale (delibera C.C. n. 80/2005), art. 37, commi 1–4; art. 39
+
+Tabella: [["Base specifica da verificare","Da verificare","Non precompilato","Secondo la base","Secondo la base","Seguito competente"]]
+
+**Dopo** (p.197): Trazione equina senza abilitazione annuale o identificazione
+
+
+
+Il cavallo […] impiegato con la vettura indicata non risultava in regola con l’abilitazione annuale richiesta; il fatto è riportato nella relazione. In particolare […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Riferimenti: CdS art. 70, comma 4, secondo periodo; Regolamento comunale (delibera C.C. n. 80/2005), art. 37, commi 1–4; art. 39
+
+Tabella: [["Trazione animale art.70 c.4 secondo periodo","42–173","42","29,40","86,50","Ritiro della licenza"]]
+
+**Note e attestazioni prima:**
+
+- Scegliere la sola irregolarità accertata e specificarla nel campo finale, con documento, scadenza e fonte. Non mantenere un’alternativa generica irrisolta. La mancata esibizione non dimostra l’assenza dell’abilitazione; per l’identificazione verificare la disciplina e il riscontro veterinario applicabili.
+- Non presumere inesistenza dell’abilitazione dal solo certificato non esibito.
+- Segnalazione al Corso Pubblico: trasmettere all’ufficio, tramite l’Ufficio Verbali, soltanto i fatti e gli atti pertinenti al servizio a trazione animale.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- Scegliere la sola irregolarità accertata e specificarla nel campo finale, con documento, scadenza e fonte. Non mantenere un’alternativa generica irrisolta. La mancata esibizione non dimostra l’assenza dell’abilitazione; per l’identificazione verificare la disciplina e il riscontro veterinario applicabili.
+- L’autore conferma che l’obbligo descritto è una prescrizione della licenza. Art. 70, comma 4, secondo periodo: accertare e descrivere la prescrizione concretamente violata, con fonte e riscontro; nessuna licenza individuale è stata acquisita in questa revisione.
+- Trasmettere la licenza ritirata all’Ufficio Corso Pubblico del Comune di Napoli entro cinque giorni dal ritiro (art. 216 CdS). Il destinatario è un’indicazione organizzativa confermata dall’autore il 23 ottobre 2026, distinta dal testo normativo: non è il destinatario testualmente indicato dall’art. 216 e non è stato acquisito un nuovo atto organizzativo. L’attestazione del ritiro entra nella copia soltanto se materialmente eseguito; il ritiro dovuto resta obbligatorio.
+- EGAF 070-02 sostiene questo inquadramento. 070-01 riguarda servizio senza licenza, con confisca; 070-03 riguarda revisione della vettura, distinta dall’abilitazione annuale del cavallo. Non sono ulteriori condotte attestate da questa formula.
+
+- Solo se ritiro materialmente eseguito; non sostituisce l’obbligo di ritiro: La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico.
+
+Alternative separate: {"abilitazione":"Il cavallo […] impiegato con la vettura indicata non risultava in regola con l’abilitazione annuale richiesta; il fatto è riportato nella relazione. In particolare […].","identificazione":"Il cavallo […] impiegato con la vettura indicata presentava un’irregolarità nell’identificazione richiesta; il fatto è riportato nella relazione. In particolare […].","altra":"Il cavallo […] impiegato con la vettura indicata presentava la seguente irregolarità accertata: […]; il fatto è riportato nella relazione."}
+
+## R42
+
+Stesso inquadramento art.70; ordinanza tecnica non acquisita, estremi da completare. La conferma dell’autore non equivale al documento.
+
+**Prima** (p.198): Vettura a trazione equina con allestimento difforme
+
+La vettura a trazione equina indicata presentava un allestimento difforme dall’ordinanza […]. Nella fattispecie […].
+
+Riferimenti: CdS art. 70, comma 4, secondo periodo; Regolamento comunale (delibera C.C. n. 80/2005), art. 38, comma 1
+
+Tabella: [["Base specifica da verificare","Da verificare","Non precompilato","Secondo la base","Secondo la base","Seguito competente"]]
+
+**Dopo** (p.198): Vettura a trazione equina con allestimento difforme
+
+
+
+La vettura a trazione equina indicata presentava un allestimento difforme dall’ordinanza […]. Nella fattispecie […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Riferimenti: CdS art. 70, comma 4, secondo periodo; Regolamento comunale (delibera C.C. n. 80/2005), art. 38, comma 1
+
+Tabella: [["Trazione animale art.70 c.4 secondo periodo","42–173","42","29,40","86,50","Ritiro della licenza"]]
+
+**Note e attestazioni prima:**
+
+- L’ordinanza tecnica prevista dall’art. 38, comma 1, non è stata acquisita: indicarne estremi e prescrizione solo dopo acquisizione. Il richiamo all’O.S. 835/2014 in atti sul benessere non ne prova il contenuto tecnico.
+- Non inventare requisiti tecnici o importi senza l’ordinanza applicabile.
+- Segnalazione al Corso Pubblico: trasmettere all’ufficio, tramite l’Ufficio Verbali, soltanto i fatti e gli atti pertinenti al servizio a trazione animale.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- L’ordinanza tecnica prevista dall’art. 38, comma 1, non è stata acquisita: indicarne estremi e prescrizione solo dopo acquisizione. Il richiamo all’O.S. 835/2014 in atti sul benessere non ne prova il contenuto tecnico.
+- L’autore conferma che l’obbligo descritto è una prescrizione della licenza. Art. 70, comma 4, secondo periodo: accertare e descrivere la prescrizione concretamente violata, con fonte e riscontro; nessuna licenza individuale è stata acquisita in questa revisione.
+- Trasmettere la licenza ritirata all’Ufficio Corso Pubblico del Comune di Napoli entro cinque giorni dal ritiro (art. 216 CdS). Il destinatario è un’indicazione organizzativa confermata dall’autore il 23 ottobre 2026, distinta dal testo normativo: non è il destinatario testualmente indicato dall’art. 216 e non è stato acquisito un nuovo atto organizzativo. L’attestazione del ritiro entra nella copia soltanto se materialmente eseguito; il ritiro dovuto resta obbligatorio.
+- EGAF 070-02 sostiene questo inquadramento. 070-01 riguarda servizio senza licenza, con confisca; 070-03 riguarda revisione della vettura, distinta dall’abilitazione annuale del cavallo. Non sono ulteriori condotte attestate da questa formula.
+
+- Solo se ritiro materialmente eseguito; non sostituisce l’obbligo di ritiro: La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico.
+
+Alternative separate: {}
+
+## G46
+
+Disco e ultimo posto conservati come indicazioni operative confermate, con tre alternative. O.S.11/2010 integrale ancora mancante.
+
+**Prima** (p.51): Pausa al posteggio: disco orario o posizione nello stallo
+
+Durante la pausa nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], senza esporre il disco orario prescritto dall’ordinanza vigente.
+
+Riferimenti: CdS art. 86, comma 3-bis; O.S. n. 11/2010 (testo integrale da acquisire)
+
+Tabella: [["Base da verificare","Da qualificare","Da verificare","Da verificare","Secondo la base","Seguito dell’ufficio"]]
+
+**Dopo** (p.51): Pausa al posteggio: disco orario o posizione nello stallo
+
+
+
+Durante la pausa nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], senza esporre il disco orario prescritto dall’ordinanza vigente.
+
+Riferimenti: CdS art. 86, comma 3-bis; O.S. n. 11/2010 (testo integrale da acquisire)
+
+Tabella: [["Base da verificare","Da qualificare","Da verificare","Da verificare","Secondo la base","Seguito dell’ufficio"]]
+
+**Note e attestazioni prima:**
+
+- Scegliere disco, posizione oppure entrambe soltanto se entrambe accertate. L’O.S. 11/2010 integrale e il suo stato attuale non sono stati acquisiti: disco e ultimo posto restano prescrizioni da riscontrare.
+- Testo integrale dell’ordinanza non fornito: importo e ritiro non precompilati.
+- Art. 86, comma 3-bis: riferimento solo potenziale. Acquisire ordinanza vigente e specifica condizione della licenza; la sola violazione comunale non basta. Escludere i commi 2 e 3. Importi non attribuiti finché i presupposti non sono riscontrati.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- Disco orario e collocazione nell’ultimo posto dello stallo sono mantenuti secondo l’indicazione operativa confermata dall’autore. Scegliere una condotta o entrambe solo se effettivamente accertate.
+- Il testo integrale dell’O.S. 11/2010 resta da acquisire; la conferma dell’autore non è acquisizione dell’atto. Per l’art. 86, comma 3-bis, documentare la specifica condizione della licenza e i presupposti, escludendo i commi 2 e 3.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Alternative separate: {"disco":"Durante la pausa nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], senza esporre il disco orario prescritto dall’ordinanza vigente.","posizione":"Durante la pausa nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], senza collocare il veicolo nell’ultimo posto dello stallo prescritto dall’ordinanza vigente.","entrambe":"Durante la pausa nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], senza esporre il disco orario e senza collocare il veicolo nell’ultimo posto dello stallo, come prescritto dall’ordinanza vigente."}
+
+## G47
+
+Applicati 30 minuti secondo l’autore; due orari per durata osservata. Testo integrale O.S.11/2010 ancora da acquisire.
+
+**Prima** (p.52): Pausa al posteggio oltre il tempo consentito
+
+Nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], in pausa dalle ore […] alle ore […], oltre il limite di […] minuti previsto dall’ordinanza […].
+
+Riferimenti: CdS art. 86, comma 3-bis; O.S. n. 11/2010 (testo integrale da acquisire)
+
+Tabella: [["Base da verificare","Da qualificare","Da verificare","Da verificare","Secondo la base","Seguito dell’ufficio"]]
+
+**Dopo** (p.52): Pausa al posteggio oltre il tempo consentito
+
+
+
+Nel posteggio […], lasciava il veicolo indicato, con C.P. n. […], in pausa dalle ore […] alle ore […], oltre il limite di 30 minuti previsto dall’ordinanza […].
+
+Riferimenti: CdS art. 86, comma 3-bis; O.S. n. 11/2010 (testo integrale da acquisire)
+
+Tabella: [["Base da verificare","Da qualificare","Da verificare","Da verificare","Secondo la base","Seguito dell’ufficio"]]
+
+**Note e attestazioni prima:**
+
+- Il limite di 30 minuti indicato dall’autore non è verificato nell’O.S. 11/2010 integrale, non acquisita. Completare il limite solo dal testo vigente; due orari e fonte del rilievo documentano la durata.
+- Testo integrale non fornito; termine da verificare per il caso.
+- Art. 86, comma 3-bis: riferimento solo potenziale. Acquisire ordinanza vigente e specifica condizione della licenza; la sola violazione comunale non basta. Escludere i commi 2 e 3. Importi non attribuiti finché i presupposti non sono riscontrati.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- Limite di pausa di 30 minuti secondo l’indicazione operativa confermata dall’autore. Annotare inizio e permanenza finale osservati e fonte del rilievo; non dedurre la durata dal solo veicolo trovato in sosta.
+- Il testo integrale dell’O.S. 11/2010 resta da acquisire: il limite è applicato come indicazione dell’autore, senza presentarlo come documentalmente riscontrato. Per l’art. 86, comma 3-bis, documentare la condizione della licenza; esclusi i commi 2 e 3.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Alternative separate: {}
+
+## G48
+
+Acquisito integralmente OD3/2021, registrazione OD/2021/0000298. Esposizione sui due vetri: punto 3.D.2 del 2019 riportato a p.4; sospensione cambio turno 6/12/24 mesi sul conducente: dispositivo 2021 punti 1–2.
+
+**Prima** (p.53): Cambio turno senza vetrofania prescritta
+
+In occasione del cambio turno […], sul veicolo indicato con C.P. n. […], non esponeva la vetrofania prescritta dall’ordinanza vigente.
+
+Riferimenti: CdS art. 86, comma 3-bis; O.D. n. 3 del 22/03/2021 (testo integrale da acquisire)
+
+Tabella: [["Base da verificare","Da qualificare","Da verificare","Da verificare","Secondo la base","Seguito dell’ufficio"]]
+
+**Dopo** (p.53): Cambio turno: cartellini identificativi non esposti
+
+
+
+In occasione del cambio turno […], sul veicolo indicato con C.P. n. […], non esponeva sul vetro anteriore il cartellino identificativo prescritto.
+
+Riferimenti: CdS art. 86, comma 3-bis; O.D. n. 178 del 13/02/2019, punto 3.D.2, riportato nell’O.D. n. 3 del 22/03/2021 (OD/2021/0000298), p. 4; O.D. n. 3/2021, dispositivo punti 1 e 2
+
+Tabella: [["Base da verificare","Da qualificare","Da verificare","Da verificare","Secondo la base","Seguito dell’ufficio"]]
+
+**Note e attestazioni prima:**
+
+- L’O.D. 3 del 22/03/2021 integrale non è acquisita: obbligo, ambito del cambio turno ed eventuali deroghe restano da riscontrare.
+- Testo integrale non fornito: niente sanzione o ritiro automatici.
+- Art. 86, comma 3-bis: riferimento solo potenziale. Acquisire ordinanza vigente e specifica condizione della licenza; la sola violazione comunale non basta. Escludere i commi 2 e 3. Importi non attribuiti finché i presupposti non sono riscontrati.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- Documento acquisito: O.D. n. 3 del 22/03/2021, registrazione OD/2021/0000298. A p. 4 riporta la disciplina O.D. 178 del 13/02/2019, punto 3.D.2: cartellini ben visibili sul vetro anteriore e posteriore. L’originale autonomo 2019 e i prototipi non sono acquisiti.
+- La formula riguarda la mancata esposizione: scegliere anteriore, posteriore o entrambi secondo il riscontro. Alterazione o contraffazione dei cartellini è una condotta distinta, da documentare e qualificare separatamente; non attestare un falso dalla sola assenza.
+- Dispositivo 2021, punti 1 e 2, p. 5: sospensione del diritto al cambio turno per 6/12/24 mesi alla prima/seconda/terza infrazione, riferita al conducente autore, titolare o sostituto. Riscontrare precedenti pertinenti; provvedimento dell’autorità competente, non sospensione della licenza né adozione automatica degli operatori. Punto 3: anzianità per il cambio turno ridotta a 12 mesi.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Alternative separate: {"anteriore":"In occasione del cambio turno […], sul veicolo indicato con C.P. n. […], non esponeva sul vetro anteriore il cartellino identificativo prescritto.","posteriore":"In occasione del cambio turno […], sul veicolo indicato con C.P. n. […], non esponeva sul vetro posteriore il cartellino identificativo prescritto.","entrambi":"In occasione del cambio turno […], sul veicolo indicato con C.P. n. […], non esponeva i cartellini identificativi prescritti né sul vetro anteriore né su quello posteriore."}
+
+## G49
+
+Applicata l’indicazione operativa sugli stalli solo per taxi in servizio; €165/€115,50/€330, rimozione e 2 punti. Verifica concreta di segnaletica e pausa autorizzata.
+
+**Prima** (p.54): Taxi fuori servizio nello stallo riservato
+
+Con il veicolo indicato, con C.P. n. […], sostava fuori servizio nello spazio riservato ai taxi.
+
+Riferimenti: CdS art. 158, comma 2, lett. d e comma 5-bis; CdS art. 159, comma 1, lett. b; CdS art. 126-bis e tabella allegata; D.Lgs. 19 novembre 1997, n. 422, art. 14, comma 6; Regolamento comunale (delibera C.C. n. 80/2005), art. 26
+
+Tabella: [["Base da verificare","Da qualificare","Da verificare","Da verificare","Secondo la base","Seguito dell’ufficio"]]
+
+**Dopo** (p.54): Taxi fuori servizio nello stallo riservato
+
+
+
+Con il veicolo indicato, con C.P. n. […], sostava fuori servizio nello spazio riservato ai taxi. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Riferimenti: CdS art. 158, comma 2, lett. d e comma 5-bis; CdS art. 159, comma 1, lett. b; CdS art. 126-bis e tabella allegata; D.Lgs. 19 novembre 1997, n. 422, art. 14, comma 6; Regolamento comunale (delibera C.C. n. 80/2005), art. 26
+
+Tabella: [["CdS art.158 c.2 lett.d e c.5-bis","165–660","165","115,50","330","Rimozione del veicolo"]]
+
+**Note e attestazioni prima:**
+
+- Art. 158, comma 2, lett. d e comma 5-bis: per un’autovettura, se sussiste occupazione vietata dello spazio, € 165–660; PMR € 165; € 115,50 entro 5 giorni (art. 202); € 330 ex art. 203, comma 3, oltre spese. Rimozione ex art. 159, comma 1, lett. b; 2 punti dalla tabella art. 126-bis. Non attribuire questi effetti al solo stato fuori servizio del taxi: verificare riserva, segnaletica, turno ed eventuale pausa consentita. La tabella resta da qualificare per questo caso.
+- Il D.Lgs. 19 novembre 1997, n. 422, art. 14, comma 6, consente l’uso proprio fuori servizio; non è la norma sanzionatoria della sosta. Il regolamento, art. 26, richiede l’occultamento dell’insegna in uso proprio. Acquisire la disciplina del posteggio per stabilire se il taxi fuori servizio sia escluso dalla riserva.
+- Sostafuori e sosta vietata sono condotte diverse; nessun importo CdS generico precompilato.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- L’autore conferma l’impostazione operativa: negli stalli taxi possono sostare soltanto taxi in servizio. Applicarla al caso concreto dopo verifica della segnaletica e dello stato del servizio; distinguere il fuori servizio da una pausa autorizzata.
+- Art. 158, comma 2, lett. d e comma 5-bis: € 165–660; PMR € 165; € 115,50 entro cinque giorni ex art. 202. € 330 ex art. 203, comma 3, in assenza di pagamento e ricorso, oltre spese. Rimozione ex art. 159, comma 1, lett. b; 2 punti ex tabella art. 126-bis.
+- Il D.Lgs. 422/1997, art. 14, comma 6, consente l’uso proprio fuori servizio, senza autorizzare automaticamente la sosta nello spazio riservato al servizio. La regola operativa sull’uso degli stalli deriva dalla precisazione dell’autore; non è stata acquisita una nuova ordinanza locale su tale punto.
+
+
+
+Alternative separate: {}
+
+## G50
+
+Formula esatta: mancata partenza oltre 15 minuti dall’arrivo dei primi tre. Due orari separati dalla copia. Atti2019/2025/2026 conservati.
+
+**Prima** (p.55): Taxi collettivo — verifica dei tempi di attesa
+
+Nel servizio taxi collettivo, con il veicolo indicato e C.P. n. […], i primi tre passeggeri arrivavano alle ore […]; il veicolo permaneva in attesa alle ore […].
+
+Riferimenti: CdS art. 86, comma 3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 19, comma 4; O.D. n. 1 del 16/04/2019; O.D. n. 10 del 01/12/2025; O.D. n. 9 del 06/08/2026
+
+Tabella: [["Taxi art.86 c.3-bis","86–338","86","60,20","169","Nessuna accessoria CdS"]]
+
+**Dopo** (p.55): Taxi collettivo: mancata partenza oltre 15 minuti
+
+
+
+Nel servizio taxi collettivo, con il veicolo indicato e C.P. n. […], permaneva in attesa senza partire oltre 15 minuti dall’arrivo dei primi tre passeggeri. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Riferimenti: CdS art. 86, comma 3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 19, comma 4; O.D. n. 1 del 16/04/2019, punto 4.3; O.D. n. 10 del 01/12/2025; O.D. n. 9 del 06/08/2026
+
+Tabella: [["Taxi art.86 c.3-bis","86–338","86","60,20","169","Nessuna accessoria CdS"]]
+
+**Note e attestazioni prima:**
+
+- O.D. 1/2019, punto 4.3: partenza dopo 15 minuti dall’arrivo dei primi tre passeggeri; non dalla salita del terzo. Art. 19, comma 4: massimo cinque minuti dalla salita del primo. La nuova indicazione non prova il coordinamento: formula fattuale per relazione, senza affermare un illecito temporale già qualificato.
+- Sola tratta Aeroporto–Stazione Centrale–Molo Beverello. O.D. 10/2025: proroga al 31/12/2026; O.D. 9/2026: ammesse temporaneamente anche vetture con meno di sette posti. Per turni, segnaletica e altri limiti vedere TC01. Gli importi precedenti restano ipotesi CdS, non una qualificazione accertata.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- Condotta confermata dall’autore: mancata partenza con permanenza in attesa oltre 15 minuti dall’arrivo dei primi tre passeggeri. O.D. 1/2019, punto 4.3, p. 2; non sostituire arrivo con salita.
+- Campi di accertamento: arrivo dei primi tre alle ore […]; permanenza senza partenza accertata alle ore […]; fonte del rilievo […]. Verificare che siano trascorsi più di 15 minuti.
+- Tratta Aeroporto–Stazione Centrale–Molo Beverello; O.D. 10/2025 proroga al 31/12/2026 e O.D. 9/2026 integrazione temporanea sui posti conservate. Il diverso limite generale dell’art. 19, comma 4, e gli ulteriori quesiti TC01 restano distinti: l’indicazione operativa non riscrive il regolamento né prova atti non acquisiti.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+
+
+
+Alternative separate: {}
+
+## G52
+
+Stalli già documentalmente individuati al punto2: precisata distinzione da segnaletica sul posto e modifiche successive. Tabella conservata.
+
+**Prima** (p.56): Taxi collettivo in stallo non consentito
+
+Con il veicolo indicato, con C.P. n. […], effettuava servizio taxi collettivo fuori dagli stalli consentiti dall’ordinanza vigente. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Riferimenti: CdS art. 86, comma 3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 19; O.D. n. 1 del 16/04/2019; O.D. n. 10 del 01/12/2025; O.D. n. 9 del 06/08/2026
+
+Tabella: [["Taxi art.86 c.3-bis","86–338","86","60,20","169","Nessuna accessoria CdS"]]
+
+**Dopo** (p.56): Taxi collettivo in stallo non consentito
+
+
+
+Con il veicolo indicato, con C.P. n. […], effettuava servizio taxi collettivo fuori dagli stalli consentiti dall’ordinanza vigente. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Riferimenti: CdS art. 86, comma 3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 19; O.D. n. 1 del 16/04/2019; O.D. n. 10 del 01/12/2025; O.D. n. 9 del 06/08/2026
+
+Tabella: [["Taxi art.86 c.3-bis","86–338","86","60,20","169","Nessuna accessoria CdS"]]
+
+**Note e attestazioni prima:**
+
+- Art. 86, comma 3-bis: individuare specifica condizione della licenza, fonte ed efficacia; escludere i commi 2 e 3. L’ordinanza da sola non dimostra l’incorporazione nel titolo.
+- O.D. 1/2019, punti 2 e 5: Aeroporto, area ex NCC presso rotonda viale Ruffo di Calabria, 4 posti; corso Novara n. 3, 2; corso Arnaldo Lucci presso ingresso Metropark, 3; Molo Beverello, via C. Colombo presso semaforo/fermata ANM, 5. Efficacia dall’installazione della segnaletica. Proroga O.D. 10/2025 al 31/12/2026; integrazione posti O.D. 9/2026. Verificare segnaletica e atti successivi del luogo; coordinare con TC01.
+- Non usare ordinanze stagionali scadute o di altra tratta.
+
+
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- Art. 86, comma 3-bis: individuare specifica condizione della licenza, fonte ed efficacia; escludere i commi 2 e 3. L’ordinanza da sola non dimostra l’incorporazione nel titolo.
+- O.D. 1/2019, punti 2 e 5: Aeroporto, area ex NCC presso rotonda viale Ruffo di Calabria, 4 posti; corso Novara n. 3, 2; corso Arnaldo Lucci presso ingresso Metropark, 3; Molo Beverello, via C. Colombo presso semaforo/fermata ANM, 5. Efficacia dall’installazione della segnaletica. Proroga O.D. 10/2025 al 31/12/2026; integrazione posti O.D. 9/2026. Verificare segnaletica e atti successivi del luogo; coordinare con TC01.
+- Gli stalli sono documentalmente individuati al punto 2 dell’O.D. 1/2019. La verifica sul posto della segnaletica e di eventuali modifiche successive resta distinta: non è sconosciuta l’individuazione dell’atto.
+
+
+
+Alternative separate: {}
+
+## I01
+
+Formula e note della 1.8.10 conservate; nessuna chiusura al Corso Pubblico.
+
+**Prima** (p.58): Tassametro non attivato durante il servizio
+
+All’inizio della corsa […], con il veicolo indicato e C.P. n. […], non attivava il tassametro.
+
+Riferimenti: CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 m
+
+Tabella: [["Taxi art.86 c.3-bis","86–338","86","60,20","169","Nessuna accessoria CdS"]]
+
+**Dopo** (p.58): Tassametro non attivato durante il servizio
+
+
+
+All’inizio della corsa […], con il veicolo indicato e C.P. n. […], non attivava il tassametro.
+
+Riferimenti: CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.1 m
+
+Tabella: [["Taxi art.86 c.3-bis","86–338","86","60,20","169","Nessuna accessoria CdS"]]
+
+**Note e attestazioni prima:**
+
+- Conservare l’eccezione della tariffa predeterminata legittimamente richiesta; per il collettivo verificare gli atti e TC01. Non attesta un illecito la sola mancata attivazione nei casi in cui non è dovuta.
+- Voce aggiunta dal regolamento fornito; non era una scheda autonoma nell’originale.
+- I punti e i provvedimenti dell’art.29 riguardano la licenza comunale; non sono punti della patente o atti già disposti.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+
+
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- Conservare l’eccezione della tariffa predeterminata legittimamente richiesta; per il collettivo verificare gli atti e TC01. Non attesta un illecito la sola mancata attivazione nei casi in cui non è dovuta.
+- Voce aggiunta dal regolamento fornito; non era una scheda autonoma nell’originale.
+- I punti e i provvedimenti dell’art.29 riguardano la licenza comunale; non sono punti della patente o atti già disposti.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+
+
+
+Alternative separate: {}
+
+## I09
+
+Applicata la compilazione tecnica richiesta: titolare in entrambi i campi e conducente diverso in altri soggetti. Nessuna deduzione di solidarietà con sé stesso o sanzione al titolare non conducente.
+
+**Prima** (p.59): Sostituzione taxi con comunicazione irregolare
+
+Il titolare del C.P. n. […] impiegava il sostituto […] senza […].
+
+Riferimenti: CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 cc.2-4
+
+Tabella: [["Taxi art.86 c.3-bis","86–338","86","60,20","169","Nessuna accessoria CdS"]]
+
+**Dopo** (p.59): Sostituzione taxi con comunicazione irregolare
+
+
+
+Il titolare del C.P. n. […] impiegava il sostituto […] senza […].
+
+Riferimenti: CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 7 cc.2-4
+
+Tabella: [["Taxi art.86 c.3-bis","86–338","86","60,20","169","Nessuna accessoria CdS"]]
+
+**Note e attestazioni prima:**
+
+- Nel campo finale indicare quale comunicazione o documento mancava. Art. 7, comma 3, del regolamento: comunicazione immediata e documentazione entro 48 ore, non 24. Comma 2: verificare anche cooperativa o consorzio quando la licenza è conferita.
+- La L. 21/1992, art. 10, comma 1, consente sostituti nel turno assegnato con requisiti professionali e morali; non richiedere automaticamente le sole causali storiche dell’art. 7, comma 1, comunale. Per la seconda guida in turno aggiuntivo valgono commi 5-bis e 5-ter: vedere T01.
+- L’obbligo comunale di comunicazione grava sul soggetto individuato dall’art. 7. L’art. 86, comma 3-bis, riguarda invece chi guida il taxi: non basta l’omissione del titolare non conducente per applicarglielo. Responsabilità personale e solidarietà richiedono basi proprie (L. 689/1981, artt. 3 e 6; per CdS, art. 196). Identificare l’autore dell’omissione; conducente negli altri soggetti solo se non responsabile. Non duplicare la stessa persona nei due ruoli. Qualificazione sanzionatoria di questa omissione da confermare.
+- Turno assegnato e seconda guida in turno aggiuntivo sono diversi: per quest’ultimo v. T01, con comunicazione entro il giorno precedente ex art.10 c.5-ter L.21/1992.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- Compilazione del gestionale secondo l’indicazione dell’autore: titolare della licenza nel campo trasgressore; medesimo titolare nel campo obbligato solidale; conducente nel campo altri soggetti, se persona diversa. La duplicazione dei campi è tecnica, non prova che una persona sia solidale con sé stessa.
+- Accertare la responsabilità personale dell’omissione e quale comunicazione o documento manca. Art. 7 comunale: comunicazione immediata, documentazione entro 48 ore; verificare cooperativa o consorzio per licenza conferita. Seconda guida in turno aggiuntivo distinta: T01.
+- L’art. 86, comma 3-bis, riguarda chi guida: nessuna sanzione al titolare non conducente è dedotta dalla compilazione del gestionale. Restano da chiarire identificativi dei ruoli e produzione del verbale nel gestionale; nessun manuale o disposizione del gestionale acquisito.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Alternative separate: {}
+
+## R01
+
+Scheda consultabile con stato esplicito di futura applicabilità; autore comunica che i punti non sono installati. Stato visibile anche nei risultati.
+
+**Prima** (p.60): Prelievo radiotaxi fuori dal punto segnalato
+
+Con il veicolo indicato, con C.P. n. […], prelevava l’utente per la chiamata radiotaxi fuori dai punti “prelievo chiamata radiotaxi” predisposti con apposita segnaletica.
+
+Riferimenti: CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.6
+
+Tabella: [["Taxi art.86 c.3-bis","86–338","86","60,20","169","Nessuna accessoria CdS"]]
+
+**Dopo** (p.60): Prelievo radiotaxi fuori dal punto segnalato
+
+Applicabile soltanto dopo l’istituzione e l’attivazione dei punti con apposita segnaletica.
+
+Con il veicolo indicato, con C.P. n. […], prelevava l’utente per la chiamata radiotaxi fuori dai punti “prelievo chiamata radiotaxi” predisposti con apposita segnaletica.
+
+Riferimenti: CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 4 c.6
+
+Tabella: [["Taxi art.86 c.3-bis","86–338","86","60,20","169","Nessuna accessoria CdS"]]
+
+**Note e attestazioni prima:**
+
+- Art. 4, comma 6, riguarda utenti che attendono in punti predisposti presso stazioni ferroviarie, marittime e aeroportuali. La distanza di 50 metri riguarda il posizionamento dei punti. Non prova da solo un divieto generalizzato per il conducente; acquisire l’atto sul punto e la condizione del titolo prima della contestazione.
+- La distanza minima di 50 metri riguarda il posizionamento del punto predisposto: non è, da sola, una violazione imputabile al conducente.
+- Distinguere questa ipotesi dal prelievo a meno di 100 metri senza radiotaxi.
+- Art.4, comma 6, p.4: la prescrizione di attendere nei punti radiotaxi è rivolta agli utenti; l’Amministrazione individua i punti ad almeno 50 metri dal posteggio. Non prova da sola un illecito del conducente per ogni diverso prelievo. Acquisire la specifica condizione del titolo o l’atto sul punto di prelievo prima di qualificare la condotta.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+- Formula per relazione: aggiungere la frase di invio del verbale soltanto se un verbale è effettivamente elevato su base verificata. L’invio al futuro non attesta una trasmissione già eseguita.
+
+- Solo per verbale effettivamente elevato — invio ancora da effettuare: Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- L’autore comunica che i punti radiotaxi non sono attualmente installati. Scheda conservata per consultazione e futura attivazione: applicabile soltanto dopo l’istituzione e l’attivazione dei punti con apposita segnaletica.
+- Art. 4, comma 6, del regolamento: attesa degli utenti e punti presso stazioni ferroviarie, marittime e aeroportuali; i 50 metri riguardano la localizzazione dei punti. In assenza dei punti non presentare la condotta come attualmente contestabile. Eventuale futura applicazione richiede atto, segnaletica attiva e precisa base riferita al conducente.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+
+
+
+Alternative separate: {}
+
+## R07
+
+Formula con difformità e prescrizione conservata dalla 1.8.10.
+
+**Prima** (p.61): Colore della vettura taxi non conforme
+
+Il veicolo indicato, con C.P. n. […], aveva colorazione difforme dalle prescrizioni imposte dalla normativa vigente. Difformità e prescrizione violata: […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Riferimenti: CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 a
+
+Tabella: [["Taxi art.86 c.3-bis","86–338","86","60,20","169","Nessuna accessoria CdS"]]
+
+**Dopo** (p.61): Colore della vettura taxi non conforme
+
+
+
+Il veicolo indicato, con C.P. n. […], aveva colorazione difforme dalle prescrizioni imposte dalla normativa vigente. Difformità e prescrizione violata: […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Riferimenti: CdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 a
+
+Tabella: [["Taxi art.86 c.3-bis","86–338","86","60,20","169","Nessuna accessoria CdS"]]
+
+**Note e attestazioni prima:**
+
+- Indicare difformità concreta e prescrizione applicabile al mezzo, considerando il regime del veicolo e del titolo.
+- Il requisito va riferito alle autovetture e alla disciplina applicabile al mezzo.
+- L’art.29 non elenca la lettera a del comma 1: nessun gruppo disciplinare per analogia.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+
+
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- Indicare difformità concreta e prescrizione applicabile al mezzo, considerando il regime del veicolo e del titolo.
+- Il requisito va riferito alle autovetture e alla disciplina applicabile al mezzo.
+- L’art.29 non elenca la lettera a del comma 1: nessun gruppo disciplinare per analogia.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+
+
+
+Alternative separate: {}
+
+## R08
+
+Formula e distinzioni operative conservate dalla 1.8.10.
+
+**Prima** (p.62): Contrassegno luminoso TAXI sul tetto assente
+
+Durante il servizio taxi, il veicolo indicato con C.P. n. […] era privo del contrassegno luminoso TAXI sul tetto. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Riferimenti: CdS art.86 c.3-bis se condizione del titolo; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 b
+
+Tabella: [["Taxi art.86 c.3-bis","86–338","86","60,20","169","Nessuna accessoria CdS"]]
+
+**Dopo** (p.62): Contrassegno luminoso TAXI sul tetto assente
+
+
+
+Durante il servizio taxi, il veicolo indicato con C.P. n. […] era privo del contrassegno luminoso TAXI sul tetto. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.
+
+Riferimenti: CdS art.86 c.3-bis se condizione del titolo; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c.1 b
+
+Tabella: [["Taxi art.86 c.3-bis","86–338","86","60,20","169","Nessuna accessoria CdS"]]
+
+**Note e attestazioni prima:**
+
+- Distinguere assenza materiale del contrassegno da segnale spento in servizio notturno e occultamento lecito durante l’uso proprio.
+- EGAF nota 12 indica l’assenza del contrassegno luminoso come esempio residuale.
+- Distinguere assenza materiale, mancata illuminazione notturna e occultamento durante uso privato.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+
+
+
+**Note e attestazioni dopo, escluse dalla formula base:**
+
+- Distinguere assenza materiale del contrassegno da segnale spento in servizio notturno e occultamento lecito durante l’uso proprio.
+- EGAF nota 12 indica l’assenza del contrassegno luminoso come esempio residuale.
+- Distinguere assenza materiale, mancata illuminazione notturna e occultamento durante uso privato.
+- Per l’art. 86, comma 3-bis, verificare la specifica condizione della licenza e la sua efficacia; escludere i commi 2 e 3. La sola violazione del regolamento non basta.
+
+
+
+Alternative separate: {}
+
+## TC01
+
+Aggiornati partenza e rinvio G50 secondo la precisazione dell’autore. Proroga2025, integrazione 2026 e quesiti estranei conservati.
+
+Prima:
+
+- Tratta attivata: Aeroporto di Capodichino – Stazione Centrale – Molo Beverello e viceversa. L’O.D. 2019 ha efficacia dall’installazione della segnaletica orizzontale e verticale.
+- Tariffa: € 6 per ciascun passeggero, bagagli compresi. La tabella deve indicare € 6 a persona per l’andata o il ritorno, indipendentemente dalla salita o discesa alle fermate intermedie.
+- Turno: può effettuare questo servizio soltanto chi non è di turno in aeroporto. La tabella “TAXI Collettivo” è esposta sul parabrezza anteriore dal momento in cui il taxi occupa lo stallo dedicato; reca logo del Comune, percorso e tariffa leggibili.
+- Partenza: il dispositivo dell’O.D. 2019 indica 15 minuti dall’arrivo dei primi tre passeggeri. Rilevare separatamente arrivo, salita e partenza; vedere l’ambiguità con l’art. 19, comma 4, del regolamento.
+- Postazioni dedicate e numero massimo di stalli: Aeroporto, area ex NCC presso la rotonda di viale Ruffo di Calabria, fronte postazione della Polizia Locale: 4; Stazione Centrale, andata, corso Novara n. 3: 2; Stazione Centrale, ritorno, corso Arnaldo Lucci presso l’ingresso Metropark: 3; Molo Beverello, via C. Colombo, corsia destra verso via Marina presso semaforo/fermata ANM: 5.
+- Andata: Aeroporto – viale Ruffo di Calabria – via O. Salomone – via del Riposo – via Don Bosco – piazza Carlo III – via Arenaccia – corso Novara – piazza Garibaldi – corso Umberto – via A. Depretis – piazza Municipio – via C. Colombo.
+- Ritorno: via C. Colombo – via A. Vespucci – corso A. Lucci – piazza Garibaldi – corso Novara – via Arenaccia – piazza Carlo III – via Don Bosco – largo S. Maria del Pianto – via Comandante Umberto Maddalena – Aeroporto.
+- Integrazione 2026: su questo servizio sono temporaneamente ammesse anche autovetture con meno di sette posti a disposizione dell’utenza. Verificare comunque l’omologazione e la capienza del veicolo; non estendere la deroga ad altre tratte. Il solo numero inferiore a sette non costituisce automaticamente una violazione su questa tratta nel periodo documentato.
+- Art. 19, comma 4, del regolamento: massimo cinque minuti in parcheggio dalla salita del primo passeggero; O.D. 2019, punto 4.3: partenza dopo 15 minuti dall’arrivo dei primi tre. I presupposti temporali e il rapporto tra le due prescrizioni richiedono chiarimento dell’ufficio competente; non presumere che l’una abroghi l’altra.
+- “Non di turno in aeroporto” e “taxi di turno” compaiono nello stesso dispositivo del 2019: verificare la turnazione applicabile senza confondere il turno generale con quello aeroportuale.
+- Il rapporto fra l’integrazione dirigenziale del 2026 e l’art. 19, comma 3, del regolamento va validato dall’ufficio competente. La scheda non assegna automaticamente importi o sanzioni: servono disposizione applicabile e riscontri propri. Dopo il 31/12/2026 verificare una nuova proroga.
+- Il limite di cinque minuti dell’art. 19, comma 4, va confrontato con i 15 minuti indicati dall’O.D. 2019: rilevare gli orari e chiedere chiarimento prima di qualificare il fatto.
+
+Dopo:
+
+- Tratta attivata: Aeroporto di Capodichino – Stazione Centrale – Molo Beverello e viceversa. L’O.D. 2019 ha efficacia dall’installazione della segnaletica orizzontale e verticale.
+- Tariffa: € 6 per ciascun passeggero, bagagli compresi. La tabella deve indicare € 6 a persona per l’andata o il ritorno, indipendentemente dalla salita o discesa alle fermate intermedie.
+- Turno: può effettuare questo servizio soltanto chi non è di turno in aeroporto. La tabella “TAXI Collettivo” è esposta sul parabrezza anteriore dal momento in cui il taxi occupa lo stallo dedicato; reca logo del Comune, percorso e tariffa leggibili.
+- Partenza: il dispositivo dell’O.D. 2019 indica 15 minuti dall’arrivo dei primi tre passeggeri. Per G50 l’autore conferma la mancata partenza con permanenza oltre 15 minuti dall’arrivo dei primi tre; rilevare gli orari senza sostituire arrivo con salita.
+- Postazioni dedicate e numero massimo di stalli: Aeroporto, area ex NCC presso la rotonda di viale Ruffo di Calabria, fronte postazione della Polizia Locale: 4; Stazione Centrale, andata, corso Novara n. 3: 2; Stazione Centrale, ritorno, corso Arnaldo Lucci presso l’ingresso Metropark: 3; Molo Beverello, via C. Colombo, corsia destra verso via Marina presso semaforo/fermata ANM: 5.
+- Andata: Aeroporto – viale Ruffo di Calabria – via O. Salomone – via del Riposo – via Don Bosco – piazza Carlo III – via Arenaccia – corso Novara – piazza Garibaldi – corso Umberto – via A. Depretis – piazza Municipio – via C. Colombo.
+- Ritorno: via C. Colombo – via A. Vespucci – corso A. Lucci – piazza Garibaldi – corso Novara – via Arenaccia – piazza Carlo III – via Don Bosco – largo S. Maria del Pianto – via Comandante Umberto Maddalena – Aeroporto.
+- Integrazione 2026: su questo servizio sono temporaneamente ammesse anche autovetture con meno di sette posti a disposizione dell’utenza. Verificare comunque l’omologazione e la capienza del veicolo; non estendere la deroga ad altre tratte. Il solo numero inferiore a sette non costituisce automaticamente una violazione su questa tratta nel periodo documentato.
+- Art. 19, comma 4, del regolamento: massimo cinque minuti in parcheggio dalla salita del primo passeggero; O.D. 2019, punto 4.3: partenza dopo 15 minuti dall’arrivo dei primi tre. Per questa tratta G50 applica l’indicazione operativa confermata dall’autore: mancata partenza oltre 15 minuti dall’arrivo dei primi tre. Tale precisazione non documenta l’abrogazione del limite generale né una modifica del regolamento.
+- “Non di turno in aeroporto” e “taxi di turno” compaiono nello stesso dispositivo del 2019: verificare la turnazione applicabile senza confondere il turno generale con quello aeroportuale.
+- Il rapporto fra l’integrazione dirigenziale del 2026 e l’art. 19, comma 3, del regolamento va validato dall’ufficio competente. La scheda non assegna automaticamente importi o sanzioni: servono disposizione applicabile e riscontri propri. Dopo il 31/12/2026 verificare una nuova proroga.
+- Mancata partenza con permanenza oltre 15 minuti dall’arrivo dei primi tre: indicazione operativa dell’autore applicata in G50, con due rilievi temporali. Il limite generale di cinque minuti resta distinto.

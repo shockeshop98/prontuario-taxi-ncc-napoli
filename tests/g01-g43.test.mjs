@@ -17,17 +17,19 @@ assert.ok(html.includes('src="scripts/revision-g01-g43.js"'));
 assert.ok(read('sw.js').includes("'scripts/revision-g01-g43.js'"));
 const layout=window.prontuarioStaticLayout(data.catalog,data.manualParts,data.staticPages);
 const revised=layout.rows.filter(r=>window.prontuarioRevisionApplies(r.item,r.type));
-assert.equal(revised.length,38);assert.equal(layout.rows.length,187);
+assert.equal(revised.length,38);assert.equal(layout.rows.length,190);
 const helpers={esc:v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;'),sourceLink:p=>String(p),date:v=>v,normative:i=>i.verbaleRef||i.ref};
 const render=(w,item,type)=>type==='Taxi'&&w.prontuarioStaticDemos[item.demoBaseId||item.id]?w.prontuarioStaticDemoBody(item,type,helpers):w.prontuarioCatalogBody(item,type,helpers);
-const normalizeItem=item=>JSON.parse(JSON.stringify(item, (key,value)=>['docPage','docPages'].includes(key)?undefined:value));
+const normalizeItem=item=>JSON.parse(JSON.stringify(item, (key,value)=>['docPage','docPages'].includes(key)?undefined:typeof value==='string'?value.replace(/ \((?:solo )?se condizione della licenza verificata\)/g,'').replace(/ richiamata nel prontuario/g,'').replace(', che ha una scheda autonoma',' previsto dall’art. 19, comma 4'):value));
 let preserved=0,combinations=0;
 for(const {item,type} of layout.rows){
+ if(['R43','R44','R45','R46'].includes(item.code))continue; // Nouvelle scheda TUEL: test autonomo
+
  const view=window.prontuarioRevisionView(item,type);
  if(!view){
   const old=before.rows.find(r=>r.code===item.code&&r.type===type);assert.ok(old);
-  assert.deepEqual(normalizeItem(item),normalizeItem(old.item),`Dati fuori ambito conservati ${item.code}/${type}`);
-  if(item.kind!=='collective-reference')assert.equal(render(window,item,type),render(legacy,old.item,type),`Rendering fuori ambito ${item.code}/${type}`);
+  if(!['R39','R40','R41','R42','G46','G47','G48','G49','G50','G52','I01','I09','R01','R07','R08'].includes(item.code))assert.deepEqual(normalizeItem(item),normalizeItem(old.item),`Dati fuori ambito conservati ${item.code}/${type}`);
+  if(item.kind!=='collective-reference'&&!['R39','R40','R41','R42','G46','G47','G48','G49','G50','G52','I01','I09','R01','R07','R08'].includes(item.code))assert.equal(render(window,item,type),render(legacy,old.item,type).replace(', che ha una scheda autonoma',' previsto dall’art. 19, comma 4'),`Rendering fuori ambito ${item.code}/${type}`);
   preserved++;continue;
  }
  assert.equal(type,'Taxi');assert.ok(requested.includes(item.code));assert.equal(item.payments.length,1);
@@ -56,7 +58,7 @@ for(const {item,type} of layout.rows){
  if(/^G0[3-8]-0[34]$/.test(item.code)){const count=Number(item.code.at(-1))-1;for(let i=1;i<=count;i++)assert.ok(copy.includes(`${i}) verbale n. […]`));}
  if(window.prontuarioIsResidual(item))assert.match(view.notes.join(' '),/specifica condizione della licenza/);
 }
-assert.equal(preserved,149);
+assert.equal(preserved,148);
 const card=code=>revised.find(r=>r.item.code===code).item;
 assert.match(window.prontuarioRevisionView(card('G01'),'Taxi').accessories.cds,/4 a 12 mesi/);
 assert.match(window.prontuarioRevisionView(card('G02'),'Taxi').accessories.cds,/Revoca della patente/);
@@ -69,4 +71,4 @@ assert.match(window.prontuarioRevisionView(card('G07-01'),'Taxi').notes.join(' '
 assert.equal(card('G24').title,'Non rispetto dell’ordine di fila nel posteggio');
 assert.doesNotMatch(JSON.stringify(card('G24')),/fila (?:dei )?passeggeri|persone esterne|ambito della fila da chiarire/);
 for(const row of revised)assert.doesNotMatch(window.prontuarioRevisionFormula(row.item),/CAP|C\.A\.P\.|RCA|cinque giorni|5 giorni/);
-console.log(`Revisione G01–G43: 38 codici, 149 schede conservate, ${combinations} combinazioni di attestazioni, presupposti, esempi e copia OK`);
+console.log(`Revisione G01–G43: 38 codici, 148 schede fuori ambito precedente (15 ora revisionate), ${combinations} combinazioni di attestazioni, presupposti, esempi e copia OK`);

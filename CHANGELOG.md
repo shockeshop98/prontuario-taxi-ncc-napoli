@@ -1,5 +1,39 @@
 # Registro aggiornamenti
 
+## 1.8.13 — O.S.835/2014, prescrizioni confermate dall’autore
+
+- R44–R46 operative: massimo6ore giornaliere, capienza autorizzata e scarpe protettive. Formule brevi con fatti e fonti; integrale e sanzione specifica non acquisiti.
+- Verificati artt.7/7-bis TUEL e art.16 L.689: regime generale condizionato, €25–500 e PMR€50 entro60giorni salvo diversa delibera Giunta. Nessun ritiro, punto o misura CdS automatici; specialità e fatti autonomi distinti da R39–R43.
+- PWA1.8.13/PDF7.15:119voci,190schede,211pagine,6indici e16allegati; registrazione della conferma autore offline. Schede precedenti e Corso Pubblico conservati; R43 cambia solo il rinvio finale. Pubblicazione autorizzata, con artefatto Pages su lista esplicita; schermate EGAF integrali escluse e originali locali conservati.
+
+## 1.8.12 — pausa taxi e caldo equini · locale, 23 ottobre 2026
+
+- G46/G47 aggiornate dalla foto acquisita: almeno cinque stalli, due tassisti al massimo, trenta minuti, ultimi due posti disponibili e disco sul parabrezza; scali esclusi ed efficacia dalla segnaletica. Prot.11/7giugno distinto da progressivo1003/8giugno2010; originale ufficiale non reperito.
+- Nuova R43: una sola violazione caldo con stagione E fascia12–16 E (temperatura≥30°C O bollettino Napoli rischio2/3). Distinti il solo periodo2024 e la durata condizionata dell’ordinanza2025. TUEL€25–500, PMR€50 salvo delibera Giunta; incongruenze testuali registrate. Nessun seguito CdS automatico.
+- Tre proposte O.S.835/2014 fuori dal catalogo operativo: integrale non reperito. R39–R42 integralmente conservate con destinatario Corso Pubblico e ritiro attestato soltanto se eseguito.
+- PWA1.8.12/PDF7.14:116voci,187schede,208pagine,6indici e15allegati offline. Anteprima, confronto, rapporto e controlli locali. Nessun commit, push o deploy.
+
+### Aggiornamento locale del 23 ottobre 2026 · 1.8.11 / PDF 7.13
+
+- R39–R42: licenza ritirata da trasmettere all’Ufficio Corso Pubblico del Comune di Napoli; destinatario organizzativo confermato dall’autore, distinto dal testo normativo. Conservato il termine di cinque giorni dal ritiro ex art.216 CdS.
+- PWA, PDF e note coerenti; clausola «La licenza è ritirata e sarà trasmessa all’Ufficio Corso Pubblico.» aggiunta alla copia soltanto per ritiro materialmente eseguito. Obbligo sempre indicato negli adempimenti. Nessun commit, push o deploy.
+
+## 1.8.11 — integrazione locale del 22 ottobre 2026
+
+- Conservata la precedente 1.8.10 locale e lette tutte le sette immagini EGAF e i due PDF. Nessuna nuova scheda o duplicazione del PDF collettivo; originali e storico intatti.
+- R39–R42: prescrizioni della licenza confermate dall’autore, art.70 e ritiro, €42/€29,40/€86,50; confronto distinto fra servizio senza licenza, condizioni violate e revisione della vettura.
+- G48: acquisita O.D.3/2021 (registrazione OD/2021/0000298); cartellini sui due vetri, tre alternative di mancata esposizione, sospensione diritto cambio turno 6/12/24 mesi sul conducente autore.
+- G47 pausa 30 minuti da autore; G49 importi/rimozione/2punti, G50 mancata partenza oltre 15 minuti dall’arrivo dei primi tre; stalli G52 già documentati. I09: duplicazione tecnica dei campi distinta da solidarietà; R01 futura attivazione esplicita in ricerca e scheda.
+- PWA 1.8.11/PDF 7.13: 186 schede e 207 pagine, una pagina ciascuna a 9 pt, sei indici; build e cache aggiornate. Rapporti, confronto e anteprima in 1.8.11; verifiche su copia, mobile, destinazioni e vera migrazione dalla 1.8.10, inclusa O.D. 3/2021 offline. Nessun commit, push o deploy.
+
+## 1.8.10 — revisione locale del 21 ottobre 2026
+
+- Seconda parte: 15 schede riviste; G51 eliminata da tutti i percorsi attivi, con originali e storico conservati.
+- Formule brevi condivise PWA/copia/PDF, alternative G46/R41 selezionabili, esempi e presupposti nelle note. Le relazioni non attestano un verbale automaticamente.
+- Verifica mirata: art.70 per trazione animale; G52 tabella art.86, riferimenti collettivo 2019/2025/2026; I09 corrette 48 ore, responsabilità e solidarietà distinte. Conflitti e atti mancanti nel rapporto, senza chiudere i dubbi anteriori.
+- PDF7.12: 186 schede, una pagina ciascuna a9pt, 207 pagine totali, sei indici e186 destinazioni; 115 voci attive. Versione, cache e build aggiornate; nessuna pubblicazione.
+
+
 ## 1.8.8 — due stemmi e proposta operativa locale del 15/10/2026
 
 - PWA 1.8.8 / PDF completo 7.10 con soli stemmi Turistica e San Lorenzo; crediti conservati, build/cache allineate. Catalogo, 207 pagine, 187 schede singole e collegamenti conservati.

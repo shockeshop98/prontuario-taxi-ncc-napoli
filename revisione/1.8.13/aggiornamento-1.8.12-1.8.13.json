@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-23T09:10:30.002Z",
+  "baselineLocalVersion": "1.8.12",
+  "baselineDirectory": "/tmp/prontuario-1812-os835",
+  "localOnly": true,
+  "before": {
+    "version": "1.8.12",
+    "build": "83539fd1e4a3b288921a195fa9b2b9fc2e55cb9eac1d457df596f14d7c55bde3",
+    "pdf": "7.14",
+    "pdfSHA256": "f58d0badd5d8a6079158c4191117e826a4ac3264a05d51cad12b8a37c1635236"
+  },
+  "after": {
+    "version": "1.8.13",
+    "build": "1da7477ec777285d77b0bf746e09d3582c4047cbead73157e16e0ea4f767d85e",
+    "pdf": "7.15",
+    "originalRetained": true,
+    "oldManualDiscarded": true,
+    "offline": {
+      "version": "1.8.13",
+      "build": "1da7477ec777285d77b0bf746e09d3582c4047cbead73157e16e0ea4f767d85e",
+      "code": "Non rispetto dell’ordine di fila nel posteggio",
+      "pdfSHA256": "b3c5abd9a02a49194c9bff99fa8e118f8001e6d4dce2c331cacbf69318144eba",
+      "moduleCached": true,
+      "secondModuleCached": true,
+      "removedAbsent": true,
+      "secondCard": "G46",
+      "heat": "Il giorno […] alle ore […], nella fascia 12–16 e nel periodo 1° giugno–15 settembre, in […], utilizzava l’equino […] per la trazione della vettura […] in violazione dell’ordinanza ORDSI/2025/0000571 del 29 maggio 2025. La temperatura atmosferica era di […] °C, come rilevata mediante […] in […] alle ore […], fonte del rilievo […].",
+      "equini835": "Il giorno […] alle ore […] in […], impiegava l’equino […] per la trazione della carrozza […] senza scarpe protettive. Condizione osservata e fonte dell’accertamento: […].",
+      "newDocument": {
+        "status": 200,
+        "bytes": 186304
+      }
+    }
+  },
+  "jsErrors": []
+}
