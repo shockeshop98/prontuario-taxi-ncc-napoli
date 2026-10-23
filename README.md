@@ -9,7 +9,7 @@ Prontuario di consultazione con 119 voci di catalogo, comprese voci di consultaz
 
 [Anteprima](revisione/1.8.13/anteprima.html), [rapporto e fonti](RAPPORTO_REVISIONE_1.8.13.md), [confronto prima/dopo](revisione/1.8.13/confronto-prima-dopo.md). Prescrizioni confermate dall’autore: R44 impiego oltre sei ore giornaliere, R45 passeggeri oltre capienza autorizzata, R46 equino senza scarpe protettive. Integrale O.S.835/2014 e sanzione specifica restano non acquisiti; nessun punto dell’atto inventato. Regime generale TUEL €25–500 e PMR€50 entro60giorni, se applicabile e salvo diversa delibera di Giunta, verificato separatamente. Nessun ritiro, punto o misura CdS automatici; cumuli con R39–R43 da escludere in assenza dei relativi presupposti.
 
-119voci,190schede,211pagine,6indici e16allegati. R39–R42 integralmente conservate, Corso Pubblico incluso; R43 aggiorna solo il rinvio alle nuove schede. PDF e build rigenerati. Commit e pubblicazione autorizzati; esiti nel rapporto.
+119voci,190schede,211pagine,6indici e16allegati. R39–R42 integralmente conservate, Corso Pubblico incluso; R43 aggiorna solo il rinvio alle nuove schede. PDF e build rigenerati. Pubblicazione completata e verificata; esiti nel rapporto.
 
 ## Revisione locale 1.8.12 / PDF 7.14 · 23 ottobre 2026
 

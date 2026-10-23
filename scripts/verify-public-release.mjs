@@ -11,7 +11,7 @@ assert.ok(['prepare','verify'].includes(mode)&&dir&&fs.statSync(dir).isDirectory
 const base='https://shockeshop98.github.io/prontuario-taxi-ncc-napoli/';
 const version=JSON.parse(fs.readFileSync(resolve(root,'version.json'),'utf8'));
 const sha=bytes=>createHash('sha256').update(bytes).digest('hex');
-const norm=s=>s.normalize('NFKC').replace(/[’‘]/g,"'").replace(/\s+/g,'').toLowerCase();
+const norm=s=>s.normalize('NFKC').replace(/[’‘]/g,"'").replace(/\s+/g,'').replace(/\u00ad/g,'').toLowerCase();
 const options={executablePath:process.env.CHROMIUM_PATH,headless:true,viewport:{width:390,height:844},permissions:['clipboard-read','clipboard-write'],reducedMotion:'reduce'};
 const context=await chromium.launchPersistentContext(resolve(dir,'browser-profile'),options);
 const page=await context.newPage();for(const p of context.pages())if(p!==page)await p.close();
@@ -38,14 +38,22 @@ try{
   fs.writeFileSync(resolve(dir,'before.json'),JSON.stringify(before,null,2)+'\n');console.log('PWA precedente preparata',before);
  }else{
   const before=JSON.parse(fs.readFileSync(resolve(dir,'before.json'),'utf8'));
-  await context.setOffline(true);await page.goto(base);await page.waitForSelector('#roadSearch');assert.equal(await page.evaluate(()=>BUILD_ID),before.build);
-  await context.setOffline(false);await page.evaluate(()=>checkForUpdates(true));await page.locator('#loadUpdate').waitFor({state:'visible',timeout:60000});await page.locator('#loadUpdate').click();
-  await page.waitForFunction(build=>BUILD_ID===build,version.build_id,{timeout:60000});
-  await page.waitForFunction(()=>document.getElementById('offlineStatus').textContent.includes('pront'),null,{timeout:60000});
+  await context.setOffline(true);await page.goto(base);await page.waitForSelector('#roadSearch');
+  const installed=await page.evaluate(()=>BUILD_ID);
+  if(installed===before.build){
+   await context.setOffline(false);await page.evaluate(()=>checkForUpdates(true));await page.locator('#loadUpdate').waitFor({state:'visible',timeout:60000});await page.locator('#loadUpdate').click();
+   await page.waitForFunction(build=>BUILD_ID===build,version.build_id,{timeout:60000});
+   await page.waitForFunction(()=>document.getElementById('offlineStatus').textContent.includes('pront'),null,{timeout:60000});
+   fs.writeFileSync(resolve(dir,'upgrade-checkpoint.json'),JSON.stringify({from:before.build,to:version.build_id,checkedAt:new Date().toISOString()})+'\n');
+  }else{
+   assert.equal(installed,version.build_id);const checkpoint=JSON.parse(fs.readFileSync(resolve(dir,'upgrade-checkpoint.json')));
+   assert.equal(checkpoint.from,before.build);assert.equal(checkpoint.to,version.build_id);await context.setOffline(false);
+  }
   report={url:base,checkedAt:new Date().toISOString(),before,expected:version};
   report.current=await page.evaluate(async()=>({release:RELEASE,build:BUILD_ID,worker:await activeWorkerBuild(await navigator.serviceWorker.getRegistration()),pdfVersion:DATA.prontuario.version,pdfPages:DATA.sources[3].pages.length,regSaved:await sourceCached(0),manualSaved:await sourceCached(3),removedSourceCached:await Promise.all((await caches.keys()).filter(n=>n.startsWith('prontuario-docs-')).map(async n=>!!await(await caches.open(n)).match(new URL('allegati/EGAF_Art86_originale.pdf',location.href))))}));
   assert.equal(report.current.release,'1.8.13');assert.equal(report.current.build,version.build_id);assert.equal(report.current.worker,version.build_id);
-  assert.equal(report.current.pdfVersion,'7.15');assert.equal(report.current.pdfPages,211);assert.equal(report.current.regSaved,true);assert.equal(report.current.manualSaved,false);assert.ok(report.current.removedSourceCached.every(v=>!v));
+  assert.equal(report.current.pdfVersion,'7.15');assert.equal(report.current.pdfPages,211);assert.equal(report.current.regSaved,true);assert.ok(report.current.removedSourceCached.every(v=>!v));
+  const checkpoint=JSON.parse(fs.readFileSync(resolve(dir,'upgrade-checkpoint.json')));report.migration=checkpoint.migration||report.current;assert.equal(report.migration.manualSaved,false);checkpoint.migration=report.migration;fs.writeFileSync(resolve(dir,'upgrade-checkpoint.json'),JSON.stringify(checkpoint,null,2)+'\n');
   // La richiesta HTTP evita di confondere cache browser e contenuto pubblicato.
   const files=JSON.parse(fs.readFileSync(resolve(root,'pages-files.json'),'utf8'));
   report.publicFiles=[];let pdfBytes;
@@ -107,9 +115,10 @@ try{
  }
 }finally{await context.close()}
 if(mode==='verify'){
- let fresh=await chromium.launchPersistentContext(resolve(dir,'fresh-profile'),options);
+ const freshProfile=resolve(dir,'fresh-profile-'+Date.now());
+ let fresh=await chromium.launchPersistentContext(freshProfile,options);
  try{const p=await fresh.newPage();await p.goto(base);await p.waitForFunction(()=>navigator.serviceWorker.controller);await p.waitForFunction(()=>document.getElementById('offlineStatus').textContent.includes('pront'));assert.equal(await p.evaluate(()=>BUILD_ID),version.build_id);await save(p,3);}finally{await fresh.close();}
- fresh=await chromium.launchPersistentContext(resolve(dir,'fresh-profile'),options);
+ fresh=await chromium.launchPersistentContext(freshProfile,options);
  try{
   await fresh.setOffline(true);const p=await fresh.newPage();await p.goto(base);await p.waitForSelector('#roadSearch');assert.equal(await p.evaluate(()=>BUILD_ID),version.build_id);report.freshInstallReopenedOffline=await offlinePDF(p);
   await p.evaluate(()=>{setRoadType('Trazione animale');showView('help')});await p.locator('#roadSearch').fill('scarpe protettive');await p.locator('#roadSearch').press('Enter');assert.ok((await p.locator('#roadResults .codeTag').allTextContents()).includes('R46'));report.freshInstallReopenedOffline.search=true;

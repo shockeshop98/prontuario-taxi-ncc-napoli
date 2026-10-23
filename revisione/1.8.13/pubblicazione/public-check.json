@@ -1,0 +1,885 @@
+{
+  "url": "https://shockeshop98.github.io/prontuario-taxi-ncc-napoli/",
+  "checkedAt": "2026-10-23T09:42:20.942Z",
+  "before": {
+    "release": "1.8.9",
+    "build": "fb6b963d313f3c7f93767291989a066e7bfe655ab4a731d3ccdfd8e8d111383c",
+    "worker": "fb6b963d313f3c7f93767291989a066e7bfe655ab4a731d3ccdfd8e8d111383c",
+    "pdfVersion": "7.11",
+    "pdfPages": 207,
+    "saved": {
+      "reg": true,
+      "excludedEGAF": true,
+      "pdf": true
+    }
+  },
+  "expected": {
+    "version": "1.8.13",
+    "updated_at": "2026-10-23",
+    "build_id": "3617cb20fef453b7fd8528c2eae9382f4e9fb6303f7f8155efc05ba63ac86b9d"
+  },
+  "current": {
+    "release": "1.8.13",
+    "build": "3617cb20fef453b7fd8528c2eae9382f4e9fb6303f7f8155efc05ba63ac86b9d",
+    "worker": "3617cb20fef453b7fd8528c2eae9382f4e9fb6303f7f8155efc05ba63ac86b9d",
+    "pdfVersion": "7.15",
+    "pdfPages": 211,
+    "regSaved": true,
+    "manualSaved": false,
+    "removedSourceCached": [
+      false,
+      false
+    ]
+  },
+  "migration": {
+    "release": "1.8.13",
+    "build": "3617cb20fef453b7fd8528c2eae9382f4e9fb6303f7f8155efc05ba63ac86b9d",
+    "worker": "3617cb20fef453b7fd8528c2eae9382f4e9fb6303f7f8155efc05ba63ac86b9d",
+    "pdfVersion": "7.15",
+    "pdfPages": 211,
+    "regSaved": true,
+    "manualSaved": false,
+    "removedSourceCached": [
+      false,
+      false
+    ]
+  },
+  "publicFiles": [
+    {
+      "path": "RAPPORTO_REVISIONE_1.8.13.md",
+      "sha256": "9933b8eb8dbc28010b1567b03bb4491f175f8b0a8ddeaa93025af98cfc75695a",
+      "bytes": 12382
+    },
+    {
+      "path": "allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+      "sha256": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205",
+      "bytes": 820094
+    },
+    {
+      "path": "allegati/EGAF_Art85_originale.txt",
+      "sha256": "594a78b6f7cd709205d6790508b42a970588b422dbd414fafe72a42919585610",
+      "bytes": 40191
+    },
+    {
+      "path": "allegati/EGAF_Art86_provenienza.txt",
+      "sha256": "d4e1001b31347f90601b4932f531bc9a256c78a7f3d10e03dbb470ad8acc1da9",
+      "bytes": 450
+    },
+    {
+      "path": "allegati/OS835_2014_indicazioni_autore.txt",
+      "sha256": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd",
+      "bytes": 740
+    },
+    {
+      "path": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+      "sha256": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184",
+      "bytes": 230267
+    },
+    {
+      "path": "allegati/Prontuario_GIT_Turistica_originale.pdf",
+      "sha256": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a",
+      "bytes": 2198678
+    },
+    {
+      "path": "allegati/Prontuario_Taxi_NCC_Napoli.pdf",
+      "sha256": "c69d81aa5b4e3af8a81dc7e2da28a699b3cbf8586d464f2fa860ed9305273942",
+      "bytes": 5976065
+    },
+    {
+      "path": "allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+      "sha256": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0",
+      "bytes": 92337
+    },
+    {
+      "path": "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+      "sha256": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89",
+      "bytes": 227543
+    },
+    {
+      "path": "allegati/Tariffario_Taxi_2024.pdf",
+      "sha256": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055",
+      "bytes": 2713222
+    },
+    {
+      "path": "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+      "sha256": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18",
+      "bytes": 190724
+    },
+    {
+      "path": "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+      "sha256": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a",
+      "bytes": 155411
+    },
+    {
+      "path": "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+      "sha256": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5",
+      "bytes": 179655
+    },
+    {
+      "path": "assets/apple-touch-icon.png",
+      "sha256": "55eb2fc74979cf626ab45431a329a40acc68560ee3b731820546fdf6d72aeb8d",
+      "bytes": 22603
+    },
+    {
+      "path": "assets/favicon-16.png",
+      "sha256": "55a484f36e901698897b6f291fe0c7ecf02b8a79a870993959b91faa090a5e23",
+      "bytes": 830
+    },
+    {
+      "path": "assets/favicon-32.png",
+      "sha256": "4a046e3e9a9a6cc338bda3185166479cf9d1f24455830477e2fddd47db226cd9",
+      "bytes": 2292
+    },
+    {
+      "path": "assets/favicon-48.png",
+      "sha256": "c9c6f1d5fab228ca1cd20c96962db2c6979a767774ff2eb83cdbe0bfcec47c29",
+      "bytes": 4056
+    },
+    {
+      "path": "assets/favicon.ico",
+      "sha256": "12711dc139d92778343500d4eeabe46268136834fea1e8ccd38fd944c7f9fb96",
+      "bytes": 7232
+    },
+    {
+      "path": "assets/icon-192.png",
+      "sha256": "711faea03e3551c5a64114beaef10e734a4ff5ef8d36efa57f67fb774c79b153",
+      "bytes": 25065
+    },
+    {
+      "path": "assets/icon-512.png",
+      "sha256": "803376758861fe08e89b6870b046946bf6e8554ac85a48fdd2b35fe622284a74",
+      "bytes": 204566
+    },
+    {
+      "path": "assets/icon-maskable-192.png",
+      "sha256": "c16dd585358b55ebce3f55538e6213b9eb50d35b1b24c5c7aef4d42ab2e07cb2",
+      "bytes": 18190
+    },
+    {
+      "path": "assets/icon-maskable-512.png",
+      "sha256": "50c1aff99d59a88c56b15edde54c30640028b3096068bd3b90b67eb0ba9a1473",
+      "bytes": 135232
+    },
+    {
+      "path": "assets/logo-polizia-turistica.png",
+      "sha256": "34f7818ce4c0791af2931ede29620ba5e3bfee57af68e283d0a90df5bf6c9a70",
+      "bytes": 2365889
+    },
+    {
+      "path": "assets/polizia-locale-napoli.png",
+      "sha256": "9a49c6f10189c098eccca8889064e78d51233bff200d2594f14312451927c3fc",
+      "bytes": 1589588
+    },
+    {
+      "path": "assets/polizia.png",
+      "sha256": "0dddf0e3419df317e99007f8a6cb897df6379d2838e9ca76c74b6b570c858505",
+      "bytes": 2367832
+    },
+    {
+      "path": "assets/static-demo.css",
+      "sha256": "11e43986a6e8ec292d8cecfe74739d88f93399d4dc71d77eb687b396bc4f728a",
+      "bytes": 5314
+    },
+    {
+      "path": "index.html",
+      "sha256": "a7a64db1ebbd6e336835a4c1806b7f5af7feeb305df722c96840bd4a47d0c09b",
+      "bytes": 1431305
+    },
+    {
+      "path": "manifest.webmanifest",
+      "sha256": "f0e0d76ba531b11f2426f74f5df47595f2ddb69285525014fa26d65584303412",
+      "bytes": 946
+    },
+    {
+      "path": "revisione/1.8.13/aggiornamento-1.8.12-1.8.13.json",
+      "sha256": "4a4288e8b3d4658c13c8f5891f2f794e43362da1b873cbf863a4f293ac651c60",
+      "bytes": 1677
+    },
+    {
+      "path": "revisione/1.8.13/anteprima.html",
+      "sha256": "d4935857474b4c51b06b5c56fa76adaba47bd373e20905b5c7b01675d6bf078c",
+      "bytes": 12204
+    },
+    {
+      "path": "revisione/1.8.13/browser-check.json",
+      "sha256": "b5547f548c7e87bef4e3a79ac1f60755dad39e9575977f857960175185e7d7ad",
+      "bytes": 10079
+    },
+    {
+      "path": "revisione/1.8.13/confronto-prima-dopo.json",
+      "sha256": "73028a43dd7c0df927a89e1d782f4185759a8834ca6177033af74862d82a6a31",
+      "bytes": 35424
+    },
+    {
+      "path": "revisione/1.8.13/confronto-prima-dopo.md",
+      "sha256": "88948d063df3fb4cec5906686af2929ab5cdaccbf2f77bcfbb3973647bbcaf87",
+      "bytes": 8013
+    },
+    {
+      "path": "revisione/1.8.13/controllo-schede.csv",
+      "sha256": "84f3bfffc01ba3d4b77d73df40d10bbca51ca2fdcb51791a9e311beb1cbbfd1f",
+      "bytes": 16874
+    },
+    {
+      "path": "revisione/1.8.13/controllo-schede.json",
+      "sha256": "c76ea14e5d5b7939e55acbe09e21431615389f45dae8dd81ba606cf3e7cff0ae",
+      "bytes": 156471
+    },
+    {
+      "path": "revisione/1.8.13/esito-finale.json",
+      "sha256": "738ff8cc3dcbb01031b7356ca842b8f50058fb1efef8c5614771de544179f530",
+      "bytes": 3909
+    },
+    {
+      "path": "revisione/1.8.13/esito-npm-test.txt",
+      "sha256": "3731b24b00be6a145aee1c77c610261123894cb5ef19537131a6a43315c5ec21",
+      "bytes": 2512
+    },
+    {
+      "path": "revisione/1.8.13/fonti.json",
+      "sha256": "385876430d7989e9e52d5db3139ec934b371f9520f5cf240ddbcb0875aaa04af",
+      "bytes": 2303
+    },
+    {
+      "path": "revisione/1.8.13/fonti/L689-art16.html",
+      "sha256": "353d6eaa4159e72c0ce628a9dd8ad5aee6f046982b88f99843ef132bdc06111c",
+      "bytes": 136916
+    },
+    {
+      "path": "revisione/1.8.13/fonti/L689-art16.txt",
+      "sha256": "a5fceb804e9cff021a2b5f3cb913d491c27331224db835d3f4ae364830a4629c",
+      "bytes": 2230
+    },
+    {
+      "path": "revisione/1.8.13/fonti/TUEL-art7.html",
+      "sha256": "9104385028e4e8740c8221202614602ac8997142219de0356bcce9b324f2f12a",
+      "bytes": 199913
+    },
+    {
+      "path": "revisione/1.8.13/fonti/TUEL-art7.txt",
+      "sha256": "343b40920c5f2b3b468f82f3d18cbcf960d620a2f3c79170dc3d9bf2d966d9a7",
+      "bytes": 363
+    },
+    {
+      "path": "revisione/1.8.13/fonti/TUEL-art7bis.html",
+      "sha256": "4eed73ff2dd66e0f9c78cfa5a7dfcc2668b8d9e9fe4f15fa16eff36eefac6c67",
+      "bytes": 201225
+    },
+    {
+      "path": "revisione/1.8.13/fonti/TUEL-art7bis.txt",
+      "sha256": "b769bd8183402e737532dfd336cecf9eedeb7db4ba4d1cfb2b211afd7b2b1c46",
+      "bytes": 604
+    },
+    {
+      "path": "revisione/1.8.13/g24-mobile.png",
+      "sha256": "40b7ff5e5f506095d0c2ae7b74caeff4e6e63d88bb746dec4a8278d3af3998c3",
+      "bytes": 399761
+    },
+    {
+      "path": "revisione/1.8.13/g28-02-mobile.png",
+      "sha256": "6b685a85549f290c87ed955c9a29119de47a74ac47912c8de40dc93d51d0777b",
+      "bytes": 546362
+    },
+    {
+      "path": "revisione/1.8.13/intestazione-1440.png",
+      "sha256": "f8181850357e57bf7340de7e5102229cddbac91f38ed1a95bfee80be5957973e",
+      "bytes": 276715
+    },
+    {
+      "path": "revisione/1.8.13/intestazione-360.png",
+      "sha256": "a3a381471a7e86e2031c17176f63f869ab6707a4be0fdda36bb7668733f5e772",
+      "bytes": 115524
+    },
+    {
+      "path": "revisione/1.8.13/intestazione-390.png",
+      "sha256": "839a8d2a33e6feef6f492f6c2a8f916f775fe34c6a05c92ca02b59ce96804626",
+      "bytes": 118127
+    },
+    {
+      "path": "revisione/1.8.13/intestazione-430.png",
+      "sha256": "0cd80af342e394792ab8bb4dcbd5aa2a3897bb3c0b4c4943a65cc6c0b74ae468",
+      "bytes": 124694
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/G46.png",
+      "sha256": "6adb4064be4fda01e4ad368311ae20d0bade5eb1392e58e4cb3ea211a9f137f4",
+      "bytes": 313191
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/G47.png",
+      "sha256": "a33e2a87aafb5e8e7257eb6ab2c6d956d0333c40307819424a87ed644cc9aa87",
+      "bytes": 301825
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/G48.png",
+      "sha256": "7626ae4975fafd4bf81cd92f1ff4e6aa4681b45e5918520939dd8b3ef9c065d8",
+      "bytes": 313394
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/G49.png",
+      "sha256": "b17736e158557bec5e2de4e5ce116f4f23767e7283635e8b1d385e5cf43e2c50",
+      "bytes": 244147
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/G50.png",
+      "sha256": "1fada6530dfe89943e1f747c6116faa1b55b76a1749df02698a3347f6c4210a6",
+      "bytes": 277879
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/G52.png",
+      "sha256": "58de1a54b860082dc897e42a245f77f9f814bad4e254d6b97d0f9aba7e06a119",
+      "bytes": 267985
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/I01.png",
+      "sha256": "8987bc8b8dfef3e59fc132022fd9a05b74b32ed61a2a28f2f6c3de5dfc6b5bcc",
+      "bytes": 240129
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/I09.png",
+      "sha256": "e167f0deda45c1d839b832fa46d66f66bb2ee981a872f30ee9ae80f50325450d",
+      "bytes": 306922
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/R01.png",
+      "sha256": "97eea75672390bf6c3a1334d2690214eb84157e8d123b0c39bb0272f03864e1d",
+      "bytes": 229300
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/R07.png",
+      "sha256": "afe6ae295740941374b03094d2c4f71f7ae77282d6ca0da45cd6bb7c01ebefef",
+      "bytes": 200182
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/R08.png",
+      "sha256": "1909aada88a2b9b470eeb3b5c3523cf3955249099bd33a3dd237b7d353333c51",
+      "bytes": 206057
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/R39.png",
+      "sha256": "78e42a3965b76404249c4cf98c0e251a86f9986da84a948c55b6626be8fabb78",
+      "bytes": 290132
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/R40.png",
+      "sha256": "0d577c09e30f78fcc0ddecbfaeff44b7138ef57e320da1822c391bb4101426fa",
+      "bytes": 319043
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/R41.png",
+      "sha256": "b02c72458bccfe58a798c8cc04a79160950306834167cbbf40c6f558699e7159",
+      "bytes": 335095
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/R42.png",
+      "sha256": "18169141300193bfa5e6c1d4a77ff6438e88ad7c181fba42dc6b7121a3fac46e",
+      "bytes": 293455
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/R44.png",
+      "sha256": "c801d29897514f69492c5a379794e7bf3faf9831ab000964e9b026985ef53349",
+      "bytes": 362324
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/R45.png",
+      "sha256": "9d7978c6a0c0bec5c82a835abee269d19fbbca8303991cb135f70496a588c84b",
+      "bytes": 362561
+    },
+    {
+      "path": "revisione/1.8.13/mobile-360/R46.png",
+      "sha256": "2c85370265078138a1c5da38c1e1c0857fa8c429bf0b85a6319f19cd2fd7656e",
+      "bytes": 364545
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390-tavola-1.png",
+      "sha256": "4112513b80e93176f888e68622526bfc49b09e67c627780b13cfb88324fb2f5d",
+      "bytes": 1426339
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390-tavola-2.png",
+      "sha256": "266fa9dfc37ae08eaaa72266a149583b2c0981d12be71b09fc838259b25a54f3",
+      "bytes": 1433534
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390-tavola-3.png",
+      "sha256": "5ea81c1f79a52e9b83b689e6dbbfa522ec12f77270cdb85a5b06ae85e2be2529",
+      "bytes": 1420015
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/G46.png",
+      "sha256": "38b1e363b4c8e1cef6aa545298c318f25790955b994a43c752b162a32a03c1e6",
+      "bytes": 305214
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/G47.png",
+      "sha256": "de35261ad8947447e53cc156bba8047816f20611e08164294f62e471ffa692b1",
+      "bytes": 293060
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/G48.png",
+      "sha256": "f0391fc9cf37c7bdd3f8cc4acff2ed40d4adfe2fa17c76c48083602146a899a3",
+      "bytes": 304372
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/G49.png",
+      "sha256": "a2667af907d8402209bf0ebd110a03e1c72b010487e243381edad33f6c47af75",
+      "bytes": 241597
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/G50.png",
+      "sha256": "e8729c8a3aa2b1f6f570331e9d241adc338b894faf3ad0c8536a0d44d803cfa5",
+      "bytes": 272989
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/G52.png",
+      "sha256": "7d76611269d39e06274c3bb7e676ea06bce76adaf04abb497ab323dc34b77a2b",
+      "bytes": 261607
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/I01.png",
+      "sha256": "4bf8478eb75f2a49d072ba7de7b2f6a89bf9c058eebc8c88df860293b9100ee7",
+      "bytes": 238640
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/I09.png",
+      "sha256": "2ae2bb90c21bb399f8c2502ae0a6c704b523f94863ff063604cf806640a53995",
+      "bytes": 302721
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/R01.png",
+      "sha256": "bebe99f36a87408b918714715bad8b55662e734e6c4a8acabc693c9d4b4d3c60",
+      "bytes": 223460
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/R07.png",
+      "sha256": "fe99ba1db948c424641b6a3fe551e70cf38ebf943d5e7df3da24efb095078278",
+      "bytes": 197057
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/R08.png",
+      "sha256": "b87e8639f78071b38c4f18bf6f5e9be327eef999ccd8f5046a06b0fb11939871",
+      "bytes": 204218
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/R39.png",
+      "sha256": "1b7e1a7759dc88dfd758eefdab76b402c7854b8e66bf703d6f265d87a4418d6d",
+      "bytes": 286774
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/R40.png",
+      "sha256": "b4a9014417c3f7cf7e62a5c208e92f905b3f18497bdeaabbfaf6d7bcf8e4318f",
+      "bytes": 315041
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/R41.png",
+      "sha256": "2c0cabec904163389598215ee1c67a156721a1cfdbfeab8be25f8bfff25494ed",
+      "bytes": 328341
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/R42.png",
+      "sha256": "32d701ce01cd3354f119d09c79a678f968202c676bb3b2dee532f646df8b6deb",
+      "bytes": 287472
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/R44.png",
+      "sha256": "2d7dce919519857b49e33907854122bee7f253ed799dd30891649513721230a2",
+      "bytes": 353849
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/R45.png",
+      "sha256": "c083bad1c90a5eb953bfd8000737c18029db4e27aca15e92eb466c7915a1d284",
+      "bytes": 355083
+    },
+    {
+      "path": "revisione/1.8.13/mobile-390/R46.png",
+      "sha256": "c498abac486380dec6bf3f1db00b9c51f059743cf61ccc513aa747c3771baf63",
+      "bytes": 356819
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine-tavola-1.png",
+      "sha256": "7381b24bd4b14ea6cc58cb23c11773fcb3ed01d4375182d7ff6c08bd16433323",
+      "bytes": 360584
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine-tavola-2.png",
+      "sha256": "2864dd554245bdbb50f098115230cf758222e4809d40cc651df70430e73b2424",
+      "bytes": 327517
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine-tavola-3.png",
+      "sha256": "ffbf136b6f371d259ecc8c65a09a7d488dd8f3da85b91e67de8a6673cc5ba0fc",
+      "bytes": 329993
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/G46.png",
+      "sha256": "cee01a035d88fa9a3870b0cc9175784eda78cceee0bbe10304f400f72be83aac",
+      "bytes": 403114
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/G47.png",
+      "sha256": "275b8c32051a55b72e54dad6fff843412891a08de1ffec2f02d9e1f9a4fadb9f",
+      "bytes": 354556
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/G48.png",
+      "sha256": "5aec743c31873cc1bfd3e5b9ceb53de07b4ef92f79ee32b47dcdc6d1c6d73854",
+      "bytes": 382271
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/G49.png",
+      "sha256": "8e3aedb3feead9aa1e7d6d4fc260d8abefaf0631dcd27b93429d62fef924cda7",
+      "bytes": 270755
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/G50.png",
+      "sha256": "4be7b97fdefa017287bf1cbad5e8961830b9630a3dd3411c1c8b603a1f1c0e6b",
+      "bytes": 277944
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/G52.png",
+      "sha256": "d3ebea6d197870fd252ae3d9a663338af5d647bd47103f1f4902683c8f9656b5",
+      "bytes": 268269
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/I01.png",
+      "sha256": "79eddc66cebdf59d7ed4a904176989d2d12557fe6f3fe3cb1b3c68ceb4224f1d",
+      "bytes": 237109
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/I09.png",
+      "sha256": "7be7f3973c25b8bf6462824136d7cdb24fea52259dafab23b226c944aee4d59e",
+      "bytes": 367051
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/R01.png",
+      "sha256": "d2ec0188c12bd7cf46496d063e3d53018542d2edf4d6a3b2a6aca0167c0b449f",
+      "bytes": 251616
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/R07.png",
+      "sha256": "936019052c817beb033839de531d966c92eca37a0674b0ee4becfc1ff6584f20",
+      "bytes": 220107
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/R08.png",
+      "sha256": "86517a028ce8907dbf95a6c8ddf15458a43a495c4205a33b5d3ac1c09d1f9c03",
+      "bytes": 225807
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/R39.png",
+      "sha256": "e466f6af09ec33fe43ec84138075772441ebe2407bdfb658e103a7a465e74996",
+      "bytes": 343356
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/R40.png",
+      "sha256": "193a45c9985da7acb29f92a155ff1750e23d6b7734abb4dc1ad29eeca544815f",
+      "bytes": 377540
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/R41.png",
+      "sha256": "3484dee78cef774a6cfe03f9070f18cfdee1019e81e6fb47c92f8d378fea2eed",
+      "bytes": 411588
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/R42.png",
+      "sha256": "a4fb7f6e67c3ffeaa2a774bcc0e6351d8935f414a178621d3ed332708ea985a9",
+      "bytes": 342380
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/R44.png",
+      "sha256": "4986d04883979b7c10473d627f6c9995881989e35ebdf6d2821edb01c9bd6655",
+      "bytes": 413677
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/R45.png",
+      "sha256": "a864b57ba4666b4b41f6e659106c0734c281b6156e7415045865b64ee0377211",
+      "bytes": 415196
+    },
+    {
+      "path": "revisione/1.8.13/pdf-pagine/R46.png",
+      "sha256": "4f287b2ab24e8782c33e0ad4ccc835f76b5f3ccba34c803f3f8cd1039532e5da",
+      "bytes": 416621
+    },
+    {
+      "path": "revisione/1.8.13/pubblicazione-privacy.json",
+      "sha256": "4e7aeb047c217d74e953634c016fe04ed8dd77b69bb89f6ab45bd736cb963e50",
+      "bytes": 622
+    },
+    {
+      "path": "revisione/1.8.13/pwa-1440.png",
+      "sha256": "df758484cb370e511e774fbe26ded71b0e7d5f6465914f678b4881c260501ebb",
+      "bytes": 354085
+    },
+    {
+      "path": "revisione/1.8.13/pwa-360.png",
+      "sha256": "824c1e70268def171491aa5af4f611ccebf6e69e15a5d4dc6c63bc567e09ef0c",
+      "bytes": 150116
+    },
+    {
+      "path": "revisione/1.8.13/pwa-390.png",
+      "sha256": "8d3870b38f0fb78d62f899e88e02476fda06bc0098d3a0691511de0a8bc453d3",
+      "bytes": 162595
+    },
+    {
+      "path": "revisione/1.8.13/pwa-430.png",
+      "sha256": "442c262f3b6bbd847924f3bac80856f363d0d63306c165e5f20fbea944c9717c",
+      "bytes": 173470
+    },
+    {
+      "path": "revisione/1.8.13/pwa-offline-390.png",
+      "sha256": "dd4c31e91ee805f3462eeae77336fb74d26984b19bce4def1d447b1b424d9c0e",
+      "bytes": 154957
+    },
+    {
+      "path": "revisione/1.8.13/riquadro-mobile.png",
+      "sha256": "d024c662b079d1487954436964945cf21a89f6882a728975f4c6822a248b10cf",
+      "bytes": 128641
+    },
+    {
+      "path": "revisione/1.8.13/verifica-equini-835.json",
+      "sha256": "5a07ed8c38c79c898c05bc14d3fce344eab6f6ad045f86d2766a7ed863f0c92f",
+      "bytes": 3073
+    },
+    {
+      "path": "revisione/1.8.13/verifica-seconda-parte.json",
+      "sha256": "ad902c390be67086fc8b45677f4163c879daf72ebad498d2e4005ed97a76b06f",
+      "bytes": 392529
+    },
+    {
+      "path": "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+      "sha256": "4e44f34b40802ee9837f5cf07f38e09a950a6ff93ae447072cda26f289543c03",
+      "bytes": 186304
+    },
+    {
+      "path": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+      "sha256": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e",
+      "bytes": 299920
+    },
+    {
+      "path": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+      "sha256": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042",
+      "bytes": 259332
+    },
+    {
+      "path": "scripts/operative-rules.js",
+      "sha256": "b71354097f72815067bc482aaa981e006228baef6c33064b8578bf170685b566",
+      "bytes": 12009
+    },
+    {
+      "path": "scripts/revision-equini-835.js",
+      "sha256": "2a28f7c0933019e9a894626b48e97e8fb8c3bf58142b8038cd6d8092563569c0",
+      "bytes": 8701
+    },
+    {
+      "path": "scripts/revision-g01-g43.js",
+      "sha256": "dd4127fcfb32bdbc97ae2ff1af7bb948939898c779b9864ffe16b0400c35dfbd",
+      "bytes": 22186
+    },
+    {
+      "path": "scripts/revision-pausa-caldo.js",
+      "sha256": "0c6c15faa1c58f3358ca180d3d9dc93b3150a07b8886755ca9922695991aab48",
+      "bytes": 9562
+    },
+    {
+      "path": "scripts/revision-seconda-parte.js",
+      "sha256": "5515428be0300fdc4e268adcebcdb1726bfeb13edbcc29e1ebc5eb63c5bb3652",
+      "bytes": 28913
+    },
+    {
+      "path": "scripts/static-catalog-ui.js",
+      "sha256": "52843c1b2abea5cc6377358d5e716c733fe635d4e6ef4e7d73ab46abd42a02ff",
+      "bytes": 19798
+    },
+    {
+      "path": "scripts/static-catalog.js",
+      "sha256": "b7489021d84459640503f27605906b78f4264de529a0e2474e02cd4065fd786e",
+      "bytes": 70079
+    },
+    {
+      "path": "scripts/static-demo-ui.js",
+      "sha256": "7e7f89e5b5030d12586958115be3ae56b8101283e5e441f6137f9fe699d63eb9",
+      "bytes": 10946
+    },
+    {
+      "path": "scripts/static-demos.js",
+      "sha256": "fedfa1693e9efb6954ab516648b801ae12fb8943a5f81ba7df90871b0731cbb1",
+      "bytes": 13710
+    },
+    {
+      "path": "scripts/static-field-suggestions.js",
+      "sha256": "d2364f098e08800efeb99cc75fbd2923bdd44f0df3e0ec9164b38f20d472565b",
+      "bytes": 25600
+    },
+    {
+      "path": "scripts/taxi-collettivo.js",
+      "sha256": "83abc79f074f542f317862908c6d7559df94cdcdaea9f1947d03956d6f404ecd",
+      "bytes": 7507
+    },
+    {
+      "path": "sw.js",
+      "sha256": "76d6bb5282b120042f400187ca37e040b70b546f7d891791db29848ea424fd89",
+      "bytes": 10358
+    },
+    {
+      "path": "version.json",
+      "sha256": "01fbe5bc19c6609ca3638ecc21b198488abf37b942d15485edbf7dd88d3255dd",
+      "bytes": 138
+    }
+  ],
+  "pdf": {
+    "version": "7.15",
+    "pages": 211,
+    "sha256": "c69d81aa5b4e3af8a81dc7e2da28a699b3cbf8586d464f2fa860ed9305273942",
+    "indexDestinations": 190
+  },
+  "mobile": [
+    {
+      "width": 360,
+      "cards": 190,
+      "copies": 189,
+      "destinations": 190,
+      "overflow": false,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "fit": "contain",
+            "left": 65,
+            "right": 164
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "fit": "contain",
+            "left": 196,
+            "right": 295
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica",
+        "overflow": false
+      }
+    },
+    {
+      "width": 390,
+      "cards": 190,
+      "copies": 189,
+      "destinations": 190,
+      "overflow": false,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "fit": "contain",
+            "left": 80,
+            "right": 179
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "fit": "contain",
+            "left": 211,
+            "right": 310
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica",
+        "overflow": false
+      }
+    }
+  ],
+  "cases": [
+    {
+      "code": "R44",
+      "page": 200,
+      "copy": "Il giorno […] impiegava l’equino […] nella trazione della carrozza […] per complessive […] ore giornaliere, oltre il limite di 6 ore. Intervalli di impiego e fonti dell’accertamento: […]."
+    },
+    {
+      "code": "R45",
+      "page": 201,
+      "copy": "Il giorno […] alle ore […] in […], con la carrozza […] trasportava […] passeggeri, oltre la capienza autorizzata di […] risultante da […]. Fatto accertato mediante […]."
+    },
+    {
+      "code": "R46",
+      "page": 202,
+      "copy": "Il giorno […] alle ore […] in […], impiegava l’equino […] per la trazione della carrozza […] senza scarpe protettive. Condizione osservata e fonte dell’accertamento: […]."
+    }
+  ],
+  "search": [
+    {
+      "query": "sei ore giornaliere",
+      "type": "Trazione animale",
+      "code": "R44"
+    },
+    {
+      "query": "capienza carrozza",
+      "type": "Trazione animale",
+      "code": "R45"
+    },
+    {
+      "query": "scarpe protettive",
+      "type": "Trazione animale",
+      "code": "R46"
+    },
+    {
+      "query": "pausa",
+      "type": "Taxi",
+      "code": "G46"
+    },
+    {
+      "query": "caldo",
+      "type": "Trazione animale",
+      "code": "R43"
+    },
+    {
+      "query": "ricevuta predeterminata",
+      "type": "Taxi",
+      "code": "G28-02"
+    }
+  ],
+  "excluded": [
+    {
+      "path": "allegati/EGAF_Art86_originale.pdf",
+      "status": 404
+    },
+    {
+      "path": "verbale_cartaceo.jpg",
+      "status": 404
+    },
+    {
+      "path": "diciture prontuario seconda parte.txt",
+      "status": 404
+    },
+    {
+      "path": "ESEMPI_RICEVUTE_TARIFFE_1.8.2.md",
+      "status": 404
+    },
+    {
+      "path": "revisione/fonti-integrative/WhatsApp Image 2026-10-21 at 23.20.24.jpeg",
+      "status": 404
+    },
+    {
+      "path": "revisione/fonti-integrative/WhatsApp Image 2026-10-23 at 09.53.07.jpeg",
+      "status": 404
+    },
+    {
+      "path": "revisione/1.8.13/prima-data.json",
+      "status": 404
+    }
+  ],
+  "upgradedOffline": {
+    "status": 200,
+    "sha256": "c69d81aa5b4e3af8a81dc7e2da28a699b3cbf8586d464f2fa860ed9305273942",
+    "range": {
+      "status": 206,
+      "length": 100
+    }
+  },
+  "jsErrors": [],
+  "freshInstallReopenedOffline": {
+    "status": 200,
+    "sha256": "c69d81aa5b4e3af8a81dc7e2da28a699b3cbf8586d464f2fa860ed9305273942",
+    "search": true,
+    "copy": true
+  }
+}

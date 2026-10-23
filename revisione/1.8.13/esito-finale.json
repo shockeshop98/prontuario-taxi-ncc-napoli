@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-23T09:33:44.445531+00:00",
+  "checkedAt": "2026-10-23T09:45:26.149956+00:00",
   "localOnly": false,
   "version": "1.8.13",
   "pdfVersion": "7.15",
@@ -118,7 +118,39 @@
       "R44–R46:360/390,copia,ricerca,fonte autore offline",
       "git diff --check"
     ],
-    "priorBrowserReport": "Riusato per componenti e dimensioni invariate; contiene la build precedente, verifica pubblica definitiva da allegare"
+    "priorBrowserReport": "Riusato per componenti e dimensioni invariate; contiene la build precedente, verifica pubblica definitiva da allegare",
+    "publicRelease": {
+      "allPublishedFilesByteIdentical": 136,
+      "pdfPages": 211,
+      "pdfIndexDestinations": 190,
+      "cardsAtEachMobileWidth": 190,
+      "mobileWidths": [
+        360,
+        390
+      ],
+      "formulasComparedWithPDF": 189,
+      "newCasesRealClipboard": [
+        "R44",
+        "R45",
+        "R46"
+      ],
+      "search": true,
+      "twoLogosAndCredits": true,
+      "realUpgrade": "1.8.9 → 1.8.13",
+      "oldEGAFPurgedFromCaches": true,
+      "unchangedRegulationRetained": true,
+      "oldManualInvalidated": true,
+      "upgradedOfflinePDFHash": "c69d81aa5b4e3af8a81dc7e2da28a699b3cbf8586d464f2fa860ed9305273942",
+      "freshInstallReopenedOffline": {
+        "status": 200,
+        "sha256": "c69d81aa5b4e3af8a81dc7e2da28a699b3cbf8586d464f2fa860ed9305273942",
+        "search": true,
+        "copy": true
+      },
+      "excludedPaths404": 7,
+      "jsErrors": []
+    },
+    "cleanCloneFullNpmTest": "PASS senza originali riservati, dopo correzione test storico"
   },
   "visualReview": {
     "cards": [
@@ -134,12 +166,16 @@
     "Eventuale diversa delibera Giunta PMR non acquisita",
     "Ordinanza tecnica R42 e dubbi estranei precedenti conservati"
   ],
-  "publication": "Autorizzata; controlli pubblici dopo il deploy",
+  "publication": "Pubblicata e verificata su GitHub Pages",
   "privacy": {
     "fullEGAFScreensExcluded": true,
     "localOriginalSHA256": "5031c8e106940ba867dd62681871f4861c686c479986553a580687302434e582",
     "replacedByProvenanceNote": true,
     "oldCachesPurgeRemovedSources": true,
     "gitHistoryUnchanged": true
-  }
+  },
+  "publicationCommit": "52201270017efaa82e62b0555241340ce586388a",
+  "releaseCommit": "0d234853efb71c4f1532c3617cb10909e5a4e347",
+  "workflow": "https://github.com/shockeshop98/prontuario-taxi-ncc-napoli/actions/runs/39933611648",
+  "publicEvidence": "pubblicazione/public-check.json"
 }
