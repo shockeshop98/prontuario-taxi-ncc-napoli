@@ -1,3 +1,4 @@
+import {verifyOriginal} from './private-originals.mjs';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
@@ -50,7 +51,7 @@ assert.match(window.prontuarioLegalText(item('N10'),'NCC'),/art\.180 c\.7/);
 assert.match(window.prontuarioOfficeGuide,/cinque giorni per le difese/);
 assert.match(window.prontuarioOfficeGuide,/Taxi e NCC/);
 for(const s of JSON.parse(read('revisione/1.8.6/fonti.json'))){
- if(s.file){const bytes=fs.readFileSync(new URL(s.file,root));assert.equal(createHash('sha256').update(bytes).digest('hex'),s.sha256,`Integrità fonte ${s.id}`);}
+ if(s.file)verifyOriginal(s.file,s.sha256);
  if(s.stato.startsWith('Non acquisita'))assert.ok(!s.sha256,`Nessuna acquisizione fittizia ${s.id}`);
 }
 console.log('Revisione 1.8.6: 187 esiti documentati, ordine, presupposti, G24/G28, obblighi, copia e integrità fonti OK');

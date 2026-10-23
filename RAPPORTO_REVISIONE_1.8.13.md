@@ -67,3 +67,7 @@ Dopo la sostituzione della fonte: rigenerato una sola volta il PDF7.15,211pagine
 Controllo aggiuntivo dei testi di tutti i13PDF ammessi (305pagine complessive): nessun codice fiscale individuale, targa o identificativo del modulo locale di controllo rilevato. Scansione dei file testuali candidati al commit senza riscontri di tali identificativi o chiavi private/token; immagini di anteprima generate da modelli con segnaposto, foto originale del controllo esclusa. Esito in `pubblicazione-privacy.json`.
 
 Preflight senza input riservati: i quattro test di seconda parte, integrazione, pausa/caldo e O.S.835 superati nella copia di verifica priva degli originali esclusi. Pacchetto Pages generato con136percorsi ammessi più manifesto di impronte, senza copiare la radice.
+
+Primo tentativo CI [39933311417](https://github.com/shockeshop98/prontuario-taxi-ncc-napoli/actions/runs/39933311417): arrestato prima della pubblicazione perché un ulteriore test storico leggeva il PDF EGAF escluso. Corretto anche quel controllo: gli originali privati, se presenti localmente, mantengono la verifica SHA-256; sono i soli file ammessi come assenti nella clone pubblica. Tutte le altre fonti restano obbligatorie. Nessuna modifica a PWA, PDF o build. Il preflight viene esteso all’intera suite nella copia senza materiali riservati.
+
+Preflight esteso: `npm test` completo superato sia nella cartella locale sia nella copia priva degli originali riservati (exit0). Correzione limitata al controllo storico; PDF/build invariati.
