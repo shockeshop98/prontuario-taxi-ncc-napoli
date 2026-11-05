@@ -68,3 +68,9 @@
 .secondaChoices{min-width:0;margin:12px 0;padding:12px;border:1px solid #b9cbd2;border-radius:8px}
 .secondaChoices label,.secondaConfirm{display:flex;align-items:flex-start;gap:10px;line-height:1.45;padding:9px 0}
 .secondaChoices input,.secondaConfirm input{width:20px;height:20px;flex:0 0 20px;margin:1px 0 0}
+
+/* Revisione 1.8.14: una sola condotta selezionata, attestazioni separate. */
+[data-terza-choices]{min-width:0;margin:12px 0;padding:12px;border:1px solid #b9cbd2;border-radius:8px}
+[data-terza-choices] legend{max-width:100%;white-space:normal}
+[data-terza-choices] label{display:flex;align-items:flex-start;gap:10px;line-height:1.45;padding:9px 0}
+[data-terza-choices] input{width:20px;height:20px;flex:0 0 20px;margin:1px 0 0}

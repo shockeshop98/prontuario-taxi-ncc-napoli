@@ -1,9 +1,17 @@
-<!-- Stato di rilascio: 1.8.13 / PDF 7.15; sezioni precedenti conservate come storico. -->
+<!-- Stato locale: 1.8.14 / PDF 7.16; pubblicata: 1.8.13 / PDF 7.15; sezioni precedenti conservate come storico. -->
 # Prontuario interattivo Taxi NCC e trazione animale Napoli
 
 A cura dell’Agente Antonio Balzano · U.O. San Lorenzo.
 
-Prontuario di consultazione con 119 voci di catalogo, comprese voci di consultazione e R01 esplicitamente inattiva, ricerca per sinonimi e parole simili, indice per servizio, importi, riferimenti normativi, formule orientative, suggerimenti e note operative. I riferimenti al regolamento identificano la delibera C.C. n. 80/2005. Non contiene registrazioni di controlli, generalità dei conducenti o relazioni di servizio.
+Prontuario di consultazione con 112 voci di catalogo, comprese voci di consultazione e R01 esplicitamente inattiva, ricerca per sinonimi e parole simili, indice per servizio, importi, riferimenti normativi, formule orientative, suggerimenti e note operative. I riferimenti al regolamento identificano la delibera C.C. n. 80/2005. Non contiene registrazioni di controlli, generalità dei conducenti o relazioni di servizio.
+
+## Revisione locale 1.8.14 / PDF 7.16 · 4 novembre 2026
+
+[Anteprima](revisione/1.8.14/anteprima.html), [rapporto e fonti](RAPPORTO_REVISIONE_1.8.14.md), [confronto](revisione/1.8.14/confronto-prima-dopo.md), [tutte le richieste del TXT](revisione/1.8.14/esiti-txt.md), [matrice completa NCC](revisione/1.8.14/controllo-tutte-ncc.md).
+
+112 voci, 172 schede: 103 Taxi, 61 NCC, 8 trazione animale; 193 pagine PDF e 6 indici. Otto codici ritirati senza rinumerazione; I06 nei soli NCC e quattro viste NCC escluse per ambito Taxi. Riferimenti editoriali con “let.”; formule con scelte e attestazioni separate, soggetti e basi sanzionatorie distinti. Le precedenti precisazioni equine e sulla pausa sono conservate. Pubblicazione autorizzata; esiti tecnici locali e pubblici nel rapporto.
+
+`npm test` verifica la versione corrente, inclusi PDF e tutte le destinazioni. `npm run test:historical` conserva le 13 suite precedenti sugli oggetti Git della pubblicazione 1.8.13 (checkout con cronologia completa); non è presentato come controllo dei nuovi testi. `npm run test:browser`, `npm run test:variants` e `npm run test:upgrade` verificano browser, copia e cache su loopback. La fotografia e il TXT di lavoro non sono risorse pubblicabili. Salvare nuovamente il PDF nella PWA dopo l’aggiornamento.
 
 ## Revisione 1.8.13 / PDF 7.15 · O.S.835/2014
 
@@ -120,7 +128,7 @@ Pubblicare sempre `index.html`, `version.json`, `sw.js`, `manifest.webmanifest`,
 
 Per rigenerare: `npm ci`, predisporre Chromium (oppure `CHROMIUM_PATH`), `npm run generate:pdf`, `python3 scripts/update-build.py`, `npm run audit:cards`, `npm test`. Per le prove browser avviare `python3 -m http.server 8000 --bind 127.0.0.1` e poi `npm run test:browser` con Chromium disponibile. Quest’ultimo usa un profilo effimero e scrive gli esiti in `revisione/<versione>/`. Il test non pubblica nulla. Per le icone: `npm run generate:icons` prima della rigenerazione del build.
 
-La verifica pubblica riproducibile è in `scripts/verify-public-release.mjs`: eseguire `prepare` prima del deploy e `verify` dopo, impostando `CHROMIUM_PATH` e la stessa directory temporanea `RELEASE_VERIFY_DIR`. Prepara la vera cache 1.8.5, prova l’aggiornamento esplicito a 1.8.6, confronta le impronte dei file pubblici e verifica schede, copia e PDF offline. Profilo browser e risultati temporanei non vanno inclusi nel commit.
+La verifica pubblica riproducibile è in `scripts/verify-public-release.mjs`: eseguire `prepare` prima del deploy e `verify` dopo, impostando `CHROMIUM_PATH` e la stessa directory temporanea `RELEASE_VERIFY_DIR`. Prepara la vera cache 1.8.13, prova l’aggiornamento esplicito a 1.8.14, confronta le impronte dei file pubblici e verifica schede, copia e PDF offline. Profilo browser e risultati temporanei non vanno inclusi nel commit.
 
 Le formule richiedono riscontri reali; gli importi delle basi non ancora qualificate non sono automaticamente applicabili. Originali GIT/EGAF conservati con attribuzione. Revisione proposta per validazione interna.
 

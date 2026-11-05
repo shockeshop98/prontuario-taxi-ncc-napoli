@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-05T04:15:47.998Z",
+  "build": "53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e",
+  "files": 146,
+  "allFilesMatchAllowlistAndSHA256": true,
+  "privatePathsPublished": [],
+  "inputOriginalIntact": true,
+  "inputIgnored": true,
+  "egafFullPDFRetainedLocally": true,
+  "egafFullPDFInPublication": false,
+  "newOperationalDataStructures": [],
+  "fiscalIdentifiersInGeneratedHTML": 0,
+  "fiscalIdentifiersInGeneratedPDF": 0,
+  "pdfImages": [
+    {
+      "ref": "6 0 R",
+      "width": 1458,
+      "height": 1536,
+      "mask": true
+    },
+    {
+      "ref": "8 0 R",
+      "width": 1458,
+      "height": 1536,
+      "mask": false
+    },
+    {
+      "ref": "9 0 R",
+      "width": 1183,
+      "height": 1330,
+      "mask": true
+    },
+    {
+      "ref": "10 0 R",
+      "width": 1183,
+      "height": 1330,
+      "mask": false
+    }
+  ],
+  "scope": "Nessun dato di controlli introdotto; sole risorse approvate, crediti previsti e fonti documentali già ammesse. Fonti grezze della nuova revisione e TXT di lavoro fuori dal pacchetto. Nessuna pubblicazione eseguita."
+}

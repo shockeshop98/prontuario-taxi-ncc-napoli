@@ -1,5 +1,6 @@
+// Regressione storica fissata alla fotografia 1.8.13; suite corrente: terza-parte.test.mjs.
 import assert from 'node:assert/strict';
-import {readFile} from 'node:fs/promises';
+import {readFile} from './historical-fs.mjs';
 import vm from 'node:vm';
 const html=await readFile(new URL('../index.html',import.meta.url),'utf8');
 const data=JSON.parse(html.match(/^const DATA=(.*);$/m)[1]);

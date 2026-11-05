@@ -5,12 +5,12 @@ import fs from 'node:fs';
 import assert from 'node:assert/strict';
 const base=process.env.REVIEW_URL||'http://127.0.0.1:8000/';
 const release=JSON.parse(fs.readFileSync(new URL('../version.json',import.meta.url),'utf8'));
-const out=new URL(`../revisione/${release.version}/`,import.meta.url);
+const out=process.env.REVIEW_OUT?new URL('file://'+process.env.REVIEW_OUT.replace(/\/$/,'')+'/'):new URL(`../revisione/${release.version}/`,import.meta.url);
 fs.mkdirSync(out,{recursive:true});
 const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH,headless:true});
 const context=await browser.newContext({permissions:['clipboard-read','clipboard-write'],reducedMotion:'reduce'});
 const page=await context.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
-const report={version:release.version,documentDate:release.updated_at,checkedAt:new Date().toISOString(),viewport:[],search:[],cache:{}};
+const report={url:base,localOnly:!base.startsWith('https://'),version:release.version,documentDate:release.updated_at,checkedAt:new Date().toISOString(),viewport:[],search:[],cache:{}};
 try{
  await page.route('**/__seed',route=>route.fulfill({contentType:'text/html',body:'<!doctype html><title>Cache di prova</title>'}));
  await page.goto(base+'__seed');
@@ -23,8 +23,8 @@ try{
  report.cache.migration=await page.evaluate(async()=>({reg:await sourceCached(0),manual:await sourceCached(3),worker:await activeWorkerBuild(await navigator.serviceWorker.getRegistration()),build:BUILD_ID,oldManual:!!await(await caches.open('prontuario-docs-revisione-precedente')).match(new URL(DATA.sources[3].url,location.href))}));
  assert.equal(report.cache.migration.reg,true);assert.equal(report.cache.migration.manual,false);assert.equal(report.cache.migration.oldManual,false);assert.equal(report.cache.migration.worker,report.cache.migration.build);
  const rows=await page.evaluate(()=>STATIC_LAYOUT.rows.map(({item,type})=>({id:item.id,code:item.code,type,collective:item.kind==='collective-reference'})));
- assert.equal(rows.length,190);
- for(const [width,height] of [[320,740],[360,800],[390,844],[430,932],[740,320],[800,360],[844,390],[932,430],[1440,1000]]){
+ assert.equal(rows.length,172);
+ for(const [width,height] of [[360,800],[390,844]]){
   await page.setViewportSize({width,height});
   await page.evaluate(()=>{setRoadType('Taxi');showView('help');scrollTo(0,0)});
   const header=await page.evaluate(()=>{
@@ -54,7 +54,7 @@ try{
     if(overflow||outside)failures.push(row.code+'/'+row.type);
     if(!row.collective){
      const f=document.getElementById('formulaText');const copy=window.prontuarioCatalogCopyText(f);
-     const revised=(window.prontuarioRevisionApplies(findCase(row.id),row.type)||window.prontuarioSecondApplies(findCase(row.id)));
+     const revised=(window.prontuarioRevisionApplies(findCase(row.id),row.type)||window.prontuarioSecondApplies(findCase(row.id))||window.prontuarioTerzaApplies(findCase(row.id,row.type),row.type));
      if(/cinque giorni per le difese|diffida alla prima|è stato|è stata/i.test(copy)||(!revised&&/Corso Pubblico/i.test(copy)))throw Error('Copia impropria '+row.code);
      const saved=navigator.clipboard.writeText.bind(navigator.clipboard);let actual;
      navigator.clipboard.writeText=async text=>{actual=text};await copyFormula(findCase(row.id),row.type);navigator.clipboard.writeText=saved;

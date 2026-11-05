@@ -1,0 +1,996 @@
+{
+  "localOnly": true,
+  "profileEphemeral": true,
+  "checkedAt": "2026-11-05T04:11:39.773Z",
+  "variants": [
+    {
+      "code": "I09",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R11",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R13",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "R13",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 1
+    },
+    {
+      "code": "R13",
+      "type": "Taxi",
+      "choice": 2,
+      "acts": 1
+    },
+    {
+      "code": "R14",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R14",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "R14",
+      "type": "Taxi",
+      "choice": 2,
+      "acts": 0
+    },
+    {
+      "code": "R15",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R19",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R20",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R20",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "R21",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R26",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "R26",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 1
+    },
+    {
+      "code": "R28",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G10",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G11",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G12",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 2
+    },
+    {
+      "code": "G12",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 2
+    },
+    {
+      "code": "G12",
+      "type": "Taxi",
+      "choice": 2,
+      "acts": 2
+    },
+    {
+      "code": "G13",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G14",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G19",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "G20",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G21",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G25",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G27",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G27",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "G28-01",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G28-02",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G28-04",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G30",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G31",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G32",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G33",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G33",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "G35",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G35",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "G37",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G38",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G39",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G40",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G41",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G41",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "G42",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G42",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "G44",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "G44",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 1
+    },
+    {
+      "code": "G45",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G45",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "G53",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G54",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R02",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R03",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R05",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R06",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R09",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R10",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R12",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R22",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R23",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R24",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R25",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R25",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "R27",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R27",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "R30",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R35",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R35",
+      "type": "Taxi",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "R37",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R38",
+      "type": "Taxi",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G10",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G11",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G12",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 2
+    },
+    {
+      "code": "G12",
+      "type": "NCC",
+      "choice": 1,
+      "acts": 2
+    },
+    {
+      "code": "G12",
+      "type": "NCC",
+      "choice": 2,
+      "acts": 2
+    },
+    {
+      "code": "G13",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G14",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G19",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "G20",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G21",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G25",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G27",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G28",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G30",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G31",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G32",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G35",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G35",
+      "type": "NCC",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "G37",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G38",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G39",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G40",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G41",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G41",
+      "type": "NCC",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "G42",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G42",
+      "type": "NCC",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "G44",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "G45",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G45",
+      "type": "NCC",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "G53",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G54",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "I06",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 2
+    },
+    {
+      "code": "I06",
+      "type": "NCC",
+      "choice": 1,
+      "acts": 2
+    },
+    {
+      "code": "R02",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R03",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R05",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R06",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R09",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R10",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R12",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R22",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R23",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R24",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R25",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R25",
+      "type": "NCC",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "R27",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R27",
+      "type": "NCC",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "R30",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "I02",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 2
+    },
+    {
+      "code": "I04",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "I05",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R04",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R32",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R32",
+      "type": "NCC",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "R33-01",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "R33-02",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "R33-03",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "R33-04",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "R34",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "N01",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 2
+    },
+    {
+      "code": "N01",
+      "type": "NCC",
+      "choice": 1,
+      "acts": 2
+    },
+    {
+      "code": "N02",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "N02",
+      "type": "NCC",
+      "choice": 1,
+      "acts": 1
+    },
+    {
+      "code": "N03",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "N04",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "N05",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "N06",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "N07",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "N08",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "N09",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "N10",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "N10",
+      "type": "NCC",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "N11",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "N12",
+      "type": "NCC",
+      "choice": 0,
+      "acts": 2
+    }
+  ],
+  "removedSearch": [
+    {
+      "code": "R16",
+      "type": "Taxi",
+      "results": 0
+    },
+    {
+      "code": "T01",
+      "type": "Taxi",
+      "results": 0
+    },
+    {
+      "code": "G15",
+      "type": "Taxi",
+      "results": 0
+    },
+    {
+      "code": "G28-03",
+      "type": "Taxi",
+      "results": 0
+    },
+    {
+      "code": "I08",
+      "type": "Taxi",
+      "results": 0
+    },
+    {
+      "code": "R29",
+      "type": "Taxi",
+      "results": 0
+    },
+    {
+      "code": "R31",
+      "type": "Taxi",
+      "results": 0
+    },
+    {
+      "code": "R36",
+      "type": "Taxi",
+      "results": 0
+    },
+    {
+      "code": "G51",
+      "type": "Taxi",
+      "results": 0
+    },
+    {
+      "code": "R16",
+      "type": "NCC",
+      "results": 0
+    },
+    {
+      "code": "T01",
+      "type": "NCC",
+      "results": 0
+    },
+    {
+      "code": "G15",
+      "type": "NCC",
+      "results": 0
+    },
+    {
+      "code": "G28-03",
+      "type": "NCC",
+      "results": 0
+    },
+    {
+      "code": "I08",
+      "type": "NCC",
+      "results": 0
+    },
+    {
+      "code": "R29",
+      "type": "NCC",
+      "results": 0
+    },
+    {
+      "code": "R31",
+      "type": "NCC",
+      "results": 0
+    },
+    {
+      "code": "R36",
+      "type": "NCC",
+      "results": 0
+    },
+    {
+      "code": "G51",
+      "type": "NCC",
+      "results": 0
+    }
+  ],
+  "firstInstall": {
+    "version": "1.8.14",
+    "build": "53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e",
+    "manifest": "http://127.0.0.1:8000/manifest.webmanifest",
+    "worker": "53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e",
+    "coreCaches": [
+      "prontuario-core-53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e"
+    ]
+  },
+  "realClipboard": true,
+  "offlineRestart": {
+    "version": "1.8.14",
+    "build": "53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e",
+    "pdfStatus": 200,
+    "pdfBytes": 5791646,
+    "pdfSHA256": "1cc65c8dab3193109c07d9fe9043db702709bd757f7e6b1c9b2274973432fc79",
+    "summaryStatus": 200,
+    "code": "N10",
+    "logos": true
+  },
+  "jsErrors": []
+}

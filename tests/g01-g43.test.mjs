@@ -1,5 +1,6 @@
+// Regressione storica fissata alla fotografia 1.8.13; suite corrente: terza-parte.test.mjs.
 import assert from 'node:assert/strict';
-import fs from 'node:fs';
+import fs from './historical-fs.mjs';
 import vm from 'node:vm';
 import {createHash} from 'node:crypto';
 const root=new URL('../',import.meta.url),read=p=>fs.readFileSync(new URL(p,root),'utf8');

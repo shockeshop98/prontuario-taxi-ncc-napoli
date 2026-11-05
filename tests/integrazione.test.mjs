@@ -1,6 +1,7 @@
+// Regressione storica fissata alla fotografia 1.8.13; suite corrente: terza-parte.test.mjs.
 import {verifyOriginal} from './private-originals.mjs';
 // Verifica i presupposti nuovi, la conservazione della revisione locale e le fonti originali.
-import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';
+import fs from './historical-fs.mjs';import vm from 'node:vm';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'),d=JSON.parse(read('index.html').match(/^const DATA=(.*);$/m)[1]),before=JSON.parse(read('revisione/1.8.11/prima-data.json')),initial=JSON.parse(read('revisione/1.8.11/stato-iniziale.json')),w={};
 for(const n of ['static-demos','static-field-suggestions','operative-rules','static-demo-ui','taxi-collettivo','static-catalog','static-catalog-ui','revision-g01-g43','revision-seconda-parte','revision-pausa-caldo','revision-equini-835'])vm.runInNewContext(read(`scripts/${n}.js`),{window:w});
 const card=c=>d.catalog.find(i=>i.code===c),view=c=>w.prontuarioRevisionView(card(c),card(c).scope==='equina'?'Trazione animale':'Taxi'),changed=new Set(w.prontuarioIntegrationCodes),moneyChanged=new Set(['R39','R40','R41','R42','G49']);

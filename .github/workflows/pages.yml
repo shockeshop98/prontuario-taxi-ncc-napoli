@@ -18,12 +18,15 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 24
           cache: npm
       - run: npm ci
       - run: npm test
+      - run: npm run test:historical
       - name: Prepara solo i file pubblicabili
         run: node scripts/package-pages.mjs
       - uses: actions/configure-pages@v5

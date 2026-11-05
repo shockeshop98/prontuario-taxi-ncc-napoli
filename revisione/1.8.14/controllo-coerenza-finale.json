@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-11-05T04:28:11.334Z",
+  "version": {
+    "version": "1.8.14",
+    "updated_at": "2026-11-04",
+    "build_id": "53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e"
+  },
+  "summary": {
+    "pwa": "1.8.14",
+    "pdf": "7.16",
+    "build": "53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e",
+    "catalogo": 112,
+    "schede": 172,
+    "servizi": [
+      {
+        "servizio": "Taxi",
+        "schede": 103
+      },
+      {
+        "servizio": "NCC",
+        "schede": 61
+      },
+      {
+        "servizio": "Trazione animale",
+        "schede": 8
+      }
+    ],
+    "pagine_pdf": 193,
+    "indici": 6,
+    "destinazioni": 172,
+    "richieste": 63,
+    "esiti": {
+      "Applicata": 31,
+      "Adattata con motivazione": 32
+    },
+    "ncc_verificate": 70,
+    "ncc_attive": 61,
+    "pdf_sha256": "1cc65c8dab3193109c07d9fe9043db702709bd757f7e6b1c9b2274973432fc79"
+  },
+  "allEvidenceMatchesFinalBuild": true,
+  "allOfflinePDFsMatchFinalSHA256": true,
+  "localOnly": true
+}

@@ -1,5 +1,5 @@
 // prepare prima del deploy, verify dopo, mantenendo RELEASE_VERIFY_DIR.
-// Il profilo effimero conserva la vera installazione pubblica 1.8.9.
+// Il profilo effimero conserva la vera installazione pubblica 1.8.13.
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
@@ -18,7 +18,8 @@ const page=await context.newPage();for(const p of context.pages())if(p!==page)aw
 const errors=[];page.on('pageerror',e=>errors.push(e.message));
 async function save(p,index){
  await p.evaluate(()=>{showView('sources');renderSources()});await p.locator(`[data-save-source="${index}"]`).click();
- await p.waitForFunction(i=>document.querySelector(`[data-source-state="${i}"]`).textContent.includes('Salvato nella PWA'),index,{timeout:60000});
+ await p.waitForFunction(i=>/Salvato nella PWA|Salvataggio non riuscito/.test(document.querySelector(`[data-source-state="${i}"]`).textContent),index,{timeout:75000});
+ assert.match(await p.locator(`[data-source-state="${index}"]`).innerText(),/Salvato nella PWA/,'Fonte '+index);
  assert.equal(await p.evaluate(i=>sourceCached(i),index),true);
 }
 async function offlinePDF(p){
@@ -30,11 +31,14 @@ try{
  if(mode==='prepare'){
   await page.goto(base,{waitUntil:'networkidle'});await page.waitForFunction(()=>navigator.serviceWorker.controller);
   const before=await page.evaluate(async()=>({release:RELEASE,build:BUILD_ID,worker:await activeWorkerBuild(await navigator.serviceWorker.getRegistration()),pdfVersion:DATA.prontuario.version,pdfPages:DATA.sources[3].pages.length}));
-  assert.equal(before.release,'1.8.9');assert.equal(before.build,before.worker);
-  await save(page,0);await save(page,2);await save(page,3);
+  assert.equal(before.release,'1.8.13');assert.equal(before.build,before.worker);
+  for(let i=0;i<16;i++){console.log('Prepara allegato',i);if(!await page.evaluate(n=>sourceCached(n),i))await save(page,i);}
+  before.pdfSHA256=await page.evaluate(async()=>{const b=await(await fetch(sourceURL(3))).arrayBuffer();return [...new Uint8Array(await crypto.subtle.digest('SHA-256',b))].map(n=>n.toString(16).padStart(2,'0')).join('')});
+  before.savedSources=await page.evaluate(async()=>{const rows=[];for(let i=0;i<DATA.sources.length;i++){const bytes=await(await fetch(sourceURL(i))).arrayBuffer();rows.push({index:i,path:DATA.sources[i].url,cached:await sourceCached(i),sha256:[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(n=>n.toString(16).padStart(2,'0')).join('')});}return rows;});assert.ok(before.savedSources.every(s=>s.cached));
+  assert.equal(before.pdfVersion,'7.15');assert.equal(before.pdfPages,211);assert.equal(before.pdfSHA256,'c69d81aa5b4e3af8a81dc7e2da28a699b3cbf8586d464f2fa860ed9305273942');
   await context.setOffline(true);await page.reload();assert.equal(await page.evaluate(()=>BUILD_ID),before.build);
-  before.saved=await page.evaluate(async()=>({reg:await sourceCached(0),excludedEGAF:await sourceCached(2),pdf:await sourceCached(3)}));
-  assert.deepEqual(before.saved,{reg:true,excludedEGAF:true,pdf:true});
+  before.saved=await page.evaluate(async()=>({reg:await sourceCached(0),provenance:await sourceCached(2),pdf:await sourceCached(3)}));
+  assert.deepEqual(before.saved,{reg:true,provenance:true,pdf:true});
   fs.writeFileSync(resolve(dir,'before.json'),JSON.stringify(before,null,2)+'\n');console.log('PWA precedente preparata',before);
  }else{
   const before=JSON.parse(fs.readFileSync(resolve(dir,'before.json'),'utf8'));
@@ -49,10 +53,11 @@ try{
    assert.equal(installed,version.build_id);const checkpoint=JSON.parse(fs.readFileSync(resolve(dir,'upgrade-checkpoint.json')));
    assert.equal(checkpoint.from,before.build);assert.equal(checkpoint.to,version.build_id);await context.setOffline(false);
   }
-  report={url:base,checkedAt:new Date().toISOString(),before,expected:version};
+  report={localOnly:false,url:base,checkedAt:new Date().toISOString(),before,expected:version};
   report.current=await page.evaluate(async()=>({release:RELEASE,build:BUILD_ID,worker:await activeWorkerBuild(await navigator.serviceWorker.getRegistration()),pdfVersion:DATA.prontuario.version,pdfPages:DATA.sources[3].pages.length,regSaved:await sourceCached(0),manualSaved:await sourceCached(3),removedSourceCached:await Promise.all((await caches.keys()).filter(n=>n.startsWith('prontuario-docs-')).map(async n=>!!await(await caches.open(n)).match(new URL('allegati/EGAF_Art86_originale.pdf',location.href))))}));
-  assert.equal(report.current.release,'1.8.13');assert.equal(report.current.build,version.build_id);assert.equal(report.current.worker,version.build_id);
-  assert.equal(report.current.pdfVersion,'7.15');assert.equal(report.current.pdfPages,211);assert.equal(report.current.regSaved,true);assert.ok(report.current.removedSourceCached.every(v=>!v));
+  assert.equal(report.current.release,'1.8.14');assert.equal(report.current.build,version.build_id);assert.equal(report.current.worker,version.build_id);
+  assert.equal(report.current.pdfVersion,'7.16');assert.equal(report.current.pdfPages,193);assert.equal(report.current.regSaved,true);
+  report.retainedSources=await page.evaluate(async previous=>{const result=[];for(const source of previous.filter(s=>s.index!==3)){const cached=await sourceCached(source.index);if(!cached)throw Error('Allegato invariato perso '+source.path);const bytes=await(await fetch(sourceURL(source.index))).arrayBuffer();const hash=[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(n=>n.toString(16).padStart(2,'0')).join('');if(hash!==source.sha256)throw Error('Hash allegato '+source.path);result.push({path:source.path,cached,sha256:hash});}return result;},before.savedSources);assert.equal(report.retainedSources.length,15);assert.ok(report.current.removedSourceCached.every(v=>!v));
   const checkpoint=JSON.parse(fs.readFileSync(resolve(dir,'upgrade-checkpoint.json')));report.migration=checkpoint.migration||report.current;assert.equal(report.migration.manualSaved,false);checkpoint.migration=report.migration;fs.writeFileSync(resolve(dir,'upgrade-checkpoint.json'),JSON.stringify(checkpoint,null,2)+'\n');
   // La richiesta HTTP evita di confondere cache browser e contenuto pubblicato.
   const files=JSON.parse(fs.readFileSync(resolve(root,'pages-files.json'),'utf8'));
@@ -62,13 +67,13 @@ try{
    const bytes=await r.body();assert.equal(sha(bytes),sha(fs.readFileSync(resolve(root,path))),path);report.publicFiles.push({path,sha256:sha(bytes),bytes:bytes.length});
    if(path==='allegati/Prontuario_Taxi_NCC_Napoli.pdf')pdfBytes=bytes;
   }
-  fs.writeFileSync(resolve(dir,'Prontuario_pubblico_7.15.pdf'),pdfBytes);
+  fs.writeFileSync(resolve(dir,'Prontuario_pubblico_7.16.pdf'),pdfBytes);
   const pdf=await getDocument({data:new Uint8Array(pdfBytes),standardFontDataUrl:resolve(root,'node_modules/pdfjs-dist/standard_fonts')+'/'}).promise;
-  assert.equal(pdf.numPages,211);assert.match((await pdf.getMetadata()).info.Title,/7\.15/);
-  const texts=[];for(let n=1;n<=pdf.numPages;n++)texts[n]=(await(await pdf.getPage(n)).getTextContent()).items.map(i=>i.str).join(' ');
+  assert.equal(pdf.numPages,193);assert.match((await pdf.getMetadata()).info.Title,/7\.16/);
+  const texts=[];for(let n=1;n<=pdf.numPages;n++){texts[n]=(await(await pdf.getPage(n)).getTextContent()).items.map(i=>i.str).join(' ');assert.doesNotMatch(texts[n],/\b(?:c\.|comma)\s*\d+(?:-(?:bis|ter|quater))?\s+([a-df-z])\b(?!-)/,'Lettera senza let. PDF '+n);assert.doesNotMatch(texts[n],/let\.\s*let\./);}
   const data=await page.evaluate(()=>DATA);let pdfLinks=0;
   for(const index of data.manualIndex){const links=await(await pdf.getPage(index.page)).getAnnotations();assert.equal(links.length,index.ids.length);for(let n=0;n<links.length;n++){const type=index.type==='equina'?'Trazione animale':index.type==='ncc'?'NCC':'Taxi';assert.equal((await pdf.getPageIndex(links[n].dest[0]))+1,data.staticPages[index.ids[n]+'/'+type]);pdfLinks++;}}
-  assert.equal(pdfLinks,190);report.pdf={version:'7.15',pages:211,sha256:sha(pdfBytes),indexDestinations:pdfLinks};
+  assert.equal(pdfLinks,172);report.pdf={version:'7.16',pages:193,sha256:sha(pdfBytes),indexDestinations:pdfLinks};
   report.mobile=[];
   for(const width of [360,390]){
    await page.setViewportSize({width,height:844});await page.evaluate(()=>{setRoadType('Taxi');showView('help')});
@@ -81,6 +86,7 @@ try{
      if(!openSanction(item.id,type))throw Error('Apertura '+item.code);
      if(document.documentElement.scrollWidth>innerWidth+1)throw Error('Overflow '+item.code);
      const target=casePDFPage(item,type);if(target!==STATIC_LAYOUT.pages[item.id+'/'+type]||documentURL(3,target).hash!=='#page='+target)throw Error('PDF '+item.code);
+     const body=document.getElementById('sanctionScreen').innerText;if(/\b(?:c\.|comma)\s*\d+(?:-(?:bis|ter|quater))?\s+([a-df-z])\b(?!-)/.test(body))throw Error('Lettera senza let. '+item.code+'/'+type);
      const row={code:item.code,type,page:target};
      if(item.kind!=='collective-reference'){
       const f=document.getElementById('formulaText');row.parts=[...f.querySelectorAll('[data-copy-text]')].map(e=>e.dataset.copyText);row.hints=[...f.querySelectorAll('.staticPointHints')].map(e=>e.textContent);row.expected=window.prontuarioCatalogCopyText(f);
@@ -89,10 +95,10 @@ try{
      }result.push(row);
     }return result;
    });
-   assert.equal(all.length,190);assert.equal(all.filter(r=>r.copy).length,189);
+   assert.equal(all.length,172);assert.equal(all.filter(r=>r.copy).length,171);
    for(const row of all){assert.ok(norm(texts[row.page]).includes(norm(row.code)),row.code);let text=norm(texts[row.page]);for(const hint of row.hints||[])text=text.replaceAll(norm(hint),'');for(const part of row.parts||[])assert.ok(text.includes(norm(part)),`Copia/PDF ${row.code}/${row.type}`);}
    await page.screenshot({path:resolve(dir,`pubblico-${width}.png`),fullPage:true});
-   report.mobile.push({width,cards:all.length,copies:189,destinations:190,overflow:false,header});
+   report.mobile.push({width,cards:all.length,copies:171,destinations:172,overflow:false,header});
   }
   report.cases=[];
   for(const code of ['R44','R45','R46']){
@@ -105,10 +111,10 @@ try{
   for(const [query,type,code]of [['sei ore giornaliere','Trazione animale','R44'],['capienza carrozza','Trazione animale','R45'],['scarpe protettive','Trazione animale','R46'],['pausa','Taxi','G46'],['caldo','Trazione animale','R43'],['ricevuta predeterminata','Taxi','G28-02']]){
    await page.evaluate(t=>{setRoadType(t);showView('help')},type);await page.locator('#roadSearch').fill(query);await page.locator('#roadSearch').press('Enter');assert.ok((await page.locator('#roadResults .codeTag').allTextContents()).includes(code),query);report.search.push({query,type,code});
   }
-  await page.evaluate(()=>{setRoadType('Taxi');showView('help')});await page.locator('#roadSearch').fill('G51');await page.locator('#roadSearch').press('Enter');assert.deepEqual(await page.locator('#roadResults .codeTag').allTextContents(),[]);
-  const excluded=['allegati/EGAF_Art86_originale.pdf','verbale_cartaceo.jpg','diciture prontuario seconda parte.txt','ESEMPI_RICEVUTE_TARIFFE_1.8.2.md','revisione/fonti-integrative/WhatsApp Image 2026-10-21 at 23.20.24.jpeg','revisione/fonti-integrative/WhatsApp Image 2026-10-23 at 09.53.07.jpeg','revisione/1.8.13/prima-data.json'];
+  report.removedSearch=[];for(const type of ['Taxi','NCC'])for(const code of ['R16','T01','G15','G28-03','I08','R29','R31','R36','G51']){const results=await page.evaluate(({type,code})=>rankedSearch(relevantCards(type),code).map(i=>i.code),{type,code});assert.deepEqual(results,[],code+'/'+type);report.removedSearch.push({code,type,results:0});}
+  const excluded=['allegati/EGAF_Art86_originale.pdf','verbale_cartaceo.jpg','diciture prontuario seconda parte.txt','ESEMPI_RICEVUTE_TARIFFE_1.8.2.md','revisione/fonti-integrative/WhatsApp Image 2026-10-21 at 23.20.24.jpeg','revisione/fonti-integrative/WhatsApp Image 2026-10-23 at 09.53.07.jpeg','revisione/1.8.13/prima-data.json','revisione testi terza parte.txt','revisione/1.8.14/prima-data.json','revisione/1.8.14/prima-viste.json','revisione/1.8.14/stato-iniziale.json','revisione/1.8.14/richieste-iniziali.json','revisione/1.8.14/esiti-txt.json','revisione/1.8.14/base-1.8.13/index.html','revisione/1.8.14/fonti/CdS-art85.html'];
   report.excluded=[];for(const path of excluded){const r=await context.request.get(new URL(path,base).href);assert.equal(r.status(),404,path);report.excluded.push({path,status:r.status()});}
-  await save(page,2);await save(page,3);await save(page,15);await context.setOffline(true);await page.reload();await page.waitForSelector('#roadSearch');assert.equal(await page.evaluate(()=>BUILD_ID),version.build_id);report.upgradedOffline=await offlinePDF(page);
+  await save(page,2);await save(page,3);await save(page,15);await save(page,16);await context.setOffline(true);await page.reload();await page.waitForSelector('#roadSearch');assert.equal(await page.evaluate(()=>BUILD_ID),version.build_id);report.upgradedOffline=await offlinePDF(page);
   const range=await page.evaluate(async()=>{const r=await fetch(sourceURL(3),{headers:{Range:'bytes=0-99'}});return {status:r.status,length:(await r.arrayBuffer()).byteLength};});
   assert.deepEqual(range,{status:206,length:100});report.upgradedOffline.range=range;
   await pdf.destroy();assert.deepEqual(errors,[]);report.jsErrors=errors;

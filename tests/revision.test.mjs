@@ -1,6 +1,7 @@
+// Regressione storica fissata alla fotografia 1.8.13; suite corrente: terza-parte.test.mjs.
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
-import {readFile} from 'node:fs/promises';
+import {readFile} from './historical-fs.mjs';
 import {resolve} from 'node:path';
 import vm from 'node:vm';
 import {getDocument} from 'pdfjs-dist/legacy/build/pdf.mjs';

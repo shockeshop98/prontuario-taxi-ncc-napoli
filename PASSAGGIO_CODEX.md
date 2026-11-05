@@ -2,7 +2,11 @@
 
 Proprietario: Antonio Balzano, Agente Polizia Municipale Napoli, U.O. San Lorenzo.
 
-## Stato corrente — 23 ottobre 2026, O.S.835/2014
+## Stato corrente — revisione 1.8.14 / PDF 7.16
+
+Pubblicazione autorizzata della revisione locale approvata, senza ulteriori modifiche normative: 172 schede, 193 pagine, 172 destinazioni e 171 formule; 63 richieste con esito, matrice di tutte le 70 viste NCC iniziali. Rapporto corrente `RAPPORTO_REVISIONE_1.8.14.md`; le sezioni seguenti conservano gli stati storici. Test correnti `npm test`, regressioni storiche `npm run test:historical` su oggetti Git fissati alla precedente pubblicazione, senza nuove copie iniziali o input riservati nel repository. Workflow con cronologia completa e entrambe le suite. Pubblicazione Pages soltanto tramite `pages-files.json`. Il nuovo PDF va salvato nuovamente per l'uso offline.
+
+## Stato storico — 23 ottobre 2026, O.S.835/2014
 
 PWA1.8.13/PDF7.15: pubblicazione autorizzata; esiti effettivi nel rapporto1.8.13. R44–R46 aggiunte su prescrizioni confermate esplicitamente dall’autore; non richiedere riconferma. R44 oltre6ore giornaliere, R45 passeggeri oltre capienza, R46 assenza scarpe protettive. Integrale O.S.835/17giugno2014 e sanzione specifica NON acquisiti; nessun punto o eccezione inventati. Base/importi generali TUEL condizionati ai presupposti, distinti dalla conferma autore: art.7 potere regolamentare, art.7-bis€25–500, PMR€50 ex art.16 L.689 entro60giorni salvo diversa delibera Giunta non acquisita. Nessun ritiro/punto/misura CdS automatici; specialità ex art.9 e condotte autonome prima di cumuli.
 

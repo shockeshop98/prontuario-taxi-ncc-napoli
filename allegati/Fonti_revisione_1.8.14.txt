@@ -1,0 +1,34 @@
+SINTESI DELLE VERIFICHE — 4 NOVEMBRE 2026
+PWA 1.8.14 / PDF 7.16
+
+Nota editoriale di consultazione. Non è il TXT di lavoro dell’autore né una riproduzione degli atti. Le prescrizioni confermate dall’autore restano distinte dalle fonti normative.
+
+NCC E TAXI
+CdS artt.85 e86: obblighi, soggetti e fasce distinti. Art.85 c.4-bis: sanzione al titolare dell’autorizzazione, fasce sul medesimo veicolo nel quinquennio. Artt.85 c.4-ter e86 c.3-bis richiedono i rispettivi presupposti, non la sola presenza di una regola comunale. La circolare Interno13498 del05/05/2025, p.3 nota6, indica la decorrenza delle modifiche al 01/05/2025.
+https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art85!vig=2026-11-04
+https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art86!vig=2026-11-04
+
+DOCUMENTI
+Art.180 c.3: licenza o autorizzazione prescritta; sanzione c.7, euro42–173, PMR42, entro 5giorni29,40, oltre 60giorni86,50. Invito c.8 escluso se il documento è verificabile in banche dati pubbliche accessibili, salvo impossibilità tecnica. Non equivale all’assenza del titolo.
+https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art180!vig=2026-11-04
+
+CAMPANIA
+Testo coordinato L.R.10/2024, incluse modifiche L.R.7/2026: trasferimenti ricettivi art.13-bis; contrassegno NCC art.19-bis, senza sostituire i segni nazionali; per i titoli già esistenti termine180 giorni dall’11/08/2026, fino al 07/02/2027, con disciplina della tempestiva richiesta di validazione. Autobus: SCIA e conservazione dei titoli precedenti fino al 31/12/2026. Art.27 distingue dimenticanza del conducente e omissione documentale dell’impresa. Art.11 c.5: perfezionamento comunicazione del sostituto taxi entro 24 ore. Ruolo autovetture: art.17, non i requisiti professionali autobus.
+https://www.regione.campania.it/normativa/item.php?pgCode=G19I231R2073&refresh=on
+https://www.regione.campania.it/normativa/item.php?pgCode=G19I231R2150&refresh=on
+
+FOGLIO DI SERVIZIO E RIMESSA
+Corte cost.56/2020: eliminato il rientro generalizzato dopo ogni corsa. Corte137/2024: rimosso il blocco indefinito delle nuove autorizzazioni in attesa del registro. Corte206/2024: non elimina la necessità del titolo NCC. Corte163/2025: annullamento di specifiche prescrizioni del D.I.226/2024. Il Garante23/09/2026 dà conto dell’annullamento integrale del decreto da parte del TAR Lazio e valuta un nuovo schema: non è un nuovo decreto efficace. Nuovo atto sostitutivo non acquisito nella revisione; N11 resta relazione prima della qualificazione concreta. La vicenda veneta conclusa con ordinanza14/2026 non estende una deroga regionale alla Campania.
+https://www.cortecostituzionale.it/scheda-pronuncia/2020/56
+https://www.cortecostituzionale.it/scheda-pronuncia/2024/137
+https://www.cortecostituzionale.it/scheda-pronuncia/2024/206
+https://www.cortecostituzionale.it/scheda-pronuncia/2025/163
+https://www.cortecostituzionale.it/scheda-pronuncia/2026/14
+https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10302983
+
+LIMITI E COORDINAMENTO
+Regolamento C.C.80/2005 integralmente riletto; nuovo regolamento comunale efficace non acquisito. Un parere su uno schema non ne prova l’approvazione. Per le violazioni comunali coordinare art.7-bis TUEL, art.21 c.5 L.R.10/2024 e L.689/1981 artt.3,6,9,16; importi generali25–500 e PMR50, salvo disposizione speciale o diversa delibera di Giunta. Nessuno sconto 30%, misura CdS o cumulo automatico.
+Restano non acquisiti: integrale e sanzione specifica O.S.835/2014 (prescrizioni R44–R46 confermate dall’autore), originale ufficiale ordinanza pausa2010, integrali D.D.72/2012 e135/2010. La foto acquisita sulla pausa conserva la sua attribuzione.
+R39–R42: destinatario Ufficio Corso Pubblico confermato dall’autore come indicazione organizzativa; termine di cinque giorni distinto dal destinatario. Ogni attestazione di ritiro o trasmissione compiuti richiede l’attività materiale.
+
+Rapporto completo, tabella di tutte le richieste e matrice delle schede NCC: revisione/1.8.14 nel repository locale. I materiali riservati e il TXT di lavoro non sono allegati pubblicabili.

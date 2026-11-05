@@ -43,3 +43,20 @@ prova-android/
 /revisione/fonti-integrative/*.jpeg
 /revisione/fonti-integrative/od_160419_0463_taxi_collettivo_2019 (1).pdf
 /_site/
+
+# Input della terza revisione: originale di lavoro, non allegato pubblico.
+/revisione testi terza parte.txt
+
+# Pacchetto generato precedente, conservato localmente.
+/_site.*/
+
+# Fotografie iniziali, input e fonti grezze della revisione: solo locali.
+/revisione/1.8.14/base-1.8.13/
+/revisione/1.8.14/stato-iniziale.json
+/revisione/1.8.14/prima-data.json
+/revisione/1.8.14/prima-viste.json
+/revisione/1.8.14/richieste-iniziali.*
+/revisione/1.8.14/esiti-txt.json
+/revisione/1.8.14/acquisizioni*.json
+/revisione/1.8.14/fonti/
+/revisione/1.8.14/controllo-repository.json

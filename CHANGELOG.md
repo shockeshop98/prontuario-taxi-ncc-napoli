@@ -1,5 +1,11 @@
 # Registro aggiornamenti
 
+## 1.8.14 — revisione approvata del 4 novembre 2026
+
+- 63 richieste con esito motivato, 70 viste NCC iniziali controllate; 172 schede correnti, 193 pagine PDF 7.16, 172 destinazioni e 171 formule copiabili. Riferimenti editoriali con “let.”, alternative e attestazioni separate.
+- Conservati i limiti documentali, le precisazioni TUEL, Corso Pubblico, pausa Taxi, caldo equini e rimozione G51. Otto ulteriori codici ritirati senza rinumerazione; riduzione complessiva di 18 viste. Dettagli nel rapporto 1.8.14.
+- Pubblicazione autorizzata senza nuove modifiche normative; test correnti e storici anche nella copia priva dei nuovi input riservati. Pacchetto Pages su lista esplicita e originali locali conservati.
+
 ## 1.8.13 — O.S.835/2014, prescrizioni confermate dall’autore
 
 - R44–R46 operative: massimo6ore giornaliere, capienza autorizzata e scarpe protettive. Formule brevi con fatti e fonti; integrale e sanzione specifica non acquisiti.

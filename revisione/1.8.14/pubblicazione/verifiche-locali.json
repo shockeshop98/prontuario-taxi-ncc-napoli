@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-11-05T04:51:29.403305+00:00",
+  "localOnly": true,
+  "version": {
+    "version": "1.8.14",
+    "updated_at": "2026-11-04",
+    "build_id": "53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e"
+  },
+  "counts": {
+    "cards": 172,
+    "pages": 193,
+    "destinations": 172,
+    "copyFormulas": 171,
+    "requests": 63,
+    "nccInitialViews": 70
+  },
+  "tests": {
+    "localCurrent": "PASS",
+    "localHistorical13Suites": "PASS",
+    "cleanCurrent": "PASS",
+    "cleanHistorical13Suites": "PASS",
+    "localUpgradeFromGit": "PASS"
+  },
+  "package": {
+    "paths": 189,
+    "explicitSelection": 84,
+    "forbiddenPaths": 0,
+    "excludedOriginalsKeptLocally": true,
+    "reservedFilesAbsentInCleanClone": true,
+    "fiscalIdentifiersInNewText": 0,
+    "pdfSHA256": "1cc65c8dab3193109c07d9fe9043db702709bd757f7e6b1c9b2274973432fc79"
+  },
+  "mandatoryFileFailureProbe": {
+    "path": "allegati/Fonti_revisione_1.8.14.txt",
+    "exitCode": 1,
+    "failedAsRequired": true,
+    "restored": true
+  },
+  "legalContentAndPDFChangedDuringPublication": false
+}

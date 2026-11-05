@@ -1,0 +1,588 @@
+[
+  {
+    "id": "TXT-GENERALE",
+    "codice": "Tutte",
+    "esito": "Applicata",
+    "motivazione": "Le due diciture sono eliminate dalle schede correnti; presupposti specifici nelle note, fonti testuali e rapporti storici preservati.",
+    "schede_interessate": []
+  },
+  {
+    "id": "TXT-R11",
+    "codice": "R11",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "R11/Taxi p.63"
+    ]
+  },
+  {
+    "id": "TXT-R13",
+    "codice": "R13",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Documenti distinti in scelte alternative. Art.180 cc.3/7 per autorizzazione o licenza; altro documento richiede la propria base. Invito soltanto se dovuto e realmente impartito.",
+    "schede_interessate": [
+      "R13/Taxi p.64"
+    ]
+  },
+  {
+    "id": "TXT-R14",
+    "codice": "R14",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Formula al concessionario e alternative applicate. Il richiesto art.86 c.3-bis non sanziona la sola assegnazione senza guida: regime comunale TUEL. Art.18 c.8 let. c: decadenza riservata all’ufficio.",
+    "schede_interessate": [
+      "R14/Taxi p.65"
+    ]
+  },
+  {
+    "id": "TXT-R15",
+    "codice": "R15",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Formula al concessionario applicata. La concessione a terzi non è guida taxi ex art.86 c.3-bis: regime TUEL; decadenza ex art.18 c.8 let. d riservata all’ufficio.",
+    "schede_interessate": [
+      "R15/Taxi p.66"
+    ]
+  },
+  {
+    "id": "TXT-R16",
+    "codice": "R16",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Rimossa da tutte le viste, indice, ricerca e PDF. Non attestata l’abrogazione normativa del comma: ordinanze successive da distinguere dal ritiro editoriale.",
+    "schede_interessate": []
+  },
+  {
+    "id": "TXT-R19",
+    "codice": "R19",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "R19/Taxi p.67"
+    ]
+  },
+  {
+    "id": "TXT-R20",
+    "codice": "R20",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Testo sull’intervento dell’officina per relazione; distinta alternativa con guida e condizione della licenza effettivamente verificate, art.86 c.3-bis e importi. Nessun automatismo dal solo intervento dell’officina.",
+    "schede_interessate": [
+      "R20/Taxi p.68"
+    ]
+  },
+  {
+    "id": "TXT-R21",
+    "codice": "R21",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "R21/Taxi p.69"
+    ]
+  },
+  {
+    "id": "TXT-R26",
+    "codice": "R26",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "R26/Taxi p.70"
+    ]
+  },
+  {
+    "id": "TXT-R28",
+    "codice": "R28",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "R28/Taxi p.71"
+    ]
+  },
+  {
+    "id": "TXT-T01",
+    "codice": "T01",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Rimossa editorialmente; la facoltà del turno aggiuntivo è prevista da L.21/1992 art.10 cc.5-bis/5-quater e art.11 c.6 L.R.10/2024. Rinvii sostituiti dalle norme, senza dichiarare inesistente la facoltà.",
+    "schede_interessate": []
+  },
+  {
+    "id": "TXT-G10",
+    "codice": "G10",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Compagnia e polizza inserite. Eliminato art.193 dai riferimenti e omesso ritiro automatico: difformità contrattuale non prova assenza RCA (Codice assicurazioni art.144). Regime comunale distinto.",
+    "schede_interessate": [
+      "G10/Taxi p.72",
+      "G10/NCC p.116"
+    ]
+  },
+  {
+    "id": "TXT-G11",
+    "codice": "G11",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G11/Taxi p.73",
+      "G11/NCC p.117"
+    ]
+  },
+  {
+    "id": "TXT-G12",
+    "codice": "G12",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Relazione per provvedimento generico e scelte separate per servizio con titolo sospeso o revocato. Artt.86 c.2 Taxi /85 c.4 NCC e misure soltanto con relativi presupposti; ritiro della patente e sequestro attestati solo se eseguiti. Non inserito ritiro generico della licenza per analogia.",
+    "schede_interessate": [
+      "G12/Taxi p.74",
+      "G12/NCC p.118"
+    ]
+  },
+  {
+    "id": "TXT-G13",
+    "codice": "G13",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Formula e ultima vidimazione applicate. Regime comunale TUEL, non art.86 per mera omissione. Non inserito ritiro immediato: gruppo B escluso dall’art.29 c.4.",
+    "schede_interessate": [
+      "G13/Taxi p.75",
+      "G13/NCC p.119"
+    ]
+  },
+  {
+    "id": "TXT-G14",
+    "codice": "G14",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Formula e scadenza applicate; visita comunale distinta dalla revisione CdS. Nessun ritiro automatico del titolo per la sola omissione.",
+    "schede_interessate": [
+      "G14/Taxi p.76",
+      "G14/NCC p.120"
+    ]
+  },
+  {
+    "id": "TXT-G15",
+    "codice": "G15",
+    "esito": "Applicata",
+    "motivazione": "Rimossa da catalogo attivo, varianti, ricerca, indice e PDF; originali e storico conservati.",
+    "schede_interessate": []
+  },
+  {
+    "id": "TXT-G19",
+    "codice": "G19",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Tabella42/29,40/86,50 e soli art.180 cc.3/7 applicati. Il comma3 non copre ogni documento; invito c.8 escluso se documento verificabile in banca dati, salvo impossibilità tecnica. Checkbox solo per invito effettivo.",
+    "schede_interessate": [
+      "G19/Taxi p.77",
+      "G19/NCC p.121"
+    ]
+  },
+  {
+    "id": "TXT-G20",
+    "codice": "G20",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G20/Taxi p.78",
+      "G20/NCC p.122"
+    ]
+  },
+  {
+    "id": "TXT-G21",
+    "codice": "G21",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G21/Taxi p.79",
+      "G21/NCC p.123"
+    ]
+  },
+  {
+    "id": "TXT-G25",
+    "codice": "G25",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G25/Taxi p.80",
+      "G25/NCC p.124"
+    ]
+  },
+  {
+    "id": "TXT-G27",
+    "codice": "G27",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Taxi: scelta tassametro/contachilometri. NCC: solo contachilometri; rinvio art.23 c.3 senza inventare un obbligo di tassametro.",
+    "schede_interessate": [
+      "G27/Taxi p.81",
+      "G27/NCC p.125"
+    ]
+  },
+  {
+    "id": "TXT-G28-01",
+    "codice": "G28-01",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G28-01/Taxi p.82"
+    ]
+  },
+  {
+    "id": "TXT-G28-02",
+    "codice": "G28-02",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Formula abbreviata e art.86 c.3-bis come ipotesi qualificata; la sola omissione della ricevuta prima della partenza resta relazione: integrali D.D.72/2012 e135/2010 non acquisiti. Invio al futuro solo se verbale realmente elevato.",
+    "schede_interessate": [
+      "G28-02/Taxi p.83"
+    ]
+  },
+  {
+    "id": "TXT-G28-03",
+    "codice": "G28-03",
+    "esito": "Applicata",
+    "motivazione": "Rimossa da catalogo attivo, varianti, ricerca, indice e PDF; originali e storico conservati.",
+    "schede_interessate": []
+  },
+  {
+    "id": "TXT-G28-04",
+    "codice": "G28-04",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Formula sui soli campi pertinenti della ricevuta. Importi CdS non attivati per analogia: manca l’integrale dell’atto e la precisa condizione della licenza; relazione e invio eventuale distinti.",
+    "schede_interessate": [
+      "G28-04/Taxi p.84"
+    ]
+  },
+  {
+    "id": "TXT-G30",
+    "codice": "G30",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G30/Taxi p.85",
+      "G30/NCC p.127"
+    ]
+  },
+  {
+    "id": "TXT-G31",
+    "codice": "G31",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G31/Taxi p.86",
+      "G31/NCC p.128"
+    ]
+  },
+  {
+    "id": "TXT-G32",
+    "codice": "G32",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Formula con provvedimento, notifica e24 ore lavorative. Soggetto tenuto alla comunicazione e regime comunale, non art.86/85 al titolare per una mera omissione.",
+    "schede_interessate": [
+      "G32/Taxi p.87",
+      "G32/NCC p.129"
+    ]
+  },
+  {
+    "id": "TXT-G33",
+    "codice": "G33",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Condotte scelte separatamente. Vista NCC esclusa: il rinvio al tassametro non giustifica una fattispecie NCC automatica; le condizioni specifiche del titolo restano in N08.",
+    "schede_interessate": [
+      "G33/Taxi p.88"
+    ]
+  },
+  {
+    "id": "TXT-G35",
+    "codice": "G35",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G35/Taxi p.89",
+      "G35/NCC p.130"
+    ]
+  },
+  {
+    "id": "TXT-G37",
+    "codice": "G37",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G37/Taxi p.90",
+      "G37/NCC p.131"
+    ]
+  },
+  {
+    "id": "TXT-G38",
+    "codice": "G38",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G38/Taxi p.91",
+      "G38/NCC p.132"
+    ]
+  },
+  {
+    "id": "TXT-G39",
+    "codice": "G39",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G39/Taxi p.92",
+      "G39/NCC p.133"
+    ]
+  },
+  {
+    "id": "TXT-G40",
+    "codice": "G40",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G40/Taxi p.93",
+      "G40/NCC p.134"
+    ]
+  },
+  {
+    "id": "TXT-G41",
+    "codice": "G41",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G41/Taxi p.94",
+      "G41/NCC p.135"
+    ]
+  },
+  {
+    "id": "TXT-G42",
+    "codice": "G42",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G42/Taxi p.95",
+      "G42/NCC p.136"
+    ]
+  },
+  {
+    "id": "TXT-G44",
+    "codice": "G44",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Titolare autore del consenso e conducente in altri soggetti distinti, con prova personale. Regime comunale e ritiro del titolo ex art.29 c.4 gruppo C conservato; non art.86 al titolare non conducente. Non inserito ritiro automatico del permesso di sostituzione scaduto: base specifica non acquisita; verificare anche comunicazioni e regime vigente.",
+    "schede_interessate": [
+      "G44/Taxi p.96",
+      "G44/NCC p.137"
+    ]
+  },
+  {
+    "id": "TXT-G45",
+    "codice": "G45",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Scelta distinta tra fumo del conducente e consenso al fumo dell’utente. Presupposto residuale del titolo separato dalla disciplina speciale antifumo; nessuna attribuzione automatica del fatto dell’utente al conducente o cumulo automatico.",
+    "schede_interessate": [
+      "G45/Taxi p.97",
+      "G45/NCC p.138"
+    ]
+  },
+  {
+    "id": "TXT-G53",
+    "codice": "G53",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "G53/Taxi p.98",
+      "G53/NCC p.139"
+    ]
+  },
+  {
+    "id": "TXT-G54",
+    "codice": "G54",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Formula con risposta della CCIAA, ambito autovetture fino a9 posti compreso il conducente. Riferimento corretto art.17; art.19 c.3 esclude limiti territoriali, non impone l’iscrizione. PMR1.000 e comunicazioni regionali; non esteso agli autobus.",
+    "schede_interessate": [
+      "G54/Taxi p.99",
+      "G54/NCC p.140"
+    ]
+  },
+  {
+    "id": "TXT-I06",
+    "codice": "I06",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Spostata nei soli NCC. Relazione ricettiva e alternativa professionale senza autorizzazione distinta: gratuità anche indiretta, accessorietà, ospiti e uso del veicolo vanno provati; art.85 c.4 non discende automaticamente dal solo corrispettivo.",
+    "schede_interessate": [
+      "I06/NCC p.141"
+    ]
+  },
+  {
+    "id": "TXT-I08",
+    "codice": "I08",
+    "esito": "Applicata",
+    "motivazione": "Rimossa da catalogo attivo, varianti, ricerca, indice e PDF; originali e storico conservati.",
+    "schede_interessate": []
+  },
+  {
+    "id": "TXT-R02",
+    "codice": "R02",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "R02/Taxi p.100",
+      "R02/NCC p.142"
+    ]
+  },
+  {
+    "id": "TXT-R03",
+    "codice": "R03",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Formula al titolare e conducente distinto applicati. Non inseriti art.86/85 e ritiro per sola comunicazione omessa. Coordinamento con termine regionale24 ore nei casi taxi.",
+    "schede_interessate": [
+      "R03/Taxi p.101",
+      "R03/NCC p.143"
+    ]
+  },
+  {
+    "id": "TXT-R05",
+    "codice": "R05",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Termine60 giorni e possibile proroga motivata ulteriori60; regime comunale. Non applicati art.86 e ritiro automatici alla mera omissione di avvio; decadenza all’ufficio.",
+    "schede_interessate": [
+      "R05/Taxi p.102",
+      "R05/NCC p.144"
+    ]
+  },
+  {
+    "id": "TXT-R06",
+    "codice": "R06",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Termine10 giorni dall’immatricolazione e giustificazioni. Per NCC resta relazione: il c.4 menziona la licenza, manca una specifica estensione applicabile. Nessun ritiro per analogia.",
+    "schede_interessate": [
+      "R06/Taxi p.103",
+      "R06/NCC p.145"
+    ]
+  },
+  {
+    "id": "TXT-R09",
+    "codice": "R09",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Requisito bagagliaio e rinvio NCC art.17 c.2 verificati. CdS residuale con guida/utilizzo e specifica condizione del titolo; omesso ritiro non previsto dalla sola difformità.",
+    "schede_interessate": [
+      "R09/Taxi p.104",
+      "R09/NCC p.146"
+    ]
+  },
+  {
+    "id": "TXT-R10",
+    "codice": "R10",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Quattro–otto soli passeggeri, conducente escluso, omologazione distinta dal carico art.169 CdS. Rinvia NCC c.2; nessun ritiro automatico.",
+    "schede_interessate": [
+      "R10/Taxi p.105",
+      "R10/NCC p.147"
+    ]
+  },
+  {
+    "id": "TXT-R12",
+    "codice": "R12",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "R12/Taxi p.106",
+      "R12/NCC p.148"
+    ]
+  },
+  {
+    "id": "TXT-R22",
+    "codice": "R22",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Cinque giorni ex art.23 c.4, obbligato titolare. Art.7 c.5 non trasferito agli NCC. Nessun art.86/85 o ritiro per la sola comunicazione omessa.",
+    "schede_interessate": [
+      "R22/Taxi p.107",
+      "R22/NCC p.149"
+    ]
+  },
+  {
+    "id": "TXT-R23",
+    "codice": "R23",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "R23/Taxi p.108",
+      "R23/NCC p.150"
+    ]
+  },
+  {
+    "id": "TXT-R24",
+    "codice": "R24",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Atto, gestore, prescrizione e riscontri in formula. Nessuna tabella art.86 indiscriminata: qualificare atto e condizione; resta relazione se la base specifica manca. Regime aeroportuale taxi non esteso agli NCC.",
+    "schede_interessate": [
+      "R24/Taxi p.109",
+      "R24/NCC p.151"
+    ]
+  },
+  {
+    "id": "TXT-R25",
+    "codice": "R25",
+    "esito": "Applicata",
+    "motivazione": "Testo, riferimenti e chiusura aggiornati; esempi e istruzioni fuori dalla copia, scelte alternative separate ove presenti. Verifica PWA/PDF nella matrice corrente.",
+    "schede_interessate": [
+      "R25/Taxi p.110",
+      "R25/NCC p.152"
+    ]
+  },
+  {
+    "id": "TXT-R27",
+    "codice": "R27",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Alternative per tratta non effettuata o supplemento, senza cumulo automatico. NCC: prezzo contrattuale e art.24, non tariffario taxi né art.23 c.2 let. e non richiamata dal c.3.",
+    "schede_interessate": [
+      "R27/Taxi p.111",
+      "R27/NCC p.153"
+    ]
+  },
+  {
+    "id": "TXT-R29",
+    "codice": "R29",
+    "esito": "Applicata",
+    "motivazione": "Rimossa da catalogo attivo, varianti, ricerca, indice e PDF; originali e storico conservati.",
+    "schede_interessate": []
+  },
+  {
+    "id": "TXT-R30",
+    "codice": "R30",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Relazione su requisito, fonte e decorrenza. Sospensione/revoca all’ufficio; perdita del requisito non equivale a guida senza titolo né a illecito colpevole automatico. Non inseriti art.86, importi o ritiro per analogia.",
+    "schede_interessate": [
+      "R30/Taxi p.112",
+      "R30/NCC p.154"
+    ]
+  },
+  {
+    "id": "TXT-R31",
+    "codice": "R31",
+    "esito": "Applicata",
+    "motivazione": "Rimossa da catalogo attivo, varianti, ricerca, indice e PDF; originali e storico conservati.",
+    "schede_interessate": []
+  },
+  {
+    "id": "TXT-R35",
+    "codice": "R35",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Responsabile utente, scelte fumo/cibo. Niente art.86. Fumo: relazione e qualificazione della disciplina speciale; cibo Taxi: regime TUEL. Vista NCC esclusa: art.23 c.6 riguarda espressamente i taxi.",
+    "schede_interessate": [
+      "R35/Taxi p.113"
+    ]
+  },
+  {
+    "id": "TXT-R36",
+    "codice": "R36",
+    "esito": "Applicata",
+    "motivazione": "Rimossa da catalogo attivo, varianti, ricerca, indice e PDF; originali e storico conservati.",
+    "schede_interessate": []
+  },
+  {
+    "id": "TXT-R37",
+    "codice": "R37",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Formula all’utente; Taxi: regime comunale TUEL, non art.86 al conducente. Vista NCC esclusa, poiché art.23 c.6 riguarda espressamente i taxi.",
+    "schede_interessate": [
+      "R37/Taxi p.114"
+    ]
+  },
+  {
+    "id": "TXT-R38",
+    "codice": "R38",
+    "esito": "Adattata con motivazione",
+    "motivazione": "Richiesta non sicura dell’utente e fonte, non responsabilità automatica del conducente. Taxi: TUEL; Vista NCC esclusa, senza estensione dell’art.23 c.6. Spezzatura tipografica let. c/d documentata.",
+    "schede_interessate": [
+      "R38/Taxi p.115"
+    ]
+  }
+]

@@ -1,5 +1,6 @@
+// Regressione storica fissata alla fotografia 1.8.13; suite corrente: terza-parte.test.mjs.
 import {verifyOriginal} from './private-originals.mjs';
-import fs from 'node:fs';import vm from 'node:vm';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';
+import fs from './historical-fs.mjs';import vm from 'node:vm';import assert from 'node:assert/strict';import {createHash} from 'node:crypto';
 const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8'),html=read('index.html'),data=JSON.parse(html.match(/^const DATA=(.*);$/m)[1]),before=JSON.parse(read('revisione/1.8.10/prima-data.json')),initial=JSON.parse(read('revisione/1.8.10/stato-iniziale.json')),w={};
 for(const n of ['static-demos','static-field-suggestions','operative-rules','static-demo-ui','taxi-collettivo','static-catalog','static-catalog-ui','revision-g01-g43','revision-seconda-parte','revision-pausa-caldo','revision-equini-835'])vm.runInNewContext(read(`scripts/${n}.js`),{window:w});
 const layout=w.prontuarioStaticLayout(data.catalog,data.manualParts,data.staticPages),codes=new Set(w.prontuarioSecondCodes),normalize=s=>s.replace(/ \((?:solo )?se condizione della licenza verificata\)/g,'').replace(/ richiamata nel prontuario/g,'');

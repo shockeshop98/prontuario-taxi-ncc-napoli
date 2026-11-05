@@ -1,0 +1,146 @@
+{
+  "version": "1.8.14",
+  "documentDate": "2026-11-04",
+  "checkedAt": "2026-11-04T20:58:00.800Z",
+  "viewport": [
+    {
+      "width": 360,
+      "height": 800,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "left": 65,
+            "right": 164,
+            "top": 22,
+            "bottom": 122,
+            "width": 99,
+            "height": 100,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "left": 196,
+            "right": 295,
+            "top": 20,
+            "bottom": 124,
+            "width": 99,
+            "height": 104,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica",
+        "overflow": false,
+        "centered": true
+      },
+      "failures": [],
+      "copies": 171,
+      "cards": 172
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "left": 80,
+            "right": 179,
+            "top": 22,
+            "bottom": 122,
+            "width": 99,
+            "height": 100,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "left": 211,
+            "right": 310,
+            "top": 20,
+            "bottom": 124,
+            "width": 99,
+            "height": 104,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica",
+        "overflow": false,
+        "centered": true
+      },
+      "failures": [],
+      "copies": 171,
+      "cards": 172
+    }
+  ],
+  "search": [
+    {
+      "query": "G24",
+      "type": "Taxi",
+      "expected": "G24"
+    },
+    {
+      "query": "ordine fila taxi",
+      "type": "Taxi",
+      "expected": "G24"
+    },
+    {
+      "query": "ricevuta predeterminata",
+      "type": "Taxi",
+      "expected": "G28-02"
+    },
+    {
+      "query": "I03",
+      "type": "NCC",
+      "expected": "N04"
+    },
+    {
+      "query": "I07",
+      "type": "Taxi",
+      "expected": "G07-01"
+    },
+    {
+      "query": "taxi sharing",
+      "type": "Taxi",
+      "expected": "TC01"
+    }
+  ],
+  "cache": {
+    "migration": {
+      "reg": true,
+      "manual": false,
+      "worker": "53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e",
+      "build": "53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e",
+      "oldManual": false
+    },
+    "savedManual": true,
+    "offlineLogo": {
+      "status": 200,
+      "bytes": 2365889
+    },
+    "offlinePDF": {
+      "status": 200,
+      "mime": "application/pdf",
+      "bytes": 5791646,
+      "expected": 5791646
+    },
+    "offlineRange": {
+      "status": 206,
+      "length": 100
+    },
+    "offlineOpen": {
+      "status": 200,
+      "fromServiceWorker": true,
+      "url": "http://127.0.0.1:8000/allegati/Prontuario_Taxi_NCC_Napoli.pdf?rev=53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e"
+    },
+    "offlineSearch": true
+  },
+  "clipboard": {
+    "realClipboard": true,
+    "example": "Con il veicolo indicato, con C.P. n. […], appartenente al gruppo […] con orario di servizio […], svolgeva il servizio taxi fuori dal proprio turno. Attività accertata in data […] alle ore […]: […]. Copia del presente verbale sarà trasmessa all’Ufficio Corso Pubblico."
+  },
+  "jsErrors": []
+}
