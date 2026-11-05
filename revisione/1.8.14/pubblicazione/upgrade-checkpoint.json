@@ -1,0 +1,18 @@
+{
+  "from": "3617cb20fef453b7fd8528c2eae9382f4e9fb6303f7f8155efc05ba63ac86b9d",
+  "to": "53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e",
+  "checkedAt": "2026-11-05T05:00:18.364Z",
+  "migration": {
+    "release": "1.8.14",
+    "build": "53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e",
+    "worker": "53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e",
+    "pdfVersion": "7.16",
+    "pdfPages": 193,
+    "regSaved": true,
+    "manualSaved": false,
+    "removedSourceCached": [
+      false,
+      false
+    ]
+  }
+}

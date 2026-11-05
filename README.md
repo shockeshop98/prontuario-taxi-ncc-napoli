@@ -1,15 +1,15 @@
-<!-- Stato locale: 1.8.14 / PDF 7.16; pubblicata: 1.8.13 / PDF 7.15; sezioni precedenti conservate come storico. -->
+<!-- Pubblicata: 1.8.14 / PDF 7.16; sezioni precedenti conservate come storico. -->
 # Prontuario interattivo Taxi NCC e trazione animale Napoli
 
 A cura dell’Agente Antonio Balzano · U.O. San Lorenzo.
 
 Prontuario di consultazione con 112 voci di catalogo, comprese voci di consultazione e R01 esplicitamente inattiva, ricerca per sinonimi e parole simili, indice per servizio, importi, riferimenti normativi, formule orientative, suggerimenti e note operative. I riferimenti al regolamento identificano la delibera C.C. n. 80/2005. Non contiene registrazioni di controlli, generalità dei conducenti o relazioni di servizio.
 
-## Revisione locale 1.8.14 / PDF 7.16 · 4 novembre 2026
+## Revisione pubblicata 1.8.14 / PDF 7.16 · 4 novembre 2026
 
 [Anteprima](revisione/1.8.14/anteprima.html), [rapporto e fonti](RAPPORTO_REVISIONE_1.8.14.md), [confronto](revisione/1.8.14/confronto-prima-dopo.md), [tutte le richieste del TXT](revisione/1.8.14/esiti-txt.md), [matrice completa NCC](revisione/1.8.14/controllo-tutte-ncc.md).
 
-112 voci, 172 schede: 103 Taxi, 61 NCC, 8 trazione animale; 193 pagine PDF e 6 indici. Otto codici ritirati senza rinumerazione; I06 nei soli NCC e quattro viste NCC escluse per ambito Taxi. Riferimenti editoriali con “let.”; formule con scelte e attestazioni separate, soggetti e basi sanzionatorie distinti. Le precedenti precisazioni equine e sulla pausa sono conservate. Pubblicazione autorizzata; esiti tecnici locali e pubblici nel rapporto.
+112 voci, 172 schede: 103 Taxi, 61 NCC, 8 trazione animale; 193 pagine PDF e 6 indici. Otto codici ritirati senza rinumerazione; I06 nei soli NCC e quattro viste NCC escluse per ambito Taxi. Riferimenti editoriali con “let.”; formule con scelte e attestazioni separate, soggetti e basi sanzionatorie distinti. Le precedenti precisazioni equine e sulla pausa sono conservate. Pubblicazione completata e verificata; esiti tecnici locali e pubblici nel rapporto.
 
 `npm test` verifica la versione corrente, inclusi PDF e tutte le destinazioni. `npm run test:historical` conserva le 13 suite precedenti sugli oggetti Git della pubblicazione 1.8.13 (checkout con cronologia completa); non è presentato come controllo dei nuovi testi. `npm run test:browser`, `npm run test:variants` e `npm run test:upgrade` verificano browser, copia e cache su loopback. La fotografia e il TXT di lavoro non sono risorse pubblicabili. Salvare nuovamente il PDF nella PWA dopo l’aggiornamento.
 

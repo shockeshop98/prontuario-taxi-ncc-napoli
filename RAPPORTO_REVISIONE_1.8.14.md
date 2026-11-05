@@ -144,4 +144,34 @@ Ripetuta con esito positivo la migrazione locale dopo il passaggio agli oggetti 
 
 Preparata prima del deploy una vera installazione del sito pubblico 1.8.13 / PDF7.15: tutti i 16 allegati salvati e verificati con SHA-256. Un primo salvataggio è andato in timeout; la ripresa con riscontro esplicito dello stato si è conclusa positivamente per tutti i file. Il profilo temporaneo è conservato fuori dal repository per provare l’aggiornamento effettivo.
 
-Commit, workflow e prove sul sito aggiornato: da registrare dopo il completamento delle rispettive attività.
+## Esiti verificati sul sito pubblico — 5 novembre 2026
+
+Revisione pubblicata con commit contenuti `cd6c64072444ef5cfd04fd3072f493bdfcff3bab`, push ordinario su `main`. [Workflow Pages41970920988](https://github.com/shockeshop98/prontuario-taxi-ncc-napoli/actions/runs/41970920988) completato con successo: `npm ci`, `npm test`, tutte le 13 suite storiche, preparazione del pacchetto e deploy. Nessun force push, reset o sovrascrittura di lavoro altrui. Il successivo commit registra soltanto questi esiti e le relative evidenze, senza modificare i contenuti normativi, la build o il PDF.
+
+[PWA pubblica](https://shockeshop98.github.io/prontuario-taxi-ncc-napoli/) · [PDF7.16](https://shockeshop98.github.io/prontuario-taxi-ncc-napoli/allegati/Prontuario_Taxi_NCC_Napoli.pdf) · [anteprima](https://shockeshop98.github.io/prontuario-taxi-ncc-napoli/revisione/1.8.14/anteprima.html).
+
+| Verifica pubblica | Esito effettivo |
+|---|---|
+| Versione e build | PWA1.8.14 / PDF7.16; HTML, `version.json` e service worker coerenti con la build `53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e` |
+| File pubblicati | Tutti i189percorsi del primo pacchetto scaricati via HTTP e confrontati byte per byte mediante SHA-256 con il locale |
+| PDF |193pagine; SHA-256 `1cc65c8dab3193109c07d9fe9043db702709bd757f7e6b1c9b2274973432fc79`; identico al locale |
+| Destinazioni e formule | Tutte le172destinazioni dell’indice verificate nel PDF;172schede e171formule PWA confrontate con il testo delle rispettive pagine |
+| Riferimenti | Tutti i corpi correnti e tutte le193pagine senza lettere editoriali prive di “let.” o duplicazioni; originali e rapporti storici distinti |
+| Taxi/NCC ed equini | Tutte le schede aperte; R44–R46 conferme dell’autore e limiti O.S.835/TUEL conservati; importi e fonti della revisione invariati |
+| Ricerca e rimozioni | Ricerche per fatti, sinonimi e codici;18ricerche dei nove codici ritirati nei due servizi senza risultati; nessun percorso operativo verso le voci eliminate |
+| Copia e alternative |171formule di base verificate;146varianti DOM e attestazioni, cambio di scelta e clipboard; calcolatrice G53 coerente |
+| Grafica mobile | Tutte le172schede a360 e390px senza overflow; due stemmi caricati, crediti completi e leggibili |
+| Aggiornamento reale | Installazione della precedente PWA **pubblica**1.8.13 preparata prima del deploy, riaperta offline e aggiornata mediante il pulsante della PWA |
+| Conservazione allegati | Tutti i15allegati invariati conservati in cache e confrontati con le impronte precedenti; vecchio PDF7.15 invalidato prima del nuovo salvataggio |
+| Nuovo PDF offline | Salvataggio esplicito del7.16, riapertura e SHA-256 offline corretti; Range100byte restituito con stato206 |
+| Prima installazione | Profilo nuovo, salvataggio PDF e sintesi fonti, chiusura e riapertura di Chromium senza rete: schede, ricerca, copia, stemmi e documenti disponibili |
+| Riservatezza |15percorsi esclusi provati con risposta404, inclusi EGAF integrale, foto di controlli, TXT di lavoro e fotografie iniziali; nessun materiale escluso nel pacchetto |
+| Errori JavaScript | Nessuno nelle prove pubbliche |
+
+Evidenze distinte dalle prove locali: [verifica pubblica completa](revisione/1.8.14/pubblicazione/public-check.json), [preparazione della vera1.8.13](revisione/1.8.14/pubblicazione/before.json), [passaggio di build](revisione/1.8.14/pubblicazione/upgrade-checkpoint.json), [varianti e riapertura offline pubbliche](revisione/1.8.14/pubblicazione/varianti-pubbliche-offline.json). Le schermate rappresentano esclusivamente schede sintetiche dell’app, senza dati di controlli reali. Profili browser e copia temporanea del PDF scaricato restano fuori dal repository.
+
+Il commit degli esiti amplia la lista Pages soltanto con queste evidenze; il workflow esegue nuovamente la suite completa. Dopo tale deploy vengono ricontrollate le risorse pubblicate e l’identità di build/PDF; le prove funzionali precedenti riguardano gli stessi identici contenuti della PWA e del PDF.
+
+Limiti residui: quelli documentali già indicati nella sezione specifica, conservati senza nuove qualificazioni normative. Le prove mobile sono eseguite con Chromium a viewport360/390px, non su telefono fisico. Le annotazioni del workflow segnalano la transizione delle action a Node24 e dell’immagine Ubuntu; non hanno impedito test o deploy.
+
+**Salvare nuovamente il PDF aggiornato nella PWA per usarlo offline.**
