@@ -2,7 +2,11 @@
 
 Proprietario: Antonio Balzano, Agente Polizia Municipale Napoli, U.O. San Lorenzo.
 
-## Stato corrente — revisione 1.8.14 / PDF 7.16
+## Stato corrente — revisione1.8.15 / PDF7.17
+
+Revisione NCC prima parte8novembre2026:19viste NCC, tutte le103Taxi e le altre50viste conservate.172schede,193pagine,172destinazioni,171formule. Input `Revisione schede ncc prima parte.txt` locale ignorato e non allegato pubblico. Rapporto1.8.15, esiti19richieste e confronto in revisione/1.8.15. Fase locale conclusa; successiva pubblicazione autorizzata con push ordinario e pacchetto su lista esplicita. Esiti effettivi nel rapporto1.8.15. D.D.4/2026 acquisita; G14puntoI possibile sospensione/ritiro distinto da automatismi, attestazione solo per provvedimento verificato ed esecuzione. R06estensione termine e G54ufficio rapporto/delega restano limiti specifici. Non richiedere riconferme editoriali già espresse. Test correnti PWA/NCC e regressione1.8.14 via Git;13suite storiche conservate. Renderer `revision-ncc-prima.js`, audit `audit-ncc-prima.mjs`, controlli browser `verify-ncc-prima.mjs`, migrazione `verify-upgrade1815.mjs`. Salvare nuovamente il PDF dopo l’aggiornamento.
+
+## Stato pubblicato precedente — revisione 1.8.14 / PDF 7.16
 
 Pubblicazione autorizzata della revisione locale approvata, senza ulteriori modifiche normative: 172 schede, 193 pagine, 172 destinazioni e 171 formule; 63 richieste con esito, matrice di tutte le 70 viste NCC iniziali. Rapporto corrente `RAPPORTO_REVISIONE_1.8.14.md`; le sezioni seguenti conservano gli stati storici. Test correnti `npm test`, regressioni storiche `npm run test:historical` su oggetti Git fissati alla precedente pubblicazione, senza nuove copie iniziali o input riservati nel repository. Workflow con cronologia completa e entrambe le suite. Pubblicazione Pages soltanto tramite `pages-files.json`. Il nuovo PDF va salvato nuovamente per l'uso offline.
 

@@ -60,3 +60,13 @@ prova-android/
 /revisione/1.8.14/acquisizioni*.json
 /revisione/1.8.14/fonti/
 /revisione/1.8.14/controllo-repository.json
+
+# Revisione NCC prima parte: input originale e fotografie iniziali solo locali.
+/Revisione schede ncc prima parte.txt
+/revisione/1.8.15/base-1.8.14/
+/revisione/1.8.15/stato-iniziale.json
+/revisione/1.8.15/richieste-iniziali.json
+/revisione/1.8.15/regolamento-lettura.txt
+/revisione/1.8.15/fonti/
+/revisione/1.8.15/prima-viste.json
+/revisione/1.8.15/fonti-acquisizioni.json

@@ -1,0 +1,20 @@
+{
+  "checkedAt": "2026-11-08T21:59:19.080534+00:00",
+  "localOnly": true,
+  "headUnchanged": "717d266eb576fce80982432f7723a734e056dcb2",
+  "stagedFiles": [],
+  "inputOriginalIntact": true,
+  "sourceOriginalsIntact": true,
+  "explicitPagesPaths": 237,
+  "excludedPathsInPackageList": 0,
+  "fiscalIdentifiersInNewTextAndPDF": 0,
+  "newTextFilesScanned": 18,
+  "originalEGAFKeptLocally": true,
+  "initialCopiesKeptLocally": true,
+  "dd4MatchesOfficialSHA256": "3d5e481d98b789b908ab5ff55a5337b7e7e48dab47bb58bfcfb517385d6bfec2",
+  "pdfSHA256": "3df7e79ac36704d978071d59e88f0f68b01fd372370455f6963f87e034aa8c34",
+  "build": "dd77cb945938360a51caf0bc720b28c91ec3b67a5c4a5b658e237917a9a0d98f",
+  "published": false,
+  "packageExecution": "PASS:237percorsi espliciti copiati e confrontati mediante SHA-256; esclusi TXT, originali riservati e fotografie iniziali.",
+  "packageFilesChecked": 237
+}

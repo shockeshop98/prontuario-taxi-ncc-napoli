@@ -1,0 +1,6 @@
+import fs from 'node:fs';import path from 'node:path';import http from 'node:http';
+export async function serveReview(root,{files=JSON.parse(fs.readFileSync(path.join(root,'pages-files.json')))}={}){
+ const allowed=new Set([...files,'.nojekyll']),mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.json':'application/json','.css':'text/css','.webmanifest':'application/manifest+json','.pdf':'application/pdf','.png':'image/png','.ico':'image/x-icon','.txt':'text/plain; charset=utf-8','.md':'text/plain; charset=utf-8','.csv':'text/csv; charset=utf-8'};
+ const server=http.createServer((req,res)=>{let name=decodeURIComponent(new URL(req.url,'http://localhost').pathname).slice(1)||'index.html';const file=path.resolve(root,name);if(!allowed.has(name)||!file.startsWith(path.resolve(root)+'/')||!fs.existsSync(file)){res.writeHead(404);res.end();return;}const bytes=fs.readFileSync(file);res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream','Content-Length':bytes.length,'Cache-Control':'no-store'});res.end(bytes);});
+ await new Promise(r=>server.listen(0,'127.0.0.1',r));return {base:`http://127.0.0.1:${server.address().port}/`,close:()=>new Promise(r=>server.close(r))};
+}

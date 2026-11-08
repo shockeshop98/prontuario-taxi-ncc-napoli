@@ -1,0 +1,288 @@
+{
+  "localOnly": true,
+  "checkedAt": "2026-11-08T21:47:26.354Z",
+  "version": "1.8.15",
+  "build": "dd77cb945938360a51caf0bc720b28c91ec3b67a5c4a5b658e237917a9a0d98f",
+  "mobile": [
+    {
+      "width": 360,
+      "cards": 172,
+      "copies": 171,
+      "pages": 172,
+      "overflow": false,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "left": 65,
+            "right": 164,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "left": 196,
+            "right": 295,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica"
+      }
+    },
+    {
+      "width": 390,
+      "cards": 172,
+      "copies": 171,
+      "pages": 172,
+      "overflow": false,
+      "header": {
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "loaded": true,
+            "left": 80,
+            "right": 179,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "loaded": true,
+            "left": 211,
+            "right": 310,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Maresciallo Pasquale D’AscoliPolizia Turistica"
+      }
+    }
+  ],
+  "choices": [
+    {
+      "code": "G10",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G10",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "G11",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G12",
+      "choice": 0,
+      "acts": 2
+    },
+    {
+      "code": "G12",
+      "choice": 1,
+      "acts": 2
+    },
+    {
+      "code": "G12",
+      "choice": 2,
+      "acts": 2
+    },
+    {
+      "code": "G13",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G14",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "G14",
+      "choice": 1,
+      "acts": 1
+    },
+    {
+      "code": "G32",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G32",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "G44",
+      "choice": 0,
+      "acts": 1
+    },
+    {
+      "code": "G44",
+      "choice": 1,
+      "acts": 1
+    },
+    {
+      "code": "G53",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "G54",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "I06",
+      "choice": 0,
+      "acts": 2
+    },
+    {
+      "code": "I06",
+      "choice": 1,
+      "acts": 2
+    },
+    {
+      "code": "R02",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R02",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "R03",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R03",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "R05",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R06",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R09",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R10",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R12",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R12",
+      "choice": 1,
+      "acts": 0
+    },
+    {
+      "code": "R22",
+      "choice": 0,
+      "acts": 0
+    },
+    {
+      "code": "R23",
+      "choice": 0,
+      "acts": 0
+    }
+  ],
+  "privatePaths": [
+    {
+      "path": "Revisione schede ncc prima parte.txt",
+      "status": 404
+    },
+    {
+      "path": "allegati/EGAF_Art86_originale.pdf",
+      "status": 404
+    },
+    {
+      "path": "revisione/1.8.15/base-1.8.14/index.html",
+      "status": 404
+    }
+  ],
+  "worker": "dd77cb945938360a51caf0bc720b28c91ec3b67a5c4a5b658e237917a9a0d98f",
+  "search": [
+    {
+      "type": "NCC",
+      "query": "vidimazione",
+      "code": "G13"
+    },
+    {
+      "type": "NCC",
+      "query": "visita tecnica",
+      "code": "G14"
+    },
+    {
+      "type": "NCC",
+      "query": "bagagliaio",
+      "code": "R09"
+    },
+    {
+      "type": "NCC",
+      "query": "I06",
+      "code": "I06"
+    },
+    {
+      "type": "NCC",
+      "query": "R06",
+      "code": "R06"
+    },
+    {
+      "type": "Taxi",
+      "query": "G13",
+      "code": "G13"
+    }
+  ],
+  "realClipboardG14": true,
+  "realClipboardG53": true,
+  "offline": {
+    "version": "1.8.15",
+    "build": "dd77cb945938360a51caf0bc720b28c91ec3b67a5c4a5b658e237917a9a0d98f",
+    "docs": [
+      {
+        "index": 3,
+        "status": 200,
+        "bytes": 5807085,
+        "sha256": "3df7e79ac36704d978071d59e88f0f68b01fd372370455f6963f87e034aa8c34"
+      },
+      {
+        "index": 17,
+        "status": 200,
+        "bytes": 3303,
+        "sha256": "95fafdb1d658d65e02ff446bb0f3f28975582f590319e48d1c17829571ab1800"
+      },
+      {
+        "index": 18,
+        "status": 200,
+        "bytes": 243487,
+        "sha256": "3d5e481d98b789b908ab5ff55a5337b7e7e48dab47bb58bfcfb517385d6bfec2"
+      }
+    ],
+    "range": {
+      "status": 206,
+      "length": 100
+    },
+    "search": true,
+    "logos": true
+  },
+  "jsErrors": [],
+  "closedAndReopenedOffline": true
+}

@@ -1,0 +1,1378 @@
+[
+  {
+    "codice": "G01",
+    "servizio": "Taxi",
+    "pagina": 13,
+    "modificata": false,
+    "sha256_prima": "a07e6e9a671cf674845a87c6195b5cc6cff6b4737feaca6545a0c81775f6e44d",
+    "sha256_dopo": "a07e6e9a671cf674845a87c6195b5cc6cff6b4737feaca6545a0c81775f6e44d"
+  },
+  {
+    "codice": "G02",
+    "servizio": "Taxi",
+    "pagina": 14,
+    "modificata": false,
+    "sha256_prima": "d7230bea0c5e6c0a3a34621189d68217120c9621f2a6ab2fe6f290d53af8b463",
+    "sha256_dopo": "d7230bea0c5e6c0a3a34621189d68217120c9621f2a6ab2fe6f290d53af8b463"
+  },
+  {
+    "codice": "G03-01",
+    "servizio": "Taxi",
+    "pagina": 15,
+    "modificata": false,
+    "sha256_prima": "36c28bf2cd62bdd22155d7a22ee0ab8078a505e5f3a3b9207676735fb8ecaaf3",
+    "sha256_dopo": "36c28bf2cd62bdd22155d7a22ee0ab8078a505e5f3a3b9207676735fb8ecaaf3"
+  },
+  {
+    "codice": "G03-02",
+    "servizio": "Taxi",
+    "pagina": 16,
+    "modificata": false,
+    "sha256_prima": "19e6dab58cb4be4696feef0f0f27617eed452f47a529c0fb04fb68a765f15eb4",
+    "sha256_dopo": "19e6dab58cb4be4696feef0f0f27617eed452f47a529c0fb04fb68a765f15eb4"
+  },
+  {
+    "codice": "G03-03",
+    "servizio": "Taxi",
+    "pagina": 17,
+    "modificata": false,
+    "sha256_prima": "19378a1d51d56ab6f90ff44bcc2ada5aea7edf02c471a84e18f466ee64c397c4",
+    "sha256_dopo": "19378a1d51d56ab6f90ff44bcc2ada5aea7edf02c471a84e18f466ee64c397c4"
+  },
+  {
+    "codice": "G03-04",
+    "servizio": "Taxi",
+    "pagina": 18,
+    "modificata": false,
+    "sha256_prima": "1fe2fa87eddb6896453542bc2b6b18a8dd4de78b85ad4e2ecc068d083d705fb4",
+    "sha256_dopo": "1fe2fa87eddb6896453542bc2b6b18a8dd4de78b85ad4e2ecc068d083d705fb4"
+  },
+  {
+    "codice": "G04-01",
+    "servizio": "Taxi",
+    "pagina": 19,
+    "modificata": false,
+    "sha256_prima": "8c206cea3bc60ee8d73d415490241aa637a3e23a84533a5d9b508a2899cbc8eb",
+    "sha256_dopo": "8c206cea3bc60ee8d73d415490241aa637a3e23a84533a5d9b508a2899cbc8eb"
+  },
+  {
+    "codice": "G04-02",
+    "servizio": "Taxi",
+    "pagina": 20,
+    "modificata": false,
+    "sha256_prima": "95d2a0d3fb74263d3a968f70c6b4a6da1344da47293b5755831474a28b331bac",
+    "sha256_dopo": "95d2a0d3fb74263d3a968f70c6b4a6da1344da47293b5755831474a28b331bac"
+  },
+  {
+    "codice": "G04-03",
+    "servizio": "Taxi",
+    "pagina": 21,
+    "modificata": false,
+    "sha256_prima": "7918ded3d07a54bebe70cbbd0a61a0711716c0093c42e843815386367b65ffdf",
+    "sha256_dopo": "7918ded3d07a54bebe70cbbd0a61a0711716c0093c42e843815386367b65ffdf"
+  },
+  {
+    "codice": "G04-04",
+    "servizio": "Taxi",
+    "pagina": 22,
+    "modificata": false,
+    "sha256_prima": "7ef405ef72adfdb578be922b1947ccdeaecdb341e87bbd2c79ea5f5a1c089f41",
+    "sha256_dopo": "7ef405ef72adfdb578be922b1947ccdeaecdb341e87bbd2c79ea5f5a1c089f41"
+  },
+  {
+    "codice": "G05-01",
+    "servizio": "Taxi",
+    "pagina": 23,
+    "modificata": false,
+    "sha256_prima": "ad5bbab2a830a925e506a315f682519fb38ba81a76507d8daf7f87701607eb9a",
+    "sha256_dopo": "ad5bbab2a830a925e506a315f682519fb38ba81a76507d8daf7f87701607eb9a"
+  },
+  {
+    "codice": "G05-02",
+    "servizio": "Taxi",
+    "pagina": 24,
+    "modificata": false,
+    "sha256_prima": "3c43e75ad93bf2c7c6b5a7e4fdcc2f174d3b95751d313f23ac924661ab28806a",
+    "sha256_dopo": "3c43e75ad93bf2c7c6b5a7e4fdcc2f174d3b95751d313f23ac924661ab28806a"
+  },
+  {
+    "codice": "G05-03",
+    "servizio": "Taxi",
+    "pagina": 25,
+    "modificata": false,
+    "sha256_prima": "f5f16562ae2ed9ba8f587738d7aa078f96ef1354f3ea4c49caf1c142eeef6abf",
+    "sha256_dopo": "f5f16562ae2ed9ba8f587738d7aa078f96ef1354f3ea4c49caf1c142eeef6abf"
+  },
+  {
+    "codice": "G05-04",
+    "servizio": "Taxi",
+    "pagina": 26,
+    "modificata": false,
+    "sha256_prima": "272628d67ee585e79a2f2d8346ca4a1b650488cacb7426a6f3817fe92c6281bd",
+    "sha256_dopo": "272628d67ee585e79a2f2d8346ca4a1b650488cacb7426a6f3817fe92c6281bd"
+  },
+  {
+    "codice": "G06-01",
+    "servizio": "Taxi",
+    "pagina": 27,
+    "modificata": false,
+    "sha256_prima": "071457a363533c5fc519c8704dcd8eb67de31e71db45240160aa54f22f95b192",
+    "sha256_dopo": "071457a363533c5fc519c8704dcd8eb67de31e71db45240160aa54f22f95b192"
+  },
+  {
+    "codice": "G06-02",
+    "servizio": "Taxi",
+    "pagina": 28,
+    "modificata": false,
+    "sha256_prima": "47cd2f83f729c36475729dfd29f6eed2aa22f81c8cd224abe1dd450ebd9f8a9d",
+    "sha256_dopo": "47cd2f83f729c36475729dfd29f6eed2aa22f81c8cd224abe1dd450ebd9f8a9d"
+  },
+  {
+    "codice": "G06-03",
+    "servizio": "Taxi",
+    "pagina": 29,
+    "modificata": false,
+    "sha256_prima": "6a9c22aff75bb6b97c93cec5523c5d5d2e187e59daf99d1a67dae0f30ec7a3dd",
+    "sha256_dopo": "6a9c22aff75bb6b97c93cec5523c5d5d2e187e59daf99d1a67dae0f30ec7a3dd"
+  },
+  {
+    "codice": "G06-04",
+    "servizio": "Taxi",
+    "pagina": 30,
+    "modificata": false,
+    "sha256_prima": "5828c1fb949d3cb154671c76ae890921b2697ea46f51e59d20b0d7a0a4ebf337",
+    "sha256_dopo": "5828c1fb949d3cb154671c76ae890921b2697ea46f51e59d20b0d7a0a4ebf337"
+  },
+  {
+    "codice": "G07-01",
+    "servizio": "Taxi",
+    "pagina": 31,
+    "modificata": false,
+    "sha256_prima": "0cecc5b45bcda54cc825467545508d2b6c541cbb90df0cc814fc9fd9cc730a61",
+    "sha256_dopo": "0cecc5b45bcda54cc825467545508d2b6c541cbb90df0cc814fc9fd9cc730a61"
+  },
+  {
+    "codice": "G07-02",
+    "servizio": "Taxi",
+    "pagina": 32,
+    "modificata": false,
+    "sha256_prima": "5f4fecfbaf04fc01c609cd7c63a093e38077d5ad658b756e26445cf144d8fff8",
+    "sha256_dopo": "5f4fecfbaf04fc01c609cd7c63a093e38077d5ad658b756e26445cf144d8fff8"
+  },
+  {
+    "codice": "G07-03",
+    "servizio": "Taxi",
+    "pagina": 33,
+    "modificata": false,
+    "sha256_prima": "35869e45694167329f6cda70f301289ac545ad4e1555546fc89be884645bd11d",
+    "sha256_dopo": "35869e45694167329f6cda70f301289ac545ad4e1555546fc89be884645bd11d"
+  },
+  {
+    "codice": "G07-04",
+    "servizio": "Taxi",
+    "pagina": 34,
+    "modificata": false,
+    "sha256_prima": "8576b675795816ab802196728ff46f6f561c1ea6a558111ea7ddc7178cdce03d",
+    "sha256_dopo": "8576b675795816ab802196728ff46f6f561c1ea6a558111ea7ddc7178cdce03d"
+  },
+  {
+    "codice": "G08-01",
+    "servizio": "Taxi",
+    "pagina": 35,
+    "modificata": false,
+    "sha256_prima": "5c9042cc559af220d161f2bb3ed6f554ef8219058bf2d2fc90a0b4df28d765f2",
+    "sha256_dopo": "5c9042cc559af220d161f2bb3ed6f554ef8219058bf2d2fc90a0b4df28d765f2"
+  },
+  {
+    "codice": "G08-02",
+    "servizio": "Taxi",
+    "pagina": 36,
+    "modificata": false,
+    "sha256_prima": "dac4708ca35199faf37b3d732d16b94a2932714c78129267ae99408d9cd06110",
+    "sha256_dopo": "dac4708ca35199faf37b3d732d16b94a2932714c78129267ae99408d9cd06110"
+  },
+  {
+    "codice": "G08-03",
+    "servizio": "Taxi",
+    "pagina": 37,
+    "modificata": false,
+    "sha256_prima": "81a454b77e214ed7386c1fec96d7934ad74a4ba697d340229cc2ca0aafa0b12a",
+    "sha256_dopo": "81a454b77e214ed7386c1fec96d7934ad74a4ba697d340229cc2ca0aafa0b12a"
+  },
+  {
+    "codice": "G08-04",
+    "servizio": "Taxi",
+    "pagina": 38,
+    "modificata": false,
+    "sha256_prima": "213bf9d6f660b5b147828a03218b89f1422b26c738eb4d1301ed4a0f2f25d693",
+    "sha256_dopo": "213bf9d6f660b5b147828a03218b89f1422b26c738eb4d1301ed4a0f2f25d693"
+  },
+  {
+    "codice": "G09",
+    "servizio": "Taxi",
+    "pagina": 39,
+    "modificata": false,
+    "sha256_prima": "2013095e2a8efb20d827ecbf09fcd6c8ddc0b202c2c671cd09bd9134c73b8aa4",
+    "sha256_dopo": "2013095e2a8efb20d827ecbf09fcd6c8ddc0b202c2c671cd09bd9134c73b8aa4"
+  },
+  {
+    "codice": "G16",
+    "servizio": "Taxi",
+    "pagina": 40,
+    "modificata": false,
+    "sha256_prima": "fdd638a3a741258f41ae8024a988555e2d05beb1681c9583fb5d7b003012d60e",
+    "sha256_dopo": "fdd638a3a741258f41ae8024a988555e2d05beb1681c9583fb5d7b003012d60e"
+  },
+  {
+    "codice": "G17",
+    "servizio": "Taxi",
+    "pagina": 41,
+    "modificata": false,
+    "sha256_prima": "bf635c58cd7b729a049278fab6b60e2f930d15a3ffd89dc3d83afe1cfd105539",
+    "sha256_dopo": "bf635c58cd7b729a049278fab6b60e2f930d15a3ffd89dc3d83afe1cfd105539"
+  },
+  {
+    "codice": "G18",
+    "servizio": "Taxi",
+    "pagina": 42,
+    "modificata": false,
+    "sha256_prima": "4881d9e8c4ac9b27ccd40ac2ab2e66d01a4bf8c57de51616bfc629e00364072c",
+    "sha256_dopo": "4881d9e8c4ac9b27ccd40ac2ab2e66d01a4bf8c57de51616bfc629e00364072c"
+  },
+  {
+    "codice": "G22",
+    "servizio": "Taxi",
+    "pagina": 43,
+    "modificata": false,
+    "sha256_prima": "a3c98528e12ca626d765901c5d160b454c68cde09d54615fe42f172bd1206f7a",
+    "sha256_dopo": "a3c98528e12ca626d765901c5d160b454c68cde09d54615fe42f172bd1206f7a"
+  },
+  {
+    "codice": "G23",
+    "servizio": "Taxi",
+    "pagina": 44,
+    "modificata": false,
+    "sha256_prima": "86e1eb09259a8316648aeb4596a5282de277e4f5b4bd8cf384b7701285420c19",
+    "sha256_dopo": "86e1eb09259a8316648aeb4596a5282de277e4f5b4bd8cf384b7701285420c19"
+  },
+  {
+    "codice": "G24",
+    "servizio": "Taxi",
+    "pagina": 45,
+    "modificata": false,
+    "sha256_prima": "c8cd8061ce2aab83d8695052ca657f04864c586006af2c4a695040f12f6611a9",
+    "sha256_dopo": "c8cd8061ce2aab83d8695052ca657f04864c586006af2c4a695040f12f6611a9"
+  },
+  {
+    "codice": "G26",
+    "servizio": "Taxi",
+    "pagina": 46,
+    "modificata": false,
+    "sha256_prima": "9245d627e75f945ffd06ef9565de25b1ec01b94152cae3dbf192a2a0e55feb10",
+    "sha256_dopo": "9245d627e75f945ffd06ef9565de25b1ec01b94152cae3dbf192a2a0e55feb10"
+  },
+  {
+    "codice": "G29",
+    "servizio": "Taxi",
+    "pagina": 47,
+    "modificata": false,
+    "sha256_prima": "3ddd747b2308148ad15388dc96754e3f4cf138126fbd90d03e5d4b4a75a37200",
+    "sha256_dopo": "3ddd747b2308148ad15388dc96754e3f4cf138126fbd90d03e5d4b4a75a37200"
+  },
+  {
+    "codice": "G34",
+    "servizio": "Taxi",
+    "pagina": 48,
+    "modificata": false,
+    "sha256_prima": "0b281dc5210fc37c2f9655ca58c31685b8d1998bdcc546d6e415736e3517858d",
+    "sha256_dopo": "0b281dc5210fc37c2f9655ca58c31685b8d1998bdcc546d6e415736e3517858d"
+  },
+  {
+    "codice": "G36",
+    "servizio": "Taxi",
+    "pagina": 49,
+    "modificata": false,
+    "sha256_prima": "6dc7ed73873741ba6f9bbca4fdecca471b901b44bd1bca531ab26df87a895c50",
+    "sha256_dopo": "6dc7ed73873741ba6f9bbca4fdecca471b901b44bd1bca531ab26df87a895c50"
+  },
+  {
+    "codice": "G43",
+    "servizio": "Taxi",
+    "pagina": 50,
+    "modificata": false,
+    "sha256_prima": "0df5b919e4f57e5d93f8398bf236f6ab3e02c948d7c5d1b237ff5db23f8bd939",
+    "sha256_dopo": "0df5b919e4f57e5d93f8398bf236f6ab3e02c948d7c5d1b237ff5db23f8bd939"
+  },
+  {
+    "codice": "G46",
+    "servizio": "Taxi",
+    "pagina": 51,
+    "modificata": false,
+    "sha256_prima": "fbdf3ef1338a594ad3b7a755b8f453352dbbaf0ec90cb4c2ab2fb927ab8aa644",
+    "sha256_dopo": "fbdf3ef1338a594ad3b7a755b8f453352dbbaf0ec90cb4c2ab2fb927ab8aa644"
+  },
+  {
+    "codice": "G47",
+    "servizio": "Taxi",
+    "pagina": 52,
+    "modificata": false,
+    "sha256_prima": "17b5acf896b0708d659f08d7759039b9260b03ee45f688393f406c6c9ec3b6e7",
+    "sha256_dopo": "17b5acf896b0708d659f08d7759039b9260b03ee45f688393f406c6c9ec3b6e7"
+  },
+  {
+    "codice": "G48",
+    "servizio": "Taxi",
+    "pagina": 53,
+    "modificata": false,
+    "sha256_prima": "2232b58f593f27caa793a232c3a9db163444f0d82ad2c67164bdb197b495b3f6",
+    "sha256_dopo": "2232b58f593f27caa793a232c3a9db163444f0d82ad2c67164bdb197b495b3f6"
+  },
+  {
+    "codice": "G49",
+    "servizio": "Taxi",
+    "pagina": 54,
+    "modificata": false,
+    "sha256_prima": "113c3c1676d700185fad36bc5ca87239c7afb5427df242455fe2ce67e3512145",
+    "sha256_dopo": "113c3c1676d700185fad36bc5ca87239c7afb5427df242455fe2ce67e3512145"
+  },
+  {
+    "codice": "G50",
+    "servizio": "Taxi",
+    "pagina": 55,
+    "modificata": false,
+    "sha256_prima": "494d1df2e4aa6117d55ccc6fc9db2a1211ee18d0a24e454e577f8f2b9b801cea",
+    "sha256_dopo": "494d1df2e4aa6117d55ccc6fc9db2a1211ee18d0a24e454e577f8f2b9b801cea"
+  },
+  {
+    "codice": "G52",
+    "servizio": "Taxi",
+    "pagina": 56,
+    "modificata": false,
+    "sha256_prima": "188f8eaedd28d9cd70996ad0815de5aa3f5fa37c5d323dd10cb8e0c197599916",
+    "sha256_dopo": "188f8eaedd28d9cd70996ad0815de5aa3f5fa37c5d323dd10cb8e0c197599916"
+  },
+  {
+    "codice": "TC01",
+    "servizio": "Taxi",
+    "pagina": 57,
+    "modificata": false,
+    "sha256_prima": "c6ec45eee950227b7ed5abe8179c8ba2b1fcf208f0410b49e225467e7ea95b2e",
+    "sha256_dopo": "c6ec45eee950227b7ed5abe8179c8ba2b1fcf208f0410b49e225467e7ea95b2e"
+  },
+  {
+    "codice": "I01",
+    "servizio": "Taxi",
+    "pagina": 58,
+    "modificata": false,
+    "sha256_prima": "92b8256e72c262b97b352d37d129b4c482af1860d045e6fc5ce5651219d48640",
+    "sha256_dopo": "92b8256e72c262b97b352d37d129b4c482af1860d045e6fc5ce5651219d48640"
+  },
+  {
+    "codice": "I09",
+    "servizio": "Taxi",
+    "pagina": 59,
+    "modificata": false,
+    "sha256_prima": "ec3a504a977e3eaea52461e16c2bd292a42ffb7beede09d6645e521c0ed95db5",
+    "sha256_dopo": "ec3a504a977e3eaea52461e16c2bd292a42ffb7beede09d6645e521c0ed95db5"
+  },
+  {
+    "codice": "R01",
+    "servizio": "Taxi",
+    "pagina": 60,
+    "modificata": false,
+    "sha256_prima": "26f042d17fe02fc00ec08c492849235adf4beb04369edd76469497204262cb37",
+    "sha256_dopo": "26f042d17fe02fc00ec08c492849235adf4beb04369edd76469497204262cb37"
+  },
+  {
+    "codice": "R07",
+    "servizio": "Taxi",
+    "pagina": 61,
+    "modificata": false,
+    "sha256_prima": "c52f2c157395dbf514c2bee36df2ec3eaeba351eae2906d44a99face7e23516e",
+    "sha256_dopo": "c52f2c157395dbf514c2bee36df2ec3eaeba351eae2906d44a99face7e23516e"
+  },
+  {
+    "codice": "R08",
+    "servizio": "Taxi",
+    "pagina": 62,
+    "modificata": false,
+    "sha256_prima": "3647e230aa1ec51e26423da89195d33da16afdc78afb978a3126405f16d00c7c",
+    "sha256_dopo": "3647e230aa1ec51e26423da89195d33da16afdc78afb978a3126405f16d00c7c"
+  },
+  {
+    "codice": "R11",
+    "servizio": "Taxi",
+    "pagina": 63,
+    "modificata": false,
+    "sha256_prima": "ef88b940578c1811cc9be3e89ae2aad13244b84cf08666f10dfbf214ab9db1ec",
+    "sha256_dopo": "ef88b940578c1811cc9be3e89ae2aad13244b84cf08666f10dfbf214ab9db1ec"
+  },
+  {
+    "codice": "R13",
+    "servizio": "Taxi",
+    "pagina": 64,
+    "modificata": false,
+    "sha256_prima": "db8b237644662ff464da106ce15f5789f5602bebe646ac90237db3912fd1e3e3",
+    "sha256_dopo": "db8b237644662ff464da106ce15f5789f5602bebe646ac90237db3912fd1e3e3"
+  },
+  {
+    "codice": "R14",
+    "servizio": "Taxi",
+    "pagina": 65,
+    "modificata": false,
+    "sha256_prima": "ea3082d0f208eb991041deb52af1a750c49dfe6b82ed9563084f9f50a82954a3",
+    "sha256_dopo": "ea3082d0f208eb991041deb52af1a750c49dfe6b82ed9563084f9f50a82954a3"
+  },
+  {
+    "codice": "R15",
+    "servizio": "Taxi",
+    "pagina": 66,
+    "modificata": false,
+    "sha256_prima": "5150dc6a95af90dd7b216761cd3f066774478e4522a6c23f5a2e8e2f7ff7652f",
+    "sha256_dopo": "5150dc6a95af90dd7b216761cd3f066774478e4522a6c23f5a2e8e2f7ff7652f"
+  },
+  {
+    "codice": "R19",
+    "servizio": "Taxi",
+    "pagina": 67,
+    "modificata": false,
+    "sha256_prima": "1fff65560a0f5383397562bf3cd0c46fff70cbdb223c3a9100f4ec8334eb9c77",
+    "sha256_dopo": "1fff65560a0f5383397562bf3cd0c46fff70cbdb223c3a9100f4ec8334eb9c77"
+  },
+  {
+    "codice": "R20",
+    "servizio": "Taxi",
+    "pagina": 68,
+    "modificata": false,
+    "sha256_prima": "9e04ae827371140775844d8021abca531cb080b95636657e7961e36a047dfa54",
+    "sha256_dopo": "9e04ae827371140775844d8021abca531cb080b95636657e7961e36a047dfa54"
+  },
+  {
+    "codice": "R21",
+    "servizio": "Taxi",
+    "pagina": 69,
+    "modificata": false,
+    "sha256_prima": "cbaab072eff089b31456760b03dc7a29145a2a60cbcbddacd65948f6f3dcaa96",
+    "sha256_dopo": "cbaab072eff089b31456760b03dc7a29145a2a60cbcbddacd65948f6f3dcaa96"
+  },
+  {
+    "codice": "R26",
+    "servizio": "Taxi",
+    "pagina": 70,
+    "modificata": false,
+    "sha256_prima": "6a65058688e0cfb01e71b14b63b670b4ae2b4783ac6ee4d0dbfc9077a59b693a",
+    "sha256_dopo": "6a65058688e0cfb01e71b14b63b670b4ae2b4783ac6ee4d0dbfc9077a59b693a"
+  },
+  {
+    "codice": "R28",
+    "servizio": "Taxi",
+    "pagina": 71,
+    "modificata": false,
+    "sha256_prima": "8b6b0597bad6e555c310e2a81f15340003afbe699e802de956c855cc7ef8afb3",
+    "sha256_dopo": "8b6b0597bad6e555c310e2a81f15340003afbe699e802de956c855cc7ef8afb3"
+  },
+  {
+    "codice": "G10",
+    "servizio": "Taxi",
+    "pagina": 72,
+    "modificata": false,
+    "sha256_prima": "9ed3cc14393d78a8e74d0bd0d160c26da1bf3748b8ef32752ff497a27cf302e8",
+    "sha256_dopo": "9ed3cc14393d78a8e74d0bd0d160c26da1bf3748b8ef32752ff497a27cf302e8"
+  },
+  {
+    "codice": "G11",
+    "servizio": "Taxi",
+    "pagina": 73,
+    "modificata": false,
+    "sha256_prima": "da4d395f4e324de0602688d7695e492b46aa45262268257f952ab9119cd8f562",
+    "sha256_dopo": "da4d395f4e324de0602688d7695e492b46aa45262268257f952ab9119cd8f562"
+  },
+  {
+    "codice": "G12",
+    "servizio": "Taxi",
+    "pagina": 74,
+    "modificata": false,
+    "sha256_prima": "c14419cc59a3011624d3f30fd4f0f0c32a4fe8aef61265f63b6e0176ea1f81ca",
+    "sha256_dopo": "c14419cc59a3011624d3f30fd4f0f0c32a4fe8aef61265f63b6e0176ea1f81ca"
+  },
+  {
+    "codice": "G13",
+    "servizio": "Taxi",
+    "pagina": 75,
+    "modificata": false,
+    "sha256_prima": "49ad802d72632a62d66d40296e0d8d57be89362296c2d30577278f8a05b9cc84",
+    "sha256_dopo": "49ad802d72632a62d66d40296e0d8d57be89362296c2d30577278f8a05b9cc84"
+  },
+  {
+    "codice": "G14",
+    "servizio": "Taxi",
+    "pagina": 76,
+    "modificata": false,
+    "sha256_prima": "beecd254430c043748fae4e1d02e84b3731090748c08ecaddcd19e470bc8a586",
+    "sha256_dopo": "beecd254430c043748fae4e1d02e84b3731090748c08ecaddcd19e470bc8a586"
+  },
+  {
+    "codice": "G19",
+    "servizio": "Taxi",
+    "pagina": 77,
+    "modificata": false,
+    "sha256_prima": "ac9111ea395d86540bc7644b92d908bf3630906273b2a0168feb7b905a144067",
+    "sha256_dopo": "ac9111ea395d86540bc7644b92d908bf3630906273b2a0168feb7b905a144067"
+  },
+  {
+    "codice": "G20",
+    "servizio": "Taxi",
+    "pagina": 78,
+    "modificata": false,
+    "sha256_prima": "fc0e0caeab59366441147c0ea4e3a795b02012547c6da3864fd0587376adb9c5",
+    "sha256_dopo": "fc0e0caeab59366441147c0ea4e3a795b02012547c6da3864fd0587376adb9c5"
+  },
+  {
+    "codice": "G21",
+    "servizio": "Taxi",
+    "pagina": 79,
+    "modificata": false,
+    "sha256_prima": "b94aa93e638aef4b59f291621a463d3d01b49046d79079126a3584c9c4aa1da4",
+    "sha256_dopo": "b94aa93e638aef4b59f291621a463d3d01b49046d79079126a3584c9c4aa1da4"
+  },
+  {
+    "codice": "G25",
+    "servizio": "Taxi",
+    "pagina": 80,
+    "modificata": false,
+    "sha256_prima": "e3a4a5045a86082d1379c1d8298770a21c31b44bb06ae14e90b04c82ba50c131",
+    "sha256_dopo": "e3a4a5045a86082d1379c1d8298770a21c31b44bb06ae14e90b04c82ba50c131"
+  },
+  {
+    "codice": "G27",
+    "servizio": "Taxi",
+    "pagina": 81,
+    "modificata": false,
+    "sha256_prima": "ba34ee14d48f00b576248c381be297468e2458f8de36cf29ca8f3769563673dd",
+    "sha256_dopo": "ba34ee14d48f00b576248c381be297468e2458f8de36cf29ca8f3769563673dd"
+  },
+  {
+    "codice": "G28-01",
+    "servizio": "Taxi",
+    "pagina": 82,
+    "modificata": false,
+    "sha256_prima": "47950e9183ded6b45d89c5acc871ca1863249df55368bf607501b16fc27f945f",
+    "sha256_dopo": "47950e9183ded6b45d89c5acc871ca1863249df55368bf607501b16fc27f945f"
+  },
+  {
+    "codice": "G28-02",
+    "servizio": "Taxi",
+    "pagina": 83,
+    "modificata": false,
+    "sha256_prima": "5327fad6bdf35ed43968646cc539a8c2b9dfcb6d9eda9a583542aa8eb62267a9",
+    "sha256_dopo": "5327fad6bdf35ed43968646cc539a8c2b9dfcb6d9eda9a583542aa8eb62267a9"
+  },
+  {
+    "codice": "G28-04",
+    "servizio": "Taxi",
+    "pagina": 84,
+    "modificata": false,
+    "sha256_prima": "30e9519708184d744c3e740e7b63c3f482454ba86be1f2b90644979d3ff4263d",
+    "sha256_dopo": "30e9519708184d744c3e740e7b63c3f482454ba86be1f2b90644979d3ff4263d"
+  },
+  {
+    "codice": "G30",
+    "servizio": "Taxi",
+    "pagina": 85,
+    "modificata": false,
+    "sha256_prima": "7fc4db7aef428778aafadd51444bde2a22cfdd7e4d482e2739273422b0843203",
+    "sha256_dopo": "7fc4db7aef428778aafadd51444bde2a22cfdd7e4d482e2739273422b0843203"
+  },
+  {
+    "codice": "G31",
+    "servizio": "Taxi",
+    "pagina": 86,
+    "modificata": false,
+    "sha256_prima": "fe4295ce820ed878c02ee62e7c87419148fba7678ed5437c8814153295f35de7",
+    "sha256_dopo": "fe4295ce820ed878c02ee62e7c87419148fba7678ed5437c8814153295f35de7"
+  },
+  {
+    "codice": "G32",
+    "servizio": "Taxi",
+    "pagina": 87,
+    "modificata": false,
+    "sha256_prima": "b2f643762eb2459285d0c988860ef8bf6548da7a3a42c8024d054c2c6e034d29",
+    "sha256_dopo": "b2f643762eb2459285d0c988860ef8bf6548da7a3a42c8024d054c2c6e034d29"
+  },
+  {
+    "codice": "G33",
+    "servizio": "Taxi",
+    "pagina": 88,
+    "modificata": false,
+    "sha256_prima": "22ba18077f21d64c9a1a97feebdfd0ac50e45a8e072c71a3fe3ca30d81137d95",
+    "sha256_dopo": "22ba18077f21d64c9a1a97feebdfd0ac50e45a8e072c71a3fe3ca30d81137d95"
+  },
+  {
+    "codice": "G35",
+    "servizio": "Taxi",
+    "pagina": 89,
+    "modificata": false,
+    "sha256_prima": "089a9788df18e9ae55f220388fdb69ffdbffc1d31f1aa5ad2986846be07d14e4",
+    "sha256_dopo": "089a9788df18e9ae55f220388fdb69ffdbffc1d31f1aa5ad2986846be07d14e4"
+  },
+  {
+    "codice": "G37",
+    "servizio": "Taxi",
+    "pagina": 90,
+    "modificata": false,
+    "sha256_prima": "f6ee968f455d5e521e459751e19f3a4720abb5a901eea9e86894f83fadc85cbd",
+    "sha256_dopo": "f6ee968f455d5e521e459751e19f3a4720abb5a901eea9e86894f83fadc85cbd"
+  },
+  {
+    "codice": "G38",
+    "servizio": "Taxi",
+    "pagina": 91,
+    "modificata": false,
+    "sha256_prima": "54b113456661bb98acdc9e122ee1fcdfb6e35ee25c5865a63c05fbd75b7b658d",
+    "sha256_dopo": "54b113456661bb98acdc9e122ee1fcdfb6e35ee25c5865a63c05fbd75b7b658d"
+  },
+  {
+    "codice": "G39",
+    "servizio": "Taxi",
+    "pagina": 92,
+    "modificata": false,
+    "sha256_prima": "a24904abd767fede4a64b3acc75ce2b03ff71d69a36e404d74d4192f9b2f0002",
+    "sha256_dopo": "a24904abd767fede4a64b3acc75ce2b03ff71d69a36e404d74d4192f9b2f0002"
+  },
+  {
+    "codice": "G40",
+    "servizio": "Taxi",
+    "pagina": 93,
+    "modificata": false,
+    "sha256_prima": "90334c1dffd8b38acfd3cb124434458dab41a838357e86c7390540f7b561cb48",
+    "sha256_dopo": "90334c1dffd8b38acfd3cb124434458dab41a838357e86c7390540f7b561cb48"
+  },
+  {
+    "codice": "G41",
+    "servizio": "Taxi",
+    "pagina": 94,
+    "modificata": false,
+    "sha256_prima": "f14cc05e4b2437cd37ca60b7189eb7f9f6f7c282f1939b4c54fecea565c769c0",
+    "sha256_dopo": "f14cc05e4b2437cd37ca60b7189eb7f9f6f7c282f1939b4c54fecea565c769c0"
+  },
+  {
+    "codice": "G42",
+    "servizio": "Taxi",
+    "pagina": 95,
+    "modificata": false,
+    "sha256_prima": "2ac28b53ec102558ba838ffb2aa8edfbb4efe91d2b7fa972057cae99a3bc5c43",
+    "sha256_dopo": "2ac28b53ec102558ba838ffb2aa8edfbb4efe91d2b7fa972057cae99a3bc5c43"
+  },
+  {
+    "codice": "G44",
+    "servizio": "Taxi",
+    "pagina": 96,
+    "modificata": false,
+    "sha256_prima": "a502702399fad5974870045a6eb340536664eb63151fd571034ce8ed8d59d498",
+    "sha256_dopo": "a502702399fad5974870045a6eb340536664eb63151fd571034ce8ed8d59d498"
+  },
+  {
+    "codice": "G45",
+    "servizio": "Taxi",
+    "pagina": 97,
+    "modificata": false,
+    "sha256_prima": "a1239fe60ed1a6d1780221764691f52aaaebd126db5d739ab0d5f122584466fe",
+    "sha256_dopo": "a1239fe60ed1a6d1780221764691f52aaaebd126db5d739ab0d5f122584466fe"
+  },
+  {
+    "codice": "G53",
+    "servizio": "Taxi",
+    "pagina": 98,
+    "modificata": false,
+    "sha256_prima": "15b6c7fbcc54d0f4818dac977d086c53e864f3e136db4cf72e8016b501371cc6",
+    "sha256_dopo": "15b6c7fbcc54d0f4818dac977d086c53e864f3e136db4cf72e8016b501371cc6"
+  },
+  {
+    "codice": "G54",
+    "servizio": "Taxi",
+    "pagina": 99,
+    "modificata": false,
+    "sha256_prima": "0afc5156329df0b306198e349a98ab9f5432659149f6213eb60e66ace966c097",
+    "sha256_dopo": "0afc5156329df0b306198e349a98ab9f5432659149f6213eb60e66ace966c097"
+  },
+  {
+    "codice": "R02",
+    "servizio": "Taxi",
+    "pagina": 100,
+    "modificata": false,
+    "sha256_prima": "26da932eb52ad88ebee27375153a1d93c5cbbd9e685c4cd265b6b72c00f434cb",
+    "sha256_dopo": "26da932eb52ad88ebee27375153a1d93c5cbbd9e685c4cd265b6b72c00f434cb"
+  },
+  {
+    "codice": "R03",
+    "servizio": "Taxi",
+    "pagina": 101,
+    "modificata": false,
+    "sha256_prima": "ae33c9822b3cefe4e5e76bd2ef256f6b80961482a6c0d017a0600e4bc1883376",
+    "sha256_dopo": "ae33c9822b3cefe4e5e76bd2ef256f6b80961482a6c0d017a0600e4bc1883376"
+  },
+  {
+    "codice": "R05",
+    "servizio": "Taxi",
+    "pagina": 102,
+    "modificata": false,
+    "sha256_prima": "c90f3ae31445a67703f95826904abfb741bb7af96bcbf36e919a8e6d70826b30",
+    "sha256_dopo": "c90f3ae31445a67703f95826904abfb741bb7af96bcbf36e919a8e6d70826b30"
+  },
+  {
+    "codice": "R06",
+    "servizio": "Taxi",
+    "pagina": 103,
+    "modificata": false,
+    "sha256_prima": "2d83be9ee3f209d0f30936318166054b6dc6571947e044b06e43d60aef1cc34a",
+    "sha256_dopo": "2d83be9ee3f209d0f30936318166054b6dc6571947e044b06e43d60aef1cc34a"
+  },
+  {
+    "codice": "R09",
+    "servizio": "Taxi",
+    "pagina": 104,
+    "modificata": false,
+    "sha256_prima": "20eaebea20721a63e2f7f6df525b186310895b1dac5da82359b7123d9618447d",
+    "sha256_dopo": "20eaebea20721a63e2f7f6df525b186310895b1dac5da82359b7123d9618447d"
+  },
+  {
+    "codice": "R10",
+    "servizio": "Taxi",
+    "pagina": 105,
+    "modificata": false,
+    "sha256_prima": "e24351b75ed219006cf8c231173ea35bde6dfe2c4a6023ef443eac13b7f79720",
+    "sha256_dopo": "e24351b75ed219006cf8c231173ea35bde6dfe2c4a6023ef443eac13b7f79720"
+  },
+  {
+    "codice": "R12",
+    "servizio": "Taxi",
+    "pagina": 106,
+    "modificata": false,
+    "sha256_prima": "b6cc3df2c7e70ae3dd8e1712939c96b1b393aa724b2656ed393faa03fe3dd5e8",
+    "sha256_dopo": "b6cc3df2c7e70ae3dd8e1712939c96b1b393aa724b2656ed393faa03fe3dd5e8"
+  },
+  {
+    "codice": "R22",
+    "servizio": "Taxi",
+    "pagina": 107,
+    "modificata": false,
+    "sha256_prima": "054bd14eb79ce86ff2322eb2725d71b17a4eead537dd0f7ab4cd86f079f00cbf",
+    "sha256_dopo": "054bd14eb79ce86ff2322eb2725d71b17a4eead537dd0f7ab4cd86f079f00cbf"
+  },
+  {
+    "codice": "R23",
+    "servizio": "Taxi",
+    "pagina": 108,
+    "modificata": false,
+    "sha256_prima": "90c896fc31ad8f879e98d384427b893d724c8ce929e7ea5ad708822baf591ab7",
+    "sha256_dopo": "90c896fc31ad8f879e98d384427b893d724c8ce929e7ea5ad708822baf591ab7"
+  },
+  {
+    "codice": "R24",
+    "servizio": "Taxi",
+    "pagina": 109,
+    "modificata": false,
+    "sha256_prima": "55e4af2abc305dcb51ff13db1b632272c81ea2b8959e405f17ae4a4c32e875e1",
+    "sha256_dopo": "55e4af2abc305dcb51ff13db1b632272c81ea2b8959e405f17ae4a4c32e875e1"
+  },
+  {
+    "codice": "R25",
+    "servizio": "Taxi",
+    "pagina": 110,
+    "modificata": false,
+    "sha256_prima": "8dc5b3e489c2c00163d175b646ae133a11f32d7460c75bd2f6593e33b321b492",
+    "sha256_dopo": "8dc5b3e489c2c00163d175b646ae133a11f32d7460c75bd2f6593e33b321b492"
+  },
+  {
+    "codice": "R27",
+    "servizio": "Taxi",
+    "pagina": 111,
+    "modificata": false,
+    "sha256_prima": "e1d18dadca29a9092921f2e8ef1ded65ac71b6ae297ba441e5611988af51e2d5",
+    "sha256_dopo": "e1d18dadca29a9092921f2e8ef1ded65ac71b6ae297ba441e5611988af51e2d5"
+  },
+  {
+    "codice": "R30",
+    "servizio": "Taxi",
+    "pagina": 112,
+    "modificata": false,
+    "sha256_prima": "2e3f9a42a62913b23669a0d4da95582ac22691ee7dcb415de34f40f8a1ef38eb",
+    "sha256_dopo": "2e3f9a42a62913b23669a0d4da95582ac22691ee7dcb415de34f40f8a1ef38eb"
+  },
+  {
+    "codice": "R35",
+    "servizio": "Taxi",
+    "pagina": 113,
+    "modificata": false,
+    "sha256_prima": "abbdc2c6884017d5240ed022735a0c4bbcf78f2f1a1b21ed590eb267b3809f32",
+    "sha256_dopo": "abbdc2c6884017d5240ed022735a0c4bbcf78f2f1a1b21ed590eb267b3809f32"
+  },
+  {
+    "codice": "R37",
+    "servizio": "Taxi",
+    "pagina": 114,
+    "modificata": false,
+    "sha256_prima": "1ace1bdbe29bb4e2209d852a9052bd6711315f4a42aff7d5610c1759e6031307",
+    "sha256_dopo": "1ace1bdbe29bb4e2209d852a9052bd6711315f4a42aff7d5610c1759e6031307"
+  },
+  {
+    "codice": "R38",
+    "servizio": "Taxi",
+    "pagina": 115,
+    "modificata": false,
+    "sha256_prima": "774509c42e953200d06e8f734b583eef74da987668d1d5b4b8e5d4fec3896e9f",
+    "sha256_dopo": "774509c42e953200d06e8f734b583eef74da987668d1d5b4b8e5d4fec3896e9f"
+  },
+  {
+    "codice": "G10",
+    "servizio": "NCC",
+    "pagina": 116,
+    "modificata": true,
+    "sha256_prima": "7c0469cca5d04822438cc8306a7df240f145da93d741c2be6f3ec83f3ada58fb",
+    "sha256_dopo": "b4a62249cf265f4c3da7dfc8671568eff89e5887537fe95d27e439f218e817c8"
+  },
+  {
+    "codice": "G11",
+    "servizio": "NCC",
+    "pagina": 117,
+    "modificata": true,
+    "sha256_prima": "6b084f41ed9a724931bb75925422dcae2945a50967d9bf3354c21e460639f895",
+    "sha256_dopo": "2a1def4aceb8c387e4bb4e0e517cb45013d4670c630bf12bc625cac9f82b9a31"
+  },
+  {
+    "codice": "G12",
+    "servizio": "NCC",
+    "pagina": 118,
+    "modificata": true,
+    "sha256_prima": "446ae91395ebab4de06bdf2d2dbe1a5df4ec5d21ec30eec3bdbc82d6064481e6",
+    "sha256_dopo": "080b9b1551ad031922f9bee81ba4e359d5f23d75c7e9425d5d56d8557d4850d3"
+  },
+  {
+    "codice": "G13",
+    "servizio": "NCC",
+    "pagina": 119,
+    "modificata": true,
+    "sha256_prima": "4c482a7264540af9e44f03ec990b9d52dc447da48d18fbc7cd3d3b5337b9a863",
+    "sha256_dopo": "965aac3c90dac276baa0c738def49b4088b4af2679a57b7848f4c0a85a0c94d0"
+  },
+  {
+    "codice": "G14",
+    "servizio": "NCC",
+    "pagina": 120,
+    "modificata": true,
+    "sha256_prima": "71c72eaa041466ec9221eec9c038c00a36d8d05c06a8d38e2631759566035436",
+    "sha256_dopo": "db53b0cbdeb5a1fb48d919dc4095093a26b053a28e0c0fb839076e1bfc6eb996"
+  },
+  {
+    "codice": "G19",
+    "servizio": "NCC",
+    "pagina": 121,
+    "modificata": false,
+    "sha256_prima": "7e47eb59c847c19d2aeebe18ef4ad84eb25bce149ecbf7d9f270033f6afafac2",
+    "sha256_dopo": "7e47eb59c847c19d2aeebe18ef4ad84eb25bce149ecbf7d9f270033f6afafac2"
+  },
+  {
+    "codice": "G20",
+    "servizio": "NCC",
+    "pagina": 122,
+    "modificata": false,
+    "sha256_prima": "00b316ebe3d9dad7f822f6d712cf02a7da78e12c7ba9d1241a7ba6b667052a47",
+    "sha256_dopo": "00b316ebe3d9dad7f822f6d712cf02a7da78e12c7ba9d1241a7ba6b667052a47"
+  },
+  {
+    "codice": "G21",
+    "servizio": "NCC",
+    "pagina": 123,
+    "modificata": false,
+    "sha256_prima": "96f63b47fc8c706b289ae3ee6dff8bedf58447d74065a7dfaaef3f0466f03092",
+    "sha256_dopo": "96f63b47fc8c706b289ae3ee6dff8bedf58447d74065a7dfaaef3f0466f03092"
+  },
+  {
+    "codice": "G25",
+    "servizio": "NCC",
+    "pagina": 124,
+    "modificata": false,
+    "sha256_prima": "d788f2c023f419a61e898773189247df681a5440dae620da55fc13948307ed46",
+    "sha256_dopo": "d788f2c023f419a61e898773189247df681a5440dae620da55fc13948307ed46"
+  },
+  {
+    "codice": "G27",
+    "servizio": "NCC",
+    "pagina": 125,
+    "modificata": false,
+    "sha256_prima": "aa97ea4392555c2e6e4315c6929590b4e4d6a92ce0071e0aa59967790cb2b3ad",
+    "sha256_dopo": "aa97ea4392555c2e6e4315c6929590b4e4d6a92ce0071e0aa59967790cb2b3ad"
+  },
+  {
+    "codice": "G28",
+    "servizio": "NCC",
+    "pagina": 126,
+    "modificata": false,
+    "sha256_prima": "401960330fa9998c2ca39de044ddd3629e071ba77ba9276ab3ac39bf79719bd3",
+    "sha256_dopo": "401960330fa9998c2ca39de044ddd3629e071ba77ba9276ab3ac39bf79719bd3"
+  },
+  {
+    "codice": "G30",
+    "servizio": "NCC",
+    "pagina": 127,
+    "modificata": false,
+    "sha256_prima": "9e04da70980a1f044ffee71d1218a80ad98322990ed4b0275fed71b360500a20",
+    "sha256_dopo": "9e04da70980a1f044ffee71d1218a80ad98322990ed4b0275fed71b360500a20"
+  },
+  {
+    "codice": "G31",
+    "servizio": "NCC",
+    "pagina": 128,
+    "modificata": false,
+    "sha256_prima": "dd199f968a56bd503718888922d3bb6fc317ce4e6231235cb612edf447069c0b",
+    "sha256_dopo": "dd199f968a56bd503718888922d3bb6fc317ce4e6231235cb612edf447069c0b"
+  },
+  {
+    "codice": "G32",
+    "servizio": "NCC",
+    "pagina": 129,
+    "modificata": true,
+    "sha256_prima": "2a5f5752af8fb8cb7660caaa64a7b3ced339ff6a5cb54d9a83085b0d0c9b033a",
+    "sha256_dopo": "68da7d6243d2d66ca87ddb0483977885abda3d46b1323e90a3971fbcb17c2c83"
+  },
+  {
+    "codice": "G35",
+    "servizio": "NCC",
+    "pagina": 130,
+    "modificata": false,
+    "sha256_prima": "0a79f00afef3ed62222b115ee5f7304e949ee1484ac5318dc7c57637411b87f5",
+    "sha256_dopo": "0a79f00afef3ed62222b115ee5f7304e949ee1484ac5318dc7c57637411b87f5"
+  },
+  {
+    "codice": "G37",
+    "servizio": "NCC",
+    "pagina": 131,
+    "modificata": false,
+    "sha256_prima": "0229f3ab55e0b37f8bde78641671f5ba8cbcc3ff0ffa4d909cda67db8d75d694",
+    "sha256_dopo": "0229f3ab55e0b37f8bde78641671f5ba8cbcc3ff0ffa4d909cda67db8d75d694"
+  },
+  {
+    "codice": "G38",
+    "servizio": "NCC",
+    "pagina": 132,
+    "modificata": false,
+    "sha256_prima": "ef5ed39f2b61211e97ec65fecb18ece406f98e909fa8c8e5080f716789fe5787",
+    "sha256_dopo": "ef5ed39f2b61211e97ec65fecb18ece406f98e909fa8c8e5080f716789fe5787"
+  },
+  {
+    "codice": "G39",
+    "servizio": "NCC",
+    "pagina": 133,
+    "modificata": false,
+    "sha256_prima": "d4ccaa16e66523b7092fe9d5cfe1f9e86234c59ea964b0273c9d55893a8a16e6",
+    "sha256_dopo": "d4ccaa16e66523b7092fe9d5cfe1f9e86234c59ea964b0273c9d55893a8a16e6"
+  },
+  {
+    "codice": "G40",
+    "servizio": "NCC",
+    "pagina": 134,
+    "modificata": false,
+    "sha256_prima": "a0359e5518d4a9a4d96ac1199eb6c124217d14b3eadebe75f389d4483aa47c7b",
+    "sha256_dopo": "a0359e5518d4a9a4d96ac1199eb6c124217d14b3eadebe75f389d4483aa47c7b"
+  },
+  {
+    "codice": "G41",
+    "servizio": "NCC",
+    "pagina": 135,
+    "modificata": false,
+    "sha256_prima": "2ec81b168bfb25ef5db61cf6aedd83b46819442bf94e9d4db77845036baba91b",
+    "sha256_dopo": "2ec81b168bfb25ef5db61cf6aedd83b46819442bf94e9d4db77845036baba91b"
+  },
+  {
+    "codice": "G42",
+    "servizio": "NCC",
+    "pagina": 136,
+    "modificata": false,
+    "sha256_prima": "c4d82a3339f8891e1eb27ba44936eaf88b27d6e26b82a7d0a005824f2b8c301c",
+    "sha256_dopo": "c4d82a3339f8891e1eb27ba44936eaf88b27d6e26b82a7d0a005824f2b8c301c"
+  },
+  {
+    "codice": "G44",
+    "servizio": "NCC",
+    "pagina": 137,
+    "modificata": true,
+    "sha256_prima": "d85c1ec1281c223b1e34d162bfc1381ca5cdac1e1d4230386674c0d8dc6463e2",
+    "sha256_dopo": "b343bd6106cd71836464d819938a4f4f50b5f76e8ac1eec7f660370e937cd7ed"
+  },
+  {
+    "codice": "G45",
+    "servizio": "NCC",
+    "pagina": 138,
+    "modificata": false,
+    "sha256_prima": "6ddc7fc978649ada3478f5870984f48f0d6f48a92a46bfaad4eb2791702b3331",
+    "sha256_dopo": "6ddc7fc978649ada3478f5870984f48f0d6f48a92a46bfaad4eb2791702b3331"
+  },
+  {
+    "codice": "G53",
+    "servizio": "NCC",
+    "pagina": 139,
+    "modificata": true,
+    "sha256_prima": "c520b864e71992f45eb1c96ae2b40fbe55755a98b30a427b0f9ec4b3e3138b7d",
+    "sha256_dopo": "7dc947886eed8f62131927c9264d097caee05097f7a958237b2af0e0e4312a5b"
+  },
+  {
+    "codice": "G54",
+    "servizio": "NCC",
+    "pagina": 140,
+    "modificata": true,
+    "sha256_prima": "8b3c1c9200415f0bb83597aa0de87af4077fe30af9a4536cfcdd38dee443aa61",
+    "sha256_dopo": "8211ad04d28ec7ca9057d38f1f44fb0781f0fc1813dcbd5e1c817bfa12024bf6"
+  },
+  {
+    "codice": "I06",
+    "servizio": "NCC",
+    "pagina": 141,
+    "modificata": true,
+    "sha256_prima": "5bb19339b3699d801d57bf1b71e230e5251eff10569c702a45fae8e7069c7c2d",
+    "sha256_dopo": "d64df31bff049f7cd4346073ed3e2239c56fe3179603f25591cfed00c9e49f7d"
+  },
+  {
+    "codice": "R02",
+    "servizio": "NCC",
+    "pagina": 142,
+    "modificata": true,
+    "sha256_prima": "86c3234e091f4f62f8e63b1471962f312ca1da6c65958d4881e798cbc292ff91",
+    "sha256_dopo": "7414cc065907657f0b4521207dea060d4dc9a4a16e34e56932a29c8581fb47d7"
+  },
+  {
+    "codice": "R03",
+    "servizio": "NCC",
+    "pagina": 143,
+    "modificata": true,
+    "sha256_prima": "1fd1ecc381177ac327231420676b0872cdabb1f1cc1b49d86a4d6a7bcbb65538",
+    "sha256_dopo": "2650ea9e8c0791caa1b1d966aa8f87e268622782c31d2166a15dbedbcbadef4a"
+  },
+  {
+    "codice": "R05",
+    "servizio": "NCC",
+    "pagina": 144,
+    "modificata": true,
+    "sha256_prima": "369844504c092efc1d4931e20a73127f15e518c4ba6bcee53d43fdff42628922",
+    "sha256_dopo": "fe72d176dd9cf7a105b34a15efa88d155ff93eb7c0edb92fc0092bd2c587f0d7"
+  },
+  {
+    "codice": "R06",
+    "servizio": "NCC",
+    "pagina": 145,
+    "modificata": true,
+    "sha256_prima": "fa7cd03720c1a24de7d1ee59f75b7ab98ca0cfc5b7bdc58b2e5e56deea5878e3",
+    "sha256_dopo": "bf839b52bb1c2a946e76f6552b5d052fb1e459c5f6c64e309ca261e6743d481a"
+  },
+  {
+    "codice": "R09",
+    "servizio": "NCC",
+    "pagina": 146,
+    "modificata": true,
+    "sha256_prima": "a6df1f07caffc4bd46ed94b1bae628b0c77ce8de4baefbc2200edd017b4799b9",
+    "sha256_dopo": "b3feb5ec16657d39f127c2ba510f1786802c8f9193dadb727fff91d3eda1c3ce"
+  },
+  {
+    "codice": "R10",
+    "servizio": "NCC",
+    "pagina": 147,
+    "modificata": true,
+    "sha256_prima": "1b43d71761354f9d3122e2217e8a7af8e2bf570c3b6935bc8bb0b1d7a52b3d29",
+    "sha256_dopo": "b95f77a11567def8733b2c99a282861e4ac4d92668f80d67066771818f90c205"
+  },
+  {
+    "codice": "R12",
+    "servizio": "NCC",
+    "pagina": 148,
+    "modificata": true,
+    "sha256_prima": "e4583fd044ee0d3efbc2a4da3a0af824a14154e5a65ef7e0a5281aa8f5d8c541",
+    "sha256_dopo": "ccca9de6ee439c50dd17a2451041501170b89ab1a86d0abfe137c0993f5b9564"
+  },
+  {
+    "codice": "R22",
+    "servizio": "NCC",
+    "pagina": 149,
+    "modificata": true,
+    "sha256_prima": "ad2d000d9ac9c3945d3958755171d1fb537c8192e72f42a703b00bdd58713c83",
+    "sha256_dopo": "841f6d8cd89064613c777223e0af8d62567fa98966f058f9024468172534430f"
+  },
+  {
+    "codice": "R23",
+    "servizio": "NCC",
+    "pagina": 150,
+    "modificata": true,
+    "sha256_prima": "22e00ef2fade0016114fb3159b4f34a9cc6821786d0c43fc64a5fe4ee65b3b17",
+    "sha256_dopo": "c380c9083dd49528e8933a308ea554ece23a0ee59587f626af6abbbcb8866b92"
+  },
+  {
+    "codice": "R24",
+    "servizio": "NCC",
+    "pagina": 151,
+    "modificata": false,
+    "sha256_prima": "4a4c228c44440b472f18f46d6ebd29fa140c3d923b8c2057efe98f75b3631212",
+    "sha256_dopo": "4a4c228c44440b472f18f46d6ebd29fa140c3d923b8c2057efe98f75b3631212"
+  },
+  {
+    "codice": "R25",
+    "servizio": "NCC",
+    "pagina": 152,
+    "modificata": false,
+    "sha256_prima": "d32f657b9b53b047b373d9ba3ea8d57bb7967efe312303c9879a2f7082b09646",
+    "sha256_dopo": "d32f657b9b53b047b373d9ba3ea8d57bb7967efe312303c9879a2f7082b09646"
+  },
+  {
+    "codice": "R27",
+    "servizio": "NCC",
+    "pagina": 153,
+    "modificata": false,
+    "sha256_prima": "b7e78822650fd0a94a63dc4fc224437054b4a413359c3b63d6a0d1dd3dc52545",
+    "sha256_dopo": "b7e78822650fd0a94a63dc4fc224437054b4a413359c3b63d6a0d1dd3dc52545"
+  },
+  {
+    "codice": "R30",
+    "servizio": "NCC",
+    "pagina": 154,
+    "modificata": false,
+    "sha256_prima": "a63c472ee64321ea4932db4c86c371813f2aee1c626cd25d62e3da6d6204006f",
+    "sha256_dopo": "a63c472ee64321ea4932db4c86c371813f2aee1c626cd25d62e3da6d6204006f"
+  },
+  {
+    "codice": "I02",
+    "servizio": "NCC",
+    "pagina": 155,
+    "modificata": false,
+    "sha256_prima": "9c7b350a716bb7d855c52e2dbf5d8061155650779da52b72f5f56d60342ac5d1",
+    "sha256_dopo": "9c7b350a716bb7d855c52e2dbf5d8061155650779da52b72f5f56d60342ac5d1"
+  },
+  {
+    "codice": "I04",
+    "servizio": "NCC",
+    "pagina": 156,
+    "modificata": false,
+    "sha256_prima": "546058e5b043d57b28de1d52297379f43b0d08ccbd023a41475768ee7e5a286e",
+    "sha256_dopo": "546058e5b043d57b28de1d52297379f43b0d08ccbd023a41475768ee7e5a286e"
+  },
+  {
+    "codice": "I05",
+    "servizio": "NCC",
+    "pagina": 157,
+    "modificata": false,
+    "sha256_prima": "2ffb9f0bd921701294bfa41b6d36d73a74d4663497cd85118e302577609152d3",
+    "sha256_dopo": "2ffb9f0bd921701294bfa41b6d36d73a74d4663497cd85118e302577609152d3"
+  },
+  {
+    "codice": "R04",
+    "servizio": "NCC",
+    "pagina": 158,
+    "modificata": false,
+    "sha256_prima": "fa55c26b73b64143b348c70ab9e484fb0b6e3db8fcdca7d8bbf28c396542964a",
+    "sha256_dopo": "fa55c26b73b64143b348c70ab9e484fb0b6e3db8fcdca7d8bbf28c396542964a"
+  },
+  {
+    "codice": "R32",
+    "servizio": "NCC",
+    "pagina": 159,
+    "modificata": false,
+    "sha256_prima": "5ec451d2cd45b3b683627310886072ff477758b855c35d60fed807fac3f713ca",
+    "sha256_dopo": "5ec451d2cd45b3b683627310886072ff477758b855c35d60fed807fac3f713ca"
+  },
+  {
+    "codice": "R33-01",
+    "servizio": "NCC",
+    "pagina": 160,
+    "modificata": false,
+    "sha256_prima": "bb1e9c8cf016a5702aed565fb74ee3421cd8812fd5b2e86f185c47b2ede455b8",
+    "sha256_dopo": "bb1e9c8cf016a5702aed565fb74ee3421cd8812fd5b2e86f185c47b2ede455b8"
+  },
+  {
+    "codice": "R33-02",
+    "servizio": "NCC",
+    "pagina": 161,
+    "modificata": false,
+    "sha256_prima": "a2a7df4db43c168cbba8d7169c474316c343e08b2af5dade7a29b17178f4cbd4",
+    "sha256_dopo": "a2a7df4db43c168cbba8d7169c474316c343e08b2af5dade7a29b17178f4cbd4"
+  },
+  {
+    "codice": "R33-03",
+    "servizio": "NCC",
+    "pagina": 162,
+    "modificata": false,
+    "sha256_prima": "f1ad0605d025f863efb2eb985d761fd2543230483666bd6e2f40de2d8f604d76",
+    "sha256_dopo": "f1ad0605d025f863efb2eb985d761fd2543230483666bd6e2f40de2d8f604d76"
+  },
+  {
+    "codice": "R33-04",
+    "servizio": "NCC",
+    "pagina": 163,
+    "modificata": false,
+    "sha256_prima": "10c05d175f54b011476f476c6dcf26d265e9567ed69a974f148334f4d179e2a7",
+    "sha256_dopo": "10c05d175f54b011476f476c6dcf26d265e9567ed69a974f148334f4d179e2a7"
+  },
+  {
+    "codice": "R34",
+    "servizio": "NCC",
+    "pagina": 164,
+    "modificata": false,
+    "sha256_prima": "d08f88f007edf1abd6a4afd36e0d8e0518408603f8a5d52a6297fd709c70c69d",
+    "sha256_dopo": "d08f88f007edf1abd6a4afd36e0d8e0518408603f8a5d52a6297fd709c70c69d"
+  },
+  {
+    "codice": "N01",
+    "servizio": "NCC",
+    "pagina": 165,
+    "modificata": false,
+    "sha256_prima": "a8979ec49f07cf8e0cc0e7182db1d22ce90f0362fc0e18398ad385cb54a4200d",
+    "sha256_dopo": "a8979ec49f07cf8e0cc0e7182db1d22ce90f0362fc0e18398ad385cb54a4200d"
+  },
+  {
+    "codice": "N02",
+    "servizio": "NCC",
+    "pagina": 166,
+    "modificata": false,
+    "sha256_prima": "6bc8d675f32910caf03a9158d20f616bdbbf9819ba75d5d8e512307141dd38bf",
+    "sha256_dopo": "6bc8d675f32910caf03a9158d20f616bdbbf9819ba75d5d8e512307141dd38bf"
+  },
+  {
+    "codice": "N03",
+    "servizio": "NCC",
+    "pagina": 167,
+    "modificata": false,
+    "sha256_prima": "b3bd12d45165a4ef205c2aadbbd296e1ab260223325191d728c88cc040393118",
+    "sha256_dopo": "b3bd12d45165a4ef205c2aadbbd296e1ab260223325191d728c88cc040393118"
+  },
+  {
+    "codice": "N04",
+    "servizio": "NCC",
+    "pagina": 168,
+    "modificata": false,
+    "sha256_prima": "f7d24cfc05d994695016df48cba19409ebe12329eb5eea5be5a67ca0796fe509",
+    "sha256_dopo": "f7d24cfc05d994695016df48cba19409ebe12329eb5eea5be5a67ca0796fe509"
+  },
+  {
+    "codice": "N05",
+    "servizio": "NCC",
+    "pagina": 169,
+    "modificata": false,
+    "sha256_prima": "10a827b02a2e7c1ffadb0899bc8ea5558b52fc72e877adb1e7f1e516eaddd9c5",
+    "sha256_dopo": "10a827b02a2e7c1ffadb0899bc8ea5558b52fc72e877adb1e7f1e516eaddd9c5"
+  },
+  {
+    "codice": "N06",
+    "servizio": "NCC",
+    "pagina": 170,
+    "modificata": false,
+    "sha256_prima": "d21deec22a68495233882a9854c4e6bb72d0c0eb19b5bf4f4638e9e278cc19e4",
+    "sha256_dopo": "d21deec22a68495233882a9854c4e6bb72d0c0eb19b5bf4f4638e9e278cc19e4"
+  },
+  {
+    "codice": "N07",
+    "servizio": "NCC",
+    "pagina": 171,
+    "modificata": false,
+    "sha256_prima": "406a1feb2b2755c242fb6555979fe8d371c4668ca543f3b10753fd5521b1d2a0",
+    "sha256_dopo": "406a1feb2b2755c242fb6555979fe8d371c4668ca543f3b10753fd5521b1d2a0"
+  },
+  {
+    "codice": "N08",
+    "servizio": "NCC",
+    "pagina": 172,
+    "modificata": false,
+    "sha256_prima": "e20c760b5435c4602ae1215a356ecc5ff7f95dc3f4134202969ecbb43acb33b8",
+    "sha256_dopo": "e20c760b5435c4602ae1215a356ecc5ff7f95dc3f4134202969ecbb43acb33b8"
+  },
+  {
+    "codice": "N09",
+    "servizio": "NCC",
+    "pagina": 173,
+    "modificata": false,
+    "sha256_prima": "dfabcfa7e6f599e74d9eae3299d89304846b33bfd4ee20199e7099eff03868f4",
+    "sha256_dopo": "dfabcfa7e6f599e74d9eae3299d89304846b33bfd4ee20199e7099eff03868f4"
+  },
+  {
+    "codice": "N10",
+    "servizio": "NCC",
+    "pagina": 174,
+    "modificata": false,
+    "sha256_prima": "d4da9c66e4442fbabe4965ee7aaeeda780aea687c55d5968d8a17369ac1ea7a1",
+    "sha256_dopo": "d4da9c66e4442fbabe4965ee7aaeeda780aea687c55d5968d8a17369ac1ea7a1"
+  },
+  {
+    "codice": "N11",
+    "servizio": "NCC",
+    "pagina": 175,
+    "modificata": false,
+    "sha256_prima": "1584200ca5ce62f5a1ab7140e79bcc03ef1c7f74b4735bc3e5b0220086857da2",
+    "sha256_dopo": "1584200ca5ce62f5a1ab7140e79bcc03ef1c7f74b4735bc3e5b0220086857da2"
+  },
+  {
+    "codice": "N12",
+    "servizio": "NCC",
+    "pagina": 176,
+    "modificata": false,
+    "sha256_prima": "a3a15644e9998ea640c6fc309c7332a96803915d2cd40e71f26165c2f0b3eddf",
+    "sha256_dopo": "a3a15644e9998ea640c6fc309c7332a96803915d2cd40e71f26165c2f0b3eddf"
+  },
+  {
+    "codice": "R39",
+    "servizio": "Trazione animale",
+    "pagina": 177,
+    "modificata": false,
+    "sha256_prima": "a7a4185e37ad8277bd3c1b324689da50f4bc7ffeedba2eb9729350e563c85ed6",
+    "sha256_dopo": "a7a4185e37ad8277bd3c1b324689da50f4bc7ffeedba2eb9729350e563c85ed6"
+  },
+  {
+    "codice": "R40",
+    "servizio": "Trazione animale",
+    "pagina": 178,
+    "modificata": false,
+    "sha256_prima": "97000e92b6e6aad0ff302b5cbc5445dfbccec79774dad15c51ac28b1c1c85995",
+    "sha256_dopo": "97000e92b6e6aad0ff302b5cbc5445dfbccec79774dad15c51ac28b1c1c85995"
+  },
+  {
+    "codice": "R41",
+    "servizio": "Trazione animale",
+    "pagina": 179,
+    "modificata": false,
+    "sha256_prima": "74ffbf7ca4a00433aa9732c074433177df63fb8c0a70d8c63f3c4a4c5ce615ff",
+    "sha256_dopo": "74ffbf7ca4a00433aa9732c074433177df63fb8c0a70d8c63f3c4a4c5ce615ff"
+  },
+  {
+    "codice": "R42",
+    "servizio": "Trazione animale",
+    "pagina": 180,
+    "modificata": false,
+    "sha256_prima": "204f73a11258ee7b8401bd07e25f31b4f69e3b49236213848080df9a39e667b1",
+    "sha256_dopo": "204f73a11258ee7b8401bd07e25f31b4f69e3b49236213848080df9a39e667b1"
+  },
+  {
+    "codice": "R43",
+    "servizio": "Trazione animale",
+    "pagina": 181,
+    "modificata": false,
+    "sha256_prima": "2a5672b224916b25030dea02a944bbba0e280408a676f7ca8522f6c616c20081",
+    "sha256_dopo": "2a5672b224916b25030dea02a944bbba0e280408a676f7ca8522f6c616c20081"
+  },
+  {
+    "codice": "R44",
+    "servizio": "Trazione animale",
+    "pagina": 182,
+    "modificata": false,
+    "sha256_prima": "0c1339457e70dd9d254f36999316a9fbf58a6c2e16dffa71751f6fd03acb7f62",
+    "sha256_dopo": "0c1339457e70dd9d254f36999316a9fbf58a6c2e16dffa71751f6fd03acb7f62"
+  },
+  {
+    "codice": "R45",
+    "servizio": "Trazione animale",
+    "pagina": 183,
+    "modificata": false,
+    "sha256_prima": "356d573cdcf40ced2a96dfbdad86a56b8b7ad59c107f55f33cf087b1137175e3",
+    "sha256_dopo": "356d573cdcf40ced2a96dfbdad86a56b8b7ad59c107f55f33cf087b1137175e3"
+  },
+  {
+    "codice": "R46",
+    "servizio": "Trazione animale",
+    "pagina": 184,
+    "modificata": false,
+    "sha256_prima": "7d1db2edc2337be9b97a84ac048c87bd89b42c90b922d4960b3d6a7c3bd8cd99",
+    "sha256_dopo": "7d1db2edc2337be9b97a84ac048c87bd89b42c90b922d4960b3d6a7c3bd8cd99"
+  }
+]

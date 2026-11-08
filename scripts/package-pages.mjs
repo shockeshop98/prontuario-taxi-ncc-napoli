@@ -6,7 +6,7 @@ import {createHash} from 'node:crypto';
 const root=path.resolve(import.meta.dirname,'..');
 const files=JSON.parse(fs.readFileSync(path.join(root,'pages-files.json'),'utf8'));
 assert.equal(new Set(files).size,files.length);
-const excluded=/(?:EGAF_Art86_originale\.pdf|WhatsApp Image|verbale_cartaceo|diciture prontuario|revisione testi terza parte|ESEMPI_RICEVUTE_TARIFFE_1\.8\.2|RAPPORTO_REVISIONE_1\.8\.[23]|base-1\.8\.13|1\.8\.14\/(?:fonti\/|acquisizioni|esiti-txt\.json)|richieste-iniziali|stato-iniziale|prima-data|prima-viste|node_modules|\.git\/|\.bak$|\.key$|\.pem$)/i;
+const excluded=/(?:EGAF_Art86_originale\.pdf|WhatsApp Image|verbale_cartaceo|diciture prontuario|revisione testi terza parte|Revisione schede ncc prima parte|1\.8\.15\/(?:base-1\.8\.14|fonti\/|stato-iniziale|prima-viste|richieste-iniziali|fonti-acquisizioni|regolamento-lettura)|ESEMPI_RICEVUTE_TARIFFE_1\.8\.2|RAPPORTO_REVISIONE_1\.8\.[23]|base-1\.8\.13|1\.8\.14\/(?:fonti\/|acquisizioni|esiti-txt\.json)|richieste-iniziali|stato-iniziale|prima-data|prima-viste|node_modules|\.git\/|\.bak$|\.key$|\.pem$)/i;
 const sw=fs.readFileSync(path.join(root,'sw.js'),'utf8');
 const core=[...sw.match(/const CORE = \[(.*?)\];/s)[1].matchAll(/'([^']+)'/g)].map(m=>m[1]);
 const data=JSON.parse(fs.readFileSync(path.join(root,'index.html'),'utf8').match(/^const DATA=(.*);$/m)[1]);

@@ -1,0 +1,37 @@
+{
+  "pwa": "1.8.15",
+  "pdf": "7.17",
+  "data": "2026-11-08",
+  "base_commit": "717d266eb576fce80982432f7723a734e056dcb2",
+  "build": "dd77cb945938360a51caf0bc720b28c91ec3b67a5c4a5b658e237917a9a0d98f",
+  "schede": 172,
+  "pagine_pdf": 193,
+  "destinazioni": 172,
+  "formule": 171,
+  "servizi": [
+    {
+      "servizio": "Taxi",
+      "schede": 103
+    },
+    {
+      "servizio": "NCC",
+      "schede": 61
+    },
+    {
+      "servizio": "Trazione animale",
+      "schede": 8
+    }
+  ],
+  "richieste": 19,
+  "esiti": {
+    "Adattata con motivazione": 15,
+    "Applicata": 4
+  },
+  "viste_modificate": 19,
+  "viste_preservate": 153,
+  "fonti": 19,
+  "scelte_ncc": 29,
+  "pdf_sha256": "3df7e79ac36704d978071d59e88f0f68b01fd372370455f6963f87e034aa8c34",
+  "pdf_bytes": 5807085,
+  "input_sha256": "1311438b367436a3ff83fb0edd300d48c4f13475ad0e262285411d7e001dea44"
+}

@@ -1,0 +1,248 @@
+{
+  "localOnly": true,
+  "checkedAt": "2026-11-08T21:55:22.270Z",
+  "preview": [
+    {
+      "width": 360,
+      "rows": 19,
+      "pdfLinks": 19,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "rows": 19,
+      "pdfLinks": 19,
+      "overflow": false
+    }
+  ],
+  "amounts": [
+    {
+      "code": "G10",
+      "choice": 0,
+      "category": "tuel",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "G10",
+      "choice": 1,
+      "category": "residual",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "G11",
+      "choice": 0,
+      "category": "tuel",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "G12",
+      "choice": 0,
+      "category": "relation",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "G12",
+      "choice": 1,
+      "category": "severe",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "G12",
+      "choice": 2,
+      "category": "severe",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "G13",
+      "choice": 0,
+      "category": "tuel",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "G14",
+      "choice": 0,
+      "category": "tuel",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "G14",
+      "choice": 1,
+      "category": "residual",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "G32",
+      "choice": 0,
+      "category": "tuel",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "G32",
+      "choice": 1,
+      "category": "tuel",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "G44",
+      "choice": 0,
+      "category": "tuel",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "G44",
+      "choice": 1,
+      "category": "residual",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "G53",
+      "choice": 0,
+      "category": "pos",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "G54",
+      "choice": 0,
+      "category": "role",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "I06",
+      "choice": 0,
+      "category": "relation",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "I06",
+      "choice": 1,
+      "category": "severe",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "R02",
+      "choice": 0,
+      "category": "tuel",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "R02",
+      "choice": 1,
+      "category": "residual",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "R03",
+      "choice": 0,
+      "category": "tuel",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "R03",
+      "choice": 1,
+      "category": "tuel",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "R05",
+      "choice": 0,
+      "category": "tuel",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "R06",
+      "choice": 0,
+      "category": "relation",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "R09",
+      "choice": 0,
+      "category": "residual",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "R10",
+      "choice": 0,
+      "category": "residual",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "R12",
+      "choice": 0,
+      "category": "residual",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "R12",
+      "choice": 1,
+      "category": "advert",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "R22",
+      "choice": 0,
+      "category": "tuel",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    },
+    {
+      "code": "R23",
+      "choice": 0,
+      "category": "tuel",
+      "amountsCorrect": true,
+      "headingCorrect": true
+    }
+  ],
+  "renderedPDF": [
+    {
+      "code": "G13",
+      "page": 119,
+      "file": "pdf-G13-NCC.png",
+      "width": 892,
+      "height": 1262
+    },
+    {
+      "code": "G14",
+      "page": 120,
+      "file": "pdf-G14-NCC.png",
+      "width": 892,
+      "height": 1262
+    },
+    {
+      "code": "R12",
+      "page": 148,
+      "file": "pdf-R12-NCC.png",
+      "width": 892,
+      "height": 1262
+    }
+  ],
+  "comparisons": 19,
+  "jsErrors": []
+}

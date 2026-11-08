@@ -1,0 +1,155 @@
+{
+  "checkedAt": "2026-11-08T22:40:19.752122+00:00",
+  "localOnly": true,
+  "baseCommit": "717d266eb576fce80982432f7723a734e056dcb2",
+  "remoteAhead": 0,
+  "pwa": "1.8.15",
+  "pdf": "7.17",
+  "cards": 172,
+  "pages": 193,
+  "destinations": 172,
+  "copyFormulas": 171,
+  "attachments": 19,
+  "nccRequests": 19,
+  "adaptedRequests": 15,
+  "nccChoices": 29,
+  "preservedViews": 153,
+  "preservedTaxi": 103,
+  "npmTest": "PASS",
+  "historicalSuites": 13,
+  "cleanCopy": {
+    "currentSuite": "PASS",
+    "historicalSuite": "PASS",
+    "packageFiles": 237,
+    "initialSnapshotsAbsent": 14,
+    "privateInputsAbsent": true,
+    "mandatoryFileRejection": "PASS",
+    "gitObjectsSHA256Mandatory": true,
+    "npmCi": "PASS, 0 vulnerabilità segnalate"
+  },
+  "build": "dd77cb945938360a51caf0bc720b28c91ec3b67a5c4a5b658e237917a9a0d98f",
+  "pdfSHA256": "3df7e79ac36704d978071d59e88f0f68b01fd372370455f6963f87e034aa8c34",
+  "privacy": {
+    "originalWorkingTXTUnchanged": true,
+    "privateFilesSelected": 0,
+    "fiscalIdentifiersInSelectedText": 0,
+    "originalsRetainedLocally": true
+  },
+  "publicBaseline": {
+    "release": "1.8.14",
+    "build": "53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e",
+    "worker": "53e242ecce7fcba5d85d184684be8a5af7f19940e09e2f0fc61f86b58a0dc86e",
+    "pdfVersion": "7.16",
+    "pdfPages": 193,
+    "pdfSHA256": "1cc65c8dab3193109c07d9fe9043db702709bd757f7e6b1c9b2274973432fc79",
+    "savedSources": [
+      {
+        "index": 0,
+        "path": "allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+        "cached": true,
+        "sha256": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0"
+      },
+      {
+        "index": 1,
+        "path": "allegati/Prontuario_GIT_Turistica_originale.pdf",
+        "cached": true,
+        "sha256": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a"
+      },
+      {
+        "index": 2,
+        "path": "allegati/EGAF_Art86_provenienza.txt",
+        "cached": true,
+        "sha256": "d4e1001b31347f90601b4932f531bc9a256c78a7f3d10e03dbb470ad8acc1da9"
+      },
+      {
+        "index": 3,
+        "path": "allegati/Prontuario_Taxi_NCC_Napoli.pdf",
+        "cached": true,
+        "sha256": "1cc65c8dab3193109c07d9fe9043db702709bd757f7e6b1c9b2274973432fc79"
+      },
+      {
+        "index": 4,
+        "path": "allegati/Tariffario_Taxi_2024.pdf",
+        "cached": true,
+        "sha256": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055"
+      },
+      {
+        "index": 5,
+        "path": "allegati/EGAF_Art85_originale.txt",
+        "cached": true,
+        "sha256": "594a78b6f7cd709205d6790508b42a970588b422dbd414fafe72a42919585610"
+      },
+      {
+        "index": 6,
+        "path": "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+        "cached": true,
+        "sha256": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a"
+      },
+      {
+        "index": 7,
+        "path": "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+        "cached": true,
+        "sha256": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18"
+      },
+      {
+        "index": 8,
+        "path": "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+        "cached": true,
+        "sha256": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5"
+      },
+      {
+        "index": 9,
+        "path": "allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+        "cached": true,
+        "sha256": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205"
+      },
+      {
+        "index": 10,
+        "path": "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+        "cached": true,
+        "sha256": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89"
+      },
+      {
+        "index": 11,
+        "path": "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+        "cached": true,
+        "sha256": "4e44f34b40802ee9837f5cf07f38e09a950a6ff93ae447072cda26f289543c03"
+      },
+      {
+        "index": 12,
+        "path": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+        "cached": true,
+        "sha256": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184"
+      },
+      {
+        "index": 13,
+        "path": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+        "cached": true,
+        "sha256": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e"
+      },
+      {
+        "index": 14,
+        "path": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+        "cached": true,
+        "sha256": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042"
+      },
+      {
+        "index": 15,
+        "path": "allegati/OS835_2014_indicazioni_autore.txt",
+        "cached": true,
+        "sha256": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd"
+      },
+      {
+        "index": 16,
+        "path": "allegati/Fonti_revisione_1.8.14.txt",
+        "cached": true,
+        "sha256": "911c1305668f91d88d99b975404c7965b57ffe9f56c51749b98ba5c733f45664"
+      }
+    ],
+    "saved": {
+      "reg": true,
+      "provenance": true,
+      "pdf": true
+    }
+  }
+}

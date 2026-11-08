@@ -1,0 +1,933 @@
+[
+  {
+    "codice": "G10",
+    "richiesta": "Art.85 c.4-ter, riferimento e importi CdS per uso assicurativo difforme.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Polizza con uso privato anziché uso pubblico",
+      "riferimenti": "CdS art.85 c.4-ter (solo nell’alternativa verificata); Regolamento comunale (delibera C.C. n. 80/2005), art.5 c.3 let. g; D.Lgs.209/2005 art.144; D.Lgs.267/2000 art.7-bis; L.R.10/2024 art.21 c.5; L.689/1981 art.16",
+      "tabella": [
+        "Regime generale TUEL",
+        "25–500",
+        "50 entro 60 giorni",
+        "Non previsto",
+        "Rapporto ex art. 17 L.689/1981",
+        "Non previste"
+      ],
+      "formula": "Il veicolo indicato, con autorizzazione NCC n. […], era impiegato nel servizio nonostante la polizza n. […] della compagnia […] riportasse uso privato. Clausola e riscontro dell’assicuratore: […].",
+      "alternative": [
+        {
+          "label": "Utilizzo contrario a condizione dell’autorizzazione — presupposti CdS verificati",
+          "text": "Durante il servizio utilizzava l’autovettura indicata, con autorizzazione NCC n. […], in violazione della condizione […] sull’assicurazione per uso NCC. Polizza, clausola efficace e riscontro dell’assicuratore: […].",
+          "category": "residual",
+          "payment": [
+            "Condizione dell’autorizzazione accertata",
+            "86–338",
+            "86",
+            "60,20",
+            "169",
+            "Nessuna accessoria CdS"
+          ]
+        }
+      ],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Accertare condotta, soggetto, fonte e presupposti; documentare gli atti effettivi.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "Polizza per uso privato e mancanza della copertura RCA sono fatti distinti. Acquisire contratto e risposta dell’assicuratore; opponibilità/rivalsa ex D.Lgs.209/2005 art.144. Nessun art.193 per la sola difformità d’uso.",
+        "Omissione comunale: €25–500, PMR €50 entro60giorni ex L.689/1981 art.16; salvo diversa delibera di Giunta non acquisita. Nessuno sconto30% o punto patente. Il rinvio dell’art.28 comunale al CdS non sostituisce i presupposti dell’art.85 c.4-ter.",
+        "Art.85 c.4-ter: accertare utilizzo del veicolo autorizzato, condizione specifica efficace del titolo e responsabilità personale; escludere i commi 4 e4-bis. La sola disposizione comunale o la titolarità non provano tali elementi. Nessun cumulo automatico per lo stesso fatto (L.689/1981 art.9).",
+        "La scelta CdS sostituisce la qualificazione base per il fatto descritto: non genera un secondo verbale TUEL automatico. Se mancano i presupposti, usare la qualificazione comunale o la relazione pertinente."
+      ]
+    },
+    "motivazione": "Richiesta tabella CdS adattata: la difformità assicurativa è un obbligo comunale; aggiunta scelta art.85 c.4-ter solo con utilizzo e condizione del titolo documentati. Confermata la distinzione della1.8.14 da assenza RCA.",
+    "fonti": [
+      "CDS85",
+      "CDS193",
+      "ASS144",
+      "REG5",
+      "TUEL7bis",
+      "LR10",
+      "L689art16"
+    ],
+    "punto_aperto": "Condizione individuale del titolo e contenuto effettivo della polizza da acquisire nel caso concreto; nessuna equiparazione automatica a scopertura RCA."
+  },
+  {
+    "codice": "G11",
+    "richiesta": "Art.85 c.4-ter e importi CdS per comunicazione conferimento/recesso omessa.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Comunicazione di conferimento recesso o decadenza",
+      "riferimenti": "Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.7; art.29 c. 2 let. a; D.Lgs.267/2000 art.7-bis; L.R.10/2024 art.21 c.5; L.689/1981 art.16",
+      "tabella": [
+        "Regime generale TUEL",
+        "25–500",
+        "50 entro 60 giorni",
+        "Non previsto",
+        "Rapporto ex art. 17 L.689/1981",
+        "Non previste"
+      ],
+      "formula": "Il soggetto obbligato […] per l’autorizzazione NCC n. […] ometteva di comunicare l’evento […] del […] entro cinque giorni. Evento effettivo e protocollo comunale: […].",
+      "alternative": [],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Accertare condotta, soggetto, fonte e presupposti; documentare gli atti effettivi.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula. Gruppo A: diffida alla prima violazione; sospensione 5/15 giorni nelle fasce successive. Art.28–29: punti sul titolo comunale distinti dalla patente; fascia e decisione dell’ufficio.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "Art.5 c.7: conferimento, recesso, esclusione o decadenza; descrivere il solo evento accertato. La mera omissione non è utilizzo del veicolo ex art.85 c.4-ter. Gruppo A: seguito dell’ufficio, senza ritiro immediato.",
+        "Omissione comunale: €25–500, PMR €50 entro60giorni ex L.689/1981 art.16; salvo diversa delibera di Giunta non acquisita. Nessuno sconto30% o punto patente. Il rinvio dell’art.28 comunale al CdS non sostituisce i presupposti dell’art.85 c.4-ter."
+      ]
+    },
+    "motivazione": "Confermata1.8.14: mancata comunicazione di conferimento/recesso/esclusione/decadenza non è di per sé utilizzo contrario al titolo. Conservato TUEL; precisati evento, termine e soggetto. Nessuna tabella CdS automatica.",
+    "fonti": [
+      "CDS85",
+      "REG5",
+      "REG29",
+      "LR10"
+    ],
+    "punto_aperto": "Presupposti e riscontri individuali da completare nella scheda; nessuna ulteriore fonte generale mancante per la modifica richiesta."
+  },
+  {
+    "codice": "G12",
+    "richiesta": "Art.85 c.4, L.21/1992 art.8, importi e formula per autorizzazione sospesa/revocata.",
+    "esito": "Applicata",
+    "applicata": {
+      "titolo": "Inosservanza di un provvedimento sul titolo",
+      "riferimenti": "CdS art.85 c.4 (servizio senza titolo efficace); L.21/1992 art.8",
+      "tabella": [
+        "Relazione",
+        "Da qualificare",
+        "Non preimpostato",
+        "Non preimpostato",
+        "Secondo la base verificata",
+        "Nessuna misura presunta"
+      ],
+      "formula": "Con il veicolo indicato, con autorizzazione NCC n. […], svolgeva il servizio in contrasto con il provvedimento n. […] del […], efficace dal […]. Prescrizione, fatto e riscontro: […].",
+      "alternative": [
+        {
+          "label": "Servizio con autorizzazione sospesa — stato verificato",
+          "text": "Adibiva l’autovettura indicata a servizio NCC con autorizzazione n. […] sospesa dal provvedimento […] notificato il […] ed efficace al momento del fatto. Servizio e riscontri: […].",
+          "category": "severe"
+        },
+        {
+          "label": "Servizio con autorizzazione revocata — stato verificato",
+          "text": "Adibiva l’autovettura indicata a servizio NCC con autorizzazione n. […] revocata dal provvedimento […] notificato il […] ed efficace al momento del fatto. Servizio e riscontri: […].",
+          "category": "severe"
+        }
+      ],
+      "attestazioni": [
+        {
+          "id": "patente",
+          "category": "severe",
+          "title": "Solo nell’ipotesi CdS grave: patente materialmente ritirata",
+          "text": "La patente è ritirata e sarà trasmessa alla Prefettura entro cinque giorni."
+        },
+        {
+          "id": "sequestro",
+          "category": "severe",
+          "title": "Solo nell’ipotesi CdS grave: sequestro e custodia eseguiti",
+          "text": "Il veicolo è sequestrato ai fini della confisca con affidamento in custodia, come da separati atti […]."
+        }
+      ],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Redigere relazione; prima di contestare qualificare la disposizione e i presupposti indicati nelle note.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito: le disposizioni nazionali e regionali richiamate non sono limitate agli NCC autorizzati da Napoli; verificarne i presupposti specifici.",
+        "Titolo sospeso o revocato: verificare provvedimento, notifica, efficacia e servizio effettivo con autovettura NCC. Un altro ordine o la mancata esibizione non dimostrano assenza del titolo; la formula base resta relazione.",
+        "Scegliere solo sospensione oppure revoca. Art.85 c.4: €1.812–7.249, confisca e patente4–12mesi; PMR escluso ex art.210 c.3. Sequestro e custodia con atti separati, verbale al Prefetto entro10giorni e patente ritirata entro5giorni.",
+        "Precedenti della stessa persona nel triennio: seconda violazione, N03 e revoca da disporre dal Prefetto. Non attribuire prima fascia a un riscontro pendente; proprietà/estraneità del terzo ex art.213 c.9."
+      ]
+    },
+    "motivazione": "Aggiunto L.21/1992 art.8. Formula base per relazione; sospensione e revoca sono scelte distinte con tabella e misure art.85 c.4 soltanto per servizio e stato efficace verificati. Invio futuro nella contestazione; nessuna alternativa cumulata.",
+    "fonti": [
+      "CDS85",
+      "L21art8",
+      "CDS202",
+      "CDS210",
+      "CDS213",
+      "CDS218",
+      "CDS219"
+    ],
+    "punto_aperto": "Presupposti e riscontri individuali da completare nella scheda; nessuna ulteriore fonte generale mancante per la modifica richiesta."
+  },
+  {
+    "codice": "G13",
+    "richiesta": "Art.85 c.4-ter, importi, formula vidimazione e clausola di ritiro del titolo.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Vidimazione quinquennale omessa",
+      "riferimenti": "Regolamento comunale (delibera C.C. n. 80/2005), art.16 cc.1 e2; art.29 c.2 let. b; D.Lgs.267/2000 art.7-bis; L.R.10/2024 art.21 c.5; L.689/1981 art.16; D.D.4/02.01.2026, DISP/2026/0000198",
+      "tabella": [
+        "Regime generale TUEL",
+        "25–500",
+        "50 entro 60 giorni",
+        "Non previsto",
+        "Rapporto ex art. 17 L.689/1981",
+        "Non previste"
+      ],
+      "formula": "Il titolare […] dell’autorizzazione NCC n. […] ometteva la vidimazione quinquennale dovuta entro […] in base all’atto […]. Ultima vidimazione e risposta dell’ufficio: […].",
+      "alternative": [],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Accertare obbligo, termine, utilizzo e riscontro pertinenti. Nessun ritiro dell’autorizzazione previsto per la sola condotta; eventuali provvedimenti spettano all’ufficio.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula. Gruppo B: sospensione 15/30/60 giorni;5punti sul titolo dalle violazioni successive alla prima. Art.28–29: punti sul titolo comunale distinti dalla patente; fascia e decisione dell’ufficio.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "D.D.4/2026 integrale acquisita: puntoE/F, istanze e verifica entro30/04/2026; puntoG, titoli in scadenza2026 validi fino30/06/2026. Verificare rinnovo, proroghe e stato del singolo titolo; procedimento di revoca del puntoF distinto da revoca già adottata.",
+        "La sola omissione del titolare non integra art.85 c.4-ter. Se accertati servizio e assenza di titolo efficace, qualificare art.85 c.4 nella distinta G12; non equiparare automaticamente mancato timbro e servizio abusivo.",
+        "Omissione comunale: €25–500, PMR €50 entro60giorni ex L.689/1981 art.16; salvo diversa delibera di Giunta non acquisita. Nessuno sconto30% o punto patente. Il rinvio dell’art.28 comunale al CdS non sostituisce i presupposti dell’art.85 c.4-ter.",
+        "Nessun ritiro dell’autorizzazione per la sola condotta descritta: art.85 c.4-ter non lo prevede; art.29 c.4 comunale riguarda i soli gruppi C/D. Provvedimenti sul titolo riservati all’ufficio."
+      ]
+    },
+    "motivazione": "Formula richiesta applicata con autorizzazione e atto2026. Integrale D.D.4/2026 acquisito: termine30/04, validità30/06 per titoli2026, avvio del procedimento di revoca distinto. Nessun ritiro del gruppo B né art.85 c.4-ter per la sola omissione; se titolo inefficace e servizio, G12.",
+    "fonti": [
+      "CDS85",
+      "REG16",
+      "REG29",
+      "DD4-2026"
+    ],
+    "punto_aperto": "Stato del titolo, eventuali rinnovi/proroghe e notifiche nel caso concreto; nessuna successiva proroga generale reperita nei percorsi consultati."
+  },
+  {
+    "codice": "G14",
+    "richiesta": "Art.85 c.4-ter, importi, formula visita omessa e ritiro del titolo.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Visita tecnica comunale omessa",
+      "riferimenti": "CdS art.85 c.4-ter (solo nell’alternativa verificata); Regolamento comunale (delibera C.C. n. 80/2005), art.16 cc.3 e4; D.Lgs.267/2000 art.7-bis; L.R.10/2024 art.21 c.5; L.689/1981 art.16; D.D.4/02.01.2026, DISP/2026/0000198",
+      "tabella": [
+        "Regime generale TUEL",
+        "25–500",
+        "50 entro 60 giorni",
+        "Non previsto",
+        "Rapporto ex art. 17 L.689/1981",
+        "Non previste"
+      ],
+      "formula": "Il titolare […] dell’autorizzazione NCC n. […] ometteva la verifica annuale d’idoneità del veicolo dovuta entro […] secondo l’atto […]. Risposta dell’ufficio e fatto: […].",
+      "alternative": [
+        {
+          "label": "Utilizzo contrario a condizione dell’autorizzazione — presupposti CdS verificati",
+          "text": "Durante il servizio utilizzava l’autovettura indicata, con autorizzazione NCC n. […], senza la verifica d’idoneità prescritta dalla condizione […] del titolo […]. Termine, utilizzo e riscontro comunale: […].",
+          "category": "residual",
+          "payment": [
+            "Condizione dell’autorizzazione accertata",
+            "86–338",
+            "86",
+            "60,20",
+            "169",
+            "Nessuna accessoria CdS"
+          ]
+        }
+      ],
+      "attestazioni": [
+        {
+          "id": "ritiro-ufficio",
+          "title": "Provvedimento di ritiro verificato e ritiro materialmente eseguito",
+          "text": "L’autorizzazione NCC è ritirata in esecuzione del provvedimento […] e sarà trasmessa all’Ufficio Corso Pubblico con copia del presente verbale."
+        }
+      ],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Documentare ritardo e giustificazioni. D.D.4/2026 puntoI: verificare il provvedimento dell’ufficio e la sua efficacia; se dispone il ritiro, eseguirlo e trasmettere l’autorizzazione al Corso Pubblico. Copiare l’attestazione solo se materialmente eseguito; nessuna sospensione disposta dagli operatori.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "Verifica comunale distinta dalla revisione CdS. D.D.4/2026 puntoF: termine30/04/2026 per l’ambito dell’atto; sostituzione del veicolo ex c.4 e diversa disciplina del trasporto scolastico da verificare separatamente.",
+        "Omissione comunale: €25–500, PMR €50 entro60giorni ex L.689/1981 art.16; salvo diversa delibera di Giunta non acquisita. Nessuno sconto30% o punto patente. Il rinvio dell’art.28 comunale al CdS non sostituisce i presupposti dell’art.85 c.4-ter.",
+        "Art.85 c.4-ter: accertare utilizzo del veicolo autorizzato, condizione specifica efficace del titolo e responsabilità personale; escludere i commi 4 e4-bis. La sola disposizione comunale o la titolarità non provano tali elementi. Nessun cumulo automatico per lo stesso fatto (L.689/1981 art.9).",
+        "Nuova fonte: D.D.4/2026 puntoI contempla possibile sospensione e ritiro per ingiustificato ritardo. Non è un ritiro automatico ex art.85 c.4-ter. Acquisire il provvedimento dell’ufficio e verificarne presupposti, efficacia e coordinamento con art.29 c.4 (ritiro immediato dei gruppi C/D); gli operatori non dispongono la sospensione.",
+        "La scelta CdS sostituisce la qualificazione base per il fatto descritto: non genera un secondo verbale TUEL automatico. Se mancano i presupposti, usare la qualificazione comunale o la relazione pertinente."
+      ]
+    },
+    "motivazione": "Formula sul titolare, visita annuale e atto2026 applicata. Confermato TUEL per omissione; aggiunta alternativa CdS solo con utilizzo e condizione dell’autorizzazione documentati. D.D.4/2026 puntoI contempla possibile sospensione/ritiro: nuova clausola solo per provvedimento dell’ufficio verificato e ritiro eseguito, non accessoria automatica del c.4-ter. Coordinamento con art.29 c.4 esplicitato.",
+    "fonti": [
+      "CDS85",
+      "REG16",
+      "DD4-2026"
+    ],
+    "punto_aperto": "Coordinamento del puntoI D.D.4/2026 con art.29 c.4; provvedimento dell’ufficio, efficacia e ritardo ingiustificato nel caso concreto."
+  },
+  {
+    "codice": "G32",
+    "richiesta": "Art.85 c.4-ter e nota per guida con patente sospesa/ritirata.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Sospensione patente o ritiro documento non comunicati",
+      "riferimenti": "Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c. 1 let. s; art. 23 c. 3; D.Lgs.267/2000 art.7-bis; L.R.10/2024 art.21 c.5; L.689/1981 art.16",
+      "tabella": [
+        "Regime generale TUEL",
+        "25–500",
+        "50 entro 60 giorni",
+        "Non previsto",
+        "Rapporto ex art. 17 L.689/1981",
+        "Non previste"
+      ],
+      "formula": "Il soggetto obbligato […] per l’autorizzazione NCC n. […] ometteva di comunicare la sospensione della patente disposta con atto […] notificato il […], entro ventiquattro ore lavorative. Protocollo e riscontro: […].",
+      "alternative": [
+        {
+          "label": "Ritiro della carta di circolazione",
+          "text": "Il soggetto obbligato […] per l’autorizzazione NCC n. […] ometteva di comunicare il ritiro della carta di circolazione disposto con atto […] notificato il […], entro ventiquattro ore lavorative. Protocollo e riscontro: […]."
+        }
+      ],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Accertare condotta, soggetto, fonte e presupposti; documentare gli atti effettivi.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula. Gruppo A: diffida alla prima violazione; sospensione 5/15 giorni nelle fasce successive. Art.28–29: punti sul titolo comunale distinti dalla patente; fascia e decisione dell’ufficio.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "Art.23 c.1 let. s, richiamato dal c.3: sospensione patente o ritiro carta di circolazione. Il solo ritiro della patente non è la medesima previsione. Omissione comunale distinta dall’eventuale guida, non art.85 c.4-ter automatico.",
+        "Guida effettiva: patente sospesa in via sanzionatoria, art.218 c.6; sospensione breve, art.218-ter c.8; ritiro ai sensi dell’art.216, c.6 dello stesso articolo. Per ritiro ex art.218 verificare decorrenza e regime della sospensione. Verificare atto, efficacia, limiti e permessi prima di qualificare.",
+        "Regimi distinti: sospensione per revisione/inidoneità temporanea, art.128 c.2; patente scaduta, art.126 c.11; assenza o revoca, art.116 cc.15 e17. Carta di circolazione ritirata:216 c.6; sospesa:217 c.6. Nessuna contestazione per il solo veicolo presente, senza guida/circolazione accertata.",
+        "Omissione comunale: €25–500, PMR €50 entro60giorni ex L.689/1981 art.16; salvo diversa delibera di Giunta non acquisita. Nessuno sconto30% o punto patente. Il rinvio dell’art.28 comunale al CdS non sostituisce i presupposti dell’art.85 c.4-ter."
+      ]
+    },
+    "motivazione": "Art.85 c.4-ter non applicato alla sola comunicazione omessa. Separate sospensione patente e ritiro carta di circolazione; note con218 c.6,216 c.6 e regimi speciali128/218-ter. Non basta che il veicolo circoli: occorre il presupposto della norma specifica.",
+    "fonti": [
+      "CDS85",
+      "REG23",
+      "CDS216",
+      "CDS217",
+      "CDS218",
+      "CDS218ter",
+      "CDS128",
+      "CDS126",
+      "CDS116"
+    ],
+    "punto_aperto": "Presupposti e riscontri individuali da completare nella scheda; nessuna ulteriore fonte generale mancante per la modifica richiesta."
+  },
+  {
+    "codice": "G44",
+    "richiesta": "Art.85 c.4-ter e importi, coordinati con art.6/23/29 comunali.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Conduzione consentita a persona non autorizzata",
+      "riferimenti": "CdS art.85 c.4-ter (solo nell’alternativa verificata); L.21/1992 art.10 c.2-bis; Regolamento comunale (delibera C.C. n. 80/2005), art.6; art.23 c.2 let. k e c.3; art.29 c.2 let. c e c.4; D.Lgs.267/2000 art.7-bis; L.R.10/2024 art.21 c.5; L.689/1981 art.16",
+      "tabella": [
+        "Regime generale TUEL",
+        "25–500",
+        "50 entro 60 giorni",
+        "Non previsto",
+        "Rapporto ex art. 17 L.689/1981",
+        "Non previste"
+      ],
+      "formula": "Il titolare […] dell’autorizzazione NCC n. […] consentiva la conduzione in servizio del veicolo indicato a […], privo del requisito […] verificato presso […]. Consenso o condotta personalmente imputabile al titolare: […].",
+      "alternative": [
+        {
+          "label": "Utilizzo contrario a condizione dell’autorizzazione — presupposti CdS verificati",
+          "text": "Il soggetto […] utilizzava l’autovettura indicata, con autorizzazione NCC n. […], facendola condurre da […] in violazione della condizione […] del titolo efficace dal […]. Utilizzo e responsabilità personale risultavano da […].",
+          "category": "residual",
+          "payment": [
+            "Condizione dell’autorizzazione accertata",
+            "86–338",
+            "86",
+            "60,20",
+            "169",
+            "Nessuna accessoria CdS"
+          ]
+        }
+      ],
+      "attestazioni": [
+        {
+          "id": "titolo",
+          "title": "Ritiro del titolo comunale materialmente eseguito",
+          "text": "L’autorizzazione NCC è ritirata e sarà trasmessa all’Ufficio Corso Pubblico."
+        }
+      ],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Accertata la condotta del gruppo C ex art.29 c.2 let. c, ritirare l’autorizzazione NCC ex c.4 e trasmettere all’Ufficio Corso Pubblico. Attestazione nella copia solo se eseguito; distinto dal permesso del conducente.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula. Gruppo C: sospensione 15/30/60 giorni;10punti sul titolo. Art.28–29: punti sul titolo comunale distinti dalla patente; fascia e decisione dell’ufficio.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "Autore del consenso personalmente provato distinto da conducente e obbligato solidale. L.21/1992 art.10 cc.2-bis e4; dipendente/collaboratore ammesso non è automaticamente persona non autorizzata. Sola titolarità o omissione del titolare non bastano per art.85 c.4-ter.",
+        "Omissione comunale: €25–500, PMR €50 entro60giorni ex L.689/1981 art.16; salvo diversa delibera di Giunta non acquisita. Nessuno sconto30% o punto patente. Il rinvio dell’art.28 comunale al CdS non sostituisce i presupposti dell’art.85 c.4-ter.",
+        "Art.85 c.4-ter: accertare utilizzo del veicolo autorizzato, condizione specifica efficace del titolo e responsabilità personale; escludere i commi 4 e4-bis. La sola disposizione comunale o la titolarità non provano tali elementi. Nessun cumulo automatico per lo stesso fatto (L.689/1981 art.9).",
+        "Gruppo C: ritiro dell’autorizzazione ex art.29 c.4 comunale, distinto da patente e permesso di sostituzione. Obbligo negli adempimenti; attestazione soltanto se materialmente eseguito. Sospensione e punti sul titolo decisi dall’ufficio."
+      ]
+    },
+    "motivazione": "Titolare autore del consenso distinto da chi utilizza il veicolo. TUEL base e alternativa4-ter con responsabilità/condizione documentate. Ritiro autorizzazione del gruppo C conservato ex art.29 c.4; attestazione solo dopo esecuzione, non ritiro del permesso del conducente.",
+    "fonti": [
+      "CDS85",
+      "L21art10",
+      "REG6",
+      "REG23",
+      "REG29",
+      "L689art3",
+      "L689art5",
+      "L689art6"
+    ],
+    "punto_aperto": "Presupposti e riscontri individuali da completare nella scheda; nessuna ulteriore fonte generale mancante per la modifica richiesta."
+  },
+  {
+    "codice": "G53",
+    "richiesta": "Nota operativa: Da trattare con verbale amministrativo (VV).",
+    "esito": "Applicata",
+    "applicata": {
+      "titolo": "Rifiuto del pagamento elettronico",
+      "riferimenti": "D.L.179/2012 art.15 cc.4 e4-bis; L.689/1981 (art.16 escluso)",
+      "tabella": [
+        "Art.15 c.4-bis",
+        "30 € + 4% della transazione",
+        "Non ammesso ex art.16 L.689/1981",
+        "Non previsto",
+        "Rapporto al Prefetto",
+        "Non previste"
+      ],
+      "formula": "Per la corsa […], sul veicolo indicato, con autorizzazione NCC n. […], rifiutava il pagamento elettronico di € […] richiesto dall’utente mediante […]. Circostanze del rifiuto e riscontri: […]. Sanzione: € 30 + 4% di € […] = € […].",
+      "alternative": [],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Accertare condotta, soggetto, fonte e presupposti; documentare gli atti effettivi.",
+        "report": "Rapporto ex art.17 L.689/1981 al Prefetto del luogo della violazione; distinto invio dei fatti pertinenti al Corso Pubblico.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito: le disposizioni nazionali e regionali richiamate non sono limitate agli NCC autorizzati da Napoli; verificarne i presupposti specifici.",
+        "Indicazione operativa dell’autore: Da trattare con verbale amministrativo (VV).",
+        "D.L.179/2012 art.15 cc.4 e4-bis: €30+4% della transazione rifiutata, salvo oggettiva impossibilità tecnica. Nessun PMR ex art.16 L.689/1981 né sconto30%. Usare la calcolatrice; rapporto al Prefetto del luogo del fatto, distinto invio dei fatti pertinenti al Corso Pubblico."
+      ]
+    },
+    "motivazione": "Nota VV inserita come indicazione operativa dell’autore, fuori dalla copia. Confermati30€+4%, esclusione art.16 e rapporto al Prefetto; Corso Pubblico distinto.",
+    "fonti": [
+      "POS15",
+      "L689art16",
+      "L689art17"
+    ],
+    "punto_aperto": "Presupposti e riscontri individuali da completare nella scheda; nessuna ulteriore fonte generale mancante per la modifica richiesta."
+  },
+  {
+    "codice": "G54",
+    "richiesta": "Nota operativa: Da trattare con verbale amministrativo (VV).",
+    "esito": "Applicata",
+    "applicata": {
+      "titolo": "Esercizio senza iscrizione al ruolo conducenti",
+      "riferimenti": "L.21/1992 art.6; L.R.10/2024 art.17 cc.3,5 e6, art.19 cc.3 e5, art.21 cc.1 e2; L.689/1981 art.16",
+      "tabella": [
+        "Art.21 c.1 regionale",
+        "500–3.000",
+        "1.000 entro 60 giorni",
+        "Non previsto",
+        "Rapporto ex L.689/1981",
+        "Comunicazioni regionali"
+      ],
+      "formula": "Con il veicolo indicato, con autorizzazione NCC n. […], conduceva terze persone nella corsa […] senza iscrizione al ruolo conducenti richiesto. La CCIAA […] attestava l’assenza dell’iscrizione con risposta […] del […].",
+      "alternative": [],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Accertare condotta, soggetto, fonte e presupposti; documentare gli atti effettivi.",
+        "report": "Rapporto all’autorità ex art.17 L.689/1981 secondo competenze e deleghe da verificare: atto organizzativo non acquisito. Proventi al Comune del luogo del fatto, distinto dai destinatari delle comunicazioni; comunicazioni ex art.21 c.2 L.R.10/2024 a CCIAA, GdF, UMC, Agenzia Entrate, INL e INPS. Fatti pertinenti sul titolo al Comune autorizzante.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito: le disposizioni nazionali e regionali richiamate non sono limitate agli NCC autorizzati da Napoli; verificarne i presupposti specifici.",
+        "Indicazione operativa dell’autore: Da trattare con verbale amministrativo (VV).",
+        "L.R.10/2024 art.17 cc.3 e6 e art.21 cc.1 e2: trasporto di terze persone senza iscrizione, verificata presso CCIAA; fino a9posti compreso il conducente. Verificare l’iscrizione di diritto ex art.17 c.5: la sola assenza in archivio non prova un difetto del requisito. Ruolo senza limiti territoriali; revisione pendente con validità conservata fino alla notifica ex art.19 cc.3 e5.",
+        "€500–3.000, PMR€1.000 entro60giorni ex L.689/1981 art.16. Comunicazioni a CCIAA, GdF, UMC, Agenzia Entrate, INL e INPS; rapporto all’autorità ex art.17 L.689 secondo le competenze e deleghe applicabili, distinta dai destinatari delle comunicazioni. Il testo regionale indica i proventi al Comune del luogo del fatto (numerazione pubblicata “6bis.7”): l’ufficio del rapporto non si desume dai soli destinatari o dai proventi; relativo atto organizzativo non acquisito. Nessun ritiro, punto patente o sconto30% automatici."
+      ]
+    },
+    "motivazione": "Nota VV inserita come indicazione dell’autore, fuori dalla copia. Confermati obbligo ruolo, ambito fino a9posti compreso conducente,500–3.000/PMR1.000 e comunicazioni regionali; nessuna misura CdS automatica.",
+    "fonti": [
+      "L21art6",
+      "LR10",
+      "L689art16",
+      "L689art17"
+    ],
+    "punto_aperto": "Atto organizzativo/delega che identifica l’ufficio del rapporto e del pagamento nel caso concreto non acquisito; proventi e comunicazioni non bastano a individuarlo."
+  },
+  {
+    "codice": "I06",
+    "richiesta": "Art.85 c.4, L.21/1992 e art.13-bis regionale, tabella CdS.",
+    "esito": "Applicata",
+    "applicata": {
+      "titolo": "Trasferimento accessorio per ospiti di struttura ricettiva",
+      "riferimenti": "CdS art.85 c.4 (se NCC senza titolo); L.21/1992 artt.3 e8; L.R.10/2024 art.13-bis, introdotto da L.R.7/2026",
+      "tabella": [
+        "Relazione",
+        "Da qualificare",
+        "Non preimpostato",
+        "Non preimpostato",
+        "Secondo la base verificata",
+        "Nessuna misura presunta"
+      ],
+      "formula": "Il veicolo indicato effettuava il trasferimento degli ospiti […] da […] a […] per la struttura ricettiva […]. Collegamento al soggiorno, organizzazione e corrispettivo diretto o indiretto risultavano da […].",
+      "alternative": [
+        {
+          "label": "Autovettura NCC abusiva — presupposti verificati",
+          "text": "Adibiva l’autovettura indicata a servizio professionale NCC per il trasferimento di ospiti della struttura […], dietro corrispettivo […], senza autorizzazione efficace, secondo il riscontro dell’ufficio […]. Modalità, uso del veicolo e fonti: […].",
+          "category": "severe"
+        }
+      ],
+      "attestazioni": [
+        {
+          "id": "patente",
+          "category": "severe",
+          "title": "Solo nell’ipotesi CdS grave: patente materialmente ritirata",
+          "text": "La patente è ritirata e sarà trasmessa alla Prefettura entro cinque giorni."
+        },
+        {
+          "id": "sequestro",
+          "category": "severe",
+          "title": "Solo nell’ipotesi CdS grave: sequestro e custodia eseguiti",
+          "text": "Il veicolo è sequestrato ai fini della confisca con affidamento in custodia, come da separati atti […]."
+        }
+      ],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Redigere relazione; prima di contestare qualificare la disposizione e i presupposti indicati nelle note.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito: le disposizioni nazionali e regionali richiamate non sono limitate agli NCC autorizzati da Napoli; verificarne i presupposti specifici.",
+        "L.R.10/2024 art.13-bis: servizio gratuito anche indirettamente, accessorio, per propri ospiti e tragitti connessi al soggiorno. Il solo corrispettivo non prova un’attività professionale NCC: accertare organizzazione, veicolo, uso e titolo; autobus con disciplina distinta.",
+        "Base per relazione; scegliere l’alternativa art.85 c.4 solo per servizio professionale con autovettura senza autorizzazione efficace. €1.812–7.249, confisca e patente4–12mesi, nessun PMR. Se seconda violazione della stessa persona nel triennio, N03; revoca al Prefetto, non attestata come già disposta.",
+        "Agenzie e tour operator impiegano vettori autorizzati; il pacchetto non deroga ai titoli. Norma regionale e CdS non sono limitati agli autorizzati da Napoli. Sequestro/custodia con atti separati e patente ritirata soltanto se realmente eseguiti."
+      ]
+    },
+    "motivazione": "Tabella CdS attiva nella sola alternativa di servizio professionale con autovettura senza titolo. Base per relazione; gratuità/accessorietà, onerosità e ambito regionale distinti. Nessun art.85 c.4 desunto dal solo corrispettivo.",
+    "fonti": [
+      "CDS85",
+      "L21art3",
+      "L21art8",
+      "LR10",
+      "LR7",
+      "CDS202",
+      "CDS213"
+    ],
+    "punto_aperto": "Presupposti e riscontri individuali da completare nella scheda; nessuna ulteriore fonte generale mancante per la modifica richiesta."
+  },
+  {
+    "codice": "R02",
+    "richiesta": "Art.85 c.4-ter e importi per elenco non allegato.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Elenco di collaboratori e sostituti non allegato al titolo",
+      "riferimenti": "CdS art.85 c.4-ter (solo nell’alternativa verificata); Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4; D.Lgs.267/2000 art.7-bis; L.R.10/2024 art.21 c.5; L.689/1981 art.16",
+      "tabella": [
+        "Regime generale TUEL",
+        "25–500",
+        "50 entro 60 giorni",
+        "Non previsto",
+        "Rapporto ex art. 17 L.689/1981",
+        "Non previste"
+      ],
+      "formula": "Durante il servizio con il veicolo indicato, con autorizzazione NCC n. […], il titolo esibito non recava allegato l’elenco prescritto di collaboratori o sostituti […], come riscontrato mediante […].",
+      "alternative": [
+        {
+          "label": "Utilizzo contrario a condizione dell’autorizzazione — presupposti CdS verificati",
+          "text": "Durante il servizio utilizzava l’autovettura indicata, con autorizzazione NCC n. […], senza l’elenco allegato richiesto dalla condizione […] del titolo efficace dal […]. Documento, utilizzo e riscontri: […].",
+          "category": "residual",
+          "payment": [
+            "Condizione dell’autorizzazione accertata",
+            "86–338",
+            "86",
+            "60,20",
+            "169",
+            "Nessuna accessoria CdS"
+          ]
+        }
+      ],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Accertare condotta, soggetto, fonte e presupposti; documentare gli atti effettivi.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "Art.6 c.4: elenco dei collaboratori/sostituti con dati e ruolo, da trasmettere e allegare. L’assenza della copia non dimostra mancata comunicazione, persona priva di requisiti o titolo inesistente.",
+        "Omissione comunale: €25–500, PMR €50 entro60giorni ex L.689/1981 art.16; salvo diversa delibera di Giunta non acquisita. Nessuno sconto30% o punto patente. Il rinvio dell’art.28 comunale al CdS non sostituisce i presupposti dell’art.85 c.4-ter.",
+        "Art.85 c.4-ter: accertare utilizzo del veicolo autorizzato, condizione specifica efficace del titolo e responsabilità personale; escludere i commi 4 e4-bis. La sola disposizione comunale o la titolarità non provano tali elementi. Nessun cumulo automatico per lo stesso fatto (L.689/1981 art.9).",
+        "La scelta CdS sostituisce la qualificazione base per il fatto descritto: non genera un secondo verbale TUEL automatico. Se mancano i presupposti, usare la qualificazione comunale o la relazione pertinente."
+      ]
+    },
+    "motivazione": "TUEL base conservato: allegato mancante non prova guida non autorizzata. Aggiunta scelta4-ter solo per utilizzo, obbligo di allegazione come condizione del titolo e soggetto responsabile verificati.",
+    "fonti": [
+      "CDS85",
+      "REG6",
+      "L689art3"
+    ],
+    "punto_aperto": "Presupposti e riscontri individuali da completare nella scheda; nessuna ulteriore fonte generale mancante per la modifica richiesta."
+  },
+  {
+    "codice": "R03",
+    "richiesta": "Art.85 c.4-ter e importi per comunicazione dei collaboratori omessa.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Collaboratori o sostituti non comunicati al Comune",
+      "riferimenti": "Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4; D.Lgs.267/2000 art.7-bis; L.R.10/2024 art.21 c.5; L.689/1981 art.16",
+      "tabella": [
+        "Regime generale TUEL",
+        "25–500",
+        "50 entro 60 giorni",
+        "Non previsto",
+        "Rapporto ex art. 17 L.689/1981",
+        "Non previste"
+      ],
+      "formula": "Il titolare […] dell’autorizzazione NCC n. […] impiegava alla guida il collaboratore familiare […] dal […] senza trasmetterne i dati al Comune. Rapporto, obbligo e protocollo: […].",
+      "alternative": [
+        {
+          "label": "Sostituto ammesso dalla normativa NCC",
+          "text": "Il titolare […] dell’autorizzazione NCC n. […] impiegava alla guida il sostituto […] dal […] senza trasmetterne i dati al Comune. Presupposto della sostituzione, obbligo e protocollo: […]."
+        }
+      ],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Accertare condotta, soggetto, fonte e presupposti; documentare gli atti effettivi.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "Obbligo del titolare: elenco dei collaboratori familiari/sostituti ammessi e trasmissione al Comune ex art.6 c.4. Dipendenti NCC: distinto c.5 e R04. Art.10 L.21/1992: non trasferire la sostituzione taxi agli NCC senza il relativo presupposto.",
+        "La mancata comunicazione, anche se emersa al controllo, non prova utilizzo contrario a una condizione del titolo; art.85 c.4-ter non si applica per sola analogia.",
+        "Omissione comunale: €25–500, PMR €50 entro60giorni ex L.689/1981 art.16; salvo diversa delibera di Giunta non acquisita. Nessuno sconto30% o punto patente. Il rinvio dell’art.28 comunale al CdS non sostituisce i presupposti dell’art.85 c.4-ter."
+      ]
+    },
+    "motivazione": "Confermata1.8.14: omissione dell’elenco dovuto dal titolare non equivale a utilizzo contrario all’autorizzazione. Formula precisa collaboratore/sostituto ammesso; dipendente e art.6 c.5 distinti. Nessuna tabella4-ter automatica.",
+    "fonti": [
+      "CDS85",
+      "REG6",
+      "L21art10"
+    ],
+    "punto_aperto": "Presupposti e riscontri individuali da completare nella scheda; nessuna ulteriore fonte generale mancante per la modifica richiesta."
+  },
+  {
+    "codice": "R05",
+    "richiesta": "Art.85 c.4-ter e importi per mancato avvio nel termine.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Servizio non iniziato nel termine di sessanta giorni",
+      "riferimenti": "Regolamento comunale (delibera C.C. n. 80/2005), art. 15 cc.1-2; art.32; D.Lgs.267/2000 art.7-bis; L.R.10/2024 art.21 c.5; L.689/1981 art.16",
+      "tabella": [
+        "Regime generale TUEL",
+        "25–500",
+        "50 entro 60 giorni",
+        "Non previsto",
+        "Rapporto ex art. 17 L.689/1981",
+        "Non previste"
+      ],
+      "formula": "Il titolare […] dell’autorizzazione NCC n. […] non iniziava il servizio entro sessanta giorni dalla notifica del titolo del […]. Scadenza, eventuale proroga e riscontro: […].",
+      "alternative": [],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Accertare condotta, soggetto, fonte e presupposti; documentare gli atti effettivi.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "Art.15 cc.1 e2:60giorni dalla notifica; proroga motivata per forza maggiore, massimo ulteriori60giorni. Verificare notifica, termine e proroga. Art.32: decadenza disposta dall’ufficio e relative comunicazioni a UMC/CCIAA.",
+        "Mancato avvio significa omissione dell’attività: manca l’utilizzo richiesto da art.85 c.4-ter. Eventuale servizio dopo perdita efficace del titolo richiede distinto accertamento G12; nessun ritiro immediato.",
+        "Omissione comunale: €25–500, PMR €50 entro60giorni ex L.689/1981 art.16; salvo diversa delibera di Giunta non acquisita. Nessuno sconto30% o punto patente. Il rinvio dell’art.28 comunale al CdS non sostituisce i presupposti dell’art.85 c.4-ter."
+      ]
+    },
+    "motivazione": "Confermata1.8.14: mancato avvio non integra utilizzo.60giorni e proroga massima60documentata; decadenza art.32 da disporre dall’ufficio. Nessuna tabella CdS per analogia.",
+    "fonti": [
+      "CDS85",
+      "REG15",
+      "REG32"
+    ],
+    "punto_aperto": "Presupposti e riscontri individuali da completare nella scheda; nessuna ulteriore fonte generale mancante per la modifica richiesta."
+  },
+  {
+    "codice": "R06",
+    "richiesta": "Art.85 c.4-ter e importi, art.15 c.4.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Vettura NCC sostitutiva: termine di avvio da verificare",
+      "riferimenti": "Regolamento comunale (delibera C.C. n. 80/2005), art. 15 c.4",
+      "tabella": [
+        "Relazione",
+        "Da qualificare",
+        "Non preimpostato",
+        "Non preimpostato",
+        "Secondo la base verificata",
+        "Nessuna misura presunta"
+      ],
+      "formula": "Dopo la sostituzione dell’autovettura riferita all’autorizzazione NCC n. […], il titolare […] non avviava il servizio entro […] secondo l’atto […]. Immatricolazione, termine effettivamente applicabile e giustificazioni: […].",
+      "alternative": [],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Redigere relazione; acquisire il preciso obbligo NCC e la relativa efficacia prima di contestare. Nessun ritiro per analogia.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "Art.15 c.4 menziona dieci giorni e decadenza della licenza. Non è acquisita una specifica estensione agli NCC o condizione individuale del titolo: formula per relazione, senza termine10giorni imposto automaticamente.",
+        "Prima di contestare acquisire obbligo NCC efficace, notifica, termine ed eventuale giustificazione. Mancato utilizzo non è utilizzo contrario al titolo ex art.85 c.4-ter; decadenza all’ufficio, nessun ritiro automatico."
+      ]
+    },
+    "motivazione": "Confermata e resa coerente la riserva1.8.14: art.15 c.4 menziona decadenza della licenza; estensione del termine10giorni a NCC non documentata. Formula di relazione senza termine non verificato; obbligo/atto individuale da acquisire, nessun4-ter per mancato utilizzo.",
+    "fonti": [
+      "CDS85",
+      "REG15",
+      "REG32"
+    ],
+    "punto_aperto": "Non acquisita una specifica estensione agli NCC del termine10giorni o condizione individuale efficace: relazione fino alla qualificazione."
+  },
+  {
+    "codice": "R09",
+    "richiesta": "Formula bagagliaio e ritiro del titolo con invio al Corso Pubblico.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Bagagliaio non idoneo alle dotazioni richieste",
+      "riferimenti": "CdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c. 1 let. f; art. 17 c. 2",
+      "tabella": [
+        "Condizione del titolo",
+        "86–338",
+        "86",
+        "60,20",
+        "169",
+        "Non previste"
+      ],
+      "formula": "Durante il servizio l’autovettura indicata, con autorizzazione NCC n. […], presentava un bagagliaio inidoneo a contenere valigie e contenitori per cose e animali al seguito dell’utente. Difformità, utilizzo e condizione efficace del titolo risultavano da […].",
+      "alternative": [],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Art.85 c.4-ter: nessuna sanzione accessoria o punto patente previsti per questa fattispecie. Misure comunali solo con propria base, distinta.",
+        "operators": "Accertare obbligo, termine, utilizzo e riscontro pertinenti. Nessun ritiro dell’autorizzazione previsto per la sola condotta; eventuali provvedimenti spettano all’ufficio.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "Art.17 c.2 richiama espressamente la let. f del c.1 anche per NCC. Descrivere la concreta inidoneità; il testo non fissa una capienza in litri. Non sostituire il requisito con dotazioni taxi non richiamate.",
+        "Art.85 c.4-ter: accertare utilizzo del veicolo autorizzato, condizione specifica efficace del titolo e responsabilità personale; escludere i commi 4 e4-bis. La sola disposizione comunale o la titolarità non provano tali elementi. Nessun cumulo automatico per lo stesso fatto (L.689/1981 art.9).",
+        "Nessun ritiro dell’autorizzazione per la sola condotta descritta: art.85 c.4-ter non lo prevede; art.29 c.4 comunale riguarda i soli gruppi C/D. Provvedimenti sul titolo riservati all’ufficio."
+      ]
+    },
+    "motivazione": "Requisito bagagliaio NCC verificato nel rinvio art.17 c.2 alla let.f del c.1; formula specificata. Ritiro richiesto escluso: non previsto dal c.4-ter né dal gruppo comunale. Utilizzo/condizione del titolo necessari per86–338.",
+    "fonti": [
+      "CDS85",
+      "REG17",
+      "REG29"
+    ],
+    "punto_aperto": "Presupposti e riscontri individuali da completare nella scheda; nessuna ulteriore fonte generale mancante per la modifica richiesta."
+  },
+  {
+    "codice": "R10",
+    "richiesta": "Formula posti omologati4–8passeggeri e ritiro del titolo.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Numero di posti omologati non conforme al regolamento",
+      "riferimenti": "CdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art. 17 c. 1 let. g; art. 17 c. 2",
+      "tabella": [
+        "Condizione del titolo",
+        "86–338",
+        "86",
+        "60,20",
+        "169",
+        "Non previste"
+      ],
+      "formula": "Il veicolo indicato, con autorizzazione NCC n. […], impiegato nel servizio aveva […] posti omologati per i soli passeggeri, escluso il conducente, fuori dal limite regolamentare da quattro a otto. Documento e riscontro: […]. Utilizzo e specifica condizione dell’autorizzazione risultavano da […].",
+      "alternative": [],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Art.85 c.4-ter: nessuna sanzione accessoria o punto patente previsti per questa fattispecie. Misure comunali solo con propria base, distinta.",
+        "operators": "Accertare obbligo, termine, utilizzo e riscontro pertinenti. Nessun ritiro dell’autorizzazione previsto per la sola condotta; eventuali provvedimenti spettano all’ufficio.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "Art.17 c.2 rinvia alla let. g del c.1: da4a8posti omologati per i passeggeri, conducente escluso. Sul documento con posti totali sottrarre quello del conducente, verificando configurazione e omologazione; autovettura CdS art.54 c.1 let. a, massimo9posti compreso conducente.",
+        "Numero dei posti omologati distinto dalle persone effettivamente trasportate: nessun art.169 aggiunto per la sola difformità dell’omologazione.",
+        "Art.85 c.4-ter: accertare utilizzo del veicolo autorizzato, condizione specifica efficace del titolo e responsabilità personale; escludere i commi 4 e4-bis. La sola disposizione comunale o la titolarità non provano tali elementi. Nessun cumulo automatico per lo stesso fatto (L.689/1981 art.9).",
+        "Nessun ritiro dell’autorizzazione per la sola condotta descritta: art.85 c.4-ter non lo prevede; art.29 c.4 comunale riguarda i soli gruppi C/D. Provvedimenti sul titolo riservati all’ufficio."
+      ]
+    },
+    "motivazione": "Rinvio NCC art.17 c.2 alla let.g verificato:4–8posti per soli passeggeri, escluso conducente. Omologazione distinta da passeggeri trasportati; formula richiesta applicata senza ritiro privo di base.",
+    "fonti": [
+      "CDS85",
+      "CDS54",
+      "REG17",
+      "REG29"
+    ],
+    "punto_aperto": "Presupposti e riscontri individuali da completare nella scheda; nessuna ulteriore fonte generale mancante per la modifica richiesta."
+  },
+  {
+    "codice": "R12",
+    "richiesta": "Nota: contestare anche art.23 cc.1 e11 CdS.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Pubblicità sul veicolo senza autorizzazione comunale",
+      "riferimenti": "CdS art.85 c.4-ter; art.23 c.11 (alternativa tecnica); Regolamento comunale (delibera C.C. n. 80/2005), art.17 c.1 let. j e c.2; D.P.R.495/1992 art.57 c.2 let. b e c.5; L.689/1981 art.9",
+      "tabella": [
+        "Condizione del titolo",
+        "86–338",
+        "86",
+        "60,20",
+        "169",
+        "Non previste"
+      ],
+      "formula": "Durante il servizio utilizzava l’autovettura indicata, con autorizzazione NCC n. […], esponendo la pubblicità […] senza il permesso comunale richiesto dalla condizione […] del titolo efficace dal […]. Esposizione, utilizzo e risposta dell’ufficio: […].",
+      "alternative": [
+        {
+          "label": "Pubblicità per conto terzi sulla parte anteriore — prescrizione tecnica violata",
+          "category": "advert",
+          "payment": [
+            "Pubblicità sul veicolo: prescrizione tecnica accertata",
+            "430–1.731",
+            "430",
+            "301",
+            "865,50",
+            "Nessuna accessoria automatica"
+          ],
+          "text": "Sull’autovettura NCC indicata, durante la circolazione, esponeva sulla parte anteriore la pubblicità non luminosa per conto terzi […], in violazione del D.P.R.495/1992 art.57 c.2 let. b. Posizione, soggetto e riscontro: […]."
+        }
+      ],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Art.85 c.4-ter: nessuna sanzione accessoria o punto patente previsti per questa fattispecie. Misure comunali solo con propria base, distinta.",
+        "operators": "Accertare condotta, soggetto, fonte e presupposti; documentare gli atti effettivi.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "NCC: D.P.R.495/1992 art.57 c.2, non il regime taxi del c.3; verificare natura, conto terzi, posizione, ingombri e visibilità. Autorizzazione comunale del servizio ex art.17 distinta dalle prescrizioni tecniche nazionali.",
+        "Art.23 c.1 richiede gli specifici presupposti di confusione/pericolo; c.2 vieta pubblicità luminosa e disciplina quella rifrangente; c.11 sanziona anche il regolamento. La sola assenza del permesso comunale non fonda automaticamente una seconda contestazione23 cc.1/11.",
+        "Alternativa tecnica verificata: €430–1.731, PMR430, entro5giorni301, oltre60giorni865,50. Individuare autore e norma concretamente violata; valutare specialità/rapporto tra i fatti ex art.9 L.689, senza cumuli automatici o duplicazione della condotta.",
+        "Art.85 c.4-ter: accertare utilizzo del veicolo autorizzato, condizione specifica efficace del titolo e responsabilità personale; escludere i commi 4 e4-bis. La sola disposizione comunale o la titolarità non provano tali elementi. Nessun cumulo automatico per lo stesso fatto (L.689/1981 art.9).",
+        "Nessun ritiro dell’autorizzazione per la sola condotta descritta: art.85 c.4-ter non lo prevede; art.29 c.4 comunale riguarda i soli gruppi C/D. Provvedimenti sul titolo riservati all’ufficio."
+      ]
+    },
+    "motivazione": "Aggiunta nota e alternativa tecnica CdS23/DPR57: non automatica seconda contestazione23 cc.1/11 per sola mancanza del permesso comunale. NCC segue57 c.2, non il regime taxi del c.3; verificare condotta e specialità prima di eventuali contestazioni.",
+    "fonti": [
+      "CDS23",
+      "CDS85",
+      "DPR495art57",
+      "REG17",
+      "L689art9"
+    ],
+    "punto_aperto": "Rapporto/specialità tra il fatto comunale e l’eventuale distinto illecito tecnico da valutare sul fatto concreto, senza cumulo automatico."
+  },
+  {
+    "codice": "R22",
+    "richiesta": "Art.85 c.4-ter e importi per sospensione non comunicata.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Sospensione del servizio non comunicata entro cinque giorni",
+      "riferimenti": "Regolamento comunale (delibera C.C. n. 80/2005), art.23 c.4; D.Lgs.267/2000 art.7-bis; L.R.10/2024 art.21 c.5; L.689/1981 art.16",
+      "tabella": [
+        "Regime generale TUEL",
+        "25–500",
+        "50 entro 60 giorni",
+        "Non previsto",
+        "Rapporto ex art. 17 L.689/1981",
+        "Non previste"
+      ],
+      "formula": "Il titolare […] dell’autorizzazione NCC n. […] sospendeva il servizio dal […] senza comunicarlo al Comune entro cinque giorni. Protocollo e riscontro: […].",
+      "alternative": [],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Accertare condotta, soggetto, fonte e presupposti; documentare gli atti effettivi.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "Art.23 c.4: comunicare la sospensione del servizio entro5giorni. Individuare data, titolare obbligato e protocollo; non trasferire la disciplina della sostituzione taxi.",
+        "La mera comunicazione omessa non integra utilizzo del veicolo richiesto da art.85 c.4-ter; nessun ritiro o decadenza automatica.",
+        "Omissione comunale: €25–500, PMR €50 entro60giorni ex L.689/1981 art.16; salvo diversa delibera di Giunta non acquisita. Nessuno sconto30% o punto patente. Il rinvio dell’art.28 comunale al CdS non sostituisce i presupposti dell’art.85 c.4-ter."
+      ]
+    },
+    "motivazione": "Confermata1.8.14: omissione comunicazione sospensione entro5giorni è obbligo del titolare, non automaticamente utilizzo. TUEL conservato, art.85 c.4-ter non aggiunto alla sola omissione.",
+    "fonti": [
+      "CDS85",
+      "REG23",
+      "L689art3"
+    ],
+    "punto_aperto": "Presupposti e riscontri individuali da completare nella scheda; nessuna ulteriore fonte generale mancante per la modifica richiesta."
+  },
+  {
+    "codice": "R23",
+    "richiesta": "Art.85 c.4-ter e importi per domicilio non comunicato.",
+    "esito": "Adattata con motivazione",
+    "applicata": {
+      "titolo": "Cambio di domicilio non comunicato entro cinque giorni",
+      "riferimenti": "Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4; D.Lgs.267/2000 art.7-bis; L.R.10/2024 art.21 c.5; L.689/1981 art.16",
+      "tabella": [
+        "Regime generale TUEL",
+        "25–500",
+        "50 entro 60 giorni",
+        "Non previsto",
+        "Rapporto ex art. 17 L.689/1981",
+        "Non previste"
+      ],
+      "formula": "Il titolare […] dell’autorizzazione NCC n. […] ometteva di comunicare entro cinque giorni al Comune il cambio di domicilio del […]. Nuovo domicilio e fonte documentale: […].",
+      "alternative": [],
+      "attestazioni": [],
+      "adempimenti": {
+        "cds": "Non previste per questa qualificazione.",
+        "operators": "Accertare condotta, soggetto, fonte e presupposti; documentare gli atti effettivi.",
+        "report": "Fatti pertinenti sul servizio all’Ufficio Corso Pubblico. Invii ad altre autorità secondo la base specifica.",
+        "office": "Diffida, sospensione, decadenza o revoca del titolo comunale spettano all’ufficio, con presupposti propri; non entrano nella formula.",
+        "patentPoints": "Non previsti per questa fattispecie."
+      },
+      "nota_operativa": [
+        "Ambito comunale: questi obblighi riguardano gli NCC autorizzati dal Comune di Napoli. CdS e norme nazionali o regionali hanno i propri ambiti e presupposti, anche per titoli di altri Comuni.",
+        "Art.23 c.4: cambio di domicilio da comunicare entro5giorni. Acquisire data dell’evento, nuovo domicilio e verifica comunale; responsabilità personale dell’obbligato.",
+        "La comunicazione omessa non prova utilizzo contrario all’autorizzazione ex art.85 c.4-ter; nessun ritiro o provvedimento automatico.",
+        "Omissione comunale: €25–500, PMR €50 entro60giorni ex L.689/1981 art.16; salvo diversa delibera di Giunta non acquisita. Nessuno sconto30% o punto patente. Il rinvio dell’art.28 comunale al CdS non sostituisce i presupposti dell’art.85 c.4-ter."
+      ]
+    },
+    "motivazione": "Confermata1.8.14: mancata comunicazione domicilio entro5giorni non prova utilizzo contrario all’autorizzazione. TUEL conservato; evento, data e prova personale espliciti.",
+    "fonti": [
+      "CDS85",
+      "REG23",
+      "L689art3"
+    ],
+    "punto_aperto": "Presupposti e riscontri individuali da completare nella scheda; nessuna ulteriore fonte generale mancante per la modifica richiesta."
+  }
+]

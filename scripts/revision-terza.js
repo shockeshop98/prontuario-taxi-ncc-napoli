@@ -274,13 +274,13 @@
     return tree({code,type,title:ncc&&code==='G27'?'Contachilometri NCC inefficiente':ncc&&code==='G33'?'NCC: guasto di un dispositivo — relazione':item.title,formula,options,category,payment,ref,notes,responsibility,acts,close:!['I06','R37','R38','I02','N01','N02','N03','N12'].includes(code),relation:category==='relation',group:item.group});
   }
   const definitions=new Map();
-  function get(item,type){const key=item.code+'/'+type;if(!definitions.has(key))definitions.set(key,definition(item,type));return definitions.get(key);}
+  function get(item,type){const key=item.code+'/'+type;if(!definitions.has(key))definitions.set(key,definition(item,type));const model=definitions.get(key);return w.prontuarioNccPrimaDefinition?w.prontuarioNccPrimaDefinition(item,type,model):model;}
   w.prontuarioTerzaDefinition=get;
   w.prontuarioTerzaRemoved=removed;
   w.prontuarioTerzaApplies=(item,type)=>!!get(item,type);
   w.prontuarioServiceItem=(item,type)=>{
     if(!item)return item;const model=get(item,type);
-    return model?{...item,title:model.title,ref:model.ref,verbaleRef:model.ref,payments:[model.payment],reviewType:type,referenceOnly:model.relation,formula:model.formula,facts:model.formula,notes:model.notes,tip:model.notes[0]||'',responsibility:model.responsibility,documents:'Acquisire titolo, atto e fonte del riscontro pertinenti al fatto.',sources:['REV1814',...(model.ref.includes('Regolamento comunale')?['REG']:[])],sourceIndices:[16]}:tree(item);
+    return model?{...item,title:model.title,ref:model.ref,verbaleRef:model.ref,payments:[model.payment],reviewType:type,referenceOnly:model.relation,formula:model.formula,facts:model.formula,notes:model.notes,tip:model.notes[0]||'',responsibility:model.responsibility,documents:'Acquisire titolo, atto e fonte del riscontro pertinenti al fatto.',sources:model.sourceIds||['REV1814',...(model.ref.includes('Regolamento comunale')?['REG']:[])],sourceIndices:model.sourceIndices||[16]}:tree(item);
   };
   const prevLayout=w.prontuarioStaticLayout;
   w.prontuarioStaticLayout=(catalog,parts,pages)=>{
@@ -288,14 +288,14 @@
     for(const section of result.sections)section.rows=section.rows.filter(r=>!removed.includes(r.item.code)).map(r=>({...r,item:w.prontuarioServiceItem(r.item,r.type)}));
     result.rows=result.sections.flatMap(s=>s.rows);return result;
   };
-  function selectedModel(item,type,choice=0){const model=get(item,type);if(!model)return null;const option=choice>0?model.options[choice-1]:null;return {...model,...(option?{formula:option.text,category:option.category||model.category,payment:rates[option.category]||model.payment}:{}),relation:(option?.category||model.category)==='relation'};}
+  function selectedModel(item,type,choice=0){const model=get(item,type);if(!model)return null;const option=choice>0?model.options[choice-1]:null;return {...model,...(option?{formula:option.text,category:option.category||model.category,payment:option.payment||rates[option.category]||model.payment}:{}),relation:(option?.category||model.category)==='relation'};}
   function formula(item,type,choice=0,done=[],verbale=false){const m=selectedModel(item,type,choice);return [m.formula,...m.acts.filter(a=>done.includes(a.id)&&(!a.category||a.category===m.category)).map(a=>a.text),m.close&&(!m.relation||verbale)?close:''].filter(Boolean).join(' ');}
   w.prontuarioTerzaFormula=formula;
   function amounts(model){
     if(model.category==='pos')return '<p>€ 30 + 4% del valore della transazione rifiutata. Usare la calcolatrice in fondo alla scheda. Pagamento in misura ridotta non ammesso (art.16 L.689/1981 escluso).</p>';
     const p=model.payment;
     const table=`<table class="staticAmountsTable amounts"><caption>Importi in euro, spese escluse</caption><thead><tr><th>Limiti</th><th>PMR</th><th>Entro 5 giorni</th><th>Oltre 60 giorni / procedura</th></tr></thead><tbody><tr>${[p[1],p[2],p[3],p[4]].map(x=>`<td>${esc(x)}</td>`).join('')}</tr></tbody></table>`;
-    const alternatives=model.options.filter(o=>o.category&&o.category!==model.category).map(o=>{const p=o.category==='employment'?['500–2.000','666,67 entro 60 giorni','Nessuno sconto 30%','Rapporto L.689']:rates[o.category]?.slice(1,5);return `<p>${esc(o.label)}: ${esc(p?.join(' · ')||'Base da qualificare')}.</p>`;}).join('');
+    const alternatives=model.options.filter(o=>o.category&&o.category!==model.category).map(o=>{const p=o.payment?o.payment.slice(1,5):o.category==='employment'?['500–2.000','666,67 entro 60 giorni','Nessuno sconto 30%','Rapporto L.689']:rates[o.category]?.slice(1,5);return `<p>${esc(o.label)}: ${esc(p?.join(' · ')||'Base da qualificare')}.</p>`;}).join('');
     return table+alternatives;
   }
   function follow(item,type,choice=0){
@@ -316,7 +316,7 @@
     if(item.code==='G53')f.report='Rapporto ex art.17 L.689/1981 al Prefetto del luogo della violazione; distinto invio dei fatti pertinenti al Corso Pubblico.';
     if(item.code==='G54')f.report='Comunicazioni ex art.21 c.2 L.R.10/2024 a CCIAA, Guardia di Finanza, UMC, Agenzia Entrate, INL e INPS.';
     if(item.code==='N10')f.report='Atti a Comune/SUAP competente; autorità che applica la sanzione: segnalazione ex art.8 L.218/2003.';
-    return tree(f);
+    return tree(w.prontuarioNccPrimaFollowup?w.prontuarioNccPrimaFollowup(item,type,choice,f):f);
   }
   const prevView=w.prontuarioRevisionView;
   w.prontuarioRevisionView=(item,type)=>{
@@ -334,7 +334,7 @@
   function body(item,type){
     const m=get(item,type),v=w.prontuarioRevisionView(item,type);
     const choices=m.options.length?`<fieldset data-terza-choices><legend>Condotta effettivamente accertata</legend>${[{label:'Condotta base'},...m.options].map((o,i)=>`<label><input type="radio" name="terza-choice" value="${i}" ${i===0?'checked':''}> ${esc(o.label)}</label>`).join('')}</fieldset>`:'';
-    return `<section class="caseBlock staticNormative"><h3>Riferimenti normativi — obblighi e sanzioni</h3><p>${esc(v.normative)}</p>${v.status?`<p class="qualificationWarning">${esc(v.status)}</p>`:''}</section><section class="caseBlock staticAmounts"><h3>Tabella importi</h3><div data-terza-amounts>${v.amountsMarkup}</div></section><section class="caseBlock staticAccessories"><h3>Sanzioni accessorie e adempimenti</h3><div data-terza-follow>${w.prontuarioFollowupMarkup({...item,reviewType:type},v.accessories,esc)}</div></section><section class="caseBlock staticFormula" data-terza-code="${item.code}" data-terza-type="${type}"><h3>${v.relation?'Testo orientativo per la relazione':'Testo orientativo del verbale'}</h3>${choices}<div class="formulaText" id="formulaText">${v.formulaMarkup}</div><button class="small" id="copyFormula">Copia testo orientativo</button>${m.acts.map(a=>`<label class="secondaConfirm"><input type="checkbox" data-terza-act="${a.id}"> ${esc(a.title)}</label>`).join('')}${m.relation&&m.close?'<label class="secondaConfirm"><input type="checkbox" data-terza-verbale> Verbale effettivamente elevato su base verificata: aggiungere invio futuro</label>':''}<h4>Campi essenziali — istruzioni escluse dalla copia</h4><p>Data, ora, luogo, veicolo, soggetto e titolo pertinenti; condotta effettiva e fonte del riscontro. Completare […] senza attestare attività non eseguite.</p></section><section class="caseBlock staticSuggestions"><h3>Suggerimenti e note operative</h3><ul class="operativeNotes">${v.notes.map(n=>`<li>${esc(n)}</li>`).join('')}</ul><h4>Responsabilità</h4><p>${esc(v.responsibility)}</p><details class="caseSource"><summary>Approfondimenti e fonti</summary><p>Verifica al 04/11/2026. Fonti e adattamenti nel RAPPORTO_REVISIONE_1.8.14.md locale.</p><button class="small" onclick="openPDF(16,1)">Sintesi delle fonti e dei limiti — salvabile offline</button>${(item.regPages||[]).map(p=>`<button class="small" onclick="openPDF(0,${p})">Regolamento p.${p}</button>`).join('')}</details></section>`;
+    return `<section class="caseBlock staticNormative"><h3>Riferimenti normativi — obblighi e sanzioni</h3><p>${esc(v.normative)}</p>${v.status?`<p class="qualificationWarning">${esc(v.status)}</p>`:''}</section><section class="caseBlock staticAmounts"><h3>Tabella importi</h3><div data-terza-amounts>${v.amountsMarkup}</div></section><section class="caseBlock staticAccessories"><h3>Sanzioni accessorie e adempimenti</h3><div data-terza-follow>${w.prontuarioFollowupMarkup({...item,reviewType:type},v.accessories,esc)}</div></section><section class="caseBlock staticFormula" data-terza-code="${item.code}" data-terza-type="${type}"><h3>${v.relation?'Testo orientativo per la relazione':'Testo orientativo del verbale'}</h3>${choices}<div class="formulaText" id="formulaText">${v.formulaMarkup}</div><button class="small" id="copyFormula">Copia testo orientativo</button>${m.acts.map(a=>`<label class="secondaConfirm"${m.nccPrima&&a.category&&a.category!==m.category?' hidden':''}><input type="checkbox" data-terza-act="${a.id}"> ${esc(a.title)}</label>`).join('')}${m.relation&&m.close?'<label class="secondaConfirm"><input type="checkbox" data-terza-verbale> Verbale effettivamente elevato su base verificata: aggiungere invio futuro</label>':''}<h4>Campi essenziali — istruzioni escluse dalla copia</h4><p>Data, ora, luogo, veicolo, soggetto e titolo pertinenti; condotta effettiva e fonte del riscontro. Completare […] senza attestare attività non eseguite.</p></section><section class="caseBlock staticSuggestions"><h3>Suggerimenti e note operative</h3><ul class="operativeNotes">${v.notes.map(n=>`<li>${esc(n)}</li>`).join('')}</ul><h4>Responsabilità</h4><p>${esc(v.responsibility)}</p><details class="caseSource"><summary>Approfondimenti e fonti</summary><p>${m.reviewLabel||'Verifica al 04/11/2026. Fonti e adattamenti nel RAPPORTO_REVISIONE_1.8.14.md locale.'}</p><button class="small" onclick="openPDF(${m.sourceIndex??16},1)">Sintesi delle fonti e dei limiti — salvabile offline</button>${(item.regPages||[]).map(p=>`<button class="small" onclick="openPDF(0,${p})">Regolamento p.${p}</button>`).join('')}</details></section>`;
   }
   for(const name of ['prontuarioStaticDemoBody','prontuarioCatalogBody']){const prev=w[name];w[name]=(item,type,helpers)=>get(item,type)?body({...item,reviewType:type},type):normalize(prev(item,type,helpers));}
   if(typeof document!=='undefined')document.addEventListener('change',event=>{
@@ -344,6 +344,7 @@
     const choice=Number(section.querySelector('[name="terza-choice"]:checked')?.value||0),done=[...section.querySelectorAll('[data-terza-act]:checked')].map(i=>i.dataset.terzaAct),verbale=!!section.querySelector('[data-terza-verbale]:checked');
     const text=formula(item,type,choice,done,verbale),p=section.querySelector('.staticFormulaPart');p.textContent=text;p.dataset.copyText=text;
     const container=section.parentElement,m=selectedModel(item,type,choice);
+    if(m.nccPrima){section.querySelector('h3').textContent=m.relation?'Testo orientativo per la relazione':'Testo orientativo del verbale';for(const check of section.querySelectorAll('[data-terza-act]')){const act=m.acts.find(a=>a.id===check.dataset.terzaAct);check.closest('label').hidden=!!act.category&&act.category!==m.category;}const verbale=section.querySelector('[data-terza-verbale]');if(verbale)verbale.closest('label').hidden=!m.relation;}
     container.querySelector('[data-terza-amounts]').innerHTML=amounts({...m,options:[]});
     const f=follow(item,type,choice);container.querySelector('[data-terza-follow]').innerHTML=`<table class="staticAccessoryTable"><tbody>${[['Sanzioni accessorie CdS',f.cds],['Adempimenti obbligatori',f.operators],['Destinatari',f.report],['Punti patente',f.patentPoints]].map(([k,v])=>`<tr><th>${esc(k)}</th><td>${esc(v)}</td></tr>`).join('')}</tbody></table><aside class="officeInfo">${esc(f.office)}</aside>`;
   });

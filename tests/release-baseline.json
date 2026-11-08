@@ -50,7 +50,21 @@
     "revisione/fonti-integrative/ORDSI_2025_0000571.pdf": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042",
     "allegati/OS835_2014_indicazioni_autore.txt": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd",
     "sw.js": "76d6bb5282b120042f400187ca37e040b70b546f7d891791db29848ea424fd89",
-    "version.json": "01fbe5bc19c6609ca3638ecc21b198488abf37b942d15485edbf7dd88d3255dd"
+    "version.json": "01fbe5bc19c6609ca3638ecc21b198488abf37b942d15485edbf7dd88d3255dd",
+    "revisione/1.8.10/prima-data.json": "0971ec035d560bb22f942d89e9ddc60ace0a7bbaa8e695279168f09c26464cb4",
+    "revisione/1.8.10/stato-iniziale.json": "e927c93cfd1a6a54f2d43e23f197a4bdb1d999ac317b2e8709bf5fbecfb8bca3",
+    "revisione/1.8.11/prima-data.json": "31ae1b0e9a217c01e9fceacfcb5f5676cae2665ea44ec57c95c94f759552a988",
+    "revisione/1.8.11/stato-iniziale.json": "5970c34fc5644c02ce13c367f75ebf47c0c8d6d0fe8230c34bae52e61a49dee4",
+    "revisione/1.8.12/prima-data.json": "9e4f9e27c83a46ed318b5a55483d113ef9caaaacc026a5630e6a2b2bf07ae2ef",
+    "revisione/1.8.12/stato-iniziale.json": "246d6a191f132b53a1ef59ce3bc9a31740f564c97489b06645f890e0ea1e27b2",
+    "revisione/1.8.13/prima-data.json": "febe6e597d689adfbb85be53c71dc2f556c6171429f6c6afa875e1eaf190bac3",
+    "revisione/1.8.13/stato-iniziale.json": "442b9decdb804923b57d471baeeeb4877653bcadb1021b1516d41ba934627370",
+    "revisione/1.8.10/prima.json": "aa8cc3fbfcd4ae7d2b1d514a7f56035e36684c5e1f0a4e8dfabd8cac285e69a5",
+    "revisione/1.8.11/prima-TC01.json": "a72cfc87512df8c7da1ffdfc490616502dc4712b486144fc96157de7eb5b3b88",
+    "revisione/1.8.11/prima.json": "70c343b3e96e9fdf6662247719dc6262c3926e991b482de24c776b88f8fe676c",
+    "revisione/1.8.12/prima-viste.json": "ce9f4b885ca54a62a243e35549b82e76dcc5b221944493cf0f766d64460c62bc",
+    "revisione/1.8.13/prima-viste.json": "7e9290238ed94c9a5127d18f33c395ecdad5edb34293a531824a1672e776c377",
+    "revisione/1.8.9/prima.json": "050e92928c3faed4bc15f13877a869d1f50807dc41aa7a80067b4dc6b3133e8a"
   },
   "requestIds": [
     "TXT-GENERALE",

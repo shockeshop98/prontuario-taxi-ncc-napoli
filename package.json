@@ -3,12 +3,12 @@
   "scripts": {
     "generate:icons": "node scripts/generate-pwa-icons.mjs",
     "generate:pdf": "node scripts/generate-prontuario-static.mjs",
-    "audit:cards": "node scripts/audit-terza-revisione.mjs",
-    "test:browser": "node scripts/verify-review-browser.mjs",
-    "test": "node tests/pwa.test.mjs && node tests/icons.test.mjs && node tests/terza-parte.test.mjs && node --check scripts/package-pages.mjs",
+    "audit:cards": "node scripts/audit-ncc-prima.mjs",
+    "test:browser": "node scripts/verify-ncc-prima.mjs",
+    "test": "node tests/pwa.test.mjs && node tests/icons.test.mjs && node tests/terza-parte.test.mjs && node tests/ncc-prima.test.mjs && node --check scripts/package-pages.mjs",
     "test:historical": "node tests/clarity.test.mjs && node tests/revision.test.mjs && node tests/guide.test.mjs && node tests/inline-demo.test.mjs && node tests/static-catalog.test.mjs && node tests/taxi-collettivo.test.mjs && node tests/ricevute-tariffe.test.mjs && node tests/operative-rules.test.mjs && node tests/g01-g43.test.mjs && node tests/seconda-parte.test.mjs && node tests/integrazione.test.mjs && node tests/pausa-caldo.test.mjs && node tests/equini-835.test.mjs",
-    "test:variants": "node scripts/verify-terza-variants.mjs",
-    "test:upgrade": "node scripts/verify-local-upgrade.mjs"
+    "test:variants": "node scripts/verify-ncc-prima.mjs",
+    "test:upgrade": "node scripts/verify-upgrade1815.mjs"
   },
   "devDependencies": {
     "pdf-lib": "^1.17.1",

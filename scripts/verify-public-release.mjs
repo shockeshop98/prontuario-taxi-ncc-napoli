@@ -1,5 +1,5 @@
 // prepare prima del deploy, verify dopo, mantenendo RELEASE_VERIFY_DIR.
-// Il profilo effimero conserva la vera installazione pubblica 1.8.13.
+// Il profilo effimero conserva la vera installazione pubblica 1.8.14.
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
@@ -26,16 +26,21 @@ async function offlinePDF(p){
  const result=await p.evaluate(async()=>{const r=await fetch(sourceURL(3)),bytes=await r.arrayBuffer();return {status:r.status,sha256:[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(x=>x.toString(16).padStart(2,'0')).join('')};});
  assert.equal(result.status,200);assert.equal(result.sha256,sha(fs.readFileSync(resolve(root,'allegati/Prontuario_Taxi_NCC_Napoli.pdf'))));return result;
 }
+async function offlineDocuments(p){
+ const sources=JSON.parse(fs.readFileSync(resolve(root,'index.html'),'utf8').match(/^const DATA=(.*);$/m)[1]).sources;
+ const docs=await p.evaluate(async()=>{const result=[];for(const index of [3,17,18]){const r=await fetch(sourceURL(index)),bytes=await r.arrayBuffer();result.push({index,status:r.status,sha256:[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(x=>x.toString(16).padStart(2,'0')).join('')});}return result;});
+ for(const doc of docs){assert.equal(doc.status,200);assert.equal(doc.sha256,sha(fs.readFileSync(resolve(root,sources[doc.index].url))));}return docs;
+}
 let report;
 try{
  if(mode==='prepare'){
   await page.goto(base,{waitUntil:'networkidle'});await page.waitForFunction(()=>navigator.serviceWorker.controller);
   const before=await page.evaluate(async()=>({release:RELEASE,build:BUILD_ID,worker:await activeWorkerBuild(await navigator.serviceWorker.getRegistration()),pdfVersion:DATA.prontuario.version,pdfPages:DATA.sources[3].pages.length}));
-  assert.equal(before.release,'1.8.13');assert.equal(before.build,before.worker);
-  for(let i=0;i<16;i++){console.log('Prepara allegato',i);if(!await page.evaluate(n=>sourceCached(n),i))await save(page,i);}
+  assert.equal(before.release,'1.8.14');assert.equal(before.build,before.worker);
+  for(let i=0;i<17;i++){console.log('Prepara allegato',i);if(!await page.evaluate(n=>sourceCached(n),i))await save(page,i);}
   before.pdfSHA256=await page.evaluate(async()=>{const b=await(await fetch(sourceURL(3))).arrayBuffer();return [...new Uint8Array(await crypto.subtle.digest('SHA-256',b))].map(n=>n.toString(16).padStart(2,'0')).join('')});
   before.savedSources=await page.evaluate(async()=>{const rows=[];for(let i=0;i<DATA.sources.length;i++){const bytes=await(await fetch(sourceURL(i))).arrayBuffer();rows.push({index:i,path:DATA.sources[i].url,cached:await sourceCached(i),sha256:[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(n=>n.toString(16).padStart(2,'0')).join('')});}return rows;});assert.ok(before.savedSources.every(s=>s.cached));
-  assert.equal(before.pdfVersion,'7.15');assert.equal(before.pdfPages,211);assert.equal(before.pdfSHA256,'c69d81aa5b4e3af8a81dc7e2da28a699b3cbf8586d464f2fa860ed9305273942');
+  assert.equal(before.pdfVersion,'7.16');assert.equal(before.pdfPages,193);assert.equal(before.pdfSHA256,'1cc65c8dab3193109c07d9fe9043db702709bd757f7e6b1c9b2274973432fc79');
   await context.setOffline(true);await page.reload();assert.equal(await page.evaluate(()=>BUILD_ID),before.build);
   before.saved=await page.evaluate(async()=>({reg:await sourceCached(0),provenance:await sourceCached(2),pdf:await sourceCached(3)}));
   assert.deepEqual(before.saved,{reg:true,provenance:true,pdf:true});
@@ -55,9 +60,9 @@ try{
   }
   report={localOnly:false,url:base,checkedAt:new Date().toISOString(),before,expected:version};
   report.current=await page.evaluate(async()=>({release:RELEASE,build:BUILD_ID,worker:await activeWorkerBuild(await navigator.serviceWorker.getRegistration()),pdfVersion:DATA.prontuario.version,pdfPages:DATA.sources[3].pages.length,regSaved:await sourceCached(0),manualSaved:await sourceCached(3),removedSourceCached:await Promise.all((await caches.keys()).filter(n=>n.startsWith('prontuario-docs-')).map(async n=>!!await(await caches.open(n)).match(new URL('allegati/EGAF_Art86_originale.pdf',location.href))))}));
-  assert.equal(report.current.release,'1.8.14');assert.equal(report.current.build,version.build_id);assert.equal(report.current.worker,version.build_id);
-  assert.equal(report.current.pdfVersion,'7.16');assert.equal(report.current.pdfPages,193);assert.equal(report.current.regSaved,true);
-  report.retainedSources=await page.evaluate(async previous=>{const result=[];for(const source of previous.filter(s=>s.index!==3)){const cached=await sourceCached(source.index);if(!cached)throw Error('Allegato invariato perso '+source.path);const bytes=await(await fetch(sourceURL(source.index))).arrayBuffer();const hash=[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(n=>n.toString(16).padStart(2,'0')).join('');if(hash!==source.sha256)throw Error('Hash allegato '+source.path);result.push({path:source.path,cached,sha256:hash});}return result;},before.savedSources);assert.equal(report.retainedSources.length,15);assert.ok(report.current.removedSourceCached.every(v=>!v));
+  assert.equal(report.current.release,'1.8.15');assert.equal(report.current.build,version.build_id);assert.equal(report.current.worker,version.build_id);
+  assert.equal(report.current.pdfVersion,'7.17');assert.equal(report.current.pdfPages,193);assert.equal(report.current.regSaved,true);
+  report.retainedSources=await page.evaluate(async previous=>{const result=[];for(const source of previous.filter(s=>s.index!==3)){const cached=await sourceCached(source.index);if(!cached)throw Error('Allegato invariato perso '+source.path);const bytes=await(await fetch(sourceURL(source.index))).arrayBuffer();const hash=[...new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))].map(n=>n.toString(16).padStart(2,'0')).join('');if(hash!==source.sha256)throw Error('Hash allegato '+source.path);result.push({path:source.path,cached,sha256:hash});}return result;},before.savedSources);assert.equal(report.retainedSources.length,16);assert.ok(report.current.removedSourceCached.every(v=>!v));
   const checkpoint=JSON.parse(fs.readFileSync(resolve(dir,'upgrade-checkpoint.json')));report.migration=checkpoint.migration||report.current;assert.equal(report.migration.manualSaved,false);checkpoint.migration=report.migration;fs.writeFileSync(resolve(dir,'upgrade-checkpoint.json'),JSON.stringify(checkpoint,null,2)+'\n');
   // La richiesta HTTP evita di confondere cache browser e contenuto pubblicato.
   const files=JSON.parse(fs.readFileSync(resolve(root,'pages-files.json'),'utf8'));
@@ -67,13 +72,13 @@ try{
    const bytes=await r.body();assert.equal(sha(bytes),sha(fs.readFileSync(resolve(root,path))),path);report.publicFiles.push({path,sha256:sha(bytes),bytes:bytes.length});
    if(path==='allegati/Prontuario_Taxi_NCC_Napoli.pdf')pdfBytes=bytes;
   }
-  fs.writeFileSync(resolve(dir,'Prontuario_pubblico_7.16.pdf'),pdfBytes);
+  fs.writeFileSync(resolve(dir,'Prontuario_pubblico_7.17.pdf'),pdfBytes);
   const pdf=await getDocument({data:new Uint8Array(pdfBytes),standardFontDataUrl:resolve(root,'node_modules/pdfjs-dist/standard_fonts')+'/'}).promise;
-  assert.equal(pdf.numPages,193);assert.match((await pdf.getMetadata()).info.Title,/7\.16/);
+  assert.equal(pdf.numPages,193);assert.match((await pdf.getMetadata()).info.Title,/7\.17/);
   const texts=[];for(let n=1;n<=pdf.numPages;n++){texts[n]=(await(await pdf.getPage(n)).getTextContent()).items.map(i=>i.str).join(' ');assert.doesNotMatch(texts[n],/\b(?:c\.|comma)\s*\d+(?:-(?:bis|ter|quater))?\s+([a-df-z])\b(?!-)/,'Lettera senza let. PDF '+n);assert.doesNotMatch(texts[n],/let\.\s*let\./);}
   const data=await page.evaluate(()=>DATA);let pdfLinks=0;
   for(const index of data.manualIndex){const links=await(await pdf.getPage(index.page)).getAnnotations();assert.equal(links.length,index.ids.length);for(let n=0;n<links.length;n++){const type=index.type==='equina'?'Trazione animale':index.type==='ncc'?'NCC':'Taxi';assert.equal((await pdf.getPageIndex(links[n].dest[0]))+1,data.staticPages[index.ids[n]+'/'+type]);pdfLinks++;}}
-  assert.equal(pdfLinks,172);report.pdf={version:'7.16',pages:193,sha256:sha(pdfBytes),indexDestinations:pdfLinks};
+  assert.equal(pdfLinks,172);report.pdf={version:'7.17',pages:193,sha256:sha(pdfBytes),indexDestinations:pdfLinks};
   report.mobile=[];
   for(const width of [360,390]){
    await page.setViewportSize({width,height:844});await page.evaluate(()=>{setRoadType('Taxi');showView('help')});
@@ -112,9 +117,9 @@ try{
    await page.evaluate(t=>{setRoadType(t);showView('help')},type);await page.locator('#roadSearch').fill(query);await page.locator('#roadSearch').press('Enter');assert.ok((await page.locator('#roadResults .codeTag').allTextContents()).includes(code),query);report.search.push({query,type,code});
   }
   report.removedSearch=[];for(const type of ['Taxi','NCC'])for(const code of ['R16','T01','G15','G28-03','I08','R29','R31','R36','G51']){const results=await page.evaluate(({type,code})=>rankedSearch(relevantCards(type),code).map(i=>i.code),{type,code});assert.deepEqual(results,[],code+'/'+type);report.removedSearch.push({code,type,results:0});}
-  const excluded=['allegati/EGAF_Art86_originale.pdf','verbale_cartaceo.jpg','diciture prontuario seconda parte.txt','ESEMPI_RICEVUTE_TARIFFE_1.8.2.md','revisione/fonti-integrative/WhatsApp Image 2026-10-21 at 23.20.24.jpeg','revisione/fonti-integrative/WhatsApp Image 2026-10-23 at 09.53.07.jpeg','revisione/1.8.13/prima-data.json','revisione testi terza parte.txt','revisione/1.8.14/prima-data.json','revisione/1.8.14/prima-viste.json','revisione/1.8.14/stato-iniziale.json','revisione/1.8.14/richieste-iniziali.json','revisione/1.8.14/esiti-txt.json','revisione/1.8.14/base-1.8.13/index.html','revisione/1.8.14/fonti/CdS-art85.html'];
+  const excluded=['Revisione schede ncc prima parte.txt','revisione/1.8.15/stato-iniziale.json','revisione/1.8.15/richieste-iniziali.json','revisione/1.8.15/prima-viste.json','revisione/1.8.15/fonti-acquisizioni.json','revisione/1.8.15/fonti/CdS-art85.html','revisione/1.8.15/base-1.8.14/index.html','allegati/EGAF_Art86_originale.pdf','verbale_cartaceo.jpg','diciture prontuario seconda parte.txt','ESEMPI_RICEVUTE_TARIFFE_1.8.2.md','revisione/fonti-integrative/WhatsApp Image 2026-10-21 at 23.20.24.jpeg','revisione/fonti-integrative/WhatsApp Image 2026-10-23 at 09.53.07.jpeg','revisione/1.8.13/prima-data.json','revisione testi terza parte.txt','revisione/1.8.14/prima-data.json','revisione/1.8.14/prima-viste.json','revisione/1.8.14/stato-iniziale.json','revisione/1.8.14/richieste-iniziali.json','revisione/1.8.14/esiti-txt.json','revisione/1.8.14/base-1.8.13/index.html','revisione/1.8.14/fonti/CdS-art85.html'];
   report.excluded=[];for(const path of excluded){const r=await context.request.get(new URL(path,base).href);assert.equal(r.status(),404,path);report.excluded.push({path,status:r.status()});}
-  await save(page,2);await save(page,3);await save(page,15);await save(page,16);await context.setOffline(true);await page.reload();await page.waitForSelector('#roadSearch');assert.equal(await page.evaluate(()=>BUILD_ID),version.build_id);report.upgradedOffline=await offlinePDF(page);
+  await save(page,2);await save(page,3);await save(page,15);await save(page,16);await save(page,17);await save(page,18);await context.setOffline(true);await page.reload();await page.waitForSelector('#roadSearch');assert.equal(await page.evaluate(()=>BUILD_ID),version.build_id);report.upgradedOffline=await offlinePDF(page);report.upgradedOffline.docs=await offlineDocuments(page);
   const range=await page.evaluate(async()=>{const r=await fetch(sourceURL(3),{headers:{Range:'bytes=0-99'}});return {status:r.status,length:(await r.arrayBuffer()).byteLength};});
   assert.deepEqual(range,{status:206,length:100});report.upgradedOffline.range=range;
   await pdf.destroy();assert.deepEqual(errors,[]);report.jsErrors=errors;
@@ -123,10 +128,10 @@ try{
 if(mode==='verify'){
  const freshProfile=resolve(dir,'fresh-profile-'+Date.now());
  let fresh=await chromium.launchPersistentContext(freshProfile,options);
- try{const p=await fresh.newPage();await p.goto(base);await p.waitForFunction(()=>navigator.serviceWorker.controller);await p.waitForFunction(()=>document.getElementById('offlineStatus').textContent.includes('pront'));assert.equal(await p.evaluate(()=>BUILD_ID),version.build_id);await save(p,3);}finally{await fresh.close();}
+ try{const p=await fresh.newPage();await p.goto(base);await p.waitForFunction(()=>navigator.serviceWorker.controller);await p.waitForFunction(()=>document.getElementById('offlineStatus').textContent.includes('pront'));assert.equal(await p.evaluate(()=>BUILD_ID),version.build_id);await save(p,3);await save(p,17);await save(p,18);}finally{await fresh.close();}
  fresh=await chromium.launchPersistentContext(freshProfile,options);
  try{
-  await fresh.setOffline(true);const p=await fresh.newPage();await p.goto(base);await p.waitForSelector('#roadSearch');assert.equal(await p.evaluate(()=>BUILD_ID),version.build_id);report.freshInstallReopenedOffline=await offlinePDF(p);
+  await fresh.setOffline(true);const p=await fresh.newPage();await p.goto(base);await p.waitForSelector('#roadSearch');assert.equal(await p.evaluate(()=>BUILD_ID),version.build_id);report.freshInstallReopenedOffline=await offlinePDF(p);report.freshInstallReopenedOffline.docs=await offlineDocuments(p);
   await p.evaluate(()=>{setRoadType('Trazione animale');showView('help')});await p.locator('#roadSearch').fill('scarpe protettive');await p.locator('#roadSearch').press('Enter');assert.ok((await p.locator('#roadResults .codeTag').allTextContents()).includes('R46'));report.freshInstallReopenedOffline.search=true;
   const item=await p.evaluate(()=>DATA.catalog.find(i=>i.code==='R44'));await p.evaluate(id=>openSanction(id,'Trazione animale'),item.id);await p.locator('#copyFormula').click();assert.equal(await p.evaluate(()=>navigator.clipboard.readText()),item.formula);report.freshInstallReopenedOffline.copy=true;
  }finally{await fresh.close();}

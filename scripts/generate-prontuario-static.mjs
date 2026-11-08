@@ -14,12 +14,12 @@ const dataLine=html.split('\n').find(line=>line.startsWith('const DATA='));
 if(!dataLine)throw Error('Catalogo incorporato non trovato');
 const data=JSON.parse(dataLine.slice('const DATA='.length,-1));
 const window={};
-for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js','scripts/revision-g01-g43.js','scripts/revision-seconda-parte.js','scripts/revision-pausa-caldo.js','scripts/revision-equini-835.js','scripts/revision-terza.js']){
+for(const name of ['scripts/static-demos.js','scripts/static-field-suggestions.js','scripts/operative-rules.js','scripts/static-demo-ui.js','scripts/taxi-collettivo.js','scripts/static-catalog.js','scripts/static-catalog-ui.js','scripts/revision-g01-g43.js','scripts/revision-seconda-parte.js','scripts/revision-pausa-caldo.js','scripts/revision-equini-835.js','scripts/revision-terza.js','scripts/revision-ncc-prima.js']){
   vm.runInNewContext(await readFile(resolve(root,name),'utf8'),{window},{filename:name});
 }
 const layout=window.prontuarioStaticLayout(data.catalog,data.manualParts);
 const byId=new Map(data.catalog.map(item=>[item.id,item]));
-const version='7.16',today='4 novembre 2026';
+const version='7.17',today='8 novembre 2026';
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const regulation='Regolamento comunale (delibera C.C. n. 80/2005), ';
 const finalSentence="Copia del presente verbale verrà inviata all'Ufficio Corso Pubblico.";
@@ -177,7 +177,7 @@ function indexPage(section,index,page){
     const span=layout.pageSpans?.[`${item.id}/${type}`]||1;
     return `<tr><td><a href="#case-${item.id}-${type}">${esc(code)}</a></td><td>${esc(item.title)}${window.prontuarioCatalogAliasCodes[code]?` (alias ${esc(window.prontuarioCatalogAliasCodes[code])})`:''}</td><td>${pdfPage}${span>1?`–${pdfPage+span-1}`:''}</td></tr>`;
   }).join('');
-  return pageFrame(page,`<h1>Indice ${esc(section.label)} · ${index+1}/${section.indexPages}</h1><p>Aprire il codice per raggiungere direttamente la singola scheda e la fascia pertinente.</p><table class="index"><thead><tr><th>Codice</th><th>Fattispecie</th><th>Pagina</th></tr></thead><tbody>${rows}</tbody></table>`,'','indexPage');
+  return pageFrame(page,`<h1>Indice ${esc(section.label)} · ${index+1}/${section.indexPages}</h1>${section.type==='NCC'?'<p>Obblighi comunali: NCC autorizzati da Napoli. Norme nazionali/regionali: propri ambiti e presupposti.</p>':''}<p>Aprire il codice per raggiungere direttamente la singola scheda e la fascia pertinente.</p><table class="index"><thead><tr><th>Codice</th><th>Fattispecie</th><th>Pagina</th></tr></thead><tbody>${rows}</tbody></table>`,'','indexPage');
 }
 function rawContent(item,type){
   const revised=window.prontuarioRevisionView(item,type);

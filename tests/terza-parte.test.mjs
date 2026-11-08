@@ -1,4 +1,5 @@
-import fs from 'node:fs';
+// Regressione storica 1.8.14; revisione corrente in ncc-prima.test.mjs.
+import fs from './release-1814-fs.mjs';
 import vm from 'node:vm';
 import {baseline,readBaseline} from './historical-fs.mjs';
 import assert from 'node:assert/strict';
@@ -96,4 +97,4 @@ const pagesFiles=JSON.parse(read('pages-files.json'));assert.ok(pagesFiles.inclu
 const outcomes=JSON.parse(read('revisione/1.8.14/esiti-txt-pubblicabili.json')),requests=baseline.requestIds;assert.equal(outcomes.length,63);assert.deepEqual(outcomes.map(r=>r.id),requests);for(const row of outcomes){assert.ok(['Applicata','Adattata con motivazione'].includes(row.esito));assert.ok(row.motivazione.length>30);}
 const nccTable=JSON.parse(read('revisione/1.8.14/controllo-tutte-ncc.json'));assert.equal(nccTable.schede.length,70);assert.equal(nccTable.schede.filter(r=>r.pagina_pdf).length,61);
 const evidence=JSON.parse(read('revisione/1.8.14/controlli-statici.json'));for(const [key,value]of Object.entries({version:'1.8.14',pdf:'7.16',cards:rows.length,pages:pdf.getPageCount(),links:checkedLinks,copyVariants:checkedCopies,ncc:61,missingEditorialLetters:0}))assert.equal(evidence[key],value,'Evidenza statica '+key);
-console.log(`Revisione corrente: ${rows.length} schede, ${pdf.getPageCount()} pagine, ${checkedLinks} destinazioni, ${checkedCopies} varianti, 61 NCC, rimozioni e fonti precedenti conservate.`);
+console.log(`Regressione storica1.8.14: ${rows.length} schede, ${pdf.getPageCount()} pagine, ${checkedLinks} destinazioni, ${checkedCopies} varianti, 61 NCC, rimozioni e fonti precedenti conservate.`);
