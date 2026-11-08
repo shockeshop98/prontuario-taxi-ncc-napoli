@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-11-08T22:46:53.084431+00:00",
+  "releaseCommit": "a25b480fe93455331ae23d2a9893bffef06eba5d",
+  "id": 42531485834,
+  "status": "completed",
+  "conclusion": "success",
+  "url": "https://github.com/shockeshop98/prontuario-taxi-ncc-napoli/actions/runs/42531485834",
+  "artifactId": 13636534710,
+  "artifactFiles": 240,
+  "allowedAssets": 239,
+  "sha256Comparison": "PASS, tutti i239file con manifest e commit del rilascio",
+  "excludedMaterialsPresent": 0,
+  "symbolicLinks": 0,
+  "hiddenMarker": ".nojekyll generato localmente, omesso dall’upload dei file nascosti; Pages pubblicato tramite workflow, senza compilazione Jekyll.",
+  "runtimeAnnotations": "Avvisi informativi Node20 delle action eseguite con Node24 e migrazione etichetta ubuntu-latest; nessun errore."
+}

@@ -163,3 +163,36 @@ I controlli browser di pubblicazione sono stati aggiornati soltanto tecnicamente
 Un primo allestimento era stato interrotto dalla saturazione di /tmp durante npm ci; la copia è stata conservata su disco nella cartella esclusa e l’installazione ripetuta con successo. Il blocco della sandbox su git show è stato risolto eseguendo le medesime suite fuori dalla sandbox. La prima clonazione non aveva completato il checkout perché i file di verifica erano stati copiati troppo presto: ricollocati soltanto quei file temporanei, completato il checkout e ripetuta la copia. Nessun originale del repository toccato.
 
 La preparazione Pages nella copia pulita ha verificato237percorsi; aggiunte successivamente soltanto le2evidenze preliminari, per239percorsi espliciti. [Esiti preliminari e base pubblica reale](revisione/1.8.15/pubblicazione/preflight.json). [Selezione esplicita dei61file del commit](revisione/1.8.15/pubblicazione/selezione-commit.json): applicazione/PDF, documentazione derivata, risorse pubbliche autorizzate e controlli tecnici. Nessun TXT di lavoro, documento personale, foto di controlli, EGAF integrale, copia iniziale, fonte grezza o temporaneo incluso. Gli originali locali sono conservati.
+
+## Verifiche pubbliche dopo il deploy
+
+Pubblicazione del commit **`a25b480fe93455331ae23d2a9893bffef06eba5d`** con push ordinario main, senza force push o operazioni distruttive. [Workflow42531485834](https://github.com/shockeshop98/prontuario-taxi-ncc-napoli/actions/runs/42531485834) completato con successo: npm ci, suite corrente,13suite storiche, pacchetto su lista esplicita e deploy Pages. Nessuna modifica normativa introdotta durante la pubblicazione.
+
+Controlli eseguiti sull’URL **https://shockeshop98.github.io/prontuario-taxi-ncc-napoli/**, senza confondere le prove su loopback con quelle pubbliche. [Evidenze pubbliche complete](revisione/1.8.15/pubblicazione/controlli-pubblici.json) e [19NCC,29scelte e offline](revisione/1.8.15/pubblicazione/controlli-ncc-pubblici.json).
+
+| Controllo pubblico | Esito effettivo |
+|---|---|
+| PWA/PDF/build | PASS:1.8.15/7.17 e build HTML/version.json/SW identica `dd77cb945938360a51caf0bc720b28c91ec3b67a5c4a5b658e237917a9a0d98f` |
+| File pubblicati | PASS:239percorsi del primo artefatto scaricati via HTTP e confrontati con il locale mediante SHA-256 |
+| PDF pubblico | PASS:193pagine,5807085byte e SHA `3df7e79ac36704d978071d59e88f0f68b01fd372370455f6963f87e034aa8c34`; identico byte per byte al locale |
+| Indice e formule | PASS:172destinazioni del PDF reale;172schede e171copie per viewport, testi confrontati con il PDF scaricato |
+| Schede NCC | PASS:19codici,29scelte,29tabelle/intestazioni e visibilità degli adempimenti; attestazioni azzerate al cambio, copia del ritiro soltanto dopo conferma, clipboard reale G14/G53 |
+| Ambito/riferimenti/ricerca | PASS: avviso comunale distinto, “let.” nei testi correnti, ricerche NCC/Taxi/equine,18ricerche dei9codici eliminati senza risultati attivi |
+| Mobile e apertura diretta | PASS: tutte le172schede a360/390px, nessun overflow, due stemmi e crediti; passaggi diretti fra servizi riusciti |
+| Anteprima/confronto | PASS:19righe e19link PDF a360/390px,19confronti interattivi |
+| Migrazione reale1.8.14→1.8.15 | PASS sul profilo della versione effettivamente pubblicata prima del push:16allegati invariati conservati con SHA, vecchio manuale non più salvato dopo l’aggiornamento |
+| Salvataggio successivo | PASS: PDF7.17, sintesi17 e originale18 salvati; riapertura offline e SHA corretti anche nel profilo aggiornato |
+| Prima installazione/riapertura | PASS: profilo nuovo chiuso e riaperto con rete disabilitata, nuovo PDF e allegati disponibili, ricerca/copia funzionanti |
+| PDF offline parziale | PASS:206 e100byte per Range bytes=0-99 |
+| Esclusioni | PASS:22percorsi privati/riservati provati sul pubblico restituiscono404; nessuna presenza nel pacchetto esplicito |
+| Errori JavaScript | Nessuno nelle due prove pubbliche conclusive |
+
+Le altre153viste e tutte le103Taxi sono conservate dai confronti strutturali e PDF locali, rieseguiti anche nel runner GitHub. I controlli pubblici verificano inoltre corrispondenza dei testi distribuiti con il locale e comportamento a entrambe le larghezze. I limiti documentali indicati sopra restano invariati: R06, provvedimento individuale/coordinamento G14, ufficio/delega G54 e i precedenti limiti fuori ambito. Le prove mobile usano Chromium con viewport360/390, non telefoni fisici o installazione iOS.
+
+**Il PDF7.17 deve essere salvato nuovamente nella PWA per usarlo offline.** Anche i nuovi allegati vanno salvati singolarmente o tramite il comando previsto. Le evidenze del primo deploy sono aggiunte con un successivo commit soltanto documentale; PWA, PDF e build rimangono identici.
+
+### Chiusura documentale della pubblicazione
+
+Scaricato e ispezionato anche l’artefatto GitHub Pages del workflow riuscito: **240file**, esattamente239risorse ammesse più il manifest. Verificati SHA-256 di ogni risorsa rispetto al manifest e al commit del rilascio, nessun collegamento simbolico o materiale escluso. Il marcatore nascosto `.nojekyll`, generato localmente, è omesso dall’upload; la pubblicazione avviene via workflow senza compilazione Jekyll. [Esito dell’ispezione](revisione/1.8.15/pubblicazione/workflow.json).
+
+Aggiunte8sole evidenze sicure alla lista Pages, ora di **247percorsi espliciti**: due rapporti JSON pubblici, quattro schermate sintetiche della PWA pubblica, esito del workflow e selezione del commit documentale. [I12file selezionati per la chiusura](revisione/1.8.15/pubblicazione/selezione-evidenze.json). Le schermate non contengono controlli reali o dati personali. Il successivo deploy riesegue automaticamente entrambe le suite; la verifica conclusiva riguarda i documenti aggiunti, il manifest pubblico e l’invarianza di versione/build/PDF, senza duplicare le prove funzionali già superate sui medesimi file. Nessun nuovo intervento normativo.

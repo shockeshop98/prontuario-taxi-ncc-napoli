@@ -1,13 +1,13 @@
-<!-- Revisione: 1.8.15 / PDF 7.17; precedente: 1.8.14 / PDF 7.16; sezioni precedenti conservate come storico. -->
+<!-- Pubblicata: 1.8.15 / PDF 7.17; precedente: 1.8.14 / PDF 7.16; sezioni precedenti conservate come storico. -->
 # Prontuario interattivo Taxi NCC e trazione animale Napoli
 
 A cura dell’Agente Antonio Balzano · U.O. San Lorenzo.
 
 Prontuario di consultazione con 112 voci di catalogo, comprese voci di consultazione e R01 esplicitamente inattiva, ricerca per sinonimi e parole simili, indice per servizio, importi, riferimenti normativi, formule orientative, suggerimenti e note operative. I riferimenti al regolamento identificano la delibera C.C. n. 80/2005. Non contiene registrazioni di controlli, generalità dei conducenti o relazioni di servizio.
 
-## Revisione1.8.15 / PDF7.17 · NCC prima parte,8novembre2026
+## Revisione pubblicata1.8.15 / PDF7.17 · NCC prima parte,8novembre2026
 
-[Anteprima](revisione/1.8.15/anteprima.html), [confronto](revisione/1.8.15/confronto-prima-dopo.html), [rapporto](RAPPORTO_REVISIONE_1.8.15.md), [tutti i19esiti](revisione/1.8.15/esiti-richieste.md). Solo19viste NCC aggiornate,103Taxi e altre50viste conservate;172schede,193pagine,172destinazioni e171formule. Ambito comunale distinto da norme nazionali/regionali, condizione del titolo distinta dall’omissione del titolare. D.D.4/2026 acquisita e salvabile offline; ritiro condizionale G14 e limiti documentali nel rapporto. Pubblicazione autorizzata; esiti locali e pubblici distinti nel rapporto.
+[Anteprima](revisione/1.8.15/anteprima.html), [confronto](revisione/1.8.15/confronto-prima-dopo.html), [rapporto](RAPPORTO_REVISIONE_1.8.15.md), [tutti i19esiti](revisione/1.8.15/esiti-richieste.md). Solo19viste NCC aggiornate,103Taxi e altre50viste conservate;172schede,193pagine,172destinazioni e171formule. Ambito comunale distinto da norme nazionali/regionali, condizione del titolo distinta dall’omissione del titolare. D.D.4/2026 acquisita e salvabile offline; ritiro condizionale G14 e limiti documentali nel rapporto. Pubblicazione completata e verificata; esiti locali e pubblici distinti nel rapporto.
 
 Controlli correnti: `npm test`, `npm run test:historical`, `npm run test:browser`, `npm run test:upgrade`, `git diff --check`. `CHROMIUM_PATH` deve indicare Chromium disponibile; i test browser usano loopback e profili temporanei, senza dati personali. `npm run audit:cards` aggiorna esiti e confronto. I generatori storici conservano le rispettive versioni; non eseguirli per questa revisione. Il TXT originale e le copie iniziali sono input locali esclusi da Pages. Salvare nuovamente il PDF7.17 nella PWA.
 
