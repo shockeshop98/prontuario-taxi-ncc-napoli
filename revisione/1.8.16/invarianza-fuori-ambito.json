@@ -1,0 +1,1847 @@
+{
+  "views": 121,
+  "checks": [
+    {
+      "service": "Taxi",
+      "code": "G01",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G02",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G03-01",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G03-02",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G03-03",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G03-04",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G04-01",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G04-02",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G04-03",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G04-04",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G05-01",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.origin: rimozione fonte EGAF",
+        "item.legalBackground: sola pulizia fonte/rinvio",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G05-02",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.origin: rimozione fonte EGAF",
+        "item.legalBackground: sola pulizia fonte/rinvio",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G05-03",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.origin: rimozione fonte EGAF",
+        "item.legalBackground: sola pulizia fonte/rinvio",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G05-04",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.origin: rimozione fonte EGAF",
+        "item.legalBackground: sola pulizia fonte/rinvio",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G06-01",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G06-02",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G06-03",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G06-04",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G07-01",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G07-02",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G07-03",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G07-04",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G08-01",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G08-02",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G08-03",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G08-04",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "responsibility: pulizia fonte EGAF",
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.responsibility: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G09",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G16",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G17",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G18",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G22",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G23",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G24",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.origin: rimozione fonte EGAF"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G26",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G29",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G34",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G36",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G43",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G49",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G50",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sources: rimozione fonte EGAF",
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G52",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "TC01",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": []
+    },
+    {
+      "service": "Taxi",
+      "code": "I01",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "R01",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "R07",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "R08",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.notes: sola pulizia fonte/rinvio",
+        "item.note: sola pulizia fonte/rinvio",
+        "item.sources: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "R11",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "R13",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "R19",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "R21",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "R26",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "R28",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G19",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G20",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G21",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G25",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G27",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G28-01",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G30",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G31",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G33",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G35",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G37",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G38",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G39",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G40",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G41",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G42",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G45",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G53",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "G54",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "R09",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "R10",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "R12",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "R25",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Taxi",
+      "code": "R27",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G19",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G20",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G21",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G25",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G27",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G28",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G30",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G31",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G35",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G37",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G38",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G39",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G40",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G41",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G42",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G45",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G53",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "G54",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "R09",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "R10",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "R12",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "R25",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "R27",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "I02",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "R32",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "R34",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "N01",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.note: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "N02",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.note: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "N03",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.note: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "N04",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.note: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "N05",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.note: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "N06",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.note: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "N07",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.note: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "N08",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.note: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.legalBackground: sola pulizia fonte/rinvio",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "N09",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.note: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.legalBackground: sola pulizia fonte/rinvio",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "N10",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.note: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.docPages: riallineamento tecnico",
+        "item.docPage: riallineamento tecnico",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "NCC",
+      "code": "N12",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.note: sola pulizia fonte/rinvio",
+        "item.origin: rimozione fonte EGAF",
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Trazione animale",
+      "code": "R39",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.notes: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Trazione animale",
+      "code": "R40",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.notes: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Trazione animale",
+      "code": "R41",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.notes: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Trazione animale",
+      "code": "R42",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.notes: sola pulizia fonte/rinvio"
+      ]
+    },
+    {
+      "service": "Trazione animale",
+      "code": "R43",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Trazione animale",
+      "code": "R44",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Trazione animale",
+      "code": "R45",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    },
+    {
+      "service": "Trazione animale",
+      "code": "R46",
+      "amountsUnchanged": true,
+      "formulaUnchanged": true,
+      "referencesUnchanged": true,
+      "allOtherFieldsChecked": true,
+      "allowedTechnicalExceptions": [
+        "item.sourceIndices: riallineamento tecnico"
+      ]
+    }
+  ],
+  "changedAuthorizedFields": [
+    {
+      "service": "Taxi",
+      "code": "I09",
+      "field": "close"
+    },
+    {
+      "service": "Taxi",
+      "code": "R20",
+      "field": "options"
+    },
+    {
+      "service": "Taxi",
+      "code": "R20",
+      "field": "close"
+    },
+    {
+      "service": "Taxi",
+      "code": "G12",
+      "field": "formula"
+    },
+    {
+      "service": "Taxi",
+      "code": "G12",
+      "field": "options"
+    },
+    {
+      "service": "Taxi",
+      "code": "G28-04",
+      "field": "close"
+    },
+    {
+      "service": "Taxi",
+      "code": "R24",
+      "field": "close"
+    },
+    {
+      "service": "Taxi",
+      "code": "R30",
+      "field": "close"
+    },
+    {
+      "service": "Taxi",
+      "code": "R35",
+      "field": "options"
+    },
+    {
+      "service": "Taxi",
+      "code": "R35",
+      "field": "close"
+    },
+    {
+      "service": "NCC",
+      "code": "G10",
+      "field": "options"
+    },
+    {
+      "service": "NCC",
+      "code": "G12",
+      "field": "formula"
+    },
+    {
+      "service": "NCC",
+      "code": "G12",
+      "field": "options"
+    },
+    {
+      "service": "NCC",
+      "code": "G14",
+      "field": "options"
+    },
+    {
+      "service": "NCC",
+      "code": "G44",
+      "field": "options"
+    },
+    {
+      "service": "NCC",
+      "code": "I06",
+      "field": "formula"
+    },
+    {
+      "service": "NCC",
+      "code": "I06",
+      "field": "options"
+    },
+    {
+      "service": "NCC",
+      "code": "R02",
+      "field": "options"
+    },
+    {
+      "service": "NCC",
+      "code": "R06",
+      "field": "close"
+    },
+    {
+      "service": "NCC",
+      "code": "R24",
+      "field": "close"
+    },
+    {
+      "service": "NCC",
+      "code": "R30",
+      "field": "acts"
+    },
+    {
+      "service": "NCC",
+      "code": "R30",
+      "field": "close"
+    },
+    {
+      "service": "NCC",
+      "code": "I04",
+      "field": "formula"
+    },
+    {
+      "service": "NCC",
+      "code": "I04",
+      "field": "options"
+    },
+    {
+      "service": "NCC",
+      "code": "I05",
+      "field": "formula"
+    },
+    {
+      "service": "NCC",
+      "code": "I05",
+      "field": "options"
+    },
+    {
+      "service": "NCC",
+      "code": "R33-01",
+      "field": "formula"
+    },
+    {
+      "service": "NCC",
+      "code": "R33-01",
+      "field": "acts"
+    },
+    {
+      "service": "NCC",
+      "code": "R33-01",
+      "field": "close"
+    },
+    {
+      "service": "NCC",
+      "code": "R33-02",
+      "field": "formula"
+    },
+    {
+      "service": "NCC",
+      "code": "R33-02",
+      "field": "acts"
+    },
+    {
+      "service": "NCC",
+      "code": "R33-02",
+      "field": "close"
+    },
+    {
+      "service": "NCC",
+      "code": "R33-03",
+      "field": "formula"
+    },
+    {
+      "service": "NCC",
+      "code": "R33-03",
+      "field": "acts"
+    },
+    {
+      "service": "NCC",
+      "code": "R33-03",
+      "field": "close"
+    },
+    {
+      "service": "NCC",
+      "code": "R33-04",
+      "field": "formula"
+    },
+    {
+      "service": "NCC",
+      "code": "R33-04",
+      "field": "acts"
+    },
+    {
+      "service": "NCC",
+      "code": "R33-04",
+      "field": "close"
+    }
+  ],
+  "exceptions": "Solo pulizia delle fonti EGAF, indici e metadati tecnici; nessun importo o formula fuori ambito modificati."
+}

@@ -1,0 +1,672 @@
+{
+  "localOnly": true,
+  "checkedAt": "2026-11-10T22:50:53.787Z",
+  "mobile": [
+    {
+      "width": 360,
+      "cards": 172,
+      "copies": 171,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "cards": 172,
+      "copies": 171,
+      "overflow": false
+    }
+  ],
+  "choices": [
+    {
+      "service": "Taxi",
+      "code": "G55",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G46",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G46",
+      "choice": 1,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G46",
+      "choice": 2,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G47",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G48",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G48",
+      "choice": 1,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G48",
+      "choice": 2,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "I09",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R14",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R14",
+      "choice": 1,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R14",
+      "choice": 2,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R15",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R20",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G10",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G11",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G12",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G12",
+      "choice": 1,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G13",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G14",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G28-02",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G28-04",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G32",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G44",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "G44",
+      "choice": 1,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R02",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R03",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R05",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R06",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R22",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R23",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R24",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R30",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R35",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R35",
+      "choice": 1,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R37",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "Taxi",
+      "code": "R38",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "G10",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "G11",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "G12",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "G12",
+      "choice": 1,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "G13",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "G14",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "G32",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "G32",
+      "choice": 1,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "G44",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "I06",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "R02",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "R03",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "R03",
+      "choice": 1,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "R05",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "R06",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "R22",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "R23",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "R24",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "R30",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "I04",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "I04",
+      "choice": 1,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "I04",
+      "choice": 2,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "I04",
+      "choice": 3,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "I05",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "I05",
+      "choice": 1,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "R04",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "R33-01",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "R33-02",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "R33-03",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    },
+    {
+      "service": "NCC",
+      "code": "R33-04",
+      "choice": 0,
+      "amounts": true,
+      "copy": true,
+      "reset": true
+    }
+  ],
+  "errors": [],
+  "generalPdfButtons": [
+    {
+      "index": 2,
+      "page": 1,
+      "url": "allegati/Prontuario_Taxi_NCC_Napoli.pdf"
+    },
+    {
+      "index": 3,
+      "page": 1,
+      "url": "allegati/Tariffario_Taxi_2024.pdf"
+    }
+  ],
+  "napoliConditionAndIndependentCds": true,
+  "search": true,
+  "allSourcesSaved": 17,
+  "privatePathsBlocked": true,
+  "preview": true,
+  "offline": {
+    "version": "1.8.16",
+    "build": "a357d917706fb820a6afb7d37075a83e6eea7145a056ea07bfd5a7de3c27e2fe",
+    "docs": [
+      {
+        "url": "allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+        "status": 200,
+        "sha256": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0"
+      },
+      {
+        "url": "allegati/Prontuario_GIT_Turistica_originale.pdf",
+        "status": 200,
+        "sha256": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a"
+      },
+      {
+        "url": "allegati/Prontuario_Taxi_NCC_Napoli.pdf",
+        "status": 200,
+        "sha256": "3c982ae3d43163f13051f99b5f54d3578e089ae9df05aa6178741a7c874475cc"
+      },
+      {
+        "url": "allegati/Tariffario_Taxi_2024.pdf",
+        "status": 200,
+        "sha256": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055"
+      },
+      {
+        "url": "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+        "status": 200,
+        "sha256": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a"
+      },
+      {
+        "url": "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+        "status": 200,
+        "sha256": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18"
+      },
+      {
+        "url": "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+        "status": 200,
+        "sha256": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5"
+      },
+      {
+        "url": "allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+        "status": 200,
+        "sha256": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205"
+      },
+      {
+        "url": "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+        "status": 200,
+        "sha256": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89"
+      },
+      {
+        "url": "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+        "status": 200,
+        "sha256": "4e44f34b40802ee9837f5cf07f38e09a950a6ff93ae447072cda26f289543c03"
+      },
+      {
+        "url": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+        "status": 200,
+        "sha256": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184"
+      },
+      {
+        "url": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+        "status": 200,
+        "sha256": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e"
+      },
+      {
+        "url": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+        "status": 200,
+        "sha256": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042"
+      },
+      {
+        "url": "allegati/OS835_2014_indicazioni_autore.txt",
+        "status": 200,
+        "sha256": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd"
+      },
+      {
+        "url": "allegati/Fonti_revisione_corrente_1.8.16.txt",
+        "status": 200,
+        "sha256": "52cdd57c6f291521b0894c9bd180c809765e965b48bf970367374fc60364860f"
+      },
+      {
+        "url": "allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+        "status": 200,
+        "sha256": "95fafdb1d658d65e02ff446bb0f3f28975582f590319e48d1c17829571ab1800"
+      },
+      {
+        "url": "allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+        "status": 200,
+        "sha256": "3d5e481d98b789b908ab5ff55a5337b7e7e48dab47bb58bfcfb517385d6bfec2"
+      }
+    ],
+    "range": {
+      "status": 206,
+      "length": 100
+    },
+    "excludedStatus": 410,
+    "copy": "Durante il servizio con il veicolo indicato, con C.P. n. […], non prendeva posto negli stalli regolarmente predisposti dal Comune, siti in […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico."
+  },
+  "closedAndReopenedOffline": true
+}

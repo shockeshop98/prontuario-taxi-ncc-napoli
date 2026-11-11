@@ -1,3 +1,13 @@
+# Stato locale — 10 novembre 2026, applicazione integrale dell’autore
+
+PWA 1.8.16 / PDF 7.18; HEAD be98cdf9d30d2eee4513f080a0c20b04ff5642af invariato, nessun commit/push/deploy. Tutte le 53 richieste applicate secondo indicazione dell’autore, zero parziali/non applicate. 112 voci, 172 viste (104 Taxi, 60 NCC, 8 equine), 193 pagine, 6 indici/172 destinazioni, 171 formule, 17 fonti. G55 conservata, N11 rimossa editorialmente, EGAF escluso da tutti i percorsi pubblici e dalle cache aggiornate, originali integri. 46 configurazioni importi preesistenti in ambito aggiornate più nuova G55; 121 viste fuori ambito identiche alla precedente revisione locale.
+
+Non ripristinare i blocchi normativi precedenti: l’autore ha disposto l’applicazione integrale del TXT, senza ulteriori alternative o condizioni. Mantenerne le osservazioni separate, senza dichiarare risolti documenti mancanti o qualificazioni controverse. Approfondimento precedente intatto; nuovo registro osservazioni-normative-conservate.md. Le sole condizioni del TXT, criteri di fascia e conferme di attività eseguite sono conservati. R33 ritiro autorizzazione solo Napoli; CdS autonomo. R30 ritiro negli adempimenti e clausola dopo esecuzione confermata.
+
+Esiti, anteprima, confronto e rapporto aggiornati; verifica-decisioni-autore.json copre 53/53 e invarianza integrale delle 121 viste rispetto alla fotografia prima-decisioni-autore (locale esclusa). npm test, audit, browser mobile 360/390, 67 selezioni, PDF/copia, riapertura offline di 17 fonti, migrazione dalla vera 1.8.15 e rendering finale superati. 15 allegati validi migrati con SHA; nuovo PDF/sintesi risalvati. Build a357d917706fb820a6afb7d37075a83e6eea7145a056ea07bfd5a7de3c27e2fe; PDF SHA 3c982ae3d43163f13051f99b5f54d3578e089ae9df05aa6178741a7c874475cc. Non rilanciare generatori storici, non pubblicare senza istruzione successiva.
+
+Lo storico seguente resta intatto.
+
 # Passaggio a Codex
 
 Proprietario: Antonio Balzano, Agente Polizia Municipale Napoli, U.O. San Lorenzo.

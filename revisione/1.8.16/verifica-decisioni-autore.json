@@ -1,0 +1,761 @@
+{
+  "checkedAt": "2026-11-11T15:57:09.125Z",
+  "inputSha256": "ee1cd58286d1bbbcdf40cd8b8b0f93e05890d806da888a486bfc947793d1f1f5",
+  "originalInputVerified": true,
+  "privateSnapshotVerified": true,
+  "requests": 53,
+  "appliedAccordingToAuthor": 53,
+  "notApplied": 0,
+  "partial": 0,
+  "checks": [
+    {
+      "n": 1,
+      "service": "Taxi",
+      "code": "G55",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione",
+        "Formula del TXT, intestazione e soli adattamenti concordati; istruzioni escluse dalla copia"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 2,
+      "service": "Taxi",
+      "code": "G46",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 3,
+      "service": "Taxi",
+      "code": "G47",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 4,
+      "service": "Taxi",
+      "code": "G48",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 5,
+      "service": "Taxi",
+      "code": "I09",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 6,
+      "service": "Taxi",
+      "code": "R14",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 7,
+      "service": "Taxi",
+      "code": "R15",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 8,
+      "service": "Taxi",
+      "code": "R20",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 9,
+      "service": "Taxi",
+      "code": "G10",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 10,
+      "service": "Taxi",
+      "code": "G11",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 11,
+      "service": "Taxi",
+      "code": "G12",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione",
+        "Formula del TXT, intestazione e soli adattamenti concordati; istruzioni escluse dalla copia"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 12,
+      "service": "Taxi",
+      "code": "G13",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 13,
+      "service": "Taxi",
+      "code": "G14",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 14,
+      "service": "Taxi",
+      "code": "G28-02",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione",
+        "Formula del TXT, intestazione e soli adattamenti concordati; istruzioni escluse dalla copia"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 15,
+      "service": "Taxi",
+      "code": "G28-04",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 16,
+      "service": "Taxi",
+      "code": "G32",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione",
+        "Nota richiesta visibile fuori dalla copia"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 17,
+      "service": "Taxi",
+      "code": "G44",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 18,
+      "service": "Taxi",
+      "code": "G44",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Nota richiesta visibile fuori dalla copia"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 19,
+      "service": "Taxi",
+      "code": "R02",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 20,
+      "service": "Taxi",
+      "code": "R03",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 21,
+      "service": "Taxi",
+      "code": "R05",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 22,
+      "service": "Taxi",
+      "code": "R06",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 23,
+      "service": "Taxi",
+      "code": "R22",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 24,
+      "service": "Taxi",
+      "code": "R23",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 25,
+      "service": "Taxi",
+      "code": "R24",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 26,
+      "service": "Taxi",
+      "code": "R30",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 27,
+      "service": "Taxi",
+      "code": "R35",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 28,
+      "service": "Taxi",
+      "code": "R37",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 29,
+      "service": "Taxi",
+      "code": "R38",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 30,
+      "service": "NCC",
+      "code": "G10",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 31,
+      "service": "NCC",
+      "code": "G11",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 32,
+      "service": "NCC",
+      "code": "G12",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 33,
+      "service": "NCC",
+      "code": "G13",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 34,
+      "service": "NCC",
+      "code": "G14",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 35,
+      "service": "NCC",
+      "code": "G32",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 36,
+      "service": "NCC",
+      "code": "G44",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 37,
+      "service": "NCC",
+      "code": "I06",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione",
+        "Formula del TXT, intestazione e soli adattamenti concordati; istruzioni escluse dalla copia"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 38,
+      "service": "NCC",
+      "code": "R02",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 39,
+      "service": "NCC",
+      "code": "R03",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 40,
+      "service": "NCC",
+      "code": "R05",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 41,
+      "service": "NCC",
+      "code": "R06",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 42,
+      "service": "NCC",
+      "code": "R22",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 43,
+      "service": "NCC",
+      "code": "R23",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 44,
+      "service": "NCC",
+      "code": "R24",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 45,
+      "service": "NCC",
+      "code": "R30",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione",
+        "Formula del TXT, intestazione e soli adattamenti concordati; istruzioni escluse dalla copia"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 46,
+      "service": "NCC",
+      "code": "I04",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione",
+        "Formula del TXT, intestazione e soli adattamenti concordati; istruzioni escluse dalla copia"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 47,
+      "service": "NCC",
+      "code": "I05",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione",
+        "Formula del TXT, intestazione e soli adattamenti concordati; istruzioni escluse dalla copia"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 48,
+      "service": "NCC",
+      "code": "R04",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Tutti i riferimenti del TXT, compresi comma/lettera/suffisso e ordine delle fonti",
+        "Tabella del comma richiesto e regime di pagamento in ogni alternativa; nessuna alternativa TUEL o ulteriore condizione"
+      ],
+      "observationPreserved": true
+    },
+    {
+      "n": 49,
+      "service": "NCC",
+      "code": "R33-01",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Formula del TXT, intestazione e soli adattamenti concordati; istruzioni escluse dalla copia"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 50,
+      "service": "NCC",
+      "code": "R33-02",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Formula del TXT, intestazione e soli adattamenti concordati; istruzioni escluse dalla copia"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 51,
+      "service": "NCC",
+      "code": "R33-03",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Formula del TXT, intestazione e soli adattamenti concordati; istruzioni escluse dalla copia"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 52,
+      "service": "NCC",
+      "code": "R33-04",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Formula del TXT, intestazione e soli adattamenti concordati; istruzioni escluse dalla copia"
+      ],
+      "observationPreserved": false
+    },
+    {
+      "n": 53,
+      "service": "NCC",
+      "code": "N11",
+      "authorDecision": "Applicata secondo indicazione dell’autore",
+      "checks": [
+        "Rimosso dai percorsi attivi; originali e storico conservati"
+      ],
+      "observationPreserved": false
+    }
+  ],
+  "calculations": [
+    {
+      "limits": "86–338",
+      "reduced": "86",
+      "fiveDays": "60,20",
+      "afterSixty": "169",
+      "pass": true
+    },
+    {
+      "limits": "178–672",
+      "reduced": "178",
+      "fiveDays": "124,60",
+      "afterSixty": "336",
+      "pass": true
+    },
+    {
+      "limits": "264–1.010",
+      "reduced": "264",
+      "fiveDays": "184,80",
+      "afterSixty": "505",
+      "pass": true
+    },
+    {
+      "limits": "356–1.344",
+      "reduced": "356",
+      "fiveDays": "249,20",
+      "afterSixty": "672",
+      "pass": true
+    },
+    {
+      "limits": "528–2.020",
+      "reduced": "528",
+      "fiveDays": "369,60",
+      "afterSixty": "1.010",
+      "pass": true
+    }
+  ],
+  "outOfScope": [
+    "Taxi/G01",
+    "Taxi/G02",
+    "Taxi/G03-01",
+    "Taxi/G03-02",
+    "Taxi/G03-03",
+    "Taxi/G03-04",
+    "Taxi/G04-01",
+    "Taxi/G04-02",
+    "Taxi/G04-03",
+    "Taxi/G04-04",
+    "Taxi/G05-01",
+    "Taxi/G05-02",
+    "Taxi/G05-03",
+    "Taxi/G05-04",
+    "Taxi/G06-01",
+    "Taxi/G06-02",
+    "Taxi/G06-03",
+    "Taxi/G06-04",
+    "Taxi/G07-01",
+    "Taxi/G07-02",
+    "Taxi/G07-03",
+    "Taxi/G07-04",
+    "Taxi/G08-01",
+    "Taxi/G08-02",
+    "Taxi/G08-03",
+    "Taxi/G08-04",
+    "Taxi/G09",
+    "Taxi/G16",
+    "Taxi/G17",
+    "Taxi/G18",
+    "Taxi/G22",
+    "Taxi/G23",
+    "Taxi/G24",
+    "Taxi/G26",
+    "Taxi/G29",
+    "Taxi/G34",
+    "Taxi/G36",
+    "Taxi/G43",
+    "Taxi/G49",
+    "Taxi/G50",
+    "Taxi/G52",
+    "Taxi/TC01",
+    "Taxi/I01",
+    "Taxi/R01",
+    "Taxi/R07",
+    "Taxi/R08",
+    "Taxi/R11",
+    "Taxi/R13",
+    "Taxi/R19",
+    "Taxi/R21",
+    "Taxi/R26",
+    "Taxi/R28",
+    "Taxi/G19",
+    "Taxi/G20",
+    "Taxi/G21",
+    "Taxi/G25",
+    "Taxi/G27",
+    "Taxi/G28-01",
+    "Taxi/G30",
+    "Taxi/G31",
+    "Taxi/G33",
+    "Taxi/G35",
+    "Taxi/G37",
+    "Taxi/G38",
+    "Taxi/G39",
+    "Taxi/G40",
+    "Taxi/G41",
+    "Taxi/G42",
+    "Taxi/G45",
+    "Taxi/G53",
+    "Taxi/G54",
+    "Taxi/R09",
+    "Taxi/R10",
+    "Taxi/R12",
+    "Taxi/R25",
+    "Taxi/R27",
+    "NCC/G19",
+    "NCC/G20",
+    "NCC/G21",
+    "NCC/G25",
+    "NCC/G27",
+    "NCC/G28",
+    "NCC/G30",
+    "NCC/G31",
+    "NCC/G35",
+    "NCC/G37",
+    "NCC/G38",
+    "NCC/G39",
+    "NCC/G40",
+    "NCC/G41",
+    "NCC/G42",
+    "NCC/G45",
+    "NCC/G53",
+    "NCC/G54",
+    "NCC/R09",
+    "NCC/R10",
+    "NCC/R12",
+    "NCC/R25",
+    "NCC/R27",
+    "NCC/I02",
+    "NCC/R32",
+    "NCC/R34",
+    "NCC/N01",
+    "NCC/N02",
+    "NCC/N03",
+    "NCC/N04",
+    "NCC/N05",
+    "NCC/N06",
+    "NCC/N07",
+    "NCC/N08",
+    "NCC/N09",
+    "NCC/N10",
+    "NCC/N12",
+    "Trazione animale/R39",
+    "Trazione animale/R40",
+    "Trazione animale/R41",
+    "Trazione animale/R42",
+    "Trazione animale/R43",
+    "Trazione animale/R44",
+    "Trazione animale/R45",
+    "Trazione animale/R46"
+  ],
+  "protectedViewsContractVerified": true,
+  "all121ViewsExactlyPreservedFromPreviousLocalRevision": true,
+  "priorAnalysisIntact": true,
+  "observationsAreNotDeclaredResolved": true
+}

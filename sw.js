@@ -1,21 +1,19 @@
 // Keep this identifier equal to BUILD_ID in index.html and build_id in version.json.
-const BUILD_ID = 'dd77cb945938360a51caf0bc720b28c91ec3b67a5c4a5b658e237917a9a0d98f';
+const BUILD_ID = 'a357d917706fb820a6afb7d37075a83e6eea7145a056ea07bfd5a7de3c27e2fe';
 const CORE_CACHE = `prontuario-core-${BUILD_ID}`;
 const DOC_CACHE = `prontuario-docs-${BUILD_ID}`;
 const PREFIX = 'prontuario-';
 const ROOT = new URL('./', self.location.href);
-const CORE = ['index.html', 'manifest.webmanifest', 'assets/polizia-locale-napoli.png', 'assets/polizia.png', 'assets/logo-polizia-turistica.png', 'assets/icon-192.png', 'assets/icon-512.png', 'assets/icon-maskable-192.png', 'assets/icon-maskable-512.png', 'assets/apple-touch-icon.png', 'assets/favicon.ico', 'assets/favicon-16.png', 'assets/favicon-32.png', 'assets/favicon-48.png', 'assets/static-demo.css', 'scripts/static-demos.js', 'scripts/static-field-suggestions.js', 'scripts/operative-rules.js', 'scripts/static-demo-ui.js', 'scripts/taxi-collettivo.js', 'scripts/static-catalog.js', 'scripts/static-catalog-ui.js', 'scripts/revision-g01-g43.js', 'scripts/revision-seconda-parte.js', 'scripts/revision-pausa-caldo.js', 'scripts/revision-equini-835.js', 'scripts/revision-terza.js', 'scripts/revision-ncc-prima.js'];
+const CORE = ['index.html', 'manifest.webmanifest', 'assets/polizia-locale-napoli.png', 'assets/polizia.png', 'assets/logo-polizia-turistica.png', 'assets/icon-192.png', 'assets/icon-512.png', 'assets/icon-maskable-192.png', 'assets/icon-maskable-512.png', 'assets/apple-touch-icon.png', 'assets/favicon.ico', 'assets/favicon-16.png', 'assets/favicon-32.png', 'assets/favicon-48.png', 'assets/static-demo.css', 'scripts/static-demos.js', 'scripts/static-field-suggestions.js', 'scripts/operative-rules.js', 'scripts/static-demo-ui.js', 'scripts/taxi-collettivo.js', 'scripts/static-catalog.js', 'scripts/static-catalog-ui.js', 'scripts/revision-g01-g43.js', 'scripts/revision-seconda-parte.js', 'scripts/revision-pausa-caldo.js', 'scripts/revision-equini-835.js', 'scripts/revision-terza.js', 'scripts/revision-ncc-prima.js', 'scripts/revision-ultime.js'];
 const DOCS = new Set([
   'allegati/Fonti_NCC_prima_parte_1.8.15.txt',
   'allegati/NCC_DD4_2026_vidimazione_originale.pdf',
-  'allegati/Fonti_revisione_1.8.14.txt',
+  'allegati/Fonti_revisione_corrente_1.8.16.txt',
   'allegati/OS835_2014_indicazioni_autore.txt',
   'revisione/fonti-integrative/ORDSI_2025_0000571.pdf',
   'revisione/fonti-integrative/ORDSI_00443_100624.pdf',
   'allegati/Pausa_Taxi_2010_foto_fornita.pdf',
   'revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf',
-  'allegati/EGAF_Art85_originale.txt',
-  'allegati/EGAF_Art86_provenienza.txt',
   'allegati/Prontuario_GIT_Turistica_originale.pdf',
   'allegati/Prontuario_Taxi_NCC_Napoli.pdf',
   'allegati/Regolamento_Taxi_NCC_Napoli.pdf',
@@ -27,7 +25,7 @@ const DOCS = new Set([
   ,'allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf'
 ]);
 // Generated from the published files by scripts/update-build.py.
-const DOC_HASHES = {"allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205", "allegati/EGAF_Art85_originale.txt": "594a78b6f7cd709205d6790508b42a970588b422dbd414fafe72a42919585610", "allegati/EGAF_Art86_provenienza.txt": "d4e1001b31347f90601b4932f531bc9a256c78a7f3d10e03dbb470ad8acc1da9", "allegati/Fonti_NCC_prima_parte_1.8.15.txt": "95fafdb1d658d65e02ff446bb0f3f28975582f590319e48d1c17829571ab1800", "allegati/Fonti_revisione_1.8.14.txt": "911c1305668f91d88d99b975404c7965b57ffe9f56c51749b98ba5c733f45664", "allegati/NCC_DD4_2026_vidimazione_originale.pdf": "3d5e481d98b789b908ab5ff55a5337b7e7e48dab47bb58bfcfb517385d6bfec2", "allegati/OS835_2014_indicazioni_autore.txt": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd", "allegati/Pausa_Taxi_2010_foto_fornita.pdf": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184", "allegati/Prontuario_GIT_Turistica_originale.pdf": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a", "allegati/Prontuario_Taxi_NCC_Napoli.pdf": "3df7e79ac36704d978071d59e88f0f68b01fd372370455f6963f87e034aa8c34", "allegati/Regolamento_Taxi_NCC_Napoli.pdf": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0", "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89", "allegati/Tariffario_Taxi_2024.pdf": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055", "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18", "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a", "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5", "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf": "4e44f34b40802ee9837f5cf07f38e09a950a6ff93ae447072cda26f289543c03", "revisione/fonti-integrative/ORDSI_00443_100624.pdf": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e", "revisione/fonti-integrative/ORDSI_2025_0000571.pdf": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042"};
+const DOC_HASHES = {"allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205", "allegati/Fonti_NCC_prima_parte_1.8.15.txt": "95fafdb1d658d65e02ff446bb0f3f28975582f590319e48d1c17829571ab1800", "allegati/Fonti_revisione_corrente_1.8.16.txt": "52cdd57c6f291521b0894c9bd180c809765e965b48bf970367374fc60364860f", "allegati/NCC_DD4_2026_vidimazione_originale.pdf": "3d5e481d98b789b908ab5ff55a5337b7e7e48dab47bb58bfcfb517385d6bfec2", "allegati/OS835_2014_indicazioni_autore.txt": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd", "allegati/Pausa_Taxi_2010_foto_fornita.pdf": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184", "allegati/Prontuario_GIT_Turistica_originale.pdf": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a", "allegati/Prontuario_Taxi_NCC_Napoli.pdf": "3c982ae3d43163f13051f99b5f54d3578e089ae9df05aa6178741a7c874475cc", "allegati/Regolamento_Taxi_NCC_Napoli.pdf": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0", "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89", "allegati/Tariffario_Taxi_2024.pdf": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055", "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18", "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a", "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5", "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf": "4e44f34b40802ee9837f5cf07f38e09a950a6ff93ae447072cda26f289543c03", "revisione/fonti-integrative/ORDSI_00443_100624.pdf": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e", "revisione/fonti-integrative/ORDSI_2025_0000571.pdf": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042"};
 
 function relativePath(url) {
   if (url.origin !== ROOT.origin || !url.pathname.startsWith(ROOT.pathname)) return null;
@@ -60,6 +58,24 @@ self.addEventListener('activate', event => {
   event.waitUntil((async () => {
     const names = await caches.keys();
     const currentDocs = await caches.open(DOC_CACHE);
+    for (const name of names.filter(n => n.startsWith(PREFIX))) {
+      const managed = await caches.open(name);
+      for (const request of await managed.keys()) {
+        const path = relativePath(new URL(request.url));
+        if (path && /EGAF/i.test(path)) { await managed.delete(request); continue; }
+        if (name.startsWith('prontuario-docs-')) {
+          if (!DOCS.has(path)) { await managed.delete(request); continue; }
+          const saved = await managed.match(request);
+          const digest = await crypto.subtle.digest('SHA-256', await saved.clone().arrayBuffer());
+          const hash = Array.from(new Uint8Array(digest), byte => byte.toString(16).padStart(2, '0')).join('');
+          if (!saved.ok || hash !== DOC_HASHES[path]) { await managed.delete(request); continue; }
+          if (new URL(request.url).search) {
+            await currentDocs.put(new URL(path, ROOT), saved);
+            await managed.delete(request);
+          }
+        }
+      }
+    }
     const olderDocs = names.filter(name => name.startsWith('prontuario-docs-') && name !== DOC_CACHE);
     const previousDocs = olderDocs.at(-1);
     for (const name of olderDocs) {
@@ -147,7 +163,9 @@ self.addEventListener('fetch', event => {
   const url = new URL(request.url);
   const path = relativePath(url);
   if (path === null) return;
-  if (DOCS.has(path)) {
+  if (/(?:EGAF|egaf)/.test(path)) {
+    event.respondWith(new Response('Risorsa non disponibile nella consultazione corrente.', {status: 410}));
+  } else if (DOCS.has(path)) {
     event.respondWith(attachment(request));
   } else if (request.mode === 'navigate' && request.method === 'GET') {
     event.respondWith(navigate(request));

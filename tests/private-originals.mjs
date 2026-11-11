@@ -5,7 +5,7 @@ import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
 export function verifyOriginal(path, hash) {
   const file = new URL('../' + path, import.meta.url);
-  const privateInput = path === 'allegati/EGAF_Art86_originale.pdf' ||
+  const privateInput = /(?:^|\/)EGAF/i.test(path) ||
     path === 'diciture prontuario seconda parte.txt' ||
     /^revisione\/fonti-integrative\/WhatsApp Image .*\.jpeg$/.test(path) ||
     path === 'revisione/fonti-integrative/od_160419_0463_taxi_collettivo_2019 (1).pdf';

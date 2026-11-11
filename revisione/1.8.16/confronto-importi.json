@@ -1,0 +1,1310 @@
+{
+  "changedViews": 46,
+  "changes": [
+    {
+      "service": "Taxi",
+      "code": "G46",
+      "before": {
+        "base": [
+          "Base da verificare",
+          "Da qualificare",
+          "Da verificare",
+          "Da verificare",
+          "Secondo la base",
+          "Seguito dell’ufficio"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "G47",
+      "before": {
+        "base": [
+          "Base da verificare",
+          "Da qualificare",
+          "Da verificare",
+          "Da verificare",
+          "Secondo la base",
+          "Seguito dell’ufficio"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "G48",
+      "before": {
+        "base": [
+          "Base da verificare",
+          "Da qualificare",
+          "Da verificare",
+          "Da verificare",
+          "Secondo la base",
+          "Seguito dell’ufficio"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "I09",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "R14",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "R15",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "R20",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": [
+          {
+            "category": "residual"
+          }
+        ]
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "G10",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "G11",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "G12",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": [
+          {
+            "category": "severe"
+          },
+          {
+            "category": "severe"
+          }
+        ]
+      },
+      "after": {
+        "base": [
+          "Servizio senza titolo efficace",
+          "1.812–7.249",
+          "Non ammesso",
+          "Non applicabile",
+          "Procedura Prefetto",
+          "Confisca; patente 4–12 mesi"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "G13",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "G14",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "G28-02",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "G28-04",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "G32",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "G44",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "R02",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "R03",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "R05",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "R06",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "R22",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "R23",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "R24",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "R30",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "R35",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": [
+          {
+            "category": "tuel"
+          }
+        ]
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "R37",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "Taxi",
+      "code": "R38",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "G10",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": [
+          {
+            "category": "residual",
+            "payment": [
+              "Condizione dell’autorizzazione accertata",
+              "86–338",
+              "86",
+              "60,20",
+              "169",
+              "Nessuna accessoria CdS"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "G11",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "G12",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": [
+          {
+            "category": "severe"
+          },
+          {
+            "category": "severe"
+          }
+        ]
+      },
+      "after": {
+        "base": [
+          "Servizio senza titolo efficace",
+          "1.812–7.249",
+          "Non ammesso",
+          "Non applicabile",
+          "Procedura Prefetto",
+          "Confisca; patente 4–12 mesi"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "G13",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "G14",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": [
+          {
+            "category": "residual",
+            "payment": [
+              "Condizione dell’autorizzazione accertata",
+              "86–338",
+              "86",
+              "60,20",
+              "169",
+              "Nessuna accessoria CdS"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "G32",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "G44",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": [
+          {
+            "category": "residual",
+            "payment": [
+              "Condizione dell’autorizzazione accertata",
+              "86–338",
+              "86",
+              "60,20",
+              "169",
+              "Nessuna accessoria CdS"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "I06",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": [
+          {
+            "category": "severe"
+          }
+        ]
+      },
+      "after": {
+        "base": [
+          "Servizio senza titolo efficace",
+          "1.812–7.249",
+          "Non ammesso",
+          "Non applicabile",
+          "Procedura Prefetto",
+          "Confisca; patente 4–12 mesi"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "R02",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": [
+          {
+            "category": "residual",
+            "payment": [
+              "Condizione dell’autorizzazione accertata",
+              "86–338",
+              "86",
+              "60,20",
+              "169",
+              "Nessuna accessoria CdS"
+            ]
+          }
+        ]
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "R03",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "R05",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "R06",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "R22",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "R23",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "R24",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "R30",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "I04",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Prima",
+          "178–672",
+          "178",
+          "124,60",
+          "336",
+          "Carta 1 mese"
+        ],
+        "variants": [
+          {
+            "category": "ncc-bis-2",
+            "payment": [
+              "Seconda",
+              "264–1.010",
+              "264",
+              "184,80",
+              "505",
+              "Carta 1–2 mesi"
+            ]
+          },
+          {
+            "category": "ncc-bis-3",
+            "payment": [
+              "Terza",
+              "356–1.344",
+              "356",
+              "249,20",
+              "672",
+              "Carta 2–4 mesi"
+            ]
+          },
+          {
+            "category": "ncc-bis-4",
+            "payment": [
+              "Quarta o successiva",
+              "528–2.020",
+              "528",
+              "369,60",
+              "1.010",
+              "Carta 4–8 mesi"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "I05",
+      "before": {
+        "base": [
+          "Relazione",
+          "Da qualificare",
+          "Non preimpostato",
+          "Non preimpostato",
+          "Secondo la base verificata",
+          "Nessuna misura presunta"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    },
+    {
+      "service": "NCC",
+      "code": "R04",
+      "before": {
+        "base": [
+          "Regime generale TUEL",
+          "25–500",
+          "50 entro 60 giorni",
+          "Non previsto",
+          "Rapporto ex art. 17 L.689/1981",
+          "Non previste"
+        ],
+        "variants": []
+      },
+      "after": {
+        "base": [
+          "Condizione del titolo — comma indicato dall’autore",
+          "86–338",
+          "86",
+          "60,20",
+          "169",
+          "Non previste"
+        ],
+        "variants": []
+      }
+    }
+  ],
+  "outOfScopeChanges": 0
+}

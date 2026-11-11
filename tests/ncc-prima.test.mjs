@@ -1,6 +1,7 @@
-import fs from 'node:fs';import path from 'node:path';import assert from 'node:assert/strict';import {fileURLToPath} from 'node:url';import {createHash} from 'node:crypto';import {PDFDocument,PDFName} from 'pdf-lib';
-import {loadReview} from '../scripts/review-runtime.mjs';import {read1814,contract} from './release-1814-fs.mjs';
-const root=fileURLToPath(new URL('../',import.meta.url)),r=loadReview(root),old=loadReview(root,{read:name=>read1814(name,'utf8')}),d=r.data,w=r.window,codes=Array.from(w.prontuarioNccPrima.codes);
+import fs from './release-1815-fs.mjs';import path from 'node:path';import assert from 'node:assert/strict';import {fileURLToPath} from 'node:url';import {createHash} from 'node:crypto';import {PDFDocument,PDFName} from 'pdf-lib';
+import {loadReview} from '../scripts/review-runtime.mjs';import {read1815} from './release-1815-fs.mjs';
+import {read1814,contract} from './release-1814-fs.mjs';
+const root=fileURLToPath(new URL('../',import.meta.url)),r=loadReview(root,{read:n=>read1815(n,'utf8')}),old=loadReview(root,{read:name=>read1814(name,'utf8')}),d=r.data,w=r.window,codes=Array.from(w.prontuarioNccPrima.codes);
 assert.equal(JSON.parse(fs.readFileSync(path.join(root,'version.json'))).version,'1.8.15');assert.equal(d.prontuario.version,'7.17');assert.equal(codes.length,19);assert.equal(new Set(codes).size,19);
 assert.equal(r.views.length,172);assert.deepEqual(Array.from(r.layout.sections,s=>s.rows.length),[103,61,8]);assert.equal(r.views.filter(v=>v.item.kind!=='collective-reference').length,171);
 assert.equal(d.sources.length,19);for(let i=0;i<17;i++)if(i!==3)assert.deepEqual(d.sources[i],old.data.sources[i],'Fonte precedente '+i);

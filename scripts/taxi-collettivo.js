@@ -45,7 +45,7 @@
     searchTerms:'taxi sharing collettivo Alibus sei euro 6 euro aeroporto Capodichino Stazione Centrale Molo Beverello meno di sette posti sette posti',
     sources:['OD2019','OD2025','OD2026','REG'], payments:[]
   };
-  window.prontuarioTaxiCollettivo = {item,summary,references,operative,premises,limits,related,sourceIndices:[6,7,8],
+  window.prontuarioTaxiCollettivo = {item,summary,references,operative,premises,limits,related,sourceIndices:[4,5,6],
     afterExpiry(date=new Date()) {return date.getFullYear()>2026;}
   };
 })();

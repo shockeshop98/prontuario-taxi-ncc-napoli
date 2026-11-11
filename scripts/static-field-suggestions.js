@@ -111,7 +111,6 @@
     N08:['Condizione dell’autorizzazione','Autorizzazione […] esaminata per la clausola specifica efficace.','Servizio osservato […] confrontato con risposta dell’ufficio […] prot. […].'],
     N09:['Autorizzazione e servizio','Autorizzazione esistente ed efficace confermata dall’ufficio […] prot. […].','Servizio con autobus osservato dagli operanti nel tratto […].'],
     N10:['Conducente e rapporto','Documento del rapporto di lavoro […] richiesto ed esaminato a bordo.','Qualità del conducente verificata con atto […] e risposta dell’impresa […].'],
-    N11:['Foglio di servizio','Foglio di servizio […] esaminato per il dato mancante e la data.','Atto attuativo o risposta dell’ufficio […] verificata per il regime vigente.'],
     R39:['Cavallo e veterinario','Condizioni dell’animale osservate dagli operanti nel periodo […].','Valutazione veterinaria formalizzata nell’atto […] sul cavallo identificato […].'],
     R40:['Idoneità del cavallo','Certificato veterinario […] esaminato per il requisito richiesto.','Risposta dell’ufficio veterinario […] prot. […] sull’idoneità e sulle eccezioni.'],
     R41:['Abilitazione e identificazione','Certificato annuale […] esaminato per scadenza e rinnovo.','Documento d’identificazione […] confrontato con il cavallo e con risposta veterinaria […].'],

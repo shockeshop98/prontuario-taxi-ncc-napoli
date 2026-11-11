@@ -1,0 +1,33 @@
+{
+  "pwa": "1.8.16",
+  "pdf": "7.18",
+  "base": "be98cdf9d30d2eee4513f080a0c20b04ff5642af",
+  "catalog": 112,
+  "cards": 172,
+  "services": [
+    {
+      "service": "Taxi",
+      "count": 104
+    },
+    {
+      "service": "NCC",
+      "count": 60
+    },
+    {
+      "service": "Trazione animale",
+      "count": 8
+    }
+  ],
+  "pages": 193,
+  "indexPages": 6,
+  "destinations": 172,
+  "formulas": 171,
+  "sources": 17,
+  "requests": 53,
+  "results": {
+    "Applicata secondo indicazione dell’autore": 53
+  },
+  "changedAmounts": 46,
+  "outOfScopePreserved": 121,
+  "pdfSha": "3c982ae3d43163f13051f99b5f54d3578e089ae9df05aa6178741a7c874475cc"
+}

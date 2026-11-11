@@ -1,0 +1,51 @@
+[
+  {
+    "id": "CDS85",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art85!vig=2026-11-10",
+    "sha256": "03a756505e4b2a5cf916654db1f1e527d4e3d2446ca9fe48497ebc69ad8aace6",
+    "bytes": 192523,
+    "articleFound": true
+  },
+  {
+    "id": "CDS86",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art86!vig=2026-11-10",
+    "sha256": "01f8fe300a878adcae9129f441d8abd2f58b9021c3e9db377835d3fe6ed3f11f",
+    "bytes": 196879,
+    "articleFound": true
+  },
+  {
+    "id": "CDS202",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art202!vig=2026-11-10",
+    "sha256": "b92875d45dda3218e9555ea8c0ce593c4aa4b150e8b2880545dacdec99d83354",
+    "bytes": 192181,
+    "articleFound": true
+  },
+  {
+    "id": "CDS203",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art203!vig=2026-11-10",
+    "sha256": "4275c6eed73b770590b487d5417705fba181ee38719d1baadf495b3a15dc6a8c",
+    "bytes": 189844,
+    "articleFound": true
+  },
+  {
+    "id": "CDS210",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art210!vig=2026-11-10",
+    "sha256": "48dc9708656f99a405740ddb5c000bda4c3bdaaafdcf06ab3e484a9358384185",
+    "bytes": 187628,
+    "articleFound": true
+  },
+  {
+    "id": "CDS216",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art216!vig=2026-11-10",
+    "sha256": "dd1e799340cd6d6e6f6a3d1c0db8d829ebb61cdcd3159ecfc561018da061631c",
+    "bytes": 192721,
+    "articleFound": true
+  },
+  {
+    "id": "CDS218",
+    "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art218!vig=2026-11-10",
+    "sha256": "04a03ebee8a2742540740f0553ed2f74c181022cc4165960d49b61823c2b93fd",
+    "bytes": 195727,
+    "articleFound": true
+  }
+]

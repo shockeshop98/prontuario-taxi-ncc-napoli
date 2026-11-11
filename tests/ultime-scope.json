@@ -1,0 +1,699 @@
+[
+  {
+    "n": 1,
+    "service": "Taxi",
+    "code": "G55",
+    "fields": [
+      "ref",
+      "payment",
+      "category",
+      "formula"
+    ],
+    "request": "aggiungere un nuovo codice per i taxi\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art. 86, comma 3-bis; Regolamento comunale – delibera C.C. n. 80/2005, art. 4 c.3\r\ntabella importi \r\nimporti cds\r\nTesto orientativo del verbale\r\nDurante il servizio con il veicolo indicato, con C.P. n. […], non prendeva posto negli stalli regolarmente predisposti dal comune, siti in […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.",
+    "conflict": "",
+    "conditional": false
+  },
+  {
+    "n": 2,
+    "service": "Taxi",
+    "code": "G46",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice G46:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art. 86, comma 3-bis; ordinanza sindacale prot. n. 11 del 7 giugno 2010,\r\ntabella importi \r\nimporti cds",
+    "conflict": "",
+    "conditional": true
+  },
+  {
+    "n": 3,
+    "service": "Taxi",
+    "code": "G47",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice G47:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art. 86, comma 3-bis; ordinanza sindacale prot. n. 11 del 7 giugno 2010,\r\ntabella importi \r\nimporti cds",
+    "conflict": "",
+    "conditional": true
+  },
+  {
+    "n": 4,
+    "service": "Taxi",
+    "code": "G48",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice G48:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art. 86, comma 3-bis; O.D. n. 178 del 13/02/2019, punto 3.D.2\r\ntabella importi \r\nimporti cds",
+    "conflict": "",
+    "conditional": true
+  },
+  {
+    "n": 5,
+    "service": "Taxi",
+    "code": "I09",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice I09:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art. 86, comma 3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art.7\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis richiede guida e violazione di una condizione della licenza. La sola omissione amministrativa descritta non prova la guida del soggetto obbligato.",
+    "conditional": false
+  },
+  {
+    "n": 6,
+    "service": "Taxi",
+    "code": "R14",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice R14:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art. 86, comma 3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art.18 c.4 e c.8 let. c\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis richiede la guida del taxi munito di licenza; la scheda descrive assegnazione/concessione dell’auto di scorta da parte del concessionario, senza guida a lui imputata.",
+    "conditional": false
+  },
+  {
+    "n": 7,
+    "service": "Taxi",
+    "code": "R15",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice R15:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art. 86, comma 3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art.18 c.6 e c.8 let. d\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis richiede la guida del taxi munito di licenza; la scheda descrive assegnazione/concessione dell’auto di scorta da parte del concessionario, senza guida a lui imputata.",
+    "conditional": false
+  },
+  {
+    "n": 8,
+    "service": "Taxi",
+    "code": "R20",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice R20:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art.22 cc.4 e5\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis non sanziona l’intervento dell’officina come tale. Conservata la base per relazione e l’alternativa già esistente per guida e condizione del titolo documentate.",
+    "conditional": false
+  },
+  {
+    "n": 9,
+    "service": "Taxi",
+    "code": "G10",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice G10:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art.5 c.3 let. g;\r\ntabella importi \r\nimporti cds",
+    "conflict": "",
+    "conditional": false
+  },
+  {
+    "n": 10,
+    "service": "Taxi",
+    "code": "G11",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice G11:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.7; art.29 c. 2 let. a;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis richiede guida e violazione di una condizione della licenza. La sola omissione amministrativa descritta non prova la guida del soggetto obbligato.",
+    "conditional": false
+  },
+  {
+    "n": 11,
+    "service": "Taxi",
+    "code": "G12",
+    "fields": [
+      "ref",
+      "payment",
+      "category",
+      "formula"
+    ],
+    "request": "taxi codice G12:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.2; provvedimento specifico\r\n(gli importi sono gli stessi sia per licenza sospesa che per quella revocata)\r\ntabella importi \r\nimporti cds\r\nTesto orientativo per la relazione\r\nSvolgeva servizio taxi con il veicolo indicato e licenza C.P. n. […] [sospesa/revocata] dal provvedimento […] notificato il […] ed efficace al momento del fatto. Servizio e riscontri: […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.",
+    "conflict": "",
+    "conditional": false
+  },
+  {
+    "n": 12,
+    "service": "Taxi",
+    "code": "G13",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice G13:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.1; art.29 c. 2 let. b;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis richiede guida e violazione di una condizione della licenza. La sola omissione amministrativa descritta non prova la guida del soggetto obbligato.",
+    "conditional": false
+  },
+  {
+    "n": 13,
+    "service": "Taxi",
+    "code": "G14",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice G14:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 16 cc.3 e 4;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis richiede guida e violazione di una condizione della licenza. La sola omissione amministrativa descritta non prova la guida del soggetto obbligato.",
+    "conditional": false
+  },
+  {
+    "n": 14,
+    "service": "Taxi",
+    "code": "G28-02",
+    "fields": [
+      "ref",
+      "payment",
+      "category",
+      "formula"
+    ],
+    "request": "taxi codice G28-02:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c. 1 let. n; art.29 c. 2 let. a\r\ntabella importi \r\nimporti cds\r\nTesto orientativo per la relazione\r\nAlla guida del veicolo indicato, con C.P. n. […], accettava la corsa a tariffa predeterminata […] richiesta dall’utente all’inizio, ma non consegnava prima della partenza la ricevuta. Riscontro: […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.",
+    "conflict": "Regolamento art.23 c.1 let. n prevede il documento su richiesta; non fonda da solo rilascio anticipato o tutti i dati della ricevuta predeterminata. CdS art.86 c.3-bis richiede una condizione efficace della licenza; gli integrali D.D.72/2012 e135/2010 non sono acquisiti. Nessuna qualificazione certa aggiunta.",
+    "conditional": false
+  },
+  {
+    "n": 15,
+    "service": "Taxi",
+    "code": "G28-04",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice G28-04:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c. 1 let. n; art.29 c. 2 let. a\r\ntabella importi \r\nimporti cds",
+    "conflict": "Regolamento art.23 c.1 let. n prevede il documento su richiesta; non fonda da solo rilascio anticipato o tutti i dati della ricevuta predeterminata. CdS art.86 c.3-bis richiede una condizione efficace della licenza; gli integrali D.D.72/2012 e135/2010 non sono acquisiti. Nessuna qualificazione certa aggiunta.",
+    "conditional": false
+  },
+  {
+    "n": 16,
+    "service": "Taxi",
+    "code": "G32",
+    "fields": [
+      "ref",
+      "payment",
+      "category",
+      "notes"
+    ],
+    "request": "taxi codice G32:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c. 1 let. s;\r\naggiungere nota se circola applicare anche cds guida con patente ritirata/sospesa\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis richiede guida e violazione di una condizione della licenza. La sola omissione amministrativa descritta non prova la guida del soggetto obbligato.",
+    "conditional": false
+  },
+  {
+    "n": 17,
+    "service": "Taxi",
+    "code": "G44",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice G44:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art.6; art.7; art.23 c.2 let. k; art.29 c.2 let. c e c.4;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis riguarda chi guida; il consenso del titolare non conducente non ne dimostra la condotta. Conservato il solo punto riferimenti/tabella; nota VV applicata.",
+    "conditional": false
+  },
+  {
+    "n": 18,
+    "service": "Taxi",
+    "code": "G44",
+    "fields": [
+      "notes"
+    ],
+    "request": "taxi codice G44:\r\nmettere nota da contestare su verbali amministrativi (VV)",
+    "conflict": "",
+    "conditional": false
+  },
+  {
+    "n": 19,
+    "service": "Taxi",
+    "code": "R02",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice R02:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4;\r\ntabella importi \r\nimporti cds",
+    "conflict": "",
+    "conditional": false
+  },
+  {
+    "n": 20,
+    "service": "Taxi",
+    "code": "R03",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice R03:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis richiede guida e violazione di una condizione della licenza. La sola omissione amministrativa descritta non prova la guida del soggetto obbligato.",
+    "conditional": false
+  },
+  {
+    "n": 21,
+    "service": "Taxi",
+    "code": "R05",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice R05:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 15 cc.1-2; art.32;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis richiede guida; la scheda descrive il mancato avvio del servizio, quindi non quella condotta.",
+    "conditional": false
+  },
+  {
+    "n": 22,
+    "service": "Taxi",
+    "code": "R06",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice R06:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 15 c.4;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis richiede guida; la scheda descrive il mancato avvio del servizio, quindi non quella condotta.",
+    "conditional": false
+  },
+  {
+    "n": 23,
+    "service": "Taxi",
+    "code": "R22",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice R22:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art.23 c.4; art.7 c.5; \r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis richiede guida e violazione di una condizione della licenza. La sola omissione amministrativa descritta non prova la guida del soggetto obbligato.",
+    "conditional": false
+  },
+  {
+    "n": 24,
+    "service": "Taxi",
+    "code": "R23",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice R23:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.4;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis richiede guida e violazione di una condizione della licenza. La sola omissione amministrativa descritta non prova la guida del soggetto obbligato.",
+    "conditional": false
+  },
+  {
+    "n": 25,
+    "service": "Taxi",
+    "code": "R24",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice R24:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.5; art.29 c.6\r\ntabella importi \r\nimporti cds",
+    "conflict": "",
+    "conditional": true
+  },
+  {
+    "n": 26,
+    "service": "Taxi",
+    "code": "R30",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice R30:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.3; artt.30 e 31 c. 1 let. a\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis richiede guida; la sola perdita del requisito del titolare descritta nella scheda non la prova.",
+    "conditional": false
+  },
+  {
+    "n": 27,
+    "service": "Taxi",
+    "code": "R35",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice R35:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c. 6 let. a\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis riguarda il conducente; la condotta descritta è dell’utente. Nessun trasferimento della responsabilità all’autista.",
+    "conditional": false
+  },
+  {
+    "n": 28,
+    "service": "Taxi",
+    "code": "R37",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice R37:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c. 6 let. c;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis riguarda il conducente; la condotta descritta è dell’utente. Nessun trasferimento della responsabilità all’autista.",
+    "conditional": false
+  },
+  {
+    "n": 29,
+    "service": "Taxi",
+    "code": "R38",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "taxi codice R38:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.86 c.3-bis; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c. 6 let. d;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.86 c.3-bis riguarda il conducente; la condotta descritta è dell’utente. Nessun trasferimento della responsabilità all’autista.",
+    "conditional": false
+  },
+  {
+    "n": 30,
+    "service": "NCC",
+    "code": "G10",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice G10:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art.5 c.3 let. g;\r\ntabella importi \r\nimporti cds",
+    "conflict": "",
+    "conditional": false
+  },
+  {
+    "n": 31,
+    "service": "NCC",
+    "code": "G11",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice G11:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.7; art.29 c. 2 let. a;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.85 c.4-ter richiede utilizzo del veicolo e violazione di una condizione dell’autorizzazione. La sola omissione amministrativa descritta non ne prova gli elementi; conservate le eventuali alternative CdS già presenti.",
+    "conditional": false
+  },
+  {
+    "n": 32,
+    "service": "NCC",
+    "code": "G12",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice G12:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4\r\ntabella importi \r\nimporti cds\r\n(gli importi sono gli stessi sia per licenza sospesa che per quella revocata)",
+    "conflict": "",
+    "conditional": false
+  },
+  {
+    "n": 33,
+    "service": "NCC",
+    "code": "G13",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice G13:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art. 16 c.1; art.29 c. 2 let. b;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.85 c.4-ter richiede utilizzo del veicolo e violazione di una condizione dell’autorizzazione. La sola omissione amministrativa descritta non ne prova gli elementi; conservate le eventuali alternative CdS già presenti.",
+    "conditional": false
+  },
+  {
+    "n": 34,
+    "service": "NCC",
+    "code": "G14",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice G14:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art. 16 cc.3 e 4; \r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.85 c.4-ter richiede utilizzo del veicolo e violazione di una condizione dell’autorizzazione. La sola omissione amministrativa descritta non ne prova gli elementi; conservate le eventuali alternative CdS già presenti.",
+    "conditional": false
+  },
+  {
+    "n": 35,
+    "service": "NCC",
+    "code": "G32",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice G32:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c. 1 let. s; art. 23 c. 3;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.85 c.4-ter richiede utilizzo del veicolo e violazione di una condizione dell’autorizzazione. La sola omissione amministrativa descritta non ne prova gli elementi; conservate le eventuali alternative CdS già presenti.",
+    "conditional": false
+  },
+  {
+    "n": 36,
+    "service": "NCC",
+    "code": "G44",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice G44:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art.6; art.23 c.2 let. k e c.3; art.29 c.2 let. c e c.4;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.85 c.4-ter richiede utilizzo e responsabilità personale; il solo consenso/titolarità non li dimostra. Conservata anche l’alternativa CdS già verificata della1.8.15.",
+    "conditional": false
+  },
+  {
+    "n": 37,
+    "service": "NCC",
+    "code": "I06",
+    "fields": [
+      "ref",
+      "payment",
+      "category",
+      "formula"
+    ],
+    "request": "ncc codice I06:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4 (se NCC senza titolo); L.21/1992 artt.3 e8; L.R.10/2024 art.13-bis, introdotto da L.R.7/2026\r\ntabella importi \r\nimporti cds\r\nTesto orientativo per la relazione\r\nAdibiva l’autovettura indicata a servizio professionale NCC per il trasferimento di ospiti della struttura […], dietro corrispettivo […], senza autorizzazione efficace, secondo il riscontro dell’ufficio […]. Modalità, uso del veicolo e fonti: […].",
+    "conflict": "",
+    "conditional": false
+  },
+  {
+    "n": 38,
+    "service": "NCC",
+    "code": "R02",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice R02:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4\r\ntabella importi \r\nimporti cds",
+    "conflict": "",
+    "conditional": false
+  },
+  {
+    "n": 39,
+    "service": "NCC",
+    "code": "R03",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice R03:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.4\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.85 c.4-ter richiede utilizzo del veicolo e violazione di una condizione dell’autorizzazione. La sola omissione amministrativa descritta non ne prova gli elementi; conservate le eventuali alternative CdS già presenti.",
+    "conditional": false
+  },
+  {
+    "n": 40,
+    "service": "NCC",
+    "code": "R05",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice R05:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art. 15 cc.1-2; art.32;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.85 c.4-ter richiede utilizzo del veicolo; il mancato avvio del servizio non è utilizzo contrario al titolo. Per R06 resta inoltre non acquisita l’estensione NCC del termine comunale.",
+    "conditional": false
+  },
+  {
+    "n": 41,
+    "service": "NCC",
+    "code": "R06",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice R06:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art. 15 c.4\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.85 c.4-ter richiede utilizzo del veicolo; il mancato avvio del servizio non è utilizzo contrario al titolo. Per R06 resta inoltre non acquisita l’estensione NCC del termine comunale.",
+    "conditional": false
+  },
+  {
+    "n": 42,
+    "service": "NCC",
+    "code": "R22",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice R22:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art.23 c.4\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.85 c.4-ter richiede utilizzo del veicolo e violazione di una condizione dell’autorizzazione. La sola omissione amministrativa descritta non ne prova gli elementi; conservate le eventuali alternative CdS già presenti.",
+    "conditional": false
+  },
+  {
+    "n": 43,
+    "service": "NCC",
+    "code": "R23",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice R23:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art.23 c.4\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.85 c.4-ter richiede utilizzo del veicolo e violazione di una condizione dell’autorizzazione. La sola omissione amministrativa descritta non ne prova gli elementi; conservate le eventuali alternative CdS già presenti.",
+    "conditional": false
+  },
+  {
+    "n": 44,
+    "service": "NCC",
+    "code": "R24",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice R24:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art. 23 c.5; art.29 c.6\r\ntabella importi \r\nimporti cds",
+    "conflict": "",
+    "conditional": true
+  },
+  {
+    "n": 45,
+    "service": "NCC",
+    "code": "R30",
+    "fields": [
+      "ref",
+      "payment",
+      "category",
+      "formula"
+    ],
+    "request": "ncc codice R30:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art. 5 c.3; artt.30 e 31 c. 1 let. a\r\ntabella importi \r\nimporti cds\r\nTesto orientativo per la relazione\r\nPer il titolare […] dell’autorizzazione NCC n. […] non risultava più presente il requisito […]. Fonte, decorrenza e accertamento: […]. La licenza è ritirata e sarà inviata all’Ufficio Corso Pubblico con copia del presente verbale.",
+    "conflict": "CdS art.85 c.4-ter richiede utilizzo; la sola perdita di un requisito non basta. Il ritiro richiesto non discende automaticamente dagli artt.30/31: manca un provvedimento efficace dell’ufficio. Formula fattuale iniziale conservata; nessun ritiro attestato.",
+    "conditional": false
+  },
+  {
+    "n": 46,
+    "service": "NCC",
+    "code": "I04",
+    "fields": [
+      "ref",
+      "payment",
+      "category",
+      "formula"
+    ],
+    "request": "ncc codice I04:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-bis (se servizio in violazione degli artt.3 e11); L.21/1992 artt.3 e11; L.R.10/2024 art.4 c.3\r\ntabella importi \r\nimporti cds\r\nTesto orientativo per la relazione\r\nLa rimessa dichiarata per l’autorizzazione NCC n. […] non risultava effettiva secondo il sopralluogo […] e il titolo di disponibilità […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.",
+    "conflict": "",
+    "conditional": true
+  },
+  {
+    "n": 47,
+    "service": "NCC",
+    "code": "I05",
+    "fields": [
+      "ref",
+      "payment",
+      "category",
+      "formula"
+    ],
+    "request": "ncc codice I05:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; L.R.10/2024 art.19-bis introdotto dalla L.R.7/2026\r\ntabella importi \r\nimporti cds\r\nTesto orientativo per la relazione\r\nSul veicolo indicato, con autorizzazione NCC n. […] rilasciata il […], il contrassegno regionale presentava la difformità […] o non esposto in maniera ben visibile. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico.",
+    "conflict": "",
+    "conditional": true
+  },
+  {
+    "n": 48,
+    "service": "NCC",
+    "code": "R04",
+    "fields": [
+      "ref",
+      "payment",
+      "category"
+    ],
+    "request": "ncc codice R04:\r\nRiferimenti normativi — obblighi e sanzioni\r\nCdS art.85 c.4-ter; Regolamento comunale (delibera C.C. n. 80/2005), art. 6 c.5; art.29 c. 2 let. a;\r\ntabella importi \r\nimporti cds",
+    "conflict": "CdS art.85 c.4-ter richiede utilizzo del veicolo e violazione di una condizione dell’autorizzazione. La sola omissione amministrativa descritta non ne prova gli elementi; conservate le eventuali alternative CdS già presenti.",
+    "conditional": false
+  },
+  {
+    "n": 49,
+    "service": "NCC",
+    "code": "R33-01",
+    "fields": [
+      "formula",
+      "acts",
+      "follow",
+      "NapoliCondition"
+    ],
+    "request": "ncc codice R33-01:\r\nTesto orientativo del verbale\r\nIl titolare […] dell’autorizzazione NCC n. […] utilizzava il veicolo indicato, in attesa in […], per acquisire clientela sul posto senza prenotazione, come riscontrato mediante […]. Il documento di circolazione è ritirato e sarà trasmesso con copia del verbale all’UMC entro cinque giorni. Permesso di trasferimento, fermo e custodia sono documentati negli atti separati […]. La licenza viene ritirata e sarà inviata all’Ufficio Corso Pubblico con copia del presente verbale.\r\n(ritirare solo se licenza del comune di napoli)",
+    "conflict": "",
+    "conditional": false
+  },
+  {
+    "n": 50,
+    "service": "NCC",
+    "code": "R33-02",
+    "fields": [
+      "formula",
+      "acts",
+      "follow",
+      "NapoliCondition"
+    ],
+    "request": "ncc codice R33-02:\r\nTesto orientativo del verbale\r\nIl titolare […] dell’autorizzazione NCC n. […] utilizzava il veicolo indicato, in attesa in […], per acquisire clientela sul posto senza prenotazione, come riscontrato mediante […]. Seconda violazione nel quinquennio, primo verbale [estremi primo verbale]. Il documento di circolazione è ritirato e sarà trasmesso con copia del verbale all’UMC entro cinque giorni. Permesso di trasferimento, fermo e custodia sono documentati negli atti separati […]. La licenza viene ritirata e sarà inviata all’Ufficio Corso Pubblico con copia del presente verbale.\r\n(ritirare solo se licenza del comune di napoli)",
+    "conflict": "",
+    "conditional": false
+  },
+  {
+    "n": 51,
+    "service": "NCC",
+    "code": "R33-03",
+    "fields": [
+      "formula",
+      "acts",
+      "follow",
+      "NapoliCondition"
+    ],
+    "request": "ncc codice R33-03:\r\nTesto orientativo del verbale\r\nIl titolare […] dell’autorizzazione NCC n. […] utilizzava il veicolo indicato, in attesa in […], per acquisire clientela sul posto senza prenotazione, come riscontrato mediante […]. Terza violazione nel quinquennio, primo verbale [estremi secondo verbale]. Il documento di circolazione è ritirato e sarà trasmesso con copia del verbale all’UMC entro cinque giorni. Permesso di trasferimento, fermo e custodia sono documentati negli atti separati […]. La licenza viene ritirata e sarà inviata all’Ufficio Corso Pubblico con copia del presente verbale.\r\n(ritirare solo se licenza del comune di napoli)",
+    "conflict": "",
+    "conditional": false
+  },
+  {
+    "n": 52,
+    "service": "NCC",
+    "code": "R33-04",
+    "fields": [
+      "formula",
+      "acts",
+      "follow",
+      "NapoliCondition"
+    ],
+    "request": "ncc codice R33-04:\r\nTesto orientativo del verbale\r\nIl titolare […] dell’autorizzazione NCC n. […] utilizzava il veicolo indicato, in attesa in […], per acquisire clientela sul posto senza prenotazione, come riscontrato mediante […]. Quarta o successiva violazione nel quinquennio, primo verbale [estremi Terzo o successivo verbale]. Il documento di circolazione è ritirato e sarà trasmesso con copia del verbale all’UMC entro cinque giorni. Permesso di trasferimento, fermo e custodia sono documentati negli atti separati […]. La licenza viene ritirata e sarà inviata all’Ufficio Corso Pubblico con copia del presente verbale.\r\n(ritirare solo se licenza del comune di napoli)",
+    "conflict": "",
+    "conditional": false
+  },
+  {
+    "n": 53,
+    "service": "NCC",
+    "code": "N11",
+    "fields": [
+      "remove"
+    ],
+    "request": "ncc codice n11\r\nelimina",
+    "conflict": "",
+    "conditional": false
+  }
+]

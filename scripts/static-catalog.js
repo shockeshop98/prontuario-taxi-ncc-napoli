@@ -843,14 +843,6 @@ window.prontuarioStaticCatalog = {
     ], other:'Altra omissione documentale del rapporto accertata: […]',
     tail:'Qualità del conducente e documenti equivalenti erano verificati mediante […].'
   },
-  N11: {
-    lead:'Sul veicolo indicato, con autorizzazione NCC n. […], il foglio di servizio presentava l’omissione […] rispetto alla prescrizione applicabile alla data del fatto. In particolare:',
-    options:[
-      'Il foglio esaminato mancava del dato […] richiesto dall’atto vigente […].',
-      'La prenotazione […] non corrispondeva al dato […] del foglio, secondo […].'
-    ], other:'Altra omissione del foglio accertata: […]',
-    tail:'Regime vigente, eventuali atti attuativi e base della contestazione erano verificati mediante […].'
-  },
   R39: {
     lead:'Nel servizio a trazione equina, il cavallo […] presentava condizioni da riportare nella relazione. In particolare:',
     options:[

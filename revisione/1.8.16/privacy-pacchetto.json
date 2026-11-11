@@ -1,0 +1,21 @@
+{
+  "localOnly": true,
+  "checkedAt": "2026-11-11T15:44:22.336Z",
+  "version": {
+    "version": "1.8.16",
+    "updated_at": "2026-11-10",
+    "build_id": "a357d917706fb820a6afb7d37075a83e6eea7145a056ea07bfd5a7de3c27e2fe"
+  },
+  "files": 71,
+  "privateOriginalsChecked": true,
+  "originalsPreserved": 58,
+  "baselineFilesIntact": 286,
+  "inputSha256": "ee1cd58286d1bbbcdf40cd8b8b0f93e05890d806da888a486bfc947793d1f1f5",
+  "realPackageFiles": 73,
+  "egafFilesDistributed": 0,
+  "egafEmbeddedCollections": 0,
+  "outOfScopeAmountChanges": 0,
+  "pdfSha256": "3c982ae3d43163f13051f99b5f54d3578e089ae9df05aa6178741a7c874475cc",
+  "sourceCount": 17,
+  "note": "Solo verifiche locali. Archivio, originali e cronologia conservati; nessuna dichiarazione su download esterni o file salvati autonomamente."
+}

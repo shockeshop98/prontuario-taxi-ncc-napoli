@@ -97,16 +97,16 @@
       0:'Il prontuario originario associava automaticamente un importo e il ritiro della licenza: verificare invece la base e il seguito applicabili al caso concreto.'
     },
     N01: {
-      0:'Riscontrare un autobus già immatricolato per NCC e un’autorizzazione sospesa o revocata. Per autobus di uso diverso vedere N12. [EGAF note 1 e 6]'
+      0:'Riscontrare un autobus già immatricolato per NCC e un’autorizzazione sospesa o revocata. Per autobus di uso diverso vedere N12.'
     },
     N02: {
-      0:'Riscontrare un autobus già immatricolato per NCC e un’autorizzazione sospesa o revocata. Per autobus di uso diverso vedere N12. [EGAF note 1 e 6]'
+      0:'Riscontrare un autobus già immatricolato per NCC e un’autorizzazione sospesa o revocata. Per autobus di uso diverso vedere N12.'
     },
     N10: {
-      1:'Il pagamento in misura ridotta segue il criterio della L. 689/1981; non applicare la riduzione CdS del 30%. [EGAF nota 26]'
+      1:'Il pagamento in misura ridotta segue il criterio della L. 689/1981; non applicare la riduzione CdS del 30%.'
     },
     N12: {
-      0:'Per autobus di uso privato o di linea impiegato nel noleggio senza titolo si applica la fascia ordinaria indicata da EGAF. Verificare anche la disciplina della distrazione dal servizio di linea; non duplicare automaticamente sanzioni per lo stesso fatto. [EGAF nota 1]'
+      0:'Per autobus di uso privato o di linea impiegato nel noleggio senza titolo verificare la fascia dell’art.85 c.4 CdS. Verificare anche la disciplina della distrazione dal servizio di linea; non duplicare automaticamente sanzioni per lo stesso fatto.'
     },
     I06: {
       0:'Raccogliere modalità concrete del trasferimento, collegamento al soggiorno, titolo e risposta dell’ufficio prima di qualificare una violazione.',

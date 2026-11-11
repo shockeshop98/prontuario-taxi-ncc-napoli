@@ -1,0 +1,226 @@
+{
+  "localOnly": true,
+  "checkedAt": "2026-11-10T22:49:11.122Z",
+  "baseCommit": "be98cdf9d30d2eee4513f080a0c20b04ff5642af",
+  "errors": [],
+  "before": {
+    "version": "1.8.15",
+    "pdf": "7.17",
+    "cached": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "after": {
+    "version": "1.8.16",
+    "pdf": "7.18",
+    "inventory": [
+      {
+        "cache": "prontuario-docs-dd77cb945938360a51caf0bc720b28c91ec3b67a5c4a5b658e237917a9a0d98f",
+        "paths": [
+          "/allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "/allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "/allegati/Tariffario_Taxi_2024.pdf",
+          "/allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "/allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "/allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "/allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "/allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+          "/revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "/allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "/revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "/revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "/allegati/OS835_2014_indicazioni_autore.txt",
+          "/allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "/allegati/NCC_DD4_2026_vidimazione_originale.pdf"
+        ]
+      },
+      {
+        "cache": "prontuario-core-a357d917706fb820a6afb7d37075a83e6eea7145a056ea07bfd5a7de3c27e2fe",
+        "paths": [
+          "/manifest.webmanifest",
+          "/assets/polizia.png",
+          "/assets/logo-polizia-turistica.png",
+          "/assets/polizia-locale-napoli.png",
+          "/assets/icon-192.png",
+          "/assets/icon-512.png",
+          "/assets/icon-maskable-192.png",
+          "/assets/apple-touch-icon.png",
+          "/assets/favicon.ico",
+          "/assets/icon-maskable-512.png",
+          "/assets/favicon-16.png",
+          "/assets/favicon-32.png",
+          "/assets/static-demo.css",
+          "/assets/favicon-48.png",
+          "/scripts/static-field-suggestions.js",
+          "/scripts/static-demos.js",
+          "/scripts/static-demo-ui.js",
+          "/scripts/operative-rules.js",
+          "/scripts/static-catalog.js",
+          "/scripts/taxi-collettivo.js",
+          "/scripts/revision-g01-g43.js",
+          "/scripts/static-catalog-ui.js",
+          "/scripts/revision-pausa-caldo.js",
+          "/scripts/revision-seconda-parte.js",
+          "/scripts/revision-terza.js",
+          "/scripts/revision-equini-835.js",
+          "/scripts/revision-ultime.js",
+          "/scripts/revision-ncc-prima.js",
+          "/index.html"
+        ]
+      },
+      {
+        "cache": "prontuario-docs-a357d917706fb820a6afb7d37075a83e6eea7145a056ea07bfd5a7de3c27e2fe",
+        "paths": [
+          "/allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "/allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+          "/allegati/OS835_2014_indicazioni_autore.txt",
+          "/revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "/revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "/allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "/revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "/allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "/allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "/allegati/Tariffario_Taxi_2024.pdf",
+          "/allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "/allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "/allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "/allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "/allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf"
+        ]
+      }
+    ],
+    "retained": [
+      {
+        "index": 0,
+        "url": "allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+        "saved": true,
+        "sha256": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0"
+      },
+      {
+        "index": 1,
+        "url": "allegati/Prontuario_GIT_Turistica_originale.pdf",
+        "saved": true,
+        "sha256": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a"
+      },
+      {
+        "index": 2,
+        "url": "allegati/Prontuario_Taxi_NCC_Napoli.pdf",
+        "saved": false,
+        "sha256": null
+      },
+      {
+        "index": 3,
+        "url": "allegati/Tariffario_Taxi_2024.pdf",
+        "saved": true,
+        "sha256": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055"
+      },
+      {
+        "index": 4,
+        "url": "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+        "saved": true,
+        "sha256": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a"
+      },
+      {
+        "index": 5,
+        "url": "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+        "saved": true,
+        "sha256": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18"
+      },
+      {
+        "index": 6,
+        "url": "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+        "saved": true,
+        "sha256": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5"
+      },
+      {
+        "index": 7,
+        "url": "allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+        "saved": true,
+        "sha256": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205"
+      },
+      {
+        "index": 8,
+        "url": "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+        "saved": true,
+        "sha256": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89"
+      },
+      {
+        "index": 9,
+        "url": "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+        "saved": true,
+        "sha256": "4e44f34b40802ee9837f5cf07f38e09a950a6ff93ae447072cda26f289543c03"
+      },
+      {
+        "index": 10,
+        "url": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+        "saved": true,
+        "sha256": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184"
+      },
+      {
+        "index": 11,
+        "url": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+        "saved": true,
+        "sha256": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e"
+      },
+      {
+        "index": 12,
+        "url": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+        "saved": true,
+        "sha256": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042"
+      },
+      {
+        "index": 13,
+        "url": "allegati/OS835_2014_indicazioni_autore.txt",
+        "saved": true,
+        "sha256": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd"
+      },
+      {
+        "index": 14,
+        "url": "allegati/Fonti_revisione_corrente_1.8.16.txt",
+        "saved": false,
+        "sha256": null
+      },
+      {
+        "index": 15,
+        "url": "allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+        "saved": true,
+        "sha256": "95fafdb1d658d65e02ff446bb0f3f28975582f590319e48d1c17829571ab1800"
+      },
+      {
+        "index": 16,
+        "url": "allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+        "saved": true,
+        "sha256": "3d5e481d98b789b908ab5ff55a5337b7e7e48dab47bb58bfcfb517385d6bfec2"
+      }
+    ]
+  },
+  "reopened": {
+    "version": "1.8.16",
+    "build": "a357d917706fb820a6afb7d37075a83e6eea7145a056ea07bfd5a7de3c27e2fe",
+    "allSourcesSaved": true,
+    "denied": [
+      410,
+      410,
+      410
+    ],
+    "formula": "Durante il servizio con il veicolo indicato, con C.P. n. […], non prendeva posto negli stalli regolarmente predisposti dal Comune, siti in […]. Copia del presente verbale sarà inviata all’Ufficio Corso Pubblico."
+  }
+}

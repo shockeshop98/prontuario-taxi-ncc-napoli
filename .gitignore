@@ -70,3 +70,17 @@ prova-android/
 /revisione/1.8.15/fonti/
 /revisione/1.8.15/prima-viste.json
 /revisione/1.8.15/fonti-acquisizioni.json
+
+# Revisione finale: input, originali e fotografie locali esclusi dalla pubblicazione.
+/Revisione ultime schede ncc e taxi.txt
+/revisione/1.8.16/base-1.8.15/
+/revisione/1.8.16/fonti/
+/revisione/1.8.16/stato-iniziale.json
+/revisione/1.8.16/prima-*.json
+/revisione/1.8.16/richieste-iniziali.json
+/revisione/1.8.16/ambito-autorizzato.json
+/revisione/1.8.16/configurazione-locale.json
+
+/revisione/1.8.16/prima-decisioni-autore/
+
+/revisione/1.8.16/pre-pubblicazione/

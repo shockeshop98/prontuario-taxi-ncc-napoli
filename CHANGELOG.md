@@ -1,3 +1,7 @@
+# 1.8.16 / PDF 7.18 — revisione locale del 10 novembre 2026
+
+Tutte le 53 decisioni del TXT applicate secondo indicazione dell’autore, incluse le precedenti 29 non applicate e 3 parziali; osservazioni normative conservate separatamente senza attestazioni di validazione. 46 configurazioni importi preesistenti nel solo ambito e nuova G55; 121 viste fuori ambito preservate. R33 distinte e ritiro autorizzazione solo Napoli, R30 ritiro confermabile, formule/note e tabelle del comma richiesto senza alternative TUEL aggiuntive. N11 rimossa editorialmente; entrambe le risorse EGAF escluse da consultazione/PDF/pacchetto/cache, originali locali integri. 172 viste, 193 pagine PDF, 172 destinazioni, 171 formule e 17 fonti. Nessun commit, push o deploy. [Rapporto](RAPPORTO_REVISIONE_1.8.16.md).
+
 # Registro aggiornamenti
 
 ## 1.8.14 — revisione approvata del 4 novembre 2026
