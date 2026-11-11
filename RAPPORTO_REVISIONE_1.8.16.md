@@ -1,12 +1,32 @@
-# Pubblicazione autorizzata — 11 novembre 2026
+# Pubblicata PWA 1.8.16 / PDF 7.18 — 11 novembre 2026
 
-L’autore ha autorizzato commit, push ordinario su main e deploy GitHub Pages dello stato finale completo: **53 richieste su 53 applicate**, nessuna parziale. Conteggi e impronte corrispondono alla consegna del 10 novembre: PWA 1.8.16 / PDF 7.18, 112 voci, 172 viste (104 Taxi, 60 NCC, 8 equine), 193 pagine, 172 destinazioni, 171 formule, 17 fonti; G55 presente, N11 assente dai percorsi attivi; 121 viste fuori ambito preservate e importi invariati.
+**Pubblicazione e verifiche tecniche sul sito concluse con successo. Tutte le 53 richieste sono applicate secondo indicazione dell’autore; nessuna parziale o non applicata.** Le osservazioni normative restano separate e i dubbi documentali non sono dichiarati risolti.
 
-La preparazione alla pubblicazione modifica soltanto controlli tecnici e documentazione: contratto di 121 impronte per eseguire i test senza fotografie private, verifica degli originali disponibili distinta dalla loro assenza nella copia pulita, prova pubblica prepare/verify della vera installazione 1.8.15. **Nessuna modifica normativa, agli importi, alle formule, alla PWA o al PDF rispetto alla consegna.** Le osservazioni normative restano separate; nessuna validazione normativa o soluzione dei dubbi documentali è attestata da questi controlli tecnici.
+[PWA pubblica](https://shockeshop98.github.io/prontuario-taxi-ncc-napoli/) · [PDF 7.18](allegati/Prontuario_Taxi_NCC_Napoli.pdf) · [Anteprima](revisione/1.8.16/anteprima.html) · [Confronto](revisione/1.8.16/confronto-prima-dopo.html) · [53 esiti](revisione/1.8.16/esiti-richieste.md) · [Evidenze pubbliche](revisione/1.8.16/pubblicazione.json).
 
-Git remoto allineato alla base be98cdf; selezione esplicita dei file, con esclusione di TXT di lavoro, documenti personali, fotografie dei controlli, materiali EGAF e relativi estratti, fotografie iniziali e temporanei. Pubblicazione soltanto dalla lista pages-files.json. Conservati gli originali locali e gli esiti della consegna nella fotografia pre-pubblicazione esclusa dal sito. I test correnti sul locale e sulla copia pulita sono superati; il deploy e la verifica pubblica verranno registrati al loro completamento.
+Commit dei contenuti: `8c171d683cdd9776bc55da886edc6b222d25fe91`. [Workflow Pages riuscito](https://github.com/shockeshop98/prontuario-taxi-ncc-napoli/actions/runs/43054065095): checkout con cronologia, npm ci, npm test, tutte le 13 suite storiche, pacchetto con lista esplicita, upload e deploy. Il successivo commit documenta questi esiti senza cambiare la PWA o il PDF.
 
-La sezione seguente conserva il rapporto della consegna locale del 10 novembre: le indicazioni “nessun commit, push o deploy” descrivono quella fase precedente all’autorizzazione odierna.
+Confermati sul pubblico: **112 voci, 172 viste (104 Taxi, 60 NCC, 8 equine), 193 pagine, 172 destinazioni PDF, 171 formule, 17 fonti**. G55 presente, N11 assente dai percorsi attivi. 53 decisioni verificate; 121 viste fuori ambito e relativi importi preservati. Tutti i file del primo pacchetto pubblico sono stati confrontati per SHA con il locale; tutto il testo delle 193 pagine PDF e le 172 destinazioni coincidono con la consegna.
+
+Browser pubblico: 172 viste e 171 copie per ciascuna larghezza 360/390 px, nessun overflow; 67 selezioni con tabelle, copia, attestazioni e reset; quattro R33 con condizione Napoli e adempimenti CdS indipendenti; ricerca G55 e assenza N11; stemmi caricati, proporzioni, ordine e crediti corretti. Nessun errore JavaScript.
+
+Migrazione dalla **vera installazione pubblicata 1.8.15 / PDF 7.17**, preparata prima del push con 19 fonti salvate e SHA della pubblicazione: aggiornamento alla build corrente, **15 allegati invariati conservati**, PDF e sintesi nuovi risalvati. Chiusura e riapertura offline di tutte le 17 fonti; richiesta Range PDF 206/100 byte. Prima installazione distinta, 17 fonti salvate, chiusura e riapertura offline, ricerca e copia funzionanti.
+
+Entrambe le risorse EGAF sono escluse da elenco e ricerca delle fonti, PDF, pacchetto e cache aggiornate, comprese le copie di prova con query; URL esclusi restituiscono 410 nella PWA. Verificati 30 accessi HTTP a percorsi riservati e varianti con query, tutti 404. Conservati localmente 58 originali e i 286 file della fotografia iniziale. La prova riguarda le cache gestite dalla PWA, non download esterni, copie autonome o storico Git. Prove Chromium, nessuna prova su telefono fisico dichiarata.
+
+Controlli prima del commit: npm test sul locale e nella copia pulita, 13 suite storiche nella copia pulita, pacchetto nella copia pulita, invarianza del contratto delle 121 viste, git diff --check. Interventi tecnici limitati ai controlli senza input privati, gestione dell’assenza dei materiali EGAF nei test storici, normalizzazione CRLF/spazi finali del CSV esportato e documentazione. TXT originale intatto; contenuto delle 53 richieste nel CSV confrontato con l’originale. Le prime prove della copia pulita hanno segnalato fixture pubbliche mancanti: aggiunte soltanto fixture, rapporti e fonti ufficiali richiesti; esecuzione completa finale riuscita. Un salvataggio iniziale dalla versione pubblica è stato ripetuto con successo prima del deploy.
+
+PWA, formule, importi e PDF **identici alla consegna finale**. Build coerente fra HTML, version.json e service worker:
+
+`a357d917706fb820a6afb7d37075a83e6eea7145a056ea07bfd5a7de3c27e2fe`
+
+PDF: **5.794.483 byte**, SHA-256:
+
+`3c982ae3d43163f13051f99b5f54d3578e089ae9df05aa6178741a7c874475cc`
+
+**Il PDF 7.18 va salvato nuovamente nella PWA per usarlo offline.** Le evidenze tecniche non attestano una nuova validazione normativa.
+
+La sezione seguente conserva il rapporto della consegna locale del 10 novembre: le frasi “nessun commit, push o deploy” descrivono quella fase precedente all’autorizzazione dell’11 novembre.
 
 ---
 

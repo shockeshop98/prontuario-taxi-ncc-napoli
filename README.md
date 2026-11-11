@@ -1,11 +1,11 @@
-<!-- Stato locale corrente: PWA 1.8.16 / PDF 7.18; nessuna pubblicazione. -->
-# Revisione locale 1.8.16 / PDF 7.18
+<!-- Pubblicata: PWA 1.8.16 / PDF 7.18, verificata 11 novembre 2026. -->
+# PWA 1.8.16 / PDF 7.18 pubblicata
 
-[Anteprima](revisione/1.8.16/anteprima.html), [confronto](revisione/1.8.16/confronto-prima-dopo.html), [53 esiti](revisione/1.8.16/esiti-richieste.md), [rapporto](RAPPORTO_REVISIONE_1.8.16.md). Tutte le 53 richieste sono applicate secondo indicazione dell’autore; nessuna parziale o sospesa. Osservazioni normative precedenti conservate separatamente, senza dichiarare risolti dubbi documentali. 172 viste: 104 Taxi, 60 NCC, 8 equine; 193 pagine PDF, 6 indici, 172 destinazioni, 171 formule, 17 allegati. G55 nuova; N11 rimossa editorialmente; entrambe le risorse EGAF escluse da consultazione, PDF, pacchetto e cache aggiornata con originali locali integri.
+[PWA](https://shockeshop98.github.io/prontuario-taxi-ncc-napoli/), [PDF](allegati/Prontuario_Taxi_NCC_Napoli.pdf), [anteprima](revisione/1.8.16/anteprima.html), [confronto](revisione/1.8.16/confronto-prima-dopo.html), [53 esiti](revisione/1.8.16/esiti-richieste.md), [rapporto](RAPPORTO_REVISIONE_1.8.16.md), [verifiche pubbliche](revisione/1.8.16/pubblicazione.json). Tutte le 53 richieste applicate secondo indicazione dell’autore; nessuna parziale. 112 voci, 172 viste (104 Taxi, 60 NCC, 8 equine), 193 pagine PDF, 172 destinazioni, 171 formule, 17 fonti. G55 presente; N11 rimossa editorialmente; entrambe le risorse EGAF escluse da consultazione, PDF, pacchetto e cache aggiornata, originali locali integri. 121 viste fuori ambito preservate con importi invariati.
 
-46 configurazioni di importi preesistenti aggiornate nel solo ambito, più G55; 121 viste fuori ambito integralmente identiche al lavoro locale precedente e importi invariati rispetto alla 1.8.15. Quattro fasce I04, R33 distinte con ritiro autorizzazione solo Napoli e conferma degli atti eseguiti. Nessun commit, push o deploy.
+Workflow, prove pubbliche, mobile 360/390, 67 selezioni, copia/PDF, migrazione dalla vera 1.8.15 e prima installazione offline riusciti. Osservazioni normative separate, dubbi documentali non dichiarati risolti. Salvare nuovamente il PDF 7.18 nella PWA per usarlo offline.
 
-Comandi: `npm run generate:pdf`, `python3 scripts/update-build.py`, `npm run audit:cards`, `npm test`, `npm run test:author`, `npm run test:browser`, `npm run test:upgrade`, `git diff --check`. Per Chromium impostare CHROMIUM_PATH. Non rilanciare i generatori storici. Pages usa soltanto pages-files.json; input, fotografie e archivio restano locali. Il nuovo PDF e la sintesi corrente vanno risalvati offline. Lo storico seguente conserva gli stati pubblicati.
+Comandi: `npm test`, `npm run test:historical`, `npm run test:author`, `npm run test:browser`, `npm run test:upgrade`, `git diff --check`. Pages pubblica soltanto pages-files.json; input e materiali riservati restano locali. Non rilanciare i generatori storici. Lo storico seguente conserva le precedenti pubblicazioni.
 
 <!-- Pubblicata: 1.8.15 / PDF 7.17; precedente: 1.8.14 / PDF 7.16; sezioni precedenti conservate come storico. -->
 # Prontuario interattivo Taxi NCC e trazione animale Napoli
