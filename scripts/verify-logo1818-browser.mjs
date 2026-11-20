@@ -29,7 +29,7 @@ try{
   await p.goto(base);await p.evaluate(async number=>{const pdfjs=await import('/node_modules/pdfjs-dist/build/pdf.mjs');pdfjs.GlobalWorkerOptions.workerSrc='/node_modules/pdfjs-dist/build/pdf.worker.mjs';const pdf=await pdfjs.getDocument('/allegati/Prontuario_Taxi_NCC_Napoli.pdf').promise,page=await pdf.getPage(number),v=page.getViewport({scale:1.5});document.body.replaceChildren();document.body.style.margin='0';const canvas=document.createElement('canvas');canvas.width=v.width;canvas.height=v.height;document.body.append(canvas);await page.render({canvasContext:canvas.getContext('2d'),viewport:v}).promise;await pdf.destroy();},number);await p.locator('canvas').screenshot({path:path.join(out,name)});
  }
  report.renderedPdfPages=[1,51];
- 
+
  await p.goto(base);for(let i=0;i<17;i++)await save(p,i);await context.close();context=null;
  p=await open(profile,true);report.freshReopenedOffline=await offlineCheck(p);await context.close();context=null;
  console.log('Intestazione/mobile, 172 schede e copie/PDF, copertina e prima installazione offline: PASS.');
