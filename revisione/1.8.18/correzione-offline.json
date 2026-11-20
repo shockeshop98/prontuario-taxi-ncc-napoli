@@ -7,6 +7,12 @@
   "unitRegression": "PASS",
   "pdfUnchanged": true,
   "logoAndCardContentsUnchanged": true,
-  "publicRetest": "Da completare dopo il deploy",
+  "publicRetest": {
+    "status": "PASS",
+    "completedAt": "2026-11-20T14:43:43.979Z",
+    "build": "5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899",
+    "sameUpgradeProfile": true,
+    "pdfSha256": "9375f39e71b1e2a4df638e815bbaa3c3bb5bdd541168cb79550ea4be70efa5ad"
+  },
   "previewRegression": "PASS"
 }

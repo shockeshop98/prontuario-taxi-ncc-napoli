@@ -1,0 +1,2492 @@
+{
+  "status": "PASS PWA/PDF/offline; un controllo HTTP aggiuntivo inconcludente",
+  "additionalHttpCheckStatus": {
+    "direct404": 36,
+    "cacheBypass404": 1,
+    "pending": [
+      {
+        "path": "Revisione ultime schede ncc e taxi.txt",
+        "status": 503,
+        "initialStatus": 503,
+        "recheckedAt": "2026-11-20T14:43:44.851Z",
+        "cacheBypassCheck": {
+          "url": "Revisione ultime schede ncc e taxi.txt?_releasecheck=1795185927902887337",
+          "status": 503,
+          "checkedAt": "2026-11-20T14:45:28.128102+00:00"
+        }
+      }
+    ]
+  },
+  "checkedAt": "2026-11-20T14:43:43.979Z",
+  "verifiedProductCommit": "6b6965b8c377d2810f89fd755278e33f1f448e2d",
+  "workflow": {
+    "conclusion": "success",
+    "head_sha": "6b6965b8c377d2810f89fd755278e33f1f448e2d",
+    "html_url": "https://github.com/shockeshop98/prontuario-taxi-ncc-napoli/actions/runs/44755261361",
+    "id": 44755261361,
+    "status": "completed"
+  },
+  "version": {
+    "version": "1.8.18",
+    "updated_at": "2026-11-20",
+    "build_id": "5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899"
+  },
+  "pdf": {
+    "version": "7.20",
+    "pages": 193,
+    "indexDestinations": 172,
+    "sha256": "9375f39e71b1e2a4df638e815bbaa3c3bb5bdd541168cb79550ea4be70efa5ad",
+    "bytes": 5825414,
+    "allPageTextsIdentical": true
+  },
+  "onlyGraphicChange": "assets/logo-csa-nuovo.jpeg",
+  "all172CardFieldsAmountsAndFormulasUnchanged": true,
+  "originalsAndHistoricalReportsIntact": true,
+  "protectedFiles": 954,
+  "visualInspection": {
+    "publicMobile": [
+      360,
+      390
+    ],
+    "logosCompleteCenteredAndProportional": true,
+    "pdfCoverRenderPreviouslyInspected": true,
+    "publicPdfByteIdentical": true
+  },
+  "initialCheckIssues": [
+    {
+      "check": "git diff --check sui file selezionati",
+      "result": "Spazio finale nel nuovo verificatore; corretto con commit ordinario prima del push, poi controllo aggregato PASS."
+    },
+    {
+      "check": "Riapertura offline della prima build",
+      "result": "Risposta HTML 1.8.17 accettata dal worker 1.8.18 su URL senza rev. Corretto il controllo della build, aggiunta regressione e verificato nuovamente lo stesso profilo dopo il deploy."
+    },
+    {
+      "check": "Percorso escluso revisione/1.8.18/pre-pubblicazione/package.json",
+      "result": "Risposte HTTP 503 documentate; controlli indipendenti successivi e con query fresca registrati. Un URL del TXT di lavoro rimane 503. Nessuna modifica al prodotto."
+    }
+  ],
+  "limits": [
+    "L’URL del TXT di lavoro restituisce HTTP 503 da GitHub anche senza cache: controllo HTTP inconcludente; esclusione dal pacchetto verificata tramite lista e manifest.",
+    "Verifiche Chromium, senza prova su telefono fisico.",
+    "Nessuna nuova revisione normativa.",
+    "Le esclusioni EGAF riguardano pacchetto e cache gestite; non cancellano download autonomi o storico Git."
+  ],
+  "public": {
+    "url": "https://shockeshop98.github.io/prontuario-taxi-ncc-napoli/",
+    "checkedAt": "2026-11-20T14:38:47.861Z",
+    "before": {
+      "url": "https://shockeshop98.github.io/prontuario-taxi-ncc-napoli/",
+      "release": "1.8.17",
+      "build": "ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b",
+      "worker": "ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b",
+      "pdfVersion": "7.19",
+      "sourceCount": 17,
+      "saved": [
+        {
+          "path": "allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "cached": true,
+          "sha256": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0"
+        },
+        {
+          "path": "allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "cached": true,
+          "sha256": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a"
+        },
+        {
+          "path": "allegati/Prontuario_Taxi_NCC_Napoli.pdf",
+          "cached": true,
+          "sha256": "eb601d89c9c6cd4ce9a7f7a08202538a2c5cb0c192d05eff77fe2552395976a3"
+        },
+        {
+          "path": "allegati/Tariffario_Taxi_2024.pdf",
+          "cached": true,
+          "sha256": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055"
+        },
+        {
+          "path": "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "cached": true,
+          "sha256": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a"
+        },
+        {
+          "path": "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "cached": true,
+          "sha256": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18"
+        },
+        {
+          "path": "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "cached": true,
+          "sha256": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5"
+        },
+        {
+          "path": "allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "cached": true,
+          "sha256": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205"
+        },
+        {
+          "path": "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+          "cached": true,
+          "sha256": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89"
+        },
+        {
+          "path": "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "cached": true,
+          "sha256": "4e44f34b40802ee9837f5cf07f38e09a950a6ff93ae447072cda26f289543c03"
+        },
+        {
+          "path": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "cached": true,
+          "sha256": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184"
+        },
+        {
+          "path": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "cached": true,
+          "sha256": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e"
+        },
+        {
+          "path": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "cached": true,
+          "sha256": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042"
+        },
+        {
+          "path": "allegati/OS835_2014_indicazioni_autore.txt",
+          "cached": true,
+          "sha256": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd"
+        },
+        {
+          "path": "allegati/Fonti_revisione_corrente_1.8.16.txt",
+          "cached": true,
+          "sha256": "52cdd57c6f291521b0894c9bd180c809765e965b48bf970367374fc60364860f"
+        },
+        {
+          "path": "allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "cached": true,
+          "sha256": "95fafdb1d658d65e02ff446bb0f3f28975582f590319e48d1c17829571ab1800"
+        },
+        {
+          "path": "allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+          "cached": true,
+          "sha256": "3d5e481d98b789b908ab5ff55a5337b7e7e48dab47bb58bfcfb517385d6bfec2"
+        }
+      ],
+      "seededQueryCopies": [
+        {
+          "cache": "prontuario-core-ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b",
+          "path": "allegati/EGAF_Art85_originale.txt?rev=old",
+          "syntheticKey": true
+        },
+        {
+          "cache": "prontuario-core-ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b",
+          "path": "allegati/EGAF_Art86_provenienza.txt?network=1",
+          "syntheticKey": true
+        },
+        {
+          "cache": "prontuario-core-ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b",
+          "path": "allegati/EGAF_Art86_originale.pdf?rev=old",
+          "syntheticKey": true
+        },
+        {
+          "cache": "prontuario-docs-ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b",
+          "path": "allegati/EGAF_Art85_originale.txt?rev=old",
+          "syntheticKey": true
+        },
+        {
+          "cache": "prontuario-docs-ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b",
+          "path": "allegati/EGAF_Art86_provenienza.txt?network=1",
+          "syntheticKey": true
+        },
+        {
+          "cache": "prontuario-docs-ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b",
+          "path": "allegati/EGAF_Art86_originale.pdf?rev=old",
+          "syntheticKey": true
+        }
+      ],
+      "offlineBefore": true,
+      "checkedAt": "2026-11-20T14:20:20.167Z"
+    },
+    "expected": {
+      "version": "1.8.18",
+      "updated_at": "2026-11-20",
+      "build_id": "5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899"
+    },
+    "current": {
+      "release": "1.8.18",
+      "build": "5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899",
+      "worker": "5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899",
+      "pdfVersion": "7.20",
+      "catalog": 112,
+      "views": 172,
+      "services": [
+        {
+          "type": "Taxi",
+          "count": 104
+        },
+        {
+          "type": "NCC",
+          "count": 60
+        },
+        {
+          "type": "Trazione animale",
+          "count": 8
+        }
+      ],
+      "sources": 17,
+      "pages": 193
+    },
+    "retained": [
+      {
+        "path": "allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+        "sha256": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0"
+      },
+      {
+        "path": "allegati/Prontuario_GIT_Turistica_originale.pdf",
+        "sha256": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a"
+      },
+      {
+        "path": "allegati/Tariffario_Taxi_2024.pdf",
+        "sha256": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055"
+      },
+      {
+        "path": "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+        "sha256": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a"
+      },
+      {
+        "path": "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+        "sha256": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18"
+      },
+      {
+        "path": "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+        "sha256": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5"
+      },
+      {
+        "path": "allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+        "sha256": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205"
+      },
+      {
+        "path": "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+        "sha256": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89"
+      },
+      {
+        "path": "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+        "sha256": "4e44f34b40802ee9837f5cf07f38e09a950a6ff93ae447072cda26f289543c03"
+      },
+      {
+        "path": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+        "sha256": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184"
+      },
+      {
+        "path": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+        "sha256": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e"
+      },
+      {
+        "path": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+        "sha256": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042"
+      },
+      {
+        "path": "allegati/OS835_2014_indicazioni_autore.txt",
+        "sha256": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd"
+      },
+      {
+        "path": "allegati/Fonti_revisione_corrente_1.8.16.txt",
+        "sha256": "52cdd57c6f291521b0894c9bd180c809765e965b48bf970367374fc60364860f"
+      },
+      {
+        "path": "allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+        "sha256": "95fafdb1d658d65e02ff446bb0f3f28975582f590319e48d1c17829571ab1800"
+      },
+      {
+        "path": "allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+        "sha256": "3d5e481d98b789b908ab5ff55a5337b7e7e48dab47bb58bfcfb517385d6bfec2"
+      }
+    ],
+    "cacheAfterUpgrade": [
+      {
+        "name": "prontuario-docs-ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b",
+        "urls": [
+          "/prontuario-taxi-ncc-napoli/allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Tariffario_Taxi_2024.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/OS835_2014_indicazioni_autore.txt",
+          "/prontuario-taxi-ncc-napoli/allegati/Fonti_revisione_corrente_1.8.16.txt",
+          "/prontuario-taxi-ncc-napoli/allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "/prontuario-taxi-ncc-napoli/allegati/NCC_DD4_2026_vidimazione_originale.pdf"
+        ]
+      },
+      {
+        "name": "prontuario-core-7d86f4f72e2e1c93b59b535c1849085aa900e4ed466a6e9828100726eaedabab",
+        "urls": [
+          "/prontuario-taxi-ncc-napoli/manifest.webmanifest",
+          "/prontuario-taxi-ncc-napoli/assets/polizia-locale-napoli.png",
+          "/prontuario-taxi-ncc-napoli/assets/polizia.png",
+          "/prontuario-taxi-ncc-napoli/assets/logo-csa-nuovo.jpeg",
+          "/prontuario-taxi-ncc-napoli/assets/logo-polizia-turistica.png",
+          "/prontuario-taxi-ncc-napoli/assets/icon-192.png",
+          "/prontuario-taxi-ncc-napoli/assets/icon-512.png",
+          "/prontuario-taxi-ncc-napoli/assets/icon-maskable-512.png",
+          "/prontuario-taxi-ncc-napoli/assets/icon-maskable-192.png",
+          "/prontuario-taxi-ncc-napoli/assets/apple-touch-icon.png",
+          "/prontuario-taxi-ncc-napoli/assets/favicon.ico",
+          "/prontuario-taxi-ncc-napoli/assets/favicon-16.png",
+          "/prontuario-taxi-ncc-napoli/assets/favicon-32.png",
+          "/prontuario-taxi-ncc-napoli/assets/favicon-48.png",
+          "/prontuario-taxi-ncc-napoli/assets/static-demo.css",
+          "/prontuario-taxi-ncc-napoli/scripts/static-field-suggestions.js",
+          "/prontuario-taxi-ncc-napoli/scripts/static-demos.js",
+          "/prontuario-taxi-ncc-napoli/scripts/operative-rules.js",
+          "/prontuario-taxi-ncc-napoli/scripts/static-demo-ui.js",
+          "/prontuario-taxi-ncc-napoli/scripts/taxi-collettivo.js",
+          "/prontuario-taxi-ncc-napoli/scripts/static-catalog.js",
+          "/prontuario-taxi-ncc-napoli/scripts/static-catalog-ui.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-g01-g43.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-seconda-parte.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-pausa-caldo.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-equini-835.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-terza.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-ncc-prima.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-ultime.js",
+          "/prontuario-taxi-ncc-napoli/index.html"
+        ]
+      },
+      {
+        "name": "prontuario-docs-7d86f4f72e2e1c93b59b535c1849085aa900e4ed466a6e9828100726eaedabab",
+        "urls": [
+          "/prontuario-taxi-ncc-napoli/allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "/prontuario-taxi-ncc-napoli/allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Fonti_revisione_corrente_1.8.16.txt",
+          "/prontuario-taxi-ncc-napoli/allegati/OS835_2014_indicazioni_autore.txt",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Tariffario_Taxi_2024.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf"
+        ]
+      }
+    ],
+    "initialUpgrade": {
+      "current": {
+        "release": "1.8.18",
+        "build": "7d86f4f72e2e1c93b59b535c1849085aa900e4ed466a6e9828100726eaedabab",
+        "worker": "7d86f4f72e2e1c93b59b535c1849085aa900e4ed466a6e9828100726eaedabab",
+        "pdfVersion": "7.20",
+        "catalog": 112,
+        "views": 172,
+        "services": [
+          {
+            "type": "Taxi",
+            "count": 104
+          },
+          {
+            "type": "NCC",
+            "count": 60
+          },
+          {
+            "type": "Trazione animale",
+            "count": 8
+          }
+        ],
+        "sources": 17,
+        "pages": 193
+      },
+      "retained": [
+        {
+          "path": "allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "sha256": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0"
+        },
+        {
+          "path": "allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "sha256": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a"
+        },
+        {
+          "path": "allegati/Tariffario_Taxi_2024.pdf",
+          "sha256": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055"
+        },
+        {
+          "path": "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "sha256": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a"
+        },
+        {
+          "path": "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "sha256": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18"
+        },
+        {
+          "path": "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "sha256": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5"
+        },
+        {
+          "path": "allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "sha256": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205"
+        },
+        {
+          "path": "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+          "sha256": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89"
+        },
+        {
+          "path": "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "sha256": "4e44f34b40802ee9837f5cf07f38e09a950a6ff93ae447072cda26f289543c03"
+        },
+        {
+          "path": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "sha256": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184"
+        },
+        {
+          "path": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "sha256": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e"
+        },
+        {
+          "path": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "sha256": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042"
+        },
+        {
+          "path": "allegati/OS835_2014_indicazioni_autore.txt",
+          "sha256": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd"
+        },
+        {
+          "path": "allegati/Fonti_revisione_corrente_1.8.16.txt",
+          "sha256": "52cdd57c6f291521b0894c9bd180c809765e965b48bf970367374fc60364860f"
+        },
+        {
+          "path": "allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "sha256": "95fafdb1d658d65e02ff446bb0f3f28975582f590319e48d1c17829571ab1800"
+        },
+        {
+          "path": "allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+          "sha256": "3d5e481d98b789b908ab5ff55a5337b7e7e48dab47bb58bfcfb517385d6bfec2"
+        }
+      ],
+      "cacheAfterUpgrade": [
+        {
+          "name": "prontuario-docs-ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b",
+          "urls": [
+            "/prontuario-taxi-ncc-napoli/allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Prontuario_GIT_Turistica_originale.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Tariffario_Taxi_2024.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+            "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+            "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+            "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/OS835_2014_indicazioni_autore.txt",
+            "/prontuario-taxi-ncc-napoli/allegati/Fonti_revisione_corrente_1.8.16.txt",
+            "/prontuario-taxi-ncc-napoli/allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+            "/prontuario-taxi-ncc-napoli/allegati/NCC_DD4_2026_vidimazione_originale.pdf"
+          ]
+        },
+        {
+          "name": "prontuario-core-7d86f4f72e2e1c93b59b535c1849085aa900e4ed466a6e9828100726eaedabab",
+          "urls": [
+            "/prontuario-taxi-ncc-napoli/manifest.webmanifest",
+            "/prontuario-taxi-ncc-napoli/assets/polizia-locale-napoli.png",
+            "/prontuario-taxi-ncc-napoli/assets/polizia.png",
+            "/prontuario-taxi-ncc-napoli/assets/logo-csa-nuovo.jpeg",
+            "/prontuario-taxi-ncc-napoli/assets/logo-polizia-turistica.png",
+            "/prontuario-taxi-ncc-napoli/assets/icon-192.png",
+            "/prontuario-taxi-ncc-napoli/assets/icon-512.png",
+            "/prontuario-taxi-ncc-napoli/assets/icon-maskable-512.png",
+            "/prontuario-taxi-ncc-napoli/assets/icon-maskable-192.png",
+            "/prontuario-taxi-ncc-napoli/assets/apple-touch-icon.png",
+            "/prontuario-taxi-ncc-napoli/assets/favicon.ico",
+            "/prontuario-taxi-ncc-napoli/assets/favicon-16.png",
+            "/prontuario-taxi-ncc-napoli/assets/favicon-32.png",
+            "/prontuario-taxi-ncc-napoli/assets/favicon-48.png",
+            "/prontuario-taxi-ncc-napoli/assets/static-demo.css",
+            "/prontuario-taxi-ncc-napoli/scripts/static-field-suggestions.js",
+            "/prontuario-taxi-ncc-napoli/scripts/static-demos.js",
+            "/prontuario-taxi-ncc-napoli/scripts/operative-rules.js",
+            "/prontuario-taxi-ncc-napoli/scripts/static-demo-ui.js",
+            "/prontuario-taxi-ncc-napoli/scripts/taxi-collettivo.js",
+            "/prontuario-taxi-ncc-napoli/scripts/static-catalog.js",
+            "/prontuario-taxi-ncc-napoli/scripts/static-catalog-ui.js",
+            "/prontuario-taxi-ncc-napoli/scripts/revision-g01-g43.js",
+            "/prontuario-taxi-ncc-napoli/scripts/revision-seconda-parte.js",
+            "/prontuario-taxi-ncc-napoli/scripts/revision-pausa-caldo.js",
+            "/prontuario-taxi-ncc-napoli/scripts/revision-equini-835.js",
+            "/prontuario-taxi-ncc-napoli/scripts/revision-terza.js",
+            "/prontuario-taxi-ncc-napoli/scripts/revision-ncc-prima.js",
+            "/prontuario-taxi-ncc-napoli/scripts/revision-ultime.js",
+            "/prontuario-taxi-ncc-napoli/index.html"
+          ]
+        },
+        {
+          "name": "prontuario-docs-7d86f4f72e2e1c93b59b535c1849085aa900e4ed466a6e9828100726eaedabab",
+          "urls": [
+            "/prontuario-taxi-ncc-napoli/allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+            "/prontuario-taxi-ncc-napoli/allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Fonti_revisione_corrente_1.8.16.txt",
+            "/prontuario-taxi-ncc-napoli/allegati/OS835_2014_indicazioni_autore.txt",
+            "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+            "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+            "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Prontuario_GIT_Turistica_originale.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Tariffario_Taxi_2024.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+            "/prontuario-taxi-ncc-napoli/allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf"
+          ]
+        }
+      ]
+    },
+    "technicalUpdates": [
+      {
+        "fromHtml": "ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b",
+        "fromWorker": "7d86f4f72e2e1c93b59b535c1849085aa900e4ed466a6e9828100726eaedabab",
+        "to": "7d86f4f72e2e1c93b59b535c1849085aa900e4ed466a6e9828100726eaedabab",
+        "reason": "Navigazione con cache no-store: esclusione del precedente HTML conservato nella cache HTTP"
+      },
+      {
+        "fromHtml": "7d86f4f72e2e1c93b59b535c1849085aa900e4ed466a6e9828100726eaedabab",
+        "fromWorker": "7d86f4f72e2e1c93b59b535c1849085aa900e4ed466a6e9828100726eaedabab",
+        "to": "5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899",
+        "reason": "Convalida della build nella navigazione: rifiuto dell’HTML precedente anche quando la risposta arriva con no-store"
+      }
+    ],
+    "cacheAfterTechnicalFix": [
+      {
+        "name": "prontuario-docs-7d86f4f72e2e1c93b59b535c1849085aa900e4ed466a6e9828100726eaedabab",
+        "urls": [
+          "/prontuario-taxi-ncc-napoli/allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "/prontuario-taxi-ncc-napoli/allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Fonti_revisione_corrente_1.8.16.txt",
+          "/prontuario-taxi-ncc-napoli/allegati/OS835_2014_indicazioni_autore.txt",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Tariffario_Taxi_2024.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Prontuario_Taxi_NCC_Napoli.pdf"
+        ]
+      },
+      {
+        "name": "prontuario-core-5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899",
+        "urls": [
+          "/prontuario-taxi-ncc-napoli/manifest.webmanifest",
+          "/prontuario-taxi-ncc-napoli/assets/polizia-locale-napoli.png",
+          "/prontuario-taxi-ncc-napoli/assets/polizia.png",
+          "/prontuario-taxi-ncc-napoli/assets/logo-polizia-turistica.png",
+          "/prontuario-taxi-ncc-napoli/assets/icon-192.png",
+          "/prontuario-taxi-ncc-napoli/assets/icon-512.png",
+          "/prontuario-taxi-ncc-napoli/assets/icon-maskable-192.png",
+          "/prontuario-taxi-ncc-napoli/assets/icon-maskable-512.png",
+          "/prontuario-taxi-ncc-napoli/assets/apple-touch-icon.png",
+          "/prontuario-taxi-ncc-napoli/assets/logo-csa-nuovo.jpeg",
+          "/prontuario-taxi-ncc-napoli/assets/favicon.ico",
+          "/prontuario-taxi-ncc-napoli/assets/favicon-16.png",
+          "/prontuario-taxi-ncc-napoli/assets/favicon-32.png",
+          "/prontuario-taxi-ncc-napoli/assets/static-demo.css",
+          "/prontuario-taxi-ncc-napoli/assets/favicon-48.png",
+          "/prontuario-taxi-ncc-napoli/scripts/static-demos.js",
+          "/prontuario-taxi-ncc-napoli/scripts/static-field-suggestions.js",
+          "/prontuario-taxi-ncc-napoli/scripts/operative-rules.js",
+          "/prontuario-taxi-ncc-napoli/scripts/static-demo-ui.js",
+          "/prontuario-taxi-ncc-napoli/scripts/taxi-collettivo.js",
+          "/prontuario-taxi-ncc-napoli/scripts/static-catalog.js",
+          "/prontuario-taxi-ncc-napoli/scripts/static-catalog-ui.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-g01-g43.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-seconda-parte.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-pausa-caldo.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-terza.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-ncc-prima.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-equini-835.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-ultime.js",
+          "/prontuario-taxi-ncc-napoli/index.html"
+        ]
+      },
+      {
+        "name": "prontuario-docs-5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899",
+        "urls": [
+          "/prontuario-taxi-ncc-napoli/allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "/prontuario-taxi-ncc-napoli/allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Fonti_revisione_corrente_1.8.16.txt",
+          "/prontuario-taxi-ncc-napoli/allegati/OS835_2014_indicazioni_autore.txt",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Tariffario_Taxi_2024.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Prontuario_Taxi_NCC_Napoli.pdf"
+        ]
+      }
+    ],
+    "publicFiles": [
+      {
+        "path": "index.html",
+        "bytes": 1256094,
+        "sha256": "8afaa1a02966716e19974022dca52a7ab23c2e22c8563f473f0dfb7b076986e1"
+      },
+      {
+        "path": "manifest.webmanifest",
+        "bytes": 946,
+        "sha256": "f0e0d76ba531b11f2426f74f5df47595f2ddb69285525014fa26d65584303412"
+      },
+      {
+        "path": "assets/polizia-locale-napoli.png",
+        "bytes": 1589588,
+        "sha256": "9a49c6f10189c098eccca8889064e78d51233bff200d2594f14312451927c3fc"
+      },
+      {
+        "path": "assets/polizia.png",
+        "bytes": 2367832,
+        "sha256": "0dddf0e3419df317e99007f8a6cb897df6379d2838e9ca76c74b6b570c858505"
+      },
+      {
+        "path": "assets/logo-polizia-turistica.png",
+        "bytes": 2365889,
+        "sha256": "34f7818ce4c0791af2931ede29620ba5e3bfee57af68e283d0a90df5bf6c9a70"
+      },
+      {
+        "path": "assets/logo-csa-nuovo.jpeg",
+        "bytes": 30710,
+        "sha256": "1c1453f577d4bde9cc224209c399a7eab3d2c4d9e94fdd0e439c54cd41bbe82a"
+      },
+      {
+        "path": "assets/icon-192.png",
+        "bytes": 25065,
+        "sha256": "711faea03e3551c5a64114beaef10e734a4ff5ef8d36efa57f67fb774c79b153"
+      },
+      {
+        "path": "assets/icon-512.png",
+        "bytes": 204566,
+        "sha256": "803376758861fe08e89b6870b046946bf6e8554ac85a48fdd2b35fe622284a74"
+      },
+      {
+        "path": "assets/icon-maskable-192.png",
+        "bytes": 18190,
+        "sha256": "c16dd585358b55ebce3f55538e6213b9eb50d35b1b24c5c7aef4d42ab2e07cb2"
+      },
+      {
+        "path": "assets/icon-maskable-512.png",
+        "bytes": 135232,
+        "sha256": "50c1aff99d59a88c56b15edde54c30640028b3096068bd3b90b67eb0ba9a1473"
+      },
+      {
+        "path": "assets/apple-touch-icon.png",
+        "bytes": 22603,
+        "sha256": "55eb2fc74979cf626ab45431a329a40acc68560ee3b731820546fdf6d72aeb8d"
+      },
+      {
+        "path": "assets/favicon.ico",
+        "bytes": 7232,
+        "sha256": "12711dc139d92778343500d4eeabe46268136834fea1e8ccd38fd944c7f9fb96"
+      },
+      {
+        "path": "assets/favicon-16.png",
+        "bytes": 830,
+        "sha256": "55a484f36e901698897b6f291fe0c7ecf02b8a79a870993959b91faa090a5e23"
+      },
+      {
+        "path": "assets/favicon-32.png",
+        "bytes": 2292,
+        "sha256": "4a046e3e9a9a6cc338bda3185166479cf9d1f24455830477e2fddd47db226cd9"
+      },
+      {
+        "path": "assets/favicon-48.png",
+        "bytes": 4056,
+        "sha256": "c9c6f1d5fab228ca1cd20c96962db2c6979a767774ff2eb83cdbe0bfcec47c29"
+      },
+      {
+        "path": "assets/static-demo.css",
+        "bytes": 5744,
+        "sha256": "e9a583d34dee7b0371e791f04ab3de611ef029b520a241f62b37ca8047e0d2aa"
+      },
+      {
+        "path": "scripts/static-demos.js",
+        "bytes": 13710,
+        "sha256": "fedfa1693e9efb6954ab516648b801ae12fb8943a5f81ba7df90871b0731cbb1"
+      },
+      {
+        "path": "scripts/static-field-suggestions.js",
+        "bytes": 25416,
+        "sha256": "89d52068a5cf6096398bd45063786a222f158eb77f1f2ae9585fe9039c15aafa"
+      },
+      {
+        "path": "scripts/operative-rules.js",
+        "bytes": 12009,
+        "sha256": "b71354097f72815067bc482aaa981e006228baef6c33064b8578bf170685b566"
+      },
+      {
+        "path": "scripts/static-demo-ui.js",
+        "bytes": 10946,
+        "sha256": "f002fb562b46f4555913ef4e431138d26b2ec60a0d7b774820bbc6824b73f0bb"
+      },
+      {
+        "path": "scripts/taxi-collettivo.js",
+        "bytes": 7507,
+        "sha256": "01057865d946d4e090bb6a56780f4683ea4627eb2e82aeeaad55945a6f81677f"
+      },
+      {
+        "path": "scripts/static-catalog.js",
+        "bytes": 69505,
+        "sha256": "c2c203a5107e4619754616304660fe0b9d8d68cfdf11306639e415ad38904cc1"
+      },
+      {
+        "path": "scripts/static-catalog-ui.js",
+        "bytes": 19728,
+        "sha256": "2088e3597696294b223f17cceaa956f4f1a423865e4042c2629b70a333b52449"
+      },
+      {
+        "path": "scripts/revision-g01-g43.js",
+        "bytes": 22186,
+        "sha256": "dd4127fcfb32bdbc97ae2ff1af7bb948939898c779b9864ffe16b0400c35dfbd"
+      },
+      {
+        "path": "scripts/revision-seconda-parte.js",
+        "bytes": 28662,
+        "sha256": "728f7d2a6d3547cedf1b55ea2562a529ff2faea162afa98be377289ea671a859"
+      },
+      {
+        "path": "scripts/revision-pausa-caldo.js",
+        "bytes": 9562,
+        "sha256": "0c6c15faa1c58f3358ca180d3d9dc93b3150a07b8886755ca9922695991aab48"
+      },
+      {
+        "path": "scripts/revision-equini-835.js",
+        "bytes": 8701,
+        "sha256": "2a28f7c0933019e9a894626b48e97e8fb8c3bf58142b8038cd6d8092563569c0"
+      },
+      {
+        "path": "scripts/revision-terza.js",
+        "bytes": 64803,
+        "sha256": "a67df335eab8c514fe3194365418856f1141ad0f8736289b3d4f147d3226b8b7"
+      },
+      {
+        "path": "scripts/revision-ncc-prima.js",
+        "bytes": 25656,
+        "sha256": "adf64bea5103638e6464012269c8e0ffdbf27171f282f1c0b6566e6b38b4ae6e"
+      },
+      {
+        "path": "scripts/revision-ultime.js",
+        "bytes": 27506,
+        "sha256": "18e5360908ecfea5a627b787067c12bc5aebf2c47ac4d4c940815477c83699f2"
+      },
+      {
+        "path": "sw.js",
+        "bytes": 12260,
+        "sha256": "626c91fa595bfe8414a3bf33347ad52d8e521f3f02a5bbc139b80ea7fd4e9c78"
+      },
+      {
+        "path": "version.json",
+        "bytes": 138,
+        "sha256": "c1fe2fc24956f4cda3c312bfec0a218ae59b155d30e2b3962b1503de30e2e8e6"
+      },
+      {
+        "path": "allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+        "bytes": 92337,
+        "sha256": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0"
+      },
+      {
+        "path": "allegati/Prontuario_GIT_Turistica_originale.pdf",
+        "bytes": 2198678,
+        "sha256": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a"
+      },
+      {
+        "path": "allegati/Prontuario_Taxi_NCC_Napoli.pdf",
+        "bytes": 5825414,
+        "sha256": "9375f39e71b1e2a4df638e815bbaa3c3bb5bdd541168cb79550ea4be70efa5ad"
+      },
+      {
+        "path": "allegati/Tariffario_Taxi_2024.pdf",
+        "bytes": 2713222,
+        "sha256": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055"
+      },
+      {
+        "path": "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+        "bytes": 155411,
+        "sha256": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a"
+      },
+      {
+        "path": "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+        "bytes": 190724,
+        "sha256": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18"
+      },
+      {
+        "path": "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+        "bytes": 179655,
+        "sha256": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5"
+      },
+      {
+        "path": "allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+        "bytes": 820094,
+        "sha256": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205"
+      },
+      {
+        "path": "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+        "bytes": 227543,
+        "sha256": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89"
+      },
+      {
+        "path": "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+        "bytes": 186304,
+        "sha256": "4e44f34b40802ee9837f5cf07f38e09a950a6ff93ae447072cda26f289543c03"
+      },
+      {
+        "path": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+        "bytes": 230267,
+        "sha256": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184"
+      },
+      {
+        "path": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+        "bytes": 299920,
+        "sha256": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e"
+      },
+      {
+        "path": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+        "bytes": 259332,
+        "sha256": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042"
+      },
+      {
+        "path": "allegati/OS835_2014_indicazioni_autore.txt",
+        "bytes": 740,
+        "sha256": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd"
+      },
+      {
+        "path": "allegati/Fonti_revisione_corrente_1.8.16.txt",
+        "bytes": 3086,
+        "sha256": "52cdd57c6f291521b0894c9bd180c809765e965b48bf970367374fc60364860f"
+      },
+      {
+        "path": "allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+        "bytes": 3303,
+        "sha256": "95fafdb1d658d65e02ff446bb0f3f28975582f590319e48d1c17829571ab1800"
+      },
+      {
+        "path": "allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+        "bytes": 243487,
+        "sha256": "3d5e481d98b789b908ab5ff55a5337b7e7e48dab47bb58bfcfb517385d6bfec2"
+      },
+      {
+        "path": "RAPPORTO_REVISIONE_1.8.16.md",
+        "bytes": 17909,
+        "sha256": "04d0466e718e5fa22afd4a22cc0c5911e0f4f277e0df182853b6b53acc6a0a24"
+      },
+      {
+        "path": "revisione/1.8.16/anteprima.html",
+        "bytes": 10183,
+        "sha256": "74929e3d8cb700f84717b6619906f530a4116a24436793c9a84fa29ede62a343"
+      },
+      {
+        "path": "revisione/1.8.16/confronto-prima-dopo.html",
+        "bytes": 245703,
+        "sha256": "a9249fe0d7626f11b9d015dbd5e088c59b83184ffed44ecd47aed361f2d63a2f"
+      },
+      {
+        "path": "revisione/1.8.16/esiti-richieste.md",
+        "bytes": 26927,
+        "sha256": "e58b431542b82412dd1c1cf7a4542eb4d513bde329cd56edac4826897af01e2c"
+      },
+      {
+        "path": "revisione/1.8.16/esiti-richieste.csv",
+        "bytes": 24959,
+        "sha256": "260fac18d11466b96d1e0813da0f5ad340db94850219a9365d9447896ed4235f"
+      },
+      {
+        "path": "revisione/1.8.16/confronto-importi.json",
+        "bytes": 28558,
+        "sha256": "8981b49a33419cb9c93ceebd099017475411fe9ae75d259d7efb62307cc56526"
+      },
+      {
+        "path": "revisione/1.8.16/confronto-importi.csv",
+        "bytes": 5869,
+        "sha256": "551f9f9f20a8b34b4af68e790c7e3408b4ce2b0b936d750c251d7ff26b44aa74"
+      },
+      {
+        "path": "revisione/1.8.16/invarianza-fuori-ambito.json",
+        "bytes": 54124,
+        "sha256": "a646afa0e0f552a33e02097f304414afc152da7dc5ce437af860aff97f9385fb"
+      },
+      {
+        "path": "revisione/1.8.16/riepilogo.json",
+        "bytes": 646,
+        "sha256": "e7b832fa7fc2b718716cedc8a4dc1c70282f7d20538dbb95ce1a4a4ebbd09631"
+      },
+      {
+        "path": "revisione/1.8.16/fonti.json",
+        "bytes": 1965,
+        "sha256": "77622fe6e64451b1fa78f950e378a0aa8282658d4ccae26d9f8e529dd0256af7"
+      },
+      {
+        "path": "revisione/1.8.16/browser-check.json",
+        "bytes": 13944,
+        "sha256": "d23a483562b9411701035680c37fa33a35cc9b4f5bf6ce8c9891c43f7840c6eb"
+      },
+      {
+        "path": "revisione/1.8.16/migrazione-1.8.15-1.8.16.json",
+        "bytes": 8190,
+        "sha256": "28f1e66ac70c9b70bc65ee36f7d0cbf19478a858edf52bf28ee45f93dd2c21fb"
+      },
+      {
+        "path": "revisione/1.8.16/rendering-pdf.json",
+        "bytes": 292,
+        "sha256": "e870a7d579c9e502d52ae53eb82f0cd6349f6e9ea68851f9b0737104673d95f8"
+      },
+      {
+        "path": "revisione/1.8.16/G55-360.png",
+        "bytes": 368592,
+        "sha256": "c374165604ac7268127e53ae014d70086185afad73d2b875b7be5bdbf23ef70d"
+      },
+      {
+        "path": "revisione/1.8.16/G55-390.png",
+        "bytes": 368626,
+        "sha256": "158063fb6c45845a71455256572eb24be51e7bfdc054049566b5723b3ff83464"
+      },
+      {
+        "path": "revisione/1.8.16/R33-04-altro-comune-390.png",
+        "bytes": 521623,
+        "sha256": "0529ff2aac14cd4969a51892c8838938b06a3002ee2fe515d9fb9d688fa4afec"
+      },
+      {
+        "path": "revisione/1.8.16/anteprima-360.png",
+        "bytes": 409417,
+        "sha256": "f0457201bbb374f00e20d442ecebaba642fa230e83cc4624bd11234498fedcdf"
+      },
+      {
+        "path": "revisione/1.8.16/anteprima-390.png",
+        "bytes": 395132,
+        "sha256": "eeab88fd532d99a3cba2a6d9efb280b02b620d4bff50f4c8668d5d6ecd271974"
+      },
+      {
+        "path": "revisione/1.8.16/riapertura-offline-390.png",
+        "bytes": 365536,
+        "sha256": "beee6b20ef74b8f862ff8fb9370875a575b45fedab911a19e2b9e4cb4afa226a"
+      },
+      {
+        "path": "revisione/1.8.16/migrazione-offline-390.png",
+        "bytes": 365536,
+        "sha256": "beee6b20ef74b8f862ff8fb9370875a575b45fedab911a19e2b9e4cb4afa226a"
+      },
+      {
+        "path": "revisione/1.8.16/pdf-G55-Taxi.png",
+        "bytes": 126856,
+        "sha256": "5435816cb27d857ded64975f62245127bbef8f140710a0640b40420187a59833"
+      },
+      {
+        "path": "revisione/1.8.16/pdf-I04-NCC.png",
+        "bytes": 191041,
+        "sha256": "bbae0545952d853cdf158f4387d78b5d15cd5320bcceb381b057d2f7db9850b7"
+      },
+      {
+        "path": "revisione/1.8.16/pdf-R33-04-NCC.png",
+        "bytes": 252109,
+        "sha256": "c8672c59cec25f5bc087ee0aa223e0d956e36008b3c542a82298a825a94dcd87"
+      },
+      {
+        "path": "revisione/1.8.16/pubblicazione.json",
+        "bytes": 60604,
+        "sha256": "bd36c0fc74b51592ef2bc85562057530c1fdc8e832a66e57500c40fd15396389"
+      },
+      {
+        "path": "RAPPORTO_REVISIONE_1.8.17.md",
+        "bytes": 7112,
+        "sha256": "b1822f57d2480f07c73dbfeef32bc135b8dfefa0e00de019ac47f67731fb0b31"
+      },
+      {
+        "path": "revisione/1.8.17/anteprima.html",
+        "bytes": 1760,
+        "sha256": "f2d24f8d4a23619325a36c3196dff61807782a13645abc4d83c424a21d9643a1"
+      },
+      {
+        "path": "revisione/1.8.17/verifica-invarianza.json",
+        "bytes": 1198,
+        "sha256": "53493385ae39469b0d1f88b77941d2511ca38e2c0e1b835826775d39302d2c03"
+      },
+      {
+        "path": "revisione/1.8.17/browser-check.json",
+        "bytes": 11539,
+        "sha256": "36f82691a21412c7434b0f41ffcedfeee2240a351810e6a1d03c336b6899d58b"
+      },
+      {
+        "path": "revisione/1.8.17/intestazione-360.png",
+        "bytes": 132476,
+        "sha256": "e516bfce4eb1e0154317bd751d4995f01bea172c6034e78f19ac632df3601442"
+      },
+      {
+        "path": "revisione/1.8.17/intestazione-390.png",
+        "bytes": 138998,
+        "sha256": "0a8957947a229e2dbcb12ee9b1c5dc73a725f00bc24ffc1507a8d7ea7d7a3eca"
+      },
+      {
+        "path": "revisione/1.8.17/intestazione-desktop.png",
+        "bytes": 287967,
+        "sha256": "e808273706bc764d2a68c2acbff5e49631825f2a86dc3f75f5a0fc5ae1de529c"
+      },
+      {
+        "path": "revisione/1.8.17/G55-360.png",
+        "bytes": 379880,
+        "sha256": "1ea390d0b0aa84b29dff34b327fc720477c26b30c66df75f29687520b3cb9fb5"
+      },
+      {
+        "path": "revisione/1.8.17/G55-390.png",
+        "bytes": 383223,
+        "sha256": "96ec4ae83c18835bb356c02f7fb1cca63ff98ae0d8d9bfc54a9d285867cb0ebb"
+      },
+      {
+        "path": "revisione/1.8.17/copertina-pdf.png",
+        "bytes": 184707,
+        "sha256": "2c9437c2866460efbfca128fedb704e30a6f75fc668da4305eead58f229cf098"
+      },
+      {
+        "path": "revisione/1.8.17/G55-pdf.png",
+        "bytes": 124689,
+        "sha256": "4f630a4cf6144ac872982eebccad638718a392a7c1c761624fcee780a769ffb6"
+      },
+      {
+        "path": "revisione/1.8.17/pubblicazione.json",
+        "bytes": 78874,
+        "sha256": "a617c0a2a8d0ea7d3c3343b010287140556db10081d27fadec5a6c314e7de6c8"
+      },
+      {
+        "path": "RAPPORTO_REVISIONE_1.8.18.md",
+        "bytes": 4686,
+        "sha256": "62bcf07731611d10bf7a8430dd3662992f00a4c7b349f840243e4960353e0f0e"
+      },
+      {
+        "path": "revisione/1.8.18/anteprima.html",
+        "bytes": 1518,
+        "sha256": "154df935348924105e4a1e230bfea16b6c4e9bdc3048d98f3a92d0520e68f1a5"
+      },
+      {
+        "path": "revisione/1.8.18/verifica-invarianza.json",
+        "bytes": 1152,
+        "sha256": "eb3bffaa314f6638e19ccda1969da25e3de21d2d4dbb293962e2780722724d4a"
+      },
+      {
+        "path": "revisione/1.8.18/browser-check.json",
+        "bytes": 11509,
+        "sha256": "d659176e8a08d346d8874338bc4f034514f242fa74021204263fff811f554ae0"
+      },
+      {
+        "path": "revisione/1.8.18/intestazione-360.png",
+        "bytes": 123189,
+        "sha256": "b743ddfa7c886dbce996b6140cc210b1658b9e92af8f595ce8f500ee9d0c708b"
+      },
+      {
+        "path": "revisione/1.8.18/intestazione-390.png",
+        "bytes": 128017,
+        "sha256": "de7d9d772e2ca03d20abcaa0e6c46eff04bd30af87534f76f1546889967094ba"
+      },
+      {
+        "path": "revisione/1.8.18/copertina-pdf.png",
+        "bytes": 164229,
+        "sha256": "2fc1ebb10971a528ddb09df7588c4c24fc8d35da8770ea8e03711df5357744c6"
+      },
+      {
+        "path": "revisione/1.8.18/integrita-originali.json",
+        "bytes": 213,
+        "sha256": "099f9d0941290a5ecbf32444cc3e3bffa66656db8e1a7eb82d83de294179f904"
+      }
+    ],
+    "pdf": {
+      "version": "7.20",
+      "pages": 193,
+      "indexDestinations": 172,
+      "sha256": "9375f39e71b1e2a4df638e815bbaa3c3bb5bdd541168cb79550ea4be70efa5ad",
+      "bytes": 5825414,
+      "allPageTextsIdentical": true
+    },
+    "mobile": [
+      {
+        "width": 360,
+        "cards": 172,
+        "copies": 171,
+        "header": {
+          "logos": [
+            {
+              "id": "turisticaLogo",
+              "loaded": true,
+              "fit": "contain",
+              "naturalWidth": 1458,
+              "naturalHeight": 1536,
+              "width": 76.09375,
+              "height": 100,
+              "left": 16,
+              "right": 92.09375
+            },
+            {
+              "id": "csaLogo",
+              "loaded": true,
+              "fit": "contain",
+              "naturalWidth": 1146,
+              "naturalHeight": 752,
+              "width": 158.484375,
+              "height": 104,
+              "left": 100.75,
+              "right": 259.234375
+            },
+            {
+              "id": "poliziaLogo",
+              "loaded": true,
+              "fit": "contain",
+              "naturalWidth": 1183,
+              "naturalHeight": 1330,
+              "width": 76.109375,
+              "height": 104,
+              "left": 267.890625,
+              "right": 344
+            }
+          ],
+          "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Sottotenente Pasquale D’AscoliPolizia Turistica",
+          "support": "Con il sostegno e la promozione del CSA — Città Metropolitana di Napoli",
+          "supportFont": 13
+        },
+        "overflow": false
+      },
+      {
+        "width": 390,
+        "cards": 172,
+        "copies": 171,
+        "header": {
+          "logos": [
+            {
+              "id": "turisticaLogo",
+              "loaded": true,
+              "fit": "contain",
+              "naturalWidth": 1458,
+              "naturalHeight": 1536,
+              "width": 83.40625,
+              "height": 100,
+              "left": 16,
+              "right": 99.40625
+            },
+            {
+              "id": "csaLogo",
+              "loaded": true,
+              "fit": "contain",
+              "naturalWidth": 1146,
+              "naturalHeight": 752,
+              "width": 158.484375,
+              "height": 104,
+              "left": 115.75,
+              "right": 274.234375
+            },
+            {
+              "id": "poliziaLogo",
+              "loaded": true,
+              "fit": "contain",
+              "naturalWidth": 1183,
+              "naturalHeight": 1330,
+              "width": 83.40625,
+              "height": 104,
+              "left": 290.578125,
+              "right": 373.984375
+            }
+          ],
+          "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Sottotenente Pasquale D’AscoliPolizia Turistica",
+          "support": "Con il sostegno e la promozione del CSA — Città Metropolitana di Napoli",
+          "supportFont": 13
+        },
+        "overflow": false
+      }
+    ],
+    "choices": [
+      {
+        "service": "Taxi",
+        "code": "G55",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G46",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G46",
+        "choice": 1,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G46",
+        "choice": 2,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G47",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G48",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G48",
+        "choice": 1,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G48",
+        "choice": 2,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "I09",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R14",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R14",
+        "choice": 1,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R14",
+        "choice": 2,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R15",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R20",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G10",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G11",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G12",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G12",
+        "choice": 1,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G13",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G14",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G28-02",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G28-04",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G32",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G44",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "G44",
+        "choice": 1,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R02",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R03",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R05",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R06",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R22",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R23",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R24",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R30",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R35",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R35",
+        "choice": 1,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R37",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "Taxi",
+        "code": "R38",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "G10",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "G11",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "G12",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "G12",
+        "choice": 1,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "G13",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "G14",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "G32",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "G32",
+        "choice": 1,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "G44",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "I06",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "R02",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "R03",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "R03",
+        "choice": 1,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "R05",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "R06",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "R22",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "R23",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "R24",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "R30",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "I04",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "I04",
+        "choice": 1,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "I04",
+        "choice": 2,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "I04",
+        "choice": 3,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "I05",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "I05",
+        "choice": 1,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "R04",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "R33-01",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "R33-02",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "R33-03",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      },
+      {
+        "service": "NCC",
+        "code": "R33-04",
+        "choice": 0,
+        "table": true,
+        "copy": true,
+        "attestations": true,
+        "reset": true
+      }
+    ],
+    "napoliAndIndependentCds": true,
+    "search": true,
+    "G55TitleSearchAndIndex": true,
+    "previewHtmlNavigation": true,
+    "contentChecksResumed": {
+      "at": "2026-11-20T14:43:25.297Z",
+      "reason": "Esiti già registrati sulla medesima build e sugli stessi file, SHA nuovamente confrontati",
+      "jsErrorScope": "Le nuove prove osservano riapertura, controlli ripresi e prima installazione/offline"
+    },
+    "privatePathRetries": [
+      {
+        "path": "revisione/1.8.17/stato-iniziale.json",
+        "firstStatus": 503,
+        "retryStatus": 503
+      },
+      {
+        "path": "revisione/1.8.17/stato-iniziale.json?rev=old",
+        "firstStatus": 503,
+        "retryStatus": 503
+      },
+      {
+        "path": "revisione/1.8.17/fonti/CDS85.txt",
+        "firstStatus": 503,
+        "retryStatus": 503
+      },
+      {
+        "path": "revisione/1.8.17/fonti/CDS85.txt?rev=old",
+        "firstStatus": 503,
+        "retryStatus": 404
+      },
+      {
+        "path": "revisione/1.8.18/pre-pubblicazione/package.json",
+        "firstStatus": 503,
+        "retryStatus": 404
+      },
+      {
+        "path": "allegati/EGAF_Art85_originale.txt",
+        "firstStatus": 503,
+        "retryStatus": 503
+      },
+      {
+        "path": "allegati/EGAF_Art85_originale.txt?rev=old",
+        "firstStatus": 503,
+        "retryStatus": 503
+      },
+      {
+        "path": "allegati/EGAF_Art86_originale.pdf",
+        "firstStatus": 503,
+        "retryStatus": 404
+      },
+      {
+        "path": "revisione/1.8.6/fonti/EGAF85-testo-fornito.txt",
+        "firstStatus": 503,
+        "retryStatus": 503
+      },
+      {
+        "path": "revisione/1.8.6/fonti/EGAF85-testo-fornito.txt?rev=old",
+        "firstStatus": 503,
+        "retryStatus": 503
+      },
+      {
+        "path": "Revisione ultime schede ncc e taxi.txt",
+        "firstStatus": 503,
+        "retryStatus": 503
+      },
+      {
+        "path": "revisione/1.8.18/prima-viste.json",
+        "firstStatus": 503,
+        "retryStatus": 404
+      },
+      {
+        "path": "revisione/1.8.18/pre-pubblicazione/index.html",
+        "firstStatus": 503,
+        "retryStatus": 404
+      },
+      {
+        "path": "revisione/1.8.18/base-1.8.17/index.html",
+        "firstStatus": 503,
+        "retryStatus": 404
+      },
+      {
+        "path": "verbale_cartaceo.jpg",
+        "firstStatus": 503,
+        "retryStatus": 404
+      },
+      {
+        "path": "diciture prontuario seconda parte.txt",
+        "firstStatus": 503,
+        "retryStatus": 404
+      }
+    ],
+    "privateHttpChecks": [
+      {
+        "path": "revisione/1.8.17/stato-iniziale.json",
+        "status": 404,
+        "initialStatus": 503,
+        "recheckedAt": "2026-11-20T14:43:44.085Z"
+      },
+      {
+        "path": "revisione/1.8.17/stato-iniziale.json?rev=old",
+        "status": 404,
+        "initialStatus": 503,
+        "recheckedAt": "2026-11-20T14:43:44.114Z"
+      },
+      {
+        "path": "revisione/1.8.17/fonti/CDS85.txt",
+        "status": 404,
+        "initialStatus": 503,
+        "recheckedAt": "2026-11-20T14:43:44.141Z"
+      },
+      {
+        "path": "revisione/1.8.17/fonti/CDS85.txt?rev=old",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/pre-pubblicazione/package.json",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/pre-pubblicazione/package.json?rev=old",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/base-1.8.17/data.json",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/base-1.8.17/data.json?rev=old",
+        "status": 404
+      },
+      {
+        "path": "allegati/EGAF_Art85_originale.txt",
+        "status": 404,
+        "initialStatus": 503,
+        "recheckedAt": "2026-11-20T14:43:44.294Z",
+        "curlRecheckStatus": 404
+      },
+      {
+        "path": "allegati/EGAF_Art85_originale.txt?rev=old",
+        "status": 404,
+        "initialStatus": 503,
+        "recheckedAt": "2026-11-20T14:43:44.433Z"
+      },
+      {
+        "path": "allegati/EGAF_Art86_provenienza.txt",
+        "status": 404
+      },
+      {
+        "path": "allegati/EGAF_Art86_provenienza.txt?rev=old",
+        "status": 404
+      },
+      {
+        "path": "allegati/EGAF_Art86_originale.pdf",
+        "status": 404
+      },
+      {
+        "path": "allegati/EGAF_Art86_originale.pdf?rev=old",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.6/fonti/EGAF85-testo-fornito.txt",
+        "status": 503,
+        "initialStatus": 503,
+        "recheckedAt": "2026-11-20T14:43:44.570Z",
+        "cacheBypassCheck": {
+          "url": "revisione/1.8.6/fonti/EGAF85-testo-fornito.txt?_releasecheck=1795185927826260258",
+          "status": 404,
+          "checkedAt": "2026-11-20T14:45:27.902709+00:00"
+        }
+      },
+      {
+        "path": "revisione/1.8.6/fonti/EGAF85-testo-fornito.txt?rev=old",
+        "status": 404,
+        "initialStatus": 503,
+        "recheckedAt": "2026-11-20T14:43:44.703Z",
+        "curlRecheckStatus": 404
+      },
+      {
+        "path": "Revisione ultime schede ncc e taxi.txt",
+        "status": 503,
+        "initialStatus": 503,
+        "recheckedAt": "2026-11-20T14:43:44.851Z",
+        "cacheBypassCheck": {
+          "url": "Revisione ultime schede ncc e taxi.txt?_releasecheck=1795185927902887337",
+          "status": 503,
+          "checkedAt": "2026-11-20T14:45:28.128102+00:00"
+        }
+      },
+      {
+        "path": "Revisione ultime schede ncc e taxi.txt?rev=old",
+        "status": 404
+      },
+      {
+        "path": "Revisione schede ncc prima parte.txt",
+        "status": 404
+      },
+      {
+        "path": "Revisione schede ncc prima parte.txt?rev=old",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/stato-iniziale.json",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/stato-iniziale.json?rev=old",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/prima-viste.json",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/prima-viste.json?rev=old",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/prima-decisioni-autore/viste.json",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/prima-decisioni-autore/viste.json?rev=old",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/pre-pubblicazione/index.html",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/pre-pubblicazione/index.html?rev=old",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/base-1.8.17/index.html",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/base-1.8.17/index.html?rev=old",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/fonti/CDS85.txt",
+        "status": 404
+      },
+      {
+        "path": "revisione/1.8.18/fonti/CDS85.txt?rev=old",
+        "status": 404
+      },
+      {
+        "path": "verbale_cartaceo.jpg",
+        "status": 404
+      },
+      {
+        "path": "verbale_cartaceo.jpg?rev=old",
+        "status": 404
+      },
+      {
+        "path": "diciture prontuario seconda parte.txt",
+        "status": 404
+      },
+      {
+        "path": "diciture prontuario seconda parte.txt?rev=old",
+        "status": 404
+      },
+      {
+        "path": "revisione/fonti-integrative/WhatsApp Image 2026-10-21 at 23.20.24.jpeg",
+        "status": 404
+      },
+      {
+        "path": "revisione/fonti-integrative/WhatsApp Image 2026-10-21 at 23.20.24.jpeg?rev=old",
+        "status": 404
+      }
+    ],
+    "privatePathsBlocked": 36,
+    "upgradedReopenedOffline": {
+      "version": "1.8.18",
+      "build": "5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899",
+      "docs": [
+        {
+          "path": "allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "status": 200,
+          "sha256": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0"
+        },
+        {
+          "path": "allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "status": 200,
+          "sha256": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a"
+        },
+        {
+          "path": "allegati/Prontuario_Taxi_NCC_Napoli.pdf",
+          "status": 200,
+          "sha256": "9375f39e71b1e2a4df638e815bbaa3c3bb5bdd541168cb79550ea4be70efa5ad"
+        },
+        {
+          "path": "allegati/Tariffario_Taxi_2024.pdf",
+          "status": 200,
+          "sha256": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055"
+        },
+        {
+          "path": "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "status": 200,
+          "sha256": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a"
+        },
+        {
+          "path": "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "status": 200,
+          "sha256": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18"
+        },
+        {
+          "path": "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "status": 200,
+          "sha256": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5"
+        },
+        {
+          "path": "allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "status": 200,
+          "sha256": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205"
+        },
+        {
+          "path": "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+          "status": 200,
+          "sha256": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89"
+        },
+        {
+          "path": "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "status": 200,
+          "sha256": "4e44f34b40802ee9837f5cf07f38e09a950a6ff93ae447072cda26f289543c03"
+        },
+        {
+          "path": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "status": 200,
+          "sha256": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184"
+        },
+        {
+          "path": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "status": 200,
+          "sha256": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e"
+        },
+        {
+          "path": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "status": 200,
+          "sha256": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042"
+        },
+        {
+          "path": "allegati/OS835_2014_indicazioni_autore.txt",
+          "status": 200,
+          "sha256": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd"
+        },
+        {
+          "path": "allegati/Fonti_revisione_corrente_1.8.16.txt",
+          "status": 200,
+          "sha256": "52cdd57c6f291521b0894c9bd180c809765e965b48bf970367374fc60364860f"
+        },
+        {
+          "path": "allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "status": 200,
+          "sha256": "95fafdb1d658d65e02ff446bb0f3f28975582f590319e48d1c17829571ab1800"
+        },
+        {
+          "path": "allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+          "status": 200,
+          "sha256": "3d5e481d98b789b908ab5ff55a5337b7e7e48dab47bb58bfcfb517385d6bfec2"
+        }
+      ],
+      "range": {
+        "status": 206,
+        "length": 100
+      },
+      "excluded": [
+        {
+          "path": "allegati/EGAF_Art85_originale.txt",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art85_originale.txt?rev=old",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art85_originale.txt?network=1",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art86_provenienza.txt",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art86_provenienza.txt?rev=old",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art86_provenienza.txt?network=1",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art86_originale.pdf",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art86_originale.pdf?rev=old",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art86_originale.pdf?network=1",
+          "status": 410
+        }
+      ],
+      "searchCodes": [
+        "G55"
+      ],
+      "logo": {
+        "status": 200,
+        "sha256": "1c1453f577d4bde9cc224209c399a7eab3d2c4d9e94fdd0e439c54cd41bbe82a",
+        "loaded": true
+      }
+    },
+    "finalCache": [
+      {
+        "name": "prontuario-docs-7d86f4f72e2e1c93b59b535c1849085aa900e4ed466a6e9828100726eaedabab",
+        "urls": [
+          "/prontuario-taxi-ncc-napoli/allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "/prontuario-taxi-ncc-napoli/allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Fonti_revisione_corrente_1.8.16.txt",
+          "/prontuario-taxi-ncc-napoli/allegati/OS835_2014_indicazioni_autore.txt",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Tariffario_Taxi_2024.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Prontuario_Taxi_NCC_Napoli.pdf"
+        ]
+      },
+      {
+        "name": "prontuario-core-5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899",
+        "urls": [
+          "/prontuario-taxi-ncc-napoli/manifest.webmanifest",
+          "/prontuario-taxi-ncc-napoli/assets/polizia-locale-napoli.png",
+          "/prontuario-taxi-ncc-napoli/assets/polizia.png",
+          "/prontuario-taxi-ncc-napoli/assets/logo-polizia-turistica.png",
+          "/prontuario-taxi-ncc-napoli/assets/icon-192.png",
+          "/prontuario-taxi-ncc-napoli/assets/icon-512.png",
+          "/prontuario-taxi-ncc-napoli/assets/icon-maskable-192.png",
+          "/prontuario-taxi-ncc-napoli/assets/icon-maskable-512.png",
+          "/prontuario-taxi-ncc-napoli/assets/apple-touch-icon.png",
+          "/prontuario-taxi-ncc-napoli/assets/logo-csa-nuovo.jpeg",
+          "/prontuario-taxi-ncc-napoli/assets/favicon.ico",
+          "/prontuario-taxi-ncc-napoli/assets/favicon-16.png",
+          "/prontuario-taxi-ncc-napoli/assets/favicon-32.png",
+          "/prontuario-taxi-ncc-napoli/assets/static-demo.css",
+          "/prontuario-taxi-ncc-napoli/assets/favicon-48.png",
+          "/prontuario-taxi-ncc-napoli/scripts/static-demos.js",
+          "/prontuario-taxi-ncc-napoli/scripts/static-field-suggestions.js",
+          "/prontuario-taxi-ncc-napoli/scripts/operative-rules.js",
+          "/prontuario-taxi-ncc-napoli/scripts/static-demo-ui.js",
+          "/prontuario-taxi-ncc-napoli/scripts/taxi-collettivo.js",
+          "/prontuario-taxi-ncc-napoli/scripts/static-catalog.js",
+          "/prontuario-taxi-ncc-napoli/scripts/static-catalog-ui.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-g01-g43.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-seconda-parte.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-pausa-caldo.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-terza.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-ncc-prima.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-equini-835.js",
+          "/prontuario-taxi-ncc-napoli/scripts/revision-ultime.js",
+          "/prontuario-taxi-ncc-napoli/index.html"
+        ]
+      },
+      {
+        "name": "prontuario-docs-5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899",
+        "urls": [
+          "/prontuario-taxi-ncc-napoli/allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "/prontuario-taxi-ncc-napoli/allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Fonti_revisione_corrente_1.8.16.txt",
+          "/prontuario-taxi-ncc-napoli/allegati/OS835_2014_indicazioni_autore.txt",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "/prontuario-taxi-ncc-napoli/revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Tariffario_Taxi_2024.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+          "/prontuario-taxi-ncc-napoli/allegati/Prontuario_Taxi_NCC_Napoli.pdf"
+        ]
+      }
+    ],
+    "freshInstallReopenedOffline": {
+      "version": "1.8.18",
+      "build": "5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899",
+      "docs": [
+        {
+          "path": "allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "status": 200,
+          "sha256": "fb2fbc7f2367e0cd06f0e9ce4bfa28d1489b89482d15ace74055ea673a5616d0"
+        },
+        {
+          "path": "allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "status": 200,
+          "sha256": "0c7a2c95204eaee3f9d6c2c2b12c3fd54a87189225b68e2d04e3d1d0317c649a"
+        },
+        {
+          "path": "allegati/Prontuario_Taxi_NCC_Napoli.pdf",
+          "status": 200,
+          "sha256": "9375f39e71b1e2a4df638e815bbaa3c3bb5bdd541168cb79550ea4be70efa5ad"
+        },
+        {
+          "path": "allegati/Tariffario_Taxi_2024.pdf",
+          "status": 200,
+          "sha256": "1035beb038019089dd94a323f105af1dd39ffba115f71833607ed27bce8ae055"
+        },
+        {
+          "path": "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "status": 200,
+          "sha256": "7b00c00d07c3ea75228137861beb64af43d884ff87a3d851017dd56789b3f13a"
+        },
+        {
+          "path": "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "status": 200,
+          "sha256": "91ae0ba4c7c0cae01dc3717222c915ff140460ed12f7b67d425e36737af4cd18"
+        },
+        {
+          "path": "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "status": 200,
+          "sha256": "e8aa118e80ee1077305e3a6ec853ecf8c22a5e5497ad50b6cb1a39ae77b926d5"
+        },
+        {
+          "path": "allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "status": 200,
+          "sha256": "af876392ca160bcafda5f9f92b1b7779b240b0dfeda6a5d902410d90f6a82205"
+        },
+        {
+          "path": "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+          "status": 200,
+          "sha256": "6d1ef8a0d1f2fe597918543aeeeef729c0d564a980c563ddd3946d132130ed89"
+        },
+        {
+          "path": "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "status": 200,
+          "sha256": "4e44f34b40802ee9837f5cf07f38e09a950a6ff93ae447072cda26f289543c03"
+        },
+        {
+          "path": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "status": 200,
+          "sha256": "11abbfa5e497b90509cf8db743fc0919a0ac7feebde3677c72bc5ac020599184"
+        },
+        {
+          "path": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "status": 200,
+          "sha256": "f4a27bade2bdbf3b8babe136d970db03d34c05ec38d48a963472bdad5603ad3e"
+        },
+        {
+          "path": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "status": 200,
+          "sha256": "0156f407d03ce1c90f94ceb9fef73a6c56ff34e6b6ccc8fefba4725fd513a042"
+        },
+        {
+          "path": "allegati/OS835_2014_indicazioni_autore.txt",
+          "status": 200,
+          "sha256": "3fa0b97237b237fe42aafe975e69180da81e865cb182f53c486cc54276fe91cd"
+        },
+        {
+          "path": "allegati/Fonti_revisione_corrente_1.8.16.txt",
+          "status": 200,
+          "sha256": "52cdd57c6f291521b0894c9bd180c809765e965b48bf970367374fc60364860f"
+        },
+        {
+          "path": "allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "status": 200,
+          "sha256": "95fafdb1d658d65e02ff446bb0f3f28975582f590319e48d1c17829571ab1800"
+        },
+        {
+          "path": "allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+          "status": 200,
+          "sha256": "3d5e481d98b789b908ab5ff55a5337b7e7e48dab47bb58bfcfb517385d6bfec2"
+        }
+      ],
+      "range": {
+        "status": 206,
+        "length": 100
+      },
+      "excluded": [
+        {
+          "path": "allegati/EGAF_Art85_originale.txt",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art85_originale.txt?rev=old",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art85_originale.txt?network=1",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art86_provenienza.txt",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art86_provenienza.txt?rev=old",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art86_provenienza.txt?network=1",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art86_originale.pdf",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art86_originale.pdf?rev=old",
+          "status": 410
+        },
+        {
+          "path": "allegati/EGAF_Art86_originale.pdf?network=1",
+          "status": 410
+        }
+      ],
+      "searchCodes": [
+        "G55"
+      ],
+      "logo": {
+        "status": 200,
+        "sha256": "1c1453f577d4bde9cc224209c399a7eab3d2c4d9e94fdd0e439c54cd41bbe82a",
+        "loaded": true
+      },
+      "copy": true
+    },
+    "jsErrors": [],
+    "completedAt": "2026-11-20T14:43:43.979Z",
+    "saveRetries": [
+      {
+        "checkedAt": "2026-11-20T14:43:37.251Z",
+        "source": "allegati/Prontuario_Taxi_NCC_Napoli.pdf",
+        "attempt": 1,
+        "state": "Salvataggio non riuscito: sito non raggiungibile o spazio insufficiente. Riprova quando il sito è raggiungibile."
+      }
+    ],
+    "privateHttpPending": [
+      {
+        "path": "Revisione ultime schede ncc e taxi.txt",
+        "status": 503,
+        "initialStatus": 503,
+        "recheckedAt": "2026-11-20T14:43:44.851Z",
+        "cacheBypassCheck": {
+          "url": "Revisione ultime schede ncc e taxi.txt?_releasecheck=1795185927902887337",
+          "status": 503,
+          "checkedAt": "2026-11-20T14:45:28.128102+00:00"
+        }
+      }
+    ],
+    "privatePathsVerified404WithCacheBypass": 1
+  },
+  "executions": {
+    "npmTestFinalLocalExit": 0,
+    "gitDiffCheckAggregateExit": 0,
+    "publicRuntimeChecks": "PASS",
+    "publicVerifierExit": 1,
+    "publicVerifierFailure": "Dopo i ricontrolli indipendenti resta non superata l’asserzione 404 dell’URL del TXT di lavoro (HTTP 503 GitHub); tutti gli esiti richiesti PWA/PDF/offline sono registrati.",
+    "publicPackageExclusion": "PASS — lista ammessa, manifest e impronte"
+  }
+}

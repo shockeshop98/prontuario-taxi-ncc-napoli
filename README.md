@@ -1,6 +1,8 @@
-# PWA 1.8.18 / PDF 7.20 — sostituzione logo CSA
+# PWA 1.8.18 / PDF 7.20 pubblicata — sostituzione logo CSA
 
 Sostituito soltanto il logo CSA con assets/logo-csa-nuovo.jpeg, intero e proporzionato, al centro tra Polizia Turistica e U.O. San Lorenzo. Crediti, dicitura di sostegno, contenuti delle 172 schede, importi e formule invariati. 193 pagine PDF e 172 destinazioni. [Anteprima](revisione/1.8.18/anteprima.html) · [Rapporto](RAPPORTO_REVISIONE_1.8.18.md) · [PDF 7.20](allegati/Prontuario_Taxi_NCC_Napoli.pdf). **Salvare nuovamente il PDF nella PWA per usarlo offline.**
+
+Deploy e verifiche pubbliche riusciti: nuovo logo, mobile 360/390 px, PDF identico al locale e riapertura offline dopo aggiornamento dalla vera 1.8.17. [Esiti pubblici](revisione/1.8.18/pubblicazione.json).
 
 La documentazione precedente è conservata di seguito.
 
