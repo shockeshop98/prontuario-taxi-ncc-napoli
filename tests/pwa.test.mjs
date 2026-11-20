@@ -51,8 +51,15 @@ const caches = {
   async delete(name) { return entries.delete(name); }
 };
 let online = true;
-const networkFetch = async request => {
-  if (!online) throw Error('offline');
+let staleHttpIndex = false;
+const networkFetch = async (request, options = {}) => {
+  const url = new URL(request.url || request.href || request, origin);
+  if (!online) {
+    if (staleHttpIndex && request.mode === 'navigate' && url.pathname === new URL(origin).pathname && !url.search && options.cache !== 'no-store') {
+      return new Response('<h1>Vecchia pagina 1.8.16 nella cache HTTP</h1>', {status: 200, headers: {'Content-Type': 'text/html'}});
+    }
+    throw Error('offline');
+  }
   const path = new URL(request.url || request.href || request, origin).pathname.slice(new URL(origin).pathname.length) || 'index.html';
   try {
     const data = await readFile(join(root, path));
@@ -118,6 +125,12 @@ online = false;
 const offlinePage = await routed('?offline=1', {mode: 'navigate'});
 assert.equal(offlinePage.status, 200);
 assert.match(await offlinePage.text(), /Cerca una situazione/);
+staleHttpIndex = true;
+const coldOfflinePage = await routed('', {mode: 'navigate'});
+const coldOfflineHtml = await coldOfflinePage.text();
+assert.ok(coldOfflineHtml.includes(`BUILD_ID='${version.build_id}'`), 'La riapertura offline deve usare il core aggiornato anche con HTML precedente nella cache HTTP');
+assert.doesNotMatch(coldOfflineHtml, /Vecchia pagina 1\.8\.16 nella cache HTTP/);
+staleHttpIndex = false;
 
 await assert.rejects(routed(`${changedDoc}?rev=${version.build_id}`));
 await assert.rejects(routed(`${changedDoc}?rev=${version.build_id}`, {mode: 'navigate'}));

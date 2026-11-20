@@ -1,3 +1,7 @@
+# Correzione tecnica della riapertura offline
+
+La verifica pubblica ha trovato un caso non rilevato sul server locale: il worker attivo e il core erano aggiornati, ma fetch della navigazione poteva restituire l’HTML precedente dalla cache HTTP del browser. La richiesta HTML ora usa cache no-store; offline interviene il core installato. Aggiunta la regressione del caso e ripetuto npm test, PASS. Nessuna modifica a PDF, importi, formule o contenuti editoriali. Nuova build `ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b`; verifica pubblica della correzione da completare dopo il deploy. La migrazione iniziale dalla vera 1.8.16, con 16 allegati invariati conservati, rimane registrata nel profilo di prova.
+
 # Pubblicazione autorizzata — PWA 1.8.17 / PDF 7.19
 
 L’autore ha autorizzato commit, push ordinario su main e deploy GitHub Pages dello stato locale verificato. Prima del commit: remoto allineato alla base aff1eff, npm test e git diff --check superati, 172 schede / 193 pagine / 172 destinazioni confermate. PWA, PDF, importi e formule coincidono con la consegna locale. Il confronto automatico di npm test è ora in sola lettura per non rigenerare il rapporto distribuito durante CI. La verifica pubblica sarà registrata dopo il deploy, usando la vera installazione pubblica 1.8.16 preparata prima del push con 17 fonti salvate e impronte corrispondenti al commit pubblicato.

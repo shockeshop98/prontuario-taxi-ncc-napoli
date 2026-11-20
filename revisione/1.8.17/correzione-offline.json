@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-11-20T13:05:32.117Z",
+  "issue": "Il worker aggiornato restituiva da fetch(request) un HTML 1.8.16 rimasto nella cache HTTP durante una navigazione offline senza rev.",
+  "observedHtmlBuild": "a357d917706fb820a6afb7d37075a83e6eea7145a056ea07bfd5a7de3c27e2fe",
+  "observedActiveWorker": "b196457a2505935c6401de705a77d378b2af23570a0f691f50e8729fac35f5bb",
+  "observedCoreHtmlVersion": "1.8.17",
+  "fix": "fetch(request, {cache: no-store}) nella sola navigazione HTML, con fallback al core installato quando offline",
+  "newBuild": "ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b",
+  "tests": {
+    "staleHttpIndexRegression": 0,
+    "npmTest": 0
+  },
+  "pdfSha256": "eb601d89c9c6cd4ce9a7f7a08202538a2c5cb0c192d05eff77fe2552395976a3",
+  "amountChanges": 0,
+  "formulaChanges": 0,
+  "editorialChangesAfterDelivery": 0,
+  "publicRetest": "Da completare dopo il deploy della correzione"
+}
