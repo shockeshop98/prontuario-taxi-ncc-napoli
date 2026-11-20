@@ -1,0 +1,343 @@
+{
+  "localOnly": true,
+  "checkedAt": "2026-11-20T12:34:18.101Z",
+  "build": "b196457a2505935c6401de705a77d378b2af23570a0f691f50e8729fac35f5bb",
+  "mobile": [
+    {
+      "width": 360,
+      "header": {
+        "overflow": false,
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "source": "assets/logo-polizia-turistica.png",
+            "loaded": true,
+            "naturalWidth": 1458,
+            "naturalHeight": 1536,
+            "width": 76.09375,
+            "height": 100,
+            "left": 16,
+            "right": 92.09375,
+            "centerY": 72,
+            "fit": "contain"
+          },
+          {
+            "id": "csaLogo",
+            "source": "assets/logo-csa-napoli.jpeg",
+            "loaded": true,
+            "naturalWidth": 267,
+            "naturalHeight": 100,
+            "width": 159.796875,
+            "height": 59.84375,
+            "left": 100.09375,
+            "right": 259.890625,
+            "centerY": 72,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "source": "assets/polizia.png",
+            "loaded": true,
+            "naturalWidth": 1183,
+            "naturalHeight": 1330,
+            "width": 76.109375,
+            "height": 104,
+            "left": 267.890625,
+            "right": 344,
+            "centerY": 72,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Sottotenente Pasquale D’AscoliPolizia Turistica",
+        "support": "Con il sostegno e la promozione del CSA — Città Metropolitana di Napoli",
+        "supportFont": 13
+      },
+      "cards": 172,
+      "copies": 171,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "header": {
+        "overflow": false,
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "source": "assets/logo-polizia-turistica.png",
+            "loaded": true,
+            "naturalWidth": 1458,
+            "naturalHeight": 1536,
+            "width": 83.40625,
+            "height": 100,
+            "left": 16,
+            "right": 99.40625,
+            "centerY": 72,
+            "fit": "contain"
+          },
+          {
+            "id": "csaLogo",
+            "source": "assets/logo-csa-napoli.jpeg",
+            "loaded": true,
+            "naturalWidth": 267,
+            "naturalHeight": 100,
+            "width": 175.171875,
+            "height": 65.59375,
+            "left": 107.40625,
+            "right": 282.578125,
+            "centerY": 72,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "source": "assets/polizia.png",
+            "loaded": true,
+            "naturalWidth": 1183,
+            "naturalHeight": 1330,
+            "width": 83.40625,
+            "height": 104,
+            "left": 290.578125,
+            "right": 373.984375,
+            "centerY": 72,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Sottotenente Pasquale D’AscoliPolizia Turistica",
+        "support": "Con il sostegno e la promozione del CSA — Città Metropolitana di Napoli",
+        "supportFont": 13
+      },
+      "cards": 172,
+      "copies": 171,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "desktop": {
+    "overflow": false,
+    "logos": [
+      {
+        "id": "turisticaLogo",
+        "source": "assets/logo-polizia-turistica.png",
+        "loaded": true,
+        "naturalWidth": 1458,
+        "naturalHeight": 1536,
+        "width": 127.3125,
+        "height": 138,
+        "left": 275,
+        "right": 402.3125,
+        "centerY": 96,
+        "fit": "contain"
+      },
+      {
+        "id": "csaLogo",
+        "source": "assets/logo-csa-napoli.jpeg",
+        "loaded": true,
+        "naturalWidth": 267,
+        "naturalHeight": 100,
+        "width": 267,
+        "height": 100,
+        "left": 416.484375,
+        "right": 683.484375,
+        "centerY": 96,
+        "fit": "contain"
+      },
+      {
+        "id": "poliziaLogo",
+        "source": "assets/polizia.png",
+        "loaded": true,
+        "naturalWidth": 1183,
+        "naturalHeight": 1330,
+        "width": 127.328125,
+        "height": 144,
+        "left": 697.671875,
+        "right": 825,
+        "centerY": 96,
+        "fit": "contain"
+      }
+    ],
+    "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Sottotenente Pasquale D’AscoliPolizia Turistica",
+    "support": "Con il sostegno e la promozione del CSA — Città Metropolitana di Napoli",
+    "supportFont": 14
+  },
+  "titleSearchIndexAndCard": true,
+  "renderedPdfPages": [
+    1,
+    51
+  ],
+  "preview": true,
+  "freshReopenedOffline": {
+    "version": "1.8.17",
+    "build": "b196457a2505935c6401de705a77d378b2af23570a0f691f50e8729fac35f5bb",
+    "pdfVersion": "7.19",
+    "logoStatus": 200,
+    "logoMime": "image/jpeg",
+    "logoSha256": "d391fb42e8a8aca7b828b763da1a75e89527d949b44c78d1a12da33d44ded663",
+    "pdfStatus": 200,
+    "pdfSha256": "eb601d89c9c6cd4ce9a7f7a08202538a2c5cb0c192d05eff77fe2552395976a3",
+    "excludedStatus": 410
+  },
+  "upgrade": {
+    "version": "1.8.17",
+    "build": "b196457a2505935c6401de705a77d378b2af23570a0f691f50e8729fac35f5bb",
+    "pdfVersion": "7.19",
+    "saved": [
+      {
+        "path": "allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Prontuario_GIT_Turistica_originale.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Prontuario_Taxi_NCC_Napoli.pdf",
+        "cached": false
+      },
+      {
+        "path": "allegati/Tariffario_Taxi_2024.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+        "cached": true
+      },
+      {
+        "path": "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+        "cached": true
+      },
+      {
+        "path": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+        "cached": true
+      },
+      {
+        "path": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/OS835_2014_indicazioni_autore.txt",
+        "cached": true
+      },
+      {
+        "path": "allegati/Fonti_revisione_corrente_1.8.16.txt",
+        "cached": true
+      },
+      {
+        "path": "allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+        "cached": true
+      },
+      {
+        "path": "allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+        "cached": true
+      }
+    ],
+    "inventory": [
+      {
+        "name": "prontuario-docs-a357d917706fb820a6afb7d37075a83e6eea7145a056ea07bfd5a7de3c27e2fe",
+        "paths": [
+          "/allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "/allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "/allegati/Tariffario_Taxi_2024.pdf",
+          "/allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "/allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "/allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "/allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "/allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+          "/revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "/allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "/revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "/revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "/allegati/OS835_2014_indicazioni_autore.txt",
+          "/allegati/Fonti_revisione_corrente_1.8.16.txt",
+          "/allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "/allegati/NCC_DD4_2026_vidimazione_originale.pdf"
+        ]
+      },
+      {
+        "name": "prontuario-core-b196457a2505935c6401de705a77d378b2af23570a0f691f50e8729fac35f5bb",
+        "paths": [
+          "/manifest.webmanifest",
+          "/assets/logo-polizia-turistica.png",
+          "/assets/logo-csa-napoli.jpeg",
+          "/assets/polizia.png",
+          "/assets/icon-192.png",
+          "/assets/polizia-locale-napoli.png",
+          "/assets/icon-512.png",
+          "/assets/icon-maskable-192.png",
+          "/assets/apple-touch-icon.png",
+          "/assets/icon-maskable-512.png",
+          "/assets/favicon-16.png",
+          "/assets/favicon.ico",
+          "/assets/favicon-48.png",
+          "/assets/favicon-32.png",
+          "/scripts/static-demos.js",
+          "/assets/static-demo.css",
+          "/scripts/operative-rules.js",
+          "/scripts/static-field-suggestions.js",
+          "/scripts/taxi-collettivo.js",
+          "/scripts/static-demo-ui.js",
+          "/scripts/static-catalog-ui.js",
+          "/scripts/static-catalog.js",
+          "/scripts/revision-seconda-parte.js",
+          "/scripts/revision-g01-g43.js",
+          "/scripts/revision-equini-835.js",
+          "/scripts/revision-pausa-caldo.js",
+          "/scripts/revision-ncc-prima.js",
+          "/scripts/revision-terza.js",
+          "/scripts/revision-ultime.js",
+          "/index.html"
+        ]
+      },
+      {
+        "name": "prontuario-docs-b196457a2505935c6401de705a77d378b2af23570a0f691f50e8729fac35f5bb",
+        "paths": [
+          "/allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "/allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+          "/allegati/Fonti_revisione_corrente_1.8.16.txt",
+          "/allegati/OS835_2014_indicazioni_autore.txt",
+          "/revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "/revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "/allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "/revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "/allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "/allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "/allegati/Tariffario_Taxi_2024.pdf",
+          "/allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "/allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "/allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "/allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "/allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf"
+        ]
+      }
+    ]
+  },
+  "upgradeReopenedOffline": {
+    "version": "1.8.17",
+    "build": "b196457a2505935c6401de705a77d378b2af23570a0f691f50e8729fac35f5bb",
+    "pdfVersion": "7.19",
+    "logoStatus": 200,
+    "logoMime": "image/jpeg",
+    "logoSha256": "d391fb42e8a8aca7b828b763da1a75e89527d949b44c78d1a12da33d44ded663",
+    "pdfStatus": 200,
+    "pdfSha256": "eb601d89c9c6cd4ce9a7f7a08202538a2c5cb0c192d05eff77fe2552395976a3",
+    "excludedStatus": 410
+  }
+}

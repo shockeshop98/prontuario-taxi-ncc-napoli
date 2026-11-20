@@ -1,3 +1,7 @@
+# Revisione locale 1.8.17 / PDF 7.19 — 20 novembre 2026
+
+[Anteprima](revisione/1.8.17/anteprima.html), [rapporto](RAPPORTO_REVISIONE_1.8.17.md), [PDF locale](allegati/Prontuario_Taxi_NCC_Napoli.pdf). Solo titolo G55, grado Sottotenente nei crediti e logo/dicitura CSA. 172 schede, 193 pagine, 172 destinazioni; importi, formule e tutti gli altri campi invariati. Logo originale conservato e disponibile offline. Nessun commit, push o deploy; lo stato pubblicato precedente e i relativi rapporti sono conservati di seguito.
+
 <!-- Pubblicata: PWA 1.8.16 / PDF 7.18, verificata 11 novembre 2026. -->
 # PWA 1.8.16 / PDF 7.18 pubblicata
 

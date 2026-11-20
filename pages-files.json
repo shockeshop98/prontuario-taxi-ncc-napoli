@@ -4,6 +4,7 @@
   "assets/polizia-locale-napoli.png",
   "assets/polizia.png",
   "assets/logo-polizia-turistica.png",
+  "assets/logo-csa-napoli.jpeg",
   "assets/icon-192.png",
   "assets/icon-512.png",
   "assets/icon-maskable-192.png",
@@ -70,5 +71,16 @@
   "revisione/1.8.16/pdf-G55-Taxi.png",
   "revisione/1.8.16/pdf-I04-NCC.png",
   "revisione/1.8.16/pdf-R33-04-NCC.png",
-  "revisione/1.8.16/pubblicazione.json"
+  "revisione/1.8.16/pubblicazione.json",
+  "RAPPORTO_REVISIONE_1.8.17.md",
+  "revisione/1.8.17/anteprima.html",
+  "revisione/1.8.17/verifica-invarianza.json",
+  "revisione/1.8.17/browser-check.json",
+  "revisione/1.8.17/intestazione-360.png",
+  "revisione/1.8.17/intestazione-390.png",
+  "revisione/1.8.17/intestazione-desktop.png",
+  "revisione/1.8.17/G55-360.png",
+  "revisione/1.8.17/G55-390.png",
+  "revisione/1.8.17/copertina-pdf.png",
+  "revisione/1.8.17/G55-pdf.png"
 ]

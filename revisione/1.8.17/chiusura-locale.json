@@ -1,0 +1,60 @@
+{
+  "status": "Revisione editoriale locale completata",
+  "checkedAt": "2026-11-20T12:42:36.284Z",
+  "pwa": "1.8.17",
+  "pdf": "7.19",
+  "build": "b196457a2505935c6401de705a77d378b2af23570a0f691f50e8729fac35f5bb",
+  "pdfSha256": "eb601d89c9c6cd4ce9a7f7a08202538a2c5cb0c192d05eff77fe2552395976a3",
+  "pdfBytes": 5800736,
+  "views": 172,
+  "pages": 193,
+  "destinations": 172,
+  "formulas": 171,
+  "sources": 17,
+  "G55": {
+    "code": "G55",
+    "title": "Sostava fuori dagli stalli autorizzati",
+    "pdfPage": 51,
+    "pdfIndexPage": 3,
+    "oldTitleAbsentFromCurrentPdf": true,
+    "allOtherFieldsUnchanged": true
+  },
+  "credits": "Con la collaborazione del Sottotenente Pasquale D’Ascoli · Polizia Turistica",
+  "logo": {
+    "originalSha256": "d391fb42e8a8aca7b828b763da1a75e89527d949b44c78d1a12da33d44ded663",
+    "originalPreserved": true,
+    "offlineFresh": true,
+    "offlineAfterUpgrade": true,
+    "order": [
+      "Polizia Turistica",
+      "CSA",
+      "U.O. San Lorenzo"
+    ]
+  },
+  "allAmountsAndFormulasUnchanged": true,
+  "protectedHistoricalFilesIntact": 108,
+  "checks": {
+    "npmTest": 0,
+    "gitDiffCheck": 0,
+    "browserErrors": [],
+    "mobileWidths": [
+      360,
+      390
+    ],
+    "desktopWidth": 1100,
+    "visualInspection": [
+      "intestazione-360.png",
+      "intestazione-390.png",
+      "copertina-pdf.png",
+      "G55-pdf.png"
+    ],
+    "package": 84,
+    "actualPackageFiles": 86
+  },
+  "noCommitPushOrDeploy": true,
+  "paths": {
+    "preview": "revisione/1.8.17/anteprima.html",
+    "report": "RAPPORTO_REVISIONE_1.8.17.md",
+    "pdf": "allegati/Prontuario_Taxi_NCC_Napoli.pdf"
+  }
+}

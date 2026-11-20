@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-11-20T12:52:53.374Z",
+  "authorization": "Commit, push ordinario main e GitHub Pages della revisione editoriale 1.8.17 autorizzati dall’autore",
+  "version": {
+    "version": "1.8.17",
+    "updated_at": "2026-11-20",
+    "build_id": "b196457a2505935c6401de705a77d378b2af23570a0f691f50e8729fac35f5bb"
+  },
+  "pdfSha256": "eb601d89c9c6cd4ce9a7f7a08202538a2c5cb0c192d05eff77fe2552395976a3",
+  "counts": {
+    "views": 172,
+    "pages": 193,
+    "destinations": 172
+  },
+  "allAmountsAndFormulasUnchanged": true,
+  "localNpmTest": 0,
+  "gitDiffCheck": 0,
+  "previousVisualAndOfflineChecksRetained": true,
+  "publicUpgradePreparedFromRealPublished1816": true,
+  "originalLogoPreserved": true,
+  "productChangesSinceDelivery": 0,
+  "technicalChanges": [
+    "npm test esegue il confronto in sola lettura per preservare il JSON delle verifiche distribuito",
+    "verificatore pubblico della migrazione 1.8.16→1.8.17"
+  ],
+  "normativeChanges": 0
+}

@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-11-20T12:40:10.939Z",
+  "localOnly": true,
+  "allowedResources": 84,
+  "actualFiles": 86,
+  "allPackagedFilesMatchLocalSha": true,
+  "logoOriginalSha256": "d391fb42e8a8aca7b828b763da1a75e89527d949b44c78d1a12da33d44ded663",
+  "logoPresent": true,
+  "egafResources": 0,
+  "privateSnapshots": 0,
+  "workInputs": 0,
+  "sources": 17,
+  "pdfSha256": "eb601d89c9c6cd4ce9a7f7a08202538a2c5cb0c192d05eff77fe2552395976a3",
+  "noCommitPushOrDeploy": true
+}

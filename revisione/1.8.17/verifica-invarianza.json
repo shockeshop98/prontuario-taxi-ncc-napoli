@@ -1,0 +1,44 @@
+{
+  "checkedAt": "2026-11-20T12:48:49.531Z",
+  "pwa": "1.8.17",
+  "pdf": "7.19",
+  "catalog": 112,
+  "views": 172,
+  "services": {
+    "Taxi": 104,
+    "NCC": 60,
+    "equine": 8
+  },
+  "pages": 193,
+  "destinations": 172,
+  "formulas": 171,
+  "sources": 17,
+  "requestsFromPreviousRevision": 53,
+  "changedTitles": [
+    {
+      "service": "Taxi",
+      "code": "G55",
+      "field": "title",
+      "before": "Mancato posizionamento negli stalli predisposti dal Comune",
+      "after": "Sostava fuori dagli stalli autorizzati"
+    }
+  ],
+  "all172AmountsAndPaymentVariantsUnchanged": true,
+  "all172FormulasAndAttestationsUnchanged": true,
+  "otherCardFieldsUnchanged": true,
+  "other171TitlesUnchanged": true,
+  "pdfOtherPagesUnchangedExceptTitleDateVersion": true,
+  "logo": {
+    "original": "assets/logo-csa-napoli.jpeg",
+    "sha256": "d391fb42e8a8aca7b828b763da1a75e89527d949b44c78d1a12da33d44ded663",
+    "width": 267,
+    "height": 100,
+    "originalPreserved": true,
+    "derivatives": []
+  },
+  "protectedFileCount": 108,
+  "snapshotIntact": true,
+  "pdfBytes": 5800736,
+  "pdfSha256": "eb601d89c9c6cd4ce9a7f7a08202538a2c5cb0c192d05eff77fe2552395976a3",
+  "noCommitPushOrDeploy": true
+}
