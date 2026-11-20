@@ -52,8 +52,12 @@ const caches = {
 };
 let online = true;
 let staleHttpIndex = false;
+let staleNavigationResponse = false;
 const networkFetch = async (request, options = {}) => {
   const url = new URL(request.url || request.href || request, origin);
+  if (staleNavigationResponse && request.mode === 'navigate' && url.pathname === new URL(origin).pathname && !url.search) {
+    return new Response('<h1>Risposta precedente 1.8.17 con BUILD_ID obsoleto</h1>', {status: 200, headers: {'Content-Type': 'text/html'}});
+  }
   if (!online) {
     if (staleHttpIndex && request.mode === 'navigate' && url.pathname === new URL(origin).pathname && !url.search && options.cache !== 'no-store') {
       return new Response('<h1>Vecchia pagina 1.8.16 nella cache HTTP</h1>', {status: 200, headers: {'Content-Type': 'text/html'}});
@@ -131,6 +135,13 @@ const coldOfflineHtml = await coldOfflinePage.text();
 assert.ok(coldOfflineHtml.includes(`BUILD_ID='${version.build_id}'`), 'La riapertura offline deve usare il core aggiornato anche con HTML precedente nella cache HTTP');
 assert.doesNotMatch(coldOfflineHtml, /Vecchia pagina 1\.8\.16 nella cache HTTP/);
 staleHttpIndex = false;
+// Il server o una cache intermedia possono restituire HTML obsoleto pur con no-store.
+online = true;
+staleNavigationResponse = true;
+const staleNetworkPage = await routed('', {mode: 'navigate'});
+assert.ok((await staleNetworkPage.text()).includes(`BUILD_ID='${version.build_id}'`), 'Una risposta con build precedente non deve sostituire il core installato');
+staleNavigationResponse = false;
+online = false;
 
 await assert.rejects(routed(`${changedDoc}?rev=${version.build_id}`));
 await assert.rejects(routed(`${changedDoc}?rev=${version.build_id}`, {mode: 'navigate'}));
