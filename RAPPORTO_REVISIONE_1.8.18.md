@@ -13,7 +13,7 @@ Base: commit 21ae28be3683441d024a846036876ee774eb2f54, PWA 1.8.17 / PDF 7.19. Ve
 
 **Build HTML / version.json / service worker:**
 
-`82f328c80313ddd8eb24fa26eb8491b0eec6c6c2eb925e3931fdc9a2a10e2b30`
+`5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899`
 
 **PDF 7.20:** 5825414 byte; SHA-256:
 
@@ -21,7 +21,7 @@ Base: commit 21ae28be3683441d024a846036876ee774eb2f54, PWA 1.8.17 / PDF 7.19. Ve
 
 **Logo originale:** SHA-256 `1c1453f577d4bde9cc224209c399a7eab3d2c4d9e94fdd0e439c54cd41bbe82a`.
 
-La verifica pubblica della prima build ha rilevato una risposta di navigazione HTML 1.8.17 accettata pur con worker e core 1.8.18: il controllo di corrispondenza della build era limitato agli URL con parametro rev. Ora anche gli URL senza parametro accettano soltanto l’HTML della build installata; le risposte precedenti lasciano intervenire il core. Conservato cache:no-store. Aggiunta regressione specifica per risposta obsoleta anche con no-store. PDF, logo, CSS e tutti i contenuti restano identici alla prima build; confronto di invarianza nuovamente PASS. Verifica pubblica della correzione in attesa del deploy.
+La verifica pubblica della prima build ha rilevato una risposta di navigazione HTML 1.8.17 accettata pur con worker e core 1.8.18: il controllo di corrispondenza della build era limitato agli URL con parametro rev. Ora anche gli URL delle pagine di ingresso PWA senza parametro accettano soltanto l’HTML della build installata, mantenendo consultabili anteprime e rapporti HTML; le risposte precedenti lasciano intervenire il core. Conservato cache:no-store. Aggiunta regressione specifica per risposta obsoleta anche con no-store. PDF, logo, CSS e tutti i contenuti restano identici alla prima build; confronto di invarianza nuovamente PASS. Verifica pubblica della correzione in attesa del deploy.
 
 L’autore ha autorizzato commit, push ordinario e deploy dopo i controlli. Prima del push è stata preparata la **vera installazione pubblica 1.8.17**, con 17 allegati salvati e riapertura offline riuscita; la verifica pubblica della nuova versione sarà registrata dopo il deploy. Nessun esito pubblico della 1.8.18 è anticipato in questo rapporto.
 

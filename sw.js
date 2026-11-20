@@ -1,5 +1,5 @@
 // Keep this identifier equal to BUILD_ID in index.html and build_id in version.json.
-const BUILD_ID = '82f328c80313ddd8eb24fa26eb8491b0eec6c6c2eb925e3931fdc9a2a10e2b30';
+const BUILD_ID = '5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899';
 const CORE_CACHE = `prontuario-core-${BUILD_ID}`;
 const DOC_CACHE = `prontuario-docs-${BUILD_ID}`;
 const PREFIX = 'prontuario-';
@@ -112,12 +112,13 @@ async function navigate(request) {
   const cache = await caches.open(CORE_CACHE);
   const url = new URL(request.url);
   const requestedBuild = url.searchParams.get('rev');
+  const expectedBuild = requestedBuild || (['', 'index.html'].includes(relativePath(url)) ? BUILD_ID : null);
   try {
     // La cache HTTP può ancora contenere l'HTML precedente dopo un aggiornamento.
     // Offline deve intervenire il core installato, non quella copia del browser.
     const response = await fetch(request, {cache: 'no-store'});
-    // Una risposta precedente può arrivare anche con no-store: deve coincidere con la build richiesta o installata.
-    if (response.ok && await matchingIndex(response, requestedBuild || BUILD_ID)) {
+    // Una risposta precedente può arrivare anche con no-store: le pagine di ingresso devono coincidere con la build richiesta o installata.
+    if (response.ok && (!expectedBuild || await matchingIndex(response, expectedBuild))) {
       if (await matchingIndex(response, BUILD_ID)) await cache.put(new URL('index.html', ROOT), response.clone());
       return response;
     }

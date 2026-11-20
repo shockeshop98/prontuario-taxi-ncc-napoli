@@ -140,6 +140,8 @@ online = true;
 staleNavigationResponse = true;
 const staleNetworkPage = await routed('', {mode: 'navigate'});
 assert.ok((await staleNetworkPage.text()).includes(`BUILD_ID='${version.build_id}'`), 'Una risposta con build precedente non deve sostituire il core installato');
+const publicPreview = await routed('revisione/1.8.18/anteprima.html', {mode: 'navigate'});
+assert.match(await publicPreview.text(), /<title>Anteprima 1\.8\.18<\/title>/, 'Le anteprime HTML senza BUILD_ID devono restare consultabili');
 staleNavigationResponse = false;
 online = false;
 
