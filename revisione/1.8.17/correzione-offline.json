@@ -14,5 +14,14 @@
   "amountChanges": 0,
   "formulaChanges": 0,
   "editorialChangesAfterDelivery": 0,
-  "publicRetest": "Da completare dopo il deploy della correzione"
+  "publicRetest": {
+    "status": "PASS",
+    "completedAt": "2026-11-20T13:10:43.542Z",
+    "sameUpgradeProfile": true,
+    "build": "ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b",
+    "offlinePdfSha256": "eb601d89c9c6cd4ce9a7f7a08202538a2c5cb0c192d05eff77fe2552395976a3",
+    "offlineLogoSha256": "d391fb42e8a8aca7b828b763da1a75e89527d949b44c78d1a12da33d44ded663",
+    "freshInstallOffline": true,
+    "evidence": "revisione/1.8.17/pubblicazione.json"
+  }
 }
