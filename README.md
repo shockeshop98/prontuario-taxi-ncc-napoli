@@ -1,3 +1,9 @@
+# PWA 1.8.18 / PDF 7.20 — sostituzione logo CSA
+
+Sostituito soltanto il logo CSA con assets/logo-csa-nuovo.jpeg, intero e proporzionato, al centro tra Polizia Turistica e U.O. San Lorenzo. Crediti, dicitura di sostegno, contenuti delle 172 schede, importi e formule invariati. 193 pagine PDF e 172 destinazioni. [Anteprima](revisione/1.8.18/anteprima.html) · [Rapporto](RAPPORTO_REVISIONE_1.8.18.md) · [PDF 7.20](allegati/Prontuario_Taxi_NCC_Napoli.pdf). **Salvare nuovamente il PDF nella PWA per usarlo offline.**
+
+La documentazione precedente è conservata di seguito.
+
 # PWA 1.8.17 / PDF 7.19 pubblicata — 20 novembre 2026
 
 [PWA](https://shockeshop98.github.io/prontuario-taxi-ncc-napoli/), [PDF 7.19](allegati/Prontuario_Taxi_NCC_Napoli.pdf), [anteprima](revisione/1.8.17/anteprima.html), [rapporto](RAPPORTO_REVISIONE_1.8.17.md), [verifiche pubbliche](revisione/1.8.17/pubblicazione.json). Titolo G55 «Sostava fuori dagli stalli autorizzati», Sottotenente Pasquale D’Ascoli nei crediti, logo CSA centrale e dicitura di sostegno/promozione. 172 schede, 193 pagine e 172 destinazioni; importi, formule e altri campi invariati. Verificati il sito pubblico a 360/390 px, copia, PDF identico al locale e riapertura offline dopo aggiornamento dalla vera 1.8.16 e prima installazione. Corretta la navigazione che poteva riusare l’HTML precedente dalla cache HTTP. Build ba39672eb2bcd451cade1fc9f288b525679710777a446a5d671b2e5df736247b. Esclusioni EGAF e materiali riservati mantenute. **Salvare nuovamente il PDF 7.19 nella PWA per usarlo offline.**

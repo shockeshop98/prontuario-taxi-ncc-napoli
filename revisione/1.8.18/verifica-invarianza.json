@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-11-20T14:21:00.158Z",
+  "baseCommit": "21ae28be3683441d024a846036876ee774eb2f54",
+  "version": {
+    "version": "1.8.18",
+    "updated_at": "2026-11-20",
+    "build_id": "7d86f4f72e2e1c93b59b535c1849085aa900e4ed466a6e9828100726eaedabab"
+  },
+  "catalog": 112,
+  "views": 172,
+  "pages": 193,
+  "destinations": 172,
+  "formulas": 171,
+  "sources": 17,
+  "all172CardFieldsUnchanged": true,
+  "allAmountsAndPaymentVariantsUnchanged": true,
+  "allFormulasAndAttestationsUnchanged": true,
+  "creditsAndSupportTextUnchanged": true,
+  "allPdfTextUnchangedExceptVersion": true,
+  "otherPdfLogosUnchanged": true,
+  "logo": {
+    "path": "assets/logo-csa-nuovo.jpeg",
+    "width": 1146,
+    "height": 752,
+    "sha256": "1c1453f577d4bde9cc224209c399a7eab3d2c4d9e94fdd0e439c54cd41bbe82a",
+    "pdfGraphicOccurrences": [
+      {
+        "page": 1,
+        "width": 1146,
+        "height": 752,
+        "sha256": "1c1453f577d4bde9cc224209c399a7eab3d2c4d9e94fdd0e439c54cd41bbe82a"
+      }
+    ]
+  },
+  "pdf": {
+    "version": "7.20",
+    "bytes": 5825414,
+    "sha256": "9375f39e71b1e2a4df638e815bbaa3c3bb5bdd541168cb79550ea4be70efa5ad"
+  }
+}

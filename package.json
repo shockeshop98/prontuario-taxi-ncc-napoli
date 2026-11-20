@@ -3,12 +3,12 @@
   "scripts": {
     "generate:icons": "node scripts/generate-pwa-icons.mjs",
     "generate:pdf": "node scripts/generate-prontuario-static.mjs",
-    "audit:cards": "node scripts/verify-editoriale1817.mjs",
-    "test:browser": "node scripts/verify-editoriale1817-browser.mjs",
-    "test": "node tests/pwa.test.mjs && node tests/icons.test.mjs && node tests/terza-parte.test.mjs && node tests/ncc-prima.test.mjs && node --check scripts/package-pages.mjs && node tests/ultime.test.mjs && node scripts/verify-author1816.mjs --read-only && node scripts/verify-editoriale1817.mjs --read-only",
+    "audit:cards": "node scripts/verify-logo1818.mjs",
+    "test:browser": "node scripts/verify-logo1818-browser.mjs",
+    "test": "node tests/pwa.test.mjs && node tests/icons.test.mjs && node tests/terza-parte.test.mjs && node tests/ncc-prima.test.mjs && node --check scripts/package-pages.mjs && node tests/ultime.test.mjs && node scripts/verify-author1816.mjs --read-only && node scripts/verify-logo1818.mjs --read-only",
     "test:historical": "node tests/clarity.test.mjs && node tests/revision.test.mjs && node tests/guide.test.mjs && node tests/inline-demo.test.mjs && node tests/static-catalog.test.mjs && node tests/taxi-collettivo.test.mjs && node tests/ricevute-tariffe.test.mjs && node tests/operative-rules.test.mjs && node tests/g01-g43.test.mjs && node tests/seconda-parte.test.mjs && node tests/integrazione.test.mjs && node tests/pausa-caldo.test.mjs && node tests/equini-835.test.mjs",
-    "test:variants": "node scripts/verify-editoriale1817-browser.mjs",
-    "test:upgrade": "node scripts/verify-editoriale1817-browser.mjs",
+    "test:variants": "node scripts/verify-logo1818-browser.mjs",
+    "test:upgrade": "node scripts/verify-logo1818-browser.mjs",
     "test:author": "node scripts/verify-author1816.mjs --read-only"
   },
   "devDependencies": {
