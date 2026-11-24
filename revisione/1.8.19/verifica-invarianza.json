@@ -1,0 +1,119 @@
+{
+  "checkedAt": "2026-11-24T10:33:12.742Z",
+  "baseCommit": "1f076e2818c10d34e01da714475289fc3a3decd1",
+  "version": {
+    "version": "1.8.19",
+    "updated_at": "2026-11-24",
+    "build_id": "8892744aa4607ab19a049d2014babc4f0c43ca957fd86050e4b427e7a7c0c026"
+  },
+  "catalog": 112,
+  "views": 172,
+  "pages": 193,
+  "destinations": 172,
+  "formulas": 171,
+  "sources": 17,
+  "all172CardFieldsUnchanged": true,
+  "allAmountsAndPaymentVariantsUnchanged": true,
+  "allFormulasAndAttestationsUnchanged": true,
+  "creditsAndSupportTextUnchanged": true,
+  "allPdfTextUnchangedExceptVersion": true,
+  "otherPdfLogosUnchanged": true,
+  "coverLogoGeometry": {
+    "before": [
+      {
+        "width": 1458,
+        "height": 1536,
+        "matrix": [
+          88.4999891125003,
+          0,
+          0,
+          93.7500032937497,
+          86.24999640625,
+          664.919987375
+        ]
+      },
+      {
+        "width": 1146,
+        "height": 752,
+        "matrix": [
+          146.999993875,
+          0,
+          0,
+          95.999996,
+          224.24999065625,
+          663.4199874375
+        ]
+      },
+      {
+        "width": 1183,
+        "height": 1330,
+        "matrix": [
+          85.4999964375,
+          0,
+          0,
+          96.0000031999997,
+          422.24998240625,
+          663.4199874375
+        ]
+      }
+    ],
+    "after": [
+      {
+        "width": 1458,
+        "height": 1536,
+        "matrix": [
+          88.4999891125003,
+          0,
+          0,
+          93.7500032937497,
+          86.24999640625,
+          664.919987375
+        ]
+      },
+      {
+        "width": 1146,
+        "height": 752,
+        "matrix": [
+          110.24999540625,
+          0,
+          0,
+          71.999997,
+          242.24998990625,
+          675.4199869375
+        ]
+      },
+      {
+        "width": 1183,
+        "height": 1330,
+        "matrix": [
+          85.4999964375,
+          0,
+          0,
+          96.0000031999997,
+          422.24998240625,
+          663.4199874375
+        ]
+      }
+    ],
+    "csaScale": 0.75
+  },
+  "logo": {
+    "path": "assets/logo-csa-nuovo.jpeg",
+    "width": 1146,
+    "height": 752,
+    "sha256": "1c1453f577d4bde9cc224209c399a7eab3d2c4d9e94fdd0e439c54cd41bbe82a",
+    "pdfGraphicOccurrences": [
+      {
+        "page": 1,
+        "width": 1146,
+        "height": 752,
+        "sha256": "1c1453f577d4bde9cc224209c399a7eab3d2c4d9e94fdd0e439c54cd41bbe82a"
+      }
+    ]
+  },
+  "pdf": {
+    "version": "7.21",
+    "bytes": 5825886,
+    "sha256": "999ef5a28fe3a483502ac9a54ba13d7d18047aa83bd37dfa0d18a79b65adebed"
+  }
+}

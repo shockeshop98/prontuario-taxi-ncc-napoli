@@ -1,3 +1,9 @@
+# 1.8.19 / PDF 7.21 — 24 novembre 2026
+
+- Logo CSA ridotto al 75% delle dimensioni precedenti su desktop/mobile e nella copertina PDF, conservando immagine intera, proporzioni e centraggio; gli altri due stemmi restano invariati.
+- Conservati tutti i campi delle 172 schede, importi, formule, riferimenti, testi, crediti e dicitura di sostegno. PDF rigenerato con il generatore esistente; versione, build, impronte e cache aggiornate.
+- Verifiche desktop, mobile 360/390 px, copertina PDF e copia offline. [Rapporto](RAPPORTO_REVISIONE_1.8.19.md).
+
 # 1.8.16 / PDF 7.18 — pubblicata e verificata l’11 novembre 2026
 
 Tutte le 53 decisioni dell’autore applicate, 121 viste fuori ambito e importi preservati; G55 presente, N11 rimossa editorialmente, EGAF escluso da consultazione/PDF/pacchetto/cache con originali locali integri. Pubblicazione autorizzata con commit e push ordinario; workflow riuscito, SHA di tutti i file pubblici e PDF identico al locale. Verificati mobile360/390, 172 destinazioni PDF, 171 copie, 67 selezioni, attestazioni, migrazione dalla vera1.8.15 e riapertura offline di 17 fonti anche da prima installazione. Osservazioni normative separate senza dichiarare risolti dubbi documentali. Il PDF7.18 va salvato nuovamente nella PWA. [Rapporto](RAPPORTO_REVISIONE_1.8.16.md).

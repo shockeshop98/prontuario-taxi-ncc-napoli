@@ -1,3 +1,7 @@
+# PWA 1.8.19 / PDF 7.21 — 24 novembre 2026
+
+Logo CSA ridotto del 25% nella PWA e nella copertina PDF, intero e proporzionato, centrato tra gli altri stemmi invariati. Schede, importi, formule, riferimenti, testi e crediti conservati. [Rapporto e verifiche](RAPPORTO_REVISIONE_1.8.19.md). **Salvare nuovamente il PDF 7.21 nella PWA per usarlo offline.**
+
 # PWA 1.8.18 / PDF 7.20 pubblicata — sostituzione logo CSA
 
 Sostituito soltanto il logo CSA con assets/logo-csa-nuovo.jpeg, intero e proporzionato, al centro tra Polizia Turistica e U.O. San Lorenzo. Crediti, dicitura di sostegno, contenuti delle 172 schede, importi e formule invariati. 193 pagine PDF e 172 destinazioni. [Anteprima](revisione/1.8.18/anteprima.html) · [Rapporto](RAPPORTO_REVISIONE_1.8.18.md) · [PDF 7.20](allegati/Prontuario_Taxi_NCC_Napoli.pdf). **Salvare nuovamente il PDF nella PWA per usarlo offline.**

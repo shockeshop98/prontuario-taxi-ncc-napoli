@@ -1,0 +1,551 @@
+{
+  "localOnly": true,
+  "checkedAt": "2026-11-24T10:33:50.221Z",
+  "build": "8892744aa4607ab19a049d2014babc4f0c43ca957fd86050e4b427e7a7c0c026",
+  "mobile": [
+    {
+      "width": 360,
+      "header": {
+        "overflow": false,
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "source": "assets/logo-polizia-turistica.png",
+            "loaded": true,
+            "naturalWidth": 1458,
+            "naturalHeight": 1536,
+            "width": 76.09375,
+            "height": 100,
+            "left": 16,
+            "right": 92.09375,
+            "centerY": 72,
+            "fit": "contain"
+          },
+          {
+            "id": "csaLogo",
+            "source": "assets/logo-csa-nuovo.jpeg",
+            "loaded": true,
+            "naturalWidth": 1146,
+            "naturalHeight": 752,
+            "width": 118.859375,
+            "height": 78,
+            "left": 120.5625,
+            "right": 239.421875,
+            "centerY": 72,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "source": "assets/polizia.png",
+            "loaded": true,
+            "naturalWidth": 1183,
+            "naturalHeight": 1330,
+            "width": 76.109375,
+            "height": 104,
+            "left": 267.890625,
+            "right": 344,
+            "centerY": 72,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Sottotenente Pasquale D’AscoliPolizia Turistica",
+        "support": "Con il sostegno e la promozione del CSA — Città Metropolitana di Napoli",
+        "supportFont": 13
+      },
+      "cards": 172,
+      "copies": 171,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "header": {
+        "overflow": false,
+        "logos": [
+          {
+            "id": "turisticaLogo",
+            "source": "assets/logo-polizia-turistica.png",
+            "loaded": true,
+            "naturalWidth": 1458,
+            "naturalHeight": 1536,
+            "width": 83.40625,
+            "height": 100,
+            "left": 16,
+            "right": 99.40625,
+            "centerY": 72,
+            "fit": "contain"
+          },
+          {
+            "id": "csaLogo",
+            "source": "assets/logo-csa-nuovo.jpeg",
+            "loaded": true,
+            "naturalWidth": 1146,
+            "naturalHeight": 752,
+            "width": 118.859375,
+            "height": 78,
+            "left": 135.5625,
+            "right": 254.421875,
+            "centerY": 72,
+            "fit": "contain"
+          },
+          {
+            "id": "poliziaLogo",
+            "source": "assets/polizia.png",
+            "loaded": true,
+            "naturalWidth": 1183,
+            "naturalHeight": 1330,
+            "width": 83.40625,
+            "height": 104,
+            "left": 290.578125,
+            "right": 373.984375,
+            "centerY": 72,
+            "fit": "contain"
+          }
+        ],
+        "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Sottotenente Pasquale D’AscoliPolizia Turistica",
+        "support": "Con il sostegno e la promozione del CSA — Città Metropolitana di Napoli",
+        "supportFont": 13
+      },
+      "cards": 172,
+      "copies": 171,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "sizeComparisons": [
+    {
+      "width": 360,
+      "before": [
+        {
+          "id": "turisticaLogo",
+          "width": 76.09375,
+          "height": 100,
+          "left": 16,
+          "right": 92.09375
+        },
+        {
+          "id": "csaLogo",
+          "width": 158.484375,
+          "height": 103.984375,
+          "left": 100.75,
+          "right": 259.234375
+        },
+        {
+          "id": "poliziaLogo",
+          "width": 76.109375,
+          "height": 104,
+          "left": 267.890625,
+          "right": 344
+        }
+      ],
+      "after": [
+        {
+          "id": "turisticaLogo",
+          "source": "assets/logo-polizia-turistica.png",
+          "loaded": true,
+          "naturalWidth": 1458,
+          "naturalHeight": 1536,
+          "width": 76.09375,
+          "height": 100,
+          "left": 16,
+          "right": 92.09375,
+          "centerY": 72,
+          "fit": "contain"
+        },
+        {
+          "id": "csaLogo",
+          "source": "assets/logo-csa-nuovo.jpeg",
+          "loaded": true,
+          "naturalWidth": 1146,
+          "naturalHeight": 752,
+          "width": 118.859375,
+          "height": 78,
+          "left": 120.5625,
+          "right": 239.421875,
+          "centerY": 72,
+          "fit": "contain"
+        },
+        {
+          "id": "poliziaLogo",
+          "source": "assets/polizia.png",
+          "loaded": true,
+          "naturalWidth": 1183,
+          "naturalHeight": 1330,
+          "width": 76.109375,
+          "height": 104,
+          "left": 267.890625,
+          "right": 344,
+          "centerY": 72,
+          "fit": "contain"
+        }
+      ],
+      "csaScale": 0.75,
+      "otherBadgesUnchanged": true
+    },
+    {
+      "width": 390,
+      "before": [
+        {
+          "id": "turisticaLogo",
+          "width": 83.40625,
+          "height": 100,
+          "left": 16,
+          "right": 99.40625
+        },
+        {
+          "id": "csaLogo",
+          "width": 158.484375,
+          "height": 103.984375,
+          "left": 115.75,
+          "right": 274.234375
+        },
+        {
+          "id": "poliziaLogo",
+          "width": 83.40625,
+          "height": 104,
+          "left": 290.578125,
+          "right": 373.984375
+        }
+      ],
+      "after": [
+        {
+          "id": "turisticaLogo",
+          "source": "assets/logo-polizia-turistica.png",
+          "loaded": true,
+          "naturalWidth": 1458,
+          "naturalHeight": 1536,
+          "width": 83.40625,
+          "height": 100,
+          "left": 16,
+          "right": 99.40625,
+          "centerY": 72,
+          "fit": "contain"
+        },
+        {
+          "id": "csaLogo",
+          "source": "assets/logo-csa-nuovo.jpeg",
+          "loaded": true,
+          "naturalWidth": 1146,
+          "naturalHeight": 752,
+          "width": 118.859375,
+          "height": 78,
+          "left": 135.5625,
+          "right": 254.421875,
+          "centerY": 72,
+          "fit": "contain"
+        },
+        {
+          "id": "poliziaLogo",
+          "source": "assets/polizia.png",
+          "loaded": true,
+          "naturalWidth": 1183,
+          "naturalHeight": 1330,
+          "width": 83.40625,
+          "height": 104,
+          "left": 290.578125,
+          "right": 373.984375,
+          "centerY": 72,
+          "fit": "contain"
+        }
+      ],
+      "csaScale": 0.75,
+      "otherBadgesUnchanged": true
+    },
+    {
+      "width": 1100,
+      "before": [
+        {
+          "id": "turisticaLogo",
+          "width": 127.3125,
+          "height": 138,
+          "left": 275,
+          "right": 402.3125
+        },
+        {
+          "id": "csaLogo",
+          "width": 210.296875,
+          "height": 137.984375,
+          "left": 444.84375,
+          "right": 655.140625
+        },
+        {
+          "id": "poliziaLogo",
+          "width": 127.328125,
+          "height": 144,
+          "left": 697.671875,
+          "right": 825
+        }
+      ],
+      "after": [
+        {
+          "id": "turisticaLogo",
+          "source": "assets/logo-polizia-turistica.png",
+          "loaded": true,
+          "naturalWidth": 1458,
+          "naturalHeight": 1536,
+          "width": 127.3125,
+          "height": 138,
+          "left": 275,
+          "right": 402.3125,
+          "centerY": 96,
+          "fit": "contain"
+        },
+        {
+          "id": "csaLogo",
+          "source": "assets/logo-csa-nuovo.jpeg",
+          "loaded": true,
+          "naturalWidth": 1146,
+          "naturalHeight": 752,
+          "width": 157.71875,
+          "height": 103.5,
+          "left": 471.125,
+          "right": 628.84375,
+          "centerY": 96,
+          "fit": "contain"
+        },
+        {
+          "id": "poliziaLogo",
+          "source": "assets/polizia.png",
+          "loaded": true,
+          "naturalWidth": 1183,
+          "naturalHeight": 1330,
+          "width": 127.328125,
+          "height": 144,
+          "left": 697.671875,
+          "right": 825,
+          "centerY": 96,
+          "fit": "contain"
+        }
+      ],
+      "csaScale": 0.75,
+      "otherBadgesUnchanged": true
+    }
+  ],
+  "desktop": {
+    "overflow": false,
+    "logos": [
+      {
+        "id": "turisticaLogo",
+        "source": "assets/logo-polizia-turistica.png",
+        "loaded": true,
+        "naturalWidth": 1458,
+        "naturalHeight": 1536,
+        "width": 127.3125,
+        "height": 138,
+        "left": 275,
+        "right": 402.3125,
+        "centerY": 96,
+        "fit": "contain"
+      },
+      {
+        "id": "csaLogo",
+        "source": "assets/logo-csa-nuovo.jpeg",
+        "loaded": true,
+        "naturalWidth": 1146,
+        "naturalHeight": 752,
+        "width": 157.71875,
+        "height": 103.5,
+        "left": 471.125,
+        "right": 628.84375,
+        "centerY": 96,
+        "fit": "contain"
+      },
+      {
+        "id": "poliziaLogo",
+        "source": "assets/polizia.png",
+        "loaded": true,
+        "naturalWidth": 1183,
+        "naturalHeight": 1330,
+        "width": 127.328125,
+        "height": 144,
+        "left": 697.671875,
+        "right": 825,
+        "centerY": 96,
+        "fit": "contain"
+      }
+    ],
+    "credits": "A cura dell’Agente Antonio BalzanoU.O. San LorenzoCon la collaborazione del Sottotenente Pasquale D’AscoliPolizia Turistica",
+    "support": "Con il sostegno e la promozione del CSA — Città Metropolitana di Napoli",
+    "supportFont": 14
+  },
+  "titleSearchIndexAndCard": true,
+  "renderedPdfPages": [
+    1,
+    51
+  ],
+  "freshReopenedOffline": {
+    "version": "1.8.19",
+    "build": "8892744aa4607ab19a049d2014babc4f0c43ca957fd86050e4b427e7a7c0c026",
+    "pdfVersion": "7.21",
+    "logoStatus": 200,
+    "logoMime": "image/jpeg",
+    "logoSha256": "1c1453f577d4bde9cc224209c399a7eab3d2c4d9e94fdd0e439c54cd41bbe82a",
+    "pdfStatus": 200,
+    "pdfSha256": "999ef5a28fe3a483502ac9a54ba13d7d18047aa83bd37dfa0d18a79b65adebed",
+    "excludedStatus": 410
+  },
+  "upgrade": {
+    "version": "1.8.19",
+    "build": "8892744aa4607ab19a049d2014babc4f0c43ca957fd86050e4b427e7a7c0c026",
+    "pdfVersion": "7.21",
+    "saved": [
+      {
+        "path": "allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Prontuario_GIT_Turistica_originale.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Prontuario_Taxi_NCC_Napoli.pdf",
+        "cached": false
+      },
+      {
+        "path": "allegati/Tariffario_Taxi_2024.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+        "cached": true
+      },
+      {
+        "path": "revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+        "cached": true
+      },
+      {
+        "path": "revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+        "cached": true
+      },
+      {
+        "path": "revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+        "cached": true
+      },
+      {
+        "path": "allegati/OS835_2014_indicazioni_autore.txt",
+        "cached": true
+      },
+      {
+        "path": "allegati/Fonti_revisione_corrente_1.8.16.txt",
+        "cached": true
+      },
+      {
+        "path": "allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+        "cached": true
+      },
+      {
+        "path": "allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+        "cached": true
+      }
+    ],
+    "inventory": [
+      {
+        "name": "prontuario-docs-5342fd257055d0e50e1d30fc02c41d62d844f6f17bb9ffbd1b8c719d720ab899",
+        "paths": [
+          "/allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "/allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "/allegati/Tariffario_Taxi_2024.pdf",
+          "/allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "/allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "/allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "/allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "/allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf",
+          "/revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "/allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "/revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "/revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "/allegati/OS835_2014_indicazioni_autore.txt",
+          "/allegati/Fonti_revisione_corrente_1.8.16.txt",
+          "/allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "/allegati/NCC_DD4_2026_vidimazione_originale.pdf"
+        ]
+      },
+      {
+        "name": "prontuario-core-8892744aa4607ab19a049d2014babc4f0c43ca957fd86050e4b427e7a7c0c026",
+        "paths": [
+          "/manifest.webmanifest",
+          "/assets/polizia-locale-napoli.png",
+          "/assets/logo-csa-nuovo.jpeg",
+          "/assets/logo-polizia-turistica.png",
+          "/assets/icon-192.png",
+          "/assets/icon-512.png",
+          "/assets/icon-maskable-192.png",
+          "/assets/icon-maskable-512.png",
+          "/assets/polizia.png",
+          "/assets/apple-touch-icon.png",
+          "/assets/favicon-16.png",
+          "/assets/favicon.ico",
+          "/assets/favicon-48.png",
+          "/assets/favicon-32.png",
+          "/scripts/static-demos.js",
+          "/assets/static-demo.css",
+          "/scripts/operative-rules.js",
+          "/scripts/static-field-suggestions.js",
+          "/scripts/taxi-collettivo.js",
+          "/scripts/static-demo-ui.js",
+          "/scripts/static-catalog-ui.js",
+          "/scripts/static-catalog.js",
+          "/scripts/revision-seconda-parte.js",
+          "/scripts/revision-g01-g43.js",
+          "/scripts/revision-equini-835.js",
+          "/scripts/revision-pausa-caldo.js",
+          "/scripts/revision-ncc-prima.js",
+          "/scripts/revision-terza.js",
+          "/scripts/revision-ultime.js",
+          "/index.html"
+        ]
+      },
+      {
+        "name": "prontuario-docs-8892744aa4607ab19a049d2014babc4f0c43ca957fd86050e4b427e7a7c0c026",
+        "paths": [
+          "/allegati/Fonti_NCC_prima_parte_1.8.15.txt",
+          "/allegati/NCC_DD4_2026_vidimazione_originale.pdf",
+          "/allegati/Fonti_revisione_corrente_1.8.16.txt",
+          "/allegati/OS835_2014_indicazioni_autore.txt",
+          "/revisione/fonti-integrative/ORDSI_2025_0000571.pdf",
+          "/revisione/fonti-integrative/ORDSI_00443_100624.pdf",
+          "/allegati/Pausa_Taxi_2010_foto_fornita.pdf",
+          "/revisione/fonti-integrative/O.D._298_del_22.03.2021___Modifica_del_Punto_3_lettera_B__punto_2._dell_Ordinanza_Dirigenziale_n._178_del_13.02.2019.pdf",
+          "/allegati/Prontuario_GIT_Turistica_originale.pdf",
+          "/allegati/Regolamento_Taxi_NCC_Napoli.pdf",
+          "/allegati/Tariffario_Taxi_2024.pdf",
+          "/allegati/Taxi_Collettivo_OD_1_2019_originale.pdf",
+          "/allegati/Taxi_Collettivo_OD_10_2025_originale.pdf",
+          "/allegati/Taxi_Collettivo_OD_9_2026_originale.pdf",
+          "/allegati/Delibera_GC_258_2024_Tariffe_Taxi_originale.pdf",
+          "/allegati/Ricevuta_Taxi_Modello_Comune_originale.pdf"
+        ]
+      }
+    ]
+  },
+  "upgradeReopenedOffline": {
+    "version": "1.8.19",
+    "build": "8892744aa4607ab19a049d2014babc4f0c43ca957fd86050e4b427e7a7c0c026",
+    "pdfVersion": "7.21",
+    "logoStatus": 200,
+    "logoMime": "image/jpeg",
+    "logoSha256": "1c1453f577d4bde9cc224209c399a7eab3d2c4d9e94fdd0e439c54cd41bbe82a",
+    "pdfStatus": 200,
+    "pdfSha256": "999ef5a28fe3a483502ac9a54ba13d7d18047aa83bd37dfa0d18a79b65adebed",
+    "excludedStatus": 410
+  }
+}
